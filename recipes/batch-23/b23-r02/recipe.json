@@ -1,0 +1,74 @@
+{
+  "id": "b23-r02",
+  "batch": 23,
+  "title": "קרם [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] גר' [?] ושוקולד מריר [?]",
+        "[?] גר' חמאה",
+        "[?] כפות קקאו",
+        "4 חלמונים",
+        "(a struck-out word, probably שמרים?)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] במקרר עד שמתקשה [?]",
+        "כמו [?]",
+        "[?] פנימה [?]",
+        "2 כפות [?] קרם",
+        "[?]",
+        "[?] קרם",
+        "[?] [?] ו[?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Large, shaky handwriting on a tall narrow card; the single word at the top (probably the title or the source name) is unclear. Rescan or a human reader recommended."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-02.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
