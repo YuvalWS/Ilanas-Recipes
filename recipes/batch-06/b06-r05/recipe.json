@@ -9,7 +9,7 @@
       "group": null,
       "items": [
         "700 גר'",
-        "כ [?] ביצים קשות למעוך במזלג",
+        "כ־1 1/2 ביצים קשות למעוך במזלג",
         "3 ביצים רכות + 1 חלמון [?] [?]",
         "כ 3 כפות לא גדושות שקדים",
         "1 בצל קטן לרסק על פומפיה דקה",
@@ -102,7 +102,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
