@@ -9,7 +9,7 @@
       "group": "ירקות ודגים (as listed in the lower half of the card)",
       "items": [
         "בצל",
-        "חציל [?]",
+        "חציל",
         "גמבה",
         "פלפל",
         "עגבניה",
@@ -20,7 +20,8 @@
       "group": "lower block",
       "items": [
         "1/2 כוס שמן",
-        "1 [?]",
+        "1 רסק",
+        "[?]",
         "פפריקה",
         "מלח",
         "פלפל",
@@ -32,17 +33,19 @@
     {
       "group": "upper block (above the ruled line)",
       "steps": [
-        "1 כוס [?] [?] להרתיח",
-        "1 [?]",
-        "להרתיח ולהוסיף על [?] [?] חם",
-        "[?] כפות שמן [?] מלח",
+        "1 כוס מים (בסוגר: להרתיח)",
+        "1 כוס [?] (בסוגר: להרתיח)",
+        "להרתיח ולהוסיף על הכל [?] עד חם",
+        "[?] כפות שמן, מלח",
         "טיפה סוכר"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "The card has an upper block (liquid to boil) and, below a ruled line, a list of vegetables and fish followed by seasonings; it has no visible title. It looks like a fish-with-vegetables dish, but that is an impression only."
+    "Handwriting is very cramped/shaky. Words that could not be confirmed are marked [?]. Recommend a human re-read (or rescan) of this card.",
+    "The card has an upper block (liquid to boil) and, below a ruled line, a list of vegetables and fish followed by seasonings; it has no visible title. It looks like a fish-with-vegetables dish, but that is an impression only.",
+    "ditto marks expanded: the second line of the upper block begins with a ditto mark under 'כוס' (read as 1 כוס).",
+    "Gemini's second opinion was largely rejected for this card: its ingredient list (גזר, שמיר, פטרוזיליה, ביצים, סלק, 'פלפל שחור'), '1 כפית של מלח', '1/2 כוס סוכר' and its title are not on the card (the card says 'טיפה סוכר')."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -60,23 +63,35 @@
       "field": "title",
       "text": "(no title)",
       "best_guess": null,
-      "reason": "No title visible on the card."
-    },
-    {
-      "field": "ingredients",
-      "text": "חציל",
-      "best_guess": "חציל",
-      "reason": "Word is distorted; read as חציל but not sure."
+      "reason": "No title visible on the card (Gemini's invented title not used)."
     },
     {
       "field": "instructions",
-      "text": "all lines",
-      "best_guess": null,
-      "reason": "Many words unreadable; only a few are kept."
+      "text": "1 כוס [?]",
+      "best_guess": "Gemini: שמן; earlier reading: unreadable; ink looks more like חומץ (ח-ו-מ-ץ) than שמן",
+      "reason": "Second liquid of the boiling mixture, after a ditto mark for 'כוס'; word is unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "הכל [?] עד חם",
+      "best_guess": "Gemini: בצדה עד חם; earlier reading: unreadable",
+      "reason": "Word after 'הכל' is distorted; 'עד/עוד חם' also uncertain."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] כפות שמן",
+      "best_guess": "earlier reading: 2; Gemini did not read this line",
+      "reason": "Quantity digit is ambiguous."
+    },
+    {
+      "field": "ingredients",
+      "text": "1 רסק, [?]",
+      "best_guess": "Gemini: רסק עגבניות; the word after the comma starts with מ and does not look like עגבניות",
+      "reason": "Word after 'רסק' is unreadable."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
