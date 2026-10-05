@@ -1,0 +1,92 @@
+{
+  "id": "b10-r01",
+  "batch": 10,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 [?] פרחי כרובית",
+        "1/2 כוס מיץ לימון",
+        "2 כפות שמן זית",
+        "2 שיני שום כתוש",
+        "[?] כפות פטרוזיליה קצוצה",
+        "שמן לטיגון",
+        "מלח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מרתיחים מים",
+        "מכניסים הכרובית ומבשלים לרתיחה שוב",
+        "מבשלים 10 ד' בדיוק",
+        "מוציאים ומסננים (ומצננים)",
+        "מחממים שמן עמוק בסיר",
+        "מטגנים הכרובית להצהבה קלה",
+        "מניחים בצד",
+        "מערבבים המיץ עם שמן הזית, השום והפטרוזיליה, מתבלים במלח",
+        "יוצקים מעל הכרובית"
+      ]
+    }
+  ],
+  "notes": [
+    "No title on the card; it is a fried cauliflower with a lemon, olive oil, garlic and parsley dressing (judging by the ingredients and steps).",
+    "A second recipe (a salad with broccoli and cranberries) starts below a ruled line at the bottom of the card - kept as the next record.",
+    "The line 'מבשלים 10 ד' בדיוק' reads '10 minutes exactly'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2156-01.jpg",
+      "original_path": "Batch 10/Scanned_20261004-2156-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title written."
+    },
+    {
+      "field": "ingredients[0]",
+      "text": "1 [?] פרחי כרובית",
+      "best_guess": null,
+      "reason": "The word after '1' is unclear (possibly a unit such as a head/tray)."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "[?] כפות פטרוזיליה קצוצה",
+      "best_guess": null,
+      "reason": "The quantity is unclear."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "מוציאים ומסננים (ומצננים)",
+      "best_guess": null,
+      "reason": "'ומצננים' is slightly unclear."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "מטגנים הכרובית להצהבה קלה",
+      "best_guess": "להצהבה קלה",
+      "reason": "'להצהבה' (until slightly yellow) is the likely reading."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
