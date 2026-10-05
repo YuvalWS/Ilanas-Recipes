@@ -6,12 +6,11 @@
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": "ingredient-like lines in the middle of the card",
+      "group": "רוטב",
       "items": [
-        "1/2 כוס שמן",
+        "1/[?] כוס שמן זית",
         "2 כפות [?]",
-        "[?] שיני שום",
-        "[?] מ[?]"
+        "[?] 2-3 שיני שום"
       ]
     }
   ],
@@ -19,16 +18,19 @@
     {
       "group": null,
       "steps": [
-        "[?] מלח [?] [?] פפריקה",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?] [?] [?] 20 - 15 דקות",
-        "[?] [?] [?] [?] [?]"
+        "לשפוך מלח [?], פפריקה",
+        "למרוח [?] היטב",
+        "[?] 15-20 דקות",
+        "[?] 5-10 דקות"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Square card. 'פפריקה' and '20-15' (minutes?) are the clearest parts. The top lines are partly cut off at the card edge."
+    "Square card. The underlined word 'רוטב' (sauce) acts as a heading above the oil / garlic lines; 'לשפוך מלח ... פפריקה' sits above it.",
+    "Time ranges are written right-to-left (the card visually shows 20-15 and 10-5); transcribed here in reading order as 15-20 and 5-10 minutes. Digits themselves are clear.",
+    "Faint show-through of writing from the back of the card (likely scan b06-r08, mirrored) is visible at the top and between the lines; it is ignored here.",
+    "No title or source on the card. Gemini's title ('דג סלמון אפוי') and 'על הדג' / 'אפיה:' / 'מכן' are not clearly visible on the card and were not copied.",
+    "Handwriting is cramped; remaining [?] marks are words/quantities that could not be confirmed. A rescan or human re-read is recommended."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -40,23 +42,59 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
       "field": "title",
       "text": "(no title)",
       "best_guess": null,
-      "reason": "No title visible."
+      "reason": "No title visible on the card."
     },
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Most words unreadable."
+      "text": "לשפוך מלח [?], פפריקה",
+      "best_guess": "own tentative guess for the word between 'מלח' and 'פפריקה': הלבן. Gemini has 'על הדג מעט' before 'מלח', which is not visible on the card",
+      "reason": "One word between salt and paprika is unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "1/[?] כוס שמן זית",
+      "best_guess": "Gemini: 1/3; earlier reading: 1/2",
+      "reason": "Denominator ambiguous; quantity left uncertain."
+    },
+    {
+      "field": "ingredients",
+      "text": "2 כפות [?]",
+      "best_guess": "Gemini: שמן רגיל (does not match the ink well)",
+      "reason": "Word after 'כפות' unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?] 2-3 שיני שום",
+      "best_guess": "Gemini: לערבב",
+      "reason": "First word of the garlic line is not clearly readable."
+    },
+    {
+      "field": "instructions",
+      "text": "למרוח [?] היטב",
+      "best_guess": "own tentative guess: חתיכות; Gemini omitted this word",
+      "reason": "Middle word unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] 15-20 דקות",
+      "best_guess": "Gemini: אפיה:",
+      "reason": "Word(s) before the first baking time unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] 5-10 דקות",
+      "best_guess": "Gemini: ולאחר מכן",
+      "reason": "Words before the second baking time unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
