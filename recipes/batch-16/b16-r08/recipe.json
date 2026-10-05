@@ -2,7 +2,12 @@
   "id": "b16-r08",
   "batch": 16,
   "title": null,
-  "source": null,
+  "source": {
+    "text": "לאשה",
+    "type": "magazine",
+    "as_written": "לאשה 8.12.2014 127",
+    "uncertain": false
+  },
   "medium": "clipping",
   "ingredients": [
     {
@@ -39,7 +44,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping, scanned upside down and with a heavy ghost image of the other side showing through at the top (the ingredient list is partly obscured; the lines read from the ghost text are marked [?]). The title of the soup is cut off at the page edge; the ingredients and method describe a pea-and-celery soup, but this is not written on the clipping. Bottom stamp: 'המשך' arrow marks it as a continued column, page '127', date 8.12.2014 (printed date of the newspaper page).",
-    "The upper ingredient lines (onion, celery) are faint and not fully readable."
+    "The upper ingredient lines (onion, celery) are faint and not fully readable.",
+    "Independent review resolved the visible publication logo לאשה at the bottom; the damaged upper ingredients and absent title remain unresolved."
   ],
   "incidental_text": [
     "Printed on the clipping: page '127' and date 8.12.2014 with a section-name box, and the 'המשך' (continued) marker"
@@ -66,16 +72,10 @@
       "text": "[?] סלרי (שורש?), [?] חתוכים לקוביות",
       "best_guess": null,
       "reason": "Faint ghost text; quantity and words partly unclear."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "The newspaper is not named; only a date 8.12.2014 and page 127 are printed."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
