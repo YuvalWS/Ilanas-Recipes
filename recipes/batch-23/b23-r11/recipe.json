@@ -5,22 +5,30 @@
   "source": {
     "text": "חיה",
     "type": "person",
-    "as_written": "(name below the title)",
-    "uncertain": true
+    "as_written": "חיה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "2 1/2? כוסות קמח תופח",
+        "2 1/2 כוסות קמח אסם",
         "1/2 כוס סוכר",
         "2 חלמונים",
         "1 כף תמצית וניל",
-        "1 קליפת לימון מגורדת",
-        "[?] מלח",
-        "מרגרינה",
-        "1 כף [?]"
+        "1 כף קליפת לימון מגוררת",
+        "טיפה מלח",
+        "200 מרגרינה",
+        "1 כף חומץ"
+      ]
+    },
+    {
+      "group": "ריבה ופירורים",
+      "items": [
+        "1/2 כוס ריבה",
+        "2 כפות סוכר",
+        "1/4 כוס קמח"
       ]
     }
   ],
@@ -28,19 +36,19 @@
     {
       "group": null,
       "steps": [
-        "להמיס את המרגרינה לחמם (struck out)",
-        "להכניס את כל החומרים למעבד?",
-        "לערבב את המרגרינה בהדרגה?",
-        "3/4 מהבצק לשטוח על התבנית",
-        "מעל ריבה 1/4 כוס?",
-        "1/4 מהבצק + 2 כפות סוכר + 1/4 כוס קמח",
-        "מפוררים [?] להשפיך פירורים על הריבה",
-        "לאפות בחום בינוני כ-45? דקות עד שהגבינה? חמה? [?] ומשתכרת?"
+        "להמיס את המרגרינה לחמם — מחוק.",
+        "להכניס את כל החומרים לקערה.",
+        "לערבב את המרגרינה באצבעות.",
+        "3/4 מהבצק לשטוח על תבנית.",
+        "על זה למרוח ריבה 1/2 כוס.",
+        "1/4 מהבצק + 2 כפות סוכר + 1/4 כוס קמח.",
+        "מהבצק הזה לפזר פירורים על הריבה.",
+        "לאפות בחום בינוני כ־40 דקות כשהעוגה חמה לחתוך ולקרר."
       ]
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Two-sided card (11 front: ingredients and the start of the method; 12 back: assembly and baking). A red-pen line at the bottom of 12 could not be read. Probably a jam-and-crumbs crumble cake."
+    "Two-sided card: front ingredients and beginning of method; back assembly and baking. Crossed melting instruction retained as crossed out. Ditto after lemon zest repeats tablespoon from vanilla. No unit written for 200 margarine. Red closing line: בתיאבון חיה."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -57,30 +65,11 @@
       "side": "back"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "low",
-  "uncertainties": [
-    {
-      "field": "source",
-      "text": "חיה",
-      "best_guess": null,
-      "reason": "Name below the title."
-    },
-    {
-      "field": "ingredients",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
-      "field": "instructions",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
