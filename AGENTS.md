@@ -30,6 +30,15 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 - **One item, several recipes (2026-10-05):** when a note or newspaper page holds several recipes, split it into separate recipes (one folder each, all pointing at the same scan) and interlink them with the `card` field (`id`, `kind`, `recipes` = every recipe on the item incl. itself, `position`). `tools/validate.py` checks the lists are complete and symmetric; the website shows an "N recipes on the same note/clipping" box with links. Done first for batch 8 (`b08-card-01` = handwritten note, `b08-card-02` = newspaper page).
 - **Owner-transcribed cards:** when the owner types a transcription himself, use it verbatim (`transcription.method: human_transcription_by_owner`); do not re-parse the handwriting.
 
+## Working in parallel (several people / tools edit this repo at the same time)
+
+- **Never commit generated files.** `data/recipes.json` (the website index) and `docs/NEEDS_REVIEW.md` are rebuilt automatically by the `Rebuild search index` GitHub Action after every push to `main` that touches `recipes/**`. Do not include them in PRs (the `Validate recipes` check warns); for a local preview run `python tools/build_index.py` and do not `git add` the result.
+- **One recipe = one branch `recipe/<id>` = one PR**; touch only that recipe's folder (plus its `batch.json` when a batch changes).
+- **Check before you re-read or edit a recipe:** `git fetch`, then look at `git log origin/recipe/<id>` / the open PR - someone may already have pushed a newer reading. `tools/update_prs.py` always builds on the remote branch tip and never force-pushes, and it keeps the `confidence: ...` PR label in sync.
+- **Do not `git pull` in a working tree that holds untracked recipe folders** (it aborts when `main` has since merged them). Use `git fetch` and a separate worktree (`git worktree add ../wt origin/main`) for merges and conflict fixing.
+- `.gitattributes` forces LF line endings so Windows tools do not create CRLF noise.
+- **Naming:** the owner names batches (`batch.json` `title`, `title_status: owner_set`) and may give a recipe an `assigned_title` nickname (e.g. b08-r07 "צימעס"); shown as an extra search title.
+
 ## Standing rules
 
 1. **Do not invent anything.** Do not fill gaps unless 100% sure, and then say so in `notes` / `uncertainties`.

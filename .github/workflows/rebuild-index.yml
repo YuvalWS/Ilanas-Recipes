@@ -1,0 +1,44 @@
+name: Rebuild search index
+
+# data/recipes.json (what the website loads) is generated. Nobody should edit or commit it by hand:
+# whenever recipes (or the builder) change on main, this job rebuilds it and commits the result.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "recipes/**"
+      - "tools/build_index.py"
+      - ".github/workflows/rebuild-index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-index
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install jsonschema
+      - name: Validate recipes
+        run: python tools/validate.py
+      - name: Rebuild index and docs
+        run: |
+          python tools/build_index.py
+          python tools/needs_review.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/recipes.json docs/NEEDS_REVIEW.md; then echo "index up to date"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/recipes.json docs/NEEDS_REVIEW.md
+          git commit -m "Rebuild search index and review list [skip ci]"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 5; done
+          exit 1
