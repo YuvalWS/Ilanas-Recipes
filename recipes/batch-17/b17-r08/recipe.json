@@ -9,10 +9,10 @@
       "group": null,
       "items": [
         "2 כפות קטשופ",
-        "1 [?] בר־בקיו",
+        "1 כף בר־בקיו",
         "1 כף פפריקה מתוקה",
         "1 כף תבלין עוף",
-        "5 כפות שמן [?]",
+        "5 כפות שמן זית",
         "1/2 כפית מלח",
         "1/2 כוס מים"
       ]
@@ -22,11 +22,11 @@
     {
       "group": null,
       "steps": [
-        "מערבבים עם השוקיים [?] [?] אלפיה? [?]",
-        "(back) [?] [?] [?] ו־[?] רוטב [?]",
-        "(back) להכניס השוקיים ל[?] [?]",
-        "(back) [?] מכוסה",
-        "(back) לתנור 180°",
+        "לערבב עם השוקיים. לתבנית על נייר אפיה",
+        "לחמם תנור 250°",
+        "להכניס השוקיים 5 ד'",
+        "ללא מכסה",
+        "להנמיך 180°",
         "(back) כ־45 דקות מכוסה [?]",
         "(back) [?]"
       ]
@@ -34,7 +34,8 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Card 07 (white, upright): the first line reads '10 שוקיים' with a wavy underline, followed by eight lines with numerals in the right column and the last line of the card in a different (smaller) hand ('מערבבים עם השוקיים ... '). Card 08 is the back of 07 (scan was upside down and was rotated 180 degrees) with a short block of instructions at the top; bleed-through from the front fills the rest.",
-    "The list looks like a marinade/sauce for chicken drumsticks (ketchup, barbecue, paprika, chicken seasoning), but the card does not say so."
+    "The list looks like a marinade/sauce for chicken drumsticks (ketchup, barbecue, paprika, chicken seasoning), but the card does not say so.",
+    "Independent reread resolved olive oil, ditto-expanded כף for barbecue sauce, and uncovered 250°/5 minutes followed by lowering to 180°. Final handwritten line remains uncertain."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -86,7 +87,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
