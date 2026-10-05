@@ -14,21 +14,21 @@
       "group": null,
       "items": [
         "1 מרגרינה",
-        "[?] ביצים",
+        "2 ביצים",
         "1 כוס סוכר",
         "3 כוסות קמח",
         "1 אבקת אפיה",
-        "קינמון"
+        "קנמון"
       ]
     },
     {
       "group": "left box (unclear)",
       "items": [
-        "[?] 8",
-        "[?] אגוזים",
-        "קינמון",
+        "[?] [?] 8",
         "[?]",
-        "[?] כפות קמח"
+        "[?]",
+        "[?], או שקית",
+        "3 1/2 כוסות קמח"
       ]
     }
   ],
@@ -36,12 +36,17 @@
     {
       "group": null,
       "steps": [
-        "[?] משפחת [?] ל[?] ו[?] ... עלות מספר דקות."
+        "לערבב [?] [?] [?]",
+        "[?] [?] לפני גמר האפיה",
+        "[?] עוד מספר דקות."
       ]
     }
   ],
   "notes": [
-    "A boxed title area at the top and a bordered zig-zag decoration at the bottom of the card."
+    "The word 'עוגיות' is drawn inside a box at the top; 'שושנה' is written beside it. A bordered zig-zag decoration runs along the bottom of the card.",
+    "The left column is fenced off by a slanted line and a bottom line; its purpose is unclear (a second reading by another model interprets it as an oil-based alternative to the dough, but this could not be confirmed).",
+    "'קנמון' is spelled without yod on the card.",
+    "A short dash after '1 כוס סוכר' is treated as a line filler."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -56,26 +61,56 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
+      "field": "title/source",
       "text": "עוגיות שושנה",
       "best_guess": null,
-      "reason": "The word 'שושנה' sits next to/above the boxed word 'עוגיות'; it may be a person's name (the source) rather than part of the title."
+      "reason": "'שושנה' sits beside the boxed word 'עוגיות'; it may be part of the name (rose-shaped cookies) or a person's name (the source)."
     },
     {
-      "field": "ingredients",
-      "text": "left column inside the line",
-      "best_guess": null,
-      "reason": "Handwriting too shaky to read; only 'קינמון' and 'אגוזים' are plausible."
+      "field": "ingredients[1].items[0]",
+      "text": "[?] [?] 8",
+      "best_guess": "right word: אפשר (fits the letter shapes; also the other model's reading); left word: במקום (other model's reading, not confirmed)",
+      "reason": "Two shaky words followed by an '8'-shaped mark at the far left; the role of the '8' is unclear."
     },
     {
-      "field": "instructions",
-      "text": "bottom three lines",
-      "best_guess": null,
-      "reason": "Illegible; the last words seem to be '... מספר דקות'."
+      "field": "ingredients[1].items[1]",
+      "text": "[?]",
+      "best_guess": "קינמון (previous reading) / שליש כוס שמן (other model)",
+      "reason": "One long word starting with what looks like ק; the letter count does not fit 'קינמון' cleanly and the other model's reading cannot be seen in the strokes."
+    },
+    {
+      "field": "ingredients[1].items[2]",
+      "text": "[?]",
+      "best_guess": "ו-1 כוס מים (other model, not confirmed)",
+      "reason": "Illegible; the first letters may be 'עוגות' but this is not reliable."
+    },
+    {
+      "field": "ingredients[1].items[3]",
+      "text": "[?], או שקית",
+      "best_guess": "וקוקוס (my reading) / וחצי כוס (other model)",
+      "reason": "The first word(s) end in 'וס'; the two readings disagree."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "לערבב [?] [?] [?]",
+      "best_guess": "לערבב טוב משומנת בתבנית (טוב and בתבנית fit the shapes; משומנת/משפחת unclear)",
+      "reason": "Shaky letters after 'לערבב'."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "[?] [?] לפני גמר האפיה",
+      "best_guess": "ולחתוך 3 גלילים (other model; not confirmed in the crops)",
+      "reason": "The first two words of the line are too shaky; 'לפני גמר האפיה' is clear."
+    },
+    {
+      "field": "instructions[0].steps[2]",
+      "text": "[?] עוד מספר דקות.",
+      "best_guess": "ולאפות",
+      "reason": "First word ends with what looks like 'אפות' but its beginning is unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
