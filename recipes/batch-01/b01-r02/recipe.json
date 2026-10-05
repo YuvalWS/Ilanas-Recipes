@@ -24,10 +24,10 @@
     {
       "group": "left box (unclear)",
       "items": [
-        "[?] [?] 8",
+        "אפשר להוסיף",
         "[?]",
         "[?]",
-        "[?], או שקית",
+        "וקוקוס, או שקית",
         "3 1/2 כוסות קמח"
       ]
     }
@@ -36,9 +36,9 @@
     {
       "group": null,
       "steps": [
-        "לערבב [?] [?] [?]",
-        "[?] [?] לפני גמר האפיה",
-        "[?] עוד מספר דקות."
+        "לערבב [?] משטחת בתבנית",
+        "ולחתוך לריבועים לפני גמר האפיה",
+        "ולאפות עוד מספר דקות."
       ]
     }
   ],
@@ -46,7 +46,8 @@
     "The word 'עוגיות' is drawn inside a box at the top; 'שושנה' is written beside it. A bordered zig-zag decoration runs along the bottom of the card.",
     "The left column is fenced off by a slanted line and a bottom line; its purpose is unclear (a second reading by another model interprets it as an oil-based alternative to the dough, but this could not be confirmed).",
     "'קנמון' is spelled without yod on the card.",
-    "A short dash after '1 כוס סוכר' is treated as a line filler."
+    "A short dash after '1 כוס סוכר' is treated as a line filler.",
+    "Independent Codex rereading of the full scan and enlarged crops: אפשר להוסיף, וקוקוס, או שקית, ולחתוך לריבועים, and ולאפות are visually confirmed. The loop at the left of להוסיף belongs to the handwriting; it is not treated as an ingredient quantity 8. Ambiguous optional additions remain flagged."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,12 +68,6 @@
       "reason": "'שושנה' sits beside the boxed word 'עוגיות'; it may be part of the name (rose-shaped cookies) or a person's name (the source)."
     },
     {
-      "field": "ingredients[1].items[0]",
-      "text": "[?] [?] 8",
-      "best_guess": "right word: אפשר (fits the letter shapes; also the other model's reading); left word: במקום (other model's reading, not confirmed)",
-      "reason": "Two shaky words followed by an '8'-shaped mark at the far left; the role of the '8' is unclear."
-    },
-    {
       "field": "ingredients[1].items[1]",
       "text": "[?]",
       "best_guess": "קינמון (previous reading) / שליש כוס שמן (other model)",
@@ -85,32 +80,14 @@
       "reason": "Illegible; the first letters may be 'עוגות' but this is not reliable."
     },
     {
-      "field": "ingredients[1].items[3]",
-      "text": "[?], או שקית",
-      "best_guess": "וקוקוס (my reading) / וחצי כוס (other model)",
-      "reason": "The first word(s) end in 'וס'; the two readings disagree."
-    },
-    {
       "field": "instructions[0].steps[0]",
-      "text": "לערבב [?] [?] [?]",
-      "best_guess": "לערבב טוב משומנת בתבנית (טוב and בתבנית fit the shapes; משומנת/משפחת unclear)",
-      "reason": "Shaky letters after 'לערבב'."
-    },
-    {
-      "field": "instructions[0].steps[1]",
-      "text": "[?] [?] לפני גמר האפיה",
-      "best_guess": "ולחתוך 3 גלילים (other model; not confirmed in the crops)",
-      "reason": "The first two words of the line are too shaky; 'לפני גמר האפיה' is clear."
-    },
-    {
-      "field": "instructions[0].steps[2]",
-      "text": "[?] עוד מספר דקות.",
-      "best_guess": "ולאפות",
-      "reason": "First word ends with what looks like 'אפות' but its beginning is unclear."
+      "text": "לערבב [?] משטחת בתבנית",
+      "best_guess": "הכל / טוב",
+      "reason": "The word immediately after לערבב remains ambiguous; משטחת בתבנית is legible in the enlarged scan."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
