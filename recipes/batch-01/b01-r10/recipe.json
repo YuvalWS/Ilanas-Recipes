@@ -1,0 +1,73 @@
+{
+  "id": "b01-r10",
+  "batch": 1,
+  "title": "רולדה שוקולד",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 ביצים",
+        "3/4 כוס סוכר",
+        "3 כפות קקאו גדושות",
+        "1 כוס קמח גדושה",
+        "2 שקיות שמנת מתוקה",
+        "1/4 כוס אבקת סוכר",
+        "1 כפית תמצית וניל",
+        "פרורי שוקולד"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לרפד תבנית משומנת בנייר פרגמנט.",
+        "להקציף את החלמונים עם סוכר, להוסיף קמח וקקאו ולהקציף.",
+        "להקציף את החלבונים ולהוסיף לחלמונים לאט לאט.",
+        "באפייה [?] 12 דק'. להפוך על מגבת עם אבקת סוכר ולגלגל.",
+        "להקציף שמנת עם אבקת סוכר ותמצית וניל, [?] ולמרוח על [?]. לחלק על הרולדה פרורי שוקולד ולגלגל."
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-09.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "5 ביצים",
+      "best_guess": "4 or 5",
+      "reason": "The numeral is unclear."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "1/4 כוס אבקת סוכר",
+      "best_guess": "1/2",
+      "reason": "The fraction is unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "last two steps",
+      "best_guess": null,
+      "reason": "Some words in the baking and filling steps are unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
