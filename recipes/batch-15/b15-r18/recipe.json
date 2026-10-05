@@ -1,0 +1,81 @@
+{
+  "id": "b15-r18",
+  "batch": 15,
+  "title": "פשטידת תירס",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 קופסת תירס קל",
+        "1 כוס חלב",
+        "2 ביצים",
+        "4 כפות קמח תופח גדושות",
+        "[?] כף שמן",
+        "מעט פלפל",
+        "250 גר' גבינה לבנה"
+      ]
+    },
+    {
+      "group": "(second group)",
+      "items": [
+        "1/4 כוס שמנת מתוקה/[?]",
+        "1/4 כוס קמח אוסם",
+        "[?] קופסת קמח? [?] שום [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב הכל, ולהוסיף מעט גבינה צהובה לפיזור ולמלח",
+        "(reverse of line) [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card in a printed frame with a footer 'איכות חיים לכל החיים'. Title 'פשטידת תירס' with a wavy underline and a small mark at the top left. A wavy line separates a second group of lines in the lower part that looks like a variation (a sauce/topping?)."
+  ],
+  "incidental_text": [
+    "Printed footer: 'איכות חיים לכל החיים' on a gold band with a newspaper logo"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-19.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-19.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[4]",
+      "text": "[?] כף שמן",
+      "best_guess": null,
+      "reason": "Number unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "second group",
+      "best_guess": null,
+      "reason": "Lower group of lines is only partly legible."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
