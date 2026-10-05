@@ -1,0 +1,86 @@
+{
+  "id": "b15-r04",
+  "batch": 15,
+  "title": "קוגל [אטריות?]",
+  "source": {
+    "text": "רחלה",
+    "type": "person",
+    "as_written": "רחלה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/4 כוס שמן (להשחים בסיר ולקרר)",
+        "1/4 כוס סוכר - 4 כפות [?]",
+        "5 כוסות מים רותחות",
+        "2 כפיות מלח מחוקות",
+        "1 1/2 כפית פלפל",
+        "1/4 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "על [?] לדבר? [?] 5 כוסות מים רותחות",
+        "בשהכל רותח שוב מכניסים האטריות",
+        "לערבב כל הזמן עד שהתערובת נמס",
+        "להקטין הלהבה עד שהמים מסתגים",
+        "(בשעות בועות באטריות)",
+        "לטרוף 2 ביצים ולהוסיף במהירות לאטריות תוך כדי ערבוב",
+        "לשמן התבנית בספרי ולאפות בחום [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. A bracket groups the first two ingredient lines with a note 'להשחים בסיר ולקרר' (brown in a pot and cool). The title reads 'קוגל [?]' / 'רחלה'; the first word is 'קוגל' and the second looks like 'אטריות' but is not clear. Ditto marks on the second line are written for the first line's 'כוס'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-04.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-04.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "קוגל [אטריות?]",
+      "best_guess": "קוגל אטריות",
+      "reason": "Second word unclear (maybe 'אטריות', consistent with the instruction 'מכניסים האטריות')."
+    },
+    {
+      "field": "source",
+      "text": "רחלה",
+      "best_guess": "רחלה",
+      "reason": "Read as a first name."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "1/4 כוס סוכר - 4 כפות [?]",
+      "best_guess": null,
+      "reason": "Quantity line unclear (ditto marks)."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Many words unclear; final temperature unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
