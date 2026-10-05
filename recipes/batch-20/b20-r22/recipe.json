@@ -1,7 +1,7 @@
 {
   "id": "b20-r22",
   "batch": 20,
-  "title": "עגבניות שרי [?]",
+  "title": "עגבניות שרי צנוברים",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -39,12 +39,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עגבניות שרי [?]",
-      "best_guess": "עגבניות שרי צבעוניות",
-      "reason": "Last word of the title uncertain."
-    },
-    {
       "field": "ingredients",
       "text": "all lines",
       "best_guess": null,
@@ -64,7 +58,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
