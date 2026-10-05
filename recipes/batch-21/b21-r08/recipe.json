@@ -1,0 +1,60 @@
+{
+  "id": "b21-r08",
+  "batch": 21,
+  "title": "סלטימבוקה חזה עוף",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים ל־6 מנות",
+      "items": [
+        "6 פרוסות דקות מאוד של חזה עוף (2 פרוסות מחזה)",
+        "מלח ופלפל שחור, גרוס",
+        "12 פרוסות דקות של חזה אווז מעושן",
+        "12 עלי מרווה טריים",
+        "שמן זית, לטיגון",
+        "3/4 כוס יין מרסלה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "משטחים על משטח העבודה פרוסה של חזה עוף, ומתבלים במלח ובפלפל.",
+        "מניחים מעל שתי פרוסות חזה אווז מעושן ושני עלי מרווה. מגלגלים לגלילה ומהדקים בקיסם עץ.",
+        "מחממים במחבת גדולה את שמן הזית ומטגנים את גלילות העוף שתיים עד שלוש דקות מכל צד. מעבירים לצלחת.",
+        "מוסיפים למחבת את היין ומביאים לרתיחה. מחזירים למחבת את גלילות העוף ומבשלים על להבה נמוכה כשלוש דקות. מגישים מיד, מומלץ עם פירה תפוחי אדמה."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping; the title is printed in a pale grey and partly faint. Note: printed text reads 'חזה אווז' for the goose breast; 'סלטימבוקה' is the Italian saltimbocca. A hand-drawn vertical bracket (pen) marks step 4 at the right edge."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-09.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-09.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "סלטימבוקה חזה עוף",
+      "best_guess": null,
+      "reason": "Title printed in faint grey with decorations; read as 'סלטימבוקה' with moderate confidence."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
