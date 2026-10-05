@@ -1,0 +1,53 @@
+{
+  "id": "b15-r06",
+  "batch": 15,
+  "title": "פשטידת תירס קלה",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "1 קופסת שימורי תירס קל (ללא סוכר)",
+        "1 גביע קוטג' דל שומן",
+        "1 גביע יוגורט דל שומן",
+        "2 ביצים",
+        "3 כפות קמח",
+        "1 כף אבקת מרק בצל",
+        "2 כפות שמיר קצוץ",
+        "1/2 קובייה של גבינה בולגרית דלת שומן, מפוררת"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "מחממים תנור ל־180 מעלות.",
+        "מסננים ושוטפים את התירס מנוזלי השימור, מערבבים יחד עם יתרת החומרים ומשטחים בתבנית מרופדת בנייר אפייה. אופים עד שהמאפה יציב וזהוב, כ־40 דקות."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with a gold banner 'ממחר דיאטה' and the sub-title 'פשטידת תירס קלה'. Header: 'כמות: 6 מנות, זמן הכנה: 50 דקות'. A small pen stroke at the top right is not text."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-07.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
