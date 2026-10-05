@@ -8,19 +8,21 @@
     {
       "group": null,
       "items": [
-        "[?] כפות שמן",
-        "3 [ditto] [?]",
-        "2-3 [ditto] דבש - סילן",
+        "3 כפות שמן",
+        "3 כפות חומץ",
+        "3-4 כפות דבש - סילן",
         "3 שיני שום",
-        "3 כפות חומץ [?]",
+        "3 כפות [?]",
         "מעט פלפל ומלח"
       ]
     }
   ],
   "instructions": [],
   "notes": [
-    "Upper recipe on a card with two blocks separated by a ruled line. Title underlined: 'סלט הפתעות' (surprise salad).",
-    "Ditto marks stand for 'כפות'."
+    "Upper recipe on a card with two blocks separated by a ruled line (the lower block is recipe b07-r17). Title underlined: 'סלט הפתעות' (surprise salad).",
+    "ditto marks expanded (each stands for 'כפות').",
+    "A circled digit (looks like 5) is written next to the honey line; its meaning is unclear.",
+    "The 5th line continues to the left with further words (Gemini suggested 'בן יקאדא?'); unreadable."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -35,26 +37,26 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "ingredients",
-      "text": "several quantities",
-      "best_guess": null,
-      "reason": "Digits and the words after them are partly unclear."
+      "field": "ingredients[1]",
+      "text": "3 כפות חומץ (the word after the ditto mark)",
+      "best_guess": "Gemini: חומץ; earlier reading: unreadable",
+      "reason": "Shaky letters; Gemini's word is plausible for the ink and fits a dressing, but not fully confirmed."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "3-4 כפות דבש - סילן",
+      "best_guess": "Gemini: 3-4; earlier reading: 2-3",
+      "reason": "On the crop the left digit looks like 3 and the right like 4; a circled digit next to it (looks like 5) is unexplained."
     },
     {
       "field": "ingredients[4]",
-      "text": "3 כפות חומץ [?]",
-      "best_guess": null,
-      "reason": "Qualifier after 'חומץ' unreadable."
-    },
-    {
-      "field": "title",
-      "text": "סלט הפתעות",
-      "best_guess": "סלט הפתעות",
-      "reason": "Read as 'סלט הפתעות'."
+      "text": "3 כפות [?]",
+      "best_guess": "Gemini: 3 כפיות רוטב טריאקי; earlier reading: 3 כפות חומץ [?]",
+      "reason": "The ingredient word(s) cannot be matched to either reading, and the line trails off to the left with more unreadable words."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
