@@ -1,7 +1,7 @@
 {
   "id": "b18-r12",
   "batch": 18,
-  "title": "עוגת פירות [?] בשים",
+  "title": "עוגת פירות יבשים",
   "source": null,
   "medium": "clipping",
   "ingredients": [
@@ -26,7 +26,7 @@
     {
       "group": null,
       "steps": [
-        "מחממים את התנור לחום בינוני (180 מעלות). מקציפים בקערת מערבל גדולה את הסוכר והשמן, מוסיפים את הביצים, אחת בכל פעם, ומערבבים היטב אחרי כל הוספה. מוסיפים לתערובת את תמצית הוורניל וקליפת התפוז.",
+        "מחממים את התנור לחום בינוני (180 מעלות). מקציפים בקערת מערבל גדולה את הסוכר והשמן, מוסיפים את הביצים, אחת בכל פעם, ומערבבים היטב אחרי כל הוספה. מוסיפים לתערובת את תמצית הווניל וקליפת התפוז.",
         "מערבבים בקערה נפרדת את הקמח עם אבקת הסודה לשתייה והמלח. מוסיפים את הקמח והיוגורט לסירוגין אל התערובת.",
         "מערבבים את הפירות המיובשים עם הקמח, ומקפלים אל הבלילה. יוצקים את הבלילה לתבנית כיכר באורך 30 ס\"מ, משומנת בתרסיס שמן, ואופים כ־40 דקות, עד שקיסם הננעץ בעוגה יוצא יבש.",
         "כל מנה מכילה כ־230 קלוריות."
@@ -34,10 +34,13 @@
     }
   ],
   "notes": [
-    "Two scans of a printed clipping: scan 15 (the first half: title and ingredients, rotated 180 degrees; a blue-ink handwritten word at the left that looks like 'ביינט'/'בינה' is not readable) and scan 14 (the second half: ingredient lines from '120 גרם פירות מיובשים' and the method, rotated 180 degrees). They are joined as one recipe because the method on scan 14 follows the ingredient list on scan 15.",
-    "The title on scan 15 reads 'עוגת פירוון בשים' (the second word is not a standard word, probably a misprint or a partial word; the cake has dried fruit)."
+    "Two scans of the same printed recipe, both already rotated 180 degrees: the first contains title and ingredients, the second continues the ingredient list and contains preparation steps.",
+    "Handwritten annotation on the ingredient scan: דיאט. Its role is not stated on the clipping; no publication attribution was inferred.",
+    "Independent Codex rereading confirms the title עוגת פירות יבשים and the word הווניל, correcting the previous title and extra ר. All ingredient quantities and preparation steps are legible across the two scans."
   ],
-  "incidental_text": [],
+  "incidental_text": [
+    "דיאט"
+  ],
   "raw_files": [
     {
       "file": "raw/Scanned_20261004-2238-15.jpg",
@@ -52,30 +55,11 @@
       "side": "back"
     }
   ],
-  "needs_human_verification": true,
+  "needs_human_verification": false,
   "confidence": "high",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "עוגת פירוו[?] בשים",
-      "best_guess": null,
-      "reason": "The second word of the title is unclear."
-    },
-    {
-      "field": "notes",
-      "text": "blue handwritten word",
-      "best_guess": null,
-      "reason": "Unreadable."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "No publication or date visible."
-    }
-  ],
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
