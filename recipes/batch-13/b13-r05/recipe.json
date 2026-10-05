@@ -1,0 +1,72 @@
+{
+  "id": "b13-r05",
+  "batch": 13,
+  "title": "עוגת גבינה בלי נקיפות מצפון",
+  "source": {
+    "text": "(newspaper column 'גיל חובב והתוספות', as read from a cut logo)",
+    "type": "publication",
+    "as_written": "גיל חובב והתוספות",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לתחתית",
+      "items": [
+        "כוס וחצי שקדים טחונים, 1 כף סוכר, 1 חלמון"
+      ]
+    },
+    {
+      "group": "לשכבת הגבינה",
+      "items": [
+        "חצי קילו גבינה לבנה חצי אחוז, חצי כוס סוכר, ממתיק שווה ערך לעוד חצי כוס סוכר, 2 כפות תמצית וניל, קליפה מגוררת מלימון אחד, מיץ מחצי לימון, חלבון + 2 ביצים"
+      ]
+    },
+    {
+      "group": "ללמעלה",
+      "items": [
+        "1 שמנת חמוצה 9%"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מערבבים את חומרי התחתית ומשטחים בשכבה דקה בתחתית התבנית. מערבבים את חומרי שכבת הגבינה ויוצקים לתבנית. אופים 40 דקות בחום בינוני. מוציאים מהתנור ויוצקים מעל את השמנת החמוצה (אם משקשקים אותה קודם זה קל יותר). מחזירים לתנור ואופים עוד 10 דקות. מוציאים ומצננים. אפשר להוסיף פירות קצוצים מלמעלה."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed newspaper clipping with a perforated red frame; a large green round logo of a cookery column ('גיל חובב והתוספות' as read) takes up the left side and is cut by the page edge. The text is clear. Title: 'עוגת גבינה בלי נקיפות מצפון' (cheesecake without pangs of conscience).",
+    "Section headings are 'החומרים הדרושים', 'לתחתית', 'לשכבת הגבינה', 'ללמעלה', 'אופן ההכנה'. The text says 'חצי אחוז' (0.5% fat) cottage/white cheese; the words are copied as printed. The fourth line of the cheese layer ends 'חלבון + 2 ביצים' (one egg white + 2 eggs?) - copied as printed."
+  ],
+  "incidental_text": [
+    "Large round logo of a cookery column ('גיל חובב והתוספות' as read), partly cut"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2209-07.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication / column)",
+      "best_guess": null,
+      "reason": "The column logo is partly cut off; no publication name or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
