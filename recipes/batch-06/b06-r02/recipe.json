@@ -1,0 +1,69 @@
+{
+  "id": "b06-r02",
+  "batch": 6,
+  "title": "דג סול",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] 2 [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "(many further lines unreadable)",
+        "(reverse side) [?] [?] [?] [?]",
+        "(reverse side) [?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "The front has a title with a circled number (10) to its left (probably a page/recipe number in Ilana's own numbering) and a line under the title. The back (scan 03) has only two handwritten lines at the top; the rest of that scan is faint show-through of the front's writing."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-02.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-03.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "דג סול",
+      "best_guess": "דג סול",
+      "reason": "Title is read as 'דג סול' (sole fish) but the second word is distorted."
+    },
+    {
+      "field": "instructions",
+      "text": "body",
+      "best_guess": null,
+      "reason": "Body text is too dense/shaky to transcribe reliably."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 03 is assumed to be the back of scan 02 (show-through of 02's text is visible on 03)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
