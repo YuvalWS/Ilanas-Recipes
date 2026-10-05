@@ -1,15 +1,29 @@
 {
   "id": "b11-r04",
   "batch": 11,
-  "title": "[?]",
+  "title": "מרק ירקות",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "מוטי",
+    "type": "person",
+    "as_written": "מוטי",
+    "uncertain": false
   },
   "medium": "handwritten",
-  "ingredients": [],
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] בצל",
+        "[?]",
+        "קישואים",
+        "גזר",
+        "סלרי",
+        "שורש",
+        "פרחי ברוקולי",
+        "כף אבקת מרק [?]"
+      ]
+    }
+  ],
   "instructions": [
     {
       "group": null,
@@ -26,7 +40,8 @@
   ],
   "notes": [
     "Very large, loosely formed handwriting; no line can be read reliably. A human who knows Ilana's handwriting is needed.",
-    "A short bracketed note in the upper right (two words) and a signature-like word with a flourish at the lower right (probably a person's name) are also unreadable."
+    "A short bracketed note in the upper right (two words) and a signature-like word with a flourish at the lower right (probably a person's name) are also unreadable.",
+    "Raw handwriting upside down; rotated only a scratch viewing copy. Marginal heading מרק ירקות / מוטי resolved. Final powder brand/word still uncertain."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -41,26 +56,14 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "first line",
+      "field": "ingredients",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "Unreadable."
-    },
-    {
-      "field": "source",
-      "text": "signature at lower right",
-      "best_guess": null,
-      "reason": "Possibly a person's name; unreadable."
-    },
-    {
-      "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Unreadable."
+      "reason": "Upper quantities and last powder word not fully certified."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
