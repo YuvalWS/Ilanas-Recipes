@@ -1,0 +1,65 @@
+{
+  "id": "b20-r25",
+  "batch": 20,
+  "title": "פלפלים ממולאים בגבינה",
+  "source": {
+    "text": "השף חיים כהן",
+    "type": "person",
+    "as_written": "[?]נחה: השף חיים כהן",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "(רשימת המרכיבים אינה על הגזיר)",
+      "items": [
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים את התנור לחום בינוני-גבוה (200 מעלות). מסירים את הכיפות מ־8 פלפלים אדומים או ירוקים קטנים ושומרים בצד. מסלקים את הגרעינים והגידים הלבנים.",
+        "מערבבים 200 גרם גבינת פטה מגוררת, עגבנייה מרוסקת בפומפייה וצרור פטרוזיליה קצוצה, ממלאים את הפלפלים ומניחים בתבנית. מכסים בכיפות, זולפים מעט שמן זית ואופים 25 דקות, עד שהפלפלים מתרככים ומתקמטים."
+      ]
+    }
+  ],
+  "notes": [
+    "Clipping starts with a partial credit line at the top ('...נחה: השף חיים כהן'; the first letters are cut off) and shows only the title and two method steps; the ingredient list is not on the clipping. The ingredients named in the method are: 8 small red or green peppers, 200 g grated feta, a tomato grated on a grater, a bunch of parsley and olive oil.",
+    "In step 2 the clipping says 'פטה מגוררת' and 'מרוסקת בפומפייה' (the latter probably refers to the tomato; the text reads 'עגבנייה מרוסקת בפומפייה')."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-28.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-28.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "השף חיים כהן",
+      "best_guess": null,
+      "reason": "The word before 'השף' is cut off ('...נחה')."
+    },
+    {
+      "field": "ingredients",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The ingredient list is not on the clipping."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
