@@ -1,0 +1,62 @@
+{
+  "id": "b11-r17",
+  "batch": 11,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "4-5 שיני שום [?] [?]מלת",
+        "[?] [?] קפוא",
+        "[?] [?] מרק [?]ה - 1 [?]מלת",
+        "[?] [?] מלח [?]",
+        "[?] [?] מלח [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] מלח [?] (some words in parentheses)",
+        "[?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] קטן"
+      ]
+    }
+  ],
+  "notes": [
+    "Yellow memo card of a contracting company (printed letterhead with phone/fax), stapled to neighbouring cards. Seems to be the continuation of the previous card (scan 17), starting with '4-5 שיני שום'. A wavy underline separates the lower three lines. Most of the text is not reliably readable (the words שום, מרק, מלח and קטן are the clearest)."
+  ],
+  "incidental_text": [
+    "A torn piece of paper is stapled to the upper left corner"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-18.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-18.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title; probably continues scan 17."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Cramped and partly unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
