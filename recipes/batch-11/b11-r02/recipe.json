@@ -1,0 +1,88 @@
+{
+  "id": "b11-r02",
+  "batch": 11,
+  "title": "מרק ירקות גטול שומן",
+  "source": {
+    "text": "(newspaper strip, publication not shown)",
+    "type": "unknown",
+    "as_written": "—",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המצרכים ל-8-10 מנות",
+      "items": [
+        "חצי ראש כרוב בינוני, חתוך לרבעים",
+        "1 בצל גדול, חתוך לרבעים",
+        "4 גזרים גדולים, חתוכים גס",
+        "3 בטטות בגודל בינוני, חתוכות גס",
+        "1 שורש סלרי, עם הגבעולים",
+        "נתח בינוני של דלעת",
+        "2 שורשי פטרוזיליה קטנים",
+        "חצי צרור פטרוזיליה ושמיר",
+        "מלח ופלפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שמים בסיר מרק גדול את הכרוב, הבצל, הגזרים והבטטות. מנקים היטב את שורש הסלרי ותותכים לרבעים.",
+        "שוטפים היטב חצי מגבעולי הסלרי, כולל העלים וחותכים אותם דק. מוסיפים גם אותם, כולל הדלעת ושורשי הפטרוזיליה.",
+        "מכסים את הירקות ב-10 כוסות מים, מביאים לרתיחה ומבשלים על אש בינונית כ-40 דקות, או עד שהירקות מתרככים היטב.",
+        "מתבלים במלח ופלפל, מוסיפים את הפטרוזיליה והשמיר וממשיכים לבשל עוד 15 דקות.",
+        "מצננים מעט, מוציאים את השמיר והפטרוזיליה ומרסקים את הירקות, בתוך הסיר, בבלנדר ידני (מוט). אם אין מכשיר כזה - מעבירים את הירקות בלבד למעבד מזון ומרסקים שם. שוב טועמים את המרק המרוסק ומשפרים את התיבול לפי הטעם. מגישים חם.",
+        "ניתן לשמור את המרק יומיים שלושה במקרר ולחמם בכל פעם את הכמות הדרושה.",
+        "אפשר להגישו עם קרוטונים ואפשר גם לשים במרכז הצלחת כף שמנת או יוגורט."
+      ]
+    }
+  ],
+  "notes": [
+    "Narrow newspaper strip with a perforated (red dotted) frame and an intro paragraph about a soup made without fat. The title is partly torn; read as 'מרק ירקות נטול שומן' (the printed spelling at the top looks like 'גטול' because of the torn paper/letter shape). The scan was upside down and was rotated 180 degrees.",
+    "The step 1 text says 'ותותכים לרבעים' - this is a typo or a misreading for 'וחותכים'; kept as read here, please check against the scan.",
+    "Printed ranges such as '8-10' appear as '10-8' in the typeset text and are written here in the usual order."
+  ],
+  "incidental_text": [
+    "Newspaper footer with the publication name at the bottom edge",
+    "Intro paragraph about the writer's own experience with a fat-free vegetable soup (not transcribed)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-02.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-02.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "מרק ירקות גטול שומן",
+      "best_guess": "מרק ירקות נטול שומן",
+      "reason": "Printed title looks like 'גטול' for 'נטול' (torn paper); real word is probably 'נטול'."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "ותותכים",
+      "best_guess": "וחותכים",
+      "reason": "Probably 'וחותכים'."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "Publication name at the bottom is cut off / not clear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
