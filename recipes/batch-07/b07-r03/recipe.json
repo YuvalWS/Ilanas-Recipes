@@ -10,11 +10,11 @@
       "items": [
         "1/3 [?] שמן [?]",
         "1/3 [?] מיץ לימון",
-        "1/2 [?] [crossed out]",
+        "1/[?] [?] [crossed out]",
         "1 [?] [?]",
-        "1 חופן תמרים [?]",
+        "1 חופן [?]",
         "1 [?] שקדים פרוסים",
-        "1 [?] תפוח [?]-סמית פרוס/ה"
+        "1 תפוח [?]-סמית פרוס/ה [?]"
       ]
     },
     {
@@ -28,8 +28,9 @@
   ],
   "instructions": [],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?].",
-    "Small square card with a printed rule at the top edge; two columns of quantities and items. A heading-like crossed-out word is at the top. Looks like a salad/dressing ingredient list with dates (תמרים), sliced almonds (שקדים פרוסים) and an apple, but the exact items are partly unclear."
+    "Handwriting is very shaky and only partly legible; unreadable words are [?].",
+    "Small square card with a printed rule at the top edge; a column of quantities (right) with items to their left, a bracket '(' around the upper-middle area, and a left column of three short lines each starting with '1'. A crossed-out word is in the third row. No title is visible.",
+    "The first two rows (oil, lemon juice) look like the start of a dressing; the lower rows (almonds, apple) look like salad ingredients, but the card does not say so."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,23 +48,59 @@
       "field": "title",
       "text": "(none)",
       "best_guess": null,
-      "reason": "No title visible."
+      "reason": "No title visible (Gemini's invented titles were not used)."
     },
     {
-      "field": "ingredients",
-      "text": "all",
+      "field": "ingredients[0]",
+      "text": "1/3 [?] שמן [?]",
+      "best_guess": "Gemini: 1/3 כוס שמן זית; not confirmed on the crop (no clear unit visible between the fraction and 'שמן')",
+      "reason": "Unit and trailing word unreadable."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "1/3 [?] מיץ לימון",
+      "best_guess": "Gemini: 1/3 כוס מיץ לימון",
+      "reason": "A unit word is not clearly visible."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "1/[?] [?] [crossed out]",
+      "best_guess": "Gemini: 1/3 דבש (or 1/3 סוכר in a second Gemini run); earlier reading: 1/2",
+      "reason": "Denominator ambiguous and the word is crossed out; a short extra word to its left is also unreadable. Gemini's two runs disagree, so neither is trusted."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "1 [?] [?]",
+      "best_guess": "Gemini: חמוציות (cranberries); not confirmed, the word ends in a final-mem-like loop on the card",
+      "reason": "Words unreadable."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "1 חופן [?]",
+      "best_guess": "earlier reading: תמרים; Gemini: nothing matching",
+      "reason": "'חופן' (handful) is clear, the item after it is not."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "1 [?] שקדים פרוסים",
       "best_guess": null,
-      "reason": "Units and several items unreadable."
+      "reason": "A small mark (unit?) between '1' and 'שקדים' is unreadable."
     },
     {
       "field": "ingredients[6]",
-      "text": "תפוח [?]-סמית",
-      "best_guess": "תפוח גרני סמית פרוס",
-      "reason": "Possibly 'גרני סמית' (Granny Smith); unclear."
+      "text": "1 תפוח [?]-סמית פרוס/ה [?]",
+      "best_guess": "תפוח גרני סמית פרוס (earlier reading); Gemini wrote 'תפוח עץ גרנד' which does not match 'סמית'",
+      "reason": "Apple variety and ending of the last word unclear."
+    },
+    {
+      "field": "ingredients[7]",
+      "text": "left column: three lines '1 [?]'",
+      "best_guess": null,
+      "reason": "Three short left-column items, unreadable."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
