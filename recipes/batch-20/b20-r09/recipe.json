@@ -8,9 +8,9 @@
     {
       "group": null,
       "items": [
-        "[?] פחיות סלק חום",
-        "[?] כפיות מלח",
-        "2 [?] בתנועות?"
+        "7 כפיות סוכר חום",
+        "1 1/2 כפיות מלח",
+        "2 שיני שום כתושות"
       ]
     }
   ],
@@ -32,38 +32,14 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "ingredients[0]",
-      "text": "[?] פחיות סלק חום",
-      "best_guess": null,
-      "reason": "The quantity is unclear."
-    },
-    {
-      "field": "ingredients[1]",
-      "text": "[?] כפיות מלח",
-      "best_guess": null,
-      "reason": "The quantity is unclear (maybe 1 1/2)."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "2 [?] בתנועות?",
-      "best_guess": null,
-      "reason": "Third line unreadable."
-    },
-    {
       "field": "title",
-      "text": "(none)",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "No title on the card."
-    },
-    {
-      "field": "source",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No source written."
+      "reason": "No heading visible; ingredient-only note."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
