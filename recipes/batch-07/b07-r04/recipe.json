@@ -21,7 +21,7 @@
     }
   ],
   "notes": [
-    "Dense, small, sloping handwriting on a card with a printed frame and a newspaper footer; almost nothing can be read. 'פיתות' (pita) may appear in one line. Rescan at higher resolution or human reading needed."
+    "Dense, small, sloping, shaky handwriting (about 16 lines) on a card with a printed frame and a newspaper footer; almost nothing can be read. 'פיתות' (pita) appears in one line. Gemini read this card as a baby-leaf salad with dressing, but that list (about 12 short items, no pita) does not match the visible lines and could not be confirmed on the scan, so it was not adopted. Rescan at higher resolution or human reading needed."
   ],
   "incidental_text": [
     "Printed footer: a newspaper slogan in a yellow box"
@@ -40,12 +40,18 @@
     {
       "field": "instructions",
       "text": "all",
-      "best_guess": null,
-      "reason": "Practically unreadable."
+      "best_guess": "Gemini: baby-leaf salad (עלי בייבי, red onion, carrot, pistachios, feta; dressing of garlic, honey, silan, olive oil, lemon juice, salt, pepper); earlier reading: none. Not confirmed on the card.",
+      "reason": "Practically unreadable; Gemini's reading could not be verified and appears not to match the visible lines."
+    },
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": "Gemini: סלט עלי בייבי (unconfirmed)",
+      "reason": "No title could be read."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
