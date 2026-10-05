@@ -31,8 +31,8 @@
         "3. מוסיפים קמח ומערבבים [?]",
         "4. מניחים בתבנית",
         "5. אופים בינוני [?] [?]",
-        "6. [?] [?]",
-        "7. נשמר [?] [?] [?]"
+        "6. מקררים ופורסים [?]",
+        "7. נשמר במקרר [?]"
       ]
     }
   ],
@@ -41,7 +41,8 @@
     "Digitization remark: in this hand the letter א looks like a joined ס+ל; reading it as א gives אגוזי / אגוזים / אופים / אינגליש, consistent across the card.",
     "Digitization remark: the line under the ingredient 'תערובת פירות יבשים' ('עדיף ללא סוכר ...') is a remark about the dried-fruit mix (preferably unsweetened), not a sugar quantity.",
     "Digitization remark: the card is cut at the bottom edge, so the lower halves of the last three lines (steps 5-7) are partly missing.",
-    "Digitization remark: the word 'מלא' also appears alone on the line below the flour line (not part of a new ingredient)."
+    "Digitization remark: the word 'מלא' also appears alone on the line below the flour line (not part of a new ingredient).",
+    "Independent Codex rereading confirms כוסמין, מקררים ופורסים, and נשמר במקרר. The overwritten baking time and truncated continuations remain uncertain; no missing cooking or storage advice was inferred."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -68,12 +69,6 @@
       "reason": "'עדיף ללא סוכר' read with Gemini's help and consistent with the ink; the word between 'צימוקים' and 'משמש' is shaky (possible extra ו)."
     },
     {
-      "field": "ingredients",
-      "text": "2 כפות קמח מלא או קמח כוסמין מלא",
-      "best_guess": "Gemini: קמח סובין; earlier reading: קמח כוסמין",
-      "reason": "The flour type before the descender-final letter is shaky: Gemini read 'סובין', earlier reading 'כוסמין'. Kept the earlier reading in the text."
-    },
-    {
       "field": "instructions",
       "text": "3. מוסיפים קמח ומערבבים [?]",
       "best_guess": "Gemini: nothing after 'ומערבבים'",
@@ -87,19 +82,19 @@
     },
     {
       "field": "instructions",
-      "text": "6. [?] [?]",
-      "best_guess": "Gemini: מקררים ופורסים",
-      "reason": "Line runs into the cut bottom edge; the letters are partly missing. Gemini's reading is plausible (ends in ים) but not confirmed."
+      "text": "6. מקררים ופורסים [?]",
+      "best_guess": "כשהיא קרה",
+      "reason": "מקררים ופורסים is readable in the enlarged scan; the continuation at the lower-left edge remains cut/ambiguous."
     },
     {
       "field": "instructions",
-      "text": "7. נשמר [?] [?] [?]",
-      "best_guess": "Gemini: נשמר במקרר שבועיים או במקפיא",
-      "reason": "Last line is cut by the bottom edge of the card. 'נשמר' and a 'מקרר'-like shape are consistent with Gemini, but the rest cannot be confirmed."
+      "text": "7. נשמר במקרר [?]",
+      "best_guess": "שבועיים / או במקפיא",
+      "reason": "נשמר במקרר is legible; the storage-duration/continuation crosses the bottom edge and is not certain."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
