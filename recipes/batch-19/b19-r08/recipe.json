@@ -1,0 +1,98 @@
+{
+  "id": "b19-r08",
+  "batch": 19,
+  "title": "פלפל ממולא",
+  "source": {
+    "text": "[?] (בתמר?)",
+    "type": "unknown",
+    "as_written": "[?] (בתמר)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1.5 כף מילוי לפלפל",
+        "2 בצלים קצוצים דק להשחים",
+        "1.5 קופסה רסק עגבניות",
+        "קופסה מים, מלח, סוכר",
+        "א. מרק פרווה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "I. לחרוך הפלפלים. לצקת מים רותחים ולשטוף?",
+        "II. מילוי: 1.5 כף מילוי לפלפל",
+        "2 בצלים קצוצים דק - להשחים. להוסיף 1.5 קופסה רסק עגבניות וקופסה מים, מלח, סוכר, א. מרק פרווה - לערבב, לתבשל עד שמסמיך (כ־3 דקות) [?]",
+        "לשפוך את [?] שבקדרה? [?]",
+        "לגרד גזר אחד דק (ו[?] סלרי?) [?] כופן? בימוקים?",
+        "להעמיד? הפלפל בתבנית אפייה ולמלא 1.5 כף מילוי"
+      ]
+    },
+    {
+      "group": "(back)",
+      "steps": [
+        "III. בקערה גדולה [?] שפתרוקבה? לערבב: 1 כוס מים, מעט מאמץ? [?]",
+        "טיפה מלח וסוכר [?] לימון [?]",
+        "לשפוך לתוך כל פלפל ובתבנית",
+        "לכסות לכל מקום? [?]",
+        "15 דק' אחרונות לכסות",
+        "פלפלים?"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Two sides of one card. The front has the title 'פלפל ממולא / [?] (בתמר?)' with a number in a circle at the top right (read as 10) and is divided by a wavy line into three numbered parts marked I, II, III as read (I: roasting the peppers; II: the filling; III: the sauce, which continues on the back). The back (2243-06; printed frame with a yellow footer 'איכות חיים לכל החיים') begins with 'III:' and holds the sauce lines and baking notes ('15 דק' אחרונות לכסות').",
+    "The Roman-numeral structure is the transcriber's reading of the marks 'I', 'II' and 'III'."
+  ],
+  "incidental_text": [
+    "Printed on the back: frame and yellow footer band 'איכות חיים לכל החיים' with a newspaper logo"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2243-05.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2243-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2243-06.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2243-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "פלפל ממולא / [?] (בתמר?)",
+      "best_guess": null,
+      "reason": "The name after the slash is unclear (maybe 'ורדה', 'אורנה' or a place name 'בתמר')."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Many words unclear (see [?])."
+    },
+    {
+      "field": "raw_files",
+      "text": "2243-05/06",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
