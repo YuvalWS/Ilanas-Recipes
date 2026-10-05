@@ -1,0 +1,93 @@
+{
+  "id": "b06-r19",
+  "batch": 6,
+  "title": "[?]",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 כוס שמן [?] [?]",
+        "[?] כפות [?]",
+        "2 [?] [?] [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] ו[?] [?] [?] [?]",
+        "[?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "לערוך את [?] [?]",
+        "[?] [?] ל[?] [?]",
+        "[?] [?] [?]",
+        "(reverse side) 2 short lines, unreadable"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Card with a printed newspaper footer (a Hebrew newspaper slogan). The bracket at the left groups three ingredient-like lines. The back (scan 21) is mostly show-through of the front, with two short lines of its own at the top."
+  ],
+  "incidental_text": [
+    "Printed newspaper-style footer at the bottom of the front side"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-20.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-20.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-21.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-21.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "heading at top of front",
+      "best_guess": null,
+      "reason": "Underlined heading unreadable."
+    },
+    {
+      "field": "source",
+      "text": "heading",
+      "best_guess": null,
+      "reason": "Possibly a person's name after a slash; unreadable."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 21 is assumed to be the back of scan 20."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Most words unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
