@@ -1,0 +1,52 @@
+{
+  "id": "b11-r05",
+  "batch": 11,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?]",
+        "[?] [?]",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Very large, loosely formed handwriting; no line can be read reliably. A human who knows Ilana's handwriting is needed.",
+    "Same hand and pen style as scan 05; it might be the continuation of that card, but this is not certain, so it is kept separate."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-06.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
