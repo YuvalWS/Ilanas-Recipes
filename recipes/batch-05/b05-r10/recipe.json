@@ -8,9 +8,9 @@
     {
       "group": null,
       "items": [
-        "1 [?] [?]",
+        "1 כפית מלח",
         "1/2 כוס בזיליקום קצוץ",
-        "1 [?] [?] יבש"
+        "1 כוס פסטה יבשה"
       ]
     }
   ],
@@ -74,7 +74,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
