@@ -1,0 +1,73 @@
+{
+  "id": "b15-r17",
+  "batch": 15,
+  "title": "פשטידת [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 [?] גבינה 5% - 3% [?] (גביע [?])",
+        "[?] גר' גבינה מלוחה",
+        "1/4 חב' מרגרינה (לגרד?)",
+        "100 גר' גבינה צהובה מגורדת",
+        "5 ביצים [?] מעט [?]",
+        "3-4 כפות קמח [?]",
+        "150 [?]"
+      ]
+    },
+    {
+      "group": "ברוקולי / [?]",
+      "items": [
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לבשל [?] ברוקולי [?] עד [?]",
+        "שמרתך? [?]",
+        "[?] שמן [?] [?] [?]",
+        "4 ביצים, 3 כפות מילוי? [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with several blue-ink additions on top of black ink (e.g. an extra word 'קשה'/'קצה' above the second line, '150' written in blue at the left). A second heading 'ברוקולי / [?]' appears in the middle of the card, so this card may describe a broccoli variation of a cheese quiche."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-18.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-18.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "פשטידת [?]",
+      "best_guess": null,
+      "reason": "Title partly legible only."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Most quantities and items unclear; blue and black ink overlap."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
