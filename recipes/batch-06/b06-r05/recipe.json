@@ -8,12 +8,13 @@
     {
       "group": null,
       "items": [
-        "1/2 1 [?] בצלים קטנות [?] [?]",
-        "2 ביצים [?] [?] 1 חלמון [?]",
-        "כ 3 כפות [?] גדושות [?]",
-        "1 [?] קטן [?] [?] רסק [?] [?]",
+        "700 גר'",
+        "כ [?] ביצים קשות למעוך במזלג",
+        "3 ביצים רכות + 1 חלמון [?] [?]",
+        "כ 3 כפות לא גדושות שקדים",
+        "1 בצל קטן לרסק על פומפיה דקה",
         "מעט [?]",
-        "1-2 כפות סוכר [?] [?] [?]"
+        "כ 1-2 כפות סוכר לפי הטעם"
       ]
     }
   ],
@@ -21,20 +22,23 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] סוכר",
-        "להוסיף [?] התערובת",
-        "[?] מים",
-        "[?] [?] ל[?]",
-        "[?] קטן [?] [?]",
-        "לערבב [?] ל[?] [?]",
-        "[?] כ 1/2 שעה [?]",
-        "[?] 3 כפות סוכר, פלפל"
+        "[?] [?] [?] סוכר",
+        "[?] חלות התערובת",
+        "הוסיפו מים",
+        "גזר לחתוך",
+        "בצל קטן מרוסק } להרתחה",
+        "לבשל בקציצות כשהמים רותחים [?]",
+        "לאחר כ 1/2 שעה בישול",
+        "3 כפות סוכר, פלפל"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Heading is underlined and the card begins with a weight line and handwritten page-number-like digits at the top right; the rest is a list of quantities. The page is the same hand as scan 04."
+    "Handwriting is cramped and shaky; unreadable words kept as [?]. Recommend a human re-read (or rescan) of this card.",
+    "Line 'בצל קטן מרוסק' and the line above it ('גזר לחתוך') are joined by a brace to the word 'להרתחה'.",
+    "A weight line '700 גר'' appears under the title without a stated ingredient name; the digits look overwritten and stray digits ('84') sit at the top right. Gemini adds 'דג' (fish) - not visible on the card, not copied.",
+    "Gemini's 'חצי כוס סוכר', '1 כף חלת מתוקה', '1 כוס מים' and 'מיץ לימון' were not confirmed on the card: the last line clearly reads '3 כפות סוכר, פלפל'.",
+    "Lower right corner is torn/stained and carries a few extra unreadable marks next to the last lines."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -46,29 +50,59 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "דגים ממולאים",
-      "best_guess": "דגים ממולאים",
-      "reason": "Heading read as 'דגים ממולאים' - fairly clear but verify."
+      "field": "ingredients",
+      "text": "כ [?] ביצים קשות",
+      "best_guess": "Gemini: 1.5-2; earlier reading: 1 1/2",
+      "reason": "Quantity not certain."
     },
     {
       "field": "ingredients",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Quantities partly unreadable."
+      "text": "3 ביצים רכות + 1 חלמון [?] [?]",
+      "best_guess": "Gemini: 3 ביצים + 1 כפות חלב/שמן או מים; own reading of the ink: אם צריך",
+      "reason": "Last two words differ between readings."
+    },
+    {
+      "field": "ingredients",
+      "text": "מעט [?]",
+      "best_guess": "Gemini: סוכר (but 'סוכר' appears separately in the next line)",
+      "reason": "Word illegible."
+    },
+    {
+      "field": "ingredients",
+      "text": "700 גר'",
+      "best_guess": "Gemini: 700 גר' דג",
+      "reason": "Digits overwritten; item name not on the card."
     },
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Lines partly unreadable."
+      "text": "[?] [?] [?] סוכר",
+      "best_guess": "Gemini: חצי כוס סוכר; own reading: '... בלי סוכר'",
+      "reason": "First words illegible, readings differ."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] חלות התערובת",
+      "best_guess": "Gemini: 1 כף חלת מתוקה; own reading: '... חלות התערובת'",
+      "reason": "First word and meaning of 'חלות' unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "הוסיפו מים",
+      "best_guess": "Gemini: 1 כוס מים",
+      "reason": "First word read from the ink; no quantity visible."
+    },
+    {
+      "field": "instructions",
+      "text": "כשהמים רותחים [?]",
+      "best_guess": "Gemini: כשחמים ורתוחים; earlier: רותחים",
+      "reason": "Last word shaky."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
