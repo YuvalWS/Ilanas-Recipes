@@ -1,0 +1,91 @@
+{
+  "id": "b18-r09",
+  "batch": 18,
+  "title": "עוגה [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים",
+        "1 1/2 כוס סוכר",
+        "תמצית וניל (2 כפיות)",
+        "1/2 שקית אבקת אפיה",
+        "1 1/2 כוס קמח רגיל",
+        "2 כפות שמן",
+        "2 כפות קקאו? [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להקציף חלבונים עם הסוכר",
+        "כשהקצף [?] להוסיף את החלמונים מהחמאה? [?]",
+        "להוסיף את החלמונים, הקמח [?] ו[?] השמן."
+      ]
+    },
+    {
+      "group": "back",
+      "steps": [
+        "(back) [?] [?] כוס סוכר",
+        "(back) [?] [?] מכוסה"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Yellow torn card. The top line carries a date-like '26/6' and a word that looks like 'גרוית'/'ברוית' in a box; the title is not clear. Side 11 (the back) holds three short lines at the top and is blank otherwise."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-10.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2238-11.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(top line)",
+      "best_guess": null,
+      "reason": "The header ('26/6 ... ') cannot be read."
+    },
+    {
+      "field": "ingredients[6]",
+      "text": "2 כפות קקאו? [?]",
+      "best_guess": null,
+      "reason": "The line is torn and partly unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "lines 2-3",
+      "best_guess": null,
+      "reason": "Partly unreadable."
+    },
+    {
+      "field": "raw_files",
+      "text": "10/11",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
