@@ -1,0 +1,85 @@
+{
+  "id": "b01-r11",
+  "batch": 1,
+  "title": "קרם לרולדה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "במיקסר",
+      "items": [
+        "2/3 [חבילה?] מרגרינה",
+        "1 כוס אבקת סוכר (או סוכר)",
+        "2 כפות קקאו",
+        "קצת רום",
+        "סוכר וניל",
+        "חלמון"
+      ]
+    },
+    {
+      "group": "להרתחה על האש",
+      "items": [
+        "2 כפות קקאו",
+        "2-3 כפות מים",
+        "1/2 כוס סוכר (או אבקת סוכר)",
+        "[?] שוקולד (3-4 קוביות)"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "1/3 מרגרינה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להוסיף לתערובת הרותחת הרתחה [?] מרגרינה",
+        "לערבב הכל יחד."
+      ]
+    }
+  ],
+  "notes": [
+    "Written on lined paper."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-10.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "2/3 מרגרינה",
+      "best_guess": "2/3 חבילה מרגרינה",
+      "reason": "There seems to be an abbreviation between the quantity and 'מרגרינה'."
+    },
+    {
+      "field": "ingredients[1].items[3]",
+      "text": "[?] שוקולד (3-4 קוביות)",
+      "best_guess": null,
+      "reason": "First word unclear."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "להוסיף לתערובת הרותחת ...",
+      "best_guess": null,
+      "reason": "Word choice for the end of the line is unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
