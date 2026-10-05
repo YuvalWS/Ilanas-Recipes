@@ -1,7 +1,7 @@
 {
   "id": "b15-r17",
   "batch": 15,
-  "title": "פשטידת [?]",
+  "title": "פשטידת גבינות",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -51,12 +51,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "פשטידת [?]",
-      "best_guess": null,
-      "reason": "Title partly legible only."
-    },
-    {
       "field": "ingredients",
       "text": "all lines",
       "best_guess": null,
@@ -64,7 +58,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
