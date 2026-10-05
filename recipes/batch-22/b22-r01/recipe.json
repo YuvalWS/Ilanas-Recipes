@@ -1,0 +1,68 @@
+{
+  "id": "b22-r01",
+  "batch": 22,
+  "title": "עוגת גבינה ואוכמניות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "I (the first four lines are joined by a large bracket labeled 'לערבב')",
+      "items": [
+        "2 קופסאות גבינה 9% (אפשר [?] קופסאות [?])",
+        "1 קופסת גבינה [?]% (אפשר [?] 5%)",
+        "1 [?]",
+        "4 חלמונים.",
+        "להוסיף 3/4 קופסה אינסטנט פודינג וניל",
+        "4 כפות קורנפלור."
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "II",
+      "steps": [
+        "להקציף 4 חלבונים + 1 כוס סוכר",
+        "לערבב יחד את שני התערובות",
+        "להכניס לתנור ולאפות [?] עד [?] [?]",
+        "[?] מהתנור [?] מעט אוכמניות (אפשר להכניס שוב לתנור לכמה דקות)",
+        "לקרר היטב.",
+        "להקציף 1-2 שמנת מתוקה + 1/2 קופסה אינסטנט פודינג וניל + 2 כפות סוכר. למרוח על העוגה כשהיא קרה לגמרי."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Graph-paper sheet with two recipes: this cake (top and middle) and a zucchini pie (bottom, recipe 2 of this batch; same scan). Roman numerals 'I' and 'II' mark the two parts of the cake."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-01.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions[0].steps",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
