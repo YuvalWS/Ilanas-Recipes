@@ -2,12 +2,7 @@
   "id": "b11-r13",
   "batch": 11,
   "title": "מרק עדשים בשתי שניות",
-  "source": {
-    "text": "(newspaper clipping, publication not shown)",
-    "type": "unknown",
-    "as_written": "—",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -27,7 +22,7 @@
     {
       "group": "אופן ההכנה",
       "steps": [
-        "שוטפים היטב במסננת את העדשים.",
+        "שוטפים היטב במסננת את העדשים (מאבק צריך).",
         "שמים אותן בסיר עם המים, מביאים לרתיחה, מנמיכים אש, מכסים למחצה עם המכסה, עד שהעדשים מתרככות. עניין קצר יחסית.",
         "במעבד מזון, בדסקית הגירור הגס, מגררים את הבצל ואת שורש הסלרי.",
         "מוסיפים את הירקות המגוררים למרק ומבשלים רק עד שהירקות (ואלה בלבד!) מתרככים. גם פה, זה עניין של זמן קצר ביותר.",
@@ -67,7 +62,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
