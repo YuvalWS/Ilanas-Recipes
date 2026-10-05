@@ -33,12 +33,15 @@
     {
       "group": null,
       "steps": [
-        "כשהקרם מתקרר להוסיף לו מעט מהקצף [?] ולמזג לבחוש ואת הכל בקצף בקלות.",
+        "כשהקרם מתקרר להוסיף לו מעט מהקצף [?] ולמז[?] לבחוש ואת הכל בקצף בקלות.",
         "חום בינוני 20 דקות ([?] זמן [?])."
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "ditto marks expanded: the ditto marks on the sugar line repeat כפות from the cocoa line.",
+    "Independent Codex full-card and enlarged-preparation rereading confirms the ingredient quantities, including 1/4 cup water and 1 1/4 cup Osem flour. The stained word, adjacent unclear verb, and torn final parenthesis remain unresolved."
+  ],
   "incidental_text": [],
   "raw_files": [
     {
@@ -59,9 +62,9 @@
     },
     {
       "field": "instructions[0].steps[0]",
-      "text": "ולמזג לבחוש ואת הכל",
-      "best_guess": null,
-      "reason": "'לבחוש' (end of line 2) confirmed on zoom and by Gemini. 'ולמזג' is written with a gershayim-like mark (ולמז\"ג) and its exact reading/meaning is not certain; first word of line 3 ('ואת') is shaky but likely."
+      "text": "ולמז[?] לבחוש ואת הכל",
+      "best_guess": "ולמזג",
+      "reason": "The unfamiliar handwritten verb after the stained word is not certain. Its previous reading is now kept as a guess instead of unqualified transcription text."
     },
     {
       "field": "instructions[0].steps[1]",
@@ -71,7 +74,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
