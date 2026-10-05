@@ -41,4 +41,5 @@ python tools/make_branches.py   # one branch + one commit per recipe (local)
 python tools/publish_prs.py     # push branches and open one PR per recipe (needs a GitHub token)
 python tools/update_prs.py ID.. # add a re-transcription commit to existing PR branches (--merge-high merges if high & no [?])
 python tools/build_index.py --merged-only   # website index from merged recipes only
+python tools/needs_review.py    # regenerate docs/NEEDS_REVIEW.md
 ```
