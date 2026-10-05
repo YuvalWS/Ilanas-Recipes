@@ -6,16 +6,16 @@
     "text": "יפעת",
     "type": "person",
     "as_written": "יפעת",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "3 כוסות יין לבן",
-        "2-3 כוסות [?]",
-        "2 [?] פילון [?]"
+        "3 כפות יין לבן",
+        "2-3 כפות רוטב טריאקי",
+        "3 כפות סויה"
       ]
     }
   ],
@@ -23,19 +23,23 @@
     {
       "group": null,
       "steps": [
-        "מלח, פלפל [?] [?] [?] [?]",
-        "לשפוך [?] [?] לתנור [?] [?]",
-        "[?] [?] [?] [?] [?] [?]",
-        "[?] [?] כסות [?] [?] 20 [?]",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?] ה[?] [?] [?] ל[?]",
-        "הלימון ו[?]"
+        "מלח, פלפל שחור",
+        "לשפוך על הדג, להמתין חצי שעה",
+        "לפזר פרוסות שום [?] [?]",
+        "[?] [?] [?] [?]",
+        "לכסות ולאפות כ-15-20 ד'",
+        "על אש בינונית/גבוהה",
+        "(אם הדג קפוא אין צורך להשרות",
+        "בלימון ומלח)"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Title line has a long underline. The first three lines are an ingredient list with quantities."
+    "Ditto marks expanded: the marks under the first ingredient line stand for 'כפות' in the teriyaki and soy lines.",
+    "Title line has a long underline and an arrow/line at the right. The first three lines are an ingredient list with quantities.",
+    "A word is crossed out after 'מלח, פלפל שחור' (unreadable) and another between 'קפוא' and 'אין' in the last parenthetical; neither is transcribed.",
+    "Possible extra letter (ב) before 'חצי שעה' in the second instruction line; not certain.",
+    "Lines 3-4 of the instructions are small and shaky; see uncertainties."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,35 +51,23 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "דג סלמון",
-      "best_guess": "דג סלמון",
-      "reason": "Read as 'דג סלמון' - fairly clear, but verify."
-    },
-    {
-      "field": "source",
-      "text": "יפעת",
-      "best_guess": "יפעת",
-      "reason": "Name after the slash is partly legible."
-    },
-    {
-      "field": "ingredients",
-      "text": "2-3 כוסות [?]",
-      "best_guess": null,
-      "reason": "Second ingredient word unreadable."
+      "field": "instructions",
+      "text": "לפזר פרוסות שום [?] [?]",
+      "best_guess": "Gemini: וגזר קצוץ; earlier reading: unreadable",
+      "reason": "Last two words of the line are cramped; Gemini's reading is not clearly confirmed on the crop."
     },
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Most words unreadable."
+      "text": "[?] [?] [?] [?]",
+      "best_guess": "Gemini: וגם עשבי תיבול שמיר/פטרוזיליה; earlier reading: unreadable",
+      "reason": "Whole line is shaky and crosses a crease; could not confirm Gemini's words on the scan."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
