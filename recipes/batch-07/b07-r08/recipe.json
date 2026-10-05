@@ -1,0 +1,71 @@
+{
+  "id": "b07-r08",
+  "batch": 7,
+  "title": "סלט תערובת ירקות",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] כוסות [?] ירוקים [?]",
+        "[?] [?] [?] חסה ו[?]",
+        "[?]ות [?]דים",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] ובכוסות",
+        "[?] [?] 1 [?] [?] [?] בצל",
+        "[?] [?] [?] ירוק [?] [?]ים",
+        "רוטב: [?] [?] כיבת [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Square-ish card with a construction-company letterhead; a name (probably the source) is written in blue at the upper left. Lines list a mixture of vegetables ('חסה', 'בצל' and 'ירוק' appear) and the last line starts with 'רוטב:' (dressing). Mostly unreadable."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company group"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-09.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "סלט תערובת ירקות",
+      "best_guess": "סלט תערובת ירקות",
+      "reason": "Title is stretched and partly unclear; read as 'סלט תערובת ירקות'."
+    },
+    {
+      "field": "source",
+      "text": "blue name at the upper left",
+      "best_guess": null,
+      "reason": "Unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Most words unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
