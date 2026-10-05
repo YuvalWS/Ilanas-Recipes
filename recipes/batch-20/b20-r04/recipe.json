@@ -1,0 +1,76 @@
+{
+  "id": "b20-r04",
+  "batch": 20,
+  "title": "סלט חסה אלגנטי",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "מה צריך",
+      "items": [
+        "צרור עלי חסה",
+        "1 תפוח ירוק",
+        "1 אגס",
+        "1/2 בצל סגול קטן (לא חובה)",
+        "4-5 תמרים (אפשר להחליף גם בצימוקים)",
+        "1 כף שמן זית",
+        "מיץ מ־1/2 לימון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "כך עושים",
+      "steps": [
+        "קורעים את החסה בידיים לחתיכות בגודל ביס.",
+        "חוצים את התפוח, נפטרים מהליבה, ופורסים כל חצי לפרוסות דקיקות. אין צורך לקלוף (הידד!). חוזרים על הפעולה גם עם האגס.",
+        "פורסים את הבצל הסגול לפרוסות דקות.",
+        "נפטרים מהגלעינים של התמרים וקוצצים אותם לקוביות קטנות. עד כאן אפשר לשמור את כל המרכיבים במקרר עד ההגשה.",
+        "מערבבים בקערה גדולה את קרעי החסה, פרוסות התפוח, האגס והבצל, יחד עם קוביות התמרים. סוחטים מעל הכל את הלימון, מטפטפים משמן הזית, ומתבלים במלח ופלפל [?].",
+        "מערבבים [?]."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed introduction: 'מצד אחד לא רוצים לגנוב את ההצגה לתבשיל המושלם (ובטח שלא לקציצות של דודה חרוה), אבל כשסלט כל כך טעים בפני עצמו, זה קצת מתבקש שזה מה שיקרה בסוף.'",
+    "The printed range '5־4 תמרים' is typeset right-to-left; written here as 4-5."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-04.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-04.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions[4]",
+      "text": "ופלפל [?]",
+      "best_guess": "בנדיבות",
+      "reason": "Last word of the step looks like 'בנדיבות' but the print is faint."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "מערבבים [?]",
+      "best_guess": "וזוללים",
+      "reason": "Last word of the last step looks like 'וזוללים' but is not clear."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source or publication visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
