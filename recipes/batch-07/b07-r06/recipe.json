@@ -3,10 +3,10 @@
   "batch": 7,
   "title": "סלט סלק גזר",
   "source": {
-    "text": "מיכי",
+    "text": "מיקי",
     "type": "person",
-    "as_written": "מיכי",
-    "uncertain": true
+    "as_written": "מיקי",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -46,12 +46,6 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "מיכי",
-      "best_guess": "Gemini: מיקי; earlier reading: מיכי",
-      "reason": "The third letter could be כ or ק."
-    },
-    {
       "field": "ingredients[1]",
       "text": "על שקית [?]",
       "best_guess": "Gemini: לקט כרוב (or שום/כרוב); earlier reading: שלמה",
@@ -65,7 +59,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
