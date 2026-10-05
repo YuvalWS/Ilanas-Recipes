@@ -1,0 +1,85 @@
+{
+  "id": "b01-r15",
+  "batch": 1,
+  "title": "טורט עם קקאו וקינמון",
+  "source": {
+    "text": "[?]",
+    "type": "person",
+    "as_written": "עוגה ומה/ש... [?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים (להפריד חלבונים וחלמונים)",
+        "3/4 כוס סוכר",
+        "4 כפות קקאו",
+        "2 כפות קמח תופח",
+        "מעט קינמון מחול במים (2 כפות או 3 כפות מים)"
+      ]
+    },
+    {
+      "group": "לקרם",
+      "items": [
+        "1 אינסטנט וניל",
+        "1 כוס חלב",
+        "1 שמנת מתוקה",
+        "(להקציף יחד במשך דקה)",
+        "100 גר' שוקולד מריר",
+        "4 כפות חלב",
+        "1/4 חב' מרגרינה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "להקציף חלבונים, להוסיף לאט סוכר, להוסיף החלמונים, חלב חם, [?] הקקאו והקמח ולאפות בחום בינוני.",
+        "להרכיב את העוגה בקרם [?] , [?] הקרם [?] בכל [?] שוקולד [?].",
+        "[?] מרגרינה [?] חלב ו[?] [?] מרגרינה."
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-14.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "טורט עם קקאו וקינמון",
+      "best_guess": null,
+      "reason": "Title is clear; the text to its left (probable source) is not."
+    },
+    {
+      "field": "source",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Name after the title is unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "last two lines",
+      "best_guess": null,
+      "reason": "Handwriting too compressed to read."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
