@@ -14,12 +14,12 @@
       "group": null,
       "items": [
         "1 ק\"ג חזה עוף טחון",
-        "1 קישוא (ריסוק ולסחוט)",
-        "1 [?]",
+        "1 קישוא",
+        "1 תפו\"א / גזר",
         "1 שקית קניידלעך (פרורי לחם)",
-        "[?] מרק עוף [?] [?]",
+        "[?]. מרק עוף ([?] כוס)",
         "פפריקה",
-        "1 [?]",
+        "1 בצל",
         "הרבה שום 4,5"
       ]
     }
@@ -28,14 +28,17 @@
     {
       "group": null,
       "steps": [
+        "ריסוק ולסחוט",
         "להשהות כשעתיים."
       ]
     }
   ],
   "notes": [
     "Heading is 'קציצות / חיה' with a wavy line under it; 'חיה' is read as the source's first name (the card follows the usual 'title / person' pattern).",
-    "The only instruction on the card is the last line 'להשהות כשעתיים.' (let it rest about two hours); no cooking method is written.",
-    "Earlier transcription read the last line as 'לפחות כשעתיים'; on close crops the letters match her ה (as in 'הרבה'), giving 'להשהות'."
+    "A curly brace beside the קישוא and the line below it (תפו\"א / גזר) carries the words 'ריסוק ולסחוט' (crush/grate and squeeze), so it applies to both; it is kept as the first instruction step.",
+    "The last line 'להשהות כשעתיים.' (let it rest about two hours) is the only other instruction; what is rested and where is not written. The ה letters match her ה in 'הרבה'.",
+    "'4,5' after 'הרבה שום' is written with a comma; probably 4-5 (cloves) but the unit is not written.",
+    "The bracket after 'מרק עוף' is read as an opening bracket before the amount; no closing bracket is visible."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -53,47 +56,17 @@
       "field": "source",
       "text": "חיה",
       "best_guess": "חיה",
-      "reason": "The word is legible as 'חיה'; it is assumed to be a person's name (could theoretically be read as the word 'animal')."
-    },
-    {
-      "field": "ingredients[0].items[1]",
-      "text": "1 קישוא (ריסוק ולסחוט)",
-      "best_guess": null,
-      "reason": "The bracketed words are read as 'ריסוק ולסחוט' (grate/crush and squeeze); the last word's middle letters are cramped. No closing bracket is clearly visible."
-    },
-    {
-      "field": "ingredients[0].items[2]",
-      "text": "1 [?]",
-      "best_guess": "תפוח אדמה",
-      "reason": "A cramped run of letters that starts 'תפו' followed by what may be 'ח' or 'א', a slash-like stroke and 'ד', with apostrophe marks; may be 'תפוח אדמה' written compressed, or the abbreviation 'תפו\"א' plus another word."
+      "reason": "The word is legible as 'חיה' (Gemini agrees); it is assumed to be a person's name (could theoretically be the word 'animal')."
     },
     {
       "field": "ingredients[0].items[4]",
-      "text": "[?] מרק עוף [?] [?]",
-      "best_guess": "א. מרק עוף (1/2 כף) [?] מוס",
-      "reason": "Only 'מרק עוף' is clear. The first sign is a single letter with a period (looks like 'ג.' or 'א.', possibly an abbreviation of 'אבקת'). After 'עוף' there is a bracket-like stroke, then a letter with a '1' written above it (possibly '1 כף' or '½ כף'), and the last word looks like 'מוס' or 'מום'."
-    },
-    {
-      "field": "ingredients[0].items[6]",
-      "text": "1 [?]",
-      "best_guess": "בצל",
-      "reason": "Large shaky letters; the shapes fit 'בצל' (ב, צ, and a ל whose stroke rises into the line above) but are not certain."
-    },
-    {
-      "field": "ingredients[0].items[7]",
-      "text": "הרבה שום 4,5",
-      "best_guess": null,
-      "reason": "'4,5' is written with a comma; probably means 4-5 (cloves), but this is not stated."
-    },
-    {
-      "field": "instructions[0].steps[0]",
-      "text": "להשהות כשעתיים.",
-      "best_guess": "להשהות כשעתיים.",
-      "reason": "Read as 'להשהות' (the 'ה' letters look like her ה in 'הרבה'); previously read as 'לפחות'. What is to be rested is not stated."
+      "text": "[?]. מרק עוף ([?] כוס)",
+      "best_guess": "First sign: Gemini: א.; earlier reading: ג. or א. (possibly an abbreviation of אבקת). Amount: Gemini: 1/2; earlier reading: 1/2 כף",
+      "reason": "The first sign is a single letter with a period crossed by a long stroke. The amount is a '1' stacked over a cramped 2-like shape; the unit reads כוס (clear final ס), but the quantity is not certain enough."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
