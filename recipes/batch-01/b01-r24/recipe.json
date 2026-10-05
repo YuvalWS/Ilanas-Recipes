@@ -9,16 +9,16 @@
       "group": null,
       "items": [
         "4 ביצים גדולות",
-        "1/4 כוס פירורי [?] מבושל",
-        "1/2 כוס [?]",
-        "1 כוס [?] דקיקים [?]",
+        "1/4 כוס פירורי בשר מבושל",
+        "1/2 כוס [?] סלרי [?]",
+        "1 כוס רצועות דקיקות כרוב חי",
         "2 בצלים ירוקים קטנים",
-        "1-2 [?] [?]",
+        "1-2 גבעולי [?] [?]",
         "1/2 כפית מלח",
         "1/4 כפית פלפל שחור",
-        "מעט פפריקה חריפה",
-        "1 כפית יין [?]",
-        "5 כפות שמן זית"
+        "מעט פלפלת חריפה",
+        "1 כפית יין יבש [?]",
+        "5 כפות שמן לטיגון"
       ]
     }
   ],
@@ -26,7 +26,7 @@
     {
       "group": null,
       "steps": [
-        "שמים בקערה הביצים [?] ומקציפים בתנועות קלות.",
+        "[?] שמים בקערה הביצים ומקציפים בתנועות קלות.",
         "מוסיפים את החומרים והירקות קצוצים בביצה.",
         "מחממים שמן במחבת גדולה [?] כ-1/4 [?] [?] [?].",
         "[?] 2 [?] גדולות [?]",
@@ -36,7 +36,9 @@
     }
   ],
   "notes": [
-    "No title is written. The ingredients (eggs, spring onions, olive oil, paprika) suggest a savory dish, not a cake; I did not name the dish."
+    "No title is written. The ingredients (eggs, spring onions, olive oil, paprika) suggest a savory dish, not a cake; I did not name the dish.",
+    "The quantities lines 1/2 and 1/4 use ditto marks for 'כוס' and 'כפית'; ditto marks expanded.",
+    "Gemini's second reading titled this a 'pan quiche / vegetable omelet' and filled in mushroom flakes, dill, mayonnaise and a frying sequence (2 min, flip, 2 more min); none of that is visible on the card and it was not copied. No title is written on the card."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -57,20 +59,38 @@
       "reason": "No title is written on the card (the first line is '4 ביצים גדולות')."
     },
     {
-      "field": "ingredients",
-      "text": "lines 2-4, 6, 10",
-      "best_guess": null,
-      "reason": "Small, slanted handwriting."
+      "field": "ingredients[2]",
+      "text": "1/2 כוס [?] סלרי [?]",
+      "best_guess": "Gemini: עלי כרפס חתוכים (chopped celery leaves); earlier reading: unreadable; own view: first word smudged/overwritten, second possibly 'סלרי', last word ends in 'ות' or 'ים'",
+      "reason": "Smudged and overwritten handwriting."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "1 כוס רצועות דקיקות כרוב חי",
+      "best_guess": "Gemini: 1 כוס פתיתי פטריות (does not fit the ink); earlier reading: unreadable",
+      "reason": "Read from the zoomed crop ('רצועות דקיקות כרוב חי'); Gemini disagrees, so a human check is wanted."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "1-2 גבעולי [?] [?]",
+      "best_guess": "Gemini: גבעולי שמיר; own view: the following word seems to end in 'רי' (possibly 'סלרי'), not 'מיר'",
+      "reason": "Word after 'גבעולי' is smudged/overwritten."
+    },
+    {
+      "field": "ingredients[9]",
+      "text": "1 כפית יין יבש [?]",
+      "best_guess": "Gemini: 'יין יבש / מיונז' (the 'מיונז' is not visible); earlier reading: unreadable last word",
+      "reason": "'יין יבש' is readable; the last word is unclear (looks like 'טלוה')."
     },
     {
       "field": "instructions",
-      "text": "paragraph",
-      "best_guess": null,
-      "reason": "Words are very compressed and partly torn at the right edge."
+      "text": "steps 1, 3-6",
+      "best_guess": "Gemini: fry about 2 minutes, flip, about 2 more minutes each side (paraphrased, not confirmed on the card)",
+      "reason": "Cramped handwriting, partly cut off at the torn left edge; a crossed-out word starts step 1."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
