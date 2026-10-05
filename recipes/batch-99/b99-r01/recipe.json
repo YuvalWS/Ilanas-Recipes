@@ -1,0 +1,111 @@
+{
+  "id": "b99-r01",
+  "batch": 99,
+  "title": "עוגת גלידה",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "(handwritten name at the bottom, partly legible)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "4 ביצים",
+        "1 מקצפת [?]",
+        "3/4[?] כוס סוכר",
+        "100 גר' אגוזים[?] קצוצים",
+        "100 גר' שוקולד מרוסק[?]",
+        "3/4[?] כוס קשיו[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להקציף חלבונים + 1/2 כוס סוכר",
+        "מקצפת 1/4? (written with ditto marks)",
+        "לערבב שניהם עם החלמונים",
+        "לחלק [?] את כל ה[?] לשניים",
+        "[?] לערבב עם האגוזים",
+        "[במחצית?] השנייה לערבב עם ה[?]",
+        "להשאיר מעט אגוזים ושוקולד לקישוט",
+        "לשים ב־2 תבניות אלומיניום, [?]",
+        "[?] עם האגוזים ומעל [?]",
+        "הקצפת (2 כפות) (circled)"
+      ]
+    }
+  ],
+  "notes": [
+    "Two-sided memo sheet found loose in the root of the scan folder (not in any Batch folder). Scan 01 is the front (ingredients and start of the method, with mirrored show-through at the top left); scan 02 (rotated 180 degrees) is the printed-letterhead side with the continuation. Handwriting is only partly legible; unreadable words are [?].",
+    "Apparently a meringue, nut and chocolate ice-cream cake. The title 'עוגת גלידה' is written at the bottom of the second side, underlined; the word after it may be a name ('חיה').",
+    "Grouping the two scans as one recipe is an assumption based on the content flowing from one side to the other."
+  ],
+  "incidental_text": [
+    "Printed letterhead on scan 02: 'סהר' - 'שרותי גרפיקה והדפסה בע\"מ', תל-אביב, רח' המסגר 60, טלפון 30524"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2244-01.jpg",
+      "original_path": "Scanned_20261004-2244-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2244-02.jpg",
+      "original_path": "Scanned_20261004-2244-02.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת גלידה",
+      "best_guess": null,
+      "reason": "Written at the bottom of the back side; the word following it is not clear."
+    },
+    {
+      "field": "source",
+      "text": "חיה",
+      "best_guess": null,
+      "reason": "Name at the bottom, partly legible; not clearly a source."
+    },
+    {
+      "field": "ingredients[0].items[1]",
+      "text": "1 מקצפת [?]",
+      "best_guess": null,
+      "reason": "Unit/word unclear."
+    },
+    {
+      "field": "ingredients[0].items[3]",
+      "text": "אגוזים[?]",
+      "best_guess": null,
+      "reason": "Uncertain word (nuts type)."
+    },
+    {
+      "field": "ingredients[0].items[5]",
+      "text": "קשיו[?]",
+      "best_guess": null,
+      "reason": "Uncertain word."
+    },
+    {
+      "field": "raw_files",
+      "text": "01/02",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one recipe."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
