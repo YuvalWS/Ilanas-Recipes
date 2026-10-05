@@ -1,0 +1,77 @@
+{
+  "id": "b05-r08",
+  "batch": 5,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כוס רסק [?]",
+        "1/2 כפית מלח",
+        "1/2 [?] [crossed out] [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מבשלים 5 ד'",
+        "[?] [?] [?] 300 [?] מים [?]",
+        "מכסים ומבשלים [?] [?]",
+        "[?] עלים שמן [?]",
+        "[?] [?] [?] 3 [?]",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "A sauce-like list with no title. One word is crossed out in the 4th line (the crossed-out word looks like 'פלפל')."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-07.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "1 כוס רסק [?]",
+      "best_guess": null,
+      "reason": "Second word unreadable (might be עגבניות)."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Only 'מבשלים' and 'מכסים ומבשלים' are readable; the rest is too shaky."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "1/2 [?] [crossed out] [?]",
+      "best_guess": null,
+      "reason": "Line partly crossed out and unreadable."
+    },
+    {
+      "field": "title",
+      "text": "none",
+      "best_guess": null,
+      "reason": "No title visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
