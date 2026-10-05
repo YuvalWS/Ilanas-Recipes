@@ -1,0 +1,94 @@
+{
+  "id": "b01-r21",
+  "batch": 1,
+  "title": "עוגת שמרים עם פירורים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "4 כוסות קמח רגיל (להשאיר [?])",
+        "5 כפות סוכר",
+        "40 גר' שמרים",
+        "1/2 חבילה מרגרינה",
+        "1/2 [?]",
+        "קורט מלח",
+        "1 ביצה",
+        "2 חלמונים",
+        "2 כפות שמנת",
+        "1 [?]",
+        "1/8 כוס מי [?]",
+        "1/8 כוס מים"
+      ]
+    },
+    {
+      "group": "פירורים",
+      "items": [
+        "1/2 [?] קמח",
+        "1/2 [?] מרגרינה",
+        "1/4 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] את השמרים [?] ... [?] עם הסוכר [?] ... [?] להמיס [?] ...",
+        "ללוש בצק, אם צריך להוסיף קמח, [?] [?]",
+        "[?] ולהשאיר שיתפח [?]. למרוח מעט מחלבונים [?].",
+        "[?] פירורים: [?] קמח [?] מרגרינה [?] סוכר [?] להוסיף קמח וסוכר [?] לפזר [?]."
+      ]
+    }
+  ],
+  "notes": [
+    "Two-sided card: the front (page marked 108) holds the ingredients; the back (page marked 109) holds the method and the crumb topping. The grouping rests on the shared handwriting, the paper and the page numbers 108 / 109."
+  ],
+  "incidental_text": [
+    "Handwritten page numbers: 108 (front), 109 (back)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-20.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-20.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2101-21.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-21.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת שמרים עם פירורים",
+      "best_guess": null,
+      "reason": "The title line is small and smudged; 'שמרים' and 'פירורים' are consistent with the ingredients but the first word could differ."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Handwriting shaky; a bracketed note after the flour and the item beside '1/2' are unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all paragraphs",
+      "best_guess": null,
+      "reason": "Only isolated phrases can be read."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
