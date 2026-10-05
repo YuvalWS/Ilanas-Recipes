@@ -1,7 +1,7 @@
 {
   "id": "b05-r12",
   "batch": 5,
-  "title": "קציצות שווארמה/הודו אפויות",
+  "title": "קציצות שווארמה אפויות",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -20,7 +20,7 @@
         "2 כפות קטשופ",
         "גריל עוף, פלפל שחור",
         "כפית פפריקה מתוקה",
-        "מעט מלח / [?] מרק עוף"
+        "מעט מלח / א. מרק עוף"
       ]
     }
   ],
@@ -43,7 +43,8 @@
     "The title has a second line in brackets: '([?] קציצות)'; Gemini reads the number as 35 (possibly the yield), which is not confirmed.",
     "The back side (second scan) holds the oven steps; faint bleed-through of the front side is visible on it.",
     "Ditto marks expanded: the ״ before 'מי סודה' stands for 'כוס' from the row above.",
-    "Gemini additions not on the card were not adopted: 'נקבה', '(או גזר)' after קישוא, 'מים קרים' (card reads מים רותחים), 'מלח, פלפל'."
+    "Gemini additions not on the card were not adopted: 'נקבה', '(או גזר)' after קישוא, 'מים קרים' (card reads מים רותחים), 'מלח, פלפל'.",
+    "Written heading has שווארמה אפויות; הודו is an ingredient alternative, not part of the heading. Small parenthetical heading note still needs confirmation."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -74,10 +75,16 @@
       "text": "([?] קציצות)",
       "best_guess": "Gemini: 35",
       "reason": "The number in the bracketed second title line is ambiguous in the handwriting (80% sure, kept as unconfirmed)."
+    },
+    {
+      "field": "notes",
+      "text": "[?] קצבים",
+      "best_guess": null,
+      "reason": "Small parenthetical note under the title not fully certified."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
