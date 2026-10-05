@@ -6,7 +6,7 @@
     "text": "אסתר",
     "type": "person",
     "as_written": "אסתר",
-    "uncertain": false
+    "uncertain": true
   },
   "medium": "handwritten",
   "ingredients": [
@@ -41,18 +41,18 @@
     {
       "field": "ingredients[0].items[1]",
       "text": "[?] גר' אגוזים",
-      "best_guess": "150 גר' אגוזים",
-      "reason": "Quantity read as 150 on zoomed crops (the 5's top bar runs into the 0); the middle digit resembles her 3 slightly, so 130 is not fully excluded. Please confirm."
+      "best_guess": "Gemini: 150; earlier reading: 150 (130 not excluded)",
+      "reason": "Quantity reads 1?0 with a middle digit that could be her 5 or her 3 (the 5's top bar runs into the stem); zoomed crops do not settle it. Please confirm."
     },
     {
       "field": "source",
       "text": "אסתר",
-      "best_guess": null,
-      "reason": "The name 'אסתר' is clearly legible; a faint, broken mark (like an apostrophe or yod) follows it at the end of the title line and could not be read. It may be a stray mark."
+      "best_guess": "Gemini: אסתר ז'; earlier reading: אסתר followed by an unread mark",
+      "reason": "The name 'אסתר' is clearly legible; a small, faint, broken mark (apostrophe-like) follows it at the end of the title line. Gemini reads it as the initial 'ז'' but on the card it is too faint to confirm."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
