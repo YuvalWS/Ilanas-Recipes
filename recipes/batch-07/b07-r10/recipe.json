@@ -1,0 +1,63 @@
+{
+  "id": "b07-r10",
+  "batch": 7,
+  "title": "סלט חסה",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "חסה",
+        "[?] צנוניות",
+        "פרוסות פטריות [?]",
+        "עגבניות [?]",
+        "פטרוזיליה",
+        "בצל ירוק [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Underlined title 'סלט חסה / נורית' under a construction-company letterhead. The list is a mix of vegetables; the later lines are only partly readable."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company group"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-11.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "נורית",
+      "best_guess": "נורית",
+      "reason": "Name after the slash read as 'נורית' (possibly 'נוכרית'/other)."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Only some words are readable; quantities (if any) not clear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
