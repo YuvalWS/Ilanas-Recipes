@@ -1,12 +1,12 @@
 {
   "id": "b07-r07",
   "batch": 7,
-  "title": null,
+  "title": "חסה",
   "source": {
     "text": "שולה",
     "type": "person",
     "as_written": "שולה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -47,18 +47,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No title on the card (Gemini's 'רוטב לסלט' is not written on it)."
-    },
-    {
-      "field": "source",
-      "text": "שולה",
-      "best_guess": "Gemini: שולה; earlier reading: שולמית",
-      "reason": "Blue word written over the printed logo; the letters ש-ו-ל-ה fit the ink, but it is partly obscured."
-    },
-    {
       "field": "ingredients[0]",
       "text": "[?] כפות שמן זית",
       "best_guess": "earlier reading: 3; Gemini: 2",
@@ -84,7 +72,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
