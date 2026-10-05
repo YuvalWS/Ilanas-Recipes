@@ -10,6 +10,7 @@
     "id": {"type": "string", "pattern": "^b[0-9]{2}-r[0-9]{2,3}$", "description": "bNN-rMM: batch number and recipe order inside the batch."},
     "batch": {"type": "integer", "minimum": 1},
     "title": {"type": ["string", "null"], "description": "Title as written, or null when the card has none."},
+    "assigned_title": {"type": ["string", "null"], "minLength": 1, "pattern": "\\S", "description": "Optional editorial name chosen for browsing and search, not a transcription of the original heading. Keep title null for an untitled card. Omit or use null until a name is assigned."},
     "source": {
       "type": ["object", "null"],
       "additionalProperties": false,
