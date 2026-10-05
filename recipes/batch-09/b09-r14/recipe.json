@@ -8,10 +8,10 @@
     {
       "group": null,
       "items": [
-        "1/4 כוס יין",
-        "[?] [?] שלם או [?]",
-        "2 קפלולים [?]",
-        "2 בצלים"
+        "3/4 כוס יין",
+        "שורש סלרי שלם או חתוך",
+        "2 קישואים",
+        "2 גזר"
       ]
     }
   ],
@@ -33,25 +33,13 @@
   "uncertainties": [
     {
       "field": "title",
-      "text": "(none)",
+      "text": null,
       "best_guess": null,
-      "reason": "No title."
-    },
-    {
-      "field": "ingredients[1]",
-      "text": "[?] [?] שלם או [?]",
-      "best_guess": null,
-      "reason": "Item name and the last word are unclear."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "2 קפלולים [?]",
-      "best_guess": null,
-      "reason": "Item is unclear (maybe a vegetable name)."
+      "reason": "No title written on this ingredient-only card."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
