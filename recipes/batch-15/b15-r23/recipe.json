@@ -1,17 +1,17 @@
 {
   "id": "b15-r23",
   "batch": 15,
-  "title": "[?] ממולא [?]",
+  "title": "לזניה [?]",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "3 כפות שמן [?]",
-        "1 כוס [?]",
+        "3 כפות שמן זית",
+        "1 כוס פסטות חתוכות",
         "1 קוטג' [?]",
-        "1/4 כוס שמיר",
+        "1/2 כוס שמיר",
         "1 גבינה לבנה [?]",
         "2 ביצים טרופות",
         "עוד 1/4 כפית [?]",
@@ -31,7 +31,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card with a blue underlined title at the top left that reads partly 'גבינות? ממולא[?]'; the first line at the top right begins '3 כפות שמן'. Most lines are only partly legible; the bottom lines run to the page edge."
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a blue underlined title at the top left that reads partly 'גבינות? ממולא[?]'; the first line at the top right begins '3 כפות שמן'. Most lines are only partly legible; the bottom lines run to the page edge.",
+    "Heading appears to begin לזניה; last word is uncertain. Onion/oil upper block has a brace for browning."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -59,7 +60,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
