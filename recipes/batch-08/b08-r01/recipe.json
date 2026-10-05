@@ -1,7 +1,7 @@
 {
   "id": "b08-r01",
   "batch": 8,
-  "title": "[?]",
+  "title": "קציצות [?]",
   "source": null,
   "medium": "handwritten",
   "ingredients": [],
@@ -9,16 +9,16 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] [?] שרק הקפוא",
+        "קוצצים את הכרסה",
         "שמים בסיר ומכסים",
         "את הירק במים ומלח",
         "ומבשלים עד שמתרכך",
-        "ומסננים [?] [?] [?]",
-        "[?] [?] [?] סולתית [?]",
+        "ומסננים למסננת סוחטים",
+        "ומוציאים שתצא הרבה מים",
         "[?] [?] [?] הרבה [?] [?]",
-        "[?] שמים קמח [?] [?]",
-        "(reverse side) [?] 3 כוסות",
-        "(reverse side) [?], קצת סוכר"
+        "אח״כ שמים קמח מצה",
+        "בערך 3 כפות",
+        "[?], קצת סוכר"
       ]
     }
   ],
@@ -77,7 +77,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
