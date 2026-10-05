@@ -1,0 +1,63 @@
+{
+  "id": "b07-r17",
+  "batch": 7,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 כפות שמן זית",
+        "2 כפות מיץ לימון",
+        "2 כפות [?] [?]",
+        "1-2 כפות דבש",
+        "מלח, פילפל",
+        "[?] [?] גרגרי [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Lower block of the card of scan 17 (below the ruled line): a short heading, then a dressing list that is very similar to the vinaigrette on scan 01 (5 tbsp olive oil, 2 tbsp lemon juice, honey).",
+    "The heading is a short word starting with 'א' that could not be read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-17.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-17.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "heading",
+      "best_guess": null,
+      "reason": "Short heading unreadable."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "2 כפות [?] [?]",
+      "best_guess": null,
+      "reason": "Item unreadable."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "last line",
+      "best_guess": null,
+      "reason": "Last line unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
