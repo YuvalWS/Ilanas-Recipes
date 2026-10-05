@@ -9,7 +9,7 @@
     {
       "group": null,
       "steps": [
-        "4 חביתות:",
+        "8 חביתות:",
         "על חביתה מס' 1 למרוח מיונז",
         "לשים עלה חסה, חתיכות עגבניה ומלפפון",
         "מס' 2: 1 ביצה קשה פרוסות [?] או זיתים",
@@ -17,12 +17,13 @@
         "מס' 4: [?] טונה",
         "[?] ועוד 4 חביתות",
         "[?] על מגש [?] [?] [?]",
-        "גבינה מלוחה או בולגרית"
+        "גבינה מלוחה או צהובה"
       ]
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Layered omelet ('חביתות בשכבות'): four omelets, each with a different filling (as read). This is an interpretation of the card, not a statement on it. There are no ingredient quantities."
+    "Handwriting is only partly legible; unreadable words are [?]. Layered omelet ('חביתות בשכבות'): four omelets, each with a different filling (as read). This is an interpretation of the card, not a statement on it. There are no ingredient quantities.",
+    "First line says eight omelets, later repeat another four; final cheese option is צהובה, not בולגרית."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -44,7 +45,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
