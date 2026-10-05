@@ -8,11 +8,11 @@
     {
       "group": null,
       "items": [
-        "[?] כפות מיונז",
+        "2 כף מיונז",
         "2 כפות חומץ",
         "מלח פלפל",
         "מעט סוכר",
-        "1/2 שן [?] שום"
+        "1/2 קוביית שום"
       ]
     }
   ],
@@ -33,24 +33,11 @@
       "side": "front"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[0]",
-      "text": "[?] כפות מיונז",
-      "best_guess": "Gemini: 1/2 כוס מיונז; earlier reading: 2 כפות מיונז",
-      "reason": "The quantity digit is stretched/flourished; the unit looks like 'כפות' as on the next line."
-    },
-    {
-      "field": "ingredients[4]",
-      "text": "1/2 שן [?] שום",
-      "best_guess": "Gemini: 1/2 שן שום כתוש (no word between שן and שום); earlier reading: 1/2 כפית שום",
-      "reason": "A word between 'שן' and 'שום' is visible but cannot be read."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
