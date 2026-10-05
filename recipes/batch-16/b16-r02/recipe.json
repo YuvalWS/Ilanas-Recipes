@@ -1,0 +1,96 @@
+{
+  "id": "b16-r02",
+  "batch": 16,
+  "title": "ספגטי [בולונז?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כפית שמן",
+        "1 פלפל אדום (או גמבה) קוביות דק",
+        "1/4 ק\"ג בשר בקר טחון",
+        "[?] כוסות? רסק עגבניות [?]",
+        "[?] [?] 250 גר' ספגטי",
+        "פטרוזיליה קצוצה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים את השמן במחבת גדולה",
+        "ומטגנים את [?] [?] עד ש[?]",
+        "מוסיפים את הבשר הטחון ומשחימים [?]",
+        "[?] [?] מוסיפים רסק עגבניות [?] לבשל",
+        "(card 05) בינתיים מבשלים את הספגטי לפי הוראות היצרן במים מומלחים",
+        "מסננים [?] הספגטי ומוסיפים לרוטב [?]",
+        "(card 05) להגיש עם [?] מומלח/מגורד [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Three yellow sticky-note cards assumed to belong to one recipe: card 03 (rotated 180 degrees; has a staple) has the title and the ingredient list; card 04 (upright; printed letterhead of a contracting company, tel. 03-9658336) is a densely written block of preparation steps starting 'מחממים את השמן במחבת גדולה'; card 05 (rotated 180 degrees, same letterhead) continues with 'בינתיים מבשלים את הספגטי לפי הוראות היצרן ...'.",
+    "The title reads 'ספגטי בולונז...' with an unclear last word; the grouping of the three cards is the transcriber's assumption (same sticky-note pad, staple marks, and the word 'ספגטי' on cards 03 and 05)."
+  ],
+  "incidental_text": [
+    "Printed letterhead on cards 04 and 05: brick-pattern logo, 'חברה לקבלנות בע\"מ', tel. 03-9658336, fax 03-9653845"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-03.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-03.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2223-04.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    },
+    {
+      "file": "raw/Scanned_20261004-2223-05.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-05.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "ספגטי [בולונז?]",
+      "best_guess": "ספגטי בולונז",
+      "reason": "The word after 'ספגטי' is written in a cramped way; read as 'בולונז' with low confidence."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Quantities of tomato paste and the other lines partly unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "card 04",
+      "best_guess": null,
+      "reason": "Most of the dense block is illegible; only the first line and some phrases were read."
+    },
+    {
+      "field": "raw_files",
+      "text": "03/04/05",
+      "best_guess": null,
+      "reason": "Assumed to be one recipe (three cards)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
