@@ -1,0 +1,64 @@
+{
+  "id": "b01-r19",
+  "batch": 1,
+  "title": "עוגה / [?]",
+  "source": {
+    "text": "שרה [?]",
+    "type": "person",
+    "as_written": "שרה רט[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים מופרדות",
+        "[?] חלבונים + 1 כוס סוכר",
+        "[?] חלמונים",
+        "6 חלמונים + 1 כוס סוכר",
+        "1/2 כוס שמן [?] [?]",
+        "[?] כוס [?] [?]",
+        "[?] מיץ [?] (תפוזים?) [?]",
+        "2 כוסות קמח תופח",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "The handwriting is very shaky; below the divider line the ingredient list continues (2 כוסות קמח ...) and the card ends at the bottom edge without visible method."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-18.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-18.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגה / שרה ...",
+      "best_guess": null,
+      "reason": "Only 'עוגה' and a name starting with 'שרה' can be read."
+    },
+    {
+      "field": "ingredients",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Illegible handwriting; numbers and words uncertain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
