@@ -1,0 +1,95 @@
+{
+  "id": "b17-r08",
+  "batch": 17,
+  "title": "10 שוקיים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כפות קטשופ",
+        "1 [?] בר־בקיו",
+        "1 כף פפריקה מתוקה",
+        "1 כף תבלין עוף",
+        "5 כפות שמן [?]",
+        "1/2 כפית מלח",
+        "1/2 כוס מים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מערבבים עם השוקיים [?] [?] אלפיה? [?]",
+        "(back) [?] [?] [?] ו־[?] רוטב [?]",
+        "(back) להכניס השוקיים ל[?] [?]",
+        "(back) [?] מכוסה",
+        "(back) לתנור 180°",
+        "(back) כ־45 דקות מכוסה [?]",
+        "(back) [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card 07 (white, upright): the first line reads '10 שוקיים' with a wavy underline, followed by eight lines with numerals in the right column and the last line of the card in a different (smaller) hand ('מערבבים עם השוקיים ... '). Card 08 is the back of 07 (scan was upside down and was rotated 180 degrees) with a short block of instructions at the top; bleed-through from the front fills the rest.",
+    "The list looks like a marinade/sauce for chicken drumsticks (ketchup, barbecue, paprika, chicken seasoning), but the card does not say so."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-07.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2231-08.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "10 שוקיים",
+      "best_guess": "שוקיים",
+      "reason": "Read as the first line of the card; could be the number of drumsticks rather than a title."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "1 [?] בר־בקיו",
+      "best_guess": null,
+      "reason": "The first word is unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "5 כפות שמן [?]",
+      "best_guess": null,
+      "reason": "The last word is unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "card 08",
+      "best_guess": null,
+      "reason": "Only '180°' and 'מכוסה' are certain."
+    },
+    {
+      "field": "raw_files",
+      "text": "07/08",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
