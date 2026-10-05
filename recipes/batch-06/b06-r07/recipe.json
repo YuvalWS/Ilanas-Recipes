@@ -1,0 +1,65 @@
+{
+  "id": "b06-r07",
+  "batch": 6,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "ingredient-like lines in the middle of the card",
+      "items": [
+        "1/2 כוס שמן",
+        "2 כפות [?]",
+        "[?] שיני שום",
+        "[?] מ[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] מלח [?] [?] פפריקה",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?] 20 - 15 דקות",
+        "[?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Square card. 'פפריקה' and '20-15' (minutes?) are the clearest parts. The top lines are partly cut off at the card edge."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-08.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(no title)",
+      "best_guess": null,
+      "reason": "No title visible."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Most words unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
