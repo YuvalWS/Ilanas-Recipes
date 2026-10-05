@@ -1,7 +1,7 @@
 {
   "id": "b02-r06",
   "batch": 2,
-  "title": "פונ[?]",
+  "title": "פונטש",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -9,7 +9,7 @@
       "group": null,
       "items": [
         "יין אדום ולבן",
-        "מים [?] [?]",
+        "מים באותו כמות",
         "סוכר ([?] כוס)",
         "קוניאק (כמעט כוס)",
         "ג'ינג'ר [?]",
@@ -30,7 +30,8 @@
   "notes": [
     "A curly brace on the card groups ג'ינג'ר, קינמון and לימון together with 'לפי הטעם' (to taste) written beside it.",
     "Ginger is written roughly as 'גנג'ר' on the card; normalized here to ג'ינג'ר.",
-    "A signature or flourish at the bottom of the card."
+    "A signature or flourish at the bottom of the card.",
+    "Second line reads \"מים באותו כמות\" as written on the card (grammatically \"באותה\"); it appears to mean water in the same amount as the wine, but the card does not say so explicitly."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -45,32 +46,20 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "פונ[?]",
-      "best_guess": "פונש",
-      "reason": "First three letters (פ-ו-נ) are clear; the last one or two cramped glyphs (a 'C' shape and a looped stroke) do not clearly form ש. 'פונש' (punch) fits the content (wine, cognac, boiled and served hot)."
-    },
-    {
-      "field": "ingredients[0].items[1]",
-      "text": "מים [?] [?]",
-      "best_guess": null,
-      "reason": "Two words after 'מים' are unclear. First looks like ה/ב + א + ו + an open 'U' glyph + ן followed by a comma; second starts 'במו' (or 'כמו') and ends in a stroke trailing into a long line. No confident reading."
-    },
-    {
       "field": "ingredients[0].items[2]",
       "text": "סוכר ([?] כוס)",
-      "best_guess": "1/2",
-      "reason": "Quantity is a single small 'y'-like mark with a dot above; not written like the clear 1/2 on the lemon line. Could be 1/2 or a 4."
+      "best_guess": "Gemini: 1; earlier reading: 1/2",
+      "reason": "Quantity is a single small hooked mark with a dot above; not written like the clear 1/2 on the lemon line. Could be 1, 1/2 or a 4; not certain."
     },
     {
       "field": "ingredients[0].items[4]",
       "text": "ג'ינג'ר [?]",
-      "best_guess": null,
-      "reason": "Word after ginger (about four letters, ending in ר or כ, an open 'U' glyph in the middle) is unclear. Previous reading 'ביר' is not supported by the letter count."
+      "best_guess": "Gemini: מרוכך / מגורר (hedged between two words); earlier reading: ביר (rejected, letter count)",
+      "reason": "Word after ginger is about four glyphs ending in a ר/ך-like stroke; Gemini itself offers two different words and neither is confirmed by the ink."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
