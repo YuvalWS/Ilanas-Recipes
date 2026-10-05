@@ -1,0 +1,120 @@
+{
+  "id": "b03-r05",
+  "batch": 3,
+  "title": null,
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים (ל־6 סועדים)",
+      "items": [
+        "300 גרם גבינת חלומי פרוסה לפרוסות של 1/2 ס\"מ",
+        "2 כפות קמח",
+        "6 עלי מרווה",
+        "2 כפות לימון פרסי יבש טחון דק",
+        "1/2 כוס שמן זית"
+      ]
+    },
+    {
+      "group": "לירוקים",
+      "items": [
+        "50 גרם גרגירי אפונה טרייה חלוטה",
+        "50 גרם פול טרי חלוט וקלוף",
+        "50 גרם שעועית ירוקה חלוטה ופרוסה למקטעים",
+        "50 גרם שעועית רחבה חלוטה",
+        "1 צרור עלי רוקט",
+        "1 צרור עלי ראשד"
+      ]
+    },
+    {
+      "group": "לפריקה",
+      "items": [
+        "1/2 כוס פריקה",
+        "מיץ לימון לתיבול",
+        "שמן זית לתיבול"
+      ]
+    },
+    {
+      "group": "לקולי פטרוזיליה",
+      "items": [
+        "1 צרור פטרוזיליה",
+        "1/4 כוס שמן קנולה",
+        "מעט מלח"
+      ]
+    },
+    {
+      "group": "להגשה",
+      "items": [
+        "1/2 כוס שקדים טבעיים שהושרו במים חמים ונקלפו",
+        "1 כפית חרדל איכותי ללא גרעינים",
+        "2 בצלי שאלוט קצוצים דק",
+        "1/4 כוס מיץ לימון",
+        "1/4 כוס שמן זית",
+        "1/2 כוס קרוטונים איכותיים (עדיף תוצרת בית)",
+        "מלח ופלפל שחור לפי הטעם"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מבשלים את הפריקה בסיר מים רותחים כ־15 דקות עד שהיא מוכנה. מסננים ושוטפים. לפני ההגשה מתבלים במיץ לימון, שמן זית ומעט כמון.",
+        "חולטים את האפונה, הפול ושני סוגי השעועית, כל אחד בנפרד, במים רותחים עם מעט מלח למשך חצי דקה עד דקה וחצי. מעבירים מיד למי קרח ומסננים. קולפים את הפול וחותכים את השעועית הירוקה למקטעים. שומרים במקרר.",
+        "שוטפים את עלי הרוקט ועלי הראשד, מייבשים ושומרים במקרר.",
+        "חולטים את הפטרוזיליה כ־4 דקות בסיר מים רותחים ומצננים מיד במי קרח. מסננים מהנוזלים וטוחנים בבלנדר עם 1/4 כוס שמן קנולה ומעט מלח. מסננים ושומרים במקרר.",
+        "מפזרים את כל הירוקים בצלחות ההגשה (פיזור שטוח), ובינהם את הפריקה והשקדים. בקערה נפרדת טורפים את החרדל, בצלי השאלוט, מיץ הלימון ושמן הזית, מתבלים במלח ופלפל ומזלפים על הירקות. מזלפים בין הירקות את קולי הפטרוזיליה.",
+        "במקביל מחממים מחבת טפלון. מקמחים את פרוסות החלומי, מנערים ומטגנים בשמן הזית ועלי המרווה עד להזהבה. מספיגים, מאבקים באבקת הלימון הפרסי ומניחים על הירוקים. מפזרים את הקרוטונים ומגישים מיד."
+      ]
+    }
+  ],
+  "notes": [
+    "Newspaper clipping in three pieces (right column: ingredients; middle column: sauce/serving ingredients and first steps; left piece: remaining steps). The recipe title is not on the clipping - the header of the middle piece is cut off (only the end '...רט כמון' is visible).",
+    "The ingredients list for the main part has no separate header; 'לפריקה' is a printed sub-header for the freekeh part.",
+    "The cut-off ends of lines at the clipping edges were not guessed; the piece order was reconstructed from the text flow."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-06.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "header '...רט כמון'",
+      "best_guess": null,
+      "reason": "The header of the middle piece is cut off, so no title can be read."
+    },
+    {
+      "field": "ingredients[1].items[5]",
+      "text": "עלי ראשד",
+      "best_guess": null,
+      "reason": "Printed word 'ראשד' is as read; may be a typo or a cut word in the original."
+    },
+    {
+      "field": "instructions",
+      "text": "step order",
+      "best_guess": null,
+      "reason": "Steps are assembled from three clipped pieces; the order follows the text flow but the clipping has no numbering."
+    },
+    {
+      "field": "source",
+      "text": "newspaper",
+      "best_guess": null,
+      "reason": "The publication is not visible on the scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
