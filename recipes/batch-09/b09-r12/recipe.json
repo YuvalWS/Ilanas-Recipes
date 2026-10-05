@@ -1,0 +1,91 @@
+{
+  "id": "b09-r12",
+  "batch": 9,
+  "title": "בשר בקר",
+  "source": {
+    "text": "דורה",
+    "type": "person",
+    "as_written": "דורה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "ג'ינג'ר [?] 1/2 [?]",
+        "[?] 1/4",
+        "1 שקית [?] מרק בצל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להשרות כל הלילה במקרר.",
+        "בתנור: בהתחלה [?] [?] [?]",
+        "[?] [?] [?] [?] [?] בישול.",
+        "חשוב! להתחיל בחום גבוה",
+        "[?] [?] [?] [?] [?]",
+        "(reverse side) להוריד [?] [?] ל[?]ות",
+        "(reverse side) ולהמשיך לבשל עד שמתרכך",
+        "(reverse side) ולהוריד בחום [?] [?]."
+      ]
+    }
+  ],
+  "notes": [
+    "Ruled index card; heading 'בשר בקר / דורה' (beef / Dora). The top three lines look like ingredient quantities (ginger, a quarter of something, one packet of onion soup mix); the method says to soak overnight in the refrigerator, start the oven at a high temperature (marked 'important!') and then reduce the heat and cook until tender.",
+    "Scan 16 (ruled card, only three handwritten lines at the top) is treated as the back / continuation."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-15.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2153-16.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-16.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "דורה",
+      "best_guess": "דורה",
+      "reason": "Name after the slash read as 'דורה'."
+    },
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Items and quantities partly unclear (ginger?, onion soup mix?)."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Parts of several lines are unreadable."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 16 assumed to continue scan 15 (same card style and pen)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
