@@ -6,7 +6,7 @@
     "text": "חיה",
     "type": "person",
     "as_written": "קציצות / חיה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -17,7 +17,7 @@
         "1 קישוא",
         "1 תפו\"א / גזר",
         "1 שקית קניידלעך (פרורי לחם)",
-        "[?]. מרק עוף ([?] כוס)",
+        "א. מרק עוף ([?] כוס)",
         "פפריקה",
         "1 בצל",
         "הרבה שום 4,5"
@@ -53,12 +53,6 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "חיה",
-      "best_guess": "חיה",
-      "reason": "The word is legible as 'חיה' (Gemini agrees); it is assumed to be a person's name (could theoretically be the word 'animal')."
-    },
-    {
       "field": "ingredients[0].items[4]",
       "text": "[?]. מרק עוף ([?] כוס)",
       "best_guess": "First sign: Gemini: א.; earlier reading: ג. or א. (possibly an abbreviation of אבקת). Amount: Gemini: 1/2; earlier reading: 1/2 כף",
@@ -66,7 +60,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
