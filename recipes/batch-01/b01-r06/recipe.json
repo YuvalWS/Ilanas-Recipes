@@ -1,19 +1,23 @@
 {
   "id": "b01-r06",
   "batch": 1,
-  "title": "בצק פריך (מורים)",
-  "source": null,
+  "title": "בצק פריך",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "([?])",
+    "uncertain": true
+  },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "[?] כוסות קמח [?]",
+        "2 כוסות קמח אוסם",
         "1 מרגרינה",
-        "[?] חלמונים",
-        "1/4 [?]",
-        "[?] ...",
-        "[?]"
+        "2 חלמונים",
+        "1/4 גביע לבן / [?]",
+        "[?] [?] [?]"
       ]
     }
   ],
@@ -21,13 +25,19 @@
     {
       "group": null,
       "steps": [
-        "[?] ... [?] שמן קמח ... [?]",
-        "[?] [?]"
+        "למרוח [?] שמן קמח [?] [?]",
+        "[?]",
+        "לחלק ל-4"
       ]
     }
   ],
-  "notes": [],
-  "incidental_text": [],
+  "notes": [
+    "The parenthetical word after the title is probably the source (a name); it is recorded as source, not as part of the title.",
+    "A wavy line separates the ingredient/instruction block from the last line 'לחלק ל-4'."
+  ],
+  "incidental_text": [
+    "Small unreadable mark/doodle at the bottom center of the card (not part of the recipe)."
+  ],
   "raw_files": [
     {
       "file": "raw/Scanned_20261004-2101-06.jpg",
@@ -37,29 +47,41 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "(מורים)",
-      "best_guess": null,
-      "reason": "The word in parentheses after the title is unclear."
+      "field": "source",
+      "text": "([?])",
+      "best_guess": "אורית (Gemini reading; first letter shape matches her א as in 'אוסם') / מורים (earlier AI reading)",
+      "reason": "Word in parentheses next to the title is shaky; first letter looks like א, the rest (ו/ר/י/ת?) is not certain."
     },
     {
-      "field": "ingredients",
-      "text": "most lines",
-      "best_guess": null,
-      "reason": "Very shaky handwriting; only 'מרגרינה' and 'חלמונים' are reasonably clear."
+      "field": "ingredients[3]",
+      "text": "1/4 גביע לבן / [?]",
+      "best_guess": "מים (Gemini and own reading: מ-י-ם shapes) / שמנת",
+      "reason": "Word after the slash is shaky; last letter is a loop with a long stem. 'גביע' is also shaky but fits with 'לבן' and Gemini agrees."
     },
     {
-      "field": "instructions",
-      "text": "all",
+      "field": "ingredients[4]",
+      "text": "[?] [?] [?]",
+      "best_guess": "1/2 שקית אבקת אפיה / 1/2 שקית בקינג פאודר (own readings); Gemini reads '1/2 כוס סוכר' but the card has far more letters than 'כוס סוכר'",
+      "reason": "Fraction denominator unclear (1/2?); first word looks like ש-ק-ת (שקית?); second part is ~8 shaky letters (ב/פ, ק, י, ... ד, ר)."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "למרוח [?] שמן קמח [?] [?]",
+      "best_guess": "למרוח מעט שמן קמח שלא ידבק ('מעט' = Gemini reading, letter shapes מ-ע-ט plausible; 'שלא ידבק' = own reading)",
+      "reason": "Word after 'למרוח' and the last two words (crowded at the left edge, crossing the wavy line) are shaky."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "Illegible."
+      "reason": "A short word or two continuing below at the left edge (letters like ו, ק/ה, מ, י, ף); cannot be read. Gemini's 'קקאו, קינמון, אגוזים / שוקולד וברנדי' does not match the letters on the card and was rejected."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
