@@ -15,7 +15,7 @@
       "items": [
         "3 כפות יין לבן",
         "2-3 כפות רוטב טריאקי",
-        "3 כפות סויה"
+        "2 כפות סילן"
       ]
     }
   ],
@@ -67,7 +67,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
