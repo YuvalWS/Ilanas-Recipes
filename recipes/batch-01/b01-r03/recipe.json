@@ -33,7 +33,7 @@
     {
       "group": null,
       "steps": [
-        "מחממים תנור לחום בינוני ([?]).",
+        "מחממים תנור לחום בינוני (180).",
         "משמנים ומקמחים תבנית 26.",
         "מפזרים לתוכה את השקדים המולבנים הקצוצים."
       ]
@@ -44,7 +44,8 @@
     "After the final period there is a small hooked mark (like a check mark or a small 'ט'); it may be a 'continued' sign, but its meaning is not clear.",
     "The card gives '(100 גר')' for both the 1 cup of ground almonds and the 1/2 cup of chopped blanched almonds; this is transcribed as written.",
     "The tin size '26' appears to be written twice (once at the end of the line and once again just above it); recorded once.",
-    "Last word of the syrup juice line ('טרי') sits cramped at the left edge of the card; read as 'טרי' (consistent with the ink and with Gemini's independent reading)."
+    "Last word of the syrup juice line ('טרי') sits cramped at the left edge of the card; read as 'טרי' (consistent with the ink and with Gemini's independent reading).",
+    "Independent Codex rereading confirms the written oven temperature 180 in the enlarged scan. The source surname is cut off; no missing continuation was reconstructed."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -69,16 +70,10 @@
       "text": "[?] כוס סוכר",
       "best_guess": "Gemini: 1; earlier reading: 1 (could also be 1/2 or 4)",
       "reason": "The quantity before 'כוס סוכר' in the syrup is a single looped glyph that runs into the fraction on the line above; on the zoomed crop the closed loop at its base also resembles a '4', so it is not certain."
-    },
-    {
-      "field": "instructions[0].steps[0]",
-      "text": "([?])",
-      "best_guess": "Gemini: 180; earlier reading: 180°",
-      "reason": "Oven temperature in parentheses is partly overwritten with heavy ink; the digits look like 180 but the last digit is smudged, so not certain."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
