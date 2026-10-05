@@ -2,24 +2,29 @@
   "id": "b07-r07",
   "batch": 7,
   "title": null,
-  "source": null,
+  "source": {
+    "text": "שולה",
+    "type": "person",
+    "as_written": "שולה",
+    "uncertain": true
+  },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "3 כפות שמן זית",
+        "[?] כפות שמן זית",
         "[?] כפות [?] מיץ [?] 4 לימון",
         "2 שיני שום כתושה",
-        "[?] כפיות מלח, פלפל גרוס",
-        "1 כף סוכר ([?] 20 [?])"
+        "1/2 כפית מלח, פלפל גרוס",
+        "1 כף סוכר (20 שניות במיקרוגל"
       ]
     }
   ],
   "instructions": [],
   "notes": [
-    "Dressing-type ingredient list with a large blue word at the upper right (probably a person's name or a label) next to the printed letterhead. A small note is written at the bottom left corner.",
-    "The back (scan 08) is mostly faint show-through of the front; a few blue words at the upper right (e.g. '[?]ים') cannot be read."
+    "Dressing-type ingredient list. The blue word at the upper right (the source) is written over the printed letterhead logo. Last line is continued at the bottom left corner in a small second row ('(20 שניות' / 'במיקרוגל').",
+    "The back (scan 08) is mostly faint show-through of the front plus about three lines of blue words at the upper right that cannot be read; Gemini's 'toppings' list (carrot, cranberries, nuts) is not visible on the card and was not copied."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company group (logos, phone/fax numbers)"
@@ -45,35 +50,41 @@
       "field": "title",
       "text": "(none)",
       "best_guess": null,
-      "reason": "No title; the word at the top right might be a name/label."
+      "reason": "No title on the card (Gemini's 'רוטב לסלט' is not written on it)."
     },
     {
       "field": "source",
-      "text": "word at the top right",
-      "best_guess": null,
-      "reason": "Written in blue, partly hidden by the letterhead; unreadable. Possibly 'שולמית'."
+      "text": "שולה",
+      "best_guess": "Gemini: שולה; earlier reading: שולמית",
+      "reason": "Blue word written over the printed logo; the letters ש-ו-ל-ה fit the ink, but it is partly obscured."
+    },
+    {
+      "field": "ingredients[0]",
+      "text": "[?] כפות שמן זית",
+      "best_guess": "earlier reading: 3; Gemini: 2",
+      "reason": "The digit is not certain."
     },
     {
       "field": "ingredients[1]",
       "text": "[?] כפות [?] מיץ [?] 4 לימון",
-      "best_guess": null,
-      "reason": "Quantities unclear; possibly juice of 4 lemons."
+      "best_guess": "Gemini: 4 כפות מיץ לימון / מיץ מ-4 לימונים (its two readings differ); earlier reading: possibly juice of 4 lemons",
+      "reason": "Quantities and the small words around '4' are unclear."
     },
     {
       "field": "ingredients[4]",
-      "text": "1 כף סוכר ([?] 20 [?])",
-      "best_guess": null,
-      "reason": "Parenthetical note unclear (maybe a time)."
+      "text": "(20 שניות במיקרוגל",
+      "best_guess": "Gemini: 20 שניות במיקרוגל",
+      "reason": "Small bottom-left second row; the word 'במיקרוגל' is partly legible and matches Gemini's reading, but the closing is unclear."
     },
     {
       "field": "raw_files",
-      "text": "front/back",
+      "text": "back",
       "best_guess": null,
-      "reason": "Scan 08 assumed to be the back of scan 07."
+      "reason": "Back (scan 08) blue words at top right are unreadable; scan 08 assumed to be the back of scan 07."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
