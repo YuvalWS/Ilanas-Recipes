@@ -1,8 +1,13 @@
 {
   "id": "b22-r10",
   "batch": 22,
-  "title": "עוגת גבינה [?]",
-  "source": null,
+  "title": "עוגת גבינה",
+  "source": {
+    "text": "אסתר",
+    "type": "person",
+    "as_written": "אסתר",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -34,7 +39,7 @@
         "לערבב את הגבינה בתערובת [?]",
         "[?] הבצק כ-1/4 [?]",
         "[?] הגבינה [?] כשהוא מוכן?",
-        "2 חלבונים + 1 [?] סוכר [?]",
+        "2 חלבונים + 1 כף סוכר שמים על",
         "[?] 10 דקות עד [?]"
       ]
     }
@@ -55,12 +60,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
       "field": "ingredients",
       "text": "[?]",
       "best_guess": null,
@@ -74,7 +73,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
