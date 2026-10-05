@@ -1,0 +1,72 @@
+{
+  "id": "b07-r03",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/3 [?] שמן [?]",
+        "1/3 [?] מיץ לימון",
+        "1/2 [?] [crossed out]",
+        "1 [?] [?]",
+        "1 חופן תמרים [?]",
+        "1 [?] שקדים פרוסים",
+        "1 [?] תפוח [?]-סמית פרוס/ה"
+      ]
+    },
+    {
+      "group": "left column (three short lines, each starting with 1 [?])",
+      "items": [
+        "1 [?]",
+        "1 [?]",
+        "1 [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?].",
+    "Small square card with a printed rule at the top edge; two columns of quantities and items. A heading-like crossed-out word is at the top. Looks like a salad/dressing ingredient list with dates (תמרים), sliced almonds (שקדים פרוסים) and an apple, but the exact items are partly unclear."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-03.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title visible."
+    },
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Units and several items unreadable."
+    },
+    {
+      "field": "ingredients[6]",
+      "text": "תפוח [?]-סמית",
+      "best_guess": "תפוח גרני סמית פרוס",
+      "reason": "Possibly 'גרני סמית' (Granny Smith); unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
