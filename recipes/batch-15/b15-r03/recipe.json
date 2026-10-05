@@ -51,16 +51,10 @@
       "text": "[?] כוס קמח תופח",
       "best_guess": null,
       "reason": "The fraction and word after 'קמח' are unclear."
-    },
-    {
-      "field": "title",
-      "text": "לביבות תירס",
-      "best_guess": "לביבות תירס",
-      "reason": "Read from a box; the second word is clear but not certain."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
