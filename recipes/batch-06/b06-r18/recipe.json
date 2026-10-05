@@ -9,16 +9,16 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] [?] [?] [?]",
-        "[?]",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?]"
+        "[?] [?] [?] [?]",
+        "מטוגן",
+        "גריל דג, פלפל שחור",
+        "פפריקה"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Only four short lines of very large writing; the rest of the card is blank."
+    "Only four short lines of very large writing; the rest of the card is blank. Line 1 is still unreadable.",
+    "Line 3 starts with 'גריל דג' on the card; Gemini's earlier version added 'תבלין' (not on the card), and its later version agrees with the card."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -30,17 +30,17 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Nothing readable with confidence."
+      "text": "line 1",
+      "best_guess": "Gemini: כל זה פרוס דק; earlier reading: unreadable",
+      "reason": "Gemini's reading could not be confirmed on the crop: the glyph groups of line 1 do not clearly match these words (the 4th-5th groups resemble 'פלפל' in line 3)."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
