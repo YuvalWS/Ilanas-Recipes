@@ -1,8 +1,13 @@
 {
   "id": "b23-r01",
   "batch": 23,
-  "title": "עוגת [?]",
-  "source": null,
+  "title": "עוגת אגוזים",
+  "source": {
+    "text": "[?]",
+    "type": "person",
+    "as_written": "[?]",
+    "uncertain": true
+  },
   "medium": "handwritten",
   "ingredients": [],
   "instructions": [
@@ -10,15 +15,15 @@
       "group": null,
       "steps": [
         "(above the first line, small: 'בדוק')",
-        "4 חלבונים + [?] סוכר [?]",
-        "[?] גר' אגוזים קצוצים [?]",
+        "4 חלבונים + 1 כוס סוכר להקציף",
+        "150 ג׳ אגוזים קצוצים גס — להוסיף",
         "[?] משטחים בתבנית שטוחה",
-        "על התנור 175/180 (גבוה?) [?]",
-        "לשמן במרגרינה או שמן [?] זית",
-        "[?] לשטוח הכל בתבנית [?]",
+        "תבנית שטוחה של התנור 33/35 (אלומיניום)",
+        "לשמן במרגרינה או על ניר אפיה",
+        "חלמון 1 + 2 כפות קמח [?]",
         "לשפוך [?]",
-        "לאפות בחום בינוני [?]",
-        "[?] לאפות אחרי [?]",
+        "לאפות בחום נמוך 1 שעה בערך",
+        "לכבות אש. לפתוח אחרי 1/2 שעה",
         "[?] כשהוא מהתנור [?] [?] [?]",
         "[?] ו[?] מהתנור [?]"
       ]
@@ -42,12 +47,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
       "field": "instructions",
       "text": "[?]",
       "best_guess": null,
@@ -55,7 +54,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
