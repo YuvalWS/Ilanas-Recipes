@@ -1,0 +1,40 @@
+{
+  "id": "b21-r07",
+  "batch": 21,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is almost entirely illegible; one line is struck out. Rescan recommended."
+  ],
+  "incidental_text": [
+    "Orange printed company logo (not identified)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-08.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "Not readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
