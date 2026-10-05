@@ -24,10 +24,21 @@ def git(*args, env=None):
     return r.stdout.strip()
 
 
+def has_ref(ref):
+    return subprocess.run(["git", "-C", ROOT, "show-ref", "--verify", "--quiet", ref]).returncode == 0
+
+
 for rid in [a for a in sys.argv[1:] if not a.startswith("--")]:
     branch = f"recipe/{rid}"
     folder = f"recipes/batch-{rid.split('-')[0][1:]}/{rid}"
-    old = json.loads(git("show", f"{branch}:{folder}/recipe.json"))
+    if not has_ref(f"refs/heads/{branch}"):
+        # the recipe PR was already merged: open a follow-up branch from origin/main
+        branch = f"recipe/{rid}-reread"
+        if not has_ref(f"refs/heads/{branch}"):
+            git("update-ref", f"refs/heads/{branch}", "origin/main")
+        old = json.loads(git("show", f"origin/main:{folder}/recipe.json"))
+    else:
+        old = json.loads(git("show", f"{branch}:{folder}/recipe.json"))
     new = json.load(open(os.path.join(ROOT, folder, "recipe.json"), encoding="utf-8"))
     with tempfile.TemporaryDirectory() as td:
         env = {"GIT_INDEX_FILE": os.path.join(td, "index")}
@@ -42,6 +53,9 @@ for rid in [a for a in sys.argv[1:] if not a.startswith("--")]:
     git("update-ref", f"refs/heads/{branch}", commit)
     git("push", "origin", branch)
     title = f"Add recipe {rid}: {new['title'] or '(untitled)'}"
+    if branch.endswith("-reread"):
+        title = f"Re-read {rid}: {new['title'] or '(untitled)'} (confidence {old['confidence']} -> {new['confidence']})"
+        subprocess.run(["gh", "pr", "create", "--base", "main", "--head", branch, "--title", title, "--body", pp.body(new)], check=False)
     subprocess.run(["gh", "pr", "edit", branch, "--title", title, "--body", pp.body(new)], check=False)  # PR may not exist yet
     print(f"{rid}: updated ({old['confidence']} -> {new['confidence']})")
     if MERGE and new["confidence"] == "high" and "[?]" not in json.dumps([new["title"], new["ingredients"], new["instructions"], new["notes"]], ensure_ascii=False):
