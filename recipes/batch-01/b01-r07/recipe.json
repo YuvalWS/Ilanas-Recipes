@@ -15,20 +15,20 @@
       "items": [
         "6 ביצים",
         "1 1/4 כוס קמח אוסם",
-        "1 1/4 כוס סוכר ([?])",
+        "1 1/4 כוס סוכר (להקציף חלבון)",
         "2 כפות שמן",
         "1 סוכר וניל",
-        "מעט [?]",
-        "1/2 - [?] כוס מיץ [?]",
+        "מעט רום",
+        "1/2 - 1/4 כוס מיץ תפוזים",
         "([?] ביצה [?] [?])"
       ]
     }
   ],
   "instructions": [
     {
-      "group": "circled note (left side of the card)",
+      "group": "דרך הכנה לפי רות",
       "steps": [
-        "דרך [?] לפי רות",
+        "דרך הכנה לפי רות",
         "[?] [?]",
         "[?]",
         "אפיה, לכסות",
@@ -40,7 +40,8 @@
   "notes": [
     "Green sticky note. Heading reads 'טורט / יהודית' (title / source).",
     "The circled note on the left is headed 'לפי רות' (according to Ruth) - apparently a method/topping variant from a second person; most of it is hard to read.",
-    "Ditto marks expanded: the sugar line is written '1 1/4 \" סוכר'; the ditto mark repeats 'כוס' from the flour line."
+    "Ditto marks expanded: the sugar line is written '1 1/4 \" סוכר'; the ditto mark repeats 'כוס' from the flour line.",
+    "Independent Codex full-card/crop rereading confirms רום, תפוזים, the second fraction 1/4 by comparison with the flour/sugar fractions, להקציף חלבון, and דרך הכנה לפי רות. The juice fractions are retained in the written order. The remaining circled preparation text and per-egg note remain unresolved."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -56,33 +57,9 @@
   "uncertainties": [
     {
       "field": "ingredients",
-      "text": "1 1/4 כוס סוכר ([?])",
-      "best_guess": "להקציף חלבון",
-      "reason": "Small two-line note in parentheses after 'סוכר'; letters partly match 'להקציף חלבון' (also Gemini's reading) but I cannot confirm it on the zoomed crop."
-    },
-    {
-      "field": "ingredients",
-      "text": "מעט [?]",
-      "best_guess": "רום (earlier AI reading) / מלח (Gemini)",
-      "reason": "Short word of two or three letters; readers disagree and the crop does not settle it."
-    },
-    {
-      "field": "ingredients",
-      "text": "1/2 - [?] כוס מיץ [?]",
-      "best_guess": "second fraction: 1/4 (my reading; the glyph matches her '4' in '1 1/4') / 1/3 (Gemini). Last word: תפוזים (earlier AI reading) / חלמונים (Gemini)",
-      "reason": "Second fraction and the last word of the line are shaky; readings disagree."
-    },
-    {
-      "field": "ingredients",
       "text": "([?] ביצה [?] [?])",
       "best_guess": "לכל ביצה 1/5 כוס (my reading) / לכל ביצה כף מים (Gemini)",
       "reason": "Bracketed line at the bottom of the card. 'ביצה' is readable; the first word looks like 'לכל', and the quantity/unit is either '1/5 כוס' or 'כף מים' - not certain."
-    },
-    {
-      "field": "instructions",
-      "text": "דרך [?] לפי רות",
-      "best_guess": "הכנה / ההכנה",
-      "reason": "First line of the circled note; 'דרך' and 'לפי רות' are readable, the word between them is not certain."
     },
     {
       "field": "instructions",
@@ -116,7 +93,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
