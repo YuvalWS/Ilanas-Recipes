@@ -1,0 +1,70 @@
+{
+  "id": "b13-r02",
+  "batch": 13,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ביסקוויטים טבולים בחלב",
+        "עוד [?] קרם [?]",
+        "ביסקוויטים טבולים בחלב",
+        "ומקופלים - [?]!",
+        "(blue ink) [?] הכל לשים [?]",
+        "אפשר לקשט [?] שוקולד",
+        "מרוסק"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a printed frame; the top four lines (black-blue ink) repeat the layering instruction 'biscuits dipped in milk'; the last three lines (lighter blue ink, a different pen) look like an added tip: 'you can decorate with crushed chocolate'. A word after the dash on the fourth line is underlined and unclear.",
+    "Likely a continuation of the biscuit cake card in scan 01, but this is not certain."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2209-02.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[1]",
+      "text": "עוד [?] קרם [?]",
+      "best_guess": null,
+      "reason": "Words unclear."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "ומקופלים - [?]",
+      "best_guess": null,
+      "reason": "The underlined word is unclear."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "[?] הכל לשים [?]",
+      "best_guess": null,
+      "reason": "Blue ink line partly unclear."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
