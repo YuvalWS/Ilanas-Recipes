@@ -1,0 +1,80 @@
+{
+  "id": "b01-r23",
+  "batch": 1,
+  "title": "עוגת קקאו / 3 שכבות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "ללוש בצק",
+      "items": [
+        "חבילה קמח אוסם",
+        "4 חלמונים",
+        "1 מרגרינה",
+        "[?] כוס סוכר",
+        "מעט וניל"
+      ]
+    },
+    {
+      "group": "ב",
+      "items": [
+        "כוס חלב או מים",
+        "3 כפות קקאו"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "100 גר' קוקוס",
+        "1 כוס סוכר",
+        "חלבונים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לחלק ל-2.",
+        "א. לרפד תבנית.",
+        "ב. להוסיף כוס חלב או מים ו-3 כפות קקאו, לשפוך על חלק א', לאפות כ-1/4 שעה.",
+        "להקציף את החלבונים + 1 כוס סוכר + 100 גר' קוקוס, לאפות עד כ-10 [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "The method seems to continue past the right edge; the last word ('דקות'?) is cut off. The card shows no further steps - check whether another card continues this recipe."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-24.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-24.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת קקאו / 3 שכבות",
+      "best_guess": null,
+      "reason": "Reading of 'קקאו' (could be 'קוקוס') is uncertain."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "עד כ-10 [?]",
+      "best_guess": "דקות",
+      "reason": "Last word is cut off by the card edge."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
