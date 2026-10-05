@@ -1,0 +1,88 @@
+{
+  "id": "b20-r15",
+  "batch": 20,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 כרוב לפרוס",
+        "[?] [?] לימון?",
+        "2 [?] קטנות",
+        "1/2 כפית סוכר [?]",
+        "1 [?] [?] [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Five lines of tall, shaky writing on a company memo, with quantities written in the right-hand margin (1/2, then a small fraction, 2, 1/2, 1). Only the first line ('כרוב לפרוס') and 'סוכר' could be read reliably; the other words are guesses. There is no title; it may be a cabbage salad but this is not stated.",
+    "A pin/staple is visible at the top right of the scan."
+  ],
+  "incidental_text": [
+    "Printed company letterhead at the top of the memo page: logo 'בזל' - 'חברה להנדסה ובנין בע\"מ', 'מקבוצת חברות זלינגר בע\"מ', פקס. 03-5617358, טל. 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-18.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-18.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "1/2 כרוב לפרוס",
+      "best_guess": null,
+      "reason": "'כרוב לפרוס' is clear; the fraction in the margin is read as 1/2."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?] [?] לימון?",
+      "best_guess": null,
+      "reason": "Unreadable except possibly 'לימון'."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "2 [?] קטנות",
+      "best_guess": null,
+      "reason": "Item unreadable."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "1/2 כפית סוכר [?]",
+      "best_guess": null,
+      "reason": "Last word unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "1 [?] [?] [?]",
+      "best_guess": null,
+      "reason": "Unreadable."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title written."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
