@@ -1,0 +1,92 @@
+{
+  "id": "b09-r07",
+  "batch": 9,
+  "title": null,
+  "source": {
+    "text": "(printed clipping, publication not shown)",
+    "type": "unknown",
+    "as_written": "—",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2-3 כפות שמן זית",
+        "1 בצל גדול, פרוס דק",
+        "נתח בקר מסוג \"פילה מדומה\" (פלאש פילה) במשקל 800 גרם",
+        "1/2 כוס יין אדום יבש",
+        "6 אגסים קשים, קלופים אך עם העוקץ",
+        "4 גזרים, קלופים וחתוכים גס",
+        "1 ראש סלרי, קלוף וחתוך גס",
+        "2 גבעולי סלרי, פרוסים",
+        "1 גבעול מרווה",
+        "7-5 שיני שום, פרוסות",
+        "2 שזיפים מיובשים",
+        "[?] עלי דפנה (partly cut off at the scan edge)",
+        "מלח, פלפל שחור טחון טרי"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים את השמן בסיר גדול ומזהיבים את הבצל. מוציאים ומטגנים את נתח הבשר על להבה גבוהה, עד השחמה מכל צדיו. מחזירים את הבצל לסיר ומוסיפים את היין. מנמיכים את הלהבה לבינונית ומבשלים כ-5 דקות, עד שהיין מתאדה כמעט לגמרי.",
+        "מוסיפים את האגסים, הגזר, ראש הסלרי והגבעולים, המרווה, השום, השזיפים, עלי הדפנה, גרגירי הפלפל, אגוז המוסקט, המלח והפלפל. יוצקים מים רותחים עד לגובה שלושה-רבעים מנתח הבשר. מביאים לרתיחה, מכסים חלקית, מנמיכים את הלהבה ומבשלים כשעה.",
+        "מסירים מהכירים ומשהים כשעה. מוציאים את הנתח, פורסים לפרוסות דקות ומגישים עם הרוטב והירקות.",
+        "אפשר לאכול את הבשר גם למחרת, קר."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping, 6 servings. The scan was sideways and was rotated 90 degrees clockwise. The title is cut off above the top of the scan, so no title is available. A small note printed at the top of the right column about the benefits of red meat is not transcribed.",
+    "Ingredient list is cut at the upper right (the last lines) and at the top of the left column: the end of the ingredient list reads 'מלח, פלפל שחור טחון טרי'. The order of the lines between the two columns is as printed. The quantity of bay leaves (and possibly other lines) is hidden.",
+    "The list also mentions 'גרגירי פלפל' and 'אגוז מוסקט' in the method, which do not appear in the visible ingredient list (probably in the cut-off part)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-08.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-08.jpg",
+      "rotation_applied_cw_degrees": 90,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The title is above the edge of the scan."
+    },
+    {
+      "field": "ingredients[11]",
+      "text": "[?] עלי דפנה",
+      "best_guess": null,
+      "reason": "Quantity hidden by the scan edge."
+    },
+    {
+      "field": "ingredients",
+      "text": "possible missing lines",
+      "best_guess": null,
+      "reason": "Peppercorns and nutmeg are used in step 2 but not listed in the visible lines."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication name or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
