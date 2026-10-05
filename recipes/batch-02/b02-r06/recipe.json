@@ -1,7 +1,7 @@
 {
   "id": "b02-r06",
   "batch": 2,
-  "title": "פונש",
+  "title": "פונ[?]",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -10,9 +10,9 @@
       "items": [
         "יין אדום ולבן",
         "מים [?] [?]",
-        "סוכר (1/2 כוס)",
-        "קוניאק (בערך כוס)",
-        "ג'ינג'ר ביר [?]",
+        "סוכר ([?] כוס)",
+        "קוניאק (כמעט כוס)",
+        "ג'ינג'ר [?]",
         "קינמון",
         "לימון (1/2 כוס)",
         "(לפי הטעם)"
@@ -23,11 +23,13 @@
     {
       "group": null,
       "steps": [
-        "להרתיח ולהגיש חם"
+        "להרתיח ולהגיש חם."
       ]
     }
   ],
   "notes": [
+    "A curly brace on the card groups ג'ינג'ר, קינמון and לימון together with 'לפי הטעם' (to taste) written beside it.",
+    "Ginger is written roughly as 'גנג'ר' on the card; normalized here to ג'ינג'ר.",
     "A signature or flourish at the bottom of the card."
   ],
   "incidental_text": [],
@@ -44,31 +46,31 @@
   "uncertainties": [
     {
       "field": "title",
-      "text": "פונש",
-      "best_guess": "פנץ'",
-      "reason": "Heading is small and cramped; 'פונש' (punch) is a reading, not certain."
+      "text": "פונ[?]",
+      "best_guess": "פונש",
+      "reason": "First three letters (פ-ו-נ) are clear; the last one or two cramped glyphs (a 'C' shape and a looped stroke) do not clearly form ש. 'פונש' (punch) fits the content (wine, cognac, boiled and served hot)."
     },
     {
-      "field": "ingredients[1]",
+      "field": "ingredients[0].items[1]",
       "text": "מים [?] [?]",
       "best_guess": null,
-      "reason": "Words are unclear."
+      "reason": "Two words after 'מים' are unclear. First looks like ה/ב + א + ו + an open 'U' glyph + ן followed by a comma; second starts 'במו' (or 'כמו') and ends in a stroke trailing into a long line. No confident reading."
     },
     {
-      "field": "ingredients[4]",
-      "text": "ג'ינג'ר ביר [?]",
-      "best_guess": null,
-      "reason": "Quantity unclear."
+      "field": "ingredients[0].items[2]",
+      "text": "סוכר ([?] כוס)",
+      "best_guess": "1/2",
+      "reason": "Quantity is a single small 'y'-like mark with a dot above; not written like the clear 1/2 on the lemon line. Could be 1/2 or a 4."
     },
     {
-      "field": "instructions[0]",
-      "text": "להרתיח ולהגיש חם",
+      "field": "ingredients[0].items[4]",
+      "text": "ג'ינג'ר [?]",
       "best_guess": null,
-      "reason": "First verb is partly illegible."
+      "reason": "Word after ginger (about four letters, ending in ר or כ, an open 'U' glyph in the middle) is unclear. Previous reading 'ביר' is not supported by the letter count."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
