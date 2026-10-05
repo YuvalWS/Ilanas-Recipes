@@ -1,0 +1,77 @@
+{
+  "id": "b01-r05",
+  "batch": 1,
+  "title": "עוגת פירות יבשים (קופ\"ח)",
+  "source": {
+    "text": "קופ\"ח",
+    "type": "unknown",
+    "as_written": "(קופ\"ח)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "200 גר' [?] [?] [?]",
+        "[?] מערבבים פירות יבשים",
+        "[?] [?] סוכר ([?])",
+        "2 ביצים",
+        "2 כפות קמח [?] או קמח כוסמין [?]",
+        "[?] 24 משומשת"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "1. מערבבים [?] ופירות [?]",
+        "2. מוסיפים ביצים ומוסיפים [?]",
+        "3. מוסיפים קמח ומערבבים [?]",
+        "4. מניחים בתבנית [?]",
+        "5. [?] [?] [?]",
+        "6. [?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-05.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(קופ\"ח)",
+      "best_guess": "(קופת חולים)?",
+      "reason": "Parenthetical after the title looks like an abbreviation (maybe a health-fund recipe source); not certain."
+    },
+    {
+      "field": "ingredients",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Handwriting is very shaky; quantities and several words are unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all numbered steps",
+      "best_guess": null,
+      "reason": "Only the opening words of steps 1-4 are legible; the last lines run off the bottom edge of the card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
