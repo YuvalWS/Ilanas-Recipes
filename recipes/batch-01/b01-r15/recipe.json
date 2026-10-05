@@ -3,9 +3,9 @@
   "batch": 1,
   "title": "טורט עם קקאו וקוניאק",
   "source": {
-    "text": "אורית / [?]",
+    "text": "[?] / שולה",
     "type": "person",
-    "as_written": "עוגת אורית / [?]",
+    "as_written": "עוגת [?] / שולה",
     "uncertain": true
   },
   "medium": "handwritten",
@@ -18,7 +18,7 @@
         "4 כפות קקאו",
         "2 כפות קמח תופח",
         "מעט קוניאק מהול במים",
-        "(3 כפות [?] 2 כפות מים)"
+        "(3 כפות על 2 כפות מים)"
       ]
     },
     {
@@ -39,13 +39,14 @@
       "group": "הכנה",
       "steps": [
         "להקציף חלבונים, להוסיף לאט סוכר, להוסיף החלמונים ולבחוש [?] הקקאו והקמח ולאפות בחום בינוני.",
-        "להרטיב את העוגה בקוניאק, לצפות בקרם של אינסטנט, [?] הקרם [?] בכל צידי [?].",
+        "להרטיב את העוגה בקוניאק, לצפות בקרם של אינסטנט, את הקרם לשפוך בכל צידי העוגה.",
         "שוקולד ממס על אדים [?] כפות חלב ורבע חב' מרגרינה."
       ]
     }
   ],
   "notes": [
-    "Earlier reading of 'קינמון' (cinnamon) corrected to 'קוניאק' (cognac) in title, ingredients and instructions (clear on zoom, confirmed by Gemini)."
+    "Earlier reading of 'קינמון' (cinnamon) corrected to 'קוניאק' (cognac) in title, ingredients and instructions (clear on zoom, confirmed by Gemini).",
+    "Independent Codex enlarged-crop rereading resolves שולה, the ratio connector על, and את הקרם לשפוך בכל צידי העוגה. The first source name and the stained/ambiguous preparation words remain flagged."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,15 +62,9 @@
   "uncertainties": [
     {
       "field": "source",
-      "text": "עוגת אורית / [?]",
-      "best_guess": "Gemini: שולה; earlier reading: ש...ב",
-      "reason": "Written left of the title. First name 'אורית' (Gemini and our earlier 'ומגית' agree, ending 'ית' visible). Second name starts with 'ש' and ends with a ב/ה-like letter; middle letters unreadable on zoom, cannot confirm 'שולה'."
-    },
-    {
-      "field": "ingredients",
-      "text": "(3 כפות [?] 2 כפות מים)",
-      "best_guess": "Gemini: (implied) 3 כפות קוניאק מהולות ב-2 כפות מים; earlier reading: או",
-      "reason": "Short connecting word is a single scrawl; the card does not clearly show it. Card reads 3 first, then 2."
+      "text": "עוגת [?] / שולה",
+      "best_guess": "אורית / מגית (first name); שולה is legible after the slash",
+      "reason": "Independent crop confirms שולה, but the first name’s opening/middle letters are ambiguous; agreement with a model alone is not enough to certify אורית."
     },
     {
       "field": "instructions",
@@ -79,19 +74,13 @@
     },
     {
       "field": "instructions",
-      "text": "[?] הקרם [?] בכל צידי [?].",
-      "best_guess": "את הקרם לשפוך (או למרוח) בכל צידי העוגה.",
-      "reason": "First word is a short scrawl (likely 'את'); the verb is unclear (could be 'לשפוך' or 'למרוח'); last word cramped before the full stop, looks like 'העוגה'. Gemini has no matching wording."
-    },
-    {
-      "field": "instructions",
       "text": "שוקולד ממס על אדים [?] כפות חלב",
       "best_guess": "וארבע",
       "reason": "'אדים' accepted (Gemini: melt over steam; ink consistent, first letter ambiguous). The word before 'כפות חלב' ends in a descender and could be 'וארבע' (matching '4 כפות חלב' in ingredients) but is not certain."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
