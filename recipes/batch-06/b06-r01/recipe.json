@@ -34,9 +34,9 @@
       "group": "upper block (above the ruled line)",
       "steps": [
         "1 כוס מים (בסוגר: להרתיח)",
-        "1 כוס [?] (בסוגר: להרתיח)",
+        "1 כוס חומץ (בסוגר: להרתיח)",
         "להרתיח ולהוסיף על הכל [?] עד חם",
-        "[?] כפות שמן, מלח",
+        "2–3 כפות שמן, מלח",
         "טיפה סוכר"
       ]
     }
@@ -91,7 +91,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
