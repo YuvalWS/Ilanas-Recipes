@@ -1,0 +1,70 @@
+{
+  "id": "b01-r16",
+  "batch": 1,
+  "title": "רולדת תפוחי עץ",
+  "source": {
+    "text": "אסתי צוק",
+    "type": "publication",
+    "as_written": "אסתי צוק ● צילום: נאור רהב (עוגה שווה)"
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "600 גרם תפוחי עץ גרוד",
+        "4 כפות פרג",
+        "4 ביצים",
+        "4 כפות סוכר",
+        "סוכר וניל",
+        "4 כפות קמח",
+        "קליפת לימון מגוררת"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מגרדים את תפוחי העץ על פומפיה גסה ומפזרים על תבנית משומנת.",
+        "מפזרים עליהם את הפרג.",
+        "מקציפים את הביצים, הסוכר וסוכר הוונילי.",
+        "מוסיפים לקצף את הקמח וקליפת הלימון המגוררת ומערבבים בתנועות קיפול.",
+        "יוצקים את תערובת הבצק על התפוחים והפרג ואופים בחום בינוני גבוה כ-20 דקות.",
+        "מוציאים מהתנור. משחררים את הדפנות בסכין והופכים את העוגה על מגבת ומיד מגלגלים לרולדה בעזרת המגבת.",
+        "משאירים כך עד שמצטנן ומכניסים למקרר."
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [
+    "Column heading: עוגה שווה",
+    "Credit line: אסתי צוק ● צילום: נאור רהב",
+    "The page carries a photo of the rolled cake"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-15.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "אסתי צוק",
+      "best_guess": null,
+      "reason": "The printed credit names the column author and photographer; the newspaper/magazine name is not visible on the clipping."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
