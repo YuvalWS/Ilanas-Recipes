@@ -9,6 +9,7 @@ A **second opinion**, not ground truth. On a sample of 66 recipes it agrees with
 - sometimes merges or invents steps/quantities (e.g. a raisin amount that the card does not show).
 
 ## Procedure
+0. **Check the file belongs to this card.** Some folders hold two Gemini files (`gemini_transcribtion.txt` and `gemini_transcribtion (1).txt`) and a file can describe a different recipe (seen in `b07-r08`). Read every Gemini file in the folder; use only the one whose content matches the scan, and say in your final answer if a file was a mismatch. If none matches, do not use Gemini for that recipe (just apply the ditto-mark rule and your own re-read).
 1. Read `recipe.json`, `gemini_transcribtion.txt`, and view the scan. For shaky handwriting, crop strips with PIL (upscale 2x, boost contrast; scratch files in your own temp dir, outside the project) and read line by line.
 2. For every `[?]` / uncertainty in `recipe.json`, find what Gemini wrote at that spot and **check it yourself on the zoomed crop**:
    - Visually consistent with the ink -> replace the `[?]` with the word, and remove/adjust the matching `uncertainties` entry.
