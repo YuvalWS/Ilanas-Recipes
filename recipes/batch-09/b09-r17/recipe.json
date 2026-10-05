@@ -1,10 +1,23 @@
 {
   "id": "b09-r17",
   "batch": 9,
-  "title": null,
+  "title": "בשר בקר",
   "source": null,
   "medium": "handwritten",
-  "ingredients": [],
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "בצל",
+        "שום, פפריקה, פלפל",
+        "במקום מים מעט א. מרק",
+        "1 פלפל ירוק שלם",
+        "2–3 עלי דפנה",
+        "שמיר",
+        "קליפת סלרי, פטרוזיליה"
+      ]
+    }
+  ],
   "instructions": [
     {
       "group": null,
@@ -22,7 +35,8 @@
   ],
   "notes": [
     "Yellow memo card of a building-materials company (printed letterhead with phone/fax at the bottom edge). Both scans were upside down and were rotated 180 degrees. The writing is an extremely dense, narrow cursive that cannot be read reliably; the back of the card (scan 22) shows the front's text faintly through the paper and has about eight lines of its own in the lower half.",
-    "Rescanning probably will not help; a human who knows Ilana's handwriting is needed."
+    "Rescanning probably will not help; a human who knows Ilana's handwriting is needed.",
+    "Underlined words at upper center read בשר בקר; additional upper-left writing remains uncertain. Added visible first-side ingredient lines."
   ],
   "incidental_text": [
     "Printed company letterhead with logo and phone/fax numbers"
@@ -58,7 +72,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
