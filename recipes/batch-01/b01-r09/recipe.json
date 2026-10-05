@@ -20,14 +20,15 @@
       "steps": [
         "כשמתקרר להוסיף 2 ביצים שמנת",
         "מעט יין",
-        "לפורר ביסקויט [?]",
+        "לפורר הבסקויט [?]",
         "ליצוק מעט קרם למעלה"
       ]
     }
   ],
   "notes": [
     "Second recipe on the same card as 'עוגת תפוזים' (bottom half).",
-    "Line 1 ends with a short dash after 'שמנת' (as on the card)."
+    "Line 1 ends with a short dash after 'שמנת' (as on the card).",
+    "Independent Codex rereading confirms the quantities and surrounding cream instructions, but the final word after הבסקויט remains ambiguous. It was not converted into a layering instruction or an assumed mixing step."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -43,13 +44,13 @@
   "uncertainties": [
     {
       "field": "instructions[0].steps[2]",
-      "text": "לפורר ביסקויט [?]",
-      "best_guess": "Gemini: no equivalent word (paraphrases as layers); earlier reading: ושכבה; latest crop: ומעלה / ולמעלה",
-      "reason": "Last word of the line is shaky: starts with ו, ends with ה, middle letters (מ/ע/ל or ש/כ/ב) unclear."
+      "text": "לפורר הבסקויט [?]",
+      "best_guess": "העבה / העוגה; previous alternatives ושכבה / ומעלה",
+      "reason": "The enlarged bottom strip does not confirm the final word. Its opening now looks closer to ה than ו, but the middle letters remain ambiguous."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
