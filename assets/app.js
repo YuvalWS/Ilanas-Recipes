@@ -16,6 +16,13 @@
   }
   var PREFIX = /^[והבלמכש]/;
 
+  var REPO = "YuvalWS/Ilanas-Recipes";
+  var LEGAL_NOTICE_CLIPPING =
+    "המתכון המצורף הוא גזיר עיתון מתוך אוסף המתכונים שסבתא אילנה ליקטה והכינה. " +
+    "אם מקור העיתון ידוע לכם, נשמח שתדווחו לנו עליו. " +
+    "פרסום המתכון נעשה במסגרת שימוש הוגן וללא כוונה לפגוע בזכויות היוצרים. " +
+    "אם זכויותיכם נפגעו ואתם מעוניינים שנסיר את המתכון, ";
+
   function anyHas(t) {
     for (var i = 0; i < ALL.length; i++) {
       var f = ALL[i]._f;
@@ -170,6 +177,71 @@
     return { handwritten: "כתב יד", clipping: "גזיר", printed: "מודפס", mixed: "מעורב" }[m] || m;
   }
 
+  // ---- share + report a mistake ---------------------------------------------------
+  function qs(o) {
+    return Object.keys(o).map(function (k) { return encodeURIComponent(k) + "=" + encodeURIComponent(o[k]); }).join("&");
+  }
+  function pageUrl(r) { return location.origin + location.pathname + "#/" + r.id; }
+  function absUrl(p) { return new URL(p, location.href).href; }
+  function plainText(r) {
+    var out = [r.title || "(ללא כותרת)"];
+    if (r.source) out.push("מקור: " + r.source.text);
+    if (r.ingredients.length) {
+      out.push("", "מרכיבים:");
+      r.ingredients.forEach(function (g) { if (g.group) out.push(g.group + ":"); g.items.forEach(function (i) { out.push("- " + i); }); });
+    }
+    if (r.instructions.length) {
+      out.push("", "אופן הכנה:");
+      r.instructions.forEach(function (g) { if (g.group) out.push(g.group + ":"); g.steps.forEach(function (x) { out.push(x); }); });
+    }
+    return out.join("\n");
+  }
+  function reportUrl(r) {
+    var text = plainText(r), url;
+    do {                                   // GitHub rejects very long URLs: shorten the prefilled transcription
+      url = "https://github.com/" + REPO + "/issues/new?" + qs({
+        template: "recipe-mistake.yml",
+        title: "[טעות במתכון] " + r.id + (r.title ? " " + r.title : ""),
+        recipe_id: r.id, recipe_title: r.title || "", page_url: pageUrl(r),
+        scan_url: r.images[0] ? absUrl(r.images[0]) : "", current_text: text
+      });
+      if (url.length <= 7000 || text.length < 40) break;
+      text = text.slice(0, Math.floor(text.length * 0.8)) + "…";
+    } while (true);
+    return url;
+  }
+  function actions(r) {
+    var box = el("div", "actions");
+    var report = el("a", "btn", "⚠ דווחו על טעות במתכון");
+    report.href = reportUrl(r); report.target = "_blank"; report.rel = "noopener";
+    box.appendChild(report);
+
+    var share = el("button", "btn", "↗ שיתוף");
+    share.type = "button";
+    var menu = el("div", "share-menu"); menu.hidden = true;
+    var url = pageUrl(r), text = plainText(r), title = (r.title || r.id) + " · המתכונים של אילנה";
+    function link(label, href) { var a = el("a", null, label); a.href = href; a.target = "_blank"; a.rel = "noopener"; menu.appendChild(a); }
+    link("WhatsApp", "https://wa.me/?" + qs({ text: text + "\n\n" + url }));
+    link("Telegram", "https://t.me/share/url?" + qs({ url: url, text: text }));
+    link("אימייל", "mailto:?" + qs({ subject: title, body: text + "\n\n" + url }).replace(/\+/g, "%20"));
+    var copy = el("button", null, "העתקת קישור"); copy.type = "button";
+    copy.addEventListener("click", function () {
+      var done = function () { copy.textContent = "הקישור הועתק ✓"; };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, function () { window.prompt("העתיקו את הקישור:", url); });
+      else window.prompt("העתיקו את הקישור:", url);
+    });
+    menu.appendChild(copy);
+    share.addEventListener("click", function () {
+      if (navigator.share) {               // native share dialog (phones, Safari, Edge, ...)
+        navigator.share({ title: title, text: text, url: url }).catch(function () {});
+      } else {
+        menu.hidden = !menu.hidden;        // desktop browsers without the Web Share API
+      }
+    });
+    box.appendChild(share); box.appendChild(menu);
+    return box;
+  }
+
   // ---- detail view ----------------------------------------------------------------
   function withMarks(text) {
     // highlight the [?] marker used for unreadable words
@@ -259,6 +331,15 @@
       });
       det.appendChild(ul); txt.appendChild(det);
     }
+    if (r.medium === "clipping") {
+      var legal = el("p", "legal", LEGAL_NOTICE_CLIPPING);
+      var la = el("a", null, "פנו אלינו");
+      la.href = "https://github.com/" + REPO + "/issues/new?" + qs({ title: "בקשת הסרה: " + r.id, body: "מתכון: " + pageUrl(r) + "\n\nסיבת הבקשה:\n" });
+      la.target = "_blank"; la.rel = "noopener";
+      legal.appendChild(la); legal.appendChild(document.createTextNode("."));
+      txt.appendChild(legal);
+    }
+    txt.appendChild(actions(r));
     txt.appendChild(el("p", "muted id", r.id + " · " + r.path));
     wrap.appendChild(txt);
     v.appendChild(wrap);
