@@ -3,10 +3,10 @@
   "batch": 9,
   "title": "צלי עגל",
   "source": {
-    "text": "אהרון",
+    "text": "אהרוני",
     "type": "person",
-    "as_written": "אהרון",
-    "uncertain": true
+    "as_written": "אהרוני",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -69,12 +69,6 @@
       "reason": "Read as 'צלי עגל'."
     },
     {
-      "field": "source",
-      "text": "אהרון",
-      "best_guess": "אהרון",
-      "reason": "Name after the slash read as 'אהרון'."
-    },
-    {
       "field": "instructions",
       "text": "most lines",
       "best_guess": null,
@@ -82,7 +76,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
