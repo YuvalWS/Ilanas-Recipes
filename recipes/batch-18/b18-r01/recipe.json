@@ -1,7 +1,7 @@
 {
   "id": "b18-r01",
   "batch": 18,
-  "title": "עוגת [?]",
+  "title": null,
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -19,7 +19,8 @@
   ],
   "instructions": [],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Scans 01 and 09 show the same card twice (scan 09 was upside down and was rotated 180 degrees); the layout and wording are identical. The first line (title) is partly written over an underlined word and reads roughly 'עוגת הגבינות' / 'לתהגבינות' (not certain). No instructions are written, only ingredients. An asterisk-like mark follows '1 כוס סוכר' and a bracket on the left side groups a few unclear words."
+    "Handwriting is only partly legible; unreadable words are [?]. Scans 01 and 09 show the same card twice (scan 09 was upside down and was rotated 180 degrees); the layout and wording are identical. The first line (title) is partly written over an underlined word and reads roughly 'עוגת הגבינות' / 'לתהגבינות' (not certain). No instructions are written, only ingredients. An asterisk-like mark follows '1 כוס סוכר' and a bracket on the left side groups a few unclear words.",
+    "Independent reread: the top says 6 eggs and tin size 26; Claude’s עוגת [?] heading was not written."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -41,37 +42,19 @@
   "uncertainties": [
     {
       "field": "title",
-      "text": "עוגת [?]",
+      "text": null,
       "best_guess": null,
-      "reason": "The title line is overwritten and cannot be read reliably."
+      "reason": "No title on either duplicate scan; upper text is 6 eggs separated and tin size 26, not עוגת."
     },
     {
-      "field": "ingredients[2]",
-      "text": "1 כוס סוכר + [?]",
+      "field": "instructions",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "Words after the plus sign unclear."
-    },
-    {
-      "field": "ingredients[4]",
-      "text": "[?] מסומס?",
-      "best_guess": null,
-      "reason": "Word unclear (the line looks like 'לתמלי? מחומם?')."
-    },
-    {
-      "field": "ingredients[5]",
-      "text": "1 [?] וניל",
-      "best_guess": null,
-      "reason": "Unit unclear (maybe 'סוכר' or 'תמצית')."
-    },
-    {
-      "field": "raw_files",
-      "text": "01/09",
-      "best_guess": null,
-      "reason": "Same card scanned twice (assumed)."
+      "reason": "Short lower mixing/flavor wording remains unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
