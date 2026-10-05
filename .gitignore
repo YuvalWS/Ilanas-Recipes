@@ -1,0 +1,7 @@
+# Original scan folders and loose scans (the rotated copies live under recipes/*/raw/)
+/Batch */
+/Scanned_*.jpg
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
