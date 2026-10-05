@@ -1,0 +1,59 @@
+{
+  "id": "b16-r04",
+  "batch": 16,
+  "title": "אורז עם אטריות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים הדרושים",
+      "items": [
+        "2 כפות שמן זית או תירס",
+        "2 כוסות אטריות ביצים דקיקות",
+        "2 כוסות אורז יסמין או פרסי, שטוף היטב במסננת ומיובש מעט במגבת",
+        "2 כפיות שטוחות מלח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "שמים את השמן בסיר ומוסיפים את האטריות. מטגנים תוך בחישה מתמדת עד שהאטריות הופכות חומות.",
+        "מוסיפים את האורז ומטגנים תוך ערבוב עד שכל האורז מצופה בשמן, מוסיפים את המלח.",
+        "מוסיפים מים רותחים עד לגובה 2.5 ס\"מ מעל האורז, ומביאים לרתיחה ל־2 דקות. לאחר מכן מכסים, מנמיכים את האש ומבשלים כ־20 דקות. מכבים את האש, מכסים במגבת ומשאירים כך רבע שעה.",
+        "מסירים את המכסה, מאווררים את האורז במזלג - וטורפים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed newspaper clipping on a pinned strip. Intro: 'תבשיל פשוט וכל כך טעים, עם ארבעה מרכיבים בלבד.'",
+    "Step 3 first says 'מביאים לרתיחה ל־2 דקות' (as printed; 'ל' may be a typo for 'ו'). Step 4 ends 'ומבשלים'/'וטורפים' as read - 'מאווררים את האורז במזלג - וטורפים'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-07.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication name or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
