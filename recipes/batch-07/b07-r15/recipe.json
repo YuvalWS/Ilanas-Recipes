@@ -1,0 +1,56 @@
+{
+  "id": "b07-r15",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "שמן זית",
+        "[?]",
+        "שום",
+        "[?]",
+        "[?] ל",
+        "[?] [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "White card with a printed frame. A column of single-word ingredients ('שמן זית', 'שום', ...) separated by a long vertical line from a two-line note at the upper left. Most words are unreadable."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-16.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-16.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Only 'שמן זית' and 'שום' are fairly clear."
+    },
+    {
+      "field": "notes",
+      "text": "upper-left note",
+      "best_guess": null,
+      "reason": "Two lines unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
