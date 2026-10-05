@@ -1,8 +1,13 @@
 {
   "id": "b21-r05",
   "batch": 21,
-  "title": "[?] מורית",
-  "source": null,
+  "title": "רוטב [?]",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [],
   "instructions": [
@@ -55,7 +60,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
