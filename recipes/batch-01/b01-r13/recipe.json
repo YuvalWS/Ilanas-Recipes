@@ -1,0 +1,73 @@
+{
+  "id": "b01-r13",
+  "batch": 1,
+  "title": "עוגת שיש",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "קרם (להרתיח ולקרר)",
+      "items": [
+        "2 כפות קקאו",
+        "4 כפות סוכר",
+        "1/4 כוס מים",
+        "1/2 חב' מרגרינה"
+      ]
+    },
+    {
+      "group": "II (להקציף)",
+      "items": [
+        "5 ביצים",
+        "1 כוס סוכר",
+        "1 1/4 כוס קמח אוסם",
+        "1 סוכר וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "כשהקרם מתקרר להוסיף עוד [?] מהקצפת [?] ולמזג [?] לתבנית [?] חום בינוני 20 דק' ([?] זמן כ[?])."
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-12.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת שיש / נורית",
+      "best_guess": null,
+      "reason": "Title and name are legible but both are small; mark as likely correct."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "last paragraph",
+      "best_guess": null,
+      "reason": "Two stains and shaky handwriting hide several words."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
