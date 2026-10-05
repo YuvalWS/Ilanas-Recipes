@@ -3,10 +3,10 @@
   "batch": 7,
   "title": "סלט תערובת ירקות",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [],
@@ -44,12 +44,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "blue name at the upper left",
-      "best_guess": "Gemini: חיה; not confirmed on the ink",
-      "reason": "Handwriting unclear."
-    },
-    {
       "field": "instructions",
       "text": "lines 1-7 (ingredient list)",
       "best_guess": "Gemini's list (order and line breaks not confirmed): חסות שונות בויניגרט; פטריות טריות; חמוציות; גזר; אגוזים; עגבניות שרי; אפרסמון; משמשים מיובשים; שקדים; דובדבנים יבשים; קולרבי; סלק חי מגורר. Our earlier reading also saw '1 ... בצל' and 'ירוק', which Gemini does not list.",
@@ -63,7 +57,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
