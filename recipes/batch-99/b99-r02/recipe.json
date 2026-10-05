@@ -1,35 +1,42 @@
 {
   "id": "b99-r02",
   "batch": 99,
-  "title": "[?]",
+  "title": "חרוסת",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 ק\"ג שקדים [?] [?]",
-        "[?] [?] [?] [?]",
-        "שקדים [?]",
-        "[?] [?] 400 (לטחון x 2)",
-        "[?] 400",
-        "[?] 400"
+        "1 ק״ג שזיפים ללא גרעינים",
+        "500 [?]",
+        "[?] שקדים",
+        "400 אגוזי מלך",
+        "400 אגוזי לוז",
+        "400 פקן"
       ]
     },
     {
       "group": "בלוק שני (מתחת לקו)",
       "items": [
-        "[?] שקדים 750",
-        "תפוחים [?]",
-        "[?] 350",
-        "[?] 250"
+        "750 שזיפים",
+        "250 תפוחים",
+        "350 מישמש",
+        "250 צימוקים"
       ]
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטחון ×2 — סוגר לצד אגוזי מלך ולוז."
+      ]
+    }
+  ],
   "notes": [
-    "Photograph (not a scan) of a small ruled memo card held in a hand, found later and added by the owner; looks like a list of ingredients with gram quantities in a right-hand column, a curly bracket with 'לטחון x 2' (grind twice) next to lines 4-5, and a second list under a horizontal line. Several quantities are overwritten. Not rotated. Possibly a cookie/marzipan-type recipe, but this is a guess and not on the card.",
-    "Digitization remark: no method text is visible; the card may continue on the back, which was not photographed."
+    "Photographed ruled memo card: heading חרוסת. Upper ingredient list followed by horizontal divider and a second fruit list; amounts as written, no gram units supplied where absent. Bracket לטחון ×2 sits by walnut/hazelnut lines. Several quantities overwritten.",
+    "Back not photographed; no full preparation visible. Ditto marks expanded for repeated אגוזי / quantities/units."
   ],
   "incidental_text": [
     "Another card is stuck behind it with tape at the top; a hand and a chair are visible in the photo."
@@ -43,29 +50,23 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "תבוסות?",
-      "best_guess": null,
-      "reason": "Title at the top right is cut by the taped corner and unreadable."
-    },
-    {
       "field": "ingredients",
-      "text": "most lines",
+      "text": "500 [?], [?] שקדים",
       "best_guess": null,
-      "reason": "Shaky blue-pen handwriting in a photo; most words and the overwritten digits (500/400/750/250/350) are doubtful. Please check against the physical card."
+      "reason": "Second fruit wording and overwritten almond amount uncertain."
     },
     {
       "field": "instructions",
-      "text": "(none)",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "No method visible; the back of the card was not photographed."
+      "reason": "Only grind-twice bracket visible; back not photographed."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_photo",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
