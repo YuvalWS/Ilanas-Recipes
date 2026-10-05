@@ -1,0 +1,76 @@
+{
+  "id": "b17-r04",
+  "batch": 17,
+  "title": "שוקיים עם בצלצלי פנינה",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים הדרושים",
+      "items": [
+        "12 שוקיים ללא העצם",
+        "3 כפות שמן זית",
+        "1 כף ג'ינג'ר",
+        "1 כף תימין",
+        "300 גרם בצלצלי פנינה קלופים",
+        "3 כפות חומץ בלסמי",
+        "כוס וחצי יין פורט",
+        "מלח, פלפל שחור",
+        "פטרוזיליה קצוצה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "ממליחים ומפלפלים את השוקיים.",
+        "שמים את השמן בסיר רחב וכשהוא חם מטגנים בו את הג'ינג'ר, התימין, הבצלצלים והשוקיים היטב, סביב־סביב, עד להשחמה קלה.",
+        "מוסיפים לסיר את שאר החומרים, פרט לפטרוזיליה, ומביאים לרתיחה. מנמיכים את האש, מכסים ומבשלים על להבה נמוכה כשעה. ברגע האחרון מוסיפים את הפטרוזיליה, מערבבים ומגישים.",
+        "(End of the previous recipe on the clipping: 'מוסיפים פנימה את השז... מערבבים בעדינות, מכסים ו... עוד כ־20 דקות. מגישים עם אורז לבן.')"
+      ]
+    }
+  ],
+  "notes": [
+    "Two scans show the same printed clipping: scan 03 (narrow strip, clear) and scan 04 (the same strip on the left, glued next to a different clipping on the right - see next record, partly torn). The heading is 'שוקיים עם בצלצלי [פנינה]' (the last word is cut at the page edge in both scans; 'פנינה' is inferred from the ingredient line 'בצלצלי פנינה').",
+    "The first lines of the strip (a numbered step 4 and a serving line 'מגישים עם אורז לבן') belong to the preceding recipe and are cut at the top; this is stated in the step list as a remark."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-03.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2231-04.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "שוקיים עם בצלצלי [פנינה]",
+      "best_guess": "שוקיים עם בצלצלי פנינה",
+      "reason": "The last word is cut off at the page edge; 'פנינה' is taken from the ingredient list."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
