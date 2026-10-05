@@ -1,0 +1,55 @@
+{
+  "id": "b18-r07",
+  "batch": 18,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כוס סוכר",
+        "1 מרגרינה [?] [?] [?]",
+        "3 כפות [?] [?]",
+        "2 ביצים",
+        "ומעט יין [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Short card with no title, five lines of ingredients, and no instructions."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-07.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title."
+    },
+    {
+      "field": "ingredients",
+      "text": "lines 2, 3 and 5",
+      "best_guess": null,
+      "reason": "Words after the quantities are partly unreadable (the last line reads 'ומעט יין אלינג?/אלוג?')."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
