@@ -1,0 +1,79 @@
+{
+  "id": "b05-r02",
+  "batch": 5,
+  "title": "קציצות עוף ברוטב אדום עם פסטה",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לקציצות",
+      "items": [
+        "500 גרם פרגיות טחונות או חזה עוף טחון",
+        "1 קישוא או 1 גזר",
+        "1 בצל קטן, קלוף",
+        "1 כפית שום כתוש",
+        "1/3 כוס פירורי לחם",
+        "1 ביצה L",
+        "1/2 כפית מלח",
+        "1/2 כפית אבקת סודה לשתייה"
+      ]
+    },
+    {
+      "group": "לרוטב ולפסטה",
+      "items": [
+        "2 כפות שמן זית",
+        "1 בצל לבן, קלוף",
+        "3 שיני שום, קלופות",
+        "1 כף פפריקה מתוקה",
+        "2 כפות רסק עגבניות",
+        "1 כף סילאן או מייפל",
+        "1 כפית מלח שטוחה",
+        "1/3 חבילת פסטה שאוהבים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "כך עושים",
+      "steps": [
+        "מגרדים את הבצל על החלק העבה בפומפייה ואת הקישוא על החלק הדק. מעבירים לקערה.",
+        "מוסיפים את יתרת מצרכי הקציצות ומערבבים. מכסים את הקערה ושמים במקרר עד שהרוטב מוכן.",
+        "קוצצים את הבצל והשום לקוביות קטנות. לסיר רחב יוצקים שמן זית ומטגנים יחד את הבצל והשום במשך 5 דקות.",
+        "מוסיפים פפריקה, רסק, סילאן ומלח ומערבבים. מוסיפים מים רותחים עד לגובה 8 ס\"מ ומבשלים יחד במשך 15 דקות.",
+        "יוצרים קציצות מתערובת העוף, מומלץ בידיים משומנות, ומכניסים לסיר עם הרוטב.",
+        "מבשלים יחד במשך 30–40 דקות. מוסיפים פסטה או פתיתים (שימו לב שגובה הרוטב צריך להיות עד גובה הקציצות. אם לא – אפשר להוסיף מים) ומבשלים יחד עד שהפסטה רכה."
+      ]
+    }
+  ],
+  "notes": [
+    "Newspaper clipping in two columns. The top of the right column is the tail of a different (previous) recipe and is recorded under incidental text. The ingredient list continues from the right column into the left column."
+  ],
+  "incidental_text": [
+    "Tail of another recipe at the top of the right column: '...רותחים עד לגובה 3/4 הקציצות. 5. מוסיפים אפונה, תירס ותפוחי אדמה ומבשלים הכל יחד עד שתפוחי האדמה רכים.'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-02.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "none",
+      "best_guess": null,
+      "reason": "The publication is not visible on the clipping."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
