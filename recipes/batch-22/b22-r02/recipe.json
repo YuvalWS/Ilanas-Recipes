@@ -1,0 +1,55 @@
+{
+  "id": "b22-r02",
+  "batch": 22,
+  "title": "פשטידת קישואים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "4-5 בצלים לחתוך לעיגולים או קשתות. לטגן [?] מעט שמן עד שהבצל [?].",
+        "4-6 קישואים קלופים [?] חתוכים לפרוסות של כ-1/2 ס\"מ. לטגן בסיר (בנפרד) עם מעט מהבצל המטוגן. (10-20 דקות בחום נמוך [?] ללא מים [?])",
+        "לשטוח על תבנית [?] [?]. לנקב אותה!",
+        "לערבב [?] בצל מטוגן + קישואים מטוגנים + [?] ביצים ושמן [?] או [?]. אפשר להוסיף מעט פירורי לחם, מלח ופלפל. לשפוך מעל הבצק [?] או [?] בתנור בחום בינוני.",
+        "בתאבון."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Second recipe on the same graph-paper sheet as the cheesecake; steps are numbered 1-4 on the card. The ingredients appear only inside the steps (onions, zucchini, eggs, oil, breadcrumbs, salt, pepper); no separate list."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-01.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "ingredients",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No separate ingredient list on the card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
