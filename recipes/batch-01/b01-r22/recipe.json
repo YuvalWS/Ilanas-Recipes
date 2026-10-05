@@ -1,0 +1,84 @@
+{
+  "id": "b01-r22",
+  "batch": 1,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 מרגרינה",
+        "1 [?] [?] [?]",
+        "2 [?]פירן",
+        "1 כוס מים",
+        "1 [?]סוכר = פסטי[?]",
+        "2 [?] [?]-[?] [?] 2 כוסות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מי [?] [?] [?] באמת - [?]",
+        "[?] עלות [?]",
+        "להוסיף [?] קינמון",
+        "[?] [?] [?] ...",
+        "[?] [?] מלח [?]",
+        "מערבבים [?] [?] ...",
+        "[?] [?] [?] [?] ...",
+        "[?] [?] [?] ... [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Large shaky handwriting on a square card. The front carries a printed 'רשות הדואר - דואר קדימה' logo at the bottom. The back (23) is grouped as the continuation because of the handwriting and the ingredients ending mid-list; this grouping is probable but not certain."
+  ],
+  "incidental_text": [
+    "Printed logo: רשות הדואר - דואר קדימה"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-22.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-22.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2101-23.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-23.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "The top line of the front might be a title, but it cannot be read."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines except 'מרגרינה' and 'כוס מים'",
+      "best_guess": null,
+      "reason": "Large but very irregular letters."
+    },
+    {
+      "field": "raw_files",
+      "text": "grouping of 22 and 23",
+      "best_guess": null,
+      "reason": "The two scans are probably one recipe (same pen, same card type), but no title or number confirms it."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
