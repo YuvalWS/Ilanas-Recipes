@@ -1,0 +1,60 @@
+{
+  "id": "b09-r14",
+  "batch": 9,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/4 כוס יין",
+        "[?] [?] שלם או [?]",
+        "2 קפלולים [?]",
+        "2 בצלים"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Short list of four items on a half-empty card; faint show-through of other writing at the bottom. Only some words and the numbers are clear; the second and third lines are partly unclear."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-18.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-18.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?] [?] שלם או [?]",
+      "best_guess": null,
+      "reason": "Item name and the last word are unclear."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "2 קפלולים [?]",
+      "best_guess": null,
+      "reason": "Item is unclear (maybe a vegetable name)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
