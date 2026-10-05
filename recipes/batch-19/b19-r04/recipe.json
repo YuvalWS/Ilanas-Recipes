@@ -1,7 +1,7 @@
 {
   "id": "b19-r04",
   "batch": 19,
-  "title": "[?] אורז / רוטב?",
+  "title": null,
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -43,12 +43,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No title on the card."
-    },
-    {
       "field": "ingredients[2]",
       "text": "2 גזרים לרסק?",
       "best_guess": null,
@@ -65,10 +59,16 @@
       "text": "(none)",
       "best_guess": null,
       "reason": "No source written."
+    },
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "Upper line is 1 כוס אורז, an ingredient; no written title."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
