@@ -1,0 +1,80 @@
+{
+  "id": "b09-r03",
+  "batch": 9,
+  "title": "צלי בקר ברימונים ותפוחים",
+  "source": {
+    "text": "(printed clipping, publication not shown)",
+    "type": "unknown",
+    "as_written": "—",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "4 כפות שמן קנולה או שמן זית",
+        "1 נתח כתף בקר במשקל 1 ק\"ג, חתוך לקוביות בגודל 3 ס\"מ",
+        "1 כפית מלח, 1/8 כפית פלפל שחור גרוס, 1 כף פפריקה מתוקה",
+        "2 בצלים בינוניים, קלופים וחתוכים לקוביות",
+        "3 גזרים בינוניים, קלופים וחתוכים למקטעים באורך 5 ס\"מ",
+        "2 כוסות (250 גרם) פרוסות תפוחים מיובשים",
+        "3 גבעולי תימין",
+        "1 מקל קינמון",
+        "קליפה מגוררת ומיץ מ-1 תפוז",
+        "1 כוס (240 מ\"ל) מיץ רימונים",
+        "1 כוס (240 מ\"ל) יין אדום"
+      ]
+    },
+    {
+      "group": "אפשרויות להגשה",
+      "items": [
+        "פטרוזיליה קצוצה, גרגירי רימון, שקדים קצוצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "יוצקים את השמן לסיר גדול ורחב ומחממים. מוסיפים את נתחי הבקר, מתבלים אותם במחצית מכמות המלח, הפלפל והפפריקה ומטגנים על להבה בינונית-גבוהה כמה דקות מכל צד, עד הזהבה. מוציאים לצלחת.",
+        "בכף עץ, מקרצפים ומגרדים את תחתית הסיר כדי להסיר את המשקעים שנדבקו אליו. מוסיפים את הבצל והגזר ומטגנים כ-5 דקות על להבה בינונית-גבוהה, עד שהבצל שקוף. מחזירים לסיר את נתחי הבקר, מוסיפים את פרוסות התפוחים, התימין ומקל הקינמון, ומתבלים ביתרת התבלינים. מוסיפים את קליפת ומיץ התפוז ויוצקים את מיץ הרימון והיין, כך שיגיעו עד גובה המרכיבים (אם צריך, מוסיפים עוד קצת יין או מים). מביאים לרתיחה, מכסים, מעבירים ללהבה נמוכה ומבשלים כשעתיים וחצי, עד שנתחי הבקר רכים מאוד והרוטב מסמיך. במהלך הבישול בודקים מדי פעם, ואם חסרים בסיר נוזלים, מוסיפים עוד יין או מים.",
+        "ההגשה: מעבירים את הצלי, הפירות והירקות לכלי הגשה, מומלץ על אורז או קוסקוס. יוצקים מהרוטב שבסיר, ואם רוצים זורים פטרוזיליה, גרגירי רימון ושקדים קצוצים. מגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping (8 servings). The intro paragraph (the fruits give the relatively heavy dish sweetness and lightness; looks great on yellow rice, etc.) is not transcribed.",
+    "A handwritten phone number is written at the bottom of the clipping; the digits are deliberately not transcribed here so they are not published on the public website (see the scan).",
+    "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2)."
+  ],
+  "incidental_text": [
+    "Handwritten phone number at the bottom (digits not transcribed)",
+    "Printed intro paragraph"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-03.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication name or date is visible on the clipping."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
