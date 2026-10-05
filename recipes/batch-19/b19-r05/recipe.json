@@ -8,7 +8,7 @@
     {
       "group": "החומרים",
       "items": [
-        "[כרוב?] בלאדי בינוני בגודל (בערך 40 ס\"מ קוטר)",
+        "כרוב בלאדי בינוני בגודלו (בערך 40 ס״מ קוטר)",
         "1/2 בצל בינוני, קלוף וקצוץ דק",
         "1 כוס אורז, מושרה במים לחצי שעה ואז מסונן",
         "300 גר' בשר טלה טחון",
@@ -26,7 +26,8 @@
   "instructions": [],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed ingredient list pasted on a card, with a handwritten title 'פלפל ממולא' (blue ink) written over the 'החומרים' heading. The first printed word before 'בלאדי' is partly cut ('כרוב'? 'חרוב'?) - the recipe would then be a stuffed cabbage, so the handwritten 'פלפל ממולא' title does not match the first line; this is flagged. No method is on the card.",
-    "Remains of a second column at the right edge were not transcribed."
+    "Remains of a second column at the right edge were not transcribed.",
+    "Handwritten heading פלפל ממולא differs from the printed ingredient כרוב בלאדי; preserve both as written rather than silently substituting peppers."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,12 +48,6 @@
       "reason": "Handwritten title may not match the printed list (the first ingredient may be cabbage)."
     },
     {
-      "field": "ingredients[0]",
-      "text": "[כרוב?] בלאדי",
-      "best_guess": null,
-      "reason": "The first word is cut off."
-    },
-    {
       "field": "source",
       "text": "(none)",
       "best_guess": null,
@@ -60,7 +55,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
