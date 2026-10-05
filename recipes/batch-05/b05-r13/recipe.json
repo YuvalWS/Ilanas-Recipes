@@ -1,0 +1,67 @@
+{
+  "id": "b05-r13",
+  "batch": 5,
+  "title": "קציצות עוף הונגריות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג חזה עוף טחון",
+        "1/2 כוס פירורי לחם",
+        "2 ביצים",
+        "1 תפו\"א מבושל ומרוסק",
+        "מלח, פלפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שמים כל החומרים ומערבבים.",
+        "בסיר קטן 50 גר' מרגרינה עם 1 כף גדושה קמח + 1 כף גדושה מרק עוף. מערבבים שלא יהיו גושים ומוסיפים 1 כוס מים רותחים + 2 שיני שום: ([?] כשמסמיך)",
+        "מורידים מהאש ומוסיפים להערבוב הקציצות. להשאיר במקרר שעתיים.",
+        "מוציאים מהמקרר עושים כדורים ומ[?]בלים בפירורי לחם ומטגנים."
+      ]
+    }
+  ],
+  "notes": [
+    "The last lines are written clearly but in a long run-on style; the bracketed phrase and the word 'ומ?בלים' are doubtful."
+  ],
+  "incidental_text": [
+    "Printed text bleeding through at the lower edge of the paper"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-13.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "([?] כשמסמיך)",
+      "best_guess": null,
+      "reason": "The word in brackets before 'כשמסמיך' is unreadable."
+    },
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "ומ[?]בלים",
+      "best_guess": null,
+      "reason": "The 2nd letter of this word is unclear: 'ומטבלים' (dip) or 'ומתבלים' (season)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
