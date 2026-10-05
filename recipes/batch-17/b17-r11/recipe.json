@@ -1,0 +1,75 @@
+{
+  "id": "b17-r11",
+  "batch": 17,
+  "title": "עוף - [?]",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 כפית מלח",
+        "1/2 כוס [?] [?] [?] [?]",
+        "4 כפות [?] בר־בקיו",
+        "1 קופסה רסק עגבניות",
+        "2 כפות א. מרק [בצל?]",
+        "1 [?] [?] מיעוט [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] הכל [?] העוף [?]",
+        "[?] [?] ה[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a title 'עוף - [?]' (the second word could be a name such as 'מורית'). Eight ingredient lines with numbers on the right; the final two lines hold instructions. A small word at the bottom left ('הרוג?'/'הרוגע?') is probably a signature or note."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-11.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוף - [?]",
+      "best_guess": null,
+      "reason": "The second word of the title is unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Items after the quantities are only partly readable."
+    },
+    {
+      "field": "source",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "The word after the dash may be a name."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
