@@ -45,9 +45,9 @@ for d in dirs:
         print(f"{rid}: contains [?] but no uncertainties entry"); errors += 1
     if "[?]" in blob and not doc["needs_human_verification"]:
         print(f"{rid}: contains [?] but needs_human_verification is false"); errors += 1
-for cid, members in cards.items():       # interlinks must be complete and symmetric
+for cid, members in cards.items():       # interlinks: same list in every merged member; absent (not yet merged) members are fine
     lists = {tuple(v) for v in members.values()}
-    if len(lists) != 1 or set(members) != set(next(iter(lists))):
-        print(f"card {cid}: recipes {sorted(members)} do not match each other's card.recipes lists"); errors += 1
+    if len(lists) != 1 or not set(members) <= set(next(iter(lists))):
+        print(f"card {cid}: recipes {sorted(members)} do not agree on card.recipes"); errors += 1
 print(f"checked {len(dirs)} recipes, {errors} problem(s)")
 sys.exit(1 if errors else 0)
