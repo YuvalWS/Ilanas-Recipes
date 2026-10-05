@@ -12,8 +12,8 @@
         "1 1/4 כוס סוכר",
         "3/4 כוס שמן",
         "1 שקית סוכר וניל",
-        "2 כוסות קמח תופח",
-        "7 תפוחי [?] [?]",
+        "2 כוסות קמח אסם",
+        "7 תפוחי גרנד",
         "1/4 כוס סוכר",
         "מעט קינמון"
       ]
@@ -23,12 +23,10 @@
     {
       "group": "אופן ההכנה",
       "steps": [
-        "מקציפים את כל החומרים פרט לקמח במיקסר, מוסיפים את הקמח,",
-        "את התפוחים מקלפים ופורסים לפרוסות דקות ומערבבים [?]",
-        "בתוכם 1/4 כוס סוכר וקינמון.",
-        "אחר [?] מחצית הבצק ויוצקים לתבנית משומנת.",
-        "מעל מניחים את התפוחים ו[?] את שאר הבצק.",
-        "אופים בחום בינוני כשעה."
+        "מקציפים את כל החומרים פרט לקמח במיקסר, אחר מוסיפים את הקמח.",
+        "את התפוחים מקלפים ופורסים לפרוסות דקות ומערבבים בתוכם 1/4 כוס סוכר וקינמון.",
+        "אחר לוקחים מחצית הבצק ויוצקים לתבנית משומנת. מעל מניחים את התפוחים ואח״כ על התפוחים את שאר הבצק.",
+        "אופים בחום בינוני בערך כשעה."
       ]
     }
   ],
@@ -50,30 +48,11 @@
       "side": "back"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[0].items[5]",
-      "text": "7 תפוחי [?] [?]",
-      "best_guess": "7 תפוחי עץ",
-      "reason": "Words after 'תפוחי' are unclear; probably 'עץ'."
-    },
-    {
-      "field": "instructions[0].steps[3]",
-      "text": "אחר [?]",
-      "best_guess": null,
-      "reason": "Word unclear."
-    },
-    {
-      "field": "instructions[0].steps[4]",
-      "text": "ו[?]",
-      "best_guess": null,
-      "reason": "Verb unclear."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
