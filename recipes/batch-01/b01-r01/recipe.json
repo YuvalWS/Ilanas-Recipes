@@ -1,0 +1,77 @@
+{
+  "id": "b01-r01",
+  "batch": 1,
+  "title": "סופגניות מהירות - חלביות (כ-8 יחידות)",
+  "source": {
+    "text": "שרה בראלי",
+    "type": "person",
+    "as_written": "ליקטה וניסתה: שרה בראלי"
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 1/4 כוסות קמח תופח",
+        "1 גביע לבן או אשל",
+        "1 ביצה",
+        "2 כפות גדושות סוכר",
+        "1 כפית תמצית רום",
+        "קורט מלח",
+        "קורט אבקת סודה לשתייה",
+        "ריבה למילוי",
+        "אבקת סוכר לזריה",
+        "שמן לטיגון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ערבב 1 בקערה את כל החומרים לסופגניות.",
+        "חממו שמן עמוק בסיר רחב ושטוח.",
+        "קחו כף גדושה מהבלילה ובעזרת כף נוספת החליקו לתוך השמן החם.",
+        "טגנו את הסופגניה משני צידיה.",
+        "הוציאו את הסופגניות בעזרת כף מחוררת והעבירן למגש מרופד בנייר סופג.",
+        "הזריקו ריבה לתוך הסופגניות ובזקו אבקת בוכר.",
+        "הגישו חם."
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [
+    "לוגו מבטעים (printed logo and cake illustration)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-01.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions[0]",
+      "text": "ערבב 1 בקערה",
+      "best_guess": null,
+      "reason": "Printed text reads 'ערבב 1' - the '1' looks like a stray step number; transcribed exactly as printed."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "אבקת בוכר",
+      "best_guess": "אבקת סוכר",
+      "reason": "Printed text appears to read 'בוכר'; almost certainly a printing typo for 'סוכר' (powdered sugar), but kept as printed."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
