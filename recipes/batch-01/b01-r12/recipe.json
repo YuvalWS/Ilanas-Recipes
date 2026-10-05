@@ -1,16 +1,16 @@
 {
   "id": "b01-r12",
   "batch": 1,
-  "title": "עוגת תפוחים",
+  "title": "עוגת תפו\"ע",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "2 כוסות תפוחים חתוכים לקוביות קטנות.",
-        "להשרות את התפוחים ביין או שרי לחצי שעה.",
-        "150 גר' צימוקים",
+        "2 כוסות תפו\"ע חתוכים לקוביות קטנות.",
+        "להשרות את התפוחים ביין או שרי למשך 1/2 שעה.",
+        "[?] גר' [?]",
         "להוסיף:"
       ]
     },
@@ -21,13 +21,13 @@
         "1/2 כוס שמן",
         "3 ביצים",
         "קליפת לימון מגורדת",
-        "1 1/4 כוסות סוכר"
+        "1.5 כוסות סוכר"
       ]
     },
     {
       "group": null,
       "items": [
-        "חצי מ-100 גר' אגוזים קצוצים"
+        "חלק מ-100 גר' אגוזים קצוצים"
       ]
     }
   ],
@@ -35,14 +35,18 @@
     {
       "group": null,
       "steps": [
-        "לשים את חצי הבצק בתבנית משומנת ומקומחת.",
+        "לשים את [?] בתבנית משומנת עגולה",
         "לפזר למעלה את שאר האגוזים וקינמון.",
         "(לאפות בחום בינוני בתחתית התנור)",
-        "מקציפים החלבונים עם סוכר ווניל בהדרגה [?] ... את חצי [?] ... ביחד בחום בינוני כ-[?] דק' עד שהקצף מזהיב."
+        "מקציפים החלבונים [?] סוכר והוניל בהדרגה",
+        "את הקצף על [?] אופים יחד בחום בינוני כ[?] דק' עד שהקצף [?]."
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "The title abbreviation תפו\"ע = תפוחי עץ (apples); the body says 'התפוחים'.",
+    "A horizontal line separates the cake part from a final paragraph about a beaten egg-white (meringue) topping."
+  ],
   "incidental_text": [],
   "raw_files": [
     {
@@ -56,32 +60,44 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוגת תפוחים",
-      "best_guess": "עוגת תפוזים/תפוחים",
-      "reason": "Title is small; body text says 'תפוחים'."
-    },
-    {
       "field": "ingredients[0].items[2]",
-      "text": "150 גר' צימוקים",
-      "best_guess": null,
-      "reason": "Quantity digits unclear (could be 150 or 250)."
+      "text": "[?] גר' [?]",
+      "best_guess": "200 (or 250/150) גר' צימוקים",
+      "reason": "Line is squeezed in between two lines. First digit of the quantity is overwritten (looks like a corrected digit), the middle digit is a small 0 or 5, the last is 0. The word reads roughly 'צ/ב-ו-מ-ו-ק-ו-ת'; 'צימוקים' (raisins) fits the context but the letters do not match cleanly."
     },
     {
-      "field": "ingredients[2].items[0]",
-      "text": "חצי מ-100 גר' אגוזים",
-      "best_guess": null,
-      "reason": "Phrase looks unusual; reading uncertain."
+      "field": "instructions[0].steps[0]",
+      "text": "לשים את [?] בתבנית",
+      "best_guess": "חצי",
+      "reason": "Short word: her ח followed by an unclear letter; likely 'חצי' (half of the batter), but no 'הבצק' is written. Last word 'עגולה' has its ה separated at the paper edge."
     },
     {
-      "field": "instructions[3]",
-      "text": "last paragraph",
+      "field": "instructions[0].steps[3]",
+      "text": "החלבונים [?] סוכר",
+      "best_guess": "+ / עם",
+      "reason": "A small L-shaped mark between 'החלבונים' and 'סוכר'; probably a plus sign or abbreviation meaning 'with'."
+    },
+    {
+      "field": "instructions[0].steps[4]",
+      "text": "על [?]",
+      "best_guess": "המלית / המילית",
+      "reason": "Word reads ה-מ-י-?-י-ת; meaning unclear (possibly the filling/cake layer)."
+    },
+    {
+      "field": "instructions[0].steps[4]",
+      "text": "כ[?] דק'",
       "best_guess": null,
-      "reason": "Some words in the final paragraph are illegible."
+      "reason": "The left edge of the paper is torn right after 'כ'; the number of minutes is missing/lost."
+    },
+    {
+      "field": "instructions[0].steps[4]",
+      "text": "שהקצף [?]",
+      "best_guess": "מזהיב / מצהיב",
+      "reason": "Last word looks like מ-?-ח/ה-י-ב; 'מזהיב' or 'מצהיב' (turns golden/yellow) fits but the second letter is unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
