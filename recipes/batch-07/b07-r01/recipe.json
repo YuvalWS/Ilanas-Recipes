@@ -1,0 +1,70 @@
+{
+  "id": "b07-r01",
+  "batch": 7,
+  "title": "וויניגרט לסלט",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 כפות שמן זית",
+        "3 כפות מיץ לימון טרי",
+        "1[?] כף דבש",
+        "1[?] כף חרדל דיזון",
+        "1 שן שום כתוש",
+        "[?] מלח",
+        "מעט פילפל שחור"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Ingredient list only, no method. Underlined title at the top.",
+    "Spelling kept as written (פילפל, דיזון)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-01.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[2]",
+      "text": "1[?] כף דבש",
+      "best_guess": "1.5 כף דבש",
+      "reason": "The quantity looks like '1.5' (or 1 1/2) but the digits are not clear enough to be sure."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "1[?] כף חרדל דיזון",
+      "best_guess": "1.5 כף חרדל דיזון",
+      "reason": "Same quantity as above, read as 1.5; not certain."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "[?] מלח",
+      "best_guess": "כפית מלח",
+      "reason": "The word for the measure (probably כפית) is not clear."
+    },
+    {
+      "field": "title",
+      "text": "וויניגרט לסלט",
+      "best_guess": "וויניגרט",
+      "reason": "First word is stretched; read as 'וויניגרט' (vinaigrette)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
