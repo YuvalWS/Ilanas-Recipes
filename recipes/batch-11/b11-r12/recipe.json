@@ -13,7 +13,7 @@
     {
       "group": null,
       "items": [
-        "2 [?] אפונה [?]",
+        "2 כוסות אפונה יבשה",
         "2 גזרים",
         "1 בצל בינוני",
         "1/4 כפית פלפל",
@@ -70,7 +70,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
