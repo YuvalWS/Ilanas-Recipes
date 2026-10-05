@@ -1,0 +1,75 @@
+{
+  "id": "b21-r04",
+  "batch": 21,
+  "title": "חגיגה של טעמים - מתכון השניצל הקלאסי של לנדוור",
+  "source": {
+    "text": "לנדוור",
+    "type": "company",
+    "as_written": "מתכון השניצל הקלאסי של לנדוור",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "מצרכים (ל־6 מנות)",
+      "items": [
+        "6 יחידות חזה עוף (לבקש מהקצב לפרוס לפרוסות אונת חזה עוף אחת לאורכה ל־3 פרוסות, כדי שבסך הכל מחזה עוף שלם יהיו 6 יחידות שניצלים)",
+        "2 ביצים",
+        "כפית חרדל גרגירים",
+        "מלח ים אטלנטי",
+        "פלפל שחור גרוס",
+        "קמח",
+        "פירורי לחם גריסיני"
+      ]
+    },
+    {
+      "group": "להגשה",
+      "items": [
+        "ליים או לימון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מכינים את בלילת הביצים: טורפים 2 ביצים שלמות עם כפית גדושה של חרדל גרגירים איכותי, מוסיפים מלח לפי הטעם ומעט פלפל שחור גרוס.",
+        "מפזרים קמח בצלחת. בצלחת אחרת מפזרים פירורי לחם.",
+        "מקמחים את חזות העוף המשוטחים ומנערים מעודפי קמח. טובלים את חזה העוף בבלילת הביצים והחרדל.",
+        "מוציאים את חזה העוף עם הבלילה לצלחת עם פירורי לחם ומצפים היטב את העוף מכל הכיוונים.",
+        "מחממים שמן בסיר טיגון ל־170 מעלות. אם אין מדחום, זרקו בעדינות לשמן חתיכת גזר וחפשו מסביבה בועות. אם הבועות גדולות מדי, הנמיכו מעט את האש כדי שהשמן יחזור לטמפרטורה הנכונה. בנוסף - דאגו שתהיה כמות יפה של שמן בסיר. לפחות 10 ס\"מ גובה ובטמפרטורה של 170 מעלות, כך השניצל ייטגן אבל לא יספוג שמן פנימה.",
+        "מטגנים 3-2 דקות מכל צד. לאחר הטיגון מעבירים את השניצל למסננת צפופה שעומדת על מגש עם נייר סופג שיספוג את עודפי השמן. מגררים מעל השניצל החם גרידת לימון או ליים במגרדת דקה ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Fully legible printed clipping; step 6 contains the printed range '3-2' (typeset right-to-left; read in the usual order as 2-3, copied as printed in the step text).",
+    "Printed sub-headings: 'מצרכים:' with '(ל־6 מנות)', 'להגשה:', 'אופן ההכנה:'. The printed subtitle is 'מתכון השניצל הקלאסי של לנדוור'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-04.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-04.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[5]",
+      "text": "3-2 דקות",
+      "best_guess": "2-3 דקות",
+      "reason": "Printed range typeset RTL; probably means 2-3 minutes."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
