@@ -1,0 +1,52 @@
+{
+  "id": "b14-r06",
+  "batch": 14,
+  "title": "עוגיות שקדים ללא סוכר",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים (כ-20 עוגיות)",
+      "items": [
+        "2 חלבונים",
+        "1 כוס תחליף סוכר",
+        "2 כפיות קליפת תפוז מגוררת",
+        "200 גרם שקדים פרוסים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מחממים את התנור ל-180 מעלות ומרפדים שתי תבניות תנור בניירות אפייה.",
+        "שמים בקערה את החלבונים וטורפים קלות. מוסיפים את תחליף הסוכר ומערבבים למרקם אחיד. מוסיפים את קליפת התפוז ומערבבים. מוסיפים את השקדים ומערבבים בתנועות קיפול, כך שבלילת החלבון תצפה היטב את השקדים.",
+        "בעזרת כף, מניחים תלוליות מהתערובת בתבנית. משטחים קלות, בעדינות.",
+        "אופים כ-20 דקות, עד הזהבה. מוציאים, מצננים ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping: red banner 'פרווה, ללא גלוטן' with the title 'עוגיות שקדים ללא סוכר'; sub-line '4 מרכיבים, 5 דקות עבודה - ויש עוגיות פריכות ומפתיעות.'",
+    "Storage tip: 'איך שומרים? עד חודש, בקופסה סגורה היטב.'"
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2213-07.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
