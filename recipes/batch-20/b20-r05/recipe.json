@@ -8,7 +8,7 @@
     {
       "group": null,
       "items": [
-        "כרוב [?] דק."
+        "כרוב קצוץ דק."
       ]
     },
     {
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "group": "וטגן",
+      "group": "לטגן",
       "items": [
         "100 גר' שומשום",
         "100 גר' שקדים"
@@ -31,8 +31,8 @@
     {
       "group": null,
       "steps": [
-        "להוסיף רוטב [?] ([?]).",
-        "וטגן: 100 גר' שומשום, 100 גר' שקדים.",
+        "להוסיף רוטב שעתיים קודם.",
+        "לטגן: 100 גר׳ שומשום, 100 גר׳ שקדים.",
         "להוסיף בסוף."
       ]
     }
@@ -49,36 +49,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[0]",
-      "text": "כרוב [?] דק",
-      "best_guess": null,
-      "reason": "The word between 'כרוב' and 'דק' (maybe 'קצוץ' or 'פרוס') is unclear."
-    },
-    {
-      "field": "instructions[0]",
-      "text": "להוסיף רוטב [?] ([?])",
-      "best_guess": null,
-      "reason": "Two words after 'רוטב' are unclear."
-    },
-    {
-      "field": "instructions[1]",
-      "text": "וטגן",
-      "best_guess": null,
-      "reason": "The first word of the line is read as 'וטגן' ('and fry') but could be another word."
-    },
-    {
-      "field": "source",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No source written."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
