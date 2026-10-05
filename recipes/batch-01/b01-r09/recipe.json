@@ -1,0 +1,63 @@
+{
+  "id": "b01-r09",
+  "batch": 1,
+  "title": "קרם לביסקויט",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 מרגרינה [?]",
+        "1 כוס סוכר",
+        "3 כפות קקאו"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "כשמתקרר להוסיף 2 ביצים [?]",
+        "מעט [?]",
+        "[?] בסקויט [?] העליון",
+        "[?] מעט קרם [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Second recipe on the same card as 'עוגת תפוזים' (bottom half)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-08.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "1 מרגרינה [?]",
+      "best_guess": null,
+      "reason": "Word after 'מרגרינה' is unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Handwriting at the bottom of the card is too shaky to read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
