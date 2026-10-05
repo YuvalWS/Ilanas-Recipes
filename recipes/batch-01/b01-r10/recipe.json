@@ -11,7 +11,7 @@
         "5 ביצים",
         "3/4 כוס סוכר",
         "3 כפות קקאו גדושות",
-        "1 [?] קמח גדושה",
+        "1 כף קמח גדושה",
         "2 שקיות שמנת מתוקה",
         "1/2 כוס אבקת סוכר",
         "1 כפית תמצית וניל",
@@ -32,7 +32,8 @@
   ],
   "notes": [
     "The '5' in the egg quantity has an overwritten knot at the top; read as 5 (Gemini also reads 5).",
-    "The '3/4' sugar quantity is slightly messy but read as 3/4 by both readings."
+    "The '3/4' sugar quantity is slightly messy but read as 3/4 by both readings.",
+    "Independent Codex enlarged-crop rereading confirms the two-letter flour measure כף, including the loop/descender of ף; it is not כוס. The final word at the torn left edge remains unconfirmed."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,12 +48,6 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "ingredients[0].items[3]",
-      "text": "1 [?] קמח גדושה",
-      "best_guess": "Gemini: כף; earlier reading: כוס",
-      "reason": "The unit word is overwritten/scribbled (looks like a כ with a blob, possibly כף written over כוס or vice versa); changes the quantity a lot."
-    },
-    {
       "field": "instructions[0].steps[3]",
       "text": "+ פרורי שוקולד + [?]",
       "best_guess": "Gemini: אגוזים (not consistent with the visible letters); earlier reading: ולגלגל",
@@ -60,7 +55,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
