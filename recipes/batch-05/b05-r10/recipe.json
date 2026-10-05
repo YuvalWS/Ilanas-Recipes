@@ -1,0 +1,75 @@
+{
+  "id": "b05-r10",
+  "batch": 5,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כפית מלח",
+        "1/2 כוס פטרוזיליה קצוצה",
+        "1 [?] [?] יבש"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שמים בסיר רחב [?] שמן [?]",
+        "[?] [?] [?] [?]ות",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "ומבשלים [?] 15 דק'",
+        "[?] [?], מבשלים [?]",
+        "[?] [?] [?] ו[?] ומגישים"
+      ]
+    }
+  ],
+  "notes": [
+    "A dense block of handwriting inside a printed frame; only a few phrases can be read. Looks like the cooking steps for a sauce. No title."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-09.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "1 [?] [?] יבש",
+      "best_guess": null,
+      "reason": "Only the last word 'יבש' is readable."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Most of the block is unreadable (very cramped letters)."
+    },
+    {
+      "field": "title",
+      "text": "none",
+      "best_guess": null,
+      "reason": "No title visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
