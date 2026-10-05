@@ -1,0 +1,58 @@
+{
+  "id": "b20-r16",
+  "batch": 20,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Eight to nine lines of very tall, narrow and shaky handwriting in blue ink; a short line in a different (brown) ink at the bottom (and a mark at the top left). None of it could be read with any confidence, so no text is transcribed. The words 'פלפל' and 'מלח' may appear but this is a guess.",
+    "A good candidate for rescanning at a higher resolution, or for human reading of the original card."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-19.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-19.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "all",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Not legible."
+    },
+    {
+      "field": "title",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "The brown-ink line (bottom) may be a title or a note, not legible."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
