@@ -6,14 +6,14 @@
     "text": "מירי",
     "type": "person",
     "as_written": "מירי",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 כוס [?] + [?] כוס מים רותחים"
+        "1 כוס + 1 1/4 מים רותחים"
       ]
     }
   ],
@@ -21,16 +21,15 @@
     {
       "group": null,
       "steps": [
-        "מוזגים [?] בסיר",
+        "מטגנים בצל",
         "מוסיפים קינואה ומערבבים",
-        "[?] המים [?] מביאים",
-        "לרתיחה, מבשלים 12 ד'",
+        "והמים מביאים לרתיחה, מבשלים 12 ד'",
         "ומכסים"
       ]
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'קינואה / מירי' with a wavy and a straight underline; the rest of the card is white. A very short instruction card; the quantities in the first line are not fully readable."
+    "Independently reread the full scan. Source מירי and instruction מטגנים בצל resolved. The first line is shorthand: 1 כוס + 1 1/4 מים רותחים; omitted words are not invented."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -42,29 +41,17 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "מירי",
-      "best_guess": "מירי",
-      "reason": "Read as a first name."
-    },
-    {
-      "field": "ingredients[0]",
-      "text": "1 כוס [?] + [?] כוס מים רותחים",
-      "best_guess": null,
-      "reason": "Words and quantity unclear."
-    },
-    {
-      "field": "instructions",
-      "text": "several lines",
-      "best_guess": null,
-      "reason": "Words unclear (the last two lines are 'לרתיחה, מבשלים 12 ד'' and 'ומכסים')."
+      "field": "ingredients[0].items[0]",
+      "text": "1 כוס + 1 1/4 מים רותחים",
+      "best_guess": "1 כוס קינואה + 1 1/4 כוס מים רותחים",
+      "reason": "The shorthand omits the first ingredient and a repeated water unit; neither has been silently supplied."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
