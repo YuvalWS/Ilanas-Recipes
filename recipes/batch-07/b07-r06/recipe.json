@@ -1,0 +1,73 @@
+{
+  "id": "b07-r06",
+  "batch": 7,
+  "title": "סלט סלק [?]",
+  "source": {
+    "text": "מיכי",
+    "type": "person",
+    "as_written": "מיכי",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "right block (bracketed)",
+      "items": [
+        "שמן",
+        "מיץ לימון",
+        "סילן",
+        "מלח, פלפל"
+      ]
+    },
+    {
+      "group": "left block",
+      "items": [
+        "על [?] [?]",
+        "2 כפות [?]",
+        "מעט דבש"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Heading 'סלט סלק [?] / מיכי' above a ruled line. Right block bracketed (oil, lemon juice, silan, salt/pepper); a scribbled word above it is unreadable."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-06.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "סלט סלק [?]",
+      "best_guess": "סלט סלק גזר",
+      "reason": "Third word is unclear."
+    },
+    {
+      "field": "source",
+      "text": "מיכי",
+      "best_guess": "מיכי",
+      "reason": "Name after the slash is only partly legible."
+    },
+    {
+      "field": "ingredients",
+      "text": "left block",
+      "best_guess": null,
+      "reason": "Left block lines are unclear apart from 'מעט דבש'."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
