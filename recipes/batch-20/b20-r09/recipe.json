@@ -1,0 +1,72 @@
+{
+  "id": "b20-r09",
+  "batch": 20,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] פחיות סלק חום",
+        "[?] כפיות מלח",
+        "2 [?] בתנועות?"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Three short lines at the top of an otherwise blank card. The first line reads '... פחיות סלק חום' (cans of beetroot), the second '... כפיות מלח', the third starts with '2' and ends with a word that could be 'בתנועות'. Numbers are shaky (the first digit could be 4 or 7).",
+    "Same card size and similar hole mark as the previous scan in this batch (10); no connection is claimed."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-11.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "[?] פחיות סלק חום",
+      "best_guess": null,
+      "reason": "The quantity is unclear."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?] כפיות מלח",
+      "best_guess": null,
+      "reason": "The quantity is unclear (maybe 1 1/2)."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "2 [?] בתנועות?",
+      "best_guess": null,
+      "reason": "Third line unreadable."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title on the card."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
