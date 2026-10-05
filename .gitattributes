@@ -1,0 +1,5 @@
+# Keep LF in the repo on Windows too (avoids CRLF noise and merge conflicts when several people/tools edit in parallel)
+* text=auto eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary

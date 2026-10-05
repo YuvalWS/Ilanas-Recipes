@@ -5,6 +5,9 @@ usage: python tools/update_prs.py [--merge-high] b01-r05 b02-r03 ...
 
 For each recipe id: if recipes/batch-NN/<id>/ differs from branch recipe/<id>, add one commit on top
 of that branch (git plumbing, working tree untouched), push it, and update the PR title/body.
+Safe for parallel editing: it fetches first and always builds on the REMOTE tip origin/recipe/<id> (so work
+pushed by someone else is never overwritten), and never force-pushes. If a recipe's remote branch has
+commits you have not seen, they are listed so you can look before your folder replaces theirs.
 --merge-high then squash-merges the PR if the recipe is now `confidence: high`.
 """
 import glob, json, os, subprocess, sys, tempfile
@@ -28,9 +31,17 @@ def has_ref(ref):
     return subprocess.run(["git", "-C", ROOT, "show-ref", "--verify", "--quiet", ref]).returncode == 0
 
 
+git("fetch", "origin", "--prune")
 for rid in [a for a in sys.argv[1:] if not a.startswith("--")]:
     branch = f"recipe/{rid}"
     folder = f"recipes/batch-{rid.split('-')[0][1:]}/{rid}"
+    if has_ref(f"refs/remotes/origin/{branch}"):
+        remote = git("rev-parse", f"origin/{branch}")
+        if has_ref(f"refs/heads/{branch}") and git("rev-parse", branch) != remote:
+            behind = git("log", "--format=%h %an: %s", f"{branch}..origin/{branch}")
+            if behind:
+                print(f"{rid}: remote branch has commits you did not have (building on top of them):" + ("\n  " + behind.replace("\n", "\n  ")))
+        git("update-ref", f"refs/heads/{branch}", remote)       # local ref follows the remote tip
     if not has_ref(f"refs/heads/{branch}"):
         # the recipe PR was already merged: open a follow-up branch from origin/main
         branch = f"recipe/{rid}-reread"
@@ -57,6 +68,9 @@ for rid in [a for a in sys.argv[1:] if not a.startswith("--")]:
         title = f"Re-read {rid}: {new['title'] or '(untitled)'} (confidence {old['confidence']} -> {new['confidence']})"
         subprocess.run(["gh", "pr", "create", "--base", "main", "--head", branch, "--title", title, "--body", pp.body(new)], check=False)
     subprocess.run(["gh", "pr", "edit", branch, "--title", title, "--body", pp.body(new)], check=False)  # PR may not exist yet
+    others = ",".join(f"confidence: {c}" for c in ("high", "medium", "low") if c != new["confidence"])
+    subprocess.run(["gh", "pr", "edit", branch, "--add-label", f"confidence: {new['confidence']}", "--remove-label", others],
+                   capture_output=True)                         # keep the confidence label in sync
     print(f"{rid}: updated ({old['confidence']} -> {new['confidence']})")
     if MERGE and new["confidence"] == "high" and "[?]" not in json.dumps([new["title"], new["ingredients"], new["instructions"], new["notes"]], ensure_ascii=False):
         subprocess.run(["gh", "pr", "merge", branch, "--squash", "--delete-branch"], check=True)
