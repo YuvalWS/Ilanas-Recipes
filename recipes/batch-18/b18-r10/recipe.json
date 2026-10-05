@@ -1,12 +1,12 @@
 {
   "id": "b18-r10",
   "batch": 18,
-  "title": "עוגת פירות / ורדה",
+  "title": "עוגת פירות",
   "source": {
     "text": "ורדה",
     "type": "person",
     "as_written": "ורדה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -47,12 +47,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "ורדה",
-      "best_guess": "ורדה",
-      "reason": "Read as a first name after the slash."
-    },
-    {
       "field": "ingredients",
       "text": "lines 3-5",
       "best_guess": null,
@@ -66,7 +60,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
