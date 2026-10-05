@@ -1,18 +1,17 @@
 {
   "id": "b23-r02",
   "batch": 23,
-  "title": "קרם [?]",
+  "title": "[?]",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "[?] גר' [?] ושוקולד מריר [?]",
-        "[?] גר' חמאה",
-        "[?] כפות קקאו",
-        "4 חלמונים",
-        "(a struck-out word, probably שמרים?)"
+        "500 ג׳ שוקולד מריר",
+        "200 ג׳ חמאה",
+        "2 כפות קוניאק",
+        "4 חלמונים"
       ]
     }
   ],
@@ -21,9 +20,9 @@
       "group": null,
       "steps": [
         "[?] במקרר עד שמתקשה [?]",
-        "כמו [?]",
-        "[?] פנימה [?]",
-        "2 כפות [?] קרם",
+        "כמו מיונז",
+        "שכבה עוגה",
+        "3 כפות גדושות קרם",
         "[?]",
         "[?] קרם",
         "[?] [?] ו[?] [?]"
@@ -65,7 +64,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
