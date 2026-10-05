@@ -1,10 +1,10 @@
 {
   "id": "b06-r14",
   "batch": 6,
-  "title": "[?]",
+  "title": "מושט",
   "source": {
     "text": "[?]",
-    "type": "unknown",
+    "type": "person",
     "as_written": "[?]",
     "uncertain": true
   },
@@ -13,9 +13,9 @@
     {
       "group": null,
       "items": [
+        "דג [?] [?]",
         "[?] 3 [?]",
-        "20 [?]",
-        "[?]"
+        "[?] [?]"
       ]
     }
   ],
@@ -23,16 +23,17 @@
     {
       "group": null,
       "steps": [
+        "לערבב",
         "[?] [?] [?]",
-        "[?] [?] [?]",
-        "[?] [?] [?] [?]",
-        "[?] [?] [?] [?]"
+        "20 ד'",
+        "[?]",
+        "[?] [?]"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Yellow memo card (same type as scan 14). A bracket on the right groups several lines; the heading before/after a slash resembles two words but cannot be read reliably."
+    "Yellow memo card (same type as scan 14, without letterhead). Heading is 'מושט / [name]': dish name before the slash; the word after the slash is a person's name that could not be confirmed.",
+    "A curly bracket groups several lines, with the word 'לערבב' beside it. Only 'לערבב' and '20 ד'' are clearly legible; other lines are too cramped to confirm and are left as [?] with Gemini's reading recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,26 +48,26 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "heading",
-      "best_guess": null,
-      "reason": "Heading unreadable."
+      "field": "source",
+      "text": "word after the slash",
+      "best_guess": "Gemini: שולה; earlier/this reading: ends in -ית (e.g. שלמית / שלומית?)",
+      "reason": "Readings differ; cannot confirm on the scan."
     },
     {
-      "field": "source",
-      "text": "heading after the slash",
-      "best_guess": null,
-      "reason": "Possibly a person's name."
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": "Gemini: דג מושט שלם / חצי שן שום / כוסברה קצוצה (a digit 3 was seen in an earlier reading; Gemini has none)",
+      "reason": "Cramped handwriting; Gemini's words not confirmable on the scan."
     },
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Body unreadable."
+      "text": "lines other than לערבב and 20 ד'",
+      "best_guess": "Gemini: בתנור / לפני ההגשה",
+      "reason": "Cannot confirm on the crop."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
