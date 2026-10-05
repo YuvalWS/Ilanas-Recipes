@@ -1,0 +1,66 @@
+{
+  "id": "b01-r04",
+  "batch": 1,
+  "title": "עוגת אגוזים",
+  "source": {
+    "text": "אסתר",
+    "type": "person",
+    "as_written": "אסתר",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים",
+        "[?]150 גר' אגוזים",
+        "3 כפות קמח אוסם מלאות",
+        "1 כוס סוכר",
+        "מעט תמצית שקדים"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Card lists ingredients only; no preparation steps are written."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-04.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת אגוזים / אסתר",
+      "best_guess": null,
+      "reason": "Name after the slash is partly smudged; 'אסתר' is a likely reading."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?]150 גר' אגוזים",
+      "best_guess": "150 גר' אגוזים",
+      "reason": "Quantity digits are unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "מעט תמצית שקדים",
+      "best_guess": null,
+      "reason": "Last line is small and partly illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
