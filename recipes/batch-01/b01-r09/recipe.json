@@ -8,7 +8,7 @@
     {
       "group": null,
       "items": [
-        "1 מרגרינה [?]",
+        "1 מרגרינה להמס",
         "1 כוס סוכר",
         "3 כפות קקאו"
       ]
@@ -18,15 +18,16 @@
     {
       "group": null,
       "steps": [
-        "כשמתקרר להוסיף 2 ביצים [?]",
-        "מעט [?]",
-        "[?] בסקויט [?] העליון",
-        "[?] מעט קרם [?]"
+        "כשמתקרר להוסיף 2 ביצים שמנת",
+        "מעט יין",
+        "לפורר ביסקויט [?]",
+        "ליצוק מעט קרם למעלה"
       ]
     }
   ],
   "notes": [
-    "Second recipe on the same card as 'עוגת תפוזים' (bottom half)."
+    "Second recipe on the same card as 'עוגת תפוזים' (bottom half).",
+    "Line 1 ends with a short dash after 'שמנת' (as on the card)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -38,23 +39,17 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "ingredients[0]",
-      "text": "1 מרגרינה [?]",
-      "best_guess": null,
-      "reason": "Word after 'מרגרינה' is unclear."
-    },
-    {
-      "field": "instructions",
-      "text": "all lines",
-      "best_guess": null,
-      "reason": "Handwriting at the bottom of the card is too shaky to read reliably."
+      "field": "instructions[0].steps[2]",
+      "text": "לפורר ביסקויט [?]",
+      "best_guess": "Gemini: no equivalent word (paraphrases as layers); earlier reading: ושכבה; latest crop: ומעלה / ולמעלה",
+      "reason": "Last word of the line is shaky: starts with ו, ends with ה, middle letters (מ/ע/ל or ש/כ/ב) unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
