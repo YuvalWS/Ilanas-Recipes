@@ -1,7 +1,7 @@
 {
   "id": "b16-r02",
   "batch": 16,
-  "title": "ספגטי [בולונז?]",
+  "title": "ספגטי בולונז [?]",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -11,8 +11,8 @@
         "1 כפית שמן",
         "1 פלפל אדום (או גמבה) קוביות דק",
         "1/4 ק\"ג בשר בקר טחון",
-        "[?] כוסות? רסק עגבניות [?]",
-        "[?] [?] 250 גר' ספגטי",
+        "400 גר׳ רוטב עגבניות מוכן (נפוליטנה) לפיצה או פסטה",
+        "250 גר׳ ספגטי",
         "פטרוזיליה קצוצה"
       ]
     }
@@ -87,7 +87,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
