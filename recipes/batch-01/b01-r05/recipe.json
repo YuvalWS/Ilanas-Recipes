@@ -14,11 +14,11 @@
       "group": null,
       "items": [
         "200 גר' אגוזי מלך טבעיים",
-        "״ ״ תערובת פירות יבשים",
-        "[?] [?] [?] סוכר ([?] [?])",
+        "200 גר' תערובת פירות יבשים",
+        "עדיף ללא סוכר (צימוקים [?] משמש)",
         "2 ביצים",
         "2 כפות קמח מלא או קמח כוסמין מלא",
-        "תבנית [?] 24 משומנת היטב"
+        "תבנית אינגליש 24 משומנת היטב"
       ]
     }
   ],
@@ -27,17 +27,21 @@
       "group": null,
       "steps": [
         "1. מערבבים אגוזים ופירות",
-        "2. מוסיפים ביצים ומוסיפים",
+        "2. טורפים ביצים ומוסיפים",
         "3. מוסיפים קמח ומערבבים [?]",
         "4. מניחים בתבנית",
-        "5. אופים [?] [?] [?]",
-        "6. [?] [?] [?] [?] [?]"
+        "5. אופים בינוני [?] [?]",
+        "6. [?] [?]",
+        "7. נשמר [?] [?] [?]"
       ]
     }
   ],
   "notes": [
-    "Digitization remark: the ditto marks (״ ״) on the second ingredient line repeat the quantity of the line above (200 גר'); written as on the card.",
-    "Digitization remark: in this hand the letter א looks like a joined ס+ל; reading it as א gives אגוזי / אגוזים / אופים, consistent across the card."
+    "Digitization remark: ditto marks expanded. The two ditto marks on the second ingredient line stand for the quantity and unit of the line above (200 גר').",
+    "Digitization remark: in this hand the letter א looks like a joined ס+ל; reading it as א gives אגוזי / אגוזים / אופים / אינגליש, consistent across the card.",
+    "Digitization remark: the line under the ingredient 'תערובת פירות יבשים' ('עדיף ללא סוכר ...') is a remark about the dried-fruit mix (preferably unsweetened), not a sugar quantity.",
+    "Digitization remark: the card is cut at the bottom edge, so the lower halves of the last three lines (steps 5-7) are partly missing.",
+    "Digitization remark: the word 'מלא' also appears alone on the line below the flour line (not part of a new ingredient)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -59,43 +63,43 @@
     },
     {
       "field": "ingredients",
-      "text": "200 גר' אגוזי מלך טבעיים",
-      "best_guess": null,
-      "reason": "The first letter of אגוזי is an unusual shape (her א); read from context and from 'מערבבים אגוזים' in step 1. Unit abbreviation גר' is slightly unclear."
+      "text": "עדיף ללא סוכר (צימוקים [?] משמש)",
+      "best_guess": "Gemini: 'צימוקים משמש'; own crop reading: possibly 'צימוקים ומשמש'",
+      "reason": "'עדיף ללא סוכר' read with Gemini's help and consistent with the ink; the word between 'צימוקים' and 'משמש' is shaky (possible extra ו)."
     },
     {
       "field": "ingredients",
-      "text": "[?] [?] [?] סוכר ([?] [?])",
-      "best_guess": "a quantity such as 'עד ½ כוס' before סוכר",
-      "reason": "Sugar quantity and the parenthetical remark after it are too shaky to read."
-    },
-    {
-      "field": "ingredients",
-      "text": "תבנית [?] 24 משומנת היטב",
-      "best_guess": null,
-      "reason": "The word describing the pan (before the size 24) is illegible."
+      "text": "2 כפות קמח מלא או קמח כוסמין מלא",
+      "best_guess": "Gemini: קמח סובין; earlier reading: קמח כוסמין",
+      "reason": "The flour type before the descender-final letter is shaky: Gemini read 'סובין', earlier reading 'כוסמין'. Kept the earlier reading in the text."
     },
     {
       "field": "instructions",
       "text": "3. מוסיפים קמח ומערבבים [?]",
-      "best_guess": null,
-      "reason": "A bracket spans steps 2-3 with a single letter (ק?) to its left; meaning unclear."
+      "best_guess": "Gemini: nothing after 'ומערבבים'",
+      "reason": "A bracket curl and a single letter appear to the left of the line; meaning unclear, perhaps just a stray mark."
     },
     {
       "field": "instructions",
-      "text": "5. אופים [?] [?] [?]",
-      "best_guess": "אופים בתנור ...",
-      "reason": "Words after אופים (oven / temperature / time) are too shaky to read."
+      "text": "5. אופים בינוני [?] [?]",
+      "best_guess": "Gemini: 'כ-45 דק''  (earlier note: oven/temperature/time words unread)",
+      "reason": "After 'בינוני' the digits are scribbled over and the card edge cuts the line; a time such as 'דק'' is possible but the number is not certain."
     },
     {
       "field": "instructions",
-      "text": "6. [?] [?] [?] [?] [?]",
-      "best_guess": null,
-      "reason": "Last line is very shaky and runs into the torn/cut bottom edge of the card."
+      "text": "6. [?] [?]",
+      "best_guess": "Gemini: מקררים ופורסים",
+      "reason": "Line runs into the cut bottom edge; the letters are partly missing. Gemini's reading is plausible (ends in ים) but not confirmed."
+    },
+    {
+      "field": "instructions",
+      "text": "7. נשמר [?] [?] [?]",
+      "best_guess": "Gemini: נשמר במקרר שבועיים או במקפיא",
+      "reason": "Last line is cut by the bottom edge of the card. 'נשמר' and a 'מקרר'-like shape are consistent with Gemini, but the rest cannot be confirmed."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
