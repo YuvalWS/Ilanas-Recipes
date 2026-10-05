@@ -1,0 +1,57 @@
+{
+  "id": "b02-r07",
+  "batch": 2,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "קודם אפרסקים - בבלנדר ללא [?] הניצול.",
+        "הניצול של האפרסקים + כוס מים להרתיח.",
+        "להוסיף [?] משמש,",
+        "להוסיף את רסק האפרסקים",
+        "[?] לצנחיות"
+      ]
+    }
+  ],
+  "notes": [
+    "A handwritten fragment on company notepaper. It has no title and no ingredient list; it seems to describe a peach/apricot preparation, but the dish is not named."
+  ],
+  "incidental_text": [
+    "Printed letterhead: בזל - מקבוצת חברות זלינגר בע\"מ, חברה להנדסה ובנין בע\"מ, טל. 03-5617358, פקס. 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-07.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "No title written."
+    },
+    {
+      "field": "instructions",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Light, slanted handwriting; words 'הניצול' and the last line are uncertain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
