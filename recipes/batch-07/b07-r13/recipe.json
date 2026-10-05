@@ -1,0 +1,55 @@
+{
+  "id": "b07-r13",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/3 כוס שמן שומשום",
+        "1/3 [ditto] קנולה",
+        "1/3 [ditto] חומץ בלסמי",
+        "1 כפית דבש",
+        "מלח ופלפל שחור גרוס"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Dressing ingredient list with ditto marks for 'כוס'. Appears to be the back of the yellow card in scan 13 (faint show-through of the other side at the bottom)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-14.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "1/3 [ditto] קנולה",
+      "best_guess": "קנולה",
+      "reason": "Word read as 'קנולה' (canola); first letters are stretched."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
