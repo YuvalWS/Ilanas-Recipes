@@ -1,21 +1,26 @@
 {
   "id": "b20-r16",
   "batch": 20,
-  "title": "[?]",
+  "title": null,
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": null,
+      "group": "מתוך ההוראות",
       "items": [
-        "[?]"
+        "מלח, פלפל",
+        "בצל — לחתוך, לטגן",
+        "פלפל ירוק",
+        "תירס — להוסיף עם המים",
+        "עגבניות שרי — חתוך לפרוסות"
       ]
     }
   ],
   "instructions": [],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Eight to nine lines of very tall, narrow and shaky handwriting in blue ink; a short line in a different (brown) ink at the bottom (and a mark at the top left). None of it could be read with any confidence, so no text is transcribed. The words 'פלפל' and 'מלח' may appear but this is a guess.",
-    "A good candidate for rescanning at a higher resolution, or for human reading of the original card."
+    "A good candidate for rescanning at a higher resolution, or for human reading of the original card.",
+    "First line מלח, פלפל is seasoning, not a title. Later additions and serving line remain unclear."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,7 +54,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
