@@ -12,9 +12,9 @@
         "1/3 [?] מיץ לימון",
         "1/[?] [?] [crossed out]",
         "1 [?] [?]",
-        "1 חופן [?]",
-        "1 [?] שקדים פרוסים",
-        "1 תפוח [?]-סמית פרוס/ה [?]"
+        "1 חופן חמוציות",
+        "1 חופן שקדים פרוסים",
+        "1 תפוח גרנד־סמית — פרוסות"
       ]
     },
     {
@@ -100,7 +100,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
