@@ -3,10 +3,10 @@
   "batch": 20,
   "title": "סלט עם רימונים",
   "source": {
-    "text": "מועצת הצמחים בישראל (מוזכרת בטקסט: 'באדיבות')",
+    "text": "מועצת הצמחים בישראל",
     "type": "publication",
     "as_written": "באדיבות מועצת הצמחים בישראל",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "clipping",
   "ingredients": [
@@ -22,7 +22,7 @@
         "שתי כפיות סוכר",
         "מלח ופלפל",
         "50 גרם צנוברים קלויים",
-        "אפשר להוסיף גם גרעיני תמניה קלויים"
+        "אפשר להוסיף גם גרעיני חמניה קלויים"
       ]
     }
   ],
@@ -32,7 +32,7 @@
       "steps": [
         "שוטפים עלים מחסה אחת, מייבשים וקורעים גס.",
         "מעבירים לקערה, מוסיפים 200 גרם עלי בייבי (או יותר, אם בא לכם), קוביות משני מלפפונים [שורה קרועה: [?] לא מקולפים [?]] בלסמי, 1/2 כפית חרדל, כף מיץ לימון, שתי כפיות סוכר, מלח ופלפל.",
-        "את הרוטב יוצקים על הסלט, מערבבים בעדינות, מפזרים מעל 50 גרם צנוברים קלויים, ומגישים. אפשר להוסיף גם גרעיני תמניה קלויים."
+        "את הרוטב יוצקים על הסלט, מערבבים בעדינות, מפזרים מעל 50 גרם צנוברים קלויים, ומגישים. אפשר להוסיף גם גרעיני חמניה קלויים."
       ]
     }
   ],
@@ -66,16 +66,10 @@
       "text": "[?] בלסמי",
       "best_guess": null,
       "reason": "The quantity and kind of the 'בלסמי' item are cut by the tear."
-    },
-    {
-      "field": "source",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No clear source apart from the mention of the plants board in the introduction."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
