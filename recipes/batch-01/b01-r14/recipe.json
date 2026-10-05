@@ -1,11 +1,11 @@
 {
   "id": "b01-r14",
   "batch": 1,
-  "title": "עוגת שבע ברכות חיה (3 שכבות)",
+  "title": "עוגת שבע ברכות (3 שכבות)",
   "source": {
-    "text": "המורה",
+    "text": "[?] חיה",
     "type": "person",
-    "as_written": "(המורה ... 3 שכבות)",
+    "as_written": "([?] חיה)",
     "uncertain": true
   },
   "medium": "handwritten",
@@ -15,14 +15,16 @@
       "items": [
         "7 ביצים",
         "1 כוס סוכר",
-        "4 כפות קמח + 1/2 כפית אפיון (או 4 כפות קמח אוסם)",
+        "4 כפות קמח + 1/2 כפית [?] (או 4 כפות קמח אוסם)",
         "4 כפות קקאו"
       ]
     },
     {
       "group": "2) קרם קוקוס",
       "items": [
-        "1 כוס סוכר + 1 כוס מים + 1/2 מרגרינה",
+        "1 כוס סוכר",
+        "1 כוס מים",
+        "1/3 מרגרינה",
         "200 גר' קוקוס",
         "3 ביצים",
         "תמצית שקדים"
@@ -32,10 +34,11 @@
       "group": "3) קרם שוקולד",
       "items": [
         "1/4 כוס מים",
-        "100 גר' שוקולד מריר או 3 כפות קקאו",
+        "100 גר' שוקולד מריר, או 3 כפות קקאו",
         "4 כפות סוכר",
-        "1/2 חב' מרגרינה",
-        "רום, וניל"
+        "1/2 מרגרינה",
+        "[?]",
+        "וניל"
       ]
     }
   ],
@@ -43,29 +46,33 @@
     {
       "group": "1) טורט",
       "steps": [
-        "להכין כמו עוגת ספוג רגילה."
+        "להכין כמו עוגת ספוג רגילה [?] [?]"
       ]
     },
     {
       "group": "2) קרם קוקוס",
       "steps": [
-        "[?] סוכר [?] מים [?] מרגרינה [?] ... [?]",
-        "להוסיף 200 גר' קוקוס, [?] [?] [?] עד ש[?]",
-        "להוסיף 3 ביצים [?] הקוקוס [?] חם",
-        "להוסיף תמצית שקדים, [?] [?] [?]"
+        "1 כוס סוכר + 1 כוס מים + 1/3 מרגרינה [?] = [?]",
+        "להוסיף 200 גר' קוקוס, מבשלים תוך כדי בחישה, עד [?] נספגים, מקררים.",
+        "לבחוש 3 ביצים, להכניס לקוקוס על חם",
+        "להוסיף תמצית שקדים, [?] [?] על [?] [?]"
       ]
     },
     {
       "group": "3) קרם שוקולד",
       "steps": [
-        "[?] להרתיח [?] ולקרר (margin note beside the ingredients)",
-        "[?] להוסיף 1/2 מרגרינה, רום, וניל",
-        "[?] על קרם הקוקוס ולקרר."
+        "[?] [?] (written beside a bracket enclosing the three ingredient lines: מים, שוקולד/קקאו, סוכר)",
+        "לכבות את האש, להוסיף 1/2 מרגרינה, [?], וניל",
+        "לשפוך על קרם הקוקוס ולקרר."
       ]
     }
   ],
   "notes": [
-    "Squared (graph) paper with a punched hole at the left."
+    "Squared (graph) paper with punched holes on the right; left edge torn and stained (coffee-ring stain beside part 2).",
+    "Ingredients for parts 2 and 3 are extracted from the instruction lines on the card; the card lists only part 1 and part 3's water/chocolate/sugar as separate ingredient lines.",
+    "'על חם' (part 2, line 3) is underlined on the card. Its 3 is written 'ʒ'-style, same glyph as the margarine fraction in part 2 (read as 1/3; the previous transcription had 1/2, the independent Gemini reading also gives 1/3).",
+    "Title: 'שכבות' in '(3 שכבות)' is partly cut off at the left edge of the card.",
+    "Gemini second reading differs (paraphrased) on some lines I read clearly on zoomed crops: it has 'לבשל מעט כדי שיתקשר' where the card reads 'מבשלים תוך כדי בחישה', 'לטרוף 3 ביצים ... לא חמה' where the card reads 'לבחוש 3 ביצים ... על חם' (the ascender is on the left, i.e. ע+ל), and adds 'סוכר וניל'/'היטב' which are not on the card."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -77,29 +84,65 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוגת שבע ברכות חיה",
-      "best_guess": null,
-      "reason": "First line of title is partly crossed by a bracket; second word looks like 'שבע/שבך'."
+      "field": "source",
+      "text": "[?] חיה",
+      "best_guess": "המורה (my reading: ה-מ-ו-ר-ה, cursive מ is clear) / הגדולה (Gemini)",
+      "reason": "Small parenthetical above the title; two readings disagree."
     },
     {
-      "field": "source",
-      "text": "המורה",
-      "best_guess": null,
-      "reason": "Parenthetical at top left, partially cut off by the card edge."
+      "field": "ingredients",
+      "text": "1/2 כפית [?]",
+      "best_guess": "אפיה (baking powder); letters look like 'אפיון'",
+      "reason": "Word shape does not match a known word exactly."
     },
     {
       "field": "instructions",
-      "text": "קרם קוקוס and קרם שוקולד paragraphs",
-      "best_guess": null,
-      "reason": "These were reconstructed from partially legible lines; the key verbs may differ."
+      "text": "להכין כמו עוגת ספוג רגילה [?] [?]",
+      "best_guess": "letters look like 'עוגת ה...' / Gemini: 'בתבנית הגדולה, ולאפות'",
+      "reason": "Line runs off the torn left edge; last words cut off."
+    },
+    {
+      "field": "instructions",
+      "text": "1/3 מרגרינה [?] = [?]",
+      "best_guess": "first word unread (shape like 'טליה'); second: 'להמיס' (my reading) / Gemini: 'להרתיח'",
+      "reason": "Shaky letters at the stained left edge; readings disagree."
+    },
+    {
+      "field": "instructions",
+      "text": "עד [?] נספגים",
+      "best_guess": "שהנוזל (my reading) / Gemini: שמבעבע",
+      "reason": "Word at the very left edge of the line."
+    },
+    {
+      "field": "instructions",
+      "text": "להוסיף תמצית שקדים, [?] [?] על [?] [?]",
+      "best_guess": "'הכל לצקת על הטורט ב...' (my partial reading) / Gemini: 'לצקת את כל התערובת מעל הטורט האפוי'",
+      "reason": "Letters ambiguous and the line runs off the left edge."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] [?] (bracket note, part 3)",
+      "best_guess": "לבשל / לקרר (my reading) or לקרם (Gemini: 'לבשל לקרם')",
+      "reason": "Two short words beside the bracket; first word's middle letters unclear, last letter of the second ambiguous ר/ם."
+    },
+    {
+      "field": "instructions",
+      "text": "1/2 מרגרינה, [?], וניל",
+      "best_guess": "רום (previous transcription) / רכה (Gemini)",
+      "reason": "Short word between commas; final letter ambiguous."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?] (part 3)",
+      "best_guess": "רום / רכה",
+      "reason": "Same word as in the part 3 instruction line."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
