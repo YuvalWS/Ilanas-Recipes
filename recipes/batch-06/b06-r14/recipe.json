@@ -3,10 +3,10 @@
   "batch": 6,
   "title": "מושט",
   "source": {
-    "text": "[?]",
+    "text": "מרים",
     "type": "person",
-    "as_written": "[?]",
-    "uncertain": true
+    "as_written": "מרים",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -48,12 +48,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "word after the slash",
-      "best_guess": "Gemini: שולה; earlier/this reading: ends in -ית (e.g. שלמית / שלומית?)",
-      "reason": "Readings differ; cannot confirm on the scan."
-    },
-    {
       "field": "ingredients",
       "text": "all lines",
       "best_guess": "Gemini: דג מושט שלם / חצי שן שום / כוסברה קצוצה (a digit 3 was seen in an earlier reading; Gemini has none)",
@@ -67,7 +61,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
