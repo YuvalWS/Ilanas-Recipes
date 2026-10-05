@@ -1,0 +1,80 @@
+{
+  "id": "b20-r19",
+  "batch": 20,
+  "title": "עוף בסגנון סיני",
+  "source": {
+    "text": "ציפי ויס",
+    "type": "person",
+    "as_written": "ציפי ויס",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "4-5 כרעיים",
+        "2 בצלים",
+        "כוס אורז",
+        "4-5 תפוחי אדמה",
+        "פלפל ומלח לפי הטעם"
+      ]
+    },
+    {
+      "group": "החומרים (עמודה שנייה, מצד שמאל של כל שורה)",
+      "items": [
+        "רבע כוס סויה",
+        "רבע כוס דבש",
+        "רבע כוס מים",
+        "רבע כוס יין"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "לטגן את הבצלים בשמן עד שיהיו זהובים.",
+        "לבשל את האורז עם כפית מלח, בישול קל כ־7-10 דקות.",
+        "לבשל את תפוחי האדמה בישול קל, ולאחר מכן לפרוס אותם לפרוסות דקות.",
+        "לשטח את הבצל המטוגן על התבנית, מעליו לשפוך את האורז המבושל למחצה, מעל האורז לשטח את פרוסות תפו\"א הדקות, ומעל תפו\"א להניח את העוף, מעל הכל לשפוך את רוטב הסויה (לעשות רוטב מהסויה, הדבש, מהמים, מהיין).",
+        "לאפות כ־90 דקות."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed card with the title 'עוף בסגנון סיני / ציפי ויס'. The ingredient block is printed in two columns on the same lines (for example '4-5 כרעיים' next to 'רבע כוס סויה'); it is split into two groups here. A tear/stain at the top right corner."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-22.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-22.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions[1]",
+      "text": "כ־7-10 דקות",
+      "best_guess": "7-10",
+      "reason": "The range is typeset right-to-left and could be read as 7-10 or 10-7; 7-10 is the natural order."
+    },
+    {
+      "field": "ingredients",
+      "text": "two-column list",
+      "best_guess": null,
+      "reason": "The pairing of the two columns into two groups was inferred from the layout."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
