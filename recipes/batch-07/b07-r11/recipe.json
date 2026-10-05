@@ -9,8 +9,8 @@
       "group": null,
       "items": [
         "שמן זית",
-        "[?]",
-        "[?] מלח",
+        "לימון",
+        "שן שום כתוש",
         "מלח ופילפל"
       ]
     }
@@ -19,7 +19,7 @@
     {
       "group": null,
       "steps": [
-        "(below the ruled line) [?] [?] [?] [?]",
+        "סלט בצל חסה, פטריות [?]",
         "[?] [?] [?] [?] [?]",
         "[?] [?] [?] ?"
       ]
@@ -67,7 +67,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
