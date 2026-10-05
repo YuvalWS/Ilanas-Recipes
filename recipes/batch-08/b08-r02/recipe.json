@@ -1,0 +1,85 @@
+{
+  "id": "b08-r02",
+  "batch": 8,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] מלח, סוכר [?]",
+        "[?] [?] [?] קישואים [?]",
+        "[?] הבצל [?] [?]",
+        "[?] [?] [?] קטנות [?]",
+        "[?] [?] [?] מלח [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "(about 8 more lines, partly unreadable)",
+        "(reverse side) [?] [?] [?] במיקסר",
+        "(reverse side) [?] [?] [?] עד שמתקבל [?]",
+        "(reverse side) [?] [?] ([?]מלח) [?] [?]",
+        "(reverse side) ממשיכים להרתיח [?] [?] עד שמתעבה",
+        "(reverse side) [?] [?] במיקסר"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is dense and only partly legible; unreadable words are [?].",
+    "Card with a printed frame and newspaper footer ('איטונג'); a blue note above the title area is unreadable. Words that appear: מלח, סוכר, בצל, קישואים (?), להרתיח, במיקסר (in a mixer/blender), עד שמתעבה (until thickened) - possibly a vegetable soup or purée, but this is an impression only.",
+    "Scan 04 continues the text (same pen, mentions the mixer and thickening) and is treated as the back."
+  ],
+  "incidental_text": [
+    "Printed footer: a newspaper slogan in a yellow box"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2146-03.jpg",
+      "original_path": "Batch 8/Scanned_20261004-2146-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2146-04.jpg",
+      "original_path": "Batch 8/Scanned_20261004-2146-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "heading at top",
+      "best_guess": null,
+      "reason": "Blue heading at the top is unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "almost all",
+      "best_guess": null,
+      "reason": "Dense handwriting; only isolated words are readable."
+    },
+    {
+      "field": "instructions[2]",
+      "text": "קישואים",
+      "best_guess": null,
+      "reason": "Possibly 'קישואים' (zucchini); not certain."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 04 assumed to continue scan 03."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
