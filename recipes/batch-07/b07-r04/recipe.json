@@ -1,0 +1,54 @@
+{
+  "id": "b07-r04",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] פיתות [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?]",
+        "(about 6 more dense lines, unreadable)",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Dense, small, sloping handwriting on a card with a printed frame and a newspaper footer; almost nothing can be read. 'פיתות' (pita) may appear in one line. Rescan at higher resolution or human reading needed."
+  ],
+  "incidental_text": [
+    "Printed footer: a newspaper slogan in a yellow box"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-04.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Practically unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
