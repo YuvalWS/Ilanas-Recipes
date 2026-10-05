@@ -69,7 +69,8 @@
   ],
   "notes": [
     "Printed clipping from three pasted pieces: a large photo with the caption 'רולדת גפילטע. תענוג, למטה: עופות וירקות צעירים צלויים ובורקס גבינה של דלאל'; a right-hand strip with the title (partly cut: 'עופות קטנים וירקות') and an intro paragraph plus the ingredient lists; and a bottom piece with the end of the ingredients and steps 1-2. The intro paragraph is only partly readable at the torn edge and is therefore not transcribed in full: it says the dish is a roasting method with a pan-and-rack ('מתקן אפייה של תבנית ובה ...'), that the juices from the roasting drip onto the vegetables, that there is a further trick (glazing the chickens, see a box 'הכנת רוסטר בן רגע'), that 'small chickens' means birds of 400-600 g (maybe 900 g), and that they are sold in supermarket chains and butchers (brands named).",
-    "The next steps (3 onward) are not on the clipping."
+    "The next steps (3 onward) are not on the clipping.",
+    "Independent reread explicitly flags the missing cooking/glazing continuation."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -100,10 +101,16 @@
       "text": "(publication)",
       "best_guess": null,
       "reason": "Not visible."
+    },
+    {
+      "field": "instructions",
+      "text": "Method ends after vegetable cutting.",
+      "best_guess": null,
+      "reason": "The original clipping omits the rest of cooking and glazing instructions; cannot reconstruct from the photo or ingredients."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
