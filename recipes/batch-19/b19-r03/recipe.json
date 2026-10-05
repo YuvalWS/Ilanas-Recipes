@@ -71,10 +71,10 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
+      "field": "source",
       "text": "פלפלים ממולאים / [?]",
       "best_guess": null,
-      "reason": "Title partly legible; the name after the slash cannot be read."
+      "reason": "Recipe heading is clear; only slash attribution/name is unresolved."
     },
     {
       "field": "ingredients",
@@ -96,7 +96,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
