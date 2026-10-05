@@ -57,7 +57,8 @@
   "notes": [
     "Printed under the title: (30 מנות, כ-40 קלוריות למנה)",
     "Multi-column magazine clipping. Right column: logos, title and ingredients; middle columns: utensils, method, the chocolate-whipped-cream filling box, and an introductory paragraph; far-left column: the end of another recipe ('סלסלות') cut off by the left edge of the scan (not transcribed).",
-    "The filling ingredients ('קצפת \"ריץ'\" בטעם שוקולד', 'מעט פתיתי שוקולד') are not a printed list; they were extracted verbatim from the filling paragraph."
+    "The filling ingredients ('קצפת \"ריץ'\" בטעם שוקולד', 'מעט פתיתי שוקולד') are not a printed list; they were extracted verbatim from the filling paragraph.",
+    "Independent Codex rereading located the continuation of the filling tip at the top of the far-left column: יות פעוטה (5 קלוריות ...), תוצאה נאה ופשו..., להכנה. It belongs to the filling tip, not to the סלסלות recipe below. The left edge still cuts off words, so the missing portions were not reconstructed."
   ],
   "incidental_text": [
     "Magazine logos: דיאט, שומרי משקל",
@@ -73,7 +74,7 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "high",
+  "confidence": "medium",
   "uncertainties": [
     {
       "field": "instructions[0]",
@@ -89,7 +90,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
