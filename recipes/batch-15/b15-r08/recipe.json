@@ -1,0 +1,64 @@
+{
+  "id": "b15-r08",
+  "batch": 15,
+  "title": "ברוקלי [עם] כרובית",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 שקית ברוקלי",
+        "1 כרובית",
+        "5 ביצים [?]",
+        "2 כפות מיונז קל",
+        "2 כפות א. מרק פטריות",
+        "3 כפות פירורי [לחם?]",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Tuesday 19 column of the same diary page as the previous record. Two blue check marks appear next to some lines. The title line reads 'ברוקלי [?] כרובית' (the middle word looks like 'עם'). The line after the third ingredient is partly illegible.",
+    "No instructions are written."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-08.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "ברוקלי [עם?] כרובית",
+      "best_guess": "ברוקלי עם כרובית",
+      "reason": "Middle word unclear."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "5 ביצים [?]",
+      "best_guess": null,
+      "reason": "Last word unclear."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "3 כפות פירורי [לחם?]",
+      "best_guess": "3 כפות פירורי לחם",
+      "reason": "Last word unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
