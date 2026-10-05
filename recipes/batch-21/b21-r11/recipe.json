@@ -1,7 +1,7 @@
 {
   "id": "b21-r11",
   "batch": 21,
-  "title": "שני[?]",
+  "title": "שניצלים",
   "source": null,
   "medium": "handwritten",
   "ingredients": [],
@@ -11,10 +11,15 @@
       "steps": [
         "[?] קמח לחתוך",
         "[?] קוביות",
-        "ולסדר ביצה קשה [?]",
-        "הטיגון: שמן חם מעט [לימון?]",
+        "לרסק ביצה קשה בפומפיה",
+        "הטיגון: שמן חם מעט חמאה",
         "לטבול בפירורי לחם ו[?]",
-        "[?] ביצה"
+        "[?] ביצה",
+        "כף לערבב שניהם.",
+        "לפזר כל תערובת על כל שניצל.",
+        "ומעט מרגרינה.",
+        "לגלגל ולהניח על צלחת.",
+        "לטבול בפירורי לחם ואח״כ בביצה."
       ]
     }
   ],
@@ -42,12 +47,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "שני[?]",
-      "best_guess": null,
-      "reason": "Cut off."
-    },
-    {
       "field": "instructions[0].steps[3]",
       "text": "[לימון?]",
       "best_guess": null,
@@ -55,7 +54,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
