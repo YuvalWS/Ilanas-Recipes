@@ -6,14 +6,14 @@
     "text": "מירי",
     "type": "person",
     "as_written": "מירי",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 בצל [?]",
+        "1 בצל לטגן",
         "[?]",
         "[?] ([?] או [?])",
         "[?]"
@@ -50,12 +50,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "מירי",
-      "best_guess": "מירי",
-      "reason": "Read as a first name after the slash."
-    },
-    {
       "field": "ingredients",
       "text": "all lines",
       "best_guess": null,
@@ -69,7 +63,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
