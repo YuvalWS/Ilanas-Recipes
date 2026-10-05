@@ -1,0 +1,82 @@
+{
+  "id": "b03-r01",
+  "batch": 3,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ל[?] ה[?] [?] רבועות",
+        "להניח חתיכות הבשר",
+        "מ[?] [?] [?] בפלפל, בפפריקה",
+        "[?] עוף",
+        "ולערבב עם התבלין",
+        "[?] [?]",
+        "[?] [?] ארוכות",
+        "1/2 כוס יין [?] [?]",
+        "[?] [?], [?], [?]",
+        "1/4 כוס [?]",
+        "מים, [?] [?]",
+        "1/2 [?] [?] [?]",
+        "ו[?] [?] [?]ות",
+        "(reverse side) ה[?] [?]ו [?]",
+        "(reverse side) [?] [?] [?] [?] ה[?]",
+        "(reverse side) [?] [?] [?] [?] ה[?]ים",
+        "(reverse side) ו[?] כל שעה"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting on this card is very large and shaky; only a few phrases are readable, so the lines are listed in order with [?] for unreadable words. The title is a boxed word at the top of the front side.",
+    "Front and back appear to be one recipe (same notepad card; the back continues the text). Ingredients and steps are not separable, so everything is listed under instructions."
+  ],
+  "incidental_text": [
+    "A yellow band (logo) is cut off at the bottom edge of the front side"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-01.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2110-02.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "boxed word at top of front side",
+      "best_guess": "עופות",
+      "reason": "Boxed heading is too distorted to read."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Most words cannot be read reliably; the list keeps the few readable phrases (להניח חתיכות הבשר, ולערבב עם התבלין, בפלפל בפפריקה)."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back relation",
+      "best_guess": null,
+      "reason": "The back is assumed to continue the front; not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
