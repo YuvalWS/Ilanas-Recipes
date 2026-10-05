@@ -1,0 +1,75 @@
+{
+  "id": "b05-r17",
+  "batch": 5,
+  "title": "כדורי בשר / [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 ק\"ג בשר טחון",
+        "[?] כוס [?]",
+        "בצל קטן [?] ו[?] היטב",
+        "חופן [?], פטרוזיליה",
+        "[?] שיני שום, כמון",
+        "[?] [?]",
+        "מעט [?]ן",
+        "מלח, פלפל",
+        "1 כף פירורי לחם גדושה",
+        "טיפה שמן"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ל[?] [?] [?] ה[?]",
+        "1/4 שעה"
+      ]
+    }
+  ],
+  "notes": [
+    "Heading 'כדורי בשר' followed by a slash and a second word that could be a name; written in a thin pen on a card with a metal clip at the top corner (the clip hides a few letters).",
+    "Written very lightly and the writing is shaky; most lines are only partly readable."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2118.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2118.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "כדורי בשר / [?]",
+      "best_guess": null,
+      "reason": "The word after the slash is unreadable (possible name)."
+    },
+    {
+      "field": "ingredients[0].items",
+      "text": "lines with [?]",
+      "best_guess": null,
+      "reason": "Several amounts and words are unreadable."
+    },
+    {
+      "field": "instructions[0].steps",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Last two lines are unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
