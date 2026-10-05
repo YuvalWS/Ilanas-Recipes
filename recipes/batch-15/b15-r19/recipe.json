@@ -1,0 +1,101 @@
+{
+  "id": "b15-r19",
+  "batch": 15,
+  "title": "פשטידת גבינות",
+  "source": {
+    "text": "מאירה",
+    "type": "person",
+    "as_written": "מאירה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "4 קופסה = 1 ק\"ג גבינה של [?]",
+        "(crossed out: שמנת או שלי או חלב) 1 יוגורט",
+        "3-4 ביצים",
+        "גבינה צהובה",
+        "1/4 כוס [?]",
+        "[?] סולת ומעט קמח אוסם"
+      ]
+    },
+    {
+      "group": "(back)",
+      "items": [
+        "6 כפות [?] ומלח",
+        "[?] חמאה [?] של גבינה צהובה או רבועות דקות",
+        "1/2 כוס סולת + 2 כפות קמח",
+        "[?] כפית שום",
+        "2.5 [?] ק\"ג גבינות",
+        "1 כוס [?] שהוסף סולת"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשמור [?] ולהוסיף עוד 1/2 קופסה",
+        "לערבב במיקסר [?] המיקסר",
+        "פלפל ומלח",
+        "[?] חצי גבינה צהובה",
+        "(back) [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Two sides of one card (the front was assumed from the title line 'פשטידת גבינות / מאירה'). Front: a line with a blue underline and a crossed-out phrase 'שמנת או שלי או חלב' followed by 'יוגורט' written in grey. Back: a similar recipe with fractions of cups and semolina, written very densely; several words cannot be read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-20.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-20.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2217-21.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-21.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "מאירה",
+      "best_guess": "מאירה",
+      "reason": "Read as a first name."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Many quantities and items unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Mostly illegible."
+    },
+    {
+      "field": "raw_files",
+      "text": "2217-20/21",
+      "best_guess": null,
+      "reason": "Assumed to be the two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
