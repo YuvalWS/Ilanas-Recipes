@@ -1,0 +1,71 @@
+{
+  "id": "b01-r07",
+  "batch": 1,
+  "title": "טורט",
+  "source": {
+    "text": "יהודית",
+    "type": "person",
+    "as_written": "יהודית",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים",
+        "1 1/4 כוס קמח [?]",
+        "1 1/4 כוס סוכר ([?])",
+        "2 כפות שמן",
+        "1 סוכר וניל",
+        "מעט רום",
+        "1/2 - 1/4 כוס מיץ תפוזים [?]",
+        "([?] ביצה [?] כוס)"
+      ]
+    },
+    {
+      "group": "circled note (unclear)",
+      "items": [
+        "[?] לפי דעת [?]",
+        "[?] 200 ג' [?]",
+        "[?] 250 [?] מרציפן [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Green sticky-note. A circled note on the left side adds additional ingredients/toppings that I could not read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-07.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "טורט / יהודית",
+      "best_guess": null,
+      "reason": "Heading at the top is partly cut; the name after the slash might be a source."
+    },
+    {
+      "field": "ingredients",
+      "text": "circled note",
+      "best_guess": null,
+      "reason": "Illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
