@@ -64,9 +64,16 @@
     });
 
   function srcText(r) { return r.source ? r.source.text : ""; }
+  function recipeTitle(r) { return r.title || r.assigned_title || "(ללא כותרת)"; }
+  function usesAssignedTitle(r) { return !r.title && !!r.assigned_title; }
+  function sourceGroup(r) {
+    // A clipping's byline can have type "person"; it is still a publication writer.
+    return r.source.type === "publication" || r.source.type === "company" ||
+      r.medium === "clipping" || r.medium === "printed" ? "publication" : "person";
+  }
   function prepare(r) {
     r._f = {
-      title: norm(r.title),
+      title: norm((r.title || "") + " " + (r.assigned_title || "")),
       source: norm(srcText(r) + " " + (r.source && r.source.as_written || "")),
       ing: norm(r.ingredients_text),
       ins: norm(r.instructions_text),
@@ -108,17 +115,55 @@
       o.value = b.batch; o.textContent = batchTitle(b.batch);
       fb.appendChild(o);
     });
-    var seen = {};
-    ALL.forEach(function (r) { var s = srcText(r); if (s) seen[s] = (seen[s] || 0) + 1; });
+    var seen = { person: new Map(), publication: new Map() };
+    ALL.forEach(function (r) {
+      var s = srcText(r);
+      if (!s) return;
+      var group = seen[sourceGroup(r)];
+      group.set(s, (group.get(s) || 0) + 1);
+    });
     var fs = $("f-source");
-    Object.keys(seen).sort(function (a, b) { return a.localeCompare(b, "he"); }).forEach(function (s) {
-      var o = document.createElement("option");
-      o.value = s; o.textContent = s + " (" + seen[s] + ")";
-      fs.appendChild(o);
+    ["person", "publication"].forEach(function (category) {
+      if (!seen[category].size) return;
+      var group = document.createElement("optgroup");
+      group.label = category === "person" ? "אנשים" : "כותבים ומקורות בפרסומים";
+      Array.from(seen[category].keys()).sort(function (a, b) { return a.localeCompare(b, "he"); }).forEach(function (s) {
+        var o = document.createElement("option");
+        // Include the category: one name may occur in both handwritten and printed recipes.
+        o.value = category + ":" + s; o.textContent = s + " (" + seen[category].get(s) + ")";
+        group.appendChild(o);
+      });
+      fs.appendChild(group);
     });
     ["q", "f-batch", "f-medium", "f-source", "f-verify", "f-sort"].forEach(function (id) {
-      $(id).addEventListener(id === "q" ? "input" : "change", function () { renderList(true); });
+      $(id).addEventListener(id === "q" ? "input" : "change", function () {
+        writeFiltersToUrl(id === "q" ? "replaceState" : "pushState");
+        renderList();
+      });
     });
+  }
+
+  // Search parameters work on static hosts; recipe navigation remains in the hash.
+  var FILTER_PARAMS = { q: "q", "f-batch": "batch", "f-medium": "medium",
+    "f-source": "source", "f-verify": "proofreading", "f-sort": "sort" };
+  function readFiltersFromUrl() {
+    var params = new URLSearchParams(location.search);
+    Object.keys(FILTER_PARAMS).forEach(function (id) {
+      var control = $(id), fallback = id === "f-sort" ? "rel" : "";
+      var value = params.get(FILTER_PARAMS[id]);
+      control.value = value === null ? fallback : value;
+      // Unknown select values must not silently turn the result list empty.
+      if (control.tagName === "SELECT" && control.selectedIndex < 0) control.value = fallback;
+    });
+  }
+  function writeFiltersToUrl(method) {
+    var url = new URL(location.href);
+    Object.keys(FILTER_PARAMS).forEach(function (id) {
+      var value = $(id).value, param = FILTER_PARAMS[id];
+      if (!value || (id === "f-sort" && value === "rel")) url.searchParams.delete(param);
+      else url.searchParams.set(param, value);
+    });
+    if (url.href !== location.href) history[method](null, "", url.href);
   }
 
   function currentResults() {
@@ -128,7 +173,7 @@
     ALL.forEach(function (r) {
       if (fb && String(r.batch) !== fb) return;
       if (fm && r.medium !== fm) return;
-      if (fsrc && srcText(r) !== fsrc) return;
+      if (fsrc && (!r.source || sourceGroup(r) + ":" + srcText(r) !== fsrc)) return;
       if (fv === "need" && !r.needs_human_verification) return;
       if (fv === "ok" && r.needs_human_verification) return;
       var s = toks.length ? score(r, toks) : 1;
@@ -136,7 +181,11 @@
       rows.push({ r: r, s: s });
     });
     var sort = $("f-sort").value;
-    if (sort === "title") rows.sort(function (a, b) { return (a.r.title || "~").localeCompare(b.r.title || "~", "he"); });
+    if (sort === "title") rows.sort(function (a, b) {
+      var at = a.r.title || a.r.assigned_title, bt = b.r.title || b.r.assigned_title;
+      if (!at || !bt) return at ? -1 : bt ? 1 : a.r.id.localeCompare(b.r.id);
+      return at.localeCompare(bt, "he");
+    });
     else if (toks.length) rows.sort(function (a, b) { return b.s - a.s || (a.r.id < b.r.id ? -1 : 1); });
     return rows;
   }
@@ -158,16 +207,17 @@
       var r = x.r;
       var li = el("li", "card");
       var a = el("a"); a.href = "#/" + r.id;
-      var img = el("img"); img.loading = "lazy"; img.src = r.thumb; img.alt = "סריקה: " + (r.title || r.id);
+      var img = el("img"); img.loading = "lazy"; img.src = r.thumb; img.alt = "סריקה: " + recipeTitle(r);
       a.appendChild(img);
       var body = el("div", "card-body");
-      body.appendChild(el("h3", null, r.title || "(ללא כותרת)"));
+      body.appendChild(el("h3", null, recipeTitle(r)));
       var meta = el("p", "meta", (srcText(r) ? srcText(r) + " · " : "") + mediumLabel(r.medium));
       body.appendChild(meta);
       var tags = el("p", "tags");
       tags.appendChild(el("span", "tag", "אצווה " + r.batch));
       if (r.card) tags.appendChild(el("span", "tag", "1 מתוך " + r.card.recipes.length + " באותו " + CARD_KIND[r.card.kind].one));
-      if (r.needs_human_verification) tags.appendChild(el("span", "tag warn", "דורש אימות"));
+      if (usesAssignedTitle(r)) tags.appendChild(el("span", "tag", "כותרת שניתנה למתכון"));
+      if (r.needs_human_verification) tags.appendChild(el("span", "tag warn", "דורש הגהה"));
       body.appendChild(tags);
       a.appendChild(body);
       li.appendChild(a);
@@ -188,10 +238,12 @@
   function qs(o) {
     return Object.keys(o).map(function (k) { return encodeURIComponent(k) + "=" + encodeURIComponent(o[k]); }).join("&");
   }
-  function pageUrl(r) { return location.origin + location.pathname + "#/" + r.id; }
+  function pageUrl(r) { return location.origin + location.pathname + location.search + "#/" + r.id; }
   function absUrl(p) { return new URL(p, location.href).href; }
   function plainText(r) {
-    var out = [r.title || "(ללא כותרת)"];
+    var out = [recipeTitle(r)];
+    if (usesAssignedTitle(r)) out.push("כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור.");
+    else if (r.assigned_title) out.push("כותרת נוספת לחיפוש: " + r.assigned_title);
     if (r.source) out.push("מקור: " + r.source.text);
     if (r.ingredients.length) {
       out.push("", "מרכיבים:");
@@ -208,8 +260,8 @@
     do {                                   // GitHub rejects very long URLs: shorten the prefilled transcription
       url = "https://github.com/" + REPO + "/issues/new?" + qs({
         template: "recipe-mistake.yml",
-        title: "[טעות במתכון] " + r.id + (r.title ? " " + r.title : ""),
-        recipe_id: r.id, recipe_title: r.title || "", page_url: pageUrl(r),
+        title: "[טעות במתכון] " + r.id + (r.title || r.assigned_title ? " " + recipeTitle(r) : ""),
+        recipe_id: r.id, recipe_title: r.title || r.assigned_title || "", page_url: pageUrl(r),
         scan_url: r.images[0] ? absUrl(r.images[0]) : "", current_text: text
       });
       if (url.length <= 7000 || text.length < 40) break;
@@ -226,7 +278,7 @@
     var share = el("button", "btn", "↗ שיתוף");
     share.type = "button";
     var menu = el("div", "share-menu"); menu.hidden = true;
-    var url = pageUrl(r), text = plainText(r), title = (r.title || r.id) + " · המתכונים של אילנה";
+    var url = pageUrl(r), text = plainText(r), title = (r.title || r.assigned_title || r.id) + " · המתכונים של אילנה";
     function link(label, href) { var a = el("a", null, label); a.href = href; a.target = "_blank"; a.rel = "noopener"; menu.appendChild(a); }
     link("WhatsApp", "https://wa.me/?" + qs({ text: text + "\n\n" + url }));
     link("Telegram", "https://t.me/share/url?" + qs({ url: url, text: text }));
@@ -260,8 +312,8 @@
     r.card.recipes.forEach(function (id) {
       var li = el("li");
       var o = ALL.filter(function (x) { return x.id === id; })[0];
-      if (id === r.id) li.appendChild(el("strong", null, (o && o.title || "(ללא כותרת)") + " (המתכון הנוכחי)"));
-      else if (o) { var a = el("a", null, o.title || "(ללא כותרת)"); a.href = "#/" + id; li.appendChild(a); }
+      if (id === r.id) li.appendChild(el("strong", null, (o ? recipeTitle(o) : "(ללא כותרת)") + " (המתכון הנוכחי)"));
+      else if (o) { var a = el("a", null, recipeTitle(o)); a.href = "#/" + id; li.appendChild(a); }
       else li.appendChild(document.createTextNode(id + " (עדיין לא פורסם באתר)"));
       ul.appendChild(li);
     });
@@ -286,7 +338,7 @@
     var v = $("detail-view");
     $("list-view").hidden = true; v.hidden = false; v.textContent = "";
     if (!r) { v.appendChild(el("p", null, "המתכון לא נמצא.")); return; }
-    document.title = (r.title || r.id) + " · המתכונים של אילנה";
+    document.title = (r.title || r.assigned_title || r.id) + " · המתכונים של אילנה";
 
     var nav = el("p", "back"); var back = el("a", null, "← חזרה לרשימה"); back.href = "#/"; nav.appendChild(back); v.appendChild(nav);
 
@@ -307,9 +359,11 @@
     wrap.appendChild(scans);
 
     var txt = el("div", "text");
-    txt.appendChild(el("h2", null, r.title || "(ללא כותרת)"));
+    txt.appendChild(el("h2", null, recipeTitle(r)));
+    if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", "כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור."));
+    else if (r.assigned_title) txt.appendChild(el("p", "muted", "כותרת נוספת לחיפוש: " + r.assigned_title));
     if (r.needs_human_verification) {
-      var warn = el("p", "banner warn", "תמלול זה דורש אימות אנושי. השוו מול הסריקה. רמת ביטחון: " + ({high: "גבוהה", medium: "בינונית", low: "נמוכה"}[r.confidence] || r.confidence));
+      var warn = el("p", "banner warn", "תמלול זה דורש הגהה אנושית. השוו מול הסריקה. רמת ביטחון: " + ({high: "גבוהה", medium: "בינונית", low: "נמוכה"}[r.confidence] || r.confidence));
       txt.appendChild(warn);
     }
     var facts = el("p", "meta");
@@ -356,7 +410,7 @@
       r.uncertainties.forEach(function (u) {
         var li = el("li");
         var s = u.field + ": " + u.reason;
-        if (u.best_guess) s += " · ניחוש (לא מאומת): " + u.best_guess;
+        if (u.best_guess) s += " · ניחוש (לא ודאי): " + u.best_guess;
         li.textContent = s; ul.appendChild(li);
       });
       det.appendChild(ul); txt.appendChild(det);
@@ -379,6 +433,7 @@
   // ---- routing --------------------------------------------------------------------
   function route() {
     if (!DATA) return;
+    readFiltersFromUrl();
     var m = location.hash.match(/^#\/(b\d+-r\d+)$/);
     if (m) return renderDetail(m[1]);
     document.title = "המתכונים של אילנה";
@@ -386,4 +441,5 @@
     renderList();
   }
   window.addEventListener("hashchange", route);
+  window.addEventListener("popstate", route);
 })();

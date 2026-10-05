@@ -1,0 +1,73 @@
+{
+  "id": "b99-r01",
+  "batch": 99,
+  "title": "עוגת גלידה",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "4 ביצים",
+        "1 מקצפת",
+        "3/4 כוס סוכר",
+        "100 גר' אגוזים קצוצים",
+        "100 גר' שוקולד מרוסק",
+        "3/4 כף נס קפה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להקציף חלבונים + 1/2 כוס סוכר",
+        "להקציף מקצפת + 1/4 כוס סוכר",
+        "לערבב שניהם עם החלמונים",
+        "לחלק את כל הנ\"ל לשניים",
+        "חלק אחד לערבב עם הקפה",
+        "החלק השני לערבב עם האגוזים",
+        "להשאיר מעט אגוזים ושוקולד לקישוט",
+        "לשים בשתי תבניות ארוכות",
+        "בתחתית את החלק עם האגוזים ומעל את התערובת עם הקפה (2 כפות)"
+      ]
+    }
+  ],
+  "notes": [
+    "Applied all seven pending review corrections from YuvalWS, who explicitly approved merging after edits. Independently checked both scans: the ingredient is instant coffee, not cashews, and the second side continues the assembly instructions.",
+    "ditto marks expanded: the second whipping line repeats להקציף and כוס סוכר, with 1/4 instead of 1/2.",
+    "The scan says 3/4 כף נס קפה in the ingredients and separately (2 כפות) in the assembly method; both readings are preserved without reconciling them by invention."
+  ],
+  "incidental_text": [
+    "Printed letterhead on scan 02: 'סהר' - 'שרותי גרפיקה והדפסה בע\"מ', תל-אביב, רח' המסגר 60, טלפון 30524"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2244-01.jpg",
+      "original_path": "Scanned_20261004-2244-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2244-02.jpg",
+      "original_path": "Scanned_20261004-2244-02.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "b07-r12",
+  "batch": 7,
+  "title": "לקט עלים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כף מיונז",
+        "2 כפות חומץ",
+        "מלח פלפל",
+        "מעט סוכר",
+        "1/2 קוביית שום"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Yellow memo card with a construction-company letterhead; underlined title 'לקט עלים' (assorted leaves). Ingredient list for the dressing; no method.",
+    "Scan 14 appears to be the back of this same card, with a different dressing (kept as the next record).",
+    "Gemini's file (dressing with 1/2 cup mayonnaise and 2 teaspoons vinegar, a title about baby leaves) matches this card in content but differs in quantities/units; its quantities and extra words were not copied."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company (logo, phone/fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-13.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

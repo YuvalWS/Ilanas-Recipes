@@ -44,7 +44,7 @@
   "notes": [
     "Written on lined paper.",
     "Margarine amounts (2/3 and 1/3) are written without a unit on the card.",
-    "In '2-3 כפות מים' the word 'כפות' is written as a ditto mark (\") under 'כפות' of the line above.",
+    "ditto marks expanded: in '2-3 כפות מים' the word 'כפות' is written as a ditto mark (\") under 'כפות' of the line above.",
     "The two ingredient groups are marked with braces: 'במיקסר' (in the mixer) and 'להרתיח על האש' (to boil on the fire)."
   ],
   "incidental_text": [],
@@ -60,7 +60,7 @@
   "confidence": "high",
   "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,

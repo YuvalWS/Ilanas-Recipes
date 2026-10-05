@@ -1,0 +1,78 @@
+{
+  "id": "b23-r11",
+  "batch": 23,
+  "title": "בצק פריך / ריבה ופירורים",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 1/2 כוסות קמח אסם",
+        "1/2 כוס סוכר",
+        "2 חלמונים",
+        "1 כף תמצית וניל",
+        "1 כף קליפת לימון מגוררת",
+        "טיפה מלח",
+        "200 מרגרינה",
+        "1 כף חומץ"
+      ]
+    },
+    {
+      "group": "ריבה ופירורים",
+      "items": [
+        "1/2 כוס ריבה",
+        "2 כפות סוכר",
+        "1/4 כוס קמח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להמיס את המרגרינה לחמם — מחוק.",
+        "להכניס את כל החומרים לקערה.",
+        "לערבב את המרגרינה באצבעות.",
+        "3/4 מהבצק לשטוח על תבנית.",
+        "על זה למרוח ריבה 1/2 כוס.",
+        "1/4 מהבצק + 2 כפות סוכר + 1/4 כוס קמח.",
+        "מהבצק הזה לפזר פירורים על הריבה.",
+        "לאפות בחום בינוני כ־40 דקות כשהעוגה חמה לחתוך ולקרר."
+      ]
+    }
+  ],
+  "notes": [
+    "Two-sided card: front ingredients and beginning of method; back assembly and baking. Crossed melting instruction retained as crossed out. Ditto after lemon zest repeats tablespoon from vanilla. No unit written for 200 margarine. Red closing line: בתיאבון חיה."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-11.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261005-0932-12.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

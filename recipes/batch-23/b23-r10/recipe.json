@@ -1,0 +1,61 @@
+{
+  "id": "b23-r10",
+  "batch": 23,
+  "title": "קסטה",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "להמיס",
+      "items": [
+        "150 גר' שוקולד מריר",
+        "4 חלמונים",
+        "1 מרגרינה"
+      ]
+    },
+    {
+      "group": "להקציף",
+      "items": [
+        "6 חלבונים",
+        "2 כפיות סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לרפד בביסקויט, לצקת התערובת",
+        "להניח ביסקויטים למעלה",
+        "ולהכניס לפריזר."
+      ]
+    }
+  ],
+  "notes": [
+    "Applied YuvalWS’s two pending method corrections and independently checked the full scan. Title קסטה and source חיה are clear. Sugar reads 2 כפיות (teaspoons), correcting Claude’s tablespoons. Bracket instructions להמיס and להקציף preserved."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-10.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "b03-r07",
+  "batch": 3,
+  "title": "גולש בקר",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "גולש בקר / חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג בקר (גולש) לרבעים",
+        "1 בצל",
+        "2 גזר חתוך",
+        "1 תפו\"א חתוך",
+        "1/2 כוס יין קידוש אדום",
+        "1/2 כוס מים",
+        "כפית א. מרק",
+        "מעט קטשופ",
+        "מעט פלפל שחור"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטגן ולהוציא",
+        "לטגן (בשמן זית) 1 בצל",
+        "2 גזר חתוך",
+        "1 תפו\"א חתוך",
+        "להוסיף הבשר",
+        "1/2 כוס יין קידוש אדום",
+        "1/2 כוס מים",
+        "כפית א. מרק",
+        "בישול על אש קטנה כ-3 שעות",
+        "מעט קטשופ",
+        "מעט פלפל שחור"
+      ]
+    }
+  ],
+  "notes": [
+    "The scan was upside down (rotated 180 degrees upright in raw/).",
+    "Header גולש בקר / חיה is underlined. The first method line is לטגן ולהוציא, not mushrooms. The powder abbreviation א. מרק is preserved without inventing עוף. Ingredient and method information is interleaved on the card; ketchup and black pepper occur after the cooking-time line."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-08.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
