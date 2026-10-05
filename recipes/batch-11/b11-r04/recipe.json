@@ -1,0 +1,69 @@
+{
+  "id": "b11-r04",
+  "batch": 11,
+  "title": "[?]",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Very large, loosely formed handwriting; no line can be read reliably. A human who knows Ilana's handwriting is needed.",
+    "A short bracketed note in the upper right (two words) and a signature-like word with a flourish at the lower right (probably a person's name) are also unreadable."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-05.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "first line",
+      "best_guess": null,
+      "reason": "Unreadable."
+    },
+    {
+      "field": "source",
+      "text": "signature at lower right",
+      "best_guess": null,
+      "reason": "Possibly a person's name; unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
