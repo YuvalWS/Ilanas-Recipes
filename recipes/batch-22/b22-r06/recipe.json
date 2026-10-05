@@ -44,12 +44,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
       "field": "ingredients",
       "text": "[?]",
       "best_guess": null,
