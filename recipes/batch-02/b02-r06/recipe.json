@@ -1,0 +1,77 @@
+{
+  "id": "b02-r06",
+  "batch": 2,
+  "title": "פונש",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "יין אדום ולבן",
+        "מים [?] [?]",
+        "סוכר (1/2 כוס)",
+        "קוניאק (בערך כוס)",
+        "ג'ינג'ר ביר [?]",
+        "קינמון",
+        "לימון (1/2 כוס)",
+        "(לפי הטעם)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להרתיח ולהגיש חם"
+      ]
+    }
+  ],
+  "notes": [
+    "A signature or flourish at the bottom of the card."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-06.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "פונש",
+      "best_guess": "פנץ'",
+      "reason": "Heading is small and cramped; 'פונש' (punch) is a reading, not certain."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "מים [?] [?]",
+      "best_guess": null,
+      "reason": "Words are unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "ג'ינג'ר ביר [?]",
+      "best_guess": null,
+      "reason": "Quantity unclear."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "להרתיח ולהגיש חם",
+      "best_guess": null,
+      "reason": "First verb is partly illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
