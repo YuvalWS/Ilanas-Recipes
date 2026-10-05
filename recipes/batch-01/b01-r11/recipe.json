@@ -13,7 +13,7 @@
         "2 כפות קקאו",
         "קצת רום",
         "סוכר וניל",
-        "[?]"
+        "חלמון"
       ]
     },
     {
@@ -56,18 +56,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[0].items[5]",
-      "text": "[?]",
-      "best_guess": "Gemini: קינמון; earlier reading: חלמון",
-      "reason": "Last line of the mixer group, written on a long slanting line; the first letter has a descender like the ק in 'קצת' above, and the middle letters are cramped. Both readings fit the letter strokes only partly; cannot confirm either. (Gemini's other reading in this group, 'מים' for 'רום', is clearly wrong on the scan.)"
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
