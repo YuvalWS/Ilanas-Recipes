@@ -1,0 +1,74 @@
+{
+  "id": "b11-r01",
+  "batch": 11,
+  "title": "מרק אפונה",
+  "source": {
+    "text": "(printed clipping, publication not shown)",
+    "type": "unknown",
+    "as_written": "—",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "4 כפות שמן זית",
+        "2 שיני שום, כתושות",
+        "2 כפות בצל יבש מטוגן",
+        "2 קופסאות (600-550 גרם כל אחת) שימורי אפונה, מסוננים",
+        "5 כוסות (1 1/4 ליטרים) מים רותחים",
+        "מלח, פלפל שחור",
+        "1/4 כפית כמון",
+        "1/4 כוס (60 מ\"ל) מים",
+        "2 כפות קמח"
+      ]
+    },
+    {
+      "group": "אפשרויות להגשה",
+      "items": [
+        "קרוטונים"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Printed clipping (white print on blue), only the ingredient list (המרכיבים, 6 servings) is on this scan - no method is visible; the clipping is wrinkled and cut at the edges. The title 'מרק אפונה' is written by hand on a yellow sticker.",
+    "Scan was upside down and was rotated 180 degrees. The line '1/4 כוס (60 מ\"ל) מים' and '2 כפות קמח' are probably for thickening, but the clipping does not say so in the visible part.",
+    "Printed ranges such as '8-10' appear as '10-8' in the typeset text and are written here in the usual order."
+  ],
+  "incidental_text": [
+    "Handwritten yellow sticker with the title"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-01.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-01.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No method text is visible on this scan; it may be on a missing piece."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "Not visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
