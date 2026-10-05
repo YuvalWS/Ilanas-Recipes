@@ -1,0 +1,57 @@
+{
+  "id": "b01-r20",
+  "batch": 1,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?]",
+        "[?] 1/2 כוס שוקולד [?] [?]",
+        "[?] שוקולד [?] חלב [?]",
+        "[?] 2 כוסות קמח [?]",
+        "2 כפיות אבקת [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Pre-printed company header at the top of the card (blue logo plus a handwritten heading line); the main handwriting is very shaky and mostly unreadable."
+  ],
+  "incidental_text": [
+    "Printed company logo and header at the top of the card (name not legible)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-19.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-19.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "No clear title could be identified; the first handwritten line may be a title or a heading."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Only a few words (שוקולד, חלב, 2 כוסות קמח, אבקת) are readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
