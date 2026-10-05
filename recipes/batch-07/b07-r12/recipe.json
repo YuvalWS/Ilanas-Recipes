@@ -8,18 +8,19 @@
     {
       "group": null,
       "items": [
-        "2 כפות מיונז",
+        "[?] כפות מיונז",
         "2 כפות חומץ",
         "מלח פלפל",
         "מעט סוכר",
-        "1/2 כפית שום"
+        "1/2 שן [?] שום"
       ]
     }
   ],
   "instructions": [],
   "notes": [
     "Yellow memo card with a construction-company letterhead; underlined title 'לקט עלים' (assorted leaves). Ingredient list for the dressing; no method.",
-    "Scan 14 appears to be the back of this same card, with a different dressing (kept as the next record)."
+    "Scan 14 appears to be the back of this same card, with a different dressing (kept as the next record).",
+    "Gemini's file (dressing with 1/2 cup mayonnaise and 2 teaspoons vinegar, a title about baby leaves) matches this card in content but differs in quantities/units; its quantities and extra words were not copied."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company (logo, phone/fax)"
@@ -37,13 +38,19 @@
   "uncertainties": [
     {
       "field": "ingredients[0]",
-      "text": "2 כפות מיונז",
-      "best_guess": "2 כפות מיונז",
-      "reason": "Item read as 'מיונז' (mayonnaise); the quantity digit is stretched."
+      "text": "[?] כפות מיונז",
+      "best_guess": "Gemini: 1/2 כוס מיונז; earlier reading: 2 כפות מיונז",
+      "reason": "The quantity digit is stretched/flourished; the unit looks like 'כפות' as on the next line."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "1/2 שן [?] שום",
+      "best_guess": "Gemini: 1/2 שן שום כתוש (no word between שן and שום); earlier reading: 1/2 כפית שום",
+      "reason": "A word between 'שן' and 'שום' is visible but cannot be read."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
