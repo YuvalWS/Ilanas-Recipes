@@ -1,11 +1,11 @@
 {
   "id": "b01-r15",
   "batch": 1,
-  "title": "טורט עם קקאו וקינמון",
+  "title": "טורט עם קקאו וקוניאק",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "עוגה [?] / [?]",
+    "text": "אורית / [?]",
+    "type": "person",
+    "as_written": "עוגת אורית / [?]",
     "uncertain": true
   },
   "medium": "handwritten",
@@ -17,7 +17,7 @@
         "3/4 כוס סוכר",
         "4 כפות קקאו",
         "2 כפות קמח תופח",
-        "מעט קינמון מחול במים",
+        "מעט קוניאק מהול במים",
         "(3 כפות [?] 2 כפות מים)"
       ]
     },
@@ -39,12 +39,14 @@
       "group": "הכנה",
       "steps": [
         "להקציף חלבונים, להוסיף לאט סוכר, להוסיף החלמונים ולבחוש [?] הקקאו והקמח ולאפות בחום בינוני.",
-        "להרטיב את העוגה בקינמון, לצפות בקרם של אינסטנט, [?] הקרם [?] בכל צידי [?].",
-        "שוקולד [?] [?] [?] [?] כפות חלב ורבע חב' מרגרינה."
+        "להרטיב את העוגה בקוניאק, לצפות בקרם של אינסטנט, [?] הקרם [?] בכל צידי [?].",
+        "שוקולד ממס על אדים [?] כפות חלב ורבע חב' מרגרינה."
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "Earlier reading of 'קינמון' (cinnamon) corrected to 'קוניאק' (cognac) in title, ingredients and instructions (clear on zoom, confirmed by Gemini)."
+  ],
   "incidental_text": [],
   "raw_files": [
     {
@@ -59,37 +61,37 @@
   "uncertainties": [
     {
       "field": "source",
-      "text": "עוגה [?] / [?]",
-      "best_guess": "עוגה ומגית / ש...ב",
-      "reason": "Text written left of the title (after a wide gap). First word looks like 'עוגה'; the second word looks like 'ומגית' (or 'ומגיש'), and the word after the slash starts like 'ש' and ends with 'ב' but the middle letters are unreadable. Unclear whether it is a person (source) or a subtitle, so type is 'unknown'."
+      "text": "עוגת אורית / [?]",
+      "best_guess": "Gemini: שולה; earlier reading: ש...ב",
+      "reason": "Written left of the title. First name 'אורית' (Gemini and our earlier 'ומגית' agree, ending 'ית' visible). Second name starts with 'ש' and ends with a ב/ה-like letter; middle letters unreadable on zoom, cannot confirm 'שולה'."
     },
     {
       "field": "ingredients",
       "text": "(3 כפות [?] 2 כפות מים)",
-      "best_guess": "(3 כפות או 2 כפות מים)",
-      "reason": "Short connecting word is a single scrawl; 'או' fits best, 'עם' is possible. The same scrawl shape appears in the instructions. Note the card reads 3 first, then 2 (earlier transcription had the order reversed)."
+      "best_guess": "Gemini: (implied) 3 כפות קוניאק מהולות ב-2 כפות מים; earlier reading: או",
+      "reason": "Short connecting word is a single scrawl; the card does not clearly show it. Card reads 3 first, then 2."
     },
     {
       "field": "instructions",
       "text": "ולבחוש [?] הקקאו",
-      "best_guess": "עם",
-      "reason": "Word is partly covered by a blue ink blot/stain. Earlier transcription read 'חלב חם' here; on zoom the word before the blot reads 'ולבחוש'."
+      "best_guess": "Gemini: את; earlier reading: עם",
+      "reason": "Word is partly covered by a blue ink blot/stain; cannot confirm either reading."
     },
     {
       "field": "instructions",
       "text": "[?] הקרם [?] בכל צידי [?].",
-      "best_guess": "את הקרם למרוח (או לשפוך) בכל צידי העוגה.",
-      "reason": "First word is the same short scrawl as above (likely 'את'); the verb ends with a descender, could be 'למרוח' or 'לשפוך'; last word looks like 'העוגה' but the letters are cramped."
+      "best_guess": "את הקרם לשפוך (או למרוח) בכל צידי העוגה.",
+      "reason": "First word is a short scrawl (likely 'את'); the verb is unclear (could be 'לשפוך' or 'למרוח'); last word cramped before the full stop, looks like 'העוגה'. Gemini has no matching wording."
     },
     {
       "field": "instructions",
-      "text": "שוקולד [?] [?] [?] [?] כפות חלב ורבע חב' מרגרינה.",
-      "best_guess": "שוקולד ממס עם [?] וארבע כפות חלב ורבע חב' מרגרינה.",
-      "reason": "Chocolate-glaze line is cramped. First word looks like 'ממס' (melt?), then the short scrawl (maybe 'עם'), then an unreadable word (looks like 'סלדים'), then a word ending in 'בע' - probably 'וארבע', matching '4 כפות חלב' in the ingredient list, but not certain."
+      "text": "שוקולד ממס על אדים [?] כפות חלב",
+      "best_guess": "וארבע",
+      "reason": "'אדים' accepted (Gemini: melt over steam; ink consistent, first letter ambiguous). The word before 'כפות חלב' ends in a descender and could be 'וארבע' (matching '4 כפות חלב' in ingredients) but is not certain."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
