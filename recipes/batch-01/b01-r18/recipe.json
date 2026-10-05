@@ -8,15 +8,17 @@
     {
       "group": null,
       "items": [
-        "2 חב' ביסקוויטים",
-        "2 חב' שוקולד [מריר?] 200 גר'",
+        "2 חב' ביסקויטים",
+        "חלב",
+        "2 חב' שוקולד ב-200 גר'",
         "3 כפות מים",
         "3 חלמונים",
         "שמנת מתוקה",
         "3 חלבונים",
         "2 כפות סוכר",
-        "3 כפות [?]קוניאק",
-        "1/4 כוס סוכר"
+        "3 כפות בערך קוניאק",
+        "שמנת מתוקה",
+        "[?] כוס סוכר"
       ]
     }
   ],
@@ -24,19 +26,21 @@
     {
       "group": null,
       "steps": [
-        "לטבול בחלב, לסדר בתבנית עגולה שלמים בתחתית ובדפנות.",
-        "להמיס על אש 2 חב' שוקולד [?] 200 גר' ו-3 כפות מים.",
+        "לטבול בחלב, לסדר בתבנית עגולה שלמים בתחתית וחצאים בדפנות.",
+        "להמיס על אדים 2 חב' שוקולד ב-200 גר' ו-3 כפות מים.",
         "להוסיף 3 חלמונים ולערבב.",
         "להקציף שמנת מתוקה ולהוסיף לשוקולד.",
-        "להקציף 3 חלבונים ו-2 כפות סוכר ולהוסיף לתערובת ו-3 כפות [?]קוניאק.",
-        "לשפוך את התערובת [?] הביסקויטים.",
-        "להקציף שמנת מתוקה ו-1/4 כוס סוכר [?] [?] [?].",
-        "[?] ... [?] בנק [?]."
+        "להקציף 3 חלבונים ו-2 כפות סוכר ולהוסיף לתערובת ו-3 כפות בערך קוניאק.",
+        "לשפוך את התערובת מעל הביסקויטים.",
+        "להקציף שמנת מתוקה ו-[?] כוס סוכר ולקשט את העוגה.",
+        "[?] [?] [?] [?]"
       ]
     }
   ],
   "notes": [
-    "Narrow note-pad card; the last line is a short unreadable phrase."
+    "The card has no separate ingredient list: the first line is '2 חב' ביסקויטים' and everything else is running instructions. The ingredient list here is compiled from the instructions, in order of appearance (שמנת מתוקה appears twice: once for the filling, once for the topping).",
+    "The word 'בערך' is a small interlinear insertion above the line, with a caret between 'כפות' and 'קוניאק'.",
+    "Narrow spiral-bound note-pad card; the bottom third is blank."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -48,29 +52,23 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוגת שרלוטה",
-      "best_guess": null,
-      "reason": "The title is small and slightly smudged; 'שרלוטה' fits the contents (biscuits, chocolate cream) but is a reading, not certain."
+      "field": "ingredients[0].items[10], instructions[0].steps[6]",
+      "text": "[?] כוס סוכר",
+      "best_guess": "Gemini: 1/4; earlier readings: 1/4 and 3/4",
+      "reason": "The numerator of the fraction looks overwritten (a 1 and a 3 on top of each other); the denominator 4 is clear. Gemini and an earlier reading say 1/4, a later zoomed reading said 3/4 - not confirmed on the crop."
     },
     {
-      "field": "ingredients",
-      "text": "שוקולד / קוניאק lines",
-      "best_guess": null,
-      "reason": "Amounts and a word before 'קוניאק' are small; a tiny annotation sits above that line."
-    },
-    {
-      "field": "instructions[7]",
-      "text": "last line",
-      "best_guess": null,
-      "reason": "Illegible."
+      "field": "instructions[0].steps[7]",
+      "text": "[?] [?] [?] [?]",
+      "best_guess": "? פירות והשמנה בנס קפה (?)",
+      "reason": "Last line of the card, written smaller and shakier. First word begins with ל and ends with ק (unclear middle letters); second word may be 'פירות'; third looks like 'והשמנה' (or 'והשמנת'); last word starts with 'ב' and may be 'בנסקפה'/'בנס קפה'. Too uncertain to put in the text; needs a human reader. Gemini did not read this line (it wrote a storage-in-the-fridge line that is not on the card, rejected)."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
