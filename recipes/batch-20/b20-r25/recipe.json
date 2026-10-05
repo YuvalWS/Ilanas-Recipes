@@ -9,14 +9,7 @@
     "uncertain": true
   },
   "medium": "clipping",
-  "ingredients": [
-    {
-      "group": "(רשימת המרכיבים אינה על הגזיר)",
-      "items": [
-        "[?]"
-      ]
-    }
-  ],
+  "ingredients": [],
   "instructions": [
     {
       "group": null,
@@ -28,7 +21,8 @@
   ],
   "notes": [
     "Clipping starts with a partial credit line at the top ('...נחה: השף חיים כהן'; the first letters are cut off) and shows only the title and two method steps; the ingredient list is not on the clipping. The ingredients named in the method are: 8 small red or green peppers, 200 g grated feta, a tomato grated on a grater, a bunch of parsley and olive oil.",
-    "In step 2 the clipping says 'פטה מגוררת' and 'מרוסקת בפומפייה' (the latter probably refers to the tomato; the text reads 'עגבנייה מרוסקת בפומפייה')."
+    "In step 2 the clipping says 'פטה מגוררת' and 'מרוסקת בפומפייה' (the latter probably refers to the tomato; the text reads 'עגבנייה מרוסקת בפומפייה').",
+    "Independent Codex rereading confirms the title and both complete preparation steps. No separate ingredient list is printed on this fragment, so ingredients is an empty list rather than an invented missing ingredient [?]. The clipped credit prefix remains unresolved."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -40,23 +34,17 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "high",
+  "confidence": "medium",
   "uncertainties": [
     {
       "field": "source",
       "text": "השף חיים כהן",
       "best_guess": null,
       "reason": "The word before 'השף' is cut off ('...נחה')."
-    },
-    {
-      "field": "ingredients",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "The ingredient list is not on the clipping."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
