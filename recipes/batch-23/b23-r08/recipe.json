@@ -1,0 +1,81 @@
+{
+  "id": "b23-r08",
+  "batch": 23,
+  "title": "עוגה",
+  "source": {
+    "text": "סימה",
+    "type": "person",
+    "as_written": "(written after a slash next to the title)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "בצק (bracket)",
+      "items": [
+        "1 קמח תופח",
+        "1 מרגרינה",
+        "3 חלמונים",
+        "3-[?] כפות סוכר, להוריד מעט לפירורים"
+      ]
+    },
+    {
+      "group": "מלית",
+      "items": [
+        "3-4 חלבונים + 1/2 כוס סוכר, להקציף",
+        "להוסיף 1 אינסטנט פודינג וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשטוח על תבנית ולאפות 20 דקות עד שמצהיב.",
+        "למרוח על הבסיס ריבה ואז לגרד 100 גר' שוקולד מריר (בישול) ואז לשפוך את המלית.",
+        "לעשות פירורים על זה ולשים [?] עד שצהוב."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. A small bracketed word near the 3-spoon sugar line ('לעשות ... מיבים?') could not be read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-08.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "סימה",
+      "best_guess": null,
+      "reason": "Name after a slash next to the title; probably the person it came from."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
