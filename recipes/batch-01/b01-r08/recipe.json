@@ -1,0 +1,86 @@
+{
+  "id": "b01-r08",
+  "batch": 1,
+  "title": "עוגת תפוזים",
+  "source": {
+    "text": "דורית",
+    "type": "person",
+    "as_written": "= דורית",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 ביצים",
+        "1 כוס סוכר",
+        "1 [?]",
+        "1 וניל",
+        "3 כוסות קמח אוסם",
+        "1 [?] רסק תפוזים"
+      ]
+    },
+    {
+      "group": "במיקסר",
+      "items": [
+        "3 חלמונים",
+        "סוכר",
+        "מרגרינה",
+        "וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להוסיף 3 כוסות קמח [?] ... [?]",
+        "[?] הבצק עם הידיים [?], משמנים [?] [?] [?] כ-20 דק' [?] להוסיף את החלבונים ל-3 כפות סוכר, ומשפכים [?] את הרסק והתפוז [?] עוד כ-10 דק'."
+      ]
+    }
+  ],
+  "notes": [
+    "This card holds two recipes: the orange cake (above) and a biscuit cream (קרם לביסקויט, below). The cream was split into its own entry."
+  ],
+  "incidental_text": [
+    "Faint printed form/number columns from the reverse side show through on the left; a pink check-mark."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-08.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת תפוזים = דורית",
+      "best_guess": null,
+      "reason": "The first word may not be 'תפוזים'; 'דורית' after the '=' might be the source."
+    },
+    {
+      "field": "ingredients",
+      "text": "right column",
+      "best_guess": null,
+      "reason": "Shaky; item 3 ('1 [?]') and item 6 are unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "paragraph",
+      "best_guess": null,
+      "reason": "Several words of the paragraph under the divider cannot be read."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
