@@ -1,12 +1,12 @@
 {
   "id": "b14-r02",
   "batch": 14,
-  "title": "מוס שוקולד",
+  "title": "עוגת מוס",
   "source": {
     "text": "שרה רוט",
     "type": "person",
     "as_written": "שרה רוט",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -28,13 +28,14 @@
         "להמיס (שוקולד ומרגרינה - בסוגר)",
         "להפריד חלבונים ולהקציף עם 3/4 כוס סוכר",
         "להרטיב ביסקויטים ביין ומים",
-        "[?] [?] (מלמעלה)"
+        "קירש (מלמעלה)"
       ]
     }
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Memo card with a printed advertisement of a company 'פתרון' (a flooring/carpet adviser: 'רון מפתרון - מנהל שיווק, יעוץ בבחירת השטיח', phone numbers) and a ghost print of another line behind the title. The title line reads 'מוס שוקולד / שרה רוט' (as read; see uncertainties). A bracket on the left groups the first two ingredients with the word 'להמיס' (melt).",
-    "The instruction line about sugar says 3/4 cup sugar for beating the whites; it is not in the ingredient list."
+    "The instruction line about sugar says 3/4 cup sugar for beating the whites; it is not in the ingredient list.",
+    "Independent reread: heading is עוגת מוס / שרה רוט; last line is קירש (מלמעלה). Bracket labels melting; no further mixing or assembly instructions written, so none added."
   ],
   "incidental_text": [
     "Printed logo/word 'פתרון' (top right) and 'רשת ... בע\"מ' ghost print",
@@ -48,42 +49,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "source",
-      "text": "שרה רוט",
-      "best_guess": "שרה רוט",
-      "reason": "Printed text overlaps the name; surname read as 'רוט' but not certain."
-    },
-    {
-      "field": "title",
-      "text": "מוס שוקולד",
-      "best_guess": "מוס שוקולד",
-      "reason": "First word read as 'מוס' (mousse); the rest of the title matches the ingredients."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "1 כף נס קפה",
-      "best_guess": "1 כף נס קפה",
-      "reason": "Read as 'כף נס קפה' (a tablespoon of instant coffee); the script is cramped."
-    },
-    {
-      "field": "instructions[2]",
-      "text": "להרטיב ביסקויטים ביין ומים",
-      "best_guess": null,
-      "reason": "Last words partly unclear."
-    },
-    {
-      "field": "instructions[3]",
-      "text": "[?] [?] (מלמעלה)",
-      "best_guess": null,
-      "reason": "First words unreadable; only '(מלמעלה)' = 'from above/on top' is clear."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
