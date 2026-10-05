@@ -1,0 +1,85 @@
+{
+  "id": "b03-r06",
+  "batch": 3,
+  "title": "תערובת [?]",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "[?] / חיה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "250 גר' [?] ([?])"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] ([?]) - [?]",
+        "לסגור הבשר [?]",
+        "[?] שמן לטגן 2 [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] 3 [?]",
+        "(second card) [?] [?] [?] [?]",
+        "(second card) [?] [?] [?] [?] [?] ל-30 דק'"
+      ]
+    }
+  ],
+  "notes": [
+    "Two orange-branded memo cards are in one scan: the upper card has most of the text, the lower card (reverse side or a second sheet) has two lines only. Left-aligned lines are cut off at the left edge of the paper.",
+    "Handwriting is very shaky; almost nothing is reliably readable, so this is only a partial index of the card."
+  ],
+  "incidental_text": [
+    "orange logo (twice)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-07.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "top line",
+      "best_guess": null,
+      "reason": "The title line is unreadable except the first word 'תערובת'."
+    },
+    {
+      "field": "source",
+      "text": "חיה",
+      "best_guess": "חיה",
+      "reason": "The last word of the top line looks like the name 'חיה' (also seen on another card in this batch), but this is not sure."
+    },
+    {
+      "field": "ingredients",
+      "text": "250 גר' ...",
+      "best_guess": null,
+      "reason": "Amount '250 גר'' is readable; the ingredient name is not."
+    },
+    {
+      "field": "instructions",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Only the phrase 'לסגור הבשר' and a few numbers are readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
