@@ -1,0 +1,74 @@
+{
+  "id": "b23-r07",
+  "batch": 23,
+  "title": "עוגית [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 ביצים",
+        "1/2 כוס שמן",
+        "1 1/4 כוס סוכר",
+        "300 גר' [?]",
+        "1 כוס קמח תופח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב את החומרים יחד",
+        "למרוח את הבצק לתבנית משומנת.",
+        "לאפות עד שמצהיב [?]",
+        "[?] [?] לחתוך [?] לפי העצים?",
+        "להכניס שוב לעשר דקות",
+        "[?] להוציא מהתבנית [?] עם סכין [?]",
+        "[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. The card is cut at the bottom edge by the scan; the last lines are incomplete. The title and the '300 גר'' item look like 'שזיפים' (plums) but could also be another fruit; only a human reader can confirm."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-07.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגית [?]",
+      "best_guess": "עוגית שזיפים",
+      "reason": "The second word may be 'שזיפים' but is not clear."
+    },
+    {
+      "field": "ingredients[0].items[3]",
+      "text": "300 גר' [?]",
+      "best_guess": "300 גר' שזיפים",
+      "reason": "Same unclear word as the title."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
