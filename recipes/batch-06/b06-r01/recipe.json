@@ -1,0 +1,85 @@
+{
+  "id": "b06-r01",
+  "batch": 6,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "ירקות ודגים (as listed in the lower half of the card)",
+      "items": [
+        "בצל",
+        "חציל [?]",
+        "גמבה",
+        "פלפל",
+        "עגבניה",
+        "דגים"
+      ]
+    },
+    {
+      "group": "lower block",
+      "items": [
+        "1/2 כוס שמן",
+        "1 [?]",
+        "פפריקה",
+        "מלח",
+        "פלפל",
+        "סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "upper block (above the ruled line)",
+      "steps": [
+        "1 כוס [?] [?] להרתיח",
+        "1 [?]",
+        "להרתיח ולהוסיף על [?] [?] חם",
+        "[?] כפות שמן [?] מלח",
+        "טיפה סוכר"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "The card has an upper block (liquid to boil) and, below a ruled line, a list of vegetables and fish followed by seasonings; it has no visible title. It looks like a fish-with-vegetables dish, but that is an impression only."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-01.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(no title)",
+      "best_guess": null,
+      "reason": "No title visible on the card."
+    },
+    {
+      "field": "ingredients",
+      "text": "חציל",
+      "best_guess": "חציל",
+      "reason": "Word is distorted; read as חציל but not sure."
+    },
+    {
+      "field": "instructions",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Many words unreadable; only a few are kept."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
