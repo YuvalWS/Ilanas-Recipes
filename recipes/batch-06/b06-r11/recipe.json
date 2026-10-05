@@ -1,0 +1,69 @@
+{
+  "id": "b06-r11",
+  "batch": 6,
+  "title": "סלמון",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] ים",
+        "[?] [?] [?] [?] [?] [?]",
+        "(card continues, unreadable)"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Heading looks like 'סלמון / [name]' - the name after the slash cannot be read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-12.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "סלמון",
+      "best_guess": "סלמון",
+      "reason": "First word of the heading read as 'סלמון'."
+    },
+    {
+      "field": "source",
+      "text": "(word after the slash)",
+      "best_guess": null,
+      "reason": "Name after the slash unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Body unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
