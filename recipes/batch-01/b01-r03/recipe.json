@@ -1,0 +1,83 @@
+{
+  "id": "b01-r03",
+  "batch": 1,
+  "title": "עוגת שקדים",
+  "source": {
+    "text": "יהודית שח[?]",
+    "type": "person",
+    "as_written": "יהודית שח...",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "8 ביצים מופרדות לחלמונים ולחלבונים",
+        "1 כוס סוכר",
+        "קליפה מגורדת משני תפוזים",
+        "2 כפיות קינמון טחון",
+        "1 כוס (100 גר') שקדים טחונים",
+        "1/2 כוס (100 גר') שקדים מולבנים קצוצים דק"
+      ]
+    },
+    {
+      "group": "לסירופ",
+      "items": [
+        "2 1/2 כוסות מיץ תפוזים סחוט טרי",
+        "1/2 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים תנור לחום בינוני ([?]).",
+        "משמנים ומקמחים תבנית 26.",
+        "מפזרים לתחתית את השקדים המולבנים הקצוצים."
+      ]
+    }
+  ],
+  "notes": [
+    "The instructions on this card stop after preparing the pan - mixing, baking and syrup steps are missing; check whether a reverse side or another card exists."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-03.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "יהודית שח...",
+      "best_guess": null,
+      "reason": "The slash and name are cut off by the card edge after 'שח'."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "([?])",
+      "best_guess": "temperature in degrees",
+      "reason": "A parenthetical after 'בינוני' is smudged."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "1/2 כוס (100 גר')",
+      "best_guess": null,
+      "reason": "Gram figure may be a different number; the same '100' appears for 1 cup and 1/2 cup, which looks inconsistent."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
