@@ -2,7 +2,12 @@
   "id": "b17-r03",
   "batch": 17,
   "title": null,
-  "source": null,
+  "source": {
+    "text": "לאשה",
+    "type": "publication",
+    "as_written": "לאשה 22.10.2012",
+    "uncertain": false
+  },
   "medium": "clipping",
   "ingredients": [],
   "instructions": [
@@ -10,14 +15,15 @@
       "group": null,
       "steps": [
         "מוציאים את העוף מהמשרה, מתבלים אותו במלח ובפלפל ומסדרים בתבנית. מסננים את נוזלי המשרה ויוצקים על העוף ומוסיפים לתבנית גם את החמוציות מהמשרה. צולים 15־20 דקות, עד שנתחי העוף מזהיבים, מכסים ברדיד אלומיניום, מנמיכים את החום לבינוני (180 מעלות) וצולים עוד כ־30 דקות.",
-        "הירקות: בינתיים, מחממים את השמן במחבת גדולה, מוסיפים את הסוכר ואת הבצלים, מערבבים ומטגנים 5 דקות. מוסיפים את הסלרי וההגזר, מערבבים ומטגנים כ־5 דקות, עד שהקרמל נספג בירקות והם מתרככים. מוסיפים את השום והתימין ומבשלים 5 דקות נוספות, תוך ערבוב מדי פעם. מתבלים במלח ובפלפל ומסירים מהכיריים. מעבירים את כל תכולת המחבת לתבנית העוף, מסדרים את הירקות בין נתחי העוף וצולים 15־20 דקות ללא כיסוי, עד הזהבה־השחמה.",
+        "הירקות: בינתיים, מחממים את השמן במחבת גדולה, מוסיפים את הסוכר ואת הבצלים, מערבבים ומטגנים 5 דקות. מוסיפים את הסלרי והגזר, מערבבים ומטגנים כ־5 דקות, עד שהקרמל נספג בירקות והם מתרככים. מוסיפים את השום והתימין ומבשלים 5 דקות נוספות, תוך ערבוב מדי פעם. מתבלים במלח ובפלפל ומסירים מהכיריים. מעבירים את כל תכולת המחבת לתבנית העוף, מסדרים את הירקות בין נתחי העוף וצולים 15־20 דקות ללא כיסוי, עד הזהבה־השחמה.",
         "מוציאים, משהים כמה דקות, ומגישים. אם רוצים, זורים פטרוזיליה מלמעלה."
       ]
     }
   ],
   "notes": [
     "Bottom piece of the collage in scan 02: steps 3-5 of a recipe whose title and ingredients are not on the scan (the text mentions 'marinade', cranberries ('חמוציות'), celery, carrot, thyme, garlic and onions). Two sentences are highlighted in yellow marker ('צולים 15־20 דקות... עד שנתחי העוף מזהיבים...', 'מסדרים את הירקות בין נתחי העוף וצולים 15־20 דקות ללא כיסוי...'). A 'המשך' marker and the date 22.10.2012 are printed at the bottom.",
-    "This is a fragment: steps 1-2 and the ingredient list of this recipe are not in the scan folder as far as seen."
+    "This is a fragment: steps 1-2 and the ingredient list of this recipe are not in the scan folder as far as seen.",
+    "Independent reread confirms the lower fragment publication לאשה and date 22.10.2012; corrected the duplicated ה in והגזר."
   ],
   "incidental_text": [
     "Printed 'המשך' marker and date 22.10.2012 with a section-name box"
@@ -47,7 +53,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
