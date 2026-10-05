@@ -215,6 +215,7 @@
       body.appendChild(meta);
       var tags = el("p", "tags");
       tags.appendChild(el("span", "tag", "אצווה " + r.batch));
+      if (r.card) tags.appendChild(el("span", "tag", "1 מתוך " + r.card.recipes.length + " באותו " + CARD_KIND[r.card.kind].one));
       if (usesAssignedTitle(r)) tags.appendChild(el("span", "tag", "כותרת שניתנה למתכון"));
       if (r.needs_human_verification) tags.appendChild(el("span", "tag warn", "דורש הגהה"));
       body.appendChild(tags);
@@ -223,6 +224,12 @@
       grid.appendChild(li);
     });
   }
+  var CARD_KIND = {
+    handwritten_note: { one: "פתק", full: "פתק בכתב יד" },
+    clipping: { one: "גזיר", full: "גזיר עיתון" },
+    printed_sheet: { one: "דף", full: "דף מודפס" },
+    other: { one: "פריט", full: "פריט" }
+  };
   function mediumLabel(m) {
     return { handwritten: "כתב יד", clipping: "גזיר", printed: "מודפס", mixed: "מעורב" }[m] || m;
   }
@@ -294,6 +301,27 @@
     return box;
   }
 
+  // ---- several recipes on one physical item (note / newspaper page) ----------------
+  function cardBox(r) {
+    var k = CARD_KIND[r.card.kind] || CARD_KIND.other;
+    var box = el("aside", "cardbox");
+    box.appendChild(el("p", "cardbox-h", "מתכון זה הוא אחד מ-" + r.card.recipes.length + " מתכונים על אותו " + k.one + " (" + k.full + ")"));
+    if (r.card.position) box.appendChild(el("p", "muted", "מיקום ב" + k.one + ": " + r.card.position));
+    box.appendChild(el("p", "muted", "אם משהו נראה חסר, בדקו גם את המתכונים האחרים על אותו " + k.one + ":"));
+    var ul = el("ul");
+    r.card.recipes.forEach(function (id) {
+      var li = el("li");
+      var o = ALL.filter(function (x) { return x.id === id; })[0];
+      if (id === r.id) li.appendChild(el("strong", null, (o ? recipeTitle(o) : "(ללא כותרת)") + " (המתכון הנוכחי)"));
+      else if (o) { var a = el("a", null, recipeTitle(o)); a.href = "#/" + id; li.appendChild(a); }
+      else li.appendChild(document.createTextNode(id + " (עדיין לא פורסם באתר)"));
+      ul.appendChild(li);
+    });
+    box.appendChild(ul);
+    if (r.card.note) box.appendChild(el("p", "muted", r.card.note));
+    return box;
+  }
+
   // ---- detail view ----------------------------------------------------------------
   function withMarks(text) {
     // highlight the [?] marker used for unreadable words
@@ -345,6 +373,8 @@
     bits.push(batchTitle(r.batch));
     facts.textContent = bits.join(" · ");
     txt.appendChild(facts);
+
+    if (r.card) txt.appendChild(cardBox(r));
 
     if (r.ingredients.length) {
       txt.appendChild(el("h3", null, "מרכיבים"));

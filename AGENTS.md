@@ -27,6 +27,9 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 - **Website filters:** keep search, filter selections and sorting in URL query parameters so shared URLs, reloads and browser navigation restore the same state. Group source options into personal contacts and publication writers/sources. Use הגהה (proofreading) in the interface; retain existing verification JSON field names for compatibility.
 - **Assigned titles:** `title` remains the heading transcribed from the scan, or `null` for an untitled card. An optional `assigned_title` is a separately chosen editorial name for browsing/search, clearly labeled when displayed. Do not invent assigned titles without an owner-provided name or an explicit request to name recipes. An assigned title is not a transcription correction, never resolves uncertainty about an original heading, and never changes confidence or human proofreading status.
 
+- **One item, several recipes (2026-10-05):** when a note or newspaper page holds several recipes, split it into separate recipes (one folder each, all pointing at the same scan) and interlink them with the `card` field (`id`, `kind`, `recipes` = every recipe on the item incl. itself, `position`). `tools/validate.py` checks the lists are complete and symmetric; the website shows an "N recipes on the same note/clipping" box with links. Done first for batch 8 (`b08-card-01` = handwritten note, `b08-card-02` = newspaper page).
+- **Owner-transcribed cards:** when the owner types a transcription himself, use it verbatim (`transcription.method: human_transcription_by_owner`); do not re-parse the handwriting.
+
 ## Standing rules
 
 1. **Do not invent anything.** Do not fill gaps unless 100% sure, and then say so in `notes` / `uncertainties`.

@@ -5,80 +5,305 @@
   "description": "One digitized recipe. Text is transcribed exactly as written; '[?]' marks an unreadable word or number and is always explained in `uncertainties`. Nothing is invented: absent fields are null or empty lists.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "batch", "title", "source", "medium", "ingredients", "instructions", "notes", "incidental_text", "raw_files", "needs_human_verification", "confidence", "uncertainties", "transcription"],
+  "required": [
+    "id",
+    "batch",
+    "title",
+    "source",
+    "medium",
+    "ingredients",
+    "instructions",
+    "notes",
+    "incidental_text",
+    "raw_files",
+    "needs_human_verification",
+    "confidence",
+    "uncertainties",
+    "transcription"
+  ],
   "properties": {
     "id": {"type": "string", "pattern": "^b[0-9]{2}-r[0-9]{2,3}$", "description": "bNN-rMM: batch number and recipe order inside the batch."},
     "batch": {"type": "integer", "minimum": 1},
     "title": {"type": ["string", "null"], "description": "Title as written, or null when the card has none."},
     "assigned_title": {"type": ["string", "null"], "minLength": 1, "pattern": "\\S", "description": "Optional editorial name chosen for browsing and search, not a transcription of the original heading. Keep title null for an untitled card. Omit or use null until a name is assigned."},
     "source": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
-      "required": ["text", "type"],
+      "required": [
+        "text",
+        "type"
+      ],
       "properties": {
-        "text": {"type": "string", "description": "Who/what the recipe came from, normalized from `as_written`."},
-        "type": {"enum": ["person", "publication", "company", "unknown"]},
-        "as_written": {"type": "string", "description": "The source line exactly as it appears."},
-        "uncertain": {"type": "boolean"}
+        "text": {
+          "type": "string",
+          "description": "Who/what the recipe came from, normalized from `as_written`."
+        },
+        "type": {
+          "enum": [
+            "person",
+            "publication",
+            "company",
+            "unknown"
+          ]
+        },
+        "as_written": {
+          "type": "string",
+          "description": "The source line exactly as it appears."
+        },
+        "uncertain": {
+          "type": "boolean"
+        }
       }
     },
-    "medium": {"enum": ["handwritten", "clipping", "printed", "mixed"], "description": "handwritten = pen on a note; clipping = cut out of a magazine/newspaper/package; printed = a printed sheet; mixed = more than one."},
-    "ingredients": {"type": "array", "items": {"$ref": "#/$defs/ingredientGroup"}},
-    "instructions": {"type": "array", "items": {"$ref": "#/$defs/instructionGroup"}},
-    "notes": {"type": "array", "items": {"type": "string"}, "description": "Additional notes written on the card (and short digitization remarks, in English)."},
-    "incidental_text": {"type": "array", "items": {"type": "string"}, "description": "Text/logos on the page that are not part of the recipe (company logos, page numbers, ads)."},
+    "medium": {
+      "enum": [
+        "handwritten",
+        "clipping",
+        "printed",
+        "mixed"
+      ],
+      "description": "handwritten = pen on a note; clipping = cut out of a magazine/newspaper/package; printed = a printed sheet; mixed = more than one."
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ingredientGroup"
+      }
+    },
+    "instructions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/instructionGroup"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Additional notes written on the card (and short digitization remarks, in English)."
+    },
+    "incidental_text": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Text/logos on the page that are not part of the recipe (company logos, page numbers, ads)."
+    },
     "raw_files": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["file", "original_path", "rotation_applied_cw_degrees", "side"],
+        "required": [
+          "file",
+          "original_path",
+          "rotation_applied_cw_degrees",
+          "side"
+        ],
         "properties": {
-          "file": {"type": "string", "pattern": "^raw/", "description": "Path of the (rotated if needed) scan relative to the recipe folder."},
-          "original_path": {"type": "string", "description": "Where the unrotated scan came from."},
-          "rotation_applied_cw_degrees": {"enum": [0, 90, 180, 270]},
-          "side": {"enum": ["single", "front", "back", "unknown"]}
+          "file": {
+            "type": "string",
+            "pattern": "^raw/",
+            "description": "Path of the (rotated if needed) scan relative to the recipe folder."
+          },
+          "original_path": {
+            "type": "string",
+            "description": "Where the unrotated scan came from."
+          },
+          "rotation_applied_cw_degrees": {
+            "enum": [
+              0,
+              90,
+              180,
+              270
+            ]
+          },
+          "side": {
+            "enum": [
+              "single",
+              "front",
+              "back",
+              "unknown"
+            ]
+          }
         }
       }
     },
-    "needs_human_verification": {"type": "boolean"},
-    "confidence": {"enum": ["high", "medium", "low"]},
+    "needs_human_verification": {
+      "type": "boolean"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
     "uncertainties": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["field", "reason"],
+        "required": [
+          "field",
+          "reason"
+        ],
         "properties": {
-          "field": {"type": "string"},
-          "text": {"type": ["string", "null"], "description": "The text as transcribed."},
-          "best_guess": {"type": ["string", "null"], "description": "A guess, kept OUT of the main text; never treated as fact."},
-          "reason": {"type": "string"}
+          "field": {
+            "type": "string"
+          },
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The text as transcribed."
+          },
+          "best_guess": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "A guess, kept OUT of the main text; never treated as fact."
+          },
+          "reason": {
+            "type": "string"
+          }
         }
       }
     },
     "transcription": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["method", "date", "human_verified"],
+      "required": [
+        "method",
+        "date",
+        "human_verified"
+      ],
       "properties": {
-        "method": {"type": "string"},
-        "date": {"type": "string"},
-        "human_verified": {"type": "boolean"},
-        "verified_by": {"type": ["string", "null"]},
-        "verified_at": {"type": ["string", "null"]}
+        "method": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "human_verified": {
+          "type": "boolean"
+        },
+        "verified_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "card": {
+      "description": "Set when one physical item (a handwritten note, a newspaper page...) holds several recipes. Every recipe on the item has its own recipe.json with the SAME `card.id` and the SAME `card.recipes` list (all ids on the item, including itself), so a reader can always find the neighbouring recipes. `position` says where on the item this recipe is.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "recipes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "e.g. b08-card-01"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "handwritten_note",
+            "clipping",
+            "printed_sheet",
+            "other"
+          ]
+        },
+        "recipes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^b\\d+-r\\d+$"
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "position": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "where on the item this recipe is (side, column, order)"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     }
   },
   "$defs": {
     "ingredientGroup": {
-      "type": "object", "additionalProperties": false, "required": ["group", "items"],
-      "properties": {"group": {"type": ["string", "null"]}, "items": {"type": "array", "items": {"type": "string"}}}
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "group",
+        "items"
+      ],
+      "properties": {
+        "group": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     },
     "instructionGroup": {
-      "type": "object", "additionalProperties": false, "required": ["group", "steps"],
-      "properties": {"group": {"type": ["string", "null"]}, "steps": {"type": "array", "items": {"type": "string"}}}
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "group",
+        "steps"
+      ],
+      "properties": {
+        "group": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
