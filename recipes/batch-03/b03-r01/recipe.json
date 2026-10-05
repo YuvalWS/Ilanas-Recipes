@@ -16,22 +16,23 @@
         "ולערבב עם התבלין",
         "[?] [?]",
         "[?] [?] ארוכות",
-        "1/2 כוס יין [?] [?]",
-        "[?] [?], [?], [?]",
-        "1/4 כוס [?]",
+        "[?] כוס יין [?] [?]",
+        "קטשופ, סויה, [?]",
         "מים, [?] [?]",
+        "1/4 כוס [?]",
         "1/2 [?] [?] [?]",
         "ו[?] [?] [?]ות",
-        "(reverse side) ה[?] [?]ו [?]",
-        "(reverse side) [?] [?] [?] [?] ה[?]",
-        "(reverse side) [?] [?] [?] [?] ה[?]ים",
-        "(reverse side) ו[?] כל שעה"
+        "פלפל אדום וירוק",
+        "[?] [?] ל[?]",
+        "ו[?] [?] [?] [?]",
+        "ולבשל כ-[?] שעה"
       ]
     }
   ],
   "notes": [
     "Handwriting on this card is very large and shaky; only a few phrases are readable, so the lines are listed in order with [?] for unreadable words. The title is a boxed word at the top of the front side.",
-    "Front and back appear to be one recipe (same notepad card; the back continues the text). Ingredients and steps are not separable, so everything is listed under instructions."
+    "Front and back appear to be one recipe (same notepad card; the back continues the text). Ingredients and steps are not separable, so everything is listed under instructions.",
+    "Lines on the back side (last four steps) are the continuation; the back side reads 'פלפל אדום וירוק' on its first line (confirmed on the scan)."
   ],
   "incidental_text": [
     "A yellow band (logo) is cut off at the bottom edge of the front side"
@@ -56,24 +57,66 @@
     {
       "field": "title",
       "text": "boxed word at top of front side",
-      "best_guess": "עופות",
+      "best_guess": "Earlier reading: עופות; Gemini: פרוסות בשר ברוטב ופלפלים (looks longer than the single boxed word on the card, not accepted)",
       "reason": "Boxed heading is too distorted to read."
     },
     {
+      "field": "instructions[7]",
+      "text": "1/2 or 1/4 כוס יין ...",
+      "best_guess": "Gemini: 1/4 כוס יין אדום; earlier reading: 1/2 כוס יין",
+      "reason": "Quantity digit unclear on the scan; the words after 'יין' unreadable."
+    },
+    {
+      "field": "instructions[8]",
+      "text": "קטשופ, סויה, [?]",
+      "best_guess": "Gemini: חרדל (third item)",
+      "reason": "First two items read as ketchup and soy sauce; third word not confirmable on the scan."
+    },
+    {
+      "field": "instructions[9]",
+      "text": "מים, [?] [?]",
+      "best_guess": "Gemini: סילאן או דבש",
+      "reason": "Words after 'מים' not confirmable."
+    },
+    {
+      "field": "instructions[10]",
+      "text": "1/4 כוס [?]",
+      "best_guess": "Gemini: מרגרינה (or oil)",
+      "reason": "Item after כוס not confirmable."
+    },
+    {
+      "field": "instructions[14]",
+      "text": "back, line 2",
+      "best_guess": "Gemini: חתוכים לרצועות; earlier reading ends with 'פסים'",
+      "reason": "Different readings; handwriting unclear."
+    },
+    {
+      "field": "instructions[15]",
+      "text": "back, line 3",
+      "best_guess": "Gemini: לצרוב במחבת ולהעביר לסיר",
+      "reason": "Line not readable on the scan; Gemini's version not confirmable."
+    },
+    {
+      "field": "instructions[16]",
+      "text": "ולבשל כ-[?] שעה",
+      "best_guess": "Gemini: 1/2 שעה; earlier reading: 'כל שעה' (every hour). The mark after כ looks like a slash",
+      "reason": "Quantity uncertain."
+    },
+    {
       "field": "instructions",
-      "text": "most lines",
+      "text": "most other lines",
       "best_guess": null,
-      "reason": "Most words cannot be read reliably; the list keeps the few readable phrases (להניח חתיכות הבשר, ולערבב עם התבלין, בפלפל בפפריקה)."
+      "reason": "Most words cannot be read reliably; Gemini's text (soaking in wine, red wine sauce, 'הבשר פרוסות', etc.) does not match the readable words on the card (e.g. 'רבועות', 'להניח חתיכות הבשר', 'ולערבב עם התבלין', 'בפלפל, בפפריקה') and was not copied."
     },
     {
       "field": "raw_files",
       "text": "front/back relation",
       "best_guess": null,
-      "reason": "The back is assumed to continue the front; not certain."
+      "reason": "The back is assumed to continue the front (same card, same pen); not certain."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
