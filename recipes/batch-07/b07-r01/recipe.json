@@ -1,7 +1,7 @@
 {
   "id": "b07-r01",
   "batch": 7,
-  "title": "וויניגרט לסלט",
+  "title": "וויניגרט רוטב לסלט",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -32,18 +32,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "וויניגרט לסלט",
-      "best_guess": "Gemini: ויניגרט (single ו)",
-      "reason": "The opening strokes could be 'וו' or 'ו'+'י'; spelling of the first word is not fully clear (meaning is unaffected)."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
