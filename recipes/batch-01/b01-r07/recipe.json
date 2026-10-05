@@ -6,7 +6,7 @@
     "text": "יהודית",
     "type": "person",
     "as_written": "יהודית",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -14,27 +14,33 @@
       "group": null,
       "items": [
         "6 ביצים",
-        "1 1/4 כוס קמח [?]",
+        "1 1/4 כוס קמח אוסם",
         "1 1/4 כוס סוכר ([?])",
         "2 כפות שמן",
         "1 סוכר וניל",
-        "מעט רום",
-        "1/2 - 1/4 כוס מיץ תפוזים [?]",
-        "([?] ביצה [?] כוס)"
-      ]
-    },
-    {
-      "group": "circled note (unclear)",
-      "items": [
-        "[?] לפי דעת [?]",
-        "[?] 200 ג' [?]",
-        "[?] 250 [?] מרציפן [?]"
+        "מעט [?]",
+        "1/2 - [?] כוס מיץ [?]",
+        "([?] ביצה [?] [?])"
       ]
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "group": "circled note (left side of the card)",
+      "steps": [
+        "דרך [?] לפי רות",
+        "[?] [?]",
+        "[?]",
+        "אפיה, לכסות",
+        "[?] [?] 200 [?]",
+        "[?] ([?])"
+      ]
+    }
+  ],
   "notes": [
-    "Green sticky-note. A circled note on the left side adds additional ingredients/toppings that I could not read."
+    "Green sticky note. Heading reads 'טורט / יהודית' (title / source).",
+    "The circled note on the left is headed 'לפי רות' (according to Ruth) - apparently a method/topping variant from a second person; most of it is hard to read.",
+    "Ditto marks expanded: the sugar line is written '1 1/4 \" סוכר'; the ditto mark repeats 'כוס' from the flour line."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,20 +55,68 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "טורט / יהודית",
-      "best_guess": null,
-      "reason": "Heading at the top is partly cut; the name after the slash might be a source."
+      "field": "ingredients",
+      "text": "1 1/4 כוס סוכר ([?])",
+      "best_guess": "להקציף חלבון",
+      "reason": "Small two-line note in parentheses after 'סוכר'; letters partly match 'להקציף חלבון' (also Gemini's reading) but I cannot confirm it on the zoomed crop."
     },
     {
       "field": "ingredients",
-      "text": "circled note",
+      "text": "מעט [?]",
+      "best_guess": "רום (earlier AI reading) / מלח (Gemini)",
+      "reason": "Short word of two or three letters; readers disagree and the crop does not settle it."
+    },
+    {
+      "field": "ingredients",
+      "text": "1/2 - [?] כוס מיץ [?]",
+      "best_guess": "second fraction: 1/4 (my reading; the glyph matches her '4' in '1 1/4') / 1/3 (Gemini). Last word: תפוזים (earlier AI reading) / חלמונים (Gemini)",
+      "reason": "Second fraction and the last word of the line are shaky; readings disagree."
+    },
+    {
+      "field": "ingredients",
+      "text": "([?] ביצה [?] [?])",
+      "best_guess": "לכל ביצה 1/5 כוס (my reading) / לכל ביצה כף מים (Gemini)",
+      "reason": "Bracketed line at the bottom of the card. 'ביצה' is readable; the first word looks like 'לכל', and the quantity/unit is either '1/5 כוס' or 'כף מים' - not certain."
+    },
+    {
+      "field": "instructions",
+      "text": "דרך [?] לפי רות",
+      "best_guess": "הכנה / ההכנה",
+      "reason": "First line of the circled note; 'דרך' and 'לפי רות' are readable, the word between them is not certain."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] [?]",
+      "best_guess": "סירופ עם (Gemini) / letters look like 'סירקים עמ'' to me",
+      "reason": "Third line of the circled note; starts with ס, rest unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": "20 ג' (or '20g')",
+      "reason": "Fourth line of the circled note looks like '209'; the last sign may be a 'g'/ג for grams."
+    },
+    {
+      "field": "instructions",
+      "text": "אפיה, לכסות",
       "best_guess": null,
-      "reason": "Illegible."
+      "reason": "A small unreadable mark/word (looks like '1/2' or a crossed sign) is written above the start of this line."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] [?] 200 [?]",
+      "best_guess": "שוקולד 200 ג' מריר (Gemini); I read the last word as possibly 'מריר' and the sign before 200 as ב or ג",
+      "reason": "Fifth line of the circled note; only '200' is clear. The first word has about three letters, which does not obviously fit 'שוקולד'."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] ([?])",
+      "best_guess": "שמנת (מתוקה) (Gemini, not confirmed)",
+      "reason": "Last lines of the circled note are crossed by the circle's line and squeezed at the edge of the card."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
