@@ -1,0 +1,82 @@
+{
+  "id": "b07-r07",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 כפות שמן זית",
+        "[?] כפות [?] מיץ [?] 4 לימון",
+        "2 שיני שום כתושה",
+        "[?] כפיות מלח, פלפל גרוס",
+        "1 כף סוכר ([?] 20 [?])"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Dressing-type ingredient list with a large blue word at the upper right (probably a person's name or a label) next to the printed letterhead. A small note is written at the bottom left corner.",
+    "The back (scan 08) is mostly faint show-through of the front; a few blue words at the upper right (e.g. '[?]ים') cannot be read."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company group (logos, phone/fax numbers)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-07.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2144-08.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title; the word at the top right might be a name/label."
+    },
+    {
+      "field": "source",
+      "text": "word at the top right",
+      "best_guess": null,
+      "reason": "Written in blue, partly hidden by the letterhead; unreadable. Possibly 'שולמית'."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?] כפות [?] מיץ [?] 4 לימון",
+      "best_guess": null,
+      "reason": "Quantities unclear; possibly juice of 4 lemons."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "1 כף סוכר ([?] 20 [?])",
+      "best_guess": null,
+      "reason": "Parenthetical note unclear (maybe a time)."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 08 assumed to be the back of scan 07."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
