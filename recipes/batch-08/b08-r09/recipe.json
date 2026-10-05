@@ -1,0 +1,79 @@
+{
+  "id": "b08-r09",
+  "batch": 8,
+  "title": "עוגת ריקוטה לפסח (וממש לא רק לפסח)",
+  "source": {
+    "text": "(newspaper, name not on the clipping), 27.3.2009",
+    "type": "publication",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "250 גרם שקדים מולבנים טחונים דק",
+        "קליפה מגוררת משני לימונים",
+        "6 ביצים, מופרדות",
+        "כוס וחצי סוכר",
+        "225 גרם חמאה רכה",
+        "חצי כוס מיץ לימון",
+        "3 כפות קורנפלור",
+        "350 גרם גבינת ריקוטה",
+        "אבקת סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "1. מחממים תנור לחום בינוני נמוך (160 מעלות צלזיוס). מברישים בחמאה תבנית קפיצית בקוטר 26 ס\"מ. מרסקים במעבד מזון את השקדים וקליפת הלימון דק ככל האפשר.",
+        "2. מקציפים בקערת המיקסר את החלבונים, במהירות בינונית, כ־3 דקות. מוסיפים בהדרגה שליש כוס מהסוכר, תוך כדי עבודת המכשיר עד שמתקבל קצף יציב ומבריק.",
+        "3. מקציפים במיקסר עם ה\"גיטרה\", בקערה נפרדת, את החמאה ויתרת הסוכר, כ־5 דקות, לתערובת תפוחה ובהירה ומערבלים פנימה את השקדים. מוסיפים את החלמונים בהדרגה - אחד אחרי השני - תוך כדי עבודת המכשיר עד שהם נבלעים בתערובת.",
+        "4. מערבלים פנימה תחילה את מיץ הלימון והקורנפלור, ולבסוף את הגבינה. מקפלים את קצף החלבונים לתערובת הגבינה עד שמתקבלת תערובת אחידה.",
+        "5. יוצקים לתבנית המשומנת ואופים כ־45 דקות. בוזקים מעל אבקת סוכר."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed heading 'עוגת ריקוטה לפסח' with the subtitle '(וממש לא רק לפסח)' (shown here in the title); a ● end mark follows the last step. The heading is flanked by decorative star marks. The single line at the very top of the same column (beginning 'הגישו', ending 'או מעל.') is assigned to b08-r08 (pot roast), not to this cake.",
+    "Part of newspaper page b08-card-02 with b08-r06, b08-r07, b08-r08 (the other recipes on the same page)."
+  ],
+  "incidental_text": [
+    "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
+    "Cut section heading at the top right of the page: ...וגים (the first letters are torn off)",
+    "Framed advertisement, heading: צעדים ראשונים בבישול - Ruth Yulis (Herzliya) cooking courses for beginners, with phone 09־9584805",
+    "Photo (not text) of rolled, ribbon-tied sticks/candles at the bottom centre of the page"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-1649-03.jpg",
+      "original_path": "Batch 8/Scanned_20261005-1649-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_read_from_scan_sonnet",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "card": {
+    "id": "b08-card-02",
+    "kind": "clipping",
+    "recipes": [
+      "b08-r06",
+      "b08-r07",
+      "b08-r08",
+      "b08-r09"
+    ],
+    "position": "Left-most column of the page, from the heading below the torn top edge to the bottom of the column (ingredients, then numbered method 1-5).",
+    "note": "One newspaper page holding several recipes; the page is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
+  }
+}
