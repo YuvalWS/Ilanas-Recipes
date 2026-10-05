@@ -1,0 +1,87 @@
+{
+  "id": "b20-r20",
+  "batch": 20,
+  "title": "ירקות סיניים",
+  "source": {
+    "text": "[?] גולדפרב",
+    "type": "person",
+    "as_written": "רוזרה? גולדפרב",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 גזר - חתוך בעיגולים",
+        "2 בצל - חתוך",
+        "2 פלפל ירוק",
+        "2 פלפל אדום > חתוכים לאורך",
+        "כוס פטריות חתוכות",
+        "שקית שקדים קלופים"
+      ]
+    },
+    {
+      "group": "הרוטב (מחממים יחד)",
+      "items": [
+        "3 כפות רוטב סויה",
+        "2 כפות חומץ",
+        "1 כף סוכר",
+        "1/2 כפית מלח",
+        "1/4 כוס מים עם כפית קורנפלור",
+        "פלפל שחור"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "לטגן קלות את השקדים עם מלח ולהוציא מהמחבת. לטגן בצל ופטריות. להוסיף את שאר הירקות ולטגן קלות.",
+        "בסיר (או במיקרוגל) לחמם יחד: [הרוטב].",
+        "לשפוך על הירקות את הרוטב ולבשל כמה דקות, לפני ההגשה להוסיף את השקדים המטוגנים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Narrow printed card with a dark blot over the last letters of the title ('סיניים') and two diagonal marks (pen/pencil) at the top corner. After the line '2 פלפל אדום' there is a printed sign '‹' joining it to 'חתוכים לאורך'; it is not clear whether it applies to the green pepper as well."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-23.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-23.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "רוזרה? גולדפרב",
+      "best_guess": null,
+      "reason": "The first name in the credit after the slash is not clear."
+    },
+    {
+      "field": "title",
+      "text": "ירקות סיניים",
+      "best_guess": "ירקות סיניים",
+      "reason": "The last letters are covered by an ink blot; read as 'סיניים'."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "2 פלפל אדום > חתוכים לאורך",
+      "best_guess": null,
+      "reason": "A printed bracket sign appears; the grouping is unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
