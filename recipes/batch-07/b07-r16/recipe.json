@@ -1,0 +1,63 @@
+{
+  "id": "b07-r16",
+  "batch": 7,
+  "title": "סלט הפתעות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] כפות שמן",
+        "3 [ditto] [?]",
+        "2-3 [ditto] דבש - סילן",
+        "3 שיני שום",
+        "3 כפות חומץ [?]",
+        "מעט פלפל ומלח"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Upper recipe on a card with two blocks separated by a ruled line. Title underlined: 'סלט הפתעות' (surprise salad).",
+    "Ditto marks stand for 'כפות'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-17.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-17.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "several quantities",
+      "best_guess": null,
+      "reason": "Digits and the words after them are partly unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "3 כפות חומץ [?]",
+      "best_guess": null,
+      "reason": "Qualifier after 'חומץ' unreadable."
+    },
+    {
+      "field": "title",
+      "text": "סלט הפתעות",
+      "best_guess": "סלט הפתעות",
+      "reason": "Read as 'סלט הפתעות'."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
