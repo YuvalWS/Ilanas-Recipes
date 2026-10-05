@@ -13,11 +13,11 @@
     {
       "group": null,
       "items": [
-        "חצאי [?] עגבניות",
+        "חצאי שרי עגבניות",
         "פרוסות פטריות טריות",
-        "[?] קלופים",
+        "שקדים קלופים",
         "פטרוזיליה",
-        "פרוסות בצל ירוק [?]"
+        "פרוסות בצל לבן ואדום"
       ]
     }
   ],
@@ -36,30 +36,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[0]",
-      "text": "חצאי [?] עגבניות",
-      "best_guess": "Gemini: 2 עגבניות; earlier reading: שפי; looks like 'שני'",
-      "reason": "Second word unclear."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "[?] קלופים",
-      "best_guess": "שקדים (own reading); Gemini: פקאנים מסוכרים (inconsistent with 'קלופים' and the ink)",
-      "reason": "First word is shaky."
-    },
-    {
-      "field": "ingredients[4]",
-      "text": "פרוסות בצל ירוק [?]",
-      "best_guess": "Gemini: קצוץ; earlier reading looks like 'שלם'/'שלום' (ends in a closed round letter, not ץ)",
-      "reason": "Last word unclear."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
