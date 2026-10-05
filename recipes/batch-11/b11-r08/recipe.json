@@ -1,0 +1,88 @@
+{
+  "id": "b11-r08",
+  "batch": 11,
+  "title": "מרק ירקות - חדש",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 1/2 ק\"ג [?] [?] [?] [?]",
+        "[?] [?] חתוכות",
+        "5 כוסות מים + [?] מרק",
+        "[?]",
+        "1 [?] [?] [?] [?]",
+        "[?] [?] [?] מלח",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לרתיחה, מורידים את [?]",
+        "[?] [?] כ-1/2 שעה",
+        "[?] [?] [?] [?] מלח ופלפל",
+        "[?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Underlined heading, which looks like 'מרק ירקות - חדש' (new vegetable soup). A small blue word in the upper left corner (possibly a person's name) is unreadable. The card is a printed index card with a frame and an advertisement strip ('איכות חיים לכל החיים') at the bottom edge.",
+    "The first ingredient line seems to give a weight of about 1.5 kg; the list of vegetables is not readable.",
+    "Only a few phrases are readable (חתוכות, מים, לרתיחה, מלח ופלפל, 1/2 שעה)."
+  ],
+  "incidental_text": [
+    "Advertisement strip: 'איכות חיים לכל החיים'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-09.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "מרק ירקות - חדש",
+      "best_guess": "חדש",
+      "reason": "Second word of the heading is unclear."
+    },
+    {
+      "field": "source",
+      "text": "small blue word at upper left",
+      "best_guess": null,
+      "reason": "Unreadable."
+    },
+    {
+      "field": "ingredients",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Mostly unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Mostly unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
