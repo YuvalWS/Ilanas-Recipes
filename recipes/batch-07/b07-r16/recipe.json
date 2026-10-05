@@ -9,15 +9,32 @@
       "group": null,
       "items": [
         "3 כפות שמן",
-        "3 כפות חומץ",
-        "3-4 כפות דבש - סילן",
+        "3 כפות שמנת",
+        "3–4 כפות דבש - סילן (תיקון מוקף בעיגול: 5)",
         "3 שיני שום",
-        "3 כפות [?]",
+        "3 כפות חומץ בן יין לבן",
         "מעט פלפל ומלח"
+      ]
+    },
+    {
+      "group": "אהרוני",
+      "items": [
+        "5 כפות שמן זית",
+        "2 כפות מיץ לימון",
+        "2 כפות תרכיז מיץ רימונים",
+        "1–2 כפות דבש",
+        "מלח, פילפל"
       ]
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "group": "אהרוני",
+      "steps": [
+        "לפזר גרגרי רימון על [?]"
+      ]
+    }
+  ],
   "notes": [
     "Upper recipe on a card with two blocks separated by a ruled line (the lower block is recipe b07-r17). Title underlined: 'סלט הפתעות' (surprise salad).",
     "ditto marks expanded (each stands for 'כפות').",
@@ -56,7 +73,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
