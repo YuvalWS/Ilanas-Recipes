@@ -1,0 +1,80 @@
+{
+  "id": "b18-r01",
+  "batch": 18,
+  "title": "עוגת [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים",
+        "1 כוס קמח אוסם",
+        "1 כוס סוכר + [?]",
+        "2 כפות שמן",
+        "[?] מסומס?",
+        "1 [?] וניל"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Scans 01 and 09 show the same card twice (scan 09 was upside down and was rotated 180 degrees); the layout and wording are identical. The first line (title) is partly written over an underlined word and reads roughly 'עוגת הגבינות' / 'לתהגבינות' (not certain). No instructions are written, only ingredients. An asterisk-like mark follows '1 כוס סוכר' and a bracket on the left side groups a few unclear words."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-01.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2238-09.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-09.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת [?]",
+      "best_guess": null,
+      "reason": "The title line is overwritten and cannot be read reliably."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "1 כוס סוכר + [?]",
+      "best_guess": null,
+      "reason": "Words after the plus sign unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "[?] מסומס?",
+      "best_guess": null,
+      "reason": "Word unclear (the line looks like 'לתמלי? מחומם?')."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "1 [?] וניל",
+      "best_guess": null,
+      "reason": "Unit unclear (maybe 'סוכר' or 'תמצית')."
+    },
+    {
+      "field": "raw_files",
+      "text": "01/09",
+      "best_guess": null,
+      "reason": "Same card scanned twice (assumed)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
