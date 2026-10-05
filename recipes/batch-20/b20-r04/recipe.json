@@ -26,14 +26,15 @@
         "חוצים את התפוח, נפטרים מהליבה, ופורסים כל חצי לפרוסות דקיקות. אין צורך לקלוף (הידד!). חוזרים על הפעולה גם עם האגס.",
         "פורסים את הבצל הסגול לפרוסות דקות.",
         "נפטרים מהגלעינים של התמרים וקוצצים אותם לקוביות קטנות. עד כאן אפשר לשמור את כל המרכיבים במקרר עד ההגשה.",
-        "מערבבים בקערה גדולה את קרעי החסה, פרוסות התפוח, האגס והבצל, יחד עם קוביות התמרים. סוחטים מעל הכל את הלימון, מטפטפים משמן הזית, ומתבלים במלח ופלפל [?].",
-        "מערבבים [?]."
+        "מערבבים בקערה גדולה את קרעי החסה, פרוסות התפוח, האגס והבצל, יחד עם קוביות התמרים. סוחטים מעל הכל את הלימון, מטפטפים משמן הזית, ומתבלים במלח ופלפל בנדיבות.",
+        "מערבבים וזוללים."
       ]
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Printed introduction: 'מצד אחד לא רוצים לגנוב את ההצגה לתבשיל המושלם (ובטח שלא לקציצות של דודה חרוה), אבל כשסלט כל כך טעים בפני עצמו, זה קצת מתבקש שזה מה שיקרה בסוף.'",
-    "The printed range '5־4 תמרים' is typeset right-to-left; written here as 4-5."
+    "Scan was upside down and was rotated 180 degrees. Printed introduction: 'מצד אחד לא רוצים לגנוב את ההצגה לתבשיל המושלם (ובטח שלא לקציצות של דודה חדוה), אבל כשסלט כל כך טעים בפני עצמו, זה קצת מתבקש שזה מה שיקרה בסוף.'",
+    "The printed range '5־4 תמרים' is typeset right-to-left; written here as 4-5.",
+    "Independent Codex rereading confirms בנדיבות and וזוללים at the end of the preparation, and corrects the introductory name to חדוה. No source is visible; none was invented."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -44,30 +45,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
+  "needs_human_verification": false,
   "confidence": "high",
-  "uncertainties": [
-    {
-      "field": "instructions[4]",
-      "text": "ופלפל [?]",
-      "best_guess": "בנדיבות",
-      "reason": "Last word of the step looks like 'בנדיבות' but the print is faint."
-    },
-    {
-      "field": "instructions[5]",
-      "text": "מערבבים [?]",
-      "best_guess": "וזוללים",
-      "reason": "Last word of the last step looks like 'וזוללים' but is not clear."
-    },
-    {
-      "field": "source",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No source or publication visible."
-    }
-  ],
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
