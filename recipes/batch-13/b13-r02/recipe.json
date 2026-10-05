@@ -13,15 +13,16 @@
         "עוד [?] קרם [?]",
         "ביסקוויטים טבולים בחלב",
         "ומקופלים - [?]!",
-        "(blue ink) [?] הכל לשים [?]",
-        "אפשר לקשט [?] שוקולד",
+        "מעל הכל לשים רום",
+        "אפשר לפזר שוקולד",
         "מרוסק"
       ]
     }
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Card with a printed frame; the top four lines (black-blue ink) repeat the layering instruction 'biscuits dipped in milk'; the last three lines (lighter blue ink, a different pen) look like an added tip: 'you can decorate with crushed chocolate'. A word after the dash on the fourth line is underlined and unclear.",
-    "Likely a continuation of the biscuit cake card in scan 01, but this is not certain."
+    "Likely a continuation of the biscuit cake card in scan 01, but this is not certain.",
+    "Independent reread resolves blue-ink מעל הכל לשים רום and אפשר לפזר שוקולד מרוסק."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -48,12 +49,6 @@
       "reason": "The underlined word is unclear."
     },
     {
-      "field": "instructions[4]",
-      "text": "[?] הכל לשים [?]",
-      "best_guess": null,
-      "reason": "Blue ink line partly unclear."
-    },
-    {
       "field": "title",
       "text": "(none)",
       "best_guess": null,
@@ -61,7 +56,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
