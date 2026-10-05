@@ -1,0 +1,85 @@
+{
+  "id": "b22-r03",
+  "batch": 22,
+  "title": "עוגת ביסקויט - חיה",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "(next to the title)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] 4 כפות [?]",
+        "לטבול [?] ביסקויט",
+        "1 אינסטנט וניל",
+        "1 קצפת",
+        "1 כוס חלב",
+        "2/3 [?]"
+      ]
+    },
+    {
+      "group": "קרם שוקולד",
+      "items": [
+        "4 כפות סוכר",
+        "מעט חלב",
+        "כשהסוכר נמס + 2 כפות קקאו",
+        "[?] חצי מרגרינה ומעט [?]",
+        "וניל [?] רום"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "קרם [?] אינסטנט חלב וקצפת",
+        "[?] להקציף"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. The title line reads 'עוגת ביסקויט - חיה'; the lines below it are partly cut by a bracket and several words ('2/3 …', '1/4 קרם …') could not be matched to a clear meaning."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-02.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "source",
+      "text": "חיה",
+      "best_guess": null,
+      "reason": "Name next to the title; probably the person it came from."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
