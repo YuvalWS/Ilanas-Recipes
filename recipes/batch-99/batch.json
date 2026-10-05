@@ -1,0 +1,10 @@
+{
+  "batch": 99,
+  "title": "סריקות בודדות (ללא תיקייה)",
+  "title_en": "Loose scans (no batch folder)",
+  "title_status": "ai_suggested",
+  "description": "Two scans found loose in the root of the scan folder, belonging to one recipe.",
+  "scan_folder": "(root folder, no Batch)",
+  "scan_count": 2,
+  "recipe_count": 1
+}
