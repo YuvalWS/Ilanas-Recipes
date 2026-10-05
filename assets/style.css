@@ -53,3 +53,6 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .share-menu { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
 .share-menu a, .share-menu button { font: inherit; font-size: .9rem; padding: 4px 12px; border-radius: 99px; border: 1px solid var(--line); background: transparent; color: var(--accent); cursor: pointer; text-decoration: none; }
 .legal { margin-top: 18px; padding: 10px 14px; border-inline-start: 3px solid var(--accent); background: var(--card); font-size: .88rem; color: var(--muted); }
+.cardbox { margin: 12px 0; padding: 10px 14px; border: 1px solid var(--accent); border-radius: 10px; background: var(--card); }
+.cardbox-h { margin: 0 0 4px; font-weight: 600; }
+.cardbox ul { margin: 4px 0; }

@@ -14,6 +14,7 @@ validator = Draft202012Validator(schema)
 dirs = sys.argv[1:] or sorted(glob.glob(os.path.join(ROOT, "recipes", "batch-*", "b*-r*")))
 errors = 0
 seen = set()
+cards = {}
 for d in dirs:
     d = os.path.abspath(d)
     p = os.path.join(d, "recipe.json")
@@ -33,11 +34,20 @@ for d in dirs:
             print(f"{rid}: missing raw file {rf['file']}"); errors += 1
     if not os.path.exists(os.path.join(d, "thumb.jpg")):
         print(f"{rid}: missing thumb.jpg"); errors += 1
+    card = doc.get("card")
+    if card:
+        if rid not in card["recipes"]:
+            print(f"{rid}: card.recipes does not list the recipe itself"); errors += 1
+        cards.setdefault(card["id"], {})[rid] = sorted(card["recipes"])
     # every [?] in the text must be backed by at least one uncertainty entry
     blob = json.dumps([doc["title"], doc["ingredients"], doc["instructions"], doc["notes"]], ensure_ascii=False)
     if "[?]" in blob and not doc["uncertainties"]:
         print(f"{rid}: contains [?] but no uncertainties entry"); errors += 1
     if "[?]" in blob and not doc["needs_human_verification"]:
         print(f"{rid}: contains [?] but needs_human_verification is false"); errors += 1
+for cid, members in cards.items():       # interlinks must be complete and symmetric
+    lists = {tuple(v) for v in members.values()}
+    if len(lists) != 1 or set(members) != set(next(iter(lists))):
+        print(f"card {cid}: recipes {sorted(members)} do not match each other's card.recipes lists"); errors += 1
 print(f"checked {len(dirs)} recipes, {errors} problem(s)")
 sys.exit(1 if errors else 0)

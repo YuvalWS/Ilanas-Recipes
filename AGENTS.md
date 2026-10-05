@@ -20,6 +20,9 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 - **Newspaper / magazine clippings** (`medium: clipping`) get a Hebrew legal notice on the recipe page (see `assets/app.js`, `LEGAL_NOTICE_CLIPPING`).
 - **Website:** every recipe page has a "report a mistake" link (opens a pre-filled GitHub issue from `.github/ISSUE_TEMPLATE/recipe-mistake.yml`) and a "share" button (Web Share API with the recipe title and URL).
 
+- **One item, several recipes (2026-10-05):** when a note or newspaper page holds several recipes, split it into separate recipes (one folder each, all pointing at the same scan) and interlink them with the `card` field (`id`, `kind`, `recipes` = every recipe on the item incl. itself, `position`). `tools/validate.py` checks the lists are complete and symmetric; the website shows an "N recipes on the same note/clipping" box with links. Done first for batch 8 (`b08-card-01` = handwritten note, `b08-card-02` = newspaper page).
+- **Owner-transcribed cards:** when the owner types a transcription himself, use it verbatim (`transcription.method: human_transcription_by_owner`); do not re-parse the handwriting.
+
 ## Standing rules
 
 1. **Do not invent anything.** Do not fill gaps unless 100% sure, and then say so in `notes` / `uncertainties`.
