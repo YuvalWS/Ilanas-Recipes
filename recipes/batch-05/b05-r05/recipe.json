@@ -15,9 +15,9 @@
       "items": [
         "1 ק\"ג חזה עוף טחון",
         "1 קישוא (ריסוק ולסחוט)",
-        "1 תפו\"א [?]",
-        "1 שקית קנידלעך (פירורי לחם)",
-        "[?] מרק עוף [?] 1 [?] מוס",
+        "1 [?]",
+        "1 שקית קניידלעך (פרורי לחם)",
+        "[?] מרק עוף [?] [?]",
         "פפריקה",
         "1 [?]",
         "הרבה שום 4,5"
@@ -28,13 +28,14 @@
     {
       "group": null,
       "steps": [
-        "לפחות כשעתיים."
+        "להשהות כשעתיים."
       ]
     }
   ],
   "notes": [
-    "Heading is 'קציצות / חיה' with a line under it; the second word is read as a person's name (the same name seems to appear in Batch 3).",
-    "The lines are cramped; the last line 'לפחות כשעתיים' probably refers to resting or cooking time but it is not stated what."
+    "Heading is 'קציצות / חיה' with a wavy line under it; 'חיה' is read as the source's first name (the card follows the usual 'title / person' pattern).",
+    "The only instruction on the card is the last line 'להשהות כשעתיים.' (let it rest about two hours); no cooking method is written.",
+    "Earlier transcription read the last line as 'לפחות כשעתיים'; on close crops the letters match her ה (as in 'הרבה'), giving 'להשהות'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -52,35 +53,47 @@
       "field": "source",
       "text": "חיה",
       "best_guess": "חיה",
-      "reason": "Last word of the heading is read as 'חיה' (a first name), but could also be read as a place or other word."
+      "reason": "The word is legible as 'חיה'; it is assumed to be a person's name (could theoretically be read as the word 'animal')."
     },
     {
       "field": "ingredients[0].items[1]",
       "text": "1 קישוא (ריסוק ולסחוט)",
       "best_guess": null,
-      "reason": "The words after 'קישוא' are in a bracket and look like 'ריסוק ולסחוט'."
+      "reason": "The bracketed words are read as 'ריסוק ולסחוט' (grate/crush and squeeze); the last word's middle letters are cramped. No closing bracket is clearly visible."
     },
     {
       "field": "ingredients[0].items[2]",
-      "text": "1 תפו\"א [?]",
-      "best_guess": null,
-      "reason": "Read as תפו\"א with a doubtful ending."
+      "text": "1 [?]",
+      "best_guess": "תפוח אדמה",
+      "reason": "A cramped run of letters that starts 'תפו' followed by what may be 'ח' or 'א', a slash-like stroke and 'ד', with apostrophe marks; may be 'תפוח אדמה' written compressed, or the abbreviation 'תפו\"א' plus another word."
     },
     {
       "field": "ingredients[0].items[4]",
-      "text": "[?] מרק עוף [?] 1 [?] מוס",
-      "best_guess": null,
-      "reason": "Line is unreadable except 'מרק עוף' and 'מוס'."
+      "text": "[?] מרק עוף [?] [?]",
+      "best_guess": "א. מרק עוף (1/2 כף) [?] מוס",
+      "reason": "Only 'מרק עוף' is clear. The first sign is a single letter with a period (looks like 'ג.' or 'א.', possibly an abbreviation of 'אבקת'). After 'עוף' there is a bracket-like stroke, then a letter with a '1' written above it (possibly '1 כף' or '½ כף'), and the last word looks like 'מוס' or 'מום'."
     },
     {
       "field": "ingredients[0].items[6]",
       "text": "1 [?]",
+      "best_guess": "בצל",
+      "reason": "Large shaky letters; the shapes fit 'בצל' (ב, צ, and a ל whose stroke rises into the line above) but are not certain."
+    },
+    {
+      "field": "ingredients[0].items[7]",
+      "text": "הרבה שום 4,5",
       "best_guess": null,
-      "reason": "Word is a single unreadable word (could be בצל)."
+      "reason": "'4,5' is written with a comma; probably means 4-5 (cloves), but this is not stated."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "להשהות כשעתיים.",
+      "best_guess": "להשהות כשעתיים.",
+      "reason": "Read as 'להשהות' (the 'ה' letters look like her ה in 'הרבה'); previously read as 'לפחות'. What is to be rested is not stated."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
