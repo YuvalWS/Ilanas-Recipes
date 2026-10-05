@@ -33,13 +33,14 @@
         "מקציפים לחוד חלבונים עם סוכר.",
         "מקפלים בעדינות חלבונים מוקצפים לתערובת החלמונים.",
         "מוסיפים אגוזים ופרג, מקפלים ומעבירים לתבנית קפיצית מס' 28.",
-        "(handwritten) אופים [?] ... [?] שעה, [?]",
-        "(handwritten) [?] חותכים [?] ממלאים בריבה [?] ... [?] אבקת סוכר"
+        "(handwritten) אופים [?] [?]°",
+        "(handwritten) 1 - 1½ שעה, מצננים.",
+        "(handwritten) חוצים, ממלאים בריבה, [?] א.סוכר [?]"
       ]
     }
   ],
   "notes": [
-    "Printed recipe card with a handwritten addition under the printed text about baking and filling."
+    "Printed recipe card (page from a booklet) with a 4-line handwritten addition in blue ink under the printed text, about baking, cooling, halving, filling with jam and topping with powdered sugar (written 'א.סוכר', abbreviation of אבקת סוכר)."
   ],
   "incidental_text": [
     "Printed page number 24"
@@ -57,15 +58,15 @@
   "uncertainties": [
     {
       "field": "instructions[5]",
-      "text": "handwritten line 1",
-      "best_guess": null,
-      "reason": "Handwriting at the bottom edge is cramped; temperature and time cannot be read reliably."
+      "text": "אופים [?] [?]°",
+      "best_guess": "[?] = an unreadable word or two (cursive letters look roughly like 'ב..ל' / 'ה'); [?]° digits look like 3/120° (could also be 3/170°, perhaps gas mark 3)",
+      "reason": "Cramped cursive right above the printed rule; the words between 'אופים' and the temperature cannot be read, and the temperature digits are not certain."
     },
     {
-      "field": "instructions[6]",
-      "text": "handwritten lines 2-3",
-      "best_guess": null,
-      "reason": "Words about cutting/filling with jam and powdered sugar are partly legible only."
+      "field": "instructions[7]",
+      "text": "[?] א.סוכר [?]",
+      "best_guess": "first [?]: למעלה; last [?]: unclear - may contain the digits 100 (e.g. 'ו-100 ג'')",
+      "reason": "Bottom handwritten line is shaky and at the edge of the scan; only 'א.סוכר' is clearly legible."
     },
     {
       "field": "source",
@@ -75,7 +76,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
