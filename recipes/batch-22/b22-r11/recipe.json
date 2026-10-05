@@ -1,15 +1,20 @@
 {
   "id": "b22-r11",
   "batch": 22,
-  "title": "עוגת גבינה [?]",
-  "source": null,
+  "title": "עוגת גבינה",
+  "source": {
+    "text": "מרי",
+    "type": "person",
+    "as_written": "מרי",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": "בצק",
       "items": [
         "כוס קמח תופח",
-        "חבילה גולדברג? [?]",
+        "חבילה גולדבנד",
         "ביצה",
         "כוס סוכר"
       ]
@@ -53,12 +58,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
       "field": "ingredients",
       "text": "[?]",
       "best_guess": null,
@@ -72,7 +71,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
