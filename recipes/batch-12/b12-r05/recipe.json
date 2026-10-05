@@ -62,12 +62,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוף בתנור",
-      "best_guess": "עוף בתנור",
-      "reason": "Read as written."
-    },
-    {
       "field": "ingredients[0]",
       "text": "6 [?] [?] וצהובות? לקוביות",
       "best_guess": null,
