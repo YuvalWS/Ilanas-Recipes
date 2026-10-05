@@ -1,0 +1,103 @@
+{
+  "id": "b13-r04",
+  "batch": 13,
+  "title": "עוגת גבינה",
+  "source": {
+    "text": "שושנה",
+    "type": "person",
+    "as_written": "שושנה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "הראשון (I)",
+      "items": [
+        "2 קופסאות גבינה [?] רוכה?",
+        "1 יוגורט",
+        "6 ביצים",
+        "2 כפות קורנפלור [?]",
+        "2 [?] [?] קורנפלור קל גדושה",
+        "1 כוס [?] [?] סוכר [?] [?] כפית [?]",
+        "[?] [?]",
+        "1/2 [?] כוס סוכר"
+      ]
+    },
+    {
+      "group": "II",
+      "items": [
+        "[?] [?] כל החומרים",
+        "1/2 כוס [?] שוכר",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "(reverse side) [?] [?] [?] [?]",
+        "(reverse side) [?] [?] על [?]",
+        "(reverse side) מכסים? [?] [?]",
+        "(reverse side) 10 דק' על [?] [?]",
+        "(reverse side) 160° [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'עוגת גבינה / שושנה, [?]' (a name, plus a second word). The card is divided into two parts marked II (a second block starts with 'מערבבים את כל החומרים'). The card has a printed frame and a footer 'איכות חיים לכל החיים'. Water stains are on the lower part.",
+    "The back (scan 06) has five lines of baking instructions at the top (the temperature 160 degrees and 10 minutes are the clearest parts); the rest is faint show-through. Assumed to be the back of scan 05."
+  ],
+  "incidental_text": [
+    "Printed footer: logo and the slogan 'איכות חיים לכל החיים'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2209-05.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-05.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2209-06.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "שושנה, [?]",
+      "best_guess": "שושנה",
+      "reason": "First name read as 'שושנה'; the next word is unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Items and units partly unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "reverse side",
+      "best_guess": null,
+      "reason": "Mostly unreadable apart from 160 degrees / 10 minutes."
+    },
+    {
+      "field": "raw_files",
+      "text": "05/06",
+      "best_guess": null,
+      "reason": "Scan 06 assumed to be the back of scan 05."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
