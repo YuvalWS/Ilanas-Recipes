@@ -1,0 +1,48 @@
+{
+  "id": "b06-r08",
+  "batch": 6,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] בני כמה [?]",
+        "[?] [?] מ[?] [?] [?]",
+        "(rest of the card is mostly faint show-through writing)"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Almost the whole card is faint show-through of writing from the other side; only two lines at the top are in strong ink. Likely the back of scan 08 (relation not certain); kept separate."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-09.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Even the two strong lines are unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
