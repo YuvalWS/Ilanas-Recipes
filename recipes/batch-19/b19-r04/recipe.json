@@ -1,0 +1,77 @@
+{
+  "id": "b19-r04",
+  "batch": 19,
+  "title": "[?] אורז / רוטב?",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כוס אורז.",
+        "בצל גדול מטוגן",
+        "2 גזרים לרסק? (גרוסים?)",
+        "1 קופסת רסק עגבניות",
+        "מלח, סוכר, מיץ לימון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "על החיים? [?] מים רותחים,",
+        "[?] [?] מהרסק [?] מים [?]",
+        "[?] [?] להרתיח ולבשל [?]",
+        "על אש קטנה עד שנספגים כל המים."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Small card with an ingredients block (above a ruled line) and four lines of instructions below it; no title. Its content (rice, onion, carrots, tomato paste) matches the filling/sauce of the stuffed peppers in this batch, but the card does not say so."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2243-01.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2243-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title on the card."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "2 גזרים לרסק?",
+      "best_guess": null,
+      "reason": "The word after 'גזרים' is unclear."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "על החיים? [?] מים רותחים",
+      "best_guess": null,
+      "reason": "First words unclear."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
