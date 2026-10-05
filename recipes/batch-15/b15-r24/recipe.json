@@ -1,7 +1,7 @@
 {
   "id": "b15-r24",
   "batch": 15,
-  "title": "בצק לפשטידות [?]",
+  "title": "בצק לעוגת שכבות",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -9,16 +9,16 @@
       "group": "בצק",
       "items": [
         "1 קמח אוסם",
-        "[?] סוכר וניל",
+        "2 סוכר וניל",
         "3/4 מרגרינה",
-        "[?] כוס מיץ תפוזים",
+        "1/4 כוס מיץ תפוזים",
         "2 ביצים"
       ]
     },
     {
       "group": "מילוי",
       "items": [
-        "[?] גר' גבינה בולגרית [?]",
+        "250 גר׳ אגוזים בטחונים",
         "[?] [?] [?]"
       ]
     }
@@ -40,12 +40,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "בצק לפשטידות [?]",
-      "best_guess": null,
-      "reason": "Last word unclear."
-    },
-    {
       "field": "ingredients",
       "text": "all lines",
       "best_guess": null,
@@ -53,7 +47,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
