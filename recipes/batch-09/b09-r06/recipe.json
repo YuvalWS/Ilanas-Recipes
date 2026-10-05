@@ -1,0 +1,85 @@
+{
+  "id": "b09-r06",
+  "batch": 9,
+  "title": "בקר",
+  "source": {
+    "text": "מוטי",
+    "type": "person",
+    "as_written": "מוטי",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] מס' 5",
+        "בסיר: 3 גזרים, 1 [?] שלמה, 1 ראש שום שלם",
+        "עם הקליפה, פלפל, פפריקה",
+        "1/3 מים, לבשל עד שמתרכך.",
+        "[?] שעה לפני הסוף לשים",
+        "[?] [?] [?] 1/4 כוס",
+        "מים רותחים [?]",
+        "להוסיף לסיר."
+      ]
+    }
+  ],
+  "notes": [
+    "Clear but small handwriting on a card with a printed frame; the card is 'בקר / מוטי' (beef / Moti). No separate ingredient list - items appear inside the steps.",
+    "A cut-out piece of printed paper (partly English text, 'S.O.S.', 'Tel.') is stuck over the upper right corner; it is not part of the recipe.",
+    "The first line after the title reads like 'לכמות/ללבות מס' 5' - unclear; possibly 'for portion no. 5' or a reference number."
+  ],
+  "incidental_text": [
+    "Scrap of printed paper (advert/label with English text) over the upper right corner"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-07.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "מוטי",
+      "best_guess": "מוטי",
+      "reason": "Name after the slash read as 'מוטי'."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "[?] מס' 5",
+      "best_guess": null,
+      "reason": "First word unclear; the number 5 seems clear."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "1 [?] שלמה",
+      "best_guess": null,
+      "reason": "Item before 'שלמה' unclear (a whole vegetable, maybe 'חצילה'/'בצלה')."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "[?] שעה לפני הסוף לשים",
+      "best_guess": "רבע שעה לפני הסוף לשים",
+      "reason": "Quantity word before 'שעה' unclear (probably 'רבע')."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "[?] [?] [?] 1/4 כוס",
+      "best_guess": null,
+      "reason": "Line partly unclear (a small number of bay leaves?)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
