@@ -3,10 +3,10 @@
   "batch": 9,
   "title": "צלי בקר ברוטב",
   "source": {
-    "text": "מגזין 'יש' (logo only, no date)",
-    "type": "publication",
+    "text": "יש",
+    "type": "unknown",
     "as_written": "יש",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "clipping",
   "ingredients": [
@@ -44,7 +44,7 @@
         "כשהבצל שקוף, מוסיפים לסיר את היין, המים, התימין, עלי הדפנה, המלח והפלפל הנותרים. מערבבים, מכסים את הסיר ומביאים לרתיחה.",
         "כשהנוזל רותח, מחזירים את הבשר לסיר, מכסים, מנמיכים את הלהבה לנמוכה ומבשלים כשלוש שעות וחצי, עד שהבשר רך מאוד. במהלך הבישול הופכים את הנתח פעמיים, כדי שיתבשל כולו ברוטב. מדי פעם יוצקים על הבשר מהרוטב.",
         "מוציאים את הבשר מהסיר ומניחים לצינון לטמפרטורת החדר, כשעה.",
-        "הרוטב: מסננים את הרוטב שנשאר בסיר לאחר הבישול, ומחזירים את הרוטב המסונן לסיר. מבשלים, ללא מכסה, על להבה בינונית-גבוהה, כ[?] דקות, עד שהרוטב רותח (את הירקות ניתן לשמור, ולהגיש עם המנה).",
+        "הרוטב: מסננים את הרוטב שנשאר בסיר לאחר הבישול, ומחזירים את הרוטב המסונן לסיר. מבשלים, ללא מכסה, על להבה בינונית-גבוהה, כעשר דקות, עד שהרוטב רותח (את הירקות ניתן לשמור, ולהגיש עם המנה).",
         "בינתיים, מערבבים את הקמח או הקורנפלור עם המים, עד שמתקבל נוזל חלק ללא גושים. יוצקים אותו לסיר כשהרוטב מבעבע. מבשלים עוד כ-5 דקות תוך ערבוב ומסירים מהכירים. מניחים לצינון.",
         "מעבירים את הבשר הצונן ואת הרוטב הצונן לכלי אחסון נפרדים, ומאחסנים במקרר, 5-6 שעות לפחות, ועדיף עד למחרת.",
         "ההגשה: מעבירים את הבשר לקרש חיתוך. פורסים אותו לפרוסות ברוחב כ-1 1/2 ס\"מ. מניחים את פרוסות הבשר בסיר, יוצקים עליהן את הרוטב, ומחממים על להבה בינונית-נמוכה, עד שהרוטב מבעבע בעדינות והבשר חם. מגישים (אפשר לשמור במקרר, עד 4 ימים)."
@@ -55,7 +55,7 @@
     "Printed two-page magazine spread (logo 'יש'), handwritten title in red at the top. Serves 6. The long printed introduction on the right page (about the classic pot roast and three keys: suitable cut, a good pot, and 'hot-cold' method) is not transcribed.",
     "Equipment list (הכלים): large plate; large pot with lid (preferably thick bottom); 2 forks; wooden spoon; cutting board; sharp knife; 2 containers for storing the meat and sauce; strainer.",
     "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2).",
-    "The left edge of the scan cuts off the first letters of some lines, but the text reads clearly apart from the one noted below."
+    "Independent Codex rereading confirms the red title צלי בקר ברוטב and all recipe quantities/steps, including כעשר דקות in sauce preparation. The visible source logo is recorded as יש without inferring a magazine name, issue, or date."
   ],
   "incidental_text": [
     "Magazine logo 'יש' and a long printed intro paragraph"
@@ -68,24 +68,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
+  "needs_human_verification": false,
   "confidence": "high",
-  "uncertainties": [
-    {
-      "field": "instructions[6]",
-      "text": "כ[?] דקות",
-      "best_guess": null,
-      "reason": "The duration of reducing the sauce is cut by the page edge / unclear."
-    },
-    {
-      "field": "source",
-      "text": "יש (magazine)",
-      "best_guess": null,
-      "reason": "Only the logo 'יש' is visible; no date or issue."
-    }
-  ],
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
