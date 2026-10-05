@@ -9,17 +9,17 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?]",
-        "[?] [?] [?]",
         "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?] [?] [?]"
+        "לאפות כ [?] ד'",
+        "מכוסה",
+        "הורדת המכסה",
+        "לבשל כ [?] ד'"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Five very large, cursive lines; no word can be read with confidence. Rescanning will not help much — a human who knows Ilana's handwriting is needed."
+    "Salmon is not named in any line that could be read with certainty; the topic is inferred only from the (unconfirmed) first line, so no title is given.",
+    "Handwriting is large and shaky; a human re-read of the lines marked [?] is recommended."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -35,13 +35,25 @@
   "uncertainties": [
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Nothing readable."
+      "text": "line 1 (partly cut off at the top edge)",
+      "best_guess": "Gemini: טחינת סלמון / נתחי סלמון",
+      "reason": "First line is cut by the scan edge and not legible."
+    },
+    {
+      "field": "instructions",
+      "text": "number in line 2 (minutes)",
+      "best_guess": "Gemini: 20",
+      "reason": "Digits written as two loops; reading not certain."
+    },
+    {
+      "field": "instructions",
+      "text": "'כ' and number in line 5 (minutes)",
+      "best_guess": "Gemini: כ 5",
+      "reason": "The digit and whether 'כ' precedes it are not certain."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
