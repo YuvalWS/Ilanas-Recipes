@@ -71,12 +71,6 @@
       "reason": "Name after the slash read as 'חגית'; the middle letters are unclear."
     },
     {
-      "field": "title",
-      "text": "בקר",
-      "best_guess": "בקר",
-      "reason": "Title read as 'בקר' (beef)."
-    },
-    {
       "field": "instructions",
       "text": "most lines",
       "best_guess": null,
@@ -90,7 +84,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
