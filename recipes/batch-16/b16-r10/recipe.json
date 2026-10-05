@@ -1,0 +1,67 @@
+{
+  "id": "b16-r10",
+  "batch": 16,
+  "title": "עדשים וקינואה",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "4־6 מנות",
+      "items": [
+        "2 כוסות עדשים ירוקות",
+        "4 כוסות מים",
+        "1 וחצי כוס קינואה",
+        "מלח ופלפל",
+        "2 כפות שמן זית",
+        "1 בצל, קלוף וחתוך לקוביות קטנות",
+        "5 כפות פטרוזיליה קצוצה",
+        "1 כף מיץ לימון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שמים 2 כוסות עדשים ירוקות בסיר, מוסיפים 4 כוסות מים ומביאים לרתיחה, מכסים את הסיר ומנמיכים את הלהבה. מבשלים במשך 10 דקות. מוסיפים לסיר כוס וחצי קינואה ומערבבים קלות. מוסיפים מלח ופלפל, מכסים ומבשלים 15 דקות.",
+        "יוצקים 2 כפות שמן זית למחבת ומחממים. מוסיפים 1 בצל, קלוף וחתוך לקוביות קטנות ומטגנים עד השחמה.",
+        "מוסיפים את הבצל לסיר העדשים והקינואה ומערבבים. מוסיפים 5 כפות פטרוזיליה קצוצה, מטפטפים מלמעלה 1 כף מיץ לימון ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with the heading 'או תבשיל עדשים וקינואה מרענן ובריא?' (the first words 'או' and the question mark come from the original lead-in). The ingredient list is not printed separately; the quantities were taken from the sentences of the method. This is a conversion done by the transcriber: ingredients were extracted from the numbered text, nothing was added."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-15.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-15.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Not printed as a list; extracted from the method text (quantities are as printed)."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
