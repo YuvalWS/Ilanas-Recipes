@@ -1,0 +1,82 @@
+{
+  "id": "b03-r04",
+  "batch": 3,
+  "title": "בקר וירקות שורש",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "(6-4 מנות בתבנית 30X30 ס\"מ)",
+      "items": [
+        "[?] ק\"ג נתח בקר לבישול ארוך (לדוגמה: [?]אדי, כתף, פרוסות אוסובוקו)",
+        "2 בטטות, קלופות וחצויות לאורך",
+        "2 [?] קלופים וחצויים",
+        "3 תפוחי אדמה, קלופים וחצויים",
+        "1 כרוב סגול קטן, חתוך לרבעים",
+        "1 ראש שום, חצוי",
+        "מלח, פלפל שחור גרוס",
+        "שמן זית",
+        "4 ענפי תימין",
+        "4 עלי מרווה, קצוצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "מחממים את התנור ל־200 מעלות.",
+        "[?]ים בתבנית את הירקות. זורים מלח ופלפל ומוסיפים מעט שמן זית. מפזרים על הבשר את התימין, המרווה, מלח ופלפל, ומעסים אותו בהם. מניחים את הבשר על הירקות.",
+        "מכסים את התבנית ברדיד אלומיניום ואופים שעה. מנמיכים את חום התנור ל־150 מעלות ואופים 3 שעות נוספות. מסירים את הרדיד, מרטיבים את הבשר והירקות בנוזלים שהצטברו בתבנית, מעלים שוב את חום התנור ל־200 מעלות וצולים עוד 15 דקות. מגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "איך שומרים? עד 3 ימים, במקרר.",
+    "Printed recipe card, partly faded on the left side (ink bleed). The first words of steps 1-2, the amount of beef and the second vegetable in the 'cut lengthwise' line are faded."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-05.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "[?] ק\"ג נתח בקר",
+      "best_guess": null,
+      "reason": "The amount and the first word of the example cuts are faded (the visible text before 'ק\"ג' looks like a fraction)."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "2 [?] קלופים וחצויים",
+      "best_guess": null,
+      "reason": "The vegetable name is faded."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "[?]ים בתבנית את הירקות",
+      "best_guess": null,
+      "reason": "The first word of step 2 is faded."
+    },
+    {
+      "field": "ingredients[0].group",
+      "text": "(6-4 מנות בתבנית 30X30 ס\"מ)",
+      "best_guess": null,
+      "reason": "The label before the portion note is faded; the portions text is as printed (6-4)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
