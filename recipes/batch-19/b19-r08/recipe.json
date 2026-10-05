@@ -70,10 +70,10 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
+      "field": "source",
       "text": "פלפל ממולא / [?] (בתמר?)",
       "best_guess": null,
-      "reason": "The name after the slash is unclear (maybe 'ורדה', 'אורנה' or a place name 'בתמר')."
+      "reason": "Recipe heading is clear; only slash attribution/name is unresolved."
     },
     {
       "field": "instructions",
@@ -89,7 +89,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
