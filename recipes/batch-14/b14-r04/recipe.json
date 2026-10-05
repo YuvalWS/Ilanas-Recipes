@@ -1,0 +1,77 @@
+{
+  "id": "b14-r04",
+  "batch": 14,
+  "title": "עוגיות שקדים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 שקדים פרוסים [?]",
+        "1 חלבון",
+        "2 וניל [?]",
+        "1/2 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב, לשמן נייר [?]",
+        "ולאפות [?] 10-12 ד'"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Memo sheet of a concrete company (ישראבטון תעשיות בטון בע\"מ, רח' הבונים 2, רמת גן 52462, tel 03-5757211, fax 03-5758222) with a logo of a cement truck at the bottom. The title 'עוגיות שקדים' has a wavy underline. The first ingredient line is followed by a dash and a word that is unclear.",
+    "Quantities have no units for the first three items; none were added."
+  ],
+  "incidental_text": [
+    "Printed letterhead: ישראבטון תעשיות בטון בע\"מ, address, tel and fax; truck logo"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2213-05.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-05.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "1 שקדים פרוסים [?]",
+      "best_guess": null,
+      "reason": "A word after the dash is unclear (maybe a second type of almond)."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "2 וניל [?]",
+      "best_guess": null,
+      "reason": "Item (vanilla sugar? essence?) and unit not stated."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "לשמן נייר [?]",
+      "best_guess": null,
+      "reason": "Words after 'לשמן נייר' unclear."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "10-12 ד'",
+      "best_guess": null,
+      "reason": "Read as 10-12 minutes; the digits are cramped."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
