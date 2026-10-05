@@ -8,11 +8,11 @@
     {
       "group": null,
       "items": [
-        "1 [?] פרחי כרובית",
+        "1 חב׳ פרחי כרובית",
         "1/2 כוס מיץ לימון",
         "2 כפות שמן זית",
         "2 שיני שום כתוש",
-        "[?] כפות פטרוזיליה קצוצה",
+        "2 כפות פטרוזיליה קצוצה",
         "שמן לטיגון",
         "מלח"
       ]
@@ -37,7 +37,8 @@
   "notes": [
     "No title on the card; it is a fried cauliflower with a lemon, olive oil, garlic and parsley dressing (judging by the ingredients and steps).",
     "A second recipe (a salad with broccoli and cranberries) starts below a ruled line at the bottom of the card - kept as the next record.",
-    "The line 'מבשלים 10 ד' בדיוק' reads '10 minutes exactly'."
+    "The line 'מבשלים 10 ד' בדיוק' reads '10 minutes exactly'.",
+    "Bottom contains a separate crossed-through cabbage/cranberry salad note. It is only partially captured and must not be silently treated as cauliflower instructions."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -80,10 +81,16 @@
       "text": "מטגנים הכרובית להצהבה קלה",
       "best_guess": "להצהבה קלה",
       "reason": "'להצהבה' (until slightly yellow) is the likely reading."
+    },
+    {
+      "field": "notes",
+      "text": "סלט כרוב וחמוציות",
+      "best_guess": null,
+      "reason": "Separate bottom salad note extends into damaged edge; full quantities not certified."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
