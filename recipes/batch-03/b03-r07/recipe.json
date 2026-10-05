@@ -6,26 +6,21 @@
     "text": "חיה",
     "type": "person",
     "as_written": "גולש בקר / חיה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 ק\"ג בקר (גולש) [?]",
-        "לטגן ופטריות",
-        "לטגן (בשמן זית) 1 בצל",
+        "1 ק\"ג בקר (גולש) לרבעים",
+        "1 בצל",
         "2 גזר חתוך",
-        "1 תפו\"א חתוך"
-      ]
-    },
-    {
-      "group": "[?] הבשר",
-      "items": [
-        "1/2 כוס יין קידוש/אדום",
+        "1 תפו\"א חתוך",
+        "1/2 כוס יין קידוש אדום",
         "1/2 כוס מים",
-        "כפ' מרק עוף",
+        "כפית א. מרק",
+        "מעט קטשופ",
         "מעט פלפל שחור"
       ]
     }
@@ -34,16 +29,23 @@
     {
       "group": null,
       "steps": [
+        "לטגן ולהוציא",
+        "לטגן (בשמן זית) 1 בצל",
+        "2 גזר חתוך",
+        "1 תפו\"א חתוך",
+        "להוסיף הבשר",
+        "1/2 כוס יין קידוש אדום",
+        "1/2 כוס מים",
+        "כפית א. מרק",
         "בישול על אש קטנה כ-3 שעות",
-        "מעט קטשוף"
+        "מעט קטשופ",
+        "מעט פלפל שחור"
       ]
     }
   ],
   "notes": [
     "The scan was upside down (rotated 180 degrees upright in raw/).",
-    "The header 'גולש בקר' is underlined with a long line; the word after the slash is read as a name (חיה).",
-    "The lines 'לטגן ופטריות' and 'לטגן (בשמן זית) 1 בצל' (fry mushrooms; fry [in olive oil] 1 onion) are on the card; 'כפ'' is written as an abbreviation with an apostrophe (probably כפית, not expanded).",
-    "'מעט קטשוף' (a little ketchup) is written after the cooking-time line, so it is kept in the instructions as it appears on the card."
+    "Header גולש בקר / חיה is underlined. The first method line is לטגן ולהוציא, not mushrooms. The powder abbreviation א. מרק is preserved without inventing עוף. Ingredient and method information is interleaved on the card; ketchup and black pepper occur after the cooking-time line."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -54,30 +56,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "source",
-      "text": "חיה",
-      "best_guess": "חיה",
-      "reason": "Word after the slash is read as 'חיה' (Gemini agrees) and assumed to be a person's name; could be something else."
-    },
-    {
-      "field": "ingredients[0].items[0]",
-      "text": "בקר (גולש) [?]",
-      "best_guess": "Gemini: חתיכות; earlier reading: חתוכים",
-      "reason": "The last word is six cramped letters ending in a clear final ם; Gemini's 'חתיכות' (ending in ת) does not fit the ending, so neither reading is confirmed."
-    },
-    {
-      "field": "ingredients[1].group",
-      "text": "[?] הבשר",
-      "best_guess": "Gemini: להוסיף הבשר; earlier reading: לתיבול הבשר",
-      "reason": "Only 'הבשר' is clear; the first word starts with ל but the following letters are ambiguous and the two readings differ."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
