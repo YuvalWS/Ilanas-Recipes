@@ -14,19 +14,20 @@
     {
       "group": null,
       "steps": [
-        "[?] קפוא: לגרד [?] [?]",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?]",
-        "[?] [?] [?] [?] ל[?]",
-        "[?] [?] ב[?]",
-        "[?] בתבנית",
-        "נייר אפיה"
+        "[?] קפוא: לגרד עגבניות",
+        "להפשיר סלמון בתוך התבנית",
+        "לטבל בענפי שמיר",
+        "למרוח [?] להניח בתבנית",
+        "[?] [?] [?] [?] [?] [?]",
+        "נייר אפיה [?] [?] [?]"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Yellow memo card with a construction-company letterhead. The heading reads 'סלמון / [name]' (name after the slash uncertain), with a scribbled-out line under it. Words like קפוא (frozen), תבנית (baking tray) and נייר אפיה (baking paper) are visible, which suggests a baked-salmon recipe."
+    "Yellow memo card with a construction-company letterhead. The heading reads 'סלמון / [name]' (name after the slash uncertain), with a scribbled-out line under it. Only the heading name and the body lines are on the card; a faint mirror-image of the reverse side shows through the paper and is ignored.",
+    "Words 'להפשיר', 'לטבל בענפי שמיר' and 'עגבניות' were accepted after Gemini's second reading was checked against the zoomed ink (letter count and shapes are consistent); they remain a medium-confidence reading of shaky handwriting.",
+    "Gemini's title/lines 'סלמון בשקית קוקי', 'על הדג', 'מיץ מחצי לימון לשפוך מעל' and 'ולאפות בתנור' were NOT adopted: they do not match the visible ink (the card's last visible line begins 'נייר אפיה'), so they are only recorded in uncertainties.",
+    "Handwriting is very cramped/shaky; a human re-read (or rescan) of this card is recommended."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company (logo, phone/fax)"
@@ -43,26 +44,38 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "סלמון",
-      "best_guess": "סלמון",
-      "reason": "Read as 'סלמון'."
-    },
-    {
       "field": "source",
-      "text": "word after the slash",
-      "best_guess": "מאירה",
-      "reason": "Name unreadable; maybe 'מאירה'."
+      "text": "[?]",
+      "best_guess": "Gemini: שולה; earlier reading: מאירה (a fresh zoomed look at the ink also leans to מאירה: מ-א-י-ר-ה)",
+      "reason": "Name after the slash in the heading; the two readings differ."
     },
     {
-      "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Body is mostly legible shapes but individual words are uncertain."
+      "field": "instructions[0]",
+      "text": "[?] קפוא",
+      "best_guess": "Gemini: בשקית קוקי",
+      "reason": "First word of line 1 unreadable; the second word looks like קפוא (frozen) rather than Gemini's 'קוקי', which fits 'להפשיר' on the next line."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "למרוח [?] להניח בתבנית",
+      "best_guess": "Gemini: למרוח על הדג ולהניח בתבנית",
+      "reason": "One word (about 4-5 letters, starts with ו/ל) between 'למרוח' and 'להניח'; Gemini's two words 'על הדג' do not fit the ink."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "[?] x6",
+      "best_guess": "Gemini: מיץ מחצי לימון לשפוך מעל (not matched to the ink); the line seems to end with 'סלת'",
+      "reason": "Line 5 is not readable word by word."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "נייר אפיה [?] [?] [?]",
+      "best_guess": "Gemini has no such line (it ends 'ולאפות בתנור')",
+      "reason": "Last line: 'נייר אפיה' read from the ink; the remaining three words are unreadable (maybe ending 'ולפה')."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
