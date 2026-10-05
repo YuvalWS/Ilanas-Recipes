@@ -5,31 +5,31 @@
   "source": {
     "text": "[?]",
     "type": "person",
-    "as_written": "/ דינה[?]",
+    "as_written": "/ [?] [?]",
     "uncertain": true
   },
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": "(left bracket label unclear)",
+      "group": "1) [?]",
       "items": [
         "200 גר' שוקולד מריר",
-        "1 1/2 כפות קפה נמס",
+        "1 1/2 [?] קפה נמס",
         "1/3 כוס קוניאק",
-        "1/4 כוס אבקת סוכר"
+        "[?] 1/2 כוס אבקת סוכר"
       ]
     },
     {
       "group": "2) להקציף",
       "items": [
-        "1 כפית צמחית [?]",
+        "1 קופסת צמחית",
         "1/3 כוס סוכר"
       ]
     },
     {
       "group": "3)",
       "items": [
-        "6 ביצים"
+        "[?] ביצים"
       ]
     }
   ],
@@ -37,14 +37,20 @@
     {
       "group": null,
       "steps": [
-        "3) [?] להקציף החלבונים",
-        "4) לערבב 2 ו-3",
+        "3) להקציף החלבונים",
+        "4) לערבב 2 [?] 3",
         "להוסיף החלמונים ל-1 ואחרי שמתקרר להוסיף הכל לקצף"
       ]
     }
   ],
-  "notes": [],
-  "incidental_text": [],
+  "notes": [
+    "Group 1 (chocolate, coffee, cognac, powdered sugar) and group 2 (cream, sugar) are each marked with a curly bracket and a word written to its left; group 2's word is 'להקציף' (to whip).",
+    "A triangle/arrow mark is drawn at the end of the last line (an end mark; no text).",
+    "Re-read 2026-10-05: group 2's first item is 'קופסת צמחית' (a carton of non-dairy whipping cream), not 'כפית' as in the earlier transcription; the powdered-sugar fraction reads 1/2 (earlier read as 1/4)."
+  ],
+  "incidental_text": [
+    "A mark resembling '8' in the top-right corner of the note (meaning unclear; possibly a sorting mark)."
+  ],
   "raw_files": [
     {
       "file": "raw/Scanned_20261004-2105-01.jpg",
@@ -57,32 +63,44 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "מוס / [?]",
-      "best_guess": null,
-      "reason": "The word after the title and the slash at the top is a name or a qualifier that I could not read (the first letters look like 'דינה ...')."
+      "field": "source",
+      "text": "/ [?] [?]",
+      "best_guess": "דינה ה[?] (the first word looks like 'דינה'; the second word, roughly 'ה...ילבה', is unreadable)",
+      "reason": "Two words after the slash next to the title, probably the name of the person the recipe came from; shaky handwriting."
     },
     {
-      "field": "ingredients[0]",
-      "text": "(left bracket label)",
-      "best_guess": null,
-      "reason": "A word written to the left of the first bracket is unclear."
+      "field": "ingredients[0].group",
+      "text": "1) [?]",
+      "best_guess": "להמס (to melt)",
+      "reason": "Word to the left of the bracket of group 1; letters ל..מס are visible but the second letter is covered by a stain. 'To melt' fits chocolate, coffee and cognac."
     },
     {
-      "field": "ingredients[1].items[0]",
-      "text": "1 כפית צמחית [?]",
-      "best_guess": null,
-      "reason": "Quantity unit and ingredient name are unclear."
+      "field": "ingredients[0].items[1]",
+      "text": "1 1/2 [?] קפה נמס",
+      "best_guess": "כף (tablespoon)",
+      "reason": "The unit is a single compressed glyph; it looks like 'כף'/'כפ'' rather than 'כפות' or 'כפית', but is not certain."
     },
     {
-      "field": "ingredients[2]",
-      "text": "6 ביצים",
-      "best_guess": null,
-      "reason": "The numeral 6 is written over another digit (possibly 5)."
+      "field": "ingredients[0].items[3]",
+      "text": "[?] 1/2 כוס אבקת סוכר",
+      "best_guess": "1/2 כוס אבקת סוכר",
+      "reason": "The fraction reads 1/2, but a scribbled/overwritten mark (possibly a crossed-out digit) is written just before it, so the final quantity is not certain."
+    },
+    {
+      "field": "ingredients[2].items[0]",
+      "text": "[?] ביצים",
+      "best_guess": "6",
+      "reason": "The numeral looks like 6 written over another digit (possibly 5)."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "4) לערבב 2 [?] 3",
+      "best_guess": "ו (and) - 'mix 2 and 3'",
+      "reason": "The small connecting glyph between 2 and 3 is not a clean letter; meaning 'and' is clear from context."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
