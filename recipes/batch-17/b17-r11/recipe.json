@@ -1,12 +1,12 @@
 {
   "id": "b17-r11",
   "batch": 17,
-  "title": "עוף - [?]",
+  "title": "עוף",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -14,11 +14,11 @@
       "group": null,
       "items": [
         "1/2 כפית מלח",
-        "1/2 כוס [?] [?] [?] [?]",
-        "4 כפות [?] בר־בקיו",
+        "1/2 כוס רוטב [?] האיים",
+        "4 כפות רוטב בר־בקיו",
         "1 קופסה רסק עגבניות",
-        "2 כפות א. מרק [בצל?]",
-        "1 [?] [?] מיעוט [?]"
+        "2 כפות א. מרק בצל",
+        "1 לפתן מישמש בסירופ"
       ]
     }
   ],
@@ -32,7 +32,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card with a title 'עוף - [?]' (the second word could be a name such as 'מורית'). Eight ingredient lines with numbers on the right; the final two lines hold instructions. A small word at the bottom left ('הרוג?'/'הרוגע?') is probably a signature or note."
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a title 'עוף - [?]' (the second word could be a name such as 'מורית'). Eight ingredient lines with numbers on the right; the final two lines hold instructions. A small word at the bottom left ('הרוג?'/'הרוגע?') is probably a signature or note.",
+    "Independent scan review resolves source נורית, barbecue sauce, onion soup powder, and canned apricots in syrup; overwritten sauce word and bottom method remain flagged."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,26 +48,20 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוף - [?]",
-      "best_guess": null,
-      "reason": "The second word of the title is unclear."
+      "field": "ingredients[0].items[1]",
+      "text": "1/2 כוס רוטב [?] האיים",
+      "best_guess": "אלף",
+      "reason": "Word is crossed/overwritten."
     },
     {
-      "field": "ingredients",
-      "text": "several lines",
-      "best_guess": null,
-      "reason": "Items after the quantities are only partly readable."
-    },
-    {
-      "field": "source",
+      "field": "instructions",
       "text": "[?]",
       "best_guess": null,
-      "reason": "The word after the dash may be a name."
+      "reason": "The bottom marinade/mixing instructions and torn last word remain unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
