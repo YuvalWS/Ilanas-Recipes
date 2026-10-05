@@ -1,0 +1,71 @@
+{
+  "id": "b23-r09",
+  "batch": 23,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 קמח תופח",
+        "1 מרגרינה",
+        "1 אבקת מרק [?]",
+        "גבינה צהובה מגורדת [?]",
+        "1 [?] 9%"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב הכל במיקסר [?]",
+        "[?] גוללים [?] כמו נקניק [?]",
+        "מורחים חלמון ו[?] שומשום?",
+        "פורסים פרוסות בעובי אצבע, אופים ומוציאים חם."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Yellowish thin paper, crumpled at the top. No title written. Looks like a savory cheese/pastry roll; at the right margin of the cheese line there is a small note ('כוס אחד? / כוס וחצי?') and a sentence ending 'הרי זה משובח'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-09.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title written."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
