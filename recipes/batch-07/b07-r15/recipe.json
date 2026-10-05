@@ -9,11 +9,11 @@
       "group": null,
       "items": [
         "שמן זית",
-        "סוכר",
+        "חרדל",
         "שום",
         "סויה",
         "חומץ",
-        "[?]"
+        "סכרזית"
       ]
     }
   ],
@@ -68,7 +68,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
