@@ -1,0 +1,100 @@
+{
+  "id": "b20-r07",
+  "batch": 20,
+  "title": "סלט רענן עם סמלי החג",
+  "source": {
+    "text": "פסקל פרץ רובין, מומחית לבישול ביתי",
+    "type": "person",
+    "as_written": "השף: פסקל פרץ רובין, מומחית לבי־שול ביתי",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים לסלט",
+      "items": [
+        "1 חסה ערבית שטופה, מיובשת וקרועה לפיסות",
+        "1 בצל אדום גדול חתוך לפרוסות דקות",
+        "1 תפוח דליסיס קלוף וחתוך ל־8 פלחים",
+        "1 כוס גרגירי רימון (מרימון אחד גדול)",
+        "6 תמרים צהובים ללא חרצנים, חתוכים לרבעים"
+      ]
+    },
+    {
+      "group": "החומרים לרוטב",
+      "items": [
+        "4 כפות שמן זית",
+        "3 כפות מיץ לימון",
+        "[?] חומץ טבעי",
+        "[?] דבש",
+        "1/2 כפית חרדל",
+        "מלח ופלפל לפי הטעם"
+      ]
+    },
+    {
+      "group": "לקישוט",
+      "items": [
+        "2 כפות בוטנים מלוחים קצוצים ללא קליפה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מניחים את פיסות החסה הנקיה בקערה גדולה. מפזרים מעל החסה את פרוסות הבצל האדום, פלחי התפוח, גרגירי הרימונים ורבעי התמרים.",
+        "שמים את כל המרכיבים בצנצנת זכוכית, סוגרים ומערבבים היטב. טועמים ומתקנים תיבול."
+      ]
+    },
+    {
+      "group": "להגשה",
+      "steps": [
+        "כשהאורחים כבר הגיעו, יוצקים את הרוטב מעל הסלט ומערבבים. מפזרים את הבוטנים מעל הסלט ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Two-column magazine clipping with the section name 'ליד המנה' at the top. The right column is the beginning (title, chef, ingredients for the salad, start of the dressing list) and the left column continues it; the top of the left column is torn.",
+    "The reading order is right column first, then left column."
+  ],
+  "incidental_text": [
+    "Magazine section header: 'ליד המנה'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-09.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-09.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients.החומרים לרוטב[2]",
+      "text": "[?] חומץ טבעי",
+      "best_guess": null,
+      "reason": "The first line of the left column is torn; only 'פות חומץ טבעי' is visible, so the quantity is missing."
+    },
+    {
+      "field": "ingredients.החומרים לרוטב[3]",
+      "text": "[?] דבש",
+      "best_guess": null,
+      "reason": "The second line is torn; only 'פיות דבש' (teaspoons?) is visible, so the quantity is missing."
+    },
+    {
+      "field": "source",
+      "text": "פסקל פרץ רובין",
+      "best_guess": null,
+      "reason": "Printed on the clipping as the chef; the first word before it ('השף:') was read from a torn area."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
