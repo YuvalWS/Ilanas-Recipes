@@ -14,11 +14,11 @@
       "group": null,
       "items": [
         "750 גרם גבינת תנובה 5%",
-        "1 גביע שלי אשל (handwritten correction: 'שמנת קלה' above)",
+        "1 גביע שלי אשל (הערה בכתב יד: או שמנת קלה)",
         "5 ביצים מופרדות לחלבונים ולחלמונים",
         "1 כף קליפת לימון מגוררת",
         "6 שקיות אבקת ממתיק מלאכותי (כמות השווה ל-3/4 כוס סוכר)",
-        "1 כף קמח (handwritten: '1 כף סטרופל? ...' )",
+        "1 כף קמח (הערה בכתב יד: 1 כף אינסטנט)",
         "2 כפות קורנפלור",
         "1/3 כוס סוכר"
       ]
@@ -42,7 +42,7 @@
       "group": "תבנית קפיצית בקוטר 26 ס\"מ משומנת",
       "steps": [
         "מחממים תנור לחום בינוני (175 מעלות), שמים בקערה את הגבינה, האשל, החלמונים, קליפת הלימון, ממתיק מלאכותי, קמח והקורנפלור ומערבבים לתערובת אחידה.",
-        "מקציפים את החלבונים עם הסוכר לקצף יציב, מקפלים לתערובת הגבינה, יוצקים לתבנית, אופים כ-50 דקות עד שהמליחית יציבה ופני העוגה זהובים.",
+        "מקציפים את החלבונים עם הסוכר לקצף יציב, מקפלים לתערובת הגבינה, יוצקים לתבנית, אופים כ-50 דקות עד שהמלית יציבה ופני העוגה זהובים.",
         "מערבבים את השמנת הקלה עם הסוכר. מכבים את התנור, מוציאים את העוגה ומעבירים סכין בין העוגה לבין דופן התבנית. מורחים על העוגה את תערובת השמנת והסוכר, מחזירים את העוגה לתנור המכובה ומצננים אותה בתוכו. מעבירים למקרר.",
         "מגישים למחרת היום בעיטור פרי העונה."
       ]
@@ -50,7 +50,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping (low-calorie cheesecake with light-cream topping, 12 servings, preparation time 30 minutes) with two lines of blue handwriting added next to the 5th and the 8th ingredient lines: one reads 'שמנת קלה' near the 'גביע ...' line, the other is a short note starting with '1 כף' that cannot be read.",
-    "Both the title and the ingredient lines are partly faded by a stain, so some printed words are reconstructed from context ('1 גביע שלי אשל' is probably a misprint or damaged text for a creamy ingredient). The step 2 text 'שהמליחית יציבה' is copied as printed - please check against the scan."
+    "Both the title and the ingredient lines are partly faded by a stain, so some printed words are reconstructed from context ('1 גביע שלי אשל' is probably a misprint or damaged text for a creamy ingredient). The step 2 text 'שהמליחית יציבה' is copied as printed - please check against the scan.",
+    "Handwritten additions read או שמנת קלה and 1 כף אינסטנט; they are annotations, not printed ingredients."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -83,12 +84,6 @@
       "reason": "Printed word is odd (possibly a misprint)."
     },
     {
-      "field": "title",
-      "text": "מופחתת",
-      "best_guess": "מופחתת",
-      "reason": "The title is faded; read as 'מופחתת קלוריות בציפוי שמנת קלה'."
-    },
-    {
       "field": "source",
       "text": "(publication)",
       "best_guess": null,
@@ -96,7 +91,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
