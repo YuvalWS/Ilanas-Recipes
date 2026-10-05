@@ -1,0 +1,68 @@
+{
+  "id": "b01-r06",
+  "batch": 1,
+  "title": "בצק פריך (מורים)",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] כוסות קמח [?]",
+        "1 מרגרינה",
+        "[?] חלמונים",
+        "1/4 [?]",
+        "[?] ...",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] ... [?] שמן קמח ... [?]",
+        "[?] [?]"
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-06.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(מורים)",
+      "best_guess": null,
+      "reason": "The word in parentheses after the title is unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Very shaky handwriting; only 'מרגרינה' and 'חלמונים' are reasonably clear."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
