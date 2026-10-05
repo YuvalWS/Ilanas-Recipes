@@ -1,0 +1,89 @@
+{
+  "id": "b23-r11",
+  "batch": 23,
+  "title": "בצק פריך / ריבה ופירורים",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "(name below the title)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 1/2? כוסות קמח תופח",
+        "1/2 כוס סוכר",
+        "2 חלמונים",
+        "1 כף תמצית וניל",
+        "1 קליפת לימון מגורדת",
+        "[?] מלח",
+        "מרגרינה",
+        "1 כף [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להמיס את המרגרינה לחמם (struck out)",
+        "להכניס את כל החומרים למעבד?",
+        "לערבב את המרגרינה בהדרגה?",
+        "3/4 מהבצק לשטוח על התבנית",
+        "מעל ריבה 1/4 כוס?",
+        "1/4 מהבצק + 2 כפות סוכר + 1/4 כוס קמח",
+        "מפוררים [?] להשפיך פירורים על הריבה",
+        "לאפות בחום בינוני כ-45? דקות עד שהגבינה? חמה? [?] ומשתכרת?"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Two-sided card (11 front: ingredients and the start of the method; 12 back: assembly and baking). A red-pen line at the bottom of 12 could not be read. Probably a jam-and-crumbs crumble cake."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-11.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261005-0932-12.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "חיה",
+      "best_guess": null,
+      "reason": "Name below the title."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
