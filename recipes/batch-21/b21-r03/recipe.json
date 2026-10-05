@@ -1,0 +1,60 @@
+{
+  "id": "b21-r03",
+  "batch": 21,
+  "title": "שניצלים של בית",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "מה צריך",
+      "items": [
+        "10 פרוסות חזה עוף, משוטח לשניצלים",
+        "2 ביצים L",
+        "1/2 כפית חרדל (לא חובה)",
+        "1 כוס קמח לבן",
+        "1 כוס פירורי לחם",
+        "1/2 כפית מלח",
+        "שמן לטיגון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "כך עושים",
+      "steps": [
+        "בצלחת רחבה מפזרים את הביצים והחרדל, בצלחת שנייה קמח, מלח ותבלינים, ובשלישית פירורי לחם.",
+        "מצפים כל חזה עוף בקמח, מנערים עודף, טובלים בביצה ואז בפירורי לחם.",
+        "מטגנים בשמן בעומק 1 ס\"מ עד להזהבה, כ־2 דקות מכל צד, ומסננים על צלחת עם נייר סופג."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping with handwritten blue annotations at the top, the left margin ('ביצה / [?]קמח? / ביצה') and bottom; they were not legible enough to transcribe reliably."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-03.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "notes[0]",
+      "text": "ביצה / [?]קמח? / ביצה",
+      "best_guess": null,
+      "reason": "Handwritten margin note, only partly readable; it seems to list the coating order."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
