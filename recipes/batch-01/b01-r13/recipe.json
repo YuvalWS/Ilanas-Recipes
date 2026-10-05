@@ -33,7 +33,7 @@
     {
       "group": null,
       "steps": [
-        "כשהקרם מתקרר להוסיף לו מעט מהקצף [?] ולמזג [?] ואת הכל בקצף בקלות.",
+        "כשהקרם מתקרר להוסיף לו מעט מהקצף [?] ולמזג לבחוש ואת הכל בקצף בקלות.",
         "חום בינוני 20 דקות ([?] זמן [?])."
       ]
     }
@@ -55,29 +55,23 @@
       "field": "instructions[0].steps[0]",
       "text": "מהקצף [?] ולמזג",
       "best_guess": "לבד",
-      "reason": "A brown stain covers most of the word after 'מהקצף'; only a final 'ד' and a tall stroke are visible."
+      "reason": "A brown stain covers most of the word after 'מהקצף'; only a final 'ד' and a tall stroke are visible. Gemini did not read this word either (it skipped it)."
     },
     {
       "field": "instructions[0].steps[0]",
-      "text": "ולמזג [?] ואת הכל",
-      "best_guess": "לבחוש",
-      "reason": "Shaky word at end of line 2; letters look like 'לבחוש' but not certain. 'ולמזג' is written with a gershayim-like mark (ולמז\"ג)."
-    },
-    {
-      "field": "instructions[0].steps[0]",
-      "text": "ואת הכל בקצף בקלות",
+      "text": "ולמזג לבחוש ואת הכל",
       "best_guess": null,
-      "reason": "First word of line 3 ('ואת') and 'בקלות' are shaky; reading is likely but not certain."
+      "reason": "'לבחוש' (end of line 2) confirmed on zoom and by Gemini. 'ולמזג' is written with a gershayim-like mark (ולמז\"ג) and its exact reading/meaning is not certain; first word of line 3 ('ואת') is shaky but likely."
     },
     {
       "field": "instructions[0].steps[1]",
       "text": "([?] זמן [?])",
       "best_guess": "(לפי זמן כל...)",
-      "reason": "Parenthetical remark at the bottom-left is very shaky and runs into the torn left edge; only 'זמן' is fairly clear, and the last word looks like 'כל' possibly cut off."
+      "reason": "Parenthetical remark at the bottom-left is very shaky and runs into the torn left edge; only 'זמן' is fairly clear, and the last word looks like 'כל' possibly cut off. Gemini omitted this remark."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
