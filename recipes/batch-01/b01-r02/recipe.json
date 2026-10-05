@@ -1,0 +1,84 @@
+{
+  "id": "b01-r02",
+  "batch": 1,
+  "title": "עוגיות שושנה",
+  "source": {
+    "text": "שושנה",
+    "type": "person",
+    "as_written": "שושנה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 מרגרינה",
+        "[?] ביצים",
+        "1 כוס סוכר",
+        "3 כוסות קמח",
+        "1 אבקת אפיה",
+        "קינמון"
+      ]
+    },
+    {
+      "group": "left box (unclear)",
+      "items": [
+        "[?] 8",
+        "[?] אגוזים",
+        "קינמון",
+        "[?]",
+        "[?] כפות קמח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] משפחת [?] ל[?] ו[?] ... עלות מספר דקות."
+      ]
+    }
+  ],
+  "notes": [
+    "A boxed title area at the top and a bordered zig-zag decoration at the bottom of the card."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-02.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגיות שושנה",
+      "best_guess": null,
+      "reason": "The word 'שושנה' sits next to/above the boxed word 'עוגיות'; it may be a person's name (the source) rather than part of the title."
+    },
+    {
+      "field": "ingredients",
+      "text": "left column inside the line",
+      "best_guess": null,
+      "reason": "Handwriting too shaky to read; only 'קינמון' and 'אגוזים' are plausible."
+    },
+    {
+      "field": "instructions",
+      "text": "bottom three lines",
+      "best_guess": null,
+      "reason": "Illegible; the last words seem to be '... מספר דקות'."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
