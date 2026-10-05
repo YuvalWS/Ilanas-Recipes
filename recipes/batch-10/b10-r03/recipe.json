@@ -1,0 +1,58 @@
+{
+  "id": "b10-r03",
+  "batch": 10,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very shaky; unreadable words are [?].",
+    "Very large, stretched script with a crossed heading at the top left; no word can be read reliably. A human who knows Ilana's handwriting is needed."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2156-02.jpg",
+      "original_path": "Batch 10/Scanned_20261004-2156-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "heading at top",
+      "best_guess": null,
+      "reason": "Unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
