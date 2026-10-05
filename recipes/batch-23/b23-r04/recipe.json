@@ -1,16 +1,16 @@
 {
   "id": "b23-r04",
   "batch": 23,
-  "title": "עוגה [?]",
+  "title": "עוגה 7×7",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 קמח תופח",
-        "1 [?]",
-        "[?] ביצים",
+        "1 קמח אסם",
+        "1 גולדבנד",
+        "3 ביצים",
         "1/4 כוס סוכר",
         "1 שמנת"
       ]
@@ -20,9 +20,9 @@
       "items": [
         "7 חלמונים",
         "7 כפות סוכר",
-        "7 [?] קמח תופח",
-        "7 [?] שמן",
-        "7 כפות [?]"
+        "7 כפות קמח אסם",
+        "7 כפות שמן",
+        "7 כפות קפה"
       ]
     }
   ],
@@ -31,7 +31,7 @@
       "group": null,
       "steps": [
         "לאפות 1/4 שעה",
-        "מקציפה חלבונים + 1 כוס סוכר ומוסיפים [?] [?]",
+        "מקציפה חלבונים + 1 כוס סוכר ומוסיפים 100 ג׳ אגוזים [?]",
         "[?] מוציאים את התבנית [?] [?] [?] עד שמשחים."
       ]
     }
@@ -52,12 +52,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
       "field": "ingredients",
       "text": "[?]",
       "best_guess": null,
@@ -71,7 +65,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
