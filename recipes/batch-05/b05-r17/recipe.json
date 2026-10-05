@@ -1,7 +1,7 @@
 {
   "id": "b05-r17",
   "batch": 5,
-  "title": "קצי בשר",
+  "title": "קצי׳ בשר",
   "source": {
     "text": "שולה",
     "type": "person",
@@ -55,12 +55,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "קצי בשר",
-      "best_guess": "Gemini: קצי בשר; earlier reading: כדורי בשר",
-      "reason": "The first word of the title is crossed by the clip pin and the letters are shaky; 'קצי' fits the glyphs better but is not certain."
-    },
-    {
       "field": "source",
       "text": "שולה",
       "best_guess": null,
@@ -92,7 +86,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
