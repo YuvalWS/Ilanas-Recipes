@@ -10,7 +10,7 @@
       "items": [
         "2 כוסות תפו\"ע חתוכים לקוביות קטנות.",
         "להשרות את התפוחים ביין או שרי למשך 1/2 שעה.",
-        "[?] גר' [?]",
+        "[?] גר' צימוקים",
         "להוסיף:"
       ]
     },
@@ -39,13 +39,14 @@
         "לפזר למעלה את שאר האגוזים וקינמון.",
         "(לאפות בחום בינוני בתחתית התנור)",
         "מקציפים החלבונים [?] סוכר והוניל בהדרגה",
-        "את הקצף על [?] אופים יחד בחום בינוני כ[?] דק' עד שהקצף [?]."
+        "את הקצף על [?] אופים יחד בחום בינוני כ[?] דק' עד שהקצף משחים."
       ]
     }
   ],
   "notes": [
     "The title abbreviation תפו\"ע = תפוחי עץ (apples); the body says 'התפוחים'.",
-    "A horizontal line separates the cake part from a final paragraph about a beaten egg-white (meringue) topping."
+    "A horizontal line separates the cake part from a final paragraph about a beaten egg-white (meringue) topping.",
+    "Gemini's 'שהקצף משחים' was checked against the scan: the last word clearly reads 'משחים' (browns), replacing the earlier guess 'מזהיב'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,43 +62,37 @@
   "uncertainties": [
     {
       "field": "ingredients[0].items[2]",
-      "text": "[?] גר' [?]",
-      "best_guess": "200 (or 250/150) גר' צימוקים",
-      "reason": "Line is squeezed in between two lines. First digit of the quantity is overwritten (looks like a corrected digit), the middle digit is a small 0 or 5, the last is 0. The word reads roughly 'צ/ב-ו-מ-ו-ק-ו-ת'; 'צימוקים' (raisins) fits the context but the letters do not match cleanly."
+      "text": "[?] גר' צימוקים",
+      "best_guess": "Gemini: 100; earlier reading: 200 (or 250/150)",
+      "reason": "The first digit of the quantity is overwritten (a corrected digit) and cannot be read; the following two characters look like zeros but the middle one is small and smudged. The word reads as 'צימוקים' (raisins), which both readings agree on."
     },
     {
       "field": "instructions[0].steps[0]",
       "text": "לשים את [?] בתבנית",
-      "best_guess": "חצי",
-      "reason": "Short word: her ח followed by an unclear letter; likely 'חצי' (half of the batter), but no 'הבצק' is written. Last word 'עגולה' has its ה separated at the paper edge."
+      "best_guess": "Gemini: התערובת (does not fit the short word on the scan); earlier reading: חצי",
+      "reason": "Short word of about 2-3 letters: an arch/leg letter followed by a boxy letter with a tail; no clear 'הבצק'. Last word 'עגולה' has its ה separated at the paper edge."
     },
     {
       "field": "instructions[0].steps[3]",
       "text": "החלבונים [?] סוכר",
-      "best_guess": "+ / עם",
-      "reason": "A small L-shaped mark between 'החלבונים' and 'סוכר'; probably a plus sign or abbreviation meaning 'with'."
+      "best_guess": "Gemini: עם יתרת (not visible on the card); earlier reading: + / עם",
+      "reason": "A small L-shaped mark between 'החלבונים' and 'סוכר'; probably a plus sign or abbreviation meaning 'with'. Cannot confirm."
     },
     {
       "field": "instructions[0].steps[4]",
       "text": "על [?]",
-      "best_guess": "המלית / המילית",
-      "reason": "Word reads ה-מ-י-?-י-ת; meaning unclear (possibly the filling/cake layer)."
+      "best_guess": "Gemini: העוגה; earlier reading: המילית (the scan letters look like ה-מ-י-ל-י-ת with a tall ל, which does not match 'העוגה')",
+      "reason": "Readings differ and the meaning of 'המילית' (the filling layer?) is unclear."
     },
     {
       "field": "instructions[0].steps[4]",
       "text": "כ[?] דק'",
-      "best_guess": null,
+      "best_guess": "Gemini: 30 (not visible on the scan; not confirmed)",
       "reason": "The left edge of the paper is torn right after 'כ'; the number of minutes is missing/lost."
-    },
-    {
-      "field": "instructions[0].steps[4]",
-      "text": "שהקצף [?]",
-      "best_guess": "מזהיב / מצהיב",
-      "reason": "Last word looks like מ-?-ח/ה-י-ב; 'מזהיב' or 'מצהיב' (turns golden/yellow) fits but the second letter is unclear."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
