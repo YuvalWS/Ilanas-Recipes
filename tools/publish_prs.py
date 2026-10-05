@@ -5,8 +5,8 @@ usage: python tools/publish_prs.py [--dry-run] [--merge-confident] [--only recip
 
 * Needs `git` push access to origin and the GitHub CLI (`gh auth login`).
 * Idempotent: branches that already have a PR are skipped.
-* --merge-confident merges PRs whose recipe is `confidence: high`, `needs_human_verification: false`
-  and has no `uncertainties`. Everything else stays open for review.
+* --merge-confident merges PRs whose recipe is `confidence: high` (owner's rule: merge high, keep
+  medium and low open for review). `needs_human_verification` / `uncertainties` stay in the data.
 """
 import json, subprocess, sys
 
@@ -21,8 +21,8 @@ def run(*cmd, check=True, capture=True):
     if DRY and cmd[0] in ("git", "gh") and cmd[1] in ("push", "pr"):
         if not (cmd[1] == "pr" and cmd[2] in ("list", "view")):
             return ""
-    r = subprocess.run(cmd, check=check, capture_output=capture, text=True)
-    return r.stdout.strip() if capture else ""
+    r = subprocess.run(cmd, check=check, capture_output=capture, text=True, encoding="utf-8")
+    return (r.stdout or "").strip() if capture else ""
 
 
 def recipe_json(branch):
@@ -61,18 +61,19 @@ def body(r):
 """
 
 
-branches = [b.strip() for b in run("git", "for-each-ref", "--format=%(refname:short)", "refs/heads/recipe/").splitlines() if b.strip()]
-if ONLY:
-    branches = [b for b in branches if b in ONLY]
-for br in sorted(branches):
-    existing = run("gh", "pr", "list", "--head", br, "--state", "all", "--json", "number", "--jq", ".[0].number", check=False)
-    if existing:
-        print(f"{br}: PR #{existing} exists, skipping"); continue
-    r = recipe_json(br)
-    run("git", "push", "-u", "origin", br)
-    title = f"Add recipe {r['id']}: {r['title'] or '(untitled)'}"
-    out = run("gh", "pr", "create", "--base", BASE, "--head", br, "--title", title, "--body", body(r))
-    print(out)
-    sure = r["confidence"] == "high" and not r["needs_human_verification"] and not r["uncertainties"]
-    if MERGE and sure and not DRY:
-        run("gh", "pr", "merge", br, "--squash", "--delete-branch")
+if __name__ == "__main__":
+    branches = [b.strip() for b in run("git", "for-each-ref", "--format=%(refname:short)", "refs/heads/recipe/").splitlines() if b.strip()]
+    if ONLY:
+        branches = [b for b in branches if b in ONLY]
+    for br in sorted(branches):
+        existing = run("gh", "pr", "list", "--head", br, "--state", "all", "--json", "number", "--jq", ".[0].number", check=False)
+        if existing:
+            print(f"{br}: PR #{existing} exists, skipping"); continue
+        r = recipe_json(br)
+        run("git", "push", "-u", "origin", br)
+        title = f"Add recipe {r['id']}: {r['title'] or '(untitled)'}"
+        out = run("gh", "pr", "create", "--base", BASE, "--head", br, "--title", title, "--body", body(r))
+        print(out)
+        sure = r["confidence"] == "high"
+        if MERGE and sure and not DRY:
+            run("gh", "pr", "merge", br, "--squash", "--delete-branch")
