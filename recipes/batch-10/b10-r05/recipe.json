@@ -1,0 +1,81 @@
+{
+  "id": "b10-r05",
+  "batch": 10,
+  "title": "כרובית צלויה בשמן זית",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "mixed",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 ליטרים מים, כרובית גדולה עם העלים, כוס שמן זית (אפשר קצת פחות).",
+        "1 כף מלח גס, 3 שיני שום קלופות וקצוצות או שום גבישי או קוביות שום,",
+        "מעט פלפל לבן טחון."
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מביאים את המים לרתיחה בסיר גדול. מכניסים את הכרובית לסיר כשהיא הפוכה (קצה הגזע פונה מעלה) ומבשלים 7 דקות. מוציאים, מסננים מהמים ומקררים. מניחים בתבנית.",
+        "בינתיים מכינים בלילה של - מלח, פלפל, שמן זית ושום כתוש,",
+        "[handwritten] יוצקים על הכרובית ו[?]",
+        "[handwritten] [?] [?] שהוסיפה [?] [?] [?]",
+        "[handwritten] [?] [?] [?] [?] [?]",
+        "[handwritten] [?] [?], אפשר לשמור במקרר",
+        "[handwritten] עד 3 ימים"
+      ]
+    }
+  ],
+  "notes": [
+    "A printed email/web printout (typed text) with handwritten additions: a blue handwritten line at the top and about six lines at the bottom that continue the method. The printed method stops after 'ושום כתוש,' and the handwriting continues from there.",
+    "The printed ingredient paragraph has no quantity for the lemon etc.; it lists exactly what is printed.",
+    "The handwritten text at the bottom overlaps the printed footer; only the first and last lines are readable."
+  ],
+  "incidental_text": [
+    "Printed footer of a web-mail page (site address, copyright line, 'תוכן מתוך'...)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2156-04.jpg",
+      "original_path": "Batch 10/Scanned_20261004-2156-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "blue handwriting at the top",
+      "best_guess": null,
+      "reason": "Handwritten words at the top (possibly a name and a word) are unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "handwritten lines",
+      "best_guess": null,
+      "reason": "Most of the handwritten continuation is unreadable."
+    },
+    {
+      "field": "title",
+      "text": "printed heading",
+      "best_guess": null,
+      "reason": "Printed title is clear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
