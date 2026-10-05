@@ -24,7 +24,8 @@
         "4 ביצים",
         "שמנת מתוקה או צמחית",
         "מעט פירורי לחם — אפשר",
-        "מלח ופלפל"
+        "מלח ופלפל",
+        "בצק עלים"
       ]
     },
     {
@@ -54,11 +55,11 @@
     {
       "group": "פשטידת קשואים",
       "steps": [
-        "לחתוך הבצלים לעיגולים או קשת; לטגן בשמן עד שהבצל שקוף.",
-        "לחתוך קשואים לפרוסות כ־2 ס״מ, לאדות בסיר נפרד עם מעט מים; לאחר הרתיחה 10–20 דקות בחום נמוך עד ריכוך, לא לשחום.",
-        "[?]",
-        "לערבב יחד בצל מאודה, קשואים מאודים, 4 ביצים ושמנת מתוקה או צמחית; אפשר מעט פירורי לחם, מלח ופלפל.",
-        "לשפוך מעל הבצק; לאפות בתנור בחום בינוני."
+        "4–5 בצלים לחתוך לעיגולים או קשת. לטגן בסיר במעט שמן עד שהבצל שקוף.",
+        "5–6 קשואים קלופים וחתוכים לפרוסות של כ־1/2 ס״מ. לאדות בסיר נפרד עם מעט מהבצל המטוגן (10–20 דקות בחום נמוך עד ריכוך — לא לשרוף).",
+        "לשטוח על תבנית בצק עלים. לנקב אותו!",
+        "לערבב יחד בצל מאודה + קשואים מאודים + 4 ביצים ושמנת מתוקה או צמחית. אפשר להוסיף מעט פירורי לחם, מלח ופלפל. לשפוך מעל הבצק. לאפות בתנור בחום בינוני.",
+        "בתאבון."
       ]
     },
     {
@@ -74,7 +75,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Graph-paper sheet with two recipes: this cake (top and middle) and a zucchini pie (bottom, recipe 2 of this batch; same scan). Roman numerals 'I' and 'II' mark the two parts of the cake."
+    "Handwriting is only partly legible; unreadable words are [?]. Graph-paper sheet with two recipes: this cake (top and middle) and a zucchini pie (bottom, recipe 2 of this batch; same scan). Roman numerals 'I' and 'II' mark the two parts of the cake.",
+    "Repeated page cross-checked against PR #273: squash slices ½ cm, stewed separately with a little cooked onion; no added water specified. Pastry is בצק עלים, prick it."
   ],
   "incidental_text": [],
   "raw_files": [
