@@ -1,0 +1,86 @@
+{
+  "id": "b16-r05",
+  "batch": 16,
+  "title": "אורז [עם] ירקות [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] כוס אורז",
+        "[?] [?] ירקות",
+        "[?] כפות שמן",
+        "[?] מלח",
+        "[?] כוסות מים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] 20 דקות [?]",
+        "[?] 10 דקות מכוסה",
+        "[?] להוריד מהאש [?]",
+        "[?] מערבבים"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 08 (a card with a printed header logo of a postal company: 'רשות הדואר - דואר קדימה') has a wavy-underlined title that reads roughly 'אורז [?] ירקות' and a block of tall, narrow, partly illegible lines. Card 09 (no title, no printed matter) continues in the same hand and mentions 'דקות' (20 minutes, 10 minutes covered). The pairing of the two cards is an assumption.",
+    "Both cards are written with heavy bleed-through from their reverse sides, which makes them extremely hard to read; a rescan of both (with a white sheet behind) is recommended."
+  ],
+  "incidental_text": [
+    "Printed on card 08: logo and 'רשות הדואר - דואר קדימה' (Israel Post, Priority Mail)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-08.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2223-09.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-09.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "אורז [?] ירקות [?]",
+      "best_guess": null,
+      "reason": "Title only partly readable."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Illegible."
+    },
+    {
+      "field": "instructions",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Illegible apart from '20 דקות' and '10 דקות'."
+    },
+    {
+      "field": "raw_files",
+      "text": "08/09",
+      "best_guess": null,
+      "reason": "Assumed to be one recipe."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
