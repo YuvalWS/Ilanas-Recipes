@@ -13,9 +13,9 @@
     {
       "group": null,
       "items": [
-        "ג'ינג'ר [?] 1/2 [?]",
-        "[?] 1/4",
-        "1 שקית [?] מרק בצל"
+        "ג׳ינג׳ר 1/2 בקבוק",
+        "קטשופ 1/4 בקבוק",
+        "1 שקית אבקת מרק בצל"
       ]
     }
   ],
@@ -36,7 +36,8 @@
   ],
   "notes": [
     "Ruled index card; heading 'בשר בקר / דורה' (beef / Dora). The top three lines look like ingredient quantities (ginger, a quarter of something, one packet of onion soup mix); the method says to soak overnight in the refrigerator, start the oven at a high temperature (marked 'important!') and then reduce the heat and cook until tender.",
-    "Scan 16 (ruled card, only three handwritten lines at the top) is treated as the back / continuation."
+    "Scan 16 (ruled card, only three handwritten lines at the top) is treated as the back / continuation.",
+    "Bottle unit for ketchup expanded from ditto below ginger; no assumption about what commercial ginger product means."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -63,12 +64,6 @@
       "reason": "Name after the slash read as 'דורה'."
     },
     {
-      "field": "ingredients",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Items and quantities partly unclear (ginger?, onion soup mix?)."
-    },
-    {
       "field": "instructions",
       "text": "several lines",
       "best_guess": null,
@@ -82,7 +77,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
