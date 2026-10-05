@@ -49,12 +49,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "פרגיות (red ink)",
-      "best_guess": "פרגיות",
-      "reason": "Red word read as 'פרגיות' (chicken thighs); the slash after it might introduce a source that is not written."
-    },
-    {
       "field": "ingredients",
       "text": "most lines",
       "best_guess": null,
