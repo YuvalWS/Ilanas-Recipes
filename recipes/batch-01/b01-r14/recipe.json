@@ -1,0 +1,108 @@
+{
+  "id": "b01-r14",
+  "batch": 1,
+  "title": "עוגת שבע ברכות חיה (3 שכבות)",
+  "source": {
+    "text": "המורה",
+    "type": "person",
+    "as_written": "(המורה ... 3 שכבות)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "1) טורט",
+      "items": [
+        "7 ביצים",
+        "1 כוס סוכר",
+        "4 כפות קמח + 1/2 כפית אפיון (או 4 כפות קמח אוסם)",
+        "4 כפות קקאו"
+      ]
+    },
+    {
+      "group": "2) קרם קוקוס",
+      "items": [
+        "1 כוס סוכר + 1 כוס מים + 1/2 מרגרינה",
+        "200 גר' קוקוס",
+        "3 ביצים",
+        "תמצית שקדים"
+      ]
+    },
+    {
+      "group": "3) קרם שוקולד",
+      "items": [
+        "1/4 כוס מים",
+        "100 גר' שוקולד מריר או 3 כפות קקאו",
+        "4 כפות סוכר",
+        "1/2 חב' מרגרינה",
+        "רום, וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "1) טורט",
+      "steps": [
+        "להכין כמו עוגת ספוג רגילה."
+      ]
+    },
+    {
+      "group": "2) קרם קוקוס",
+      "steps": [
+        "[?] סוכר [?] מים [?] מרגרינה [?] ... [?]",
+        "להוסיף 200 גר' קוקוס, [?] [?] [?] עד ש[?]",
+        "להוסיף 3 ביצים [?] הקוקוס [?] חם",
+        "להוסיף תמצית שקדים, [?] [?] [?]"
+      ]
+    },
+    {
+      "group": "3) קרם שוקולד",
+      "steps": [
+        "[?] להרתיח [?] ולקרר (margin note beside the ingredients)",
+        "[?] להוסיף 1/2 מרגרינה, רום, וניל",
+        "[?] על קרם הקוקוס ולקרר."
+      ]
+    }
+  ],
+  "notes": [
+    "Squared (graph) paper with a punched hole at the left."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-13.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת שבע ברכות חיה",
+      "best_guess": null,
+      "reason": "First line of title is partly crossed by a bracket; second word looks like 'שבע/שבך'."
+    },
+    {
+      "field": "source",
+      "text": "המורה",
+      "best_guess": null,
+      "reason": "Parenthetical at top left, partially cut off by the card edge."
+    },
+    {
+      "field": "instructions",
+      "text": "קרם קוקוס and קרם שוקולד paragraphs",
+      "best_guess": null,
+      "reason": "These were reconstructed from partially legible lines; the key verbs may differ."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
