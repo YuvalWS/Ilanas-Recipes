@@ -13,7 +13,7 @@
         "[?] שמן זית [?]",
         "1/2 [?] מלח",
         "מעט פלפל שחור",
-        "[?] פפריקה מתוקה"
+        "מעט פפריקה מתוקה"
       ]
     }
   ],
@@ -26,7 +26,7 @@
         "למרוח [?] המרינדה [?] בשרי",
         "לעטוף [?]",
         "[?] [?] [?] רוזמרין",
-        "[?] [?] עלי [?]",
+        "[?] [?] עלי דפנה",
         "[?] [?] [?] בתנור [?]",
         "[?] ל-2 שעות",
         "[?] [?] [?] [?] [?]"
@@ -34,8 +34,10 @@
     }
   ],
   "notes": [
-    "A marinade-style card; the top row has a small ruled box with several short items that are not readable. A line at the top, above the first ingredient, looks like a heading or hint and is unreadable.",
-    "Faint bleed-through of writing from the reverse side is visible on the paper."
+    "A marinade-style card (honey, Dijon mustard, olive oil, salt, pepper, paprika, garlic, rosemary); the top row has a small ruled box with several short items that are not readable. The line at the top, left of the first ingredient, looks like a heading or hint and is unreadable.",
+    "Faint bleed-through of writing from the reverse side is visible on the paper.",
+    "ditto marks expanded: the tick under 'מעט' on the line above is read as 'מעט' before 'פפריקה מתוקה'.",
+    "Gemini's transcription describes a beef goulash with carrots and potatoes; this does not match the card (honey/mustard marinade, rosemary, wrapping, oven) and was not used."
   ],
   "incidental_text": [
     "Printed footer: איטונג - איכות חיים לכל החיים (Itung company logo/slogan)"
@@ -54,20 +56,20 @@
     {
       "field": "title",
       "text": "top line",
-      "best_guess": null,
+      "best_guess": "Gemini: גולש בקר (not supported by the card); the word בקר may appear left of the slash on the first line",
       "reason": "The first line (possibly a title or an ingredient) is unreadable."
     },
     {
       "field": "ingredients",
       "text": "several lines",
-      "best_guess": null,
-      "reason": "Many words and amounts are partly or fully unreadable; the item order follows the card."
+      "best_guess": "Gemini: 1 כף שמן; 1/2 כפית מלח (a different dish in its reading; unconfirmed)",
+      "reason": "Quantities of mustard and oil, the unit before מלח (כף or כפית) and the boxed items are not readable."
     },
     {
       "field": "instructions",
       "text": "most lines",
-      "best_guess": null,
-      "reason": "Instruction lines are only partly legible; the words רוזמרין (rosemary) and 'ל-2 שעות' look right but are not 100% sure."
+      "best_guess": "Gemini: bay leaves (עלי דפנה) accepted; its other steps (stew with beef, wine, potatoes) do not match the card",
+      "reason": "Instruction lines are only partly legible; רוזמרין and 'ל-2 שעות' look right, 'עלי דפנה' agrees with Gemini and the ink."
     },
     {
       "field": "source",
@@ -77,7 +79,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
