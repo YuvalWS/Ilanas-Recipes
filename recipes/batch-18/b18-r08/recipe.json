@@ -1,0 +1,68 @@
+{
+  "id": "b18-r08",
+  "batch": 18,
+  "title": "מוס מנצח",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים",
+      "items": [
+        "500 גרם שוקולד",
+        "250 מ\"ל חלב או שמנת להקצפה (אפשר לערבב)",
+        "1/2 כוס מיץ ענבים (תירוש)",
+        "כף תמצית וניל",
+        "טיפונת מלח לחיזוק טעם השוקולד",
+        "5 ביצים מופרדות, חלבונים מוקצפים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "ממיסים בסיר על אש נמוכה את השוקולד עם השמנת. כשהכול נמס יחד, מוסיפים את היין, המלח והוניל, ומורידים מהאש כשהכול נמס ומבריק.",
+        "מוסיפים את החלמונים אחד אחד תוך ערבוב, עד שהם מתאחדים עם השוקולד.",
+        "שופכים לחלבונים המוקצפים את השוקולד ומקפלים בעדינות.",
+        "שמים בכוסיות או בפיירקס - ולמקרר (או למקפיא) ולהעביר למקרר כמה שעות לפני ההגשה.",
+        "לגיוון אפשר להוסיף קינמון, אלכוהול או קפה נמס מהול בקצת מים. אם רוצים להוסיף כוכב אניס או חתיכת שורש ג'ינג'ר, יש להוציא אותם לפני הערבוב עם החלמונים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with a purple banner 'מוס מנצח' and a photo of mousse in upside-down cocktail glasses (photo credit 'צילום: איה קדמורי?'). A long intro describes the columnist's choice of recipe: it can easily be made dairy-free (replace cream and milk with coconut milk), and the mousse was 'passed among friends' and is attributed to 'ג'סיקה שרה' ('ג'סיקה שרה המופלאה'). The intro is not transcribed in full.",
+    "Wine in step 1 is mentioned in the method ('מוסיפים את היין') although the ingredient list names grape juice (תירוש); written as printed. Step 4 is printed with an odd phrase ('ולמקרר (או למקפיא) ולהעביר למקרר'); written as read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-08.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible; the columnist is not named on the clipping. The mousse is credited in the intro to 'ג'סיקה שרה'."
+    },
+    {
+      "field": "notes",
+      "text": "intro paragraph",
+      "best_guess": null,
+      "reason": "Only summarised, not transcribed."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
