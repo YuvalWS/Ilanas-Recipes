@@ -1,7 +1,7 @@
 {
   "id": "b08-r02",
   "batch": 8,
-  "title": "[?]",
+  "title": "סילקה",
   "source": null,
   "medium": "handwritten",
   "ingredients": [],
@@ -9,77 +9,55 @@
     {
       "group": null,
       "steps": [
-        "[?] שמן [?]",
-        "[?] [?] מלח, סוכר [?]",
-        "[?] [?] [?] קישואים [?]",
-        "הבצל [?]",
-        "לקצוץ קוביות קטנות [?]",
-        "[?] [?] [?] מלח [?]",
-        "לבשל [?]",
-        "(about 8 more lines, partly unreadable)",
-        "(reverse side) [?] [?] [?] במיקסר",
-        "(reverse side) [?] [?] [?] עד שמתקבל [?]",
-        "ממשיכים להרתיח [?] עד שמתעבה",
-        "(reverse side) ממשיכים להרתיח [?] [?] עד שמתעבה",
-        "(reverse side) [?] [?] במיקסר"
+        "עלי תרד (לסחוט) לטחון [?]",
+        "להוסיף מלח, סוכר, ביצה",
+        "110 ג' קמח מצה: קציצות ולטגן"
       ]
     }
   ],
   "notes": [
-    "Handwriting is dense and only partly legible; unreadable words are [?].",
-    "Card with a printed frame and newspaper footer ('איטונג'); a blue note above the title area is unreadable. Words that appear: מלח, סוכר, בצל, קישואים (?), להרתיח, במיקסר (in a mixer/blender), עד שמתעבה (until thickened) - possibly a vegetable soup or purée, but this is an impression only.",
-    "Scan 04 continues the text (same pen, mentions the mixer and thickening) and is treated as the back."
+    "Transcribed by the owner (Yuval) from the rescan Batch 8/Scanned_20261005-1649-01/02.jpg on 2026-10-05, not parsed by AI; the text is as he typed it, including his [?] marks. Replaces the earlier AI reading of the older, poorer scans (Scanned_20261004-2146-03/04.jpg, still kept in raw/ of b08-r02).",
+    "Part of handwritten sheet b08-card-01 with b08-r02, b08-r03, b08-r04, b08-r05 (the other recipes on the same sheet).",
+    "The card is free-form shorthand (ingredients and steps run together), so the lines are kept as written in 'instructions'."
   ],
   "incidental_text": [
-    "Printed footer: a newspaper slogan in a yellow box"
+    "Printed footer at the bottom of side A (part of the paper used as a notepad): a logo and 'איכות חיים לכל החיים'."
   ],
   "raw_files": [
     {
-      "file": "raw/Scanned_20261004-2146-03.jpg",
-      "original_path": "Batch 8/Scanned_20261004-2146-03.jpg",
+      "file": "raw/Scanned_20261005-1649-01.jpg",
+      "original_path": "Batch 8/Scanned_20261005-1649-01.jpg",
       "rotation_applied_cw_degrees": 0,
       "side": "front"
-    },
-    {
-      "file": "raw/Scanned_20261004-2146-04.jpg",
-      "original_path": "Batch 8/Scanned_20261004-2146-04.jpg",
-      "rotation_applied_cw_degrees": 0,
-      "side": "back"
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "heading at top",
-      "best_guess": null,
-      "reason": "Blue heading at the top is unreadable."
-    },
-    {
       "field": "instructions",
-      "text": "almost all",
+      "text": "לטחון [?]",
       "best_guess": null,
-      "reason": "Dense handwriting; only isolated words are readable."
-    },
-    {
-      "field": "instructions[2]",
-      "text": "קישואים",
-      "best_guess": null,
-      "reason": "Possibly 'קישואים' (zucchini); not certain."
-    },
-    {
-      "field": "raw_files",
-      "text": "front/back",
-      "best_guess": null,
-      "reason": "Scan 04 assumed to continue scan 03."
+      "reason": "Marked [?] by the owner in his own transcription of the card."
     }
   ],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "method": "human_transcription_by_owner",
     "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-05"
+  },
+  "card": {
+    "id": "b08-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b08-r02",
+      "b08-r03",
+      "b08-r04",
+      "b08-r05"
+    ],
+    "position": "Side A, first (top) recipe.",
+    "note": "Written in blue ballpoint on the back of a printed newspaper footer (logo and the line 'איכות חיים לכל החיים'; the logo word looks like 'איטונג'). The sheet holds several short recipes one after the other and is split here into separate recipes (b08-r02 .. b08-r05) - check the other recipes of this card if one looks incomplete."
   }
 }
