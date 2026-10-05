@@ -1,20 +1,20 @@
 {
   "id": "b22-r03",
   "batch": 22,
-  "title": "עוגת ביסקויט - חיה",
+  "title": "עוגת ביסקויט",
   "source": {
     "text": "חיה",
     "type": "person",
-    "as_written": "(next to the title)",
-    "uncertain": true
+    "as_written": "חיה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "[?] 4 כפות [?]",
-        "לטבול [?] ביסקויט",
+        "4 כף נס קפה",
+        "לטבול הביסקויט",
         "1 אינסטנט וניל",
         "1 קצפת",
         "1 כוס חלב",
@@ -27,8 +27,8 @@
         "4 כפות סוכר",
         "מעט חלב",
         "כשהסוכר נמס + 2 כפות קקאו",
-        "[?] חצי מרגרינה ומעט [?]",
-        "וניל [?] רום"
+        "1/4 חב׳ מרגרינה ומעט תמצית",
+        "וניל או רום הכל"
       ]
     }
   ],
@@ -36,8 +36,10 @@
     {
       "group": null,
       "steps": [
-        "קרם [?] אינסטנט חלב וקצפת",
-        "[?] להקציף"
+        "לטבול הביסקויט.",
+        "קרם: אינסטנט חלב וקצפת — לערבב ולהקציף.",
+        "2/3 פעמים [?]",
+        "1/3 קרם מריחת שוקולד [?]"
       ]
     }
   ],
@@ -76,7 +78,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
