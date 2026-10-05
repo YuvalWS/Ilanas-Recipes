@@ -12,7 +12,7 @@
         "1 כוס חלב",
         "2 ביצים",
         "4 כפות קמח תופח גדושות",
-        "[?] כף שמן",
+        "3 כפות שמן",
         "מעט פלפל",
         "250 גר' גבינה לבנה"
       ]
@@ -72,7 +72,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
