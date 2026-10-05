@@ -1,0 +1,64 @@
+{
+  "id": "b21-r11",
+  "batch": 21,
+  "title": "שני[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] קמח לחתוך",
+        "[?] קוביות",
+        "ולסדר ביצה קשה [?]",
+        "הטיגון: שמן חם מעט [לימון?]",
+        "לטבול בפירורי לחם ו[?]",
+        "[?] ביצה"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Title is cut off at the edge. Probably another rolled-schnitzel recipe; the back (14) is very faint with mirrored show-through. Rescan recommended."
+  ],
+  "incidental_text": [
+    "Printed logo at the bottom of 13: 'רשות הדואר / דואר קדימה'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-13.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2252-14.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "שני[?]",
+      "best_guess": null,
+      "reason": "Cut off."
+    },
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "[לימון?]",
+      "best_guess": null,
+      "reason": "Uncertain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
