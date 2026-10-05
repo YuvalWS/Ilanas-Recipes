@@ -11,12 +11,12 @@
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": "1) [?]",
+      "group": "1) להמס",
       "items": [
         "200 גר' שוקולד מריר",
         "1 1/2 [?] קפה נמס",
         "1/3 כוס קוניאק",
-        "[?] 1/2 כוס אבקת סוכר"
+        "1/2 כוס אבקת סוכר"
       ]
     },
     {
@@ -29,7 +29,7 @@
     {
       "group": "3)",
       "items": [
-        "[?] ביצים"
+        "6 ביצים"
       ]
     }
   ],
@@ -44,9 +44,11 @@
     }
   ],
   "notes": [
-    "Group 1 (chocolate, coffee, cognac, powdered sugar) and group 2 (cream, sugar) are each marked with a curly bracket and a word written to its left; group 2's word is 'להקציף' (to whip).",
+    "Group 1 (chocolate, coffee, cognac, powdered sugar) and group 2 (cream, sugar) are each marked with a curly bracket and a word written to its left: group 1's word reads 'להמס' (to melt; partly covered by a stain) and group 2's is 'להקציף' (to whip).",
     "A triangle/arrow mark is drawn at the end of the last line (an end mark; no text).",
-    "Re-read 2026-10-05: group 2's first item is 'קופסת צמחית' (a carton of non-dairy whipping cream), not 'כפית' as in the earlier transcription; the powdered-sugar fraction reads 1/2 (earlier read as 1/4)."
+    "A scribbled/crossed-out mark stands just before the powdered-sugar quantity; the quantity itself reads 1/2 (also read as 1/2 by Gemini).",
+    "The egg numeral '6' is written over an earlier mark (bold overwrite); Gemini also reads 6, and the card's later steps are consistent with whites and yolks being separated.",
+    "Gemini's 'מיכל קצפת צמחית (ריץ')' and its elaborated method (small pot, bain-marie, folding, serving cups, refrigerating) are not on the card and were not copied."
   ],
   "incidental_text": [
     "A mark resembling '8' in the top-right corner of the note (meaning unclear; possibly a sorting mark)."
@@ -65,42 +67,24 @@
     {
       "field": "source",
       "text": "/ [?] [?]",
-      "best_guess": "דינה ה[?] (the first word looks like 'דינה'; the second word, roughly 'ה...ילבה', is unreadable)",
-      "reason": "Two words after the slash next to the title, probably the name of the person the recipe came from; shaky handwriting."
-    },
-    {
-      "field": "ingredients[0].group",
-      "text": "1) [?]",
-      "best_guess": "להמס (to melt)",
-      "reason": "Word to the left of the bracket of group 1; letters ל..מס are visible but the second letter is covered by a stain. 'To melt' fits chocolate, coffee and cognac."
+      "best_guess": "Gemini: דינה פלורסהיים; earlier reading: דינה ה[?] (first word 'דינה'; the second word, roughly 'ה...ילבה', unreadable)",
+      "reason": "Two words after the slash next to the title, probably the person the recipe came from. The first word is 'דינה' in both readings, but the second word on the ink ends in '...בה' and does not clearly match 'פלורסהיים', so it is not confirmed."
     },
     {
       "field": "ingredients[0].items[1]",
       "text": "1 1/2 [?] קפה נמס",
-      "best_guess": "כף (tablespoon)",
-      "reason": "The unit is a single compressed glyph; it looks like 'כף'/'כפ'' rather than 'כפות' or 'כפית', but is not certain."
-    },
-    {
-      "field": "ingredients[0].items[3]",
-      "text": "[?] 1/2 כוס אבקת סוכר",
-      "best_guess": "1/2 כוס אבקת סוכר",
-      "reason": "The fraction reads 1/2, but a scribbled/overwritten mark (possibly a crossed-out digit) is written just before it, so the final quantity is not certain."
-    },
-    {
-      "field": "ingredients[2].items[0]",
-      "text": "[?] ביצים",
-      "best_guess": "6",
-      "reason": "The numeral looks like 6 written over another digit (possibly 5)."
+      "best_guess": "Gemini: כפית (teaspoon); earlier reading: כף (tablespoon)",
+      "reason": "The unit is a single compressed glyph; readings differ and the ink does not decide between them."
     },
     {
       "field": "instructions[0].steps[1]",
       "text": "4) לערבב 2 [?] 3",
-      "best_guess": "ו (and) - 'mix 2 and 3'",
-      "reason": "The small connecting glyph between 2 and 3 is not a clean letter; meaning 'and' is clear from context."
+      "best_guess": "ו (and) - 'mix 2 and 3'; Gemini: 'עם' (with)",
+      "reason": "The small connecting glyph between 2 and 3 looks like a lone 'א'-like mark, not a clean letter; the meaning 'mix 2 with/and 3' is clear from context."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
