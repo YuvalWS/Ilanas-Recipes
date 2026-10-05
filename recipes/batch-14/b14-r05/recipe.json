@@ -1,0 +1,80 @@
+{
+  "id": "b14-r05",
+  "batch": 14,
+  "title": null,
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים",
+      "items": [
+        "2 חלבונים",
+        "3/4 כוס אבקת סוכר (1 שקית של 100 גרם)",
+        "1 כפית תמצית וניל",
+        "3 כוסות שקדים פרוסים (300 גרם)"
+      ]
+    },
+    {
+      "group": "לטבילה בשוקולד (אם רוצים)",
+      "items": [
+        "200 גרם שוקולד מריר",
+        "2 כפות שמן"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "מחממים תנור ל-160 מעלות.",
+        "מערבבים (לא מקציפים) חלבונים, אבקת סוכר ותמצית וניל.",
+        "מוסיפים שקדים פרוסים ומערבבים היטב, עד שהשקדים מצופים מכל הכיוונים (התערובת תיראה יבשה וזה בסדר).",
+        "משטחים כפות מהתערובת לעיגולים, על תבנית מרופדת בנייר אפייה.",
+        "אופים כ-20 דקות, עד שהעוגיות מזהיבות. מצננים לחלוטין, מפרידים מניר האפייה ומגישים (אם העוגיות לא נפרדות בקלות מהנייר, ממשיכים לייבש בתנור עוד 10 דקות בחום של 150 מעלות)."
+      ]
+    },
+    {
+      "group": "טובלים בשוקולד לקישוט, אם רוצים",
+      "steps": [
+        "ממיסים שוקולד במיקרוגל. מוסיפים שמן לשוקולד המומס ומערבבים.",
+        "טובלים את העוגיות עד למחצית הגובה בשוקולד המומס. מניחים על נייר אפייה ומעבירים למקפיא ל-5 דקות, להתקשות השוקולד. שומרים בכלי אטום, בשכבות מופרדות בנייר אפייה."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping; the title and a top banner are cut off, so no title appears on the scan. Header line: 'כמות: 20 עוגיות גדולות (או כ-40 קטנות)'. A sidebar in a grey box ('סוד מתוק מקרין?' - heading in white on grey, as read) with a jar photo says: 'האויבת הגדולה של העוגיות האלה היא הלחות. כדי לשמור על העוגיות קריספיות חשוב לשמור אותן בכלי אטום (אני אוהבת להשתמש בקופסאות עם סגירת הוואקום - בהן העוגיות יישארו טריות שבועיים-שלושה).' Below, a price tag line: 'כלי אחסון: ₪72.50'.",
+    "Almond-and-egg-white cookies with optional chocolate dipping (same family as scans 07 and 08)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2213-06.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The clipping is cut so that no title is visible (likely something like 'almond cookies')."
+    },
+    {
+      "field": "notes",
+      "text": "sidebar heading",
+      "best_guess": null,
+      "reason": "The white heading in the grey box is hard to read."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
