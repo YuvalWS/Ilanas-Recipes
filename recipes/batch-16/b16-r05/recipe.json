@@ -1,7 +1,7 @@
 {
   "id": "b16-r05",
   "batch": 16,
-  "title": "אורז [עם] ירקות [?]",
+  "title": "אורז עם ירקות",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -52,12 +52,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "אורז [?] ירקות [?]",
-      "best_guess": null,
-      "reason": "Title only partly readable."
-    },
-    {
       "field": "ingredients",
       "text": "all lines",
       "best_guess": null,
@@ -77,7 +71,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
