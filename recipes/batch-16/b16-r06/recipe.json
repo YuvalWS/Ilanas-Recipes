@@ -1,7 +1,7 @@
 {
   "id": "b16-r06",
   "batch": 16,
-  "title": "[?]",
+  "title": "איטריות [?]",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -24,7 +24,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 10 has a printed letterhead of a construction group ('מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372) and a wavy-underlined title in the first line that cannot be read. The body is a block of narrow, shaky lines (about 8 lines) that are not readable. Card 11 (back) holds four short lines in blue ink at the top; a light bleed-through ghost fills the rest. This is a 'soup / dish' card (the word 'מרק'/'מים' seems to appear) but nothing can be stated with confidence."
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 10 has a printed letterhead of a construction group ('מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372) and a wavy-underlined title in the first line that cannot be read. The body is a block of narrow, shaky lines (about 8 lines) that are not readable. Card 11 (back) holds four short lines in blue ink at the top; a light bleed-through ghost fills the rest. This is a 'soup / dish' card (the word 'מרק'/'מים' seems to appear) but nothing can be stated with confidence.",
+    "Heading starts איטריות; second word and slash attribution remain uncertain. Back continues frying softened noodles and avoiding frequent stirring."
   ],
   "incidental_text": [
     "Printed letterhead on card 10: brick-pattern logo, 'מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372"
@@ -72,7 +73,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
