@@ -1,0 +1,64 @@
+{
+  "id": "b09-r10",
+  "batch": 9,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשפוך רוטב",
+        "להכניס הבשר",
+        "לבשל מספר שעות [?] [?]",
+        "[?] ללהבה [?] נמוכה",
+        "[?] [?] ו[?] וחצי",
+        "[?]",
+        "לגזור החוט",
+        "לאחר [?] לפרוס ולהגיש עם הרוטב",
+        "[?] [?] שבל",
+        "אפשר [?] [?] אורות",
+        "[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and rotated 180 degrees. Memo card of a concrete company (letterhead 'ישראבטון תעשיות בטון', Ramat Gan, with printed phone/fax). The card continues a roast: pour sauce, put the meat in, cook several hours on a low flame, cut the string, slice and serve with the sauce. This looks like the end of a roast recipe (e.g. the veal roast on scan 11) but the link is not certain, so it is kept separate.",
+    "A strip of another paper with a red word sticks out at the upper left corner."
+  ],
+  "incidental_text": [
+    "Printed company letterhead (name, address, phone and fax) and logo"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-12.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-12.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title; may belong with scan 11."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Parts of several lines are unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
