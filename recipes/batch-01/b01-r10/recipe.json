@@ -11,7 +11,7 @@
         "5 ביצים",
         "3/4 כוס סוכר",
         "3 כפות קקאו גדושות",
-        "1 כוס קמח גדושה",
+        "1 [?] קמח גדושה",
         "2 שקיות שמנת מתוקה",
         "1/2 כוס אבקת סוכר",
         "1 כפית תמצית וניל",
@@ -26,11 +26,14 @@
         "לרפד תבנית משומנת בנייר פרגמנט.",
         "להקציף את החלמונים + סוכר, להוסיף קמח + קקאו ולהקציף.",
         "להקציף את החלבונים ולהוסיף לחלמונים, לצקת בתבנית, לאפות 12 דק'. להפוך על מגבת עם אבקת סוכר, לגלגל.",
-        "להקציף שמנת עם אבקת סוכר + תמצית וניל, חלק למרוח [?] וחלק על הרולדה + פרורי שוקולד + [?]"
+        "להקציף שמנת עם אבקת סוכר + תמצית וניל, חלק למרוח לגלגל וחלק על הרולדה + פרורי שוקולד + [?]"
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "The '5' in the egg quantity has an overwritten knot at the top; read as 5 (Gemini also reads 5).",
+    "The '3/4' sugar quantity is slightly messy but read as 3/4 by both readings."
+  ],
   "incidental_text": [],
   "raw_files": [
     {
@@ -44,32 +47,20 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "ingredients[0].items[0]",
-      "text": "5 ביצים",
-      "best_guess": "5",
-      "reason": "The digit reads as 5 but has an overwritten knot at its top (possibly a correction from another number)."
-    },
-    {
-      "field": "ingredients[0].items[5]",
-      "text": "1/2 כוס אבקת סוכר",
-      "best_guess": "1/2",
-      "reason": "Written as a '1' with a doubled stroke, a slash and a '2'; read as 1/2 (previous reading was 1/4). Please confirm."
-    },
-    {
-      "field": "instructions[0].steps[3]",
-      "text": "חלק למרוח [?]",
-      "best_guess": "לגלגל",
-      "reason": "Word after 'למרוח' is shaky; looks like 'לגלגל' or 'הגלגל' (first letter unclear)."
+      "field": "ingredients[0].items[3]",
+      "text": "1 [?] קמח גדושה",
+      "best_guess": "Gemini: כף; earlier reading: כוס",
+      "reason": "The unit word is overwritten/scribbled (looks like a כ with a blob, possibly כף written over כוס or vice versa); changes the quantity a lot."
     },
     {
       "field": "instructions[0].steps[3]",
       "text": "+ פרורי שוקולד + [?]",
-      "best_guess": "ולגלגל",
-      "reason": "Last word of the card runs into the torn left edge; only the first letters are visible, possibly 'ולגלגל'."
+      "best_guess": "Gemini: אגוזים (not consistent with the visible letters); earlier reading: ולגלגל",
+      "reason": "Last word runs into the torn left edge; only 'ולגלג...' appears visible."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
