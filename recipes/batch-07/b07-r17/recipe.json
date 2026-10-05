@@ -13,14 +13,16 @@
         "2 כפות [?] [?]",
         "1-2 כפות דבש",
         "מלח, פילפל",
-        "[?] [?] גרגרי [?]"
+        "[?] [?] גר' [?] [?]"
       ]
     }
   ],
   "instructions": [],
   "notes": [
-    "Lower block of the card of scan 17 (below the ruled line): a short heading, then a dressing list that is very similar to the vinaigrette on scan 01 (5 tbsp olive oil, 2 tbsp lemon juice, honey).",
-    "The heading is a short word starting with 'א' that could not be read."
+    "Lower block of the card of scan 17 (below the ruled line; the upper block is recipe b07-r16): a short heading underlined with a wavy line, then a dressing list (5 tbsp olive oil, 2 tbsp lemon juice, honey).",
+    "The heading is a short word starting with 'א' (possibly a name); not fully readable.",
+    "ditto marks expanded (each stands for 'כפות').",
+    "The Gemini file in this folder describes a different recipe (cauliflower fritters) and was not used."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -37,24 +39,24 @@
     {
       "field": "title",
       "text": "heading",
-      "best_guess": null,
-      "reason": "Short heading unreadable."
+      "best_guess": "own re-read: possibly 'אסתר' (a name; may be the source of the dressing, not a title); not confirmed",
+      "reason": "Short heading, shaky handwriting."
     },
     {
       "field": "ingredients[2]",
       "text": "2 כפות [?] [?]",
-      "best_guess": null,
-      "reason": "Item unreadable."
+      "best_guess": "own re-read: possibly a mustard (e.g. 'חרדל ...' with further words); not confirmed",
+      "reason": "Item unreadable, 2-3 words."
     },
     {
       "field": "ingredients[5]",
       "text": "last line",
-      "best_guess": null,
-      "reason": "Last line unreadable."
+      "best_guess": "own re-read: possibly '[?] [?] גר' ... כרוב ...' (a quantity of cabbage?); not confirmed",
+      "reason": "Last line mostly unreadable; the earlier word 'גרגרי' looks more like an abbreviation 'גר''."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
