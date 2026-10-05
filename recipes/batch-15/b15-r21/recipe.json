@@ -1,0 +1,98 @@
+{
+  "id": "b15-r21",
+  "batch": 15,
+  "title": "[?] גמבה קלויה ממולאת [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "8 גמבות גדולות"
+      ]
+    },
+    {
+      "group": "למילוי",
+      "items": [
+        "[250?] גר' גבינה בולגרית [?]",
+        "5% מגורדת דק",
+        "1 קופסה [?] או קוטג' דל [?] 5%",
+        "3 כפות שמיר קצוץ דק",
+        "מלח, פלפל לבן לפי הטעם",
+        "1 ביצה",
+        "2 כפות פירורי [?]"
+      ]
+    },
+    {
+      "group": "לציפוי",
+      "items": [
+        "2 חלמונים טרופים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה (back)",
+      "steps": [
+        "קולים את הגמבות על להבה פתוחה או בגריל דחוס? שישחימו, מתקררות? קולפים ומוציאים את הגרעינים והחוטים.",
+        "מערבבים כל מרכיבי המילוי, ממלאים [?] הגמבות ומסדרים בתבנית [?] הפתוח כלפי מעלה.",
+        "[?] מורחים את מילוי הגבינה בחלמון [?] מחממים תנור לחום בינוני 180°, אופים עד שהמילוי [?]. מגישים [?]."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card in a printed frame with a footer 'איכות חיים לכל החיים' (front). The title reads 'פשטידת? גמבה קלויה ממולאת' with a second small word below ('ממולאה'?). The front is crowded at the bottom: the last line runs over the printed footer. The back is headed 'הכנה:' with three numbered steps."
+  ],
+  "incidental_text": [
+    "Printed footer: 'איכות חיים לכל החיים' on a gold band with a newspaper logo"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2218-01.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2218-02.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?] גמבה קלויה ממולאת [?]",
+      "best_guess": null,
+      "reason": "First word (before 'גמבה') and the small word below are unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Quantity of the Bulgarian cheese and the second cheese line are unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "step 2 and 3",
+      "best_guess": null,
+      "reason": "Several words unclear."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
