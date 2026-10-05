@@ -1,0 +1,75 @@
+{
+  "id": "b18-r10",
+  "batch": 18,
+  "title": "עוגת פירות / ורדה",
+  "source": {
+    "text": "ורדה",
+    "type": "person",
+    "as_written": "ורדה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 ביצים",
+        "6 כפות סוכר",
+        "1 [?] קמח תופח",
+        "[?] גר' [?] חלב",
+        "[?] צימוקים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשמן קערת התבנית, לקמח [?]",
+        "ולהוסיף [?] [?] קיק",
+        "40 דק' 180°"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Title line reads 'עוגת פירות / ורדה'. A bracket on the left groups several unclear words, and a boxed word ('מתי?') is written in the left-hand margin. A wavy line separates the ingredients from the oven line '40 דק' 180°'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-12.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "ורדה",
+      "best_guess": "ורדה",
+      "reason": "Read as a first name after the slash."
+    },
+    {
+      "field": "ingredients",
+      "text": "lines 3-5",
+      "best_guess": null,
+      "reason": "Quantities and items partly unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "lines 1-2",
+      "best_guess": null,
+      "reason": "Partly unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
