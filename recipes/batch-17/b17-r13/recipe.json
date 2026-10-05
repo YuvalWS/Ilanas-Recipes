@@ -1,19 +1,22 @@
 {
   "id": "b17-r13",
   "batch": 17,
-  "title": "קישואים? - עוף - חיה",
+  "title": "עוף",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "[?]"
+        "קטשופ",
+        "1 כף דבש",
+        "1 כף חרדל",
+        "רוטב סויה מעט"
       ]
     }
   ],
@@ -30,7 +33,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card 14 has a printed 'רשות הדואר - דואר קדימה' logo at the bottom; the handwriting is extremely tall and narrow with heavy bleed-through, and the first (title) line looks like '[?] עוף - חי[?]'. Card 15 is the back with four lines about baking time, ending with '120°-180°'. Nothing can be transcribed with confidence; a human reading or a rescan with a white sheet behind the card is needed."
+    "Handwriting is only partly legible; unreadable words are [?]. Card 14 has a printed 'רשות הדואר - דואר קדימה' logo at the bottom; the handwriting is extremely tall and narrow with heavy bleed-through, and the first (title) line looks like '[?] עוף - חי[?]'. Card 15 is the back with four lines about baking time, ending with '120°-180°'. Nothing can be transcribed with confidence; a human reading or a rescan with a white sheet behind the card is needed.",
+    "Independent reread separates the first ingredient קטשופ from the header עוף - חיה; ditto marks expanded for mustard."
   ],
   "incidental_text": [
     "Printed on card 14: logo and 'רשות הדואר - דואר קדימה'"
@@ -53,32 +57,20 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?] עוף - חי[?]",
-      "best_guess": null,
-      "reason": "Title cannot be read."
-    },
-    {
       "field": "ingredients",
-      "text": "all",
+      "text": "קטשופ",
       "best_guess": null,
-      "reason": "Not readable."
+      "reason": "Ketchup quantity is not visible; repeated tablespoon for mustard expanded from ditto marks."
     },
     {
       "field": "instructions",
-      "text": "all",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "Not readable; only '120°-180°' on the back is legible."
-    },
-    {
-      "field": "raw_files",
-      "text": "14/15",
-      "best_guess": null,
-      "reason": "Assumed to be two sides of one card."
+      "reason": "Full oven/grill sequence remains unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
