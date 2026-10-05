@@ -4,19 +4,19 @@
   "title": null,
   "source": null,
   "medium": "handwritten",
-  "ingredients": [],
-  "instructions": [
+  "ingredients": [
     {
       "group": null,
-      "steps": [
-        "[?] [?] [?] [?]",
-        "[?] [?] [?]",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?] [?] [?]"
+      "items": [
+        "2 רסק עגבניות",
+        "פלפל שחור",
+        "1 ראש שום, 1 כפ׳ חרדל",
+        "2 בצל",
+        "2/3 מים מכסה"
       ]
     }
   ],
+  "instructions": [],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Memo card of a contracting company (printed letterhead with phone/fax at the bottom). Five very large, loosely formed lines, none of which can be read reliably. Needs a human who knows Ilana's late handwriting."
   ],
@@ -35,14 +35,20 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "instructions",
-      "text": "all",
+      "field": "title",
+      "text": null,
       "best_guess": null,
-      "reason": "Nothing readable."
+      "reason": "No surviving heading; card contains a short list only."
+    },
+    {
+      "field": "ingredients",
+      "text": "2/3 מים מכסה",
+      "best_guess": null,
+      "reason": "Water notation/unit and interpretation of final מכסה need confirmation."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
