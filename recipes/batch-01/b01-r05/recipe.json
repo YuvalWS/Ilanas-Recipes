@@ -13,29 +13,32 @@
     {
       "group": null,
       "items": [
-        "200 גר' [?] [?] [?]",
-        "[?] מערבבים פירות יבשים",
-        "[?] [?] סוכר ([?])",
+        "200 גר' אגוזי מלך טבעיים",
+        "״ ״ תערובת פירות יבשים",
+        "[?] [?] [?] סוכר ([?] [?])",
         "2 ביצים",
-        "2 כפות קמח [?] או קמח כוסמין [?]",
-        "[?] 24 משומשת"
+        "2 כפות קמח מלא או קמח כוסמין מלא",
+        "תבנית [?] 24 משומנת היטב"
       ]
     }
   ],
   "instructions": [
     {
-      "group": "הכנה",
+      "group": null,
       "steps": [
-        "1. מערבבים [?] ופירות [?]",
-        "2. מוסיפים ביצים ומוסיפים [?]",
+        "1. מערבבים אגוזים ופירות",
+        "2. מוסיפים ביצים ומוסיפים",
         "3. מוסיפים קמח ומערבבים [?]",
-        "4. מניחים בתבנית [?]",
-        "5. [?] [?] [?]",
+        "4. מניחים בתבנית",
+        "5. אופים [?] [?] [?]",
         "6. [?] [?] [?] [?] [?]"
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "Digitization remark: the ditto marks (״ ״) on the second ingredient line repeat the quantity of the line above (200 גר'); written as on the card.",
+    "Digitization remark: in this hand the letter א looks like a joined ס+ל; reading it as א gives אגוזי / אגוזים / אופים, consistent across the card."
+  ],
   "incidental_text": [],
   "raw_files": [
     {
@@ -46,29 +49,53 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
+      "field": "source",
       "text": "(קופ\"ח)",
-      "best_guess": "(קופת חולים)?",
-      "reason": "Parenthetical after the title looks like an abbreviation (maybe a health-fund recipe source); not certain."
+      "best_guess": "קופת חולים (health fund)",
+      "reason": "Parenthetical after the title is an abbreviation; probably where the recipe came from, but not certain."
     },
     {
       "field": "ingredients",
-      "text": "most lines",
+      "text": "200 גר' אגוזי מלך טבעיים",
       "best_guess": null,
-      "reason": "Handwriting is very shaky; quantities and several words are unreadable."
+      "reason": "The first letter of אגוזי is an unusual shape (her א); read from context and from 'מערבבים אגוזים' in step 1. Unit abbreviation גר' is slightly unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?] [?] [?] סוכר ([?] [?])",
+      "best_guess": "a quantity such as 'עד ½ כוס' before סוכר",
+      "reason": "Sugar quantity and the parenthetical remark after it are too shaky to read."
+    },
+    {
+      "field": "ingredients",
+      "text": "תבנית [?] 24 משומנת היטב",
+      "best_guess": null,
+      "reason": "The word describing the pan (before the size 24) is illegible."
     },
     {
       "field": "instructions",
-      "text": "all numbered steps",
+      "text": "3. מוסיפים קמח ומערבבים [?]",
       "best_guess": null,
-      "reason": "Only the opening words of steps 1-4 are legible; the last lines run off the bottom edge of the card."
+      "reason": "A bracket spans steps 2-3 with a single letter (ק?) to its left; meaning unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "5. אופים [?] [?] [?]",
+      "best_guess": "אופים בתנור ...",
+      "reason": "Words after אופים (oven / temperature / time) are too shaky to read."
+    },
+    {
+      "field": "instructions",
+      "text": "6. [?] [?] [?] [?] [?]",
+      "best_guess": null,
+      "reason": "Last line is very shaky and runs into the torn/cut bottom edge of the card."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
