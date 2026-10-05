@@ -1,0 +1,71 @@
+{
+  "id": "b22-r06",
+  "batch": 22,
+  "title": "עוגת ביסקויט ([?])",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ביצה",
+        "1/2 ק\"ג ביסקויט",
+        "1/4 ק\"ג גבינה לבנה [?]",
+        "1 חב' מרגרינה",
+        "[?] כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] ביסקויט לטבול ב-1/2 כוס חלב + 2 כפות קקאו.",
+        "לערבב חצי חב' מרגרינה וחצי? הסוכר [?] ולהוסיף הביצה.",
+        "לפרוס את הביסקויט לטבול ולמרוח התערובת [?] קטנים ולפרוס [?] שכבה [?] [?].",
+        "לבסוף להכניס למקרר לשעתיים."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Graph-paper card; the second title line is boxed. At the bottom there is a line starting 'לקישוט: 3 כפות סוכר גדושות' (decoration)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-05.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
