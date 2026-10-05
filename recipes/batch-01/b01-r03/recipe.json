@@ -13,7 +13,7 @@
     {
       "group": null,
       "items": [
-        "8 ביצים מופרדות לחלמונים ולחלבונים",
+        "8 ביצים מופרדות לחלמונים וחלבונים",
         "1 כוס סוכר",
         "קליפה מגורדת משני תפוזים",
         "2 כפיות קינמון טחון",
@@ -24,8 +24,8 @@
     {
       "group": "לסירופ",
       "items": [
-        "2 1/2 כוסות מיץ תפוזים סחוט טרי",
-        "1/2 כוס סוכר"
+        "2 1/2 כוסות מיץ תפוזים סחוט [?]",
+        "[?] כוס סוכר"
       ]
     }
   ],
@@ -35,12 +35,15 @@
       "steps": [
         "מחממים תנור לחום בינוני ([?]).",
         "משמנים ומקמחים תבנית 26.",
-        "מפזרים לתחתית את השקדים המולבנים הקצוצים."
+        "מפזרים לתוכה את השקדים המולבנים הקצוצים."
       ]
     }
   ],
   "notes": [
-    "The instructions on this card stop after preparing the pan - mixing, baking and syrup steps are missing; check whether a reverse side or another card exists."
+    "The instructions on this card stop after preparing the pan - mixing, baking and syrup steps are missing; check whether a reverse side or another card exists.",
+    "After the final period there is a small hooked mark (like a check mark or a small 'ט'); it may be a 'continued' sign, but its meaning is not clear.",
+    "The card gives '(100 גר')' for both the 1 cup of ground almonds and the 1/2 cup of chopped blanched almonds; this is transcribed as written.",
+    "The tin size '26' appears to be written twice (once at the end of the line and once again just above it); recorded once."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -56,25 +59,31 @@
   "uncertainties": [
     {
       "field": "source",
-      "text": "יהודית שח...",
+      "text": "יהודית שח[?]",
       "best_guess": null,
-      "reason": "The slash and name are cut off by the card edge after 'שח'."
+      "reason": "The surname runs off the top-left edge of the card after 'שח'."
     },
     {
-      "field": "instructions[0]",
+      "field": "ingredients[1].items[0]",
+      "text": "סחוט [?]",
+      "best_guess": "טרי",
+      "reason": "Last word at the left edge of the line is written in a cramped cursive; 'טרי' (fresh) fits the shapes and context but the letters are not certain."
+    },
+    {
+      "field": "ingredients[1].items[1]",
+      "text": "[?] כוס סוכר",
+      "best_guess": "1",
+      "reason": "The quantity before 'כוס סוכר' in the syrup is a single looped glyph that runs into the fraction on the line above; most like her '1', but could be '1/2' (the earlier reading) or '4'."
+    },
+    {
+      "field": "instructions[0].steps[0]",
       "text": "([?])",
-      "best_guess": "temperature in degrees",
-      "reason": "A parenthetical after 'בינוני' is smudged."
-    },
-    {
-      "field": "ingredients[5]",
-      "text": "1/2 כוס (100 גר')",
-      "best_guess": null,
-      "reason": "Gram figure may be a different number; the same '100' appears for 1 cup and 1/2 cup, which looks inconsistent."
+      "best_guess": "180°",
+      "reason": "Oven temperature in parentheses is partly overwritten with heavy ink; reads most like '180' with a degree sign."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
