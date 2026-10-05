@@ -1,11 +1,11 @@
 {
   "id": "b03-r06",
   "batch": 3,
-  "title": "תערובת בשר [?]",
+  "title": "תערובת הודו, אורז",
   "source": {
     "text": "חיה",
     "type": "person",
-    "as_written": "[?] / חיה",
+    "as_written": "חיה",
     "uncertain": false
   },
   "medium": "handwritten",
@@ -13,7 +13,7 @@
     {
       "group": null,
       "items": [
-        "250 גר' בשר - ([?])"
+        "250 גר' הודו ([?])"
       ]
     }
   ],
@@ -52,12 +52,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "top line",
-      "best_guess": "Gemini: תערובת בשר ואורז (rice not seen on the card)",
-      "reason": "'תערובת בשר' is readable; the rest of the top line before the slash is not."
-    },
-    {
       "field": "ingredients",
       "text": "250 גר' בשר - ([?])",
       "best_guess": "Gemini: בשר טחון (או תחליף סויה); not confirmed",
@@ -71,7 +65,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
