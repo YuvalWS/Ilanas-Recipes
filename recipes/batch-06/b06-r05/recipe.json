@@ -1,0 +1,77 @@
+{
+  "id": "b06-r05",
+  "batch": 6,
+  "title": "דגים ממולאים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 1 [?] בצלים קטנות [?] [?]",
+        "2 ביצים [?] [?] 1 חלמון [?]",
+        "כ 3 כפות [?] גדושות [?]",
+        "1 [?] קטן [?] [?] רסק [?] [?]",
+        "מעט [?]",
+        "1-2 כפות סוכר [?] [?] [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] סוכר",
+        "להוסיף [?] התערובת",
+        "[?] מים",
+        "[?] [?] ל[?]",
+        "[?] קטן [?] [?]",
+        "לערבב [?] ל[?] [?]",
+        "[?] כ 1/2 שעה [?]",
+        "[?] 3 כפות סוכר, פלפל"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Heading is underlined and the card begins with a weight line and handwritten page-number-like digits at the top right; the rest is a list of quantities. The page is the same hand as scan 04."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-06.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "דגים ממולאים",
+      "best_guess": "דגים ממולאים",
+      "reason": "Heading read as 'דגים ממולאים' - fairly clear but verify."
+    },
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Quantities partly unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Lines partly unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
