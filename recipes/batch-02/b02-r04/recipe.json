@@ -1,0 +1,89 @@
+{
+  "id": "b02-r04",
+  "batch": 2,
+  "title": "עוגיות במילוי [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 קמח אוסם",
+        "1 מרגרינה",
+        "3 חלמונים",
+        "1/4 כוס מים",
+        "2 כפות חומץ"
+      ]
+    },
+    {
+      "group": "left bracket (ללוש ...)",
+      "items": [
+        "[?] [?] [?]",
+        "[?] [?]",
+        "[?] [?]",
+        "[?] [?] [?]",
+        "[?] [?] במילוי"
+      ]
+    },
+    {
+      "group": "מילוי",
+      "items": [
+        "3 חלבונים",
+        "1 [?] אינסטנט וניל",
+        "3/4 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ללוש ... [?] ולמקרר כ-12 שעות",
+        "להקציף ולמשוח [?]",
+        "לחלק הבצק ל-4 חלקים [?] ולפזר [?]",
+        "[?] לפזר ... אבקת סוכר"
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [
+    "Printed Holiday Inn Select logo and footer 'FOR RESERVATIONS 1-800-HOLIDAY' (hotel notepad paper)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-04.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגיות במילוי [?]",
+      "best_guess": null,
+      "reason": "Last word of the title is unclear (starts with 'ס')."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "left bracket",
+      "best_guess": null,
+      "reason": "The side note listing kneading steps is not readable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Only isolated phrases read: 'כ-12 שעות', '3 חלבונים', 'אבקת סוכר'."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
