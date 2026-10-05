@@ -11,7 +11,7 @@
         "1 כף חרדל",
         "לימון קטן סחוט",
         "פחות מ-1/2 כוס חומץ",
-        "[ditto] שמן",
+        "פחות מ-1/2 כוס שמן",
         "מלח, פילפל"
       ]
     }
@@ -20,13 +20,13 @@
     {
       "group": null,
       "steps": [
-        "לשפוך [?] [?] לכל [?] הסלט"
+        "לשפוך [?] [?] לכל הסלט"
       ]
     }
   ],
   "notes": [
-    "The ditto marks on the fourth line stand for the quantity above ('פחות מ-1/2 כוס'), so presumably 'less than 1/2 cup oil'.",
-    "A bracket on the left groups the ingredients with a three-word note, of which only 'לשפוך' and 'היטב' seem readable."
+    "ditto marks expanded (fourth ingredient line: the quantity 'פחות מ-1/2 כוס' is copied from the line above).",
+    "A bracket on the left groups the ingredients with a handwritten note: 'בצנצנת לנער היטב' (in a jar, shake well). The first word is read with moderate certainty (agrees with Gemini's reading)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -44,29 +44,17 @@
       "field": "title",
       "text": "(none)",
       "best_guess": null,
-      "reason": "No title."
-    },
-    {
-      "field": "ingredients[3]",
-      "text": "[ditto] שמן",
-      "best_guess": "פחות מ-1/2 כוס שמן",
-      "reason": "Ditto marks - the quantity is inferred from the line above."
+      "reason": "No title on the card (Gemini's title 'רוטב לסלט בצנצנת' is not written on it)."
     },
     {
       "field": "instructions[0]",
-      "text": "לשפוך [?] [?] לכל [?] הסלט",
-      "best_guess": null,
-      "reason": "Several words unclear."
-    },
-    {
-      "field": "notes",
-      "text": "bracket words",
-      "best_guess": null,
-      "reason": "Word at the top of the bracket note unreadable."
+      "text": "לשפוך [?] [?] לכל הסלט",
+      "best_guess": "second word looks like 'במן'/'בזמן', third like 'קצר'/'קצת'; Gemini has no matching line",
+      "reason": "Two words in the line below the list are unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
