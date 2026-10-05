@@ -1,0 +1,78 @@
+{
+  "id": "b02-r09",
+  "batch": 2,
+  "title": "רפרפת שזיפים וצימוקים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המצרכים ל-6 מנות",
+      "items": [
+        "1/2 ק\"ג שזיפים יבשים מגולענים",
+        "100 גרם צימוקים",
+        "1 1/2 כוסות מים",
+        "מיץ לימון לטעם",
+        "1/2 כוס יין אדום מתוק",
+        "סוכר לטעם"
+      ]
+    },
+    {
+      "group": "לקצפות חלבון (ב')",
+      "items": [
+        "2 חלבונים",
+        "קורט מלח",
+        "2 כפות סוכר",
+        "מים לבישול + 2 כפות חומץ"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "רוחצים את השזיפים, חותכים לחצאים ומבשלים עם הצימוקים והמים על להבה נמוכה עד להתרכותם.",
+        "מוסיפים מיץ לימון, מצננים מעט ומעבירים לממחה. מערבלים עד לקבלת מחית חלקה ואחידה.",
+        "מחזירים את המחית לסיר, מוסיפים את היין, הסוכר ומרתיחים כ-3 דקות. טועמים ומשפרים את הטעם.",
+        "א. עם קצפת: מקציפים את השמנת בתוספת סוכר ומערבבים עם מחית השזיפים.",
+        "ב. עם קצפות חלבון: מקציפים את החלבונים בתוספת קורט מלח, מוסיפים סוכר בהדרגה עד לקבלת קצף יציב ומוצק. מרתיחים כ-3 כוסות מים בסיר שטוח בתוספת חומץ. מעבירים בכף מקצף החלבונים למים הרותחים ומבשלים כ-4 דקות עד להתקשות הקצף. מוציאים בכף מחוררת ומניחים על מחית השזיפים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed under the heading 'רפרפת שזיפים וצימוקים' on the right-hand side of the clipping, together with the dried-fruit platter article (entered separately). The first words of the cream (שמנת מתוקה) ingredient line at the top of the middle column are cut off."
+  ],
+  "incidental_text": [
+    "Address block: דיזנגוף 166 ת\"א, מיקוד 64589, טל' 03-5230055"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-08.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[1]",
+      "text": "לקצפות חלבון (ב')",
+      "best_guess": null,
+      "reason": "The list for option ב' appears in the middle column above the method; the matching list for option א' (cream) is cut off at the top edge."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "עד להתרכותם",
+      "best_guess": "עד להתרככותם",
+      "reason": "The printed word looks like 'להתרכותם' (probably a typo for softening)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
