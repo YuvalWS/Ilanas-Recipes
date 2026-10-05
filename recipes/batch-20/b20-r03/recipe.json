@@ -41,30 +41,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[3]",
-      "text": "חרדל דיז'ון",
-      "best_guess": null,
-      "reason": "The first letter of 'דיז'ון' is small and could be read as ר."
-    },
-    {
-      "field": "ingredients.עוד אפשר",
-      "text": "3 פילה אנשובי",
-      "best_guess": null,
-      "reason": "The word 'פילה' and the 'ו־1' that follows are small and crowded."
-    },
-    {
-      "field": "source",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No source or publication visible."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
