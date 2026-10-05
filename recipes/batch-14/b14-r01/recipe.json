@@ -6,14 +6,14 @@
     "text": "אביה",
     "type": "person",
     "as_written": "אביה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 [?] קמח אוסם קטן",
+        "1 קמח אוסם קטן",
         "2/3 כוס שמן",
         "1 לבן 3%"
       ]
@@ -27,7 +27,7 @@
         "[?] [?] [?] [?]",
         "[?] קמח",
         "[?] [?] [?]",
-        "1/2 קילו ממרח תמרים לפזר",
+        "1/2 קופסה ממרח תמרים לפזר",
         "[?] כוס מים [?] [?] [?]",
         "[?] [?] [?]",
         "(side 2) להניח על [?]",
@@ -73,12 +73,6 @@
       "reason": "Word hidden by a torn edge and stains."
     },
     {
-      "field": "source",
-      "text": "אביה",
-      "best_guess": "אביה",
-      "reason": "Name after the slash at top of side 1; clear but may be a partial word (torn edge)."
-    },
-    {
       "field": "ingredients[0]",
       "text": "1 [?] קמח אוסם קטן",
       "best_guess": null,
@@ -116,7 +110,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
