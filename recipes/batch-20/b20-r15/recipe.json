@@ -9,10 +9,10 @@
       "group": null,
       "items": [
         "1/2 כרוב לפרוס",
-        "[?] [?] לימון?",
-        "2 [?] קטנות",
-        "1/2 כפית סוכר [?]",
-        "1 [?] [?] [?]"
+        "1 בצל בינוני",
+        "2 בטטות קטנות",
+        "1/2 כפית סוכר לבן",
+        "1 כף א. מרק מרגיל"
       ]
     }
   ],
@@ -36,50 +36,20 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "ingredients[0]",
-      "text": "1/2 כרוב לפרוס",
-      "best_guess": null,
-      "reason": "'כרוב לפרוס' is clear; the fraction in the margin is read as 1/2."
-    },
-    {
-      "field": "ingredients[1]",
-      "text": "[?] [?] לימון?",
-      "best_guess": null,
-      "reason": "Unreadable except possibly 'לימון'."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "2 [?] קטנות",
-      "best_guess": null,
-      "reason": "Item unreadable."
-    },
-    {
-      "field": "ingredients[3]",
-      "text": "1/2 כפית סוכר [?]",
-      "best_guess": null,
-      "reason": "Last word unclear."
-    },
-    {
-      "field": "ingredients[4]",
-      "text": "1 [?] [?] [?]",
-      "best_guess": null,
-      "reason": "Unreadable."
-    },
-    {
       "field": "title",
-      "text": "(none)",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "No title written."
+      "reason": "No written heading."
     },
     {
-      "field": "source",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No source written."
+      "field": "ingredients[0].items[4]",
+      "text": "מרגיל",
+      "best_guess": "רגיל",
+      "reason": "Final powder word/brand uncertain."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
