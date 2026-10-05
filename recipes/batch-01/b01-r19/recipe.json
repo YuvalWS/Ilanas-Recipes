@@ -15,11 +15,11 @@
       "items": [
         "6 ביצים מופרדות",
         "להקציף חלבון + 1 כוס סוכר",
-        "[?] [?]",
+        "לקציפה קשה",
         "6 חלמונים + 1 כוס סוכר",
         "1/2 כוס שמן [?] [?]",
         "[?] [?] [?] 3/4 כוס",
-        "[?] - מיץ [?] ([?])",
+        "[?] - מיץ תפוזים ([?])",
         "[?] [?] [?] [?]",
         "[?] [?]",
         "2 כוסות קמח תופח"
@@ -30,7 +30,8 @@
   "notes": [
     "Title 'עוגה' and source 'שרה ...' are on the top line, separated by a slash.",
     "The card is a single running list mixing ingredients and method lines (e.g. 'להקציף חלבון + 1 כוס סוכר'); it is kept in card order under ingredients. A horizontal line divides the card; two hard-to-read lines below it (probably method) precede '2 כוסות קמח תופח', which ends the card at the bottom edge. No baking temperature/time is written.",
-    "A second-opinion transcription (gemini_transcribtion.txt) adds full method steps, vanilla/rum and 'קמח אוסם'; most of that is not visible on the card and was not used except as best_guess where partly consistent with the crops."
+    "A second-opinion transcription (gemini_transcribtion.txt) adds full method steps, vanilla/rum and 'קמח אוסם'; most of that is not visible on the card and was not used except as best_guess where partly consistent with the crops.",
+    "Independent reread confirmed לקציפה קשה and תפוזים; other shaky words remain flagged."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,12 +50,6 @@
       "text": "שרה [?]",
       "best_guess": "שרה רט (own reading) / שרה רוט (Gemini)",
       "reason": "Surname after 'שרה' is 2-3 shaky letters; 'ר' then a ט-like letter; a 'ו' is not clearly visible."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "[?] [?]",
-      "best_guess": "לקציפה קשה",
-      "reason": "Shaky line under the egg-white line; letters only partly identifiable."
     },
     {
       "field": "ingredients[4]",
@@ -88,7 +83,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
