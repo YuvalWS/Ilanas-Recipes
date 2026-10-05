@@ -1,0 +1,80 @@
+{
+  "id": "b02-r05",
+  "batch": 2,
+  "title": "אגוזים וצימוקים בשוקולד",
+  "source": {
+    "text": "שרה נגלר, מקרית מוצקין (קוראת \"לאשה\")",
+    "type": "publication",
+    "as_written": "הגברת שרה נגלר, מקריית-מוצקין, ממליצה על עוגיות ... | \"לאשה\" גליון מספר 2492 | 16.1.95",
+    "uncertain": false
+  },
+  "medium": "mixed",
+  "ingredients": [
+    {
+      "group": "החומרים לכ-25 יחידות",
+      "items": [
+        "100 גרם צימוקים",
+        "1/2 כוס ברנדי",
+        "100 גרם שוקולד מריר",
+        "100 גרם מרגרינה",
+        "100 גרם אגוזים גרוסים",
+        "עטרות-נייר (מס' 2)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "1. שורים את הצימוקים בברנדי, יום קודם להכנה.",
+        "2. בקלחת בינונית שמים את השוקולד ואת המרגרינה, שופתים על להבה בינונית וממסים. מסננים את הברנדי ומוסיפים את הצימוקים אל השוקולד המומס. מוסיפים את האגוזים ומערבבים לעיסה אחידה.",
+        "3. מסדרים עטרות-נייר על מגש וממלאים אותן בעיסה בעזרת כפית. מאחסנים במקפיא."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed introduction: Mrs. Sara Nagler of Kiryat Motzkin recommends cookies that need little work; the raisins should be soaked in brandy a day before and the cookies stored in the freezer (נמסר: יש להשרות את הצימוקים בברנדי יום לפני ההכנה וכן לאחסן את העוגיות במקפיא).",
+    "The title is handwritten above the clipping; a vertical handwritten line to the right of the ingredients is unreadable."
+  ],
+  "incidental_text": [
+    "Printed 'הערה' box about the cup size (200 ml; 1 cup flour = 115 g, 1 cup sugar = 200 g) - partly hidden under tape/foil at the left edge",
+    "לאשה, issue 2492, 16.1.95"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-05.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "ingredients[1]",
+      "text": "1/2 כוס ברנדי",
+      "best_guess": null,
+      "reason": "The fraction in the printed list is small and partly blurred."
+    },
+    {
+      "field": "notes",
+      "text": "vertical handwriting",
+      "best_guess": null,
+      "reason": "A handwritten line along the right side of the ingredient list is not legible."
+    },
+    {
+      "field": "incidental_text",
+      "text": "הערה box",
+      "best_guess": null,
+      "reason": "The box is partly covered by tape/foil, so its text was not transcribed."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
