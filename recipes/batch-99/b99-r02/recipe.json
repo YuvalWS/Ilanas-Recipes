@@ -1,0 +1,74 @@
+{
+  "id": "b99-r02",
+  "batch": 99,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג שקדים [?] [?]",
+        "[?] [?] [?] [?]",
+        "שקדים [?]",
+        "[?] [?] 400 (לטחון x 2)",
+        "[?] 400",
+        "[?] 400"
+      ]
+    },
+    {
+      "group": "בלוק שני (מתחת לקו)",
+      "items": [
+        "[?] שקדים 750",
+        "תפוחים [?]",
+        "[?] 350",
+        "[?] 250"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Photograph (not a scan) of a small ruled memo card held in a hand, found later and added by the owner; looks like a list of ingredients with gram quantities in a right-hand column, a curly bracket with 'לטחון x 2' (grind twice) next to lines 4-5, and a second list under a horizontal line. Several quantities are overwritten. Not rotated. Possibly a cookie/marzipan-type recipe, but this is a guess and not on the card.",
+    "Digitization remark: no method text is visible; the card may continue on the back, which was not photographed."
+  ],
+  "incidental_text": [
+    "Another card is stuck behind it with tape at the top; a hand and a chair are visible in the photo."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/3edb1f7b-image.jpg",
+      "original_path": "(photo sent in chat 2026-10-05) 3edb1f7b-image.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "תבוסות?",
+      "best_guess": null,
+      "reason": "Title at the top right is cut by the taped corner and unreadable."
+    },
+    {
+      "field": "ingredients",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Shaky blue-pen handwriting in a photo; most words and the overwritten digits (500/400/750/250/350) are doubtful. Please check against the physical card."
+    },
+    {
+      "field": "instructions",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No method visible; the back of the card was not photographed."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_photo",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

@@ -3,8 +3,8 @@
   "title": "סריקות בודדות (ללא תיקייה)",
   "title_en": "Loose scans (no batch folder)",
   "title_status": "ai_suggested",
-  "description": "Two scans found loose in the root of the scan folder, belonging to one recipe.",
+  "description": "Loose items: two scans found in the root of the scan folder (one recipe), plus one photographed card found later.",
   "scan_folder": "(root folder, no Batch)",
-  "scan_count": 2,
-  "recipe_count": 1
+  "scan_count": 3,
+  "recipe_count": 2
 }
