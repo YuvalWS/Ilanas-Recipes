@@ -27,7 +27,8 @@
     }
   ],
   "notes": [
-    "Title and a second word in a different (blue) pen are written above a wavy line; the second word is smudged."
+    "The title is written above a wavy dividing line. 'קציצות עוף' is mostly in a light-blue pen (some strokes retraced in dark blue); the last word at the top-left corner is in dark blue and its left end runs into the card edge.",
+    "The last word of the title may be a source/place (e.g. a butcher's shop) rather than part of the dish name; it is kept in the title until verified."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -44,18 +45,18 @@
     {
       "field": "title",
       "text": "קציצות עוף [?]",
-      "best_guess": "הקבבים",
-      "reason": "The word after 'קציצות עוף' (at the top left) is not readable; it may be 'הקבבים'."
+      "best_guess": "הקצבים",
+      "reason": "Dark-blue word at the top-left corner, partly at the card edge. Letters appear to be ה-ק-(צ or ב)-(ב or ה)-י-ם; read as 'הקצבים' (the butchers) or, as in the previous reading, 'הקבבים'. Not certain."
     },
     {
       "field": "instructions[0].steps[0]",
       "text": "לערבב ו[?] [?]",
       "best_guess": null,
-      "reason": "The last line is written very small; the first word is 'לערבב', the rest is unreadable."
+      "reason": "Last line: 'לערבב' is clear. The second word starts with ו and contains a ש with a י, ending in a letter with a descender (ק/ח/ת?); the third word looks like ב-צ-ק ('בצק'?) followed by a comma. No sensible reading could be confirmed."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
