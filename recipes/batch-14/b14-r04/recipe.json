@@ -8,9 +8,9 @@
     {
       "group": null,
       "items": [
-        "1 שקדים פרוסים [?]",
+        "1 שקדים פרוסים – שקית",
         "1 חלבון",
-        "2 וניל [?]",
+        "2 וניל",
         "1/2 כוס סוכר"
       ]
     }
@@ -19,14 +19,15 @@
     {
       "group": null,
       "steps": [
-        "לערבב, לשמן נייר [?]",
-        "ולאפות [?] 10-12 ד'"
+        "לערבב, לשמן נייר",
+        "ולתנור 10–12 ד׳"
       ]
     }
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Memo sheet of a concrete company (ישראבטון תעשיות בטון בע\"מ, רח' הבונים 2, רמת גן 52462, tel 03-5757211, fax 03-5758222) with a logo of a cement truck at the bottom. The title 'עוגיות שקדים' has a wavy underline. The first ingredient line is followed by a dash and a word that is unclear.",
-    "Quantities have no units for the first three items; none were added."
+    "Quantities have no units for the first three items; none were added.",
+    "Independent reread: שקית follows the sliced almond line; vanilla is written 2 וניל with no unit, so no invented packets. No temperature given."
   ],
   "incidental_text": [
     "Printed letterhead: ישראבטון תעשיות בטון בע\"מ, address, tel and fax; truck logo"
@@ -39,36 +40,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[0]",
-      "text": "1 שקדים פרוסים [?]",
-      "best_guess": null,
-      "reason": "A word after the dash is unclear (maybe a second type of almond)."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "2 וניל [?]",
-      "best_guess": null,
-      "reason": "Item (vanilla sugar? essence?) and unit not stated."
-    },
-    {
-      "field": "instructions[0]",
-      "text": "לשמן נייר [?]",
-      "best_guess": null,
-      "reason": "Words after 'לשמן נייר' unclear."
-    },
-    {
-      "field": "instructions[1]",
-      "text": "10-12 ד'",
-      "best_guess": null,
-      "reason": "Read as 10-12 minutes; the digits are cramped."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
