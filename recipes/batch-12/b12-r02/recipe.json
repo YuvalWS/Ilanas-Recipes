@@ -8,10 +8,10 @@
     {
       "group": null,
       "items": [
-        "[?] שיני שום [?] [?]",
+        "5 שיני שום כתוש",
         "1 כף פפריקה",
         "1 כפית כמון",
-        "1/2 [?] סילן",
+        "1/4 כוס סילן",
         "2 כפות שמן זית",
         "מלח, פפריקה [?]"
       ]
@@ -62,7 +62,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
