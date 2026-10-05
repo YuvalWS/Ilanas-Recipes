@@ -1,0 +1,84 @@
+{
+  "id": "b02-r03",
+  "batch": 2,
+  "title": "טורט פרג",
+  "source": null,
+  "medium": "mixed",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "8 ביצים מופרדות",
+        "250 גרם פרג טחון",
+        "250 גרם אגוזי מלך קצוצים גס",
+        "125 גרם אבקת סוכר",
+        "125 גרם סוכר",
+        "250 גרם מרגרינה",
+        "קליפת לימון מגוררת"
+      ]
+    },
+    {
+      "group": "למילוי",
+      "items": [
+        "ריבה באיכות טובה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מקציפים מרגרינה עם אבקת סוכר.",
+        "מוסיפים לאט חלמונים ומקציפים היטב.",
+        "מקציפים לחוד חלבונים עם סוכר.",
+        "מקפלים בעדינות חלבונים מוקצפים לתערובת החלמונים.",
+        "מוסיפים אגוזים ופרג, מקפלים ומעבירים לתבנית קפיצית מס' 28.",
+        "(handwritten) אופים [?] ... [?] שעה, [?]",
+        "(handwritten) [?] חותכים [?] ממלאים בריבה [?] ... [?] אבקת סוכר"
+      ]
+    }
+  ],
+  "notes": [
+    "Printed recipe card with a handwritten addition under the printed text about baking and filling."
+  ],
+  "incidental_text": [
+    "Printed page number 24"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-03.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[5]",
+      "text": "handwritten line 1",
+      "best_guess": null,
+      "reason": "Handwriting at the bottom edge is cramped; temperature and time cannot be read reliably."
+    },
+    {
+      "field": "instructions[6]",
+      "text": "handwritten lines 2-3",
+      "best_guess": null,
+      "reason": "Words about cutting/filling with jam and powdered sugar are partly legible only."
+    },
+    {
+      "field": "source",
+      "text": null,
+      "best_guess": null,
+      "reason": "The printed card does not name a source (it looks like a page torn from a booklet)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
