@@ -8,18 +8,18 @@
     {
       "group": null,
       "items": [
-        "4 כוסות קמח רגיל (להשאיר [?])",
+        "4 כוסות קמח רגיל (להשאיר [?] כוס)",
         "5 כפות סוכר",
         "40 גר' שמרים",
         "1/2 חבילה מרגרינה",
-        "1/2 [?]",
-        "קורט מלח",
+        "1/2 חבילה גולדבנד",
+        "קורט מלח [?]הקמח",
         "1 ביצה",
         "2 חלמונים",
         "2 כפות שמנת",
         "1 [?]",
-        "1/8 כוס מי [?]",
-        "1/8 כוס מים"
+        "1/8 כוס מי סודה",
+        "1/2 כוס מים"
       ]
     },
     {
@@ -27,7 +27,7 @@
       "items": [
         "1/2 [?] קמח",
         "1/2 [?] מרגרינה",
-        "1/4 כוס סוכר"
+        "1/[?] כוס סוכר"
       ]
     }
   ],
@@ -35,15 +35,35 @@
     {
       "group": null,
       "steps": [
-        "[?] את השמרים [?] ... [?] עם הסוכר [?] ... [?] להמיס [?] ...",
-        "ללוש בצק, אם צריך להוסיף קמח, [?] [?]",
-        "[?] ולהשאיר שיתפח [?]. למרוח מעט מחלבונים [?].",
-        "[?] פירורים: [?] קמח [?] מרגרינה [?] סוכר [?] להוסיף קמח וסוכר [?] לפזר [?]."
+        "[?] את השמרים ומעט [?]",
+        "[?] ([?]) ו[?] כוס [?] לערבב [?]",
+        "[?] [?] [?] להשאיר [?]",
+        "ההתפחה עד שעולה [?] מלא [?]",
+        "גומה בקמח ולשפוך את השמרים",
+        "ו[?] את הקמח [?] המרגרינה",
+        "ביצים [?] לערבב עם השמרים",
+        "[?] לערבב ו[?] המרגרינה",
+        "ללוש בצק, אם צריך להוסיף קמח, להכניס לפריג'ידר ללילה",
+        "לחלק ל-4 חלקים, לרדד על 1/2 כוס קמח [?] מלא [?]",
+        "לגלגל ולהשאיר שיתפחו",
+        "למרוח מעט מחלבונים [?] הגלילים."
+      ]
+    },
+    {
+      "group": "פירורים",
+      "steps": [
+        "אם צריך להוסיף קמח וסוכר",
+        "[?] את [?]"
       ]
     }
   ],
   "notes": [
-    "Two-sided card: the front (page marked 108) holds the ingredients; the back (page marked 109) holds the method and the crumb topping. The grouping rests on the shared handwriting, the paper and the page numbers 108 / 109."
+    "Two-sided card: the front (page marked 108) holds the ingredients and the first lines of the method (yeast, well in the flour); the back (page marked 109) continues the method and gives the crumb topping. The grouping rests on the shared handwriting, the paper and the page numbers 108 / 109.",
+    "Ditto marks expanded: in '1/2 חבילה גולדבנד' the tick under 'חבילה' repeats the word from the row above; 'גולדבנד' is circled on the card.",
+    "A curly bracket after '2 חלמונים' is followed by what looks like 'מס 2' (reading unclear; Gemini also read 'מס' 2'); its meaning is not stated on the card.",
+    "A bracket joins the lines '1/8 כוס מי סודה' and '1/2 כוס מים' and is followed by the word 'פושרים' (lukewarm), i.e. apparently applying to both liquids.",
+    "In the crumb section, part of the first line (after the flour) is struck through on the card; the lines were hard to separate.",
+    "Gemini's transcription contains items not seen on the card and ignored here: vanilla, 'וניל', 1 cup crumb sugar, 10 minutes of proofing, baking temperature/time details."
   ],
   "incidental_text": [
     "Handwritten page numbers: 108 (front), 109 (back)"
@@ -69,23 +89,47 @@
       "field": "title",
       "text": "עוגת שמרים עם פירורים",
       "best_guess": null,
-      "reason": "The title line is small and smudged; 'שמרים' and 'פירורים' are consistent with the ingredients but the first word could differ."
+      "reason": "The title line is small and smudged; Gemini reads the same words, and 'שמרים' / 'פירורים' fit the recipe."
     },
     {
       "field": "ingredients",
-      "text": "several lines",
-      "best_guess": null,
-      "reason": "Handwriting shaky; a bracketed note after the flour and the item beside '1/2' are unreadable."
+      "text": "להשאיר [?] כוס",
+      "best_guess": "Gemini: 1 כוס; my view: the glyph looks like a fraction, possibly 1/2",
+      "reason": "Quantity in the bracket after the flour is unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "קורט מלח [?]הקמח",
+      "best_guess": "Gemini: 'קורט מלח + וניל' (does not match the ink); earlier reading: 'קורט מלח'",
+      "reason": "After 'מלח' the card seems to say 'הקמח' (possibly 'ל' + 'הקמח'); the exact wording is unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "1 [?]",
+      "best_guess": "Gemini: 1/2 כוס חלב / מים; earlier reading: unreadable",
+      "reason": "Underlined line after the 2 tablespoons of cream; I see a plain 1 and one or two short words."
+    },
+    {
+      "field": "ingredients",
+      "text": "פירורים: 1/2 [?] קמח / 1/2 [?] מרגרינה",
+      "best_guess": "Gemini: flour 'as needed', 1/2 package margarine",
+      "reason": "Units after the fractions are unclear and part of the line is struck through."
+    },
+    {
+      "field": "ingredients",
+      "text": "1/[?] כוס סוכר",
+      "best_guess": "Gemini: 1 כוס; earlier reading: 1/4",
+      "reason": "Stacked fraction with a 1 on top and a small denominator that could be 2, 3 or 4."
     },
     {
       "field": "instructions",
-      "text": "all paragraphs",
+      "text": "most lines",
       "best_guess": null,
-      "reason": "Only isolated phrases can be read."
+      "reason": "Only the clear words are written out; Gemini's fuller sentences are not visible on the card."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
