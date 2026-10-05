@@ -14,19 +14,20 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] כוסות [?] ירוקים [?]",
-        "[?] [?] [?] חסה ו[?]",
-        "[?]ות [?]דים",
+        "[?] [?] [?]",
+        "[?] [?], חמוציות וגזר",
+        "[?] [?]",
         "[?] [?] [?] [?]",
         "[?] [?] [?] [?] ובכוסות",
         "[?] [?] 1 [?] [?] [?] בצל",
         "[?] [?] [?] ירוק [?] [?]ים",
-        "רוטב: [?] [?] כיבת [?]"
+        "רוטב: [?] [?]ות ריבת משמש"
       ]
     }
   ],
   "notes": [
-    "Square-ish card with a construction-company letterhead; a name (probably the source) is written in blue at the upper left. Lines list a mixture of vegetables ('חסה', 'בצל' and 'ירוק' appear) and the last line starts with 'רוטב:' (dressing). Mostly unreadable."
+    "Square-ish card with a construction-company letterhead; a name (probably the source) is written in blue at the upper left. A list of salad ingredients, last line 'רוטב:' (dressing) with 'ריבת משמש' (apricot jam). Most of the list remains unreadable.",
+    "The file 'gemini_transcribtion.txt' describes a different recipe (apple salad with mayonnaise) and was disregarded; 'gemini_transcribtion (1).txt' matches this card."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company group"
@@ -43,26 +44,26 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "סלט תערובת ירקות",
-      "best_guess": "סלט תערובת ירקות",
-      "reason": "Title is stretched and partly unclear; read as 'סלט תערובת ירקות'."
-    },
-    {
       "field": "source",
       "text": "blue name at the upper left",
-      "best_guess": null,
-      "reason": "Unreadable."
+      "best_guess": "Gemini: חיה; not confirmed on the ink",
+      "reason": "Handwriting unclear."
     },
     {
       "field": "instructions",
-      "text": "all",
+      "text": "lines 1-7 (ingredient list)",
+      "best_guess": "Gemini's list (order and line breaks not confirmed): חסות שונות בויניגרט; פטריות טריות; חמוציות; גזר; אגוזים; עגבניות שרי; אפרסמון; משמשים מיובשים; שקדים; דובדבנים יבשים; קולרבי; סלק חי מגורר. Our earlier reading also saw '1 ... בצל' and 'ירוק', which Gemini does not list.",
+      "reason": "Most words unreadable; Gemini's list is only partly consistent with the ink."
+    },
+    {
+      "field": "instructions",
+      "text": "last line: word(s) between 'רוטב:' and 'ריבת'",
       "best_guess": null,
-      "reason": "Most words unreadable."
+      "reason": "Overwritten/scribbled word and a word ending in 'ות'. Gemini wrote 'ריבת תאנים [mixed with vinegar, oil, spices]', but the card clearly reads 'משמש' (apricot), and the rest is not on the card."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
