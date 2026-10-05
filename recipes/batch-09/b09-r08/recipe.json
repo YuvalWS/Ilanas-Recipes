@@ -13,6 +13,15 @@
         "2-4 שיני שום מרוסקות",
         "2 גזרים בינוניים [?] לקוביות"
       ]
+    },
+    {
+      "group": "המשך בכרטיס הראשון",
+      "items": [
+        "1 רסק עגבניות",
+        "4 כוסות מים רותחים",
+        "1 כפית מלח",
+        "1 כף אבקת מרק"
+      ]
     }
   ],
   "instructions": [
@@ -28,15 +37,16 @@
         "(reverse side) 2-4 שיני שום מרוסקות",
         "(reverse side) 2 גזרים בינוניים [?] לקוביות",
         "(reverse side) [?] [?] [?] ולהוסיף",
-        "(front) [?] [?] [?] [?] [?] [?]",
-        "(front) [?] [?] [?] [?]"
+        "(front) 1 רסק עגבניות, 4 כוסות מים רותחים, 1 כפית מלח, 1 כף אבקת מרק",
+        "(front) להרתיח ולבשל 2–2½ שעות"
       ]
     }
   ],
   "notes": [
     "Photographed (not flatbed-scanned) orange sticky card lying on top of other printed clippings (beef recipes). The scans are phone-style photos at an angle. Scan 09 is the side with the heading: a circled word at the top, then a line that starts with 'בת/פת' and has a long unreadable word (maybe a name or dish), then two numbers written as a list (a short number and a long digit string, which looks like a phone number and is deliberately not transcribed), then about 4 lines of dense script that cannot be read.",
     "Scan 10 (rotated 90 degrees clockwise to be upright) shows the card's other side: a beef-stew-like method (fry beef cubes in hot oil, add flour, paprika, crushed garlic, diced carrots...). Its text is mostly legible but several words are not, so it is transcribed in order with [?]. The ingredient items listed above are lifted from that side as they are written there (2 tbsp flour, 2 tbsp paprika, 2-4 cloves garlic, 2 medium carrots).",
-    "The assumption that the two photos are the two sides of the same card is based on the matching orange card; it could also be the same side photographed twice. Please verify."
+    "The assumption that the two photos are the two sides of the same card is based on the matching orange card; it could also be the same side photographed twice. Please verify.",
+    "First scan viewed rotated 180° in a scratch copy: upper handwritten block is recipe continuation; lower phone/address-style note is incidental. Raw scan unchanged."
   ],
   "incidental_text": [
     "Surrounding printed clippings (not part of the recipe)",
@@ -85,7 +95,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
