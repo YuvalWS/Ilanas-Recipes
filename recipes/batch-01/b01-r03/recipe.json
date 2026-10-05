@@ -24,7 +24,7 @@
     {
       "group": "לסירופ",
       "items": [
-        "2 1/2 כוסות מיץ תפוזים סחוט [?]",
+        "2 1/2 כוסות מיץ תפוזים סחוט טרי",
         "[?] כוס סוכר"
       ]
     }
@@ -43,7 +43,8 @@
     "The instructions on this card stop after preparing the pan - mixing, baking and syrup steps are missing; check whether a reverse side or another card exists.",
     "After the final period there is a small hooked mark (like a check mark or a small 'ט'); it may be a 'continued' sign, but its meaning is not clear.",
     "The card gives '(100 גר')' for both the 1 cup of ground almonds and the 1/2 cup of chopped blanched almonds; this is transcribed as written.",
-    "The tin size '26' appears to be written twice (once at the end of the line and once again just above it); recorded once."
+    "The tin size '26' appears to be written twice (once at the end of the line and once again just above it); recorded once.",
+    "Last word of the syrup juice line ('טרי') sits cramped at the left edge of the card; read as 'טרי' (consistent with the ink and with Gemini's independent reading)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -60,30 +61,24 @@
     {
       "field": "source",
       "text": "יהודית שח[?]",
-      "best_guess": null,
-      "reason": "The surname runs off the top-left edge of the card after 'שח'."
-    },
-    {
-      "field": "ingredients[1].items[0]",
-      "text": "סחוט [?]",
-      "best_guess": "טרי",
-      "reason": "Last word at the left edge of the line is written in a cramped cursive; 'טרי' (fresh) fits the shapes and context but the letters are not certain."
+      "best_guess": "Gemini: יהודית ש. (initial only); earlier reading: שח... cut off at the card edge",
+      "reason": "The surname runs off the top-left edge of the card after 'שח'; two letters are visible and Gemini shows only one initial, so the surname cannot be confirmed."
     },
     {
       "field": "ingredients[1].items[1]",
       "text": "[?] כוס סוכר",
-      "best_guess": "1",
-      "reason": "The quantity before 'כוס סוכר' in the syrup is a single looped glyph that runs into the fraction on the line above; most like her '1', but could be '1/2' (the earlier reading) or '4'."
+      "best_guess": "Gemini: 1; earlier reading: 1 (could also be 1/2 or 4)",
+      "reason": "The quantity before 'כוס סוכר' in the syrup is a single looped glyph that runs into the fraction on the line above; on the zoomed crop the closed loop at its base also resembles a '4', so it is not certain."
     },
     {
       "field": "instructions[0].steps[0]",
       "text": "([?])",
-      "best_guess": "180°",
-      "reason": "Oven temperature in parentheses is partly overwritten with heavy ink; reads most like '180' with a degree sign."
+      "best_guess": "Gemini: 180; earlier reading: 180°",
+      "reason": "Oven temperature in parentheses is partly overwritten with heavy ink; the digits look like 180 but the last digit is smudged, so not certain."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
