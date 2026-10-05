@@ -1,0 +1,90 @@
+{
+  "id": "b01-r12",
+  "batch": 1,
+  "title": "עוגת תפוחים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כוסות תפוחים חתוכים לקוביות קטנות.",
+        "להשרות את התפוחים ביין או שרי לחצי שעה.",
+        "150 גר' צימוקים",
+        "להוסיף:"
+      ]
+    },
+    {
+      "group": "לערבב",
+      "items": [
+        "2 כוסות קמח אוסם",
+        "1/2 כוס שמן",
+        "3 ביצים",
+        "קליפת לימון מגורדת",
+        "1 1/4 כוסות סוכר"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "חצי מ-100 גר' אגוזים קצוצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשים את חצי הבצק בתבנית משומנת ומקומחת.",
+        "לפזר למעלה את שאר האגוזים וקינמון.",
+        "(לאפות בחום בינוני בתחתית התנור)",
+        "מקציפים החלבונים עם סוכר ווניל בהדרגה [?] ... את חצי [?] ... ביחד בחום בינוני כ-[?] דק' עד שהקצף מזהיב."
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-11.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת תפוחים",
+      "best_guess": "עוגת תפוזים/תפוחים",
+      "reason": "Title is small; body text says 'תפוחים'."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "150 גר' צימוקים",
+      "best_guess": null,
+      "reason": "Quantity digits unclear (could be 150 or 250)."
+    },
+    {
+      "field": "ingredients[2].items[0]",
+      "text": "חצי מ-100 גר' אגוזים",
+      "best_guess": null,
+      "reason": "Phrase looks unusual; reading uncertain."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "last paragraph",
+      "best_guess": null,
+      "reason": "Some words in the final paragraph are illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
