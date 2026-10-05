@@ -8,11 +8,11 @@
     {
       "group": null,
       "items": [
-        "2 כפות [?] קורנפלור",
-        "[?] כפות שמן [?] [?]",
+        "2 כפות גדוש קורנפלור",
+        "2 כפות שמן זית",
         "2 כפות [?] [?]",
         "1/4 [?] [?]",
-        "כפית כמון",
+        "1/2 כפית כמון",
         "מלח, פלפל שחור [?]"
       ]
     }
@@ -68,7 +68,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
