@@ -1,0 +1,94 @@
+{
+  "id": "b09-r08",
+  "batch": 9,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כפות קמח",
+        "2 כפות פפריקה",
+        "2-4 שיני שום מרוסקות",
+        "2 גזרים בינוניים [?] לקוביות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "(reverse side) [?] קוביות [?] לטגן חם בשמן",
+        "(reverse side) [?] [crossed-out word] [?]",
+        "(reverse side) [?] ולהוסיף הבשר [?]",
+        "(reverse side) [?] 2 כפות קמח, לטגן מעט",
+        "(reverse side) [?] בחום ([?] 2 כפות)",
+        "(reverse side) 2 כפות פפריקה",
+        "(reverse side) 2-4 שיני שום מרוסקות",
+        "(reverse side) 2 גזרים בינוניים [?] לקוביות",
+        "(reverse side) [?] [?] [?] ולהוסיף",
+        "(front) [?] [?] [?] [?] [?] [?]",
+        "(front) [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Photographed (not flatbed-scanned) orange sticky card lying on top of other printed clippings (beef recipes). The scans are phone-style photos at an angle. Scan 09 is the side with the heading: a circled word at the top, then a line that starts with 'בת/פת' and has a long unreadable word (maybe a name or dish), then two numbers written as a list (a short number and a long digit string, which looks like a phone number and is deliberately not transcribed), then about 4 lines of dense script that cannot be read.",
+    "Scan 10 (rotated 90 degrees clockwise to be upright) shows the card's other side: a beef-stew-like method (fry beef cubes in hot oil, add flour, paprika, crushed garlic, diced carrots...). Its text is mostly legible but several words are not, so it is transcribed in order with [?]. The ingredient items listed above are lifted from that side as they are written there (2 tbsp flour, 2 tbsp paprika, 2-4 cloves garlic, 2 medium carrots).",
+    "The assumption that the two photos are the two sides of the same card is based on the matching orange card; it could also be the same side photographed twice. Please verify."
+  ],
+  "incidental_text": [
+    "Surrounding printed clippings (not part of the recipe)",
+    "A handwritten number string on the front (not transcribed)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-09.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2153-10.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-10.jpg",
+      "rotation_applied_cw_degrees": 90,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "circled word at top of scan 09",
+      "best_guess": null,
+      "reason": "Unreadable (looks like a short word in a loop)."
+    },
+    {
+      "field": "title",
+      "text": "second line of scan 09",
+      "best_guess": null,
+      "reason": "Long first word after a short word is unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "scan 10 lines",
+      "best_guess": null,
+      "reason": "Many words unreadable; the structure (frying cubes, flour, paprika, garlic, carrots) is the part that is visible."
+    },
+    {
+      "field": "raw_files",
+      "text": "scans 09/10 relation",
+      "best_guess": null,
+      "reason": "Assumed to be the two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
