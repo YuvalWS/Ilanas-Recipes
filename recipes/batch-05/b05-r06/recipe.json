@@ -22,7 +22,7 @@
     {
       "group": null,
       "steps": [
-        "לערבב ו[?] [?]"
+        "לערבב ולהניח בצד"
       ]
     }
   ],
@@ -48,16 +48,10 @@
       "text": "קציצות עוף [?]",
       "best_guess": "Gemini: 'הודו אדום / חיה' (rejected: does not match the ink, which ends in ...ים at the card edge); earlier readings: 'הקצבים' or 'הקבבים'",
       "reason": "Dark-blue word at the top-left corner, partly at the card edge. Letters appear to be ה-ק-(צ or ב)-(ב or ה)-י-ם; read as 'הקצבים' (the butchers) or, as in the previous reading, 'הקבבים'. Not certain."
-    },
-    {
-      "field": "instructions[0].steps[0]",
-      "text": "לערבב ו[?] [?]",
-      "best_guess": "Gemini: 'ולנוח קצת' (not confirmed: second word has a ש-shape and no נ; the third word ends with a descender ק on its left end, so it is not 'קצת'); earlier reading: 'ו?ש?ק בצק'",
-      "reason": "Last line: 'לערבב' is clear. The second word starts with ו and contains a ש with a י, ending in a letter with a descender (ק/ח/ת?); the third word looks like ב-צ-ק ('בצק'?) followed by a comma. No sensible reading could be confirmed."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
