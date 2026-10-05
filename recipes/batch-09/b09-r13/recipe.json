@@ -1,0 +1,51 @@
+{
+  "id": "b09-r13",
+  "batch": 9,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "[?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Memo card of a contracting company (printed letterhead with phone/fax at the bottom). Five very large, loosely formed lines, none of which can be read reliably. Needs a human who knows Ilana's late handwriting."
+  ],
+  "incidental_text": [
+    "Printed company letterhead at the bottom edge"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-17.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-17.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Nothing readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
