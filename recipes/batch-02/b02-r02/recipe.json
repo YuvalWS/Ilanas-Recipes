@@ -3,7 +3,7 @@
   "batch": 2,
   "title": "בצק לפטיפורים",
   "source": {
-    "text": "שומרי משקל (דיאט)",
+    "text": "דיאט / שומרי משקל",
     "type": "publication",
     "as_written": "דיאט / שומרי משקל",
     "uncertain": false
@@ -11,7 +11,7 @@
   "medium": "clipping",
   "ingredients": [
     {
-      "group": "המרכיבים (30 מנות, כ-40 קלוריות למנה)",
+      "group": "המרכיבים",
       "items": [
         "4 ביצים, מופרדות",
         "1/3 כוס סוכר",
@@ -27,10 +27,10 @@
       ]
     },
     {
-      "group": "מילית קצפת בטעם שוקולד (תוספת של כ-35 קלוריות למנה)",
+      "group": "מלית קצפת בטעם שוקולד (תוספת של כ-35 קלוריות למנה)",
       "items": [
-        "קצפת \"ריץ'\" בטעם שוקולד (צמחית, מופחתת קלוריות וללא שומן רווי)",
-        "מעט פתיתי שוקולד לפיזור"
+        "קצפת \"ריץ'\" בטעם שוקולד",
+        "מעט פתיתי שוקולד"
       ]
     }
   ],
@@ -41,19 +41,28 @@
         "1. מניחים בתבנית דף אפייה. כך אין צורך לשמן את התבנית, והעוגה לא נדבקת ונשברת כשמוציאים אותה.",
         "2. מקציפים את החלבונים עם הסוכר.",
         "3. טורפים את החלמונים ומוסיפים להם 3-2 כפות מהקצף. מוסיפים בתנועות קיפול לקצף.",
-        "4. בקערה נפרדת מערבבים את הקמח עם הקורנפלור ומקפלים לאט לאט לתוך הקצף. לבסוף יוצקים את השמן בזילוף איטי ומערבבים.",
+        "4. בקערה נפרדת מערבבים את הקמח עם הקורנפלור ומקפלים לאט לאט לתוך הקצף. לבסוף יוצקים את השמן בזילוף איטי, ומערבבים.",
         "5. שוטחים בתבנית ואופים בתנור בחום בינוני (180 מעלות) עד שהבצק מזהיב וקיסם שננעץ בתוכו יוצא יבש.",
-        "7. מצננים ומוציאים מהתבנית. מקלפים בזהירות את נייר האפייה. [?] את הפטיפורים [?], כך העוגה נחתכת טוב יותר."
+        "7. מצננים ומוציאים מהתבנית. מקלפים בזהירות את נייר האפייה. את הפטיפורים חותכים למחרת, כך העוגה נחתכת טוב יותר."
+      ]
+    },
+    {
+      "group": "מלית קצפת בטעם שוקולד (תוספת של כ-35 קלוריות למנה)",
+      "steps": [
+        "למלית הפטיפורים אפשר להשתמש בקצפת \"ריץ'\" בטעם שוקולד, שהיא צמחית, מופחתת קלוריות וללא שומן רווי. מעל הקצפת אפשר לפזר מעט פתיתי שוקולד.",
+        "אם תרצו, אפשר לקשט את הפטיפורים בפרי טרי (תותים, למשל), מעליהם לצקת ג'לי חם, ואחר כך לקרר. תוספת הקלור- [?]"
       ]
     }
   ],
   "notes": [
-    "Multi-column clipping. Right column: the recipe header and ingredients. Left: method, the chocolate-whipped-cream filling idea, an introductory paragraph, and the beginning of another recipe ('סלסלות') that is cut off by the left edge of the scan (not transcribed).",
-    "Tip printed in the filling box: the petits fours can be decorated with fresh fruit (e.g. strawberries) under glazed cream, then chilled."
+    "Printed under the title: (30 מנות, כ-40 קלוריות למנה)",
+    "Multi-column magazine clipping. Right column: logos, title and ingredients; middle columns: utensils, method, the chocolate-whipped-cream filling box, and an introductory paragraph; far-left column: the end of another recipe ('סלסלות') cut off by the left edge of the scan (not transcribed).",
+    "The filling ingredients ('קצפת \"ריץ'\" בטעם שוקולד', 'מעט פתיתי שוקולד') are not a printed list; they were extracted verbatim from the filling paragraph."
   ],
   "incidental_text": [
     "Magazine logos: דיאט, שומרי משקל",
-    "Introductory paragraph about calories and the choice of a basic petit-four dough (partly cut off), not transcribed"
+    "Introductory paragraph (fully legible, not part of the recipe): 'קינוחים בכלל ועוגות בפרט הם האיום הממשי על כוח העמידה שלנו ועל השמירה על המשקל...' - explains that the classic petit-four recipe has about 170 calories per piece, a diet version 45-75 calories, and that the author chose a different basic petit-four dough, simpler and lower in calories than 'המתכון של מגי'.",
+    "Far-left column: end of a different recipe titled 'סלסלות' (meringue baskets), cut off by the scan edge"
   ],
   "raw_files": [
     {
@@ -64,29 +73,23 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "medium",
+  "confidence": "high",
   "uncertainties": [
     {
-      "field": "instructions",
+      "field": "instructions[0]",
       "text": "step numbering 5 -> 7",
       "best_guess": null,
-      "reason": "There is no step 6 on the clipping; a column of text at the left edge is cut off."
+      "reason": "There is no step 6 anywhere on the clipping; the printed method jumps from 5 to 7 (either a printing error or a missing piece). Check the original clipping."
     },
     {
-      "field": "instructions[5]",
-      "text": "את הפטיפורים [?]",
-      "best_guess": null,
-      "reason": "A word in the last step is hard to read."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "מילית קצפת",
-      "best_guess": null,
-      "reason": "The filling items were summarized from the paragraph under the heading, not from a list."
+      "field": "instructions[1].steps[1]",
+      "text": "תוספת הקלור- [?]",
+      "best_guess": "תוספת הקלוריות ...",
+      "reason": "The filling tip continues past the bottom of the column ('תוספת הקלור-' is hyphenated) and the rest is not on the scan."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
