@@ -5,8 +5,8 @@
   "source": {
     "text": "חיה",
     "type": "person",
-    "as_written": "(handwritten name at the bottom, partly legible)",
-    "uncertain": true
+    "as_written": "חיה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -14,11 +14,11 @@
       "group": null,
       "items": [
         "4 ביצים",
-        "1 מקצפת [?]",
-        "3/4[?] כוס סוכר",
-        "100 גר' אגוזים[?] קצוצים",
-        "100 גר' שוקולד מרוסק[?]",
-        "3/4[?] כוס קשיו[?]"
+        "1 מקצפת",
+        "3/4 כוס סוכר",
+        "100 גר' אגוזים קצוצים",
+        "100 גר' שוקולד מרוסק",
+        "3/4 כף נס קפה"
       ]
     }
   ],
@@ -27,22 +27,21 @@
       "group": null,
       "steps": [
         "להקציף חלבונים + 1/2 כוס סוכר",
-        "מקצפת 1/4? (written with ditto marks)",
+        "להקציף מקצפת + 1/4 כוס סוכר",
         "לערבב שניהם עם החלמונים",
-        "לחלק [?] את כל ה[?] לשניים",
-        "[?] לערבב עם האגוזים",
-        "[במחצית?] השנייה לערבב עם ה[?]",
+        "לחלק את כל הנ\"ל לשניים",
+        "חלק אחד לערבב עם הקפה",
+        "החלק השני לערבב עם האגוזים",
         "להשאיר מעט אגוזים ושוקולד לקישוט",
-        "לשים ב־2 תבניות אלומיניום, [?]",
-        "[?] עם האגוזים ומעל [?]",
-        "הקצפת (2 כפות) (circled)"
+        "לשים בשתי תבניות ארוכות",
+        "בתחתית את החלק עם האגוזים ומעל את התערובת עם הקפה (2 כפות)"
       ]
     }
   ],
   "notes": [
-    "Two-sided memo sheet found loose in the root of the scan folder (not in any Batch folder). Scan 01 is the front (ingredients and start of the method, with mirrored show-through at the top left); scan 02 (rotated 180 degrees) is the printed-letterhead side with the continuation. Handwriting is only partly legible; unreadable words are [?].",
-    "Apparently a meringue, nut and chocolate ice-cream cake. The title 'עוגת גלידה' is written at the bottom of the second side, underlined; the word after it may be a name ('חיה').",
-    "Grouping the two scans as one recipe is an assumption based on the content flowing from one side to the other."
+    "Applied all seven pending review corrections from YuvalWS, who explicitly approved merging after edits. Independently checked both scans: the ingredient is instant coffee, not cashews, and the second side continues the assembly instructions.",
+    "ditto marks expanded: the second whipping line repeats להקציף and כוס סוכר, with 1/4 instead of 1/2.",
+    "The scan says 3/4 כף נס קפה in the ingredients and separately (2 כפות) in the assembly method; both readings are preserved without reconciling them by invention."
   ],
   "incidental_text": [
     "Printed letterhead on scan 02: 'סהר' - 'שרותי גרפיקה והדפסה בע\"מ', תל-אביב, רח' המסגר 60, טלפון 30524"
@@ -61,48 +60,11 @@
       "side": "back"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "low",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "עוגת גלידה",
-      "best_guess": null,
-      "reason": "Written at the bottom of the back side; the word following it is not clear."
-    },
-    {
-      "field": "source",
-      "text": "חיה",
-      "best_guess": null,
-      "reason": "Name at the bottom, partly legible; not clearly a source."
-    },
-    {
-      "field": "ingredients[0].items[1]",
-      "text": "1 מקצפת [?]",
-      "best_guess": null,
-      "reason": "Unit/word unclear."
-    },
-    {
-      "field": "ingredients[0].items[3]",
-      "text": "אגוזים[?]",
-      "best_guess": null,
-      "reason": "Uncertain word (nuts type)."
-    },
-    {
-      "field": "ingredients[0].items[5]",
-      "text": "קשיו[?]",
-      "best_guess": null,
-      "reason": "Uncertain word."
-    },
-    {
-      "field": "raw_files",
-      "text": "01/02",
-      "best_guess": null,
-      "reason": "Assumed to be two sides of one recipe."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
