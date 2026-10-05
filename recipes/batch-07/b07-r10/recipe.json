@@ -6,25 +6,24 @@
     "text": "נורית",
     "type": "person",
     "as_written": "נורית",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "חסה",
-        "[?] צנוניות",
-        "פרוסות פטריות [?]",
-        "עגבניות [?]",
+        "חצאי [?] עגבניות",
+        "פרוסות פטריות טריות",
+        "[?] קלופים",
         "פטרוזיליה",
-        "בצל ירוק [?]"
+        "פרוסות בצל ירוק [?]"
       ]
     }
   ],
   "instructions": [],
   "notes": [
-    "Underlined title 'סלט חסה / נורית' under a construction-company letterhead. The list is a mix of vegetables; the later lines are only partly readable."
+    "Underlined title 'סלט חסה / נורית' under a construction-company letterhead. Five ingredient lines; there is no separate line for lettuce on the card (Gemini's 'חסה', quantities, 'קצוץ', sugared pecans and dressing line are not on the card and were not used)."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company group"
@@ -38,23 +37,29 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "נורית",
-      "best_guess": "נורית",
-      "reason": "Name after the slash read as 'נורית' (possibly 'נוכרית'/other)."
+      "field": "ingredients[0]",
+      "text": "חצאי [?] עגבניות",
+      "best_guess": "Gemini: 2 עגבניות; earlier reading: שפי; looks like 'שני'",
+      "reason": "Second word unclear."
     },
     {
-      "field": "ingredients",
-      "text": "all lines",
-      "best_guess": null,
-      "reason": "Only some words are readable; quantities (if any) not clear."
+      "field": "ingredients[2]",
+      "text": "[?] קלופים",
+      "best_guess": "שקדים (own reading); Gemini: פקאנים מסוכרים (inconsistent with 'קלופים' and the ink)",
+      "reason": "First word is shaky."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "פרוסות בצל ירוק [?]",
+      "best_guess": "Gemini: קצוץ; earlier reading looks like 'שלם'/'שלום' (ends in a closed round letter, not ץ)",
+      "reason": "Last word unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
