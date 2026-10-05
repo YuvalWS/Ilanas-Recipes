@@ -1,0 +1,74 @@
+{
+  "id": "b07-r05",
+  "batch": 7,
+  "title": "רוטב [?]",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כוס מים",
+        "1 כוס חומץ",
+        "1 כף שמן",
+        "סוכר",
+        "[?] מלח [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Yellow memo card with a construction-company letterhead. Title: 'רוטב' + a second word that is not clear, then '/ חיה'."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company (logo, phone/fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-05.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "רוטב [?]",
+      "best_guess": "רוטב גבינה",
+      "reason": "The second word of the title is unclear."
+    },
+    {
+      "field": "source",
+      "text": "חיה",
+      "best_guess": "חיה",
+      "reason": "Name after the slash is partly legible."
+    },
+    {
+      "field": "ingredients[0]",
+      "text": "1 כוס מים",
+      "best_guess": null,
+      "reason": "'מים' is not perfectly clear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "[?] מלח [?]",
+      "best_guess": null,
+      "reason": "Last line only partly readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
