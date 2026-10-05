@@ -42,12 +42,6 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "פלפל ממולא",
-      "best_guess": "פלפל ממולא",
-      "reason": "Handwritten title may not match the printed list (the first ingredient may be cabbage)."
-    },
-    {
       "field": "source",
       "text": "(none)",
       "best_guess": null,
