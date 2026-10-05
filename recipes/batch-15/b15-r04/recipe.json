@@ -1,12 +1,12 @@
 {
   "id": "b15-r04",
   "batch": 15,
-  "title": "קוגל [אטריות?]",
+  "title": "קוגל אטריות",
   "source": {
-    "text": "רחלה",
+    "text": "רוחלה",
     "type": "person",
-    "as_written": "רחלה",
-    "uncertain": true
+    "as_written": "רוחלה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -15,7 +15,7 @@
       "items": [
         "1/4 כוס שמן (להשחים בסיר ולקרר)",
         "1/4 כוס סוכר - 4 כפות [?]",
-        "5 כוסות מים רותחות",
+        "4 כוסות מים רותחים",
         "2 כפיות מלח מחוקות",
         "1 1/2 כפית פלפל",
         "1/4 כוס סוכר"
@@ -52,18 +52,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "קוגל [אטריות?]",
-      "best_guess": "קוגל אטריות",
-      "reason": "Second word unclear (maybe 'אטריות', consistent with the instruction 'מכניסים האטריות')."
-    },
-    {
-      "field": "source",
-      "text": "רחלה",
-      "best_guess": "רחלה",
-      "reason": "Read as a first name."
-    },
-    {
       "field": "ingredients[1]",
       "text": "1/4 כוס סוכר - 4 כפות [?]",
       "best_guess": null,
@@ -77,7 +65,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
