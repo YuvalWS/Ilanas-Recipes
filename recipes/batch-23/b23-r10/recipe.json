@@ -5,13 +5,13 @@
   "source": {
     "text": "חיה",
     "type": "person",
-    "as_written": "(after a slash next to the title)",
-    "uncertain": true
+    "as_written": "חיה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": "להמיס (bracket)",
+      "group": "להמיס",
       "items": [
         "150 גר' שוקולד מריר",
         "4 חלמונים",
@@ -19,10 +19,10 @@
       ]
     },
     {
-      "group": "להקציף (bracket)",
+      "group": "להקציף",
       "items": [
         "6 חלבונים",
-        "2 כפות סוכר"
+        "2 כפיות סוכר"
       ]
     }
   ],
@@ -30,14 +30,14 @@
     {
       "group": null,
       "steps": [
-        "[?] ביסקויט, [?] התערובת",
-        "[?] ביסקויטים ומלה",
+        "לרפד בביסקויט, לצקת התערובת",
+        "להניח ביסקויטים למעלה",
         "ולהכניס לפריזר."
       ]
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Title read as 'קסטה' (possibly a cassata-style cake)."
+    "Applied YuvalWS’s two pending method corrections and independently checked the full scan. Title קסטה and source חיה are clear. Sugar reads 2 כפיות (teaspoons), correcting Claude’s tablespoons. Bracket instructions להמיס and להקציף preserved."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -48,30 +48,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "קסטה",
-      "best_guess": null,
-      "reason": "Short word; reading is likely but not certain."
-    },
-    {
-      "field": "source",
-      "text": "חיה",
-      "best_guess": null,
-      "reason": "Name after a slash next to the title."
-    },
-    {
-      "field": "instructions",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
