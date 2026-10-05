@@ -63,12 +63,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "צלי עגל",
-      "best_guess": "צלי עגל",
-      "reason": "Read as 'צלי עגל'."
-    },
-    {
       "field": "instructions",
       "text": "most lines",
       "best_guess": null,
