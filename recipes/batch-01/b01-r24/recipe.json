@@ -1,0 +1,79 @@
+{
+  "id": "b01-r24",
+  "batch": 1,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "4 ביצים גדולות",
+        "1/4 כוס פירורי [?] מבושל",
+        "1/2 כוס [?]",
+        "1 כוס [?] דקיקים [?]",
+        "2 בצלים ירוקים קטנים",
+        "1-2 [?] [?]",
+        "1/2 כפית מלח",
+        "1/4 כפית פלפל שחור",
+        "מעט פפריקה חריפה",
+        "1 כפית יין [?]",
+        "5 כפות שמן זית"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שמים בקערה הביצים [?] ומקציפים בתנועות קלות.",
+        "מוסיפים את החומרים והירקות קצוצים בביצה.",
+        "מחממים שמן במחבת גדולה [?] כ-1/4 [?] [?] [?].",
+        "[?] 2 [?] גדולות [?]",
+        "[?] 2 דק' [?] [?] [?]",
+        "[?] כל הצד הגדולה."
+      ]
+    }
+  ],
+  "notes": [
+    "No title is written. The ingredients (eggs, spring onions, olive oil, paprika) suggest a savory dish, not a cake; I did not name the dish."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-25.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-25.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "No title is written on the card (the first line is '4 ביצים גדולות')."
+    },
+    {
+      "field": "ingredients",
+      "text": "lines 2-4, 6, 10",
+      "best_guess": null,
+      "reason": "Small, slanted handwriting."
+    },
+    {
+      "field": "instructions",
+      "text": "paragraph",
+      "best_guess": null,
+      "reason": "Words are very compressed and partly torn at the right edge."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
