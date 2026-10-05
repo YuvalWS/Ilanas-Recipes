@@ -1,0 +1,86 @@
+{
+  "id": "b03-r03",
+  "batch": 3,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כפות דבש",
+        "[?] חרדל דיג'ון [?]",
+        "[?] שמן זית [?]",
+        "1/2 [?] מלח",
+        "מעט פלפל שחור",
+        "[?] פפריקה מתוקה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] כ-5 [?]",
+        "ולהוסיף שני שום",
+        "למרוח [?] המרינדה [?] בשרי",
+        "לעטוף [?]",
+        "[?] [?] [?] רוזמרין",
+        "[?] [?] עלי [?]",
+        "[?] [?] [?] בתנור [?]",
+        "[?] ל-2 שעות",
+        "[?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "A marinade-style card; the top row has a small ruled box with several short items that are not readable. A line at the top, above the first ingredient, looks like a heading or hint and is unreadable.",
+    "Faint bleed-through of writing from the reverse side is visible on the paper."
+  ],
+  "incidental_text": [
+    "Printed footer: איטונג - איכות חיים לכל החיים (Itung company logo/slogan)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-04.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "top line",
+      "best_guess": null,
+      "reason": "The first line (possibly a title or an ingredient) is unreadable."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Many words and amounts are partly or fully unreadable; the item order follows the card."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Instruction lines are only partly legible; the words רוזמרין (rosemary) and 'ל-2 שעות' look right but are not 100% sure."
+    },
+    {
+      "field": "source",
+      "text": "none found",
+      "best_guess": null,
+      "reason": "No person's name is visible, but the reverse side is not in the scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
