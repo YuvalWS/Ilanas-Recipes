@@ -1,0 +1,77 @@
+{
+  "id": "b11-r14",
+  "batch": 11,
+  "title": "מרק עדשים",
+  "source": {
+    "text": "(newspaper strip, masthead partly cut)",
+    "type": "unknown",
+    "as_written": "—",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המצרכים ל-6 מנות",
+      "items": [
+        "250 גרם עדשים (1 1/2 כוסות)",
+        "6 כוסות מים",
+        "בצל בינוני-גדול",
+        "2 שיני שום",
+        "2 כפות שמן",
+        "גזר קטן, חתוך לקוביות",
+        "תפוח אדמה קטן, חתוך לקוביות",
+        "2 כפיות מלח",
+        "1/4 כפית פלפל שחור",
+        "כפית כמון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הבנה",
+      "steps": [
+        "מנקים את העדשים, שוטפים אותן, שמים בסיר, מכסים במים, מביאים לרתיחה, מקטינים את החום ומבשלים ללא מלח בסיר מכוסה.",
+        "בינתיים, מטגנים במחבת נפרדת, בשמן, את הבצל והשום רק עד להתרככות, בלי להשחים. מוסיפים את הגזר ותפוח האדמה ומטגנים יחד כמה דקות.",
+        "מוסיפים את הבצל והירקות המטוגנים אל העדשים. מוסיפים גם את המלח, פלפל השחור והכמון. ממשיכים לבשל כחצי שעה, עד שהעדשים מתרככות לגמרי.",
+        "טועמים ומתקנים את התיבול. מועכים מעט את העדשים ותפוחי האדמה בכנגד דפנות הסיר, כדי להסמיך את המרק. מגישים חם. אפשר להוסיף לכל צלחת כפית של חמאה מתובלת בשום (של כליל בגליל) והמרק עולה כיתה."
+      ]
+    }
+  ],
+  "notes": [
+    "Narrow printed newspaper strip with a perforated red frame. The masthead at the top is only partly visible ('...תכון יומי', maybe a daily-menu column); no date. The step about crushing the lentils says 'בכנגד' in print (probably 'כנגד').",
+    "The last sentence refers to a garlic butter from a place called 'כליל בגליל' (as read). The step headline 'הבנה' is printed 'הכנה' (preparation); the printed word is faint.",
+    "The step text was transcribed from a narrow strip; the wording is as printed but the second half of step 4 is cramped."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-15.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "Masthead partly cut; the name cannot be confirmed."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "בכנגד / (של כליל בגליל)",
+      "best_guess": null,
+      "reason": "Typo-like wording and a place name read as printed; please check against the scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
