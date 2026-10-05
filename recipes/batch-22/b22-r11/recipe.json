@@ -1,0 +1,81 @@
+{
+  "id": "b22-r11",
+  "batch": 22,
+  "title": "עוגת גבינה [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "בצק",
+      "items": [
+        "כוס קמח תופח",
+        "חבילה גולדברג? [?]",
+        "ביצה",
+        "כוס סוכר"
+      ]
+    },
+    {
+      "group": "מילוי?",
+      "items": [
+        "חבילות גבינה שמנה = 1/2 ק\"ג (9%)",
+        "חלמונים",
+        "סוכר וניל",
+        "כפות קורנפלור או קמח",
+        "כוס סוכר",
+        "[?] 1 כוס חלב"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] ומניחים בתבנית משומנת",
+        "[?] לשפוך על הבצק",
+        "לתנור למשך כ-40 דקות בחום בינוני",
+        "[?] החלבונים [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. "
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-10.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
