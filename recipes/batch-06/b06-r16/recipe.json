@@ -4,24 +4,36 @@
   "title": null,
   "source": null,
   "medium": "handwritten",
-  "ingredients": [],
+  "ingredients": [
+    {
+      "group": "בקערה",
+      "items": [
+        "2 כפות מיונז",
+        "2 כפות קטשופ",
+        "פלפל שחור גרוס",
+        "מעט מלח",
+        "1 [?] [?] רוזמרין",
+        "״ יין לבן [?]"
+      ]
+    }
+  ],
   "instructions": [
     {
       "group": null,
       "steps": [
-        "[?] [?] 2 [?] כפות [?]",
-        "[?] 2 [?] [?]",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?] [?]",
+        "כפיות [?] [?]",
         "[?] [?] [?] [?]",
-        "[?] [?] [?] [?] [?]",
-        "(card continues, unreadable)"
+        "[?] [?] [?] [?]",
+        "חום רגיל כ-15 דקות."
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Yellow card with a torn corner and staples. Only the number 2 and a few word shapes are recognisable."
+    "Yellow memo card with a torn corner and staples. No title and no source on the card. It starts 'בקערה:' (in a bowl) and lists ingredients line by line, followed by method lines.",
+    "Ditto marks expanded: '2 ״ קטשופ' = '2 כפות קטשופ' (the mark sits under 'כפות' of the line above). The ditto mark opening the 'יין לבן' line was not expanded because the words above it are unreadable.",
+    "Gemini's line 5 ('1 כף שמן זית') was NOT adopted: the ink clearly ends with 'רוזמרין'. Gemini's 'חום בינוני' was NOT adopted: the ink reads 'חום רגיל'. Gemini's title, 'לערבב הכל ביחד', 'פרוסות הדג', 'שקדים טחונים', 'לבישול' and temperature were not confirmed on the card.",
+    "The faint writing around the card is bleed-through from the reverse side and is ignored.",
+    "Handwriting in the lower lines is cramped; a human re-read is recommended."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -36,14 +48,44 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Nothing readable with confidence."
+      "field": "ingredients[4]",
+      "text": "1 [?] [?] רוזמרין",
+      "best_guess": "Gemini: 1 כף שמן זית (does not match the ink); earlier reading: none",
+      "reason": "Only 'רוזמרין' (rosemary) at the end of the line is clear; the words between the '1' and 'רוזמרין' are unreadable."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "״ יין לבן [?]",
+      "best_guess": "Gemini: 1 כף יין לבן לבישול (second Gemini file: 1 \" יין לבן בישול)",
+      "reason": "'יין לבן' is readable, preceded by a ditto mark whose referent is unclear, and followed by a word that may be 'לבישול'/'בישול'."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "כפיות [?] [?]",
+      "best_guess": "Gemini: לערבב הכל ביחד (does not fit: first word reads 'כפיות')",
+      "reason": "Line 7 starts with 'כפיות'; the rest is unreadable."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "[?] x4",
+      "best_guess": "Gemini: למרוח על פרוסות הדג",
+      "reason": "Starts probably with 'ולמרוח'; words not readable one by one."
+    },
+    {
+      "field": "instructions[2]",
+      "text": "[?] x4",
+      "best_guess": "Gemini: ולפזר מעל שקדים טחונים",
+      "reason": "Line ends with '...ים'; words not readable one by one."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "כ-15",
+      "best_guess": "Gemini: 15",
+      "reason": "Digits agree with Gemini and the ink looks like '15', but the numeral is small and shaky."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
