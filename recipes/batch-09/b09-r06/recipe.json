@@ -6,7 +6,7 @@
     "text": "מוטי",
     "type": "person",
     "as_written": "מוטי",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [],
@@ -15,10 +15,10 @@
       "group": null,
       "steps": [
         "[?] מס' 5",
-        "בסיר: 3 גזרים, 1 [?] שלמה, 1 ראש שום שלם",
+        "בסיר: 3 גזרים, 1 עגבניה שלמה, 1 ראש שום שלם",
         "עם הקליפה, פלפל, פפריקה",
         "1/3 מים, לבשל עד שמתרכך.",
-        "[?] שעה לפני הסוף לשים",
+        "רבע שעה לפני הסוף לשים",
         "[?] [?] [?] 1/4 כוס",
         "מים רותחים [?]",
         "להוסיף לסיר."
@@ -45,28 +45,10 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "מוטי",
-      "best_guess": "מוטי",
-      "reason": "Name after the slash read as 'מוטי'."
-    },
-    {
       "field": "instructions[0]",
       "text": "[?] מס' 5",
       "best_guess": null,
       "reason": "First word unclear; the number 5 seems clear."
-    },
-    {
-      "field": "instructions[1]",
-      "text": "1 [?] שלמה",
-      "best_guess": null,
-      "reason": "Item before 'שלמה' unclear (a whole vegetable, maybe 'חצילה'/'בצלה')."
-    },
-    {
-      "field": "instructions[4]",
-      "text": "[?] שעה לפני הסוף לשים",
-      "best_guess": "רבע שעה לפני הסוף לשים",
-      "reason": "Quantity word before 'שעה' unclear (probably 'רבע')."
     },
     {
       "field": "instructions[5]",
@@ -76,7 +58,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
