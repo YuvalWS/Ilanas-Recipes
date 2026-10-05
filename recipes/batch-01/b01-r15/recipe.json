@@ -4,8 +4,8 @@
   "title": "טורט עם קקאו וקינמון",
   "source": {
     "text": "[?]",
-    "type": "person",
-    "as_written": "עוגה ומה/ש... [?]",
+    "type": "unknown",
+    "as_written": "עוגה [?] / [?]",
     "uncertain": true
   },
   "medium": "handwritten",
@@ -17,11 +17,12 @@
         "3/4 כוס סוכר",
         "4 כפות קקאו",
         "2 כפות קמח תופח",
-        "מעט קינמון מחול במים (2 כפות או 3 כפות מים)"
+        "מעט קינמון מחול במים",
+        "(3 כפות [?] 2 כפות מים)"
       ]
     },
     {
-      "group": "לקרם",
+      "group": "למילוי",
       "items": [
         "1 אינסטנט וניל",
         "1 כוס חלב",
@@ -37,9 +38,9 @@
     {
       "group": "הכנה",
       "steps": [
-        "להקציף חלבונים, להוסיף לאט סוכר, להוסיף החלמונים, חלב חם, [?] הקקאו והקמח ולאפות בחום בינוני.",
-        "להרכיב את העוגה בקרם [?] , [?] הקרם [?] בכל [?] שוקולד [?].",
-        "[?] מרגרינה [?] חלב ו[?] [?] מרגרינה."
+        "להקציף חלבונים, להוסיף לאט סוכר, להוסיף החלמונים ולבחוש [?] הקקאו והקמח ולאפות בחום בינוני.",
+        "להרטיב את העוגה בקינמון, לצפות בקרם של אינסטנט, [?] הקרם [?] בכל צידי [?].",
+        "שוקולד [?] [?] [?] [?] כפות חלב ורבע חב' מרגרינה."
       ]
     }
   ],
@@ -57,26 +58,38 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "טורט עם קקאו וקינמון",
-      "best_guess": null,
-      "reason": "Title is clear; the text to its left (probable source) is not."
+      "field": "source",
+      "text": "עוגה [?] / [?]",
+      "best_guess": "עוגה ומגית / ש...ב",
+      "reason": "Text written left of the title (after a wide gap). First word looks like 'עוגה'; the second word looks like 'ומגית' (or 'ומגיש'), and the word after the slash starts like 'ש' and ends with 'ב' but the middle letters are unreadable. Unclear whether it is a person (source) or a subtitle, so type is 'unknown'."
     },
     {
-      "field": "source",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Name after the title is unclear."
+      "field": "ingredients",
+      "text": "(3 כפות [?] 2 כפות מים)",
+      "best_guess": "(3 כפות או 2 כפות מים)",
+      "reason": "Short connecting word is a single scrawl; 'או' fits best, 'עם' is possible. The same scrawl shape appears in the instructions. Note the card reads 3 first, then 2 (earlier transcription had the order reversed)."
     },
     {
       "field": "instructions",
-      "text": "last two lines",
-      "best_guess": null,
-      "reason": "Handwriting too compressed to read."
+      "text": "ולבחוש [?] הקקאו",
+      "best_guess": "עם",
+      "reason": "Word is partly covered by a blue ink blot/stain. Earlier transcription read 'חלב חם' here; on zoom the word before the blot reads 'ולבחוש'."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] הקרם [?] בכל צידי [?].",
+      "best_guess": "את הקרם למרוח (או לשפוך) בכל צידי העוגה.",
+      "reason": "First word is the same short scrawl as above (likely 'את'); the verb ends with a descender, could be 'למרוח' or 'לשפוך'; last word looks like 'העוגה' but the letters are cramped."
+    },
+    {
+      "field": "instructions",
+      "text": "שוקולד [?] [?] [?] [?] כפות חלב ורבע חב' מרגרינה.",
+      "best_guess": "שוקולד ממס עם [?] וארבע כפות חלב ורבע חב' מרגרינה.",
+      "reason": "Chocolate-glaze line is cramped. First word looks like 'ממס' (melt?), then the short scrawl (maybe 'עם'), then an unreadable word (looks like 'סלדים'), then a word ending in 'בע' - probably 'וארבע', matching '4 כפות חלב' in the ingredient list, but not certain."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
