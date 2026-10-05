@@ -1,0 +1,63 @@
+{
+  "id": "b12-r08",
+  "batch": 12,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ולבשל עוד כשעה,",
+        "מדי פעם לצקת מהרוטב",
+        "על העוף",
+        "[?] [?] ולבשל עוד",
+        "כ-5 דק' עד [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Memo card with a printed frame and a printed footer ('איכות חיים לכל החיים' on a yellow band, with a logo). Only five lines of handwriting at the top; faint show-through of other writing below. These lines read like the end of a chicken-in-sauce recipe (cook another hour, pour sauce over the chicken from time to time, cook another about 5 minutes), possibly the end of the card in scan 09, but this is not certain."
+  ],
+  "incidental_text": [
+    "Printed footer: logo and the slogan 'איכות חיים לכל החיים' on a yellow band"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2205-10.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-10.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[3]",
+      "text": "[?] [?] ולבשל עוד",
+      "best_guess": null,
+      "reason": "First words unreadable."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "כ-5 דק' עד [?]",
+      "best_guess": null,
+      "reason": "Last word unreadable."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title; may continue scan 09."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
