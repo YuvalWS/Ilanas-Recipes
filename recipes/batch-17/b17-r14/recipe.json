@@ -1,0 +1,73 @@
+{
+  "id": "b17-r14",
+  "batch": 17,
+  "title": "עוף [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 כוס שמן",
+        "כף פפריקה",
+        "2 כפות א. מרק בצל",
+        "[?] טחון [?]",
+        "3 כפות קטשופ",
+        "[?] כוס יין [?]",
+        "או ביחד 1/4 כוס (קונקורד?)",
+        "שמן [?] [?] חשוב"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "4 כפות [?] כוס [?] 160°",
+        "[?] [?] [?] להוריד 180°",
+        "[?] [?] מכוסה?"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a staple, a small orange 'orange' sticker at the lower right and a title that reads 'עוף [?]' (underlined). Ink is blue and thin, and several lines are in a lighter second pen. The final three lines are unreadable except for temperatures (160° and 180° as read)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-16.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-16.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוף [?]",
+      "best_guess": null,
+      "reason": "Second word unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Partly readable only."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Mostly illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
