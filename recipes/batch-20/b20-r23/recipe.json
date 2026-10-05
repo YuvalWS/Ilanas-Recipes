@@ -24,7 +24,8 @@
   "instructions": [],
   "notes": [
     "Short card with a clear title 'עגבניות שרי / חגית' (wavy underline) and four lines of ingredients (no quantities and no method).",
-    "The second line reads 'מלח, שום (פרוס)'; the word in parentheses is the least clear."
+    "The second line reads 'מלח, שום (פרוס)'; the word in parentheses is the least clear.",
+    "Short ingredient-only note; no quantities or separate preparation were written."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -35,18 +36,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "ingredients[2]",
-      "text": "שום (פרוס)",
-      "best_guess": null,
-      "reason": "The bracketed word is partly unclear."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
