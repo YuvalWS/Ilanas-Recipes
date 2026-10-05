@@ -14,10 +14,10 @@
       "group": null,
       "items": [
         "1 חב' ביסקויט",
-        "1 קפה [?] [?]",
-        "2 גביעי [?] [?]",
+        "1 קרם הקצפה וניל",
+        "2 גבינה לבנה",
         "1 סוכר וניל",
-        "1 [?] וניל",
+        "1 אינסטנט וניל",
         "1/4 כוס חלב",
         "1/4 כוס סוכר"
       ]
@@ -35,7 +35,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. A bracket on the left groups a blue-ink note of five short lines that cannot be read. The title is underlined with a wavy line; the word after the slash (a name?) is unclear.",
-    "Layered biscuit-and-cream cake; scan 02 (a card about biscuits dipped in milk) may be a continuation or a related card - not certain."
+    "Layered biscuit-and-cream cake; scan 02 (a card about biscuits dipped in milk) may be a continuation or a related card - not certain.",
+    "Independent reread resolves cream-whipping vanilla product, white cheese, and instant vanilla; no missing package units supplied."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -56,24 +57,6 @@
       "reason": "Unreadable (maybe a first name starting with ב)."
     },
     {
-      "field": "ingredients[1]",
-      "text": "1 קפה [?] [?]",
-      "best_guess": null,
-      "reason": "Item unclear."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "2 גביעי [?] [?]",
-      "best_guess": null,
-      "reason": "Item unclear (maybe cream/sour cream)."
-    },
-    {
-      "field": "ingredients[4]",
-      "text": "1 [?] וניל",
-      "best_guess": null,
-      "reason": "First word unclear (maybe 'תמצית')."
-    },
-    {
       "field": "instructions[1]",
       "text": "בתבנית [?] [?] שכבה [?]",
       "best_guess": null,
@@ -87,7 +70,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
