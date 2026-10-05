@@ -3,10 +3,10 @@
   "batch": 15,
   "title": "פשטידת קישואים",
   "source": {
-    "text": "פמינה",
+    "text": "פנינה",
     "type": "person",
-    "as_written": "פמינה",
-    "uncertain": true
+    "as_written": "פנינה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -18,7 +18,7 @@
         "5 כפות מיונז",
         "5 כפות א. מרק בצל",
         "5 כפות קמח תופח",
-        "[?] כפות קמח [מלא?]"
+        "2 כפות קמח מלאות"
       ]
     }
   ],
@@ -29,12 +29,13 @@
         "לקלף לחתוך ולבשל עד שמתרכך.",
         "בקערה: ביצים, מיונז, א. מרק בצל, קמח תופח - לערבב היטב",
         "לשים את הקישואים בלי המים ולערבב ולרסק עד התערבות (שמרוב הקישואים בערבוב?)",
-        "להוסיף [?] כפות קמח מלאות"
+        "להוסיף 2 כפות קמח מלאות"
       ]
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Memo card with a printed footer 'איכות חיים לכל החיים' (a newspaper sticker). Title line: 'פשטידת קישואים / פמינה'. The numeral '5' repeats on most lines and could be a different digit in the card's script (not certain)."
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Memo card with a printed footer 'איכות חיים לכל החיים' (a newspaper sticker). Title line: 'פשטידת קישואים / פמינה'. The numeral '5' repeats on most lines and could be a different digit in the card's script (not certain).",
+    "מלאות describes heaped spoonfuls; it does not say wholewheat flour. Source is פנינה, not פמינה."
   ],
   "incidental_text": [
     "Printed footer: 'איכות חיים לכל החיים' on a yellow band with a newspaper logo"
@@ -50,12 +51,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "פמינה",
-      "best_guess": "פמינה",
-      "reason": "Read as a name; could also read 'אמינה'/'רמינה'."
-    },
     {
       "field": "ingredients",
       "text": "digit 5",
@@ -76,7 +71,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
