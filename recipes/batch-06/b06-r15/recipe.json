@@ -3,10 +3,10 @@
   "batch": 6,
   "title": "סלמון",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "מאירה",
+    "type": "person",
+    "as_written": "מאירה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [],
@@ -44,12 +44,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "[?]",
-      "best_guess": "Gemini: שולה; earlier reading: מאירה (a fresh zoomed look at the ink also leans to מאירה: מ-א-י-ר-ה)",
-      "reason": "Name after the slash in the heading; the two readings differ."
-    },
-    {
       "field": "instructions[0]",
       "text": "[?] קפוא",
       "best_guess": "Gemini: בשקית קוקי",
@@ -75,7 +69,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
