@@ -1,0 +1,80 @@
+{
+  "id": "b11-r07",
+  "batch": 11,
+  "title": "מרק גולאש הונגרי",
+  "source": {
+    "text": "השף הראשי ב\"דומו\" (printed clipping)",
+    "type": "unknown",
+    "as_written": "השף הראשי ב\"דומו\"",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/3 כוס שמן",
+        "5 בצלים קצוצים",
+        "5 שיני שום קצוצות",
+        "3 פלפל אדום חתוך לקוביות קטנות",
+        "1 ק\"ג בשר בקר מס' 5",
+        "1/4 ק\"ג קבנוס הונגרי יבש (צ'אבאי) חתוך לקוביות",
+        "3 עגבניות קלופות חתוכות לקוביות קטנות",
+        "3 כפות פפריקה מתוקה",
+        "מלח, פלפל",
+        "מעט זרעוני קימל",
+        "מעט פפריקה חריפה",
+        "2 1/2 ליטר מרק עוף",
+        "7 תפוחי אדמה בינוניים קלופים חתוכים לקוביות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מאדים בשמן בצל, שום ופלפלים.",
+        "מוסיפים הבשר והקבנוס והעגבניות. מבשלים 15 דקות.",
+        "מוסיפים המרק+התבלינים ומבשלים בבישול איטי במשך שעתיים עד שעתיים וחצי.",
+        "מוסיפים תפו\"א ומבשלים עוד 30 דקות.",
+        "מתקנים תיבול ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping; the scan was upside down and was rotated 180 degrees. An intro says the recipe was given by the head chef at a restaurant called 'דומו' (concept store for food lovers); it is not transcribed beyond this.",
+    "'בשר בקר מס' 5' is printed as such (a cut number). The Hungarian sausage name is printed 'קבנוס' with 'צ'אבאי' in parentheses."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-08.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication) / chef",
+      "best_guess": "דומו",
+      "reason": "The intro credits the head chef of a place called 'דומו' (name as read); no publication name visible."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "קבנוס הונגרי יבש (צ'אבאי)",
+      "best_guess": null,
+      "reason": "Printed text reads as quoted."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
