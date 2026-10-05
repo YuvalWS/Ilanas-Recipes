@@ -1,0 +1,69 @@
+{
+  "id": "b01-r11",
+  "batch": 1,
+  "title": "קרם לרולדה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "במיקסר",
+      "items": [
+        "2/3 מרגרינה",
+        "1 כוס אבקת סוכר (או סוכר)",
+        "2 כפות קקאו",
+        "קצת רום",
+        "סוכר וניל",
+        "חלמון"
+      ]
+    },
+    {
+      "group": "להרתיח על האש",
+      "items": [
+        "2 כפות קקאו",
+        "2-3 כפות מים",
+        "1/2 כוס סוכר (או אבקת סוכר)",
+        "חתיכת שוקולד (3-4 קוביות)"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "1/3 מרגרינה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "1/3 מרגרינה - להוסיף לתערובת הרתוחה.",
+        "לערבב הכל יחד."
+      ]
+    }
+  ],
+  "notes": [
+    "Written on lined paper.",
+    "Margarine amounts (2/3 and 1/3) are written without a unit on the card.",
+    "In '2-3 כפות מים' the word 'כפות' is written as a ditto mark (\") under 'כפות' of the line above.",
+    "The two ingredient groups are marked with braces: 'במיקסר' (in the mixer) and 'להרתיח על האש' (to boil on the fire)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-10.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_opus_crops",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
