@@ -23,15 +23,15 @@
         "1 קופסה (400 גר) עגבניות מרוסקות",
         "1/4 כוס שמן זית",
         "4 שיני שום פרוסות",
-        "1 כף [?] פפריקה",
-        "1 [?]"
+        "1 כוס מים",
+        "1 כף גדושה פפריקה"
       ]
     }
   ],
   "instructions": [],
   "notes": [
-    "The grouping label written vertically on the left edge next to the first bracket is only partly readable; it is taken to mean the ingredients for the meatballs.",
-    "The card text continues to the bottom edge of the scan; the last line is cut off by the edge of the paper/scan, so more lines may exist."
+    "The grouping label written vertically on the left edge next to the first bracket is only partly readable ('מרכיבים' + 'קציצות'); it is taken to mean the ingredients for the meatballs. It does not read as a name, so no source is recorded (Gemini's 'אילנה / קציצות הודו' reading of the margin is not supported).",
+    "The last line (פפריקה) runs close to the bottom edge of the scan; more lines may exist below the edge."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -52,26 +52,14 @@
       "reason": "Vertical text on the left edge is hard to read."
     },
     {
-      "field": "ingredients[1].items[3]",
-      "text": "1 כף [?] פפריקה",
-      "best_guess": null,
-      "reason": "One word before 'פפריקה' unreadable."
-    },
-    {
-      "field": "ingredients[1].items[4]",
-      "text": "1 [?]",
-      "best_guess": null,
-      "reason": "Last line is cut off at the bottom edge."
-    },
-    {
       "field": "ingredients[0].items[5]",
       "text": "1 כפית בהרט",
       "best_guess": null,
-      "reason": "Word could be 'בהרט' (baharat) - the spelling is read from handwriting."
+      "reason": "Read as 'בהרט' (baharat) from the handwriting; Gemini read 'ג'ינג'ר' but the letters on the card do not fit that."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
