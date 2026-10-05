@@ -1,0 +1,74 @@
+{
+  "id": "b18-r03",
+  "batch": 18,
+  "title": "עוגת פירות יבשים",
+  "source": {
+    "text": "אביבה כספי (as printed)",
+    "type": "person",
+    "as_written": "מאת: אביבה כספי",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "3-2 ביצים",
+        "4 כפות סוכר",
+        "2 כפות ברנדי",
+        "2 כפות מיץ לימון ממותק",
+        "7 כפות (100 גרם) קמח תופח",
+        "100 גרם אגוזים קטנים עגולים (לוז)",
+        "150 גרם תערובת של אגוזי־מלך ושקדים",
+        "100 גרם צימוקים",
+        "300-250 גרם פירות יבשים (בלי גלעינים) כמו שזיפים, תמרים, תאנים ומשמשים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מקציפים את הביצים השלמות עם הסוכר, מוסיפים את 2 כפות הברנדי ושתי כפות מיץ הלימון הממותק, מכניסים את הקמח ומערבבים לעיסה חלקה. מוסיפים את האגוזים והשקדים (שלמים), את הצימוקים ואת הפירות היבשים חתוכים לחתיכות גדולות ובוחשים. מכינים תבנית אחת או שתיים ארוכות וצרות (כמו לעוגה אנגלית) משומנות ומקומחות, או מרופדות בנייר לאפייה. יוצקים את התערובת לתבניות, מיישרים ומהדקים. אופים כחצי שעה בחום בינוני עד להזהבה או לצבע בהיר (בודקים ע\"י קיסם שנועצים במרכז העוגות ויוצא יבש), מקררים ופורסים לפרוסות שלבניות דקות בעזרת סכין משונן.",
+        "אפשר לשמור בהקפאה."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with the heading 'עוגת פירות יבשים' and the credit 'מאת: אביבה כספי'. At the bottom edge a handwritten fragment is cut off (not readable)."
+  ],
+  "incidental_text": [
+    "Handwritten fragment at the bottom edge (cut off, unreadable)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-03.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-03.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "אביבה כספי",
+      "best_guess": null,
+      "reason": "Credit printed under the title; the publication is not shown."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "2 כפות מיץ לימון ממותק",
+      "best_guess": null,
+      "reason": "As printed ('ממותק')."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
