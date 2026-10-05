@@ -1,0 +1,91 @@
+{
+  "id": "b15-r22",
+  "batch": 15,
+  "title": "פשטידת כרובית",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "בישול קצר של הכרובית במי מלח",
+        "2 קוטג'",
+        "2 שמנת [?]",
+        "4 כפות קמח רגיל [גדושות?]",
+        "4 ביצים",
+        "1 כפית מלח",
+        "1/4 [כפית] פלפל שחור",
+        "200 גר' גבינה צהובה מגורדת",
+        "1 כוס פירורי לחם",
+        "4 כפות מרגרינה",
+        "תבנית מלבנית גדולה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] המרגרינה בתחתית [?] התבנית [?] הכרובית",
+        "בקערה: קוטג', שמנת, קמח, ביצים והתבלינים",
+        "(crossed out: 1/4 [?] גבינה צהובה) 1 כוס [?] להוסיף",
+        "לטבל? הכרובית ...",
+        "[?] הכל? על הכרובית",
+        "[?] מעל הגבינה המגורדת ופירורי הלחם",
+        "לאפות בחום בינוני בערך 45 דקות"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Front: title 'פשטידת כרובית / [?]' (the word after the slash looks like 'רוזנברג'/'חרו...' and is unclear) and an ingredient list in the right column; the last lines of the front describe putting margarine in the tray. Back: the preparation: mix cottage, cream, flour, eggs and spices; one line is crossed out; sprinkle the grated cheese and bread crumbs over the cauliflower; bake in a medium oven for about 45 minutes."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2218-03.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2218-04.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "The word after the slash in the title is unclear."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "2 שמנת [?]",
+      "best_guess": null,
+      "reason": "Word after 'שמנת' unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Several lines on the back are only partly legible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
