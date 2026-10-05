@@ -8,8 +8,8 @@
     {
       "group": null,
       "items": [
-        "1 כפית מלח",
-        "1/2 כוס פטרוזיליה קצוצה",
+        "1 [?] [?]",
+        "1/2 כוס בזיליקום קצוץ",
         "1 [?] [?] יבש"
       ]
     }
@@ -25,14 +25,16 @@
         "[?] [?] [?] [?]",
         "[?] [?] [?] [?]",
         "[?] [?] [?] [?]",
-        "ומבשלים [?] 15 דק'",
+        "ומבשלים עוד 15 ד'",
         "[?] [?], מבשלים [?]",
         "[?] [?] [?] ו[?] ומגישים"
       ]
     }
   ],
   "notes": [
-    "A dense block of handwriting inside a printed frame; only a few phrases can be read. Looks like the cooking steps for a sauce. No title."
+    "A dense block of handwriting inside a printed frame; only a few phrases can be read. Looks like the cooking steps for a sauce with noodles/pasta. No title.",
+    "Earlier reading 'פטרוזיליה' for the herb was corrected to 'בזיליקום' after re-checking the scan (the word ends with ם, as Gemini read).",
+    "Gemini's long transcription of the steps (fry mixture, breadcrumbs, meatballs, noodles) was not adopted: its order and many words could not be confirmed on the card."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,26 +49,32 @@
   "confidence": "low",
   "uncertainties": [
     {
+      "field": "ingredients[0].items[0]",
+      "text": "1 [?] [?]",
+      "best_guess": "Gemini: 1 כוסית חלב; earlier reading: 1 כפית מלח",
+      "reason": "Second word looks like כוסית/כפית, third like מלח in the ink; Gemini reads חלב. Cannot confirm either."
+    },
+    {
       "field": "ingredients[0].items[2]",
       "text": "1 [?] [?] יבש",
-      "best_guess": null,
-      "reason": "Only the last word 'יבש' is readable."
+      "best_guess": "Gemini: 1 כוס פסטה/פסטו יבש(ה); earlier reading: only 'יבש' readable",
+      "reason": "Middle words are loops that cannot be told apart reliably; Gemini's reading is plausible but unconfirmed."
     },
     {
       "field": "instructions",
       "text": "most lines",
-      "best_guess": null,
-      "reason": "Most of the block is unreadable (very cramped letters)."
+      "best_guess": "Gemini: מטגנים 2-3 דקות / מוסיפים שלושת רבעי כוס פירורי לחם / הרוטב: חצי כוס מים רותחים / מוסיפים את הקציצות בסיר / כ 10 ד' בכיסוי; last lines: מוסיפים אטריות, ומבשלים / מכסים כ 5 דקות והגשה",
+      "reason": "Very cramped letters. Gemini's reading is unconfirmed and may be embellished; ink of the last lines (מוסיפים ... מבשלים ... ומגישים) is only partly consistent with it."
     },
     {
       "field": "title",
       "text": "none",
-      "best_guess": null,
+      "best_guess": "Gemini titled it 'קציצות עם אטריות ברוטב' (its own summary, not on the card)",
       "reason": "No title visible."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
