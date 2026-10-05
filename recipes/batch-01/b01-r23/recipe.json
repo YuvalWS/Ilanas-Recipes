@@ -32,7 +32,8 @@
     "The title word is 'קוקוס' (coconut), written the same way as 'קוקוס' in the last method line; the earlier transcription read it as 'קקאו'.",
     "The '+' signs are written as a small upside-down T; the earlier transcription read the one before 'כוס סוכר' in the last step as '1'.",
     "The bottom-left corner of the page is torn/stained; the last word of the method is cut off at the left edge (only a first letter, possibly 'ד', is visible).",
-    "Faint pencil marks to the left of 'ללוש בצק' (something like 'כ-' followed by a smudged word) are unreadable and not transcribed."
+    "Faint pencil marks to the left of 'ללוש בצק' (something like 'כ-' followed by a smudged word) are unreadable and not transcribed.",
+    "Gemini's second reading gave the title as 'קקאו' and added a count of 4 egg whites and a baking temperature; the card shows 'קוקוס' (ends in samekh) and just 'את החלבונים', with no count or temperature, so none of these were adopted."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,12 +50,12 @@
     {
       "field": "instructions[0].steps[3]",
       "text": "לאפות עד כ-10 [?]",
-      "best_guess": "דקות",
+      "best_guess": "Gemini: דקות; earlier reading: דקות (inferred; only a partial first letter is visible at the torn edge)",
       "reason": "Last word is cut off by the torn left edge of the page; only a partial first letter is visible."
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
