@@ -1,7 +1,7 @@
 {
   "id": "b06-r17",
   "batch": 6,
-  "title": null,
+  "title": "סלמון",
   "source": null,
   "medium": "handwritten",
   "ingredients": [],
@@ -18,8 +18,9 @@
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Memo card of a building company (printed letterhead). A blue-ink word at the top right (possibly a source name) is unreadable."
+    "Handwriting is very cramped/shaky and stylised; only the title (blue ink, top right) could be read letter by letter. The body is five lines of [?] in card order. Recommend a human re-read (or rescan) of this card.",
+    "Memo card of a building company (printed letterhead).",
+    "Gemini's second-opinion transcription gives a salmon coating recipe (crushed garlic, soy/chili sauce, olive oil, mayonnaise, ground almonds or breadcrumbs, 1/4 hour in a hot oven). It could not be matched to the ink line by line (the card has five lines, Gemini's text has seven or eight, and the last card line seems to start with 'מלח'), so none of it was copied into the text."
   ],
   "incidental_text": [
     "Printed letterhead: engineering and construction company logo, group name, phone and fax numbers"
@@ -36,20 +37,20 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "blue word at the top right",
-      "best_guess": null,
-      "reason": "Possible source name; unreadable."
+      "field": "title",
+      "text": "סלמון",
+      "best_guess": "Gemini: סלמון; earlier reading: unreadable blue word, possibly a source name",
+      "reason": "Blue word at the top right; the letters ס-ל-מ-ו-ן fit the ink, but it could be a heading or something else."
     },
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Nothing readable with confidence."
+      "text": "all five lines",
+      "best_guess": "Gemini (not aligned to the card lines): למרוח שום כתוש / רוטב סויה / צ'ילי / שמן זית / מיונז - למרוח / מעל שקדים טחונים / פירורי לחם / 1/4 שעה בתנור חם. Earlier reading: nothing readable. Last line may begin 'מלח' and contains a slash fraction (maybe 1/4).",
+      "reason": "Gemini's reading cannot be confirmed on the zoomed crops; it may be embellished."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
