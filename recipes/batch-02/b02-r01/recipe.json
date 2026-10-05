@@ -1,0 +1,91 @@
+{
+  "id": "b02-r01",
+  "batch": 2,
+  "title": "מוס",
+  "source": {
+    "text": "[?]",
+    "type": "person",
+    "as_written": "/ דינה[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "(left bracket label unclear)",
+      "items": [
+        "200 גר' שוקולד מריר",
+        "1 1/2 כפות קפה נמס",
+        "1/3 כוס קוניאק",
+        "1/4 כוס אבקת סוכר"
+      ]
+    },
+    {
+      "group": "2) להקציף",
+      "items": [
+        "1 כפית צמחית [?]",
+        "1/3 כוס סוכר"
+      ]
+    },
+    {
+      "group": "3)",
+      "items": [
+        "6 ביצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "3) [?] להקציף החלבונים",
+        "4) לערבב 2 ו-3",
+        "להוסיף החלמונים ל-1 ואחרי שמתקרר להוסיף הכל לקצף"
+      ]
+    }
+  ],
+  "notes": [],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-01.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "מוס / [?]",
+      "best_guess": null,
+      "reason": "The word after the title and the slash at the top is a name or a qualifier that I could not read (the first letters look like 'דינה ...')."
+    },
+    {
+      "field": "ingredients[0]",
+      "text": "(left bracket label)",
+      "best_guess": null,
+      "reason": "A word written to the left of the first bracket is unclear."
+    },
+    {
+      "field": "ingredients[1].items[0]",
+      "text": "1 כפית צמחית [?]",
+      "best_guess": null,
+      "reason": "Quantity unit and ingredient name are unclear."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "6 ביצים",
+      "best_guess": null,
+      "reason": "The numeral 6 is written over another digit (possibly 5)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
