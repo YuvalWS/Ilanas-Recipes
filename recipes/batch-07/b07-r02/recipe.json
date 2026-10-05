@@ -1,0 +1,63 @@
+{
+  "id": "b07-r02",
+  "batch": 7,
+  "title": "רוטב",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/4 כוס שמן",
+        "1/4 [ditto] מיץ לימון",
+        "1 כף דבש",
+        "[?] כפית חרדל",
+        "מלח, פילפל שחור"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Underlined title 'רוטב' (dressing). Below it a line that appears to name the salad it goes with: 'סלט + [?] לימון' (not clear).",
+    "The second quantity line uses a ditto mark for 'כוס' (read as 1/4 cup lemon juice).",
+    "A pink stain is on the lower left corner."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-02.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "notes",
+      "text": "line under the title",
+      "best_guess": null,
+      "reason": "'סלט + [?] לימון' - middle word unreadable."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "[?] כפית חרדל",
+      "best_guess": null,
+      "reason": "The number before 'כפית' is unclear (looks like a fraction)."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "1/4 [ditto] מיץ לימון",
+      "best_guess": "1/4 כוס מיץ לימון",
+      "reason": "A ditto mark replaces the unit; assumed to be 'כוס'."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
