@@ -5,18 +5,18 @@
   "source": {
     "text": "סימה",
     "type": "person",
-    "as_written": "(written after a slash next to the title)",
-    "uncertain": true
+    "as_written": "סימה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": "בצק (bracket)",
       "items": [
-        "1 קמח תופח",
+        "1 קמח אסם",
         "1 מרגרינה",
         "3 חלמונים",
-        "3-[?] כפות סוכר, להוריד מעט לפירורים"
+        "3–[?] כפות סוכר (לא חייבים), להוריד מעט לפירורים"
       ]
     },
     {
@@ -33,7 +33,7 @@
       "steps": [
         "לשטוח על תבנית ולאפות 20 דקות עד שמצהיב.",
         "למרוח על הבסיס ריבה ואז לגרד 100 גר' שוקולד מריר (בישול) ואז לשפוך את המלית.",
-        "לעשות פירורים על זה ולשים [?] עד שצהוב."
+        "לעשות פירורים על זה ולשים לאפות עד שיצהיב."
       ]
     }
   ],
@@ -53,26 +53,14 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "סימה",
-      "best_guess": null,
-      "reason": "Name after a slash next to the title; probably the person it came from."
-    },
-    {
       "field": "ingredients",
-      "text": "[?]",
+      "text": "3–[?] כפות סוכר",
       "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
-      "field": "instructions",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
+      "reason": "Second digit in optional dough sugar range still uncertain."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
