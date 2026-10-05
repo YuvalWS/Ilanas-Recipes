@@ -14,7 +14,7 @@
       "group": null,
       "items": [
         "6 ביצים",
-        "[?] גר' אגוזים",
+        "150 גר' אגוזים",
         "3 כפות קמח אוסם מלאות",
         "1 כוס סוכר",
         "מעט תמצית שקדים"
@@ -24,7 +24,8 @@
   "instructions": [],
   "notes": [
     "Card lists ingredients only; no preparation steps are written.",
-    "Title line is written as 'עוגת אגוזים / אסתר' (source after the slash)."
+    "Title line is written as 'עוגת אגוזים / אסתר' (source after the slash).",
+    "Independent Codex rereading confirms 150 grams of nuts: the middle digit has the upper stroke and lower bowl of 5, unlike the separate 3 on the flour line. The faint mark following אסתר remains unconfirmed."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -39,12 +40,6 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "ingredients[0].items[1]",
-      "text": "[?] גר' אגוזים",
-      "best_guess": "Gemini: 150; earlier reading: 150 (130 not excluded)",
-      "reason": "Quantity reads 1?0 with a middle digit that could be her 5 or her 3 (the 5's top bar runs into the stem); zoomed crops do not settle it. Please confirm."
-    },
-    {
       "field": "source",
       "text": "אסתר",
       "best_guess": "Gemini: אסתר ז'; earlier reading: אסתר followed by an unread mark",
@@ -52,7 +47,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
