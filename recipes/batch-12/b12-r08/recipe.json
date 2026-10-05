@@ -12,8 +12,8 @@
         "ולבשל עוד כשעה,",
         "מדי פעם לצקת מהרוטב",
         "על העוף",
-        "[?] [?] ולבשל עוד",
-        "כ-5 דק' עד [?]"
+        "לפתוח הסיר ולבשל עוד",
+        "כ־5 ד׳ עד לצמצום"
       ]
     }
   ],
@@ -35,26 +35,14 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "instructions[3]",
-      "text": "[?] [?] ולבשל עוד",
-      "best_guess": null,
-      "reason": "First words unreadable."
-    },
-    {
-      "field": "instructions[4]",
-      "text": "כ-5 דק' עד [?]",
-      "best_guess": null,
-      "reason": "Last word unreadable."
-    },
-    {
       "field": "title",
-      "text": "(none)",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "No title; may continue scan 09."
+      "reason": "Untitled continuation; beginning of recipe absent."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
