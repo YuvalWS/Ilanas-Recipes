@@ -1,0 +1,95 @@
+{
+  "id": "b10-r06",
+  "batch": 10,
+  "title": "כרובית וברוקולי מוקרמים בתנור",
+  "source": {
+    "text": "(printed clipping, publication not shown)",
+    "type": "unknown",
+    "as_written": "—",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לירקות (תבנית חסינת חום בקוטר 24 ס\"מ)",
+      "items": [
+        "3 ליטרים מים",
+        "1 כף שטוחה מלח",
+        "1 כרובית קטנה",
+        "1 ברוקולי גדול או 1 חבילה ברוקולי-מיני",
+        "1-2 כפות שמן זית"
+      ]
+    },
+    {
+      "group": "לרוטב הבשמל",
+      "items": [
+        "150 גרם אגוזי קשיו טבעיים, מושרים במים 20-50 דקות ומסננים",
+        "1/2 כוס מיץ לימון",
+        "1 כוס מים",
+        "1-2 שיני שום, קלופות",
+        "1/4 כפית פלפל שחור גרוס",
+        "1/4 כפית מלח",
+        "1/4 כפית אגוז מוסקט טחון",
+        "1 כפית חרדל גרגירים",
+        "1 כף שמן זית"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים את התנור ל-200 מעלות.",
+        "הירקות: מרתיחים את המים והמלח בסיר גדול. חותכים את הכרובית והברוקולי לפרחים ומקטעים בגודל כ-3 ס\"מ. מוסיפים למים הרותחים ומבשלים על להבה גבוהה כ-7 דקות. מסננים, מעבירים לקערה ומושחים קלות בשמן הזית.",
+        "רוטב הבשמל: שמים את כל מרכיביו בבלנדר ומעבדים למרקם קרמי-נוזלי חלק.",
+        "יוצקים את הבשמל לתבנית ומניחים עליו את הכרובית והברוקולי (אפשר גם לצקת את הרוטב על הירקות, זה טעים אבל קצת פחות יפה).",
+        "אופים 20-25 דקות, עד שנראים סימני צריבה ברורים על הירקות. מוציאים ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping, typed text, clear. The title's last word is cut by the left edge of the scan ('בתנו[ר]'). A subtitle line reads 'הבשמל? טבעוני כמובן!'.",
+    "Storage note printed at the bottom: 'איך שומרים? מכוסה במקרר, עד 3 ימים.'",
+    "Ranges such as '1-2' and '20-25' are printed right-to-left (so they look like '2-1' and '25-20' on the page); they are written here in the usual order. The soaking range for the cashews is printed '50-20' and read as 20-50 minutes, which is unusual - please check against the scan."
+  ],
+  "incidental_text": [
+    "A pencil/ink diagonal mark at the bottom edge"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2156-05.jpg",
+      "original_path": "Batch 10/Scanned_20261004-2156-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].group2[0]",
+      "text": "מושרים במים 20-50 דקות",
+      "best_guess": "20-50 דקות",
+      "reason": "The printed range looks like '50-20'; read as 20-50 by the right-to-left rule, but this is an unusually wide range."
+    },
+    {
+      "field": "title",
+      "text": "כרובית וברוקולי מוקרמים בתנו[ר]",
+      "best_guess": "בתנור",
+      "reason": "The last letter is cut off by the scan edge."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication name or date is visible on the clipping."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
