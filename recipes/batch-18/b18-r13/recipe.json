@@ -1,7 +1,7 @@
 {
   "id": "b18-r13",
   "batch": 18,
-  "title": "לביבות תפוחי אדמה",
+  "title": "לביבות",
   "source": null,
   "medium": "clipping",
   "ingredients": [
@@ -30,15 +30,15 @@
       ]
     },
     {
-      "group": "השום (as headed: 'השום:' preceding the first line; the intro tip)",
+      "group": "השוס",
       "steps": [
         "קמח תפוחי אדמה. מוצר מקסים שחייב לגור אצלכם במזווה בכלי סגור. הקמח הדקיק הזה מעבה את הלביבה ומעניק גמישות נגיסה לחלק הרך שלה."
       ]
     }
   ],
   "notes": [
-    "Scan was sideways and was rotated 90 degrees clockwise. Printed clipping on a sideways scan. A blue-ink handwritten word 'לביבות' is written next to the 'חומרים' heading. Above the ingredients is a tip about potato starch ('קמח תפוחי אדמה: מוצר מקסים שחייב לגור אצלכם במזווה בכלי סגור...'), headed in red with a word that looks like 'השום' (read as printed).",
-    "'תפודים' is the printed abbreviation for 'תפוחי אדמה'."
+    "Printed clipping with handwritten heading לביבות; no printed title or publication. The actual handwritten heading is used; תפוחי אדמה was Claude’s inferred addition.",
+    "Red tip heading השוס: describes potato starch. תפודים is retained as printed."
   ],
   "incidental_text": [
     "Blue-ink handwritten word 'לביבות' beside the 'חומרים' heading"
@@ -51,30 +51,11 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "לביבות תפוחי אדמה",
-      "best_guess": "לביבות תפוחי אדמה",
-      "reason": "No printed title is visible; the blue handwritten word 'לביבות' and the content (potato fritters) were used. 'תפוחי אדמה' is from the content."
-    },
-    {
-      "field": "instructions[1]",
-      "text": "'השום:' heading",
-      "best_guess": null,
-      "reason": "The red heading above the tip is read as 'השום' and does not match the text; written as read."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "No publication visible."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
