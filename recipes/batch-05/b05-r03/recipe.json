@@ -1,0 +1,88 @@
+{
+  "id": "b05-r03",
+  "batch": 5,
+  "title": "קציצות חזה עוף ברוטב עגבניות",
+  "source": {
+    "text": "סבתא חנה לסטר, חדרה",
+    "type": "person",
+    "as_written": "קציצות חזה עוף ברוטב עגבניות // סבתא חנה לסטר, חדרה",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לקציצות",
+      "items": [
+        "מעט שמן לטיגון",
+        "4 בצלים, קצוצים",
+        "1 ק\"ג חזה עוף טחון (עדיף לטחון בבית)",
+        "3 ביצים",
+        "3 כפות קמח מצה",
+        "מעט פלפל שחור",
+        "מלח",
+        "2 כפות גדושות סוכר",
+        "2 כפות רסק עגבניות",
+        "שמן, לטיגון חצי עמוק"
+      ]
+    },
+    {
+      "group": "לתבשיל",
+      "items": [
+        "2־3 כוסות מים",
+        "3 כפות גדושות רסק עגבניות",
+        "3 עגבניות, קלופות, מגוררות",
+        "2 עגבניות, חתוכות לרבעים",
+        "4 פלפלים אדומים, חתוכים לרבעים",
+        "4 כפות גדושות סוכר",
+        "1 כפית שטוחה מלח, קורט פלפל שחור"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מחממים במחבת מעט שמן ומטגנים את הבצל הקצוץ עד להזהבה קלה. מעבירים לקערה. מוסיפים את שאר המרכיבים ומערבבים היטב.",
+        "יוצרים מהתערובת קציצות בגודל כדורי פינג פונג ומשטחים אותן.",
+        "מחממים במחבת על אש גבוהה שמן חצי עמוק, שיגיע עד לחצי גובה הקציצות. מנמיכים לאש בינונית ומטגנים את הקציצות באיטיות (עשר עד 15 דקות מכל צד) עד שהן מקבלות צבע שחום משני הצדדים.",
+        "להכנת התבשיל: מרתיחים בסיר גדול על אש גבוהה את המים. מוסיפים את כל המרכיבים ומערבבים. מביאים לרתיחה.",
+        "מכניסים לרוטב הרותח את הקציצות המטוגנות יחד עם שמן הטיגון. מנמיכים לאש קטנה מאוד, מכסים ומבשלים כשעה וחצי עד שהרוטב סמיך מאוד. טועמים ומתקנים את התיבול. מגישים חם."
+      ]
+    }
+  ],
+  "notes": [
+    "Newspaper clipping, 7-9 servings ('7־9 מנות'), from the 'סגנון' section, dated 10.03.10, page 42; photo credit דניאל לילה. The same scan also holds a small handwritten card on the table (see the next recipe).",
+    "The word 'חדרה' in the byline is slightly smudged but readable."
+  ],
+  "incidental_text": [
+    "Section header at the top-right is stylised and only partly legible ('קפיטל...')",
+    "Photo of meatballs in red sauce",
+    "צילומים: דניאל לילה",
+    "10.03.10 | סגנון | 42"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-03.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "סבתא חנה לסטר, חדרה",
+      "best_guess": null,
+      "reason": "Name is printed in the headline; the spelling of the surname/town was read from a small font."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
