@@ -1,0 +1,85 @@
+{
+  "id": "b15-r10",
+  "batch": 15,
+  "title": "פשטידת קישואים",
+  "source": {
+    "text": "פמינה",
+    "type": "person",
+    "as_written": "פמינה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 קישואים גדולים",
+        "5 ביצים",
+        "5 כפות מיונז",
+        "5 כפות א. מרק בצל",
+        "5 כפות קמח תופח",
+        "[?] כפות קמח [מלא?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לקלף לחתוך ולבשל עד שמתרכך.",
+        "בקערה: ביצים, מיונז, א. מרק בצל, קמח תופח - לערבב היטב",
+        "לשים את הקישואים בלי המים ולערבב ולרסק עד התערבות (שמרוב הקישואים בערבוב?)",
+        "להוסיף [?] כפות קמח מלאות"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Memo card with a printed footer 'איכות חיים לכל החיים' (a newspaper sticker). Title line: 'פשטידת קישואים / פמינה'. The numeral '5' repeats on most lines and could be a different digit in the card's script (not certain)."
+  ],
+  "incidental_text": [
+    "Printed footer: 'איכות חיים לכל החיים' on a yellow band with a newspaper logo"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-10.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-10.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "פמינה",
+      "best_guess": "פמינה",
+      "reason": "Read as a name; could also read 'אמינה'/'רמינה'."
+    },
+    {
+      "field": "ingredients",
+      "text": "digit 5",
+      "best_guess": null,
+      "reason": "The digit before each ingredient is written the same way; read as 5."
+    },
+    {
+      "field": "instructions[2]",
+      "text": "לרסק עד התערבות (שמרוב הקישואים בערבוב?)",
+      "best_guess": null,
+      "reason": "Parenthetical words unclear."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "להוסיף [?] כפות קמח מלאות",
+      "best_guess": null,
+      "reason": "The number is overwritten."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
