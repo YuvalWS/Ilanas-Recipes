@@ -1,32 +1,31 @@
 {
   "id": "b06-r11",
   "batch": 6,
-  "title": "סלמון",
-  "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
-  },
+  "title": "סלמון / בצל מ'",
+  "source": null,
   "medium": "handwritten",
   "ingredients": [],
   "instructions": [
     {
       "group": null,
       "steps": [
-        "[?] [?] [?] [?]",
+        "להשחים",
+        "בצל",
         "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?]",
-        "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?] [?] ים",
-        "[?] [?] [?] [?] [?] [?]",
-        "(card continues, unreadable)"
+        "[?] מעט שמן זית",
+        "מריחה של [?]",
+        "פפריקה, מלח",
+        "שיני שום כתוש",
+        "פלפל שחור",
+        "פטרוזיליה",
+        "סלמון נקי ופרוסים"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Heading looks like 'סלמון / [name]' - the name after the slash cannot be read."
+    "Card is a list of short lines, one per row; it is not clear which lines are ingredients and which are steps, so all lines are kept in card order under instructions.",
+    "Heading read as 'סלמון / בצל מ'' - the final 'מ'' looks like an abbreviation (possibly 'מושחם', suggested by the first line 'להשחים'); not expanded because it is not written out.",
+    "Handwriting is shaky; a human re-read of the lines marked [?] is recommended."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -38,29 +37,41 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
       "field": "title",
-      "text": "סלמון",
-      "best_guess": "סלמון",
-      "reason": "First word of the heading read as 'סלמון'."
-    },
-    {
-      "field": "source",
-      "text": "(word after the slash)",
-      "best_guess": null,
-      "reason": "Name after the slash unreadable."
+      "text": "בצל מ'",
+      "best_guess": "Gemini: בצל מ'; the 'מ'' abbreviation is not expanded",
+      "reason": "Heading after the slash is shaky; letters are consistent with 'בצל' but the final abbreviation is unclear."
     },
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Body unreadable."
+      "text": "line 3 (5 words)",
+      "best_guess": "Gemini: לשפוך מעט שמן זית במחבת (line alignment with the card is unclear)",
+      "reason": "Cramped cursive; could not confirm any word."
+    },
+    {
+      "field": "instructions",
+      "text": "first word of line 4",
+      "best_guess": "Gemini: לשפוך",
+      "reason": "Large looped first word; 'מעט שמן זית' is visually consistent but the first word is not confirmed."
+    },
+    {
+      "field": "instructions",
+      "text": "last word of line 5",
+      "best_guess": "Gemini: שום",
+      "reason": "Only 'מריחה של' is clearly visible; the following word cannot be confirmed on the scan."
+    },
+    {
+      "field": "instructions",
+      "text": "סלמון נקי ופרוסים",
+      "best_guess": "Gemini wrote ופרוס; the ink ends with 'ים'",
+      "reason": "Last word may be ופרוסים or ופרוסות-like; ending read as ים."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
