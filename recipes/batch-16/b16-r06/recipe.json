@@ -1,0 +1,81 @@
+{
+  "id": "b16-r06",
+  "batch": 16,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] כך [?] חמה [?] סמך [?] מלח",
+        "[?] לבשל [?] מרק [?] מים",
+        "[?] על האש [?] להוסיף [?]",
+        "[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 10 has a printed letterhead of a construction group ('מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372) and a wavy-underlined title in the first line that cannot be read. The body is a block of narrow, shaky lines (about 8 lines) that are not readable. Card 11 (back) holds four short lines in blue ink at the top; a light bleed-through ghost fills the rest. This is a 'soup / dish' card (the word 'מרק'/'מים' seems to appear) but nothing can be stated with confidence."
+  ],
+  "incidental_text": [
+    "Printed letterhead on card 10: brick-pattern logo, 'מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-10.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-10.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2223-11.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-11.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Title not readable."
+    },
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Not readable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Not readable; a rescan (or a human reading) is needed."
+    },
+    {
+      "field": "raw_files",
+      "text": "10/11",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
