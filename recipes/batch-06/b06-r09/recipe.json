@@ -1,0 +1,84 @@
+{
+  "id": "b06-r09",
+  "batch": 6,
+  "title": "דג סלמון",
+  "source": {
+    "text": "יפעת",
+    "type": "person",
+    "as_written": "יפעת",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 כוסות יין לבן",
+        "2-3 כוסות [?]",
+        "2 [?] פילון [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מלח, פלפל [?] [?] [?] [?]",
+        "לשפוך [?] [?] לתנור [?] [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] כסות [?] [?] 20 [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] ה[?] [?] [?] ל[?]",
+        "הלימון ו[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Title line has a long underline. The first three lines are an ingredient list with quantities."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-10.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "דג סלמון",
+      "best_guess": "דג סלמון",
+      "reason": "Read as 'דג סלמון' - fairly clear, but verify."
+    },
+    {
+      "field": "source",
+      "text": "יפעת",
+      "best_guess": "יפעת",
+      "reason": "Name after the slash is partly legible."
+    },
+    {
+      "field": "ingredients",
+      "text": "2-3 כוסות [?]",
+      "best_guess": null,
+      "reason": "Second ingredient word unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Most words unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
