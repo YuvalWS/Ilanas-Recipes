@@ -6,7 +6,7 @@
     "text": "דורית",
     "type": "person",
     "as_written": "= דורית",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -18,11 +18,11 @@
         "1 [?]",
         "1 וניל",
         "3 כוסות קמח אוסם",
-        "1 [?] רסק תפוזים"
+        "1 קופסה רסק תפוזים"
       ]
     },
     {
-      "group": "במיקסר",
+      "group": "להקציף במיקסר",
       "items": [
         "3 חלמונים",
         "סוכר",
@@ -35,16 +35,21 @@
     {
       "group": null,
       "steps": [
-        "להוסיף 3 כוסות קמח [?] ... [?]",
-        "[?] הבצק עם הידיים [?], משמנים [?] [?] [?] כ-20 דק' [?] להוסיף את החלבונים ל-3 כפות סוכר, ומשפכים [?] את הרסק והתפוז [?] עוד כ-10 דק'."
+        "להוסיף 3 כוסות קמח לערבב עם הי[?]",
+        "מרדדים את הבצק עם הידיים. [?], לשפוך את הרסק תפוזים, להכניס [?] עד [?] כ-20 דק'.",
+        "להקציף את החלבונים [?] 3 כפות סוכר, [?] את הקצף על הרסק [?] עוד כ-10 דק'."
       ]
     }
   ],
   "notes": [
-    "This card holds two recipes: the orange cake (above) and a biscuit cream (קרם לביסקויט, below). The cream was split into its own entry."
+    "This card holds two recipes: the orange cake (above) and a biscuit cream (קרם לביסקויט, below the second divider). The cream is its own entry (b01-r09).",
+    "The group label is written beside a brace: 'להקציף' is written above the crossed-out word 'לערבב', followed by 'במיקסר'.",
+    "The title line reads 'עוגת תפוזים = דורית'; 'דורית' after the '=' is taken as the source.",
+    "Digitization remark: Gemini read the source as 'זכוכית' and the title as 'עוגת תפוז = זכוכית'; on the scan the word after the '=' reads 'דורית', so the source was kept.",
+    "Digitization remark: Gemini listed 'מרגרינה' as a separate ingredient line; on the card it appears only inside the bracket group (להקציף במיקסר), so it was not added to the main list."
   ],
   "incidental_text": [
-    "Faint printed form/number columns from the reverse side show through on the left; a pink check-mark."
+    "Faint printed form/number columns from the reverse side show through on the left; a pink check-mark; a large pen squiggle between the lines near 'לערבב'."
   ],
   "raw_files": [
     {
@@ -55,29 +60,59 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוגת תפוזים = דורית",
-      "best_guess": null,
-      "reason": "The first word may not be 'תפוזים'; 'דורית' after the '=' might be the source."
-    },
-    {
       "field": "ingredients",
-      "text": "right column",
-      "best_guess": null,
-      "reason": "Shaky; item 3 ('1 [?]') and item 6 are unclear."
+      "text": "1 [?]",
+      "best_guess": "Gemini: לבניה; earlier reading: לבנה",
+      "reason": "Both readings begin 'לבנ'; the first letter is covered by an ink blot / unclear glyph and the ending is not clear, so the word is not confirmed."
     },
     {
       "field": "instructions",
-      "text": "paragraph",
-      "best_guess": null,
-      "reason": "Several words of the paragraph under the divider cannot be read."
+      "text": "לערבב עם הי[?]",
+      "best_guess": "Gemini: 'ה-S' (an S-like final glyph); earlier reading: עם היד",
+      "reason": "The last glyph is an S-shaped stroke partly crossed by a large pen squiggle; cannot confirm."
+    },
+    {
+      "field": "instructions",
+      "text": "[?], לשפוך",
+      "best_guess": "Gemini: משומנת (from 'בתבנית משומנת'); earlier reading: משמנים",
+      "reason": "The word reads 'משומנ-' / 'משמנ-' across a fold line; the ending and whether 'בתבנית' precedes it (Gemini) or 'עם הידיים' (earlier reading) is not confirmed."
+    },
+    {
+      "field": "instructions",
+      "text": "להכניס [?]",
+      "best_guess": "לתנור",
+      "reason": "Word is shaky; letter shapes do not clearly match. Gemini gives no reading for this spot."
+    },
+    {
+      "field": "instructions",
+      "text": "עד [?] כ-20 דק'",
+      "best_guess": "שיזהיב",
+      "reason": "Word begins 'שי' and ends '-הב' but the middle is unclear. Gemini gives no reading for this spot (only a paraphrase about the top layer browning)."
+    },
+    {
+      "field": "instructions",
+      "text": "החלבונים [?] 3 כפות סוכר",
+      "best_guess": "Gemini: עם; earlier reading: ב-",
+      "reason": "A small mark before the 3, unclear whether a letter, an arrow or a plus sign."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] את הקצף",
+      "best_guess": "Gemini: ולשפוך/למרוח (paraphrase); earlier reading: ושופכים",
+      "reason": "Verb is shaky; reads roughly ו?שפכ?."
+    },
+    {
+      "field": "instructions",
+      "text": "על הרסק [?] עוד",
+      "best_guess": "Gemini: nothing at this spot; earlier reading: והתפוז",
+      "reason": "Last word of the line is shaky; letters partly unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
