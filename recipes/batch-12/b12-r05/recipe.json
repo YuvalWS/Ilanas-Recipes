@@ -8,11 +8,11 @@
     {
       "group": null,
       "items": [
-        "6 [?] [?] וצהובות? לקוביות",
+        "6 גמבות אדומות וצהובות לקוביות",
         "6 בצלים חתוכים לקוביות",
         "3 כפות פפריקה + 1 כף [?] [?] [?]",
         "4 כפות כמון",
-        "[?] שמן [?] שום [blue scribble]",
+        "5 כפות שמן זית",
         "1 כפית מלח",
         "1 1/2 כוסות מים רותחים עד לגובה [?]"
       ]
@@ -93,7 +93,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
