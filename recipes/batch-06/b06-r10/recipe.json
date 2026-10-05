@@ -1,0 +1,57 @@
+{
+  "id": "b06-r10",
+  "batch": 6,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?] [?]",
+        "שמן [?] [?] [?] [?] [?] דק",
+        "3 שיני שום [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] מ[?] [?] [?] [?]",
+        "(about 10 further lines, unreadable)"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Large shaky writing that fills the card; '3 שיני שום' is the only clear item."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-11.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(no title)",
+      "best_guess": null,
+      "reason": "No title visible."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Almost all words unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
