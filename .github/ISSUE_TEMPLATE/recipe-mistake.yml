@@ -1,0 +1,43 @@
+name: דיווח על טעות במתכון
+description: מצאתם טעות בתמלול, במקור או בסריקה? ספרו לנו.
+title: "[טעות במתכון] "
+labels: ["mistake-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        תודה שעזרתם! השדות העליונים מולאו אוטומטית מדף המתכון, אל תשנו אותם. מלאו רק את החלק התחתון.
+  - type: input
+    id: recipe_id
+    attributes:
+      label: מזהה המתכון
+    validations:
+      required: true
+  - type: input
+    id: recipe_title
+    attributes:
+      label: שם המתכון
+  - type: input
+    id: page_url
+    attributes:
+      label: קישור לדף המתכון
+  - type: input
+    id: scan_url
+    attributes:
+      label: קישור לסריקה
+  - type: textarea
+    id: current_text
+    attributes:
+      label: התמלול הנוכחי (מולא אוטומטית, ייתכן שקוצר)
+  - type: textarea
+    id: mistake
+    attributes:
+      label: איפה הטעות ומה כתוב בפועל בסריקה?
+      description: למשל "במרכיב השלישי כתוב 150 גרם ולא 130", או "המילה [?] בשורה האחרונה היא 'דקות'".
+    validations:
+      required: true
+  - type: textarea
+    id: source_info
+    attributes:
+      label: מידע נוסף (אופציונלי)
+      description: מי כתבה את המתכון, מאיזה עיתון הוא נגזר, שם נכון למתכון וכו'.

@@ -47,3 +47,9 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .id { direction: ltr; text-align: left; margin-top: 20px; }
 .foot { color: var(--muted); font-size: .85rem; padding-bottom: 30px; }
 [hidden] { display: none !important; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 6px; align-items: flex-start; }
+.btn { font: inherit; font-size: .95rem; cursor: pointer; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--fg); text-decoration: none; }
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.share-menu { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+.share-menu a, .share-menu button { font: inherit; font-size: .9rem; padding: 4px 12px; border-radius: 99px; border: 1px solid var(--line); background: transparent; color: var(--accent); cursor: pointer; text-decoration: none; }
+.legal { margin-top: 18px; padding: 10px 14px; border-inline-start: 3px solid var(--accent); background: var(--card); font-size: .88rem; color: var(--muted); }

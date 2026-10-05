@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/YuvalWS/Ilana-s-Recipes/schema/recipe.schema.json",
+  "$id": "https://github.com/YuvalWS/Ilanas-Recipes/schema/recipe.schema.json",
   "title": "Ilana's recipe",
   "description": "One digitized recipe. Text is transcribed exactly as written; '[?]' marks an unreadable word or number and is always explained in `uncertainties`. Nothing is invented: absent fields are null or empty lists.",
   "type": "object",
