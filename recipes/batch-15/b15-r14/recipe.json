@@ -1,0 +1,65 @@
+{
+  "id": "b15-r14",
+  "batch": 15,
+  "title": "פשטידה [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] ירקות קפואים מעורבים [?]",
+        "2 ביצים",
+        "[?] כפות [?]",
+        "(מעורבב?)",
+        "2 כפות קמח רגיל",
+        "[?] כפות שמנת? חמוצה",
+        "(?)",
+        "מלח, פלפל, שום [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] 180°"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Narrow card with a wavy-underlined title that begins 'פשטידה'; the second word cannot be read. Most lines are partly legible only (the ink is dark and the letters are tall and narrow)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-16.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-16.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "פשטידה [?]",
+      "best_guess": null,
+      "reason": "Second word unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Most quantities and items are only partly legible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
