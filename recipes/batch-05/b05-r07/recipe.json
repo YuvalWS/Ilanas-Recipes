@@ -13,12 +13,12 @@
         "1/2 כפית כוסברה טחונה",
         "1/2 כפית מלח",
         "1/2 כפית פלפל שחור",
-        "2 שיני שום [?] [?] [?]",
+        "2 שיני שום לגירוד או קצוצות",
         "בצל, גזר אחד",
         "1/2 פלפל ירוק, 1/2 אדום",
-        "5 [?]",
-        "[?] [?]",
-        "שמן [?]"
+        "5 תפו״א",
+        "2 עגבניות",
+        "שמן צמחי"
       ]
     }
   ],
@@ -40,38 +40,14 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "ingredients[0].items[5]",
-      "text": "2 שיני שום [?] [?] [?]",
-      "best_guess": "Gemini: 'לכתוש או לגרר'; not confirmed on the scan (letters after 'שום' are cramped)",
-      "reason": "Extra words after 'שום' are cramped and unclear; the amount '2' is clear."
-    },
-    {
-      "field": "ingredients[0].items[8]",
-      "text": "5 [?]",
-      "best_guess": "Gemini: 'עגבניות'; earlier reading: 'תפו\"א'",
-      "reason": "The amount 5 is clear, but the word is short and ends with a geresh-like tick; the two readings differ."
-    },
-    {
-      "field": "ingredients[0].items[9]",
-      "text": "[?] [?]",
-      "best_guess": "Gemini: '2 כפות עגבניות [רסק עגבניות]'; the word looks like it begins with ע and ends with ות, but the amount and rest are unclear",
-      "reason": "Amount and words unclear."
-    },
-    {
-      "field": "ingredients[0].items[10]",
-      "text": "שמן [?]",
-      "best_guess": "Gemini: 'לטיגון'; not confirmed (the word looks shorter, about 4-5 letters)",
-      "reason": "Word after 'שמן' unclear."
-    },
-    {
       "field": "title",
-      "text": "none",
+      "text": null,
       "best_guess": null,
-      "reason": "No title is visible; this may be the back of another card."
+      "reason": "No standalone heading on ingredient-only card."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
