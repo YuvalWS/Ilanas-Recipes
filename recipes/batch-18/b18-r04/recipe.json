@@ -1,0 +1,79 @@
+{
+  "id": "b18-r04",
+  "batch": 18,
+  "title": "סלט ירוק בווינגרט רימונים עם תפוחים ושקדים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים (8 מנות)",
+      "items": [
+        "6 כוסות עלים ירוקים, לפי הטעם (למשל: חסה אייסברג או מסולסלת, עלי בייבי או רוקט)",
+        "גרגירים מ־1 רימון",
+        "1 תפוח אדום, בקליפתו, מגולען ופרוס דק"
+      ]
+    },
+    {
+      "group": "לשקדים הפריכים",
+      "items": [
+        "1 1/2 כוסות (כ־150 גרם) שקדים פרוסים",
+        "2 כפות כף שמן זית",
+        "2 כפות דבש נוזלי",
+        "מעט מלח"
+      ]
+    },
+    {
+      "group": "לרוטב ווינגרט הרימונים",
+      "items": [
+        "קליפה ומיץ מ־1 לימון",
+        "4 כפות דבש",
+        "2 שיני שום, קלופות וקצוצות דק",
+        "1/4 כוס מיץ רימונים",
+        "2 כפות חרדל דיז'ון חלק",
+        "1 כפית מלח, 1/8 כפית פלפל שחור גרוס",
+        "1/2 כוס שמן זית"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "השקדים: מחממים את התנור ל־160 מעלות ומרפדים תבנית בנייר אפייה.",
+        "מפזרים בתבנית את השקדים, יוצקים עליהם את שמן הזית והדבש ומעט מלח ומערבבים היטב. מפזרים בשכבה אחידה. אופים 4־5 דקות ומוציאים מהתנור. מצננים.",
+        "הרוטב: שמים בקערית את כל המרכיבים למעט שמן הזית וטורפים במזלג או במטרפה למרקם אחיד. מוסיפים את שמן הזית וטורפים שוב, לקבלת רוטב אחיד.",
+        "הרכבת הסלט וההגשה: שמים בקערה את העלים הירוקים, יוצקים עליהם את הרוטב ומערבבים בעדינות. מפזרים את גרגירי הרימון, מוסיפים את פרוסות התפוח ואת השקדים ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping: large photo of the salad on a blue background and the title 'סלט ירוק בווינגרט רימונים עם תפוחים ושקדים'. Intro: 'חגיגי, עונתי (תפוחים ותמרים!) ואלגנטי. הימור שלי: וינגרט הרימונים הוא משהו שתמצאו מכינים את עצמכם גם אחרי החגים.'",
+    "The almond amount is printed as '1/2 1 כוסות' (right-to-left typesetting of 1 1/2); written in the usual order here. A short printed 'מעט מלח' line follows the almonds list; its assignment to the almonds section is as it appears in the columns."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-04.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
