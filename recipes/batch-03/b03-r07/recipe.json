@@ -1,0 +1,120 @@
+{
+  "id": "b03-r07",
+  "batch": 3,
+  "title": "גולש בקר",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "גולש בקר / חיה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג בקר (גולש) [?]",
+        "[?] חתוכים",
+        "מעט שמן לטיגון [?] 1 [?]",
+        "2 גזר חתוך",
+        "1 תפו\"א חתוך"
+      ]
+    },
+    {
+      "group": "לתיבול הבשר",
+      "items": [
+        "1/2 כוס יין [?]",
+        "1/2 כוס מים",
+        "כף [?] [?]",
+        "[?] פלפל שחור"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "בישול על אש קטנה כ-3 שעות",
+        "מעט קטשוף"
+      ]
+    }
+  ],
+  "notes": [
+    "The scan was upside down (rotated 180 degrees upright in raw/).",
+    "The header 'גולש בקר' is underlined with a long line; the word after the slash is read as a name (חיה). The grouping label 'לתיבול הבשר' is partly guessed from the shape."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-08.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "חיה",
+      "best_guess": "חיה",
+      "reason": "Word after the slash is read as 'חיה' but may be something else (e.g. a place)."
+    },
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "בקר (גולש) [?]",
+      "best_guess": null,
+      "reason": "Word after the parentheses is not clear."
+    },
+    {
+      "field": "ingredients[0].items[1]",
+      "text": "[?] חתוכים",
+      "best_guess": null,
+      "reason": "First word unreadable."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "מעט שמן לטיגון [?] 1 [?]",
+      "best_guess": null,
+      "reason": "Part of the line is unreadable."
+    },
+    {
+      "field": "ingredients[1].group",
+      "text": "לתיבול הבשר",
+      "best_guess": null,
+      "reason": "The group label is only partly clear."
+    },
+    {
+      "field": "ingredients[1].items[0]",
+      "text": "יין [?]",
+      "best_guess": null,
+      "reason": "The word after 'יין' (the type of wine) is unclear."
+    },
+    {
+      "field": "ingredients[1].items[2]",
+      "text": "כף [?] [?]",
+      "best_guess": null,
+      "reason": "Spice name unreadable."
+    },
+    {
+      "field": "ingredients[1].items[3]",
+      "text": "[?] פלפל שחור",
+      "best_guess": null,
+      "reason": "First word unreadable."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "קטשוף",
+      "best_guess": null,
+      "reason": "Word is read as קטשוף; not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
