@@ -1,0 +1,70 @@
+{
+  "id": "b06-r13",
+  "batch": 6,
+  "title": "[?]",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] לבן",
+        "מיץ לימון [?] [?] [?]",
+        "מרק [?] מלח [?]",
+        "[?] [?]",
+        "לשמן [?] [?]",
+        "[?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "Yellow memo card with a construction-company letterhead (Zelinger). The underlined heading is written in two parts separated by a slash, but cannot be read."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company (logo, address line, phone/fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-14.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "heading",
+      "best_guess": null,
+      "reason": "Heading before the slash unreadable."
+    },
+    {
+      "field": "source",
+      "text": "heading after the slash",
+      "best_guess": null,
+      "reason": "Possibly a person's name; unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Body mostly unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
