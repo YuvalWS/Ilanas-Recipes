@@ -1,0 +1,52 @@
+{
+  "id": "b17-r15",
+  "batch": 17,
+  "title": "עוף [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שפכו? [?] רוטב, להוסיף [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Almost empty card: two short lines at the top ('עוף [?]' and a line that begins 'שמאל? ... רוטב, להוסיף'); the rest is blank apart from faint bleed-through and stains. This may be a continuation or scrap of another chicken card in this batch; not certain."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-17.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-17.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "all",
+      "text": "(whole card)",
+      "best_guess": null,
+      "reason": "Two short lines are only partly readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
