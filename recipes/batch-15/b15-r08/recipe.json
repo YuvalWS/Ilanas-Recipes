@@ -1,7 +1,7 @@
 {
   "id": "b15-r08",
   "batch": 15,
-  "title": "ברוקלי [עם] כרובית",
+  "title": "ברוקלי כרובית",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -11,9 +11,9 @@
         "1 שקית ברוקלי",
         "1 כרובית",
         "5 ביצים [?]",
-        "2 כפות מיונז קל",
-        "2 כפות א. מרק פטריות",
-        "3 כפות פירורי [לחם?]",
+        "5 כפות מיונז קל",
+        "5 כפות א. מרק פטריות",
+        "3 כפות פירורי לחם",
         "[?]"
       ]
     }
@@ -36,12 +36,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "ברוקלי [עם?] כרובית",
-      "best_guess": "ברוקלי עם כרובית",
-      "reason": "Middle word unclear."
-    },
-    {
       "field": "ingredients[2]",
       "text": "5 ביצים [?]",
       "best_guess": null,
@@ -55,7 +49,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
