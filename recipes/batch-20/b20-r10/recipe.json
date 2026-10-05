@@ -1,0 +1,74 @@
+{
+  "id": "b20-r10",
+  "batch": 20,
+  "title": "אנטיפסטי",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 קישואים, פרוסים לאורך",
+        "3 פלפלים, חתוכים לשמיניות",
+        "1 חציל, פרוס לפרוסות"
+      ]
+    },
+    {
+      "group": "להברשה",
+      "items": [
+        "1/2 כוס שמן זית"
+      ]
+    },
+    {
+      "group": "למשרה",
+      "items": [
+        "1/2 כוס שמן זית",
+        "3 שיני שום, קלופות וקצוצות",
+        "1/4 כוס חומץ בלסמי",
+        "1 כפית סוכר חום",
+        "1/2 כפית מלח גס",
+        "מעט פלפל שחור גרוס"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מברישים את הירקות בשמן הזית וקולים אותם במחבת פסים להטת, על הגריל, או בתנור (200 מעלות), עד שהם שחומים.",
+        "מערבבים בקערה את כל חומרי המשרה. מניחים את הירקות במשרה ומאחסנים במקרר במשך לילה, לספיגת טעמים (אפשר להכין עד 4 ימים מראש).",
+        "ההגשה: מנערים מנוזלים עודפים ומניחים על לחם מרוח בממרח מתאים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with a note under the title: 'שימו לב, יש להתחיל בהכנות לילה לפני ההגשה.'",
+    "The first step says 'מברישים את הירקות בשמן הזית' (the item under 'להברשה')."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-12.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-12.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source or publication visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
