@@ -1,0 +1,79 @@
+{
+  "id": "b01-r18",
+  "batch": 1,
+  "title": "עוגת שרלוטה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 חב' ביסקוויטים",
+        "2 חב' שוקולד [מריר?] 200 גר'",
+        "3 כפות מים",
+        "3 חלמונים",
+        "שמנת מתוקה",
+        "3 חלבונים",
+        "2 כפות סוכר",
+        "3 כפות [?]קוניאק",
+        "1/4 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטבול בחלב, לסדר בתבנית עגולה שלמים בתחתית ובדפנות.",
+        "להמיס על אש 2 חב' שוקולד [?] 200 גר' ו-3 כפות מים.",
+        "להוסיף 3 חלמונים ולערבב.",
+        "להקציף שמנת מתוקה ולהוסיף לשוקולד.",
+        "להקציף 3 חלבונים ו-2 כפות סוכר ולהוסיף לתערובת ו-3 כפות [?]קוניאק.",
+        "לשפוך את התערובת [?] הביסקויטים.",
+        "להקציף שמנת מתוקה ו-1/4 כוס סוכר [?] [?] [?].",
+        "[?] ... [?] בנק [?]."
+      ]
+    }
+  ],
+  "notes": [
+    "Narrow note-pad card; the last line is a short unreadable phrase."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-17.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-17.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוגת שרלוטה",
+      "best_guess": null,
+      "reason": "The title is small and slightly smudged; 'שרלוטה' fits the contents (biscuits, chocolate cream) but is a reading, not certain."
+    },
+    {
+      "field": "ingredients",
+      "text": "שוקולד / קוניאק lines",
+      "best_guess": null,
+      "reason": "Amounts and a word before 'קוניאק' are small; a tiny annotation sits above that line."
+    },
+    {
+      "field": "instructions[7]",
+      "text": "last line",
+      "best_guess": null,
+      "reason": "Illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
