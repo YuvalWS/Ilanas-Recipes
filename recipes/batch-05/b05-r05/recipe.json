@@ -1,0 +1,89 @@
+{
+  "id": "b05-r05",
+  "batch": 5,
+  "title": "קציצות",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "קציצות / חיה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג חזה עוף טחון",
+        "1 קישוא (ריסוק ולסחוט)",
+        "1 תפו\"א [?]",
+        "1 שקית קנידלעך (פירורי לחם)",
+        "[?] מרק עוף [?] 1 [?] מוס",
+        "פפריקה",
+        "1 [?]",
+        "הרבה שום 4,5"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לפחות כשעתיים."
+      ]
+    }
+  ],
+  "notes": [
+    "Heading is 'קציצות / חיה' with a line under it; the second word is read as a person's name (the same name seems to appear in Batch 3).",
+    "The lines are cramped; the last line 'לפחות כשעתיים' probably refers to resting or cooking time but it is not stated what."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-04.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "חיה",
+      "best_guess": "חיה",
+      "reason": "Last word of the heading is read as 'חיה' (a first name), but could also be read as a place or other word."
+    },
+    {
+      "field": "ingredients[0].items[1]",
+      "text": "1 קישוא (ריסוק ולסחוט)",
+      "best_guess": null,
+      "reason": "The words after 'קישוא' are in a bracket and look like 'ריסוק ולסחוט'."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "1 תפו\"א [?]",
+      "best_guess": null,
+      "reason": "Read as תפו\"א with a doubtful ending."
+    },
+    {
+      "field": "ingredients[0].items[4]",
+      "text": "[?] מרק עוף [?] 1 [?] מוס",
+      "best_guess": null,
+      "reason": "Line is unreadable except 'מרק עוף' and 'מוס'."
+    },
+    {
+      "field": "ingredients[0].items[6]",
+      "text": "1 [?]",
+      "best_guess": null,
+      "reason": "Word is a single unreadable word (could be בצל)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
