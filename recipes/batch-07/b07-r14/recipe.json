@@ -1,14 +1,19 @@
 {
   "id": "b07-r14",
   "batch": 7,
-  "title": "סלט כרוב / איטריות",
-  "source": null,
+  "title": "סלט כרוב",
+  "source": {
+    "text": "נאוה שרף",
+    "type": "person",
+    "as_written": "נאוה שרף",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 חבילת גזר [?]",
+        "1 חבילה צר כרוב",
         "1 כוסית שמן",
         "1/2 כוסית רוטב סויה",
         "כף סוכר",
@@ -59,7 +64,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
