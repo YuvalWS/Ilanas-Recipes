@@ -10,7 +10,7 @@
       "items": [
         "[?] ק\"ג נתח בקר לבישול ארוך (לדוגמה: [?], כתף, פרוסות אוסובוקו)",
         "2 בטטות, קלופות וחצויות לאורך",
-        "2 [?] קלופים וחצויים",
+        "2 בצלים קלופים וחצויים",
         "3 תפוחי אדמה, קלופים וחצויים",
         "1 כרוב סגול קטן, חתוך לרבעים",
         "1 ראש שום, חצוי",
@@ -35,7 +35,8 @@
     "איך שומרים? עד 3 ימים, במקרר.",
     "Printed recipe clipping, badly faded along the right (line-start) edge. Faded: the ingredients heading, the beef amount, the first example cut, the second vegetable, the instructions heading and the first word of step 2.",
     "Step 1 'מחממים' is partly faded; only 'מח..מ' is visible, completed from the standard phrase 'מחממים את התנור' (certain from context). The leading digits '2' (sweet potatoes) and '1' (garlic) are faint but legible.",
-    "'ומזלפים' (step 2): the print looks like 'ומולפים' because the ז is faint; 'ומזלפים' is the only real word that fits (the previous transcription had 'ומוסיפים', which is wrong)."
+    "'ומזלפים' (step 2): the print looks like 'ומולפים' because the ז is faint; 'ומזלפים' is the only real word that fits (the previous transcription had 'ומוסיפים', which is wrong).",
+    "Storage line: ניתן לשמור במקרר עד 3 ימים."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -87,7 +88,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_opus_crops",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
