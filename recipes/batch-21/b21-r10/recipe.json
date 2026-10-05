@@ -1,29 +1,31 @@
 {
   "id": "b21-r10",
   "batch": 21,
-  "title": "שניצל מ[?]",
+  "title": "שניצל ממולא",
   "source": null,
   "medium": "handwritten",
   "ingredients": [],
   "instructions": [
     {
-      "group": null,
+      "group": "II",
       "steps": [
-        "[?]",
-        "חרדל דיז'ון גרגרים [?]",
-        "את השניצל [?]",
-        "פרוסות פסטרמה",
-        "[?] עם קמח",
-        "[?] עם פירורי לחם",
-        "ולטגן במחבת [?]",
-        "במחבת",
-        "להניח בכל [?]",
-        "להוסיף כפית [?]",
-        "[?] מתוק [?]",
-        "חצי? כוס יין […]",
-        "מרק […]",
-        "רותח […]",
-        "לשפוך את הבשר […]"
+        "שניצל — חרדל דיז׳ון גרגרים למרוח על השניצל.",
+        "פרוסות פסטרמה — האדום [נכתב מעל שורה מחוקה].",
+        "לגלגל ולסגור עם קיסם.",
+        "לטגן מעט עם פירורי לחם.",
+        "לסדר בתבנית."
+      ]
+    },
+    {
+      "group": "במחבת",
+      "steps": [
+        "להזהיב בצל.",
+        "להוסיף כפית לטגן [?].",
+        "חצי כוס יין מתוק אדום.",
+        "לשים חצי לשני אבקת מרק [?] ולערבב.",
+        "רתיחה אחת ולכבות.",
+        "לשפוך על הבשר בתבנית.",
+        "לאפות באש [?]."
       ]
     }
   ],
@@ -51,20 +53,14 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "שניצל מ[?]",
+      "field": "instructions",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "Word after 'שניצל' unreadable."
-    },
-    {
-      "field": "raw_files",
-      "text": "11/12",
-      "best_guess": null,
-      "reason": "Assumed to be two sides of one recipe."
+      "reason": "Sauce additions/amount and final oven notation remain unclear on two-sided card."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
