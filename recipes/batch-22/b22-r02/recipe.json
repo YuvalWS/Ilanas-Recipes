@@ -9,10 +9,10 @@
     {
       "group": null,
       "steps": [
-        "4-5 בצלים לחתוך לעיגולים או קשתות. לטגן [?] מעט שמן עד שהבצל [?].",
-        "4-6 קישואים קלופים [?] חתוכים לפרוסות של כ-1/2 ס\"מ. לטגן בסיר (בנפרד) עם מעט מהבצל המטוגן. (10-20 דקות בחום נמוך [?] ללא מים [?])",
-        "לשטוח על תבנית [?] [?]. לנקב אותה!",
-        "לערבב [?] בצל מטוגן + קישואים מטוגנים + [?] ביצים ושמן [?] או [?]. אפשר להוסיף מעט פירורי לחם, מלח ופלפל. לשפוך מעל הבצק [?] או [?] בתנור בחום בינוני.",
+        "4–5 בצלים לחתוך לעיגולים או קשת. לטגן בסיר במעט שמן עד שהבצל שקוף.",
+        "5–6 קשואים קלופים וחתוכים לפרוסות של כ־1/2 ס״מ. לאדות בסיר נפרד עם מעט מהבצל המטוגן (10–20 דקות בחום נמוך עד ריכוך — לא לשרוף).",
+        "לשטוח על תבנית בצק עלים. לנקב אותו!",
+        "לערבב יחד בצל מאודה + קשואים מאודים + 4 ביצים ושמנת מתוקה או צמחית. אפשר להוסיף מעט פירורי לחם, מלח ופלפל. לשפוך מעל הבצק. לאפות בתנור בחום בינוני.",
         "בתאבון."
       ]
     }
@@ -33,20 +33,14 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "instructions[0].steps",
+      "field": "notes",
       "text": "[?]",
       "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
-      "field": "ingredients",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No separate ingredient list on the card."
+      "reason": "Same physical page includes separate upper cheesecake recipe absent from this PR extraction; whole-page transcription incomplete."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
