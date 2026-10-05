@@ -1,0 +1,78 @@
+{
+  "id": "b20-r18",
+  "batch": 20,
+  "title": "סלט סיני",
+  "source": {
+    "text": "מירי",
+    "type": "person",
+    "as_written": "מירי",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 בצל [?]",
+        "[?]",
+        "[?] ([?] או [?])",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להסיר [?] ([?])",
+        "[?] [?] שעועית? [?]",
+        "[?] [?] [?] [?]",
+        "לפנות? [?] [?]",
+        "[?] [?] [?] [?] ([?])"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Memo on yellow paper with a printed company logo (orange brick-style) and the title line 'סלט סיני / מירי' (wavy underline). The body is seven lines in light pencil/ink, partly smudged by stains; only the first words of some lines ('1 בצל', 'להסיר') can be read."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a construction company ('חברה לקבלנות בע\"מ'), טל. 03-9658336, פקס. 03-9653845; the company name in the logo is not readable"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-21.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-21.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "מירי",
+      "best_guess": "מירי",
+      "reason": "Read as a first name after the slash."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Mostly not legible."
+    },
+    {
+      "field": "instructions",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Mostly not legible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
