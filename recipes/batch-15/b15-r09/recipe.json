@@ -29,7 +29,7 @@
         "מגרדים את הקישואים במגררת דקה. שמים במסננת. זורים מעט מלח ומשהים לשעה.",
         "מבשלים את הברוקולי במים מומלחים עד שמתרכך. מסננים וקוצצים גס.",
         "סוחטים את הקישואים היטב. שמים בקערה. מוסיפים את כל החומרים (פרט לעמק). יוצקים לתבנית משומנת. זורים למעלה את הגבינה הצהובה ואופים עד שהמאפה משחים.",
-        "מגישים את המנה חמה בליווי 2 כפות שמנת [?]."
+        "מגישים את המנה חמה בליווי 2 כפות שמנת."
       ]
     }
   ],
@@ -52,18 +52,6 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "ingredients[5]",
-      "text": "1 גביע שלי אשל או שלי גיל",
-      "best_guess": null,
-      "reason": "Brand/words after 'גביע' are printed in small type and unclear."
-    },
-    {
-      "field": "instructions[3]",
-      "text": "2 כפות שמנת [?]",
-      "best_guess": null,
-      "reason": "The end of the line is cut."
-    },
-    {
       "field": "notes",
       "text": "handwritten word at top",
       "best_guess": null,
@@ -71,7 +59,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
