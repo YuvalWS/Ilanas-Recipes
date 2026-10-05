@@ -1,19 +1,19 @@
 {
   "id": "b03-r06",
   "batch": 3,
-  "title": "תערובת [?]",
+  "title": "תערובת בשר [?]",
   "source": {
     "text": "חיה",
     "type": "person",
     "as_written": "[?] / חיה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "250 גר' [?] ([?])"
+        "250 גר' בשר - ([?])"
       ]
     }
   ],
@@ -22,11 +22,11 @@
       "group": null,
       "steps": [
         "[?] [?] [?] [?]",
-        "[?] [?] [?] [?] ([?]) - [?]",
+        "[?] [?] , צ'ילי (מעט) - [?]",
         "לסגור הבשר [?]",
-        "[?] שמן לטגן 2 [?]",
+        "מעט שמן לטגן 2 בצלים",
         "[?] [?] [?] [?] [?]",
-        "[?] [?] [?] [?] 3 [?]",
+        "[?] כוסות [?] [?] [?] 3",
         "(second card) [?] [?] [?] [?]",
         "(second card) [?] [?] [?] [?] [?] ל-30 דק'"
       ]
@@ -34,7 +34,8 @@
   ],
   "notes": [
     "Two orange-branded memo cards are in one scan: the upper card has most of the text, the lower card (reverse side or a second sheet) has two lines only. Left-aligned lines are cut off at the left edge of the paper.",
-    "Handwriting is very shaky; almost nothing is reliably readable, so this is only a partial index of the card."
+    "Handwriting is very shaky; much of the card is still unreadable, so this is only a partial index. Several lines start with a small circled mark that may be a step marker.",
+    "Gemini's transcription (meat-and-rice dish with paprika, turmeric, carrots, 1 cup rice and 3 cups water) adds many details that cannot be seen on the card and was not used beyond the confirmed words."
   ],
   "incidental_text": [
     "orange logo (twice)"
@@ -53,30 +54,24 @@
     {
       "field": "title",
       "text": "top line",
-      "best_guess": null,
-      "reason": "The title line is unreadable except the first word 'תערובת'."
-    },
-    {
-      "field": "source",
-      "text": "חיה",
-      "best_guess": "חיה",
-      "reason": "The last word of the top line looks like the name 'חיה' (also seen on another card in this batch), but this is not sure."
+      "best_guess": "Gemini: תערובת בשר ואורז (rice not seen on the card)",
+      "reason": "'תערובת בשר' is readable; the rest of the top line before the slash is not."
     },
     {
       "field": "ingredients",
-      "text": "250 גר' ...",
-      "best_guess": null,
-      "reason": "Amount '250 גר'' is readable; the ingredient name is not."
+      "text": "250 גר' בשר - ([?])",
+      "best_guess": "Gemini: בשר טחון (או תחליף סויה); not confirmed",
+      "reason": "Amount '250 גר'' and 'בשר' are readable; the word in parentheses is not."
     },
     {
       "field": "instructions",
-      "text": "all lines",
-      "best_guess": null,
-      "reason": "Only the phrase 'לסגור הבשר' and a few numbers are readable."
+      "text": "most lines",
+      "best_guess": "Gemini: spices paprika, turmeric, salt; 1 cup rice; 3 cups boiling water; cover and cook about 30 minutes (not confirmed on the card)",
+      "reason": "Readable: 'צ'ילי (מעט)', 'לסגור הבשר', 'מעט שמן לטגן 2 בצלים', 'כוסות', the numbers 3 and 30. The rest is unreadable."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
