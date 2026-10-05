@@ -1,0 +1,68 @@
+{
+  "id": "b15-r23",
+  "batch": 15,
+  "title": "[?] ממולא [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 כפות שמן [?]",
+        "1 כוס [?]",
+        "1 קוטג' [?]",
+        "1/4 כוס שמיר",
+        "1 גבינה לבנה [?]",
+        "2 ביצים טרופות",
+        "עוד 1/4 כפית [?]",
+        "[?] [?]",
+        "מרק עוף [?] 5 גר' [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] להכין [?] והכל? [?]",
+        "לערבב [?] [?]",
+        "[?] [?] ולאפות בחום [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a blue underlined title at the top left that reads partly 'גבינות? ממולא[?]'; the first line at the top right begins '3 כפות שמן'. Most lines are only partly legible; the bottom lines run to the page edge."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2218-05.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?] ממולא [?]",
+      "best_guess": null,
+      "reason": "Title cannot be read reliably."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Items and quantities mostly unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
