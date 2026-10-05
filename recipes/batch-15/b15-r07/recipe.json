@@ -8,11 +8,11 @@
     {
       "group": null,
       "items": [
-        "4 שקיות ברוקלי",
-        "[?] גבינה",
-        "4 ביצים",
+        "1 שקית ברוקלי",
+        "2 חב׳ גבינה",
+        "3 ביצים",
         "גבינה צהובה מגורדת",
-        "[?] מה",
+        "קמח מצה",
         "א. מרק בצל",
         "פלפל, מלח",
         "מעט חרדל"
@@ -58,7 +58,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
