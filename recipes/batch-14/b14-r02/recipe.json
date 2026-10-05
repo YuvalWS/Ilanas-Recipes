@@ -1,0 +1,62 @@
+{
+  "id": "b14-r02",
+  "batch": 14,
+  "title": "עוגת מוס",
+  "source": {
+    "text": "שרה רוט",
+    "type": "person",
+    "as_written": "שרה רוט",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "200 גר' שוקולד",
+        "200 גר' מרגרינה",
+        "1 כף נס קפה",
+        "3 כפות קקאו",
+        "5 חלמונים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להמיס (שוקולד ומרגרינה - בסוגר)",
+        "להפריד חלבונים ולהקציף עם 3/4 כוס סוכר",
+        "להרטיב ביסקויטים ביין ומים",
+        "קירש (מלמעלה)"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Memo card with a printed advertisement of a company 'פתרון' (a flooring/carpet adviser: 'רון מפתרון - מנהל שיווק, יעוץ בבחירת השטיח', phone numbers) and a ghost print of another line behind the title. The title line reads 'מוס שוקולד / שרה רוט' (as read; see uncertainties). A bracket on the left groups the first two ingredients with the word 'להמיס' (melt).",
+    "The instruction line about sugar says 3/4 cup sugar for beating the whites; it is not in the ingredient list.",
+    "Independent reread: heading is עוגת מוס / שרה רוט; last line is קירש (מלמעלה). Bracket labels melting; no further mixing or assembly instructions written, so none added."
+  ],
+  "incidental_text": [
+    "Printed logo/word 'פתרון' (top right) and 'רשת ... בע\"מ' ghost print",
+    "Printed footer: 'רון מפתרון - מנהל שיווק, יעוץ בבחירת השטיח', tel. 1-800-63-70-70, mobile 050-20-11-55"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2213-03.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-03.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
