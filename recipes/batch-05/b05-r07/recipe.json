@@ -1,0 +1,91 @@
+{
+  "id": "b05-r07",
+  "batch": 5,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 ק\"ג בקר טחון",
+        "1 ביצה",
+        "1/2 כפית כוסברה טחונה",
+        "1/2 מלח",
+        "1/2 פלפל שחור",
+        "[?] שיני שום [?]",
+        "בצל, גזר אחד",
+        "[?] פלפל ירוק, 1/2 אדום",
+        "[?] תפו\"א",
+        "[?] [?]",
+        "שמן [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "No title on the card (the first line is an ingredient). Units are missing on several lines ('1/2 מלח', '1/2 פלפל שחור') - transcribed as written."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-06.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "1/2 כפית כוסברה טחונה",
+      "best_guess": null,
+      "reason": "Word before 'כוסברה' looks like 'כפית'; 'טחונה' is smudged."
+    },
+    {
+      "field": "ingredients[0].items[5]",
+      "text": "[?] שיני שום [?]",
+      "best_guess": null,
+      "reason": "Amount and extra words unreadable."
+    },
+    {
+      "field": "ingredients[0].items[7]",
+      "text": "[?] פלפל ירוק, 1/2 אדום",
+      "best_guess": null,
+      "reason": "The first amount is unreadable."
+    },
+    {
+      "field": "ingredients[0].items[8]",
+      "text": "[?] תפו\"א",
+      "best_guess": null,
+      "reason": "Amount unreadable."
+    },
+    {
+      "field": "ingredients[0].items[9]",
+      "text": "[?] [?]",
+      "best_guess": null,
+      "reason": "Line is unreadable."
+    },
+    {
+      "field": "ingredients[0].items[10]",
+      "text": "שמן [?]",
+      "best_guess": null,
+      "reason": "Word after 'שמן' unreadable."
+    },
+    {
+      "field": "title",
+      "text": "none",
+      "best_guess": null,
+      "reason": "No title is visible; this may be the back of another card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
