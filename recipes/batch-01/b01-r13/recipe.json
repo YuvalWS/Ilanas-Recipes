@@ -33,7 +33,8 @@
     {
       "group": null,
       "steps": [
-        "כשהקרם מתקרר להוסיף עוד [?] מהקצפת [?] ולמזג [?] לתבנית [?] חום בינוני 20 דק' ([?] זמן כ[?])."
+        "כשהקרם מתקרר להוסיף לו מעט מהקצף [?] ולמזג [?] ואת הכל בקצף בקלות.",
+        "חום בינוני 20 דקות ([?] זמן [?])."
       ]
     }
   ],
@@ -51,20 +52,32 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוגת שיש / נורית",
-      "best_guess": null,
-      "reason": "Title and name are legible but both are small; mark as likely correct."
+      "field": "instructions[0].steps[0]",
+      "text": "מהקצף [?] ולמזג",
+      "best_guess": "לבד",
+      "reason": "A brown stain covers most of the word after 'מהקצף'; only a final 'ד' and a tall stroke are visible."
     },
     {
-      "field": "instructions[1]",
-      "text": "last paragraph",
+      "field": "instructions[0].steps[0]",
+      "text": "ולמזג [?] ואת הכל",
+      "best_guess": "לבחוש",
+      "reason": "Shaky word at end of line 2; letters look like 'לבחוש' but not certain. 'ולמזג' is written with a gershayim-like mark (ולמז\"ג)."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "ואת הכל בקצף בקלות",
       "best_guess": null,
-      "reason": "Two stains and shaky handwriting hide several words."
+      "reason": "First word of line 3 ('ואת') and 'בקלות' are shaky; reading is likely but not certain."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "([?] זמן [?])",
+      "best_guess": "(לפי זמן כל...)",
+      "reason": "Parenthetical remark at the bottom-left is very shaky and runs into the torn left edge; only 'זמן' is fairly clear, and the last word looks like 'כל' possibly cut off."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
