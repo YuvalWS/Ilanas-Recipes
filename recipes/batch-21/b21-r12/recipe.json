@@ -1,0 +1,75 @@
+{
+  "id": "b21-r12",
+  "batch": 21,
+  "title": "גלילות עוף עם חזה אווז",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "4-6 מנות",
+      "items": [
+        "12 פרוסות חזה עוף דקות מאוד ובעובי אחיד",
+        "1/2 כוס שום כתוש",
+        "1/4 כוס שמן זית",
+        "מלח ופלפל שחור גרוס טרי",
+        "2 כפות תימין (יבש וטחון)",
+        "1/2 ק\"ג חזה אווז, פרוס דק",
+        "50 גר' חמאה",
+        "1 כוס יין לבן יבש",
+        "3-4 עלי מרווה טריים, קצוצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מערבבים את השום עם שמן הזית, ומברישים את התערובת על כל פרוסת חזה עוף. ממליחים ומפלפלים את העוף, ומפזרים את התימין הטחון. עורמים על כל פרוסה כמה פרוסות חזה אווז, מגל[?]לים לגלילה, ומהדקים בקיסם עץ. בינתיים ממי[?] את החמאה במחבת בעלת תחתית כבדה, ומטגנים את הגלילות מכל הצדדים עד שיזהיבו, במשך כעשר דקות. מוסיפים את היין, עלי המרוה, המלח והפלפל. מכסים במכסה, ומבשלים תוך בעבוע עד שהבשר רך. אם רוצים להסמיך את הרוטב, אפשר לערבב קצת קורנפלור במעט מים,"
+      ]
+    }
+  ],
+  "notes": [
+    "The scan is a landscape image of a clipping that was folded or cut in two: the right half holds the title, servings and the first seven ingredients; the left half holds the last two ingredients and the method. The method ends at 'מים,' (the last line is cut off / continues beyond the clipping).",
+    "Printed footer 'גורמה 29' (publication or page marker).",
+    "Printed hyphenations ('מגלג־לים', 'ממי־סים', 'המרו־ה') were joined. 'עלי המרוה' is copied as printed (probably 'המרווה').",
+    "Some words are hidden by smudges/stains: 'מגל[?]לים' and 'ממי[?]' (probably 'ממיסים')."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-15.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "מגל[?]לים",
+      "best_guess": "מגלגלים",
+      "reason": "Stain hides a letter; reads as 'מגלגלים'."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "ממי[?]",
+      "best_guess": "ממיסים",
+      "reason": "Stain hides letters; reads as 'ממיסים'."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "(end)",
+      "best_guess": null,
+      "reason": "Method is cut off after 'במעט מים,'."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
