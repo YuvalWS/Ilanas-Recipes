@@ -1,0 +1,66 @@
+{
+  "id": "b18-r02",
+  "batch": 18,
+  "title": "עוגת תפוחים? [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 ביצים שלמות, מקצפים",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ליבוק? כל התפוחים, [?]",
+        "מעט שיתחלט בין התפוחים",
+        "[?] בחום בינוני והמקרר?",
+        "[?] [?] תבנית",
+        "[?] ביצים, קמח, [?]",
+        "[?] שמן [?] התבנית [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a printed logo 'רשות הדואר - דואר קדימה' at the bottom and a signature-like word at the left ('רונית?'). The word 'תפוחים' appears in the text, so this may be an apple cake, but the card has no title. Only the first line ('3 ביצים שלמות, מקצפים') and a few fragments can be read."
+  ],
+  "incidental_text": [
+    "Printed on the card: logo and 'רשות הדואר - דואר קדימה'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-02.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title; 'apple cake' is guessed from the word 'תפוחים' in the text."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Not legible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
