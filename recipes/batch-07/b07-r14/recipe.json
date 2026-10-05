@@ -45,12 +45,6 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "איטריות",
-      "best_guess": "Gemini: איטריות; spelling (with or without yod) not distinguishable on the card",
-      "reason": "Cramped word after the slash; consistent with the same word in the last line."
-    },
-    {
       "field": "ingredients[0].items[0]",
       "text": "1 חבילת גזר [?]",
       "best_guess": "Gemini: כרוב (or 'לקט כרוב גזר'); earlier reading: unreadable",
