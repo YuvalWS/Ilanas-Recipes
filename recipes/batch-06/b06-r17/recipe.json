@@ -37,12 +37,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "סלמון",
-      "best_guess": "Gemini: סלמון; earlier reading: unreadable blue word, possibly a source name",
-      "reason": "Blue word at the top right; the letters ס-ל-מ-ו-ן fit the ink, but it could be a heading or something else."
-    },
-    {
       "field": "instructions",
       "text": "all five lines",
       "best_guess": "Gemini (not aligned to the card lines): למרוח שום כתוש / רוטב סויה / צ'ילי / שמן זית / מיונז - למרוח / מעל שקדים טחונים / פירורי לחם / 1/4 שעה בתנור חם. Earlier reading: nothing readable. Last line may begin 'מלח' and contains a slash fraction (maybe 1/4).",
@@ -50,7 +44,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
