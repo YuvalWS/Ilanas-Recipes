@@ -1,0 +1,81 @@
+{
+  "id": "b09-r15",
+  "batch": 9,
+  "title": "צלי בקר ביין ובצל",
+  "source": {
+    "text": "(printed clipping, publication not shown)",
+    "type": "unknown",
+    "as_written": "—",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג בשר כתף",
+        "2 בצלים גדולים, פרוסים גס או 1 ק\"ג של בצלים קטנים",
+        "6 עגבניות גדולות, מקולפות",
+        "5-4 שיני שום, קצוצות",
+        "2 עלי דפנה",
+        "מלח, פלפל שחור"
+      ]
+    },
+    {
+      "group": "למשרה",
+      "items": [
+        "2 כוסות יין אדום, יבש",
+        "1/4 כוס שמן זית",
+        "כפית גרגרי פלפל שחור שלמים",
+        "3-2 מסמרי ציפורן",
+        "3-2 שיני שום",
+        "1 בצל פרוס"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "הכנה: חותכים את הבשר לקוביות גדולות ומניחים אותו במשרה לפחות 12 שעות.",
+        "הכנת המשרה (heading): אחרי ההשריה מוציאים את הבשר. מסננים את נוזל המשרה ומעבירים אותו ואת הבשר לסיר יחד עם העגבניות, הבצל, השום והתבלינים. הנוזל אמור לכסות את הבשר, אם אין מספיק נוזל מן המשרה מוסיפים מים ואפשר גם מעט יין. מבשלים בתנור לפחות חמש שעות או על הכירה לפחות 4 שעות על אש נמוכה. יש להקפיד להוסיף מים במידת הצורך."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed label/clipping (white text on a blue background), 6 servings. The scan was upside down and was rotated 180 degrees. The label is folded in the middle and torn at the upper right. Ranges such as '5-4' and '3-2' are typeset right-to-left and are written as printed (read as 4-5 and 2-3).",
+    "The heading of the second text block is partly hard to read; it is probably 'הכנת המשרה' or similar and is quoted as read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-19.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-19.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions[1]",
+      "text": "heading 'הכנת המשרה'",
+      "best_guess": null,
+      "reason": "Heading of the last block is small and partly distorted."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication name or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
