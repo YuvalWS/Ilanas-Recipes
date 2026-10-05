@@ -1,0 +1,83 @@
+{
+  "id": "b01-r17",
+  "batch": 1,
+  "title": "עוגת ספוג עם שקדים",
+  "source": {
+    "text": "לאשה (chef@laisha.co.il)",
+    "type": "publication",
+    "as_written": "מאת דנה שוחט-נוול[?] | צילום: גלעד וגיא צלמים | סגנון: מור עזוז-דרור"
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים (תבנית בקוטר 26 ס\"מ או תבנית בגודל 30x20 ס\"מ)",
+      "items": [
+        "8 ביצים, מופרדות",
+        "1 1/4 כוסות (240 גרם) סוכר",
+        "1/2 כוס (90 מ\"ל) שמן חמניות",
+        "4 כפות ליקר שקדים",
+        "1 כוס קמח + 2 כפות גדושות קמח (175 גרם)",
+        "1 שקיק (10 גרם) אבקת אפייה",
+        "1/2 כוס שקדים טחונים + 1 כף שקדים טחונים (65 גרם)",
+        "להגשה: אבקת סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "1. מחממים את התנור לחום בינוני (180 מעלות) ומשמנים את התבנית.",
+        "2. שמים את החלמונים ומחצית מכמות הסוכר בקערת המערבל ומקציפים כ-10 דקות, עד לקבלת קרם בהיר. מוסיפים את השמן והליקר ומערבבים ידנית. מוסיפים גם את הקמח, אבקת האפייה והשקדים הטחונים ומערבבים, עד שנוצרת עיסה אחידה.",
+        "3. בקערה אחרת, מקציפים את החלבונים עם שארית הסוכר לקצף יציב. מוסיפים רבע מעיסת החלמונים לקצף ומערבבים בתנועות קיפול עדינות. מוסיפים את שאר עיסת החלמונים ומערבבים בעדינות. יוצקים לתבנית ואופים כ-40 דקות, עד שקיסם הננעץ במרכז העוגה יוצא יבש.",
+        "4. ההגשה: מצננים, זורים את אבקת הסוכר ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "נתונים (data box): זמן הכנה: כשעה וחצי | דרגת קושי: קל | איך שומרים: בטמפרטורת החדר, בכלי אטום כ-3 ימים",
+    "Subtitle printed under the title: 'בנוסח של סבתות מצטיינות' (partly hidden by the fold)."
+  ],
+  "incidental_text": [
+    "בשבוע הבא: עוגיות בצק עלים במלית שוקולד",
+    "לתגובות ושאלות למדור האוכל, כתבו לנו: chef@laisha.co.il",
+    "Date and page: 13.10.2003, page 114"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-16.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-16.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "לאשה",
+      "best_guess": "לאשה (magazine)",
+      "reason": "The magazine name is inferred from the e-mail address chef@laisha.co.il printed on the clipping; the masthead itself is not clearly visible."
+    },
+    {
+      "field": "title/subtitle",
+      "text": "בנוסח של סבתות מצטיינות",
+      "best_guess": null,
+      "reason": "First word of the subtitle is hidden by the page fold."
+    },
+    {
+      "field": "source",
+      "text": "מאת דנה שוחט-נוול",
+      "best_guess": null,
+      "reason": "Author's surname is partly hidden by a fold."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
