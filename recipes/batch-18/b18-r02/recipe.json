@@ -1,7 +1,7 @@
 {
   "id": "b18-r02",
   "batch": 18,
-  "title": "עוגת תפוחים? [?]",
+  "title": null,
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -44,20 +44,20 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No title; 'apple cake' is guessed from the word 'תפוחים' in the text."
-    },
-    {
       "field": "instructions",
       "text": "most lines",
       "best_guess": null,
       "reason": "Not legible."
+    },
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "No standalone heading; first line is three whole eggs and mixing, not a written apple cake title."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
