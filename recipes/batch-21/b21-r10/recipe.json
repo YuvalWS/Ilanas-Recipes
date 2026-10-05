@@ -1,0 +1,73 @@
+{
+  "id": "b21-r10",
+  "batch": 21,
+  "title": "שניצל מ[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?]",
+        "חרדל דיז'ון גרגרים [?]",
+        "את השניצל [?]",
+        "פרוסות פסטרמה",
+        "[?] עם קמח",
+        "[?] עם פירורי לחם",
+        "ולטגן במחבת [?]",
+        "במחבת",
+        "להניח בכל [?]",
+        "להוסיף כפית [?]",
+        "[?] מתוק [?]",
+        "חצי? כוס יין […]",
+        "מרק […]",
+        "רותח […]",
+        "לשפוך את הבשר […]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Two-sided card (front has the BZL letterhead); appears to be a variant of a stuffed or rolled schnitzel. The title is underlined. Rescan recommended."
+  ],
+  "incidental_text": [
+    "Printed company letterhead on the memo page: logo 'בזל' and 'מקבוצת חברות זלינגר בע\"מ', פקס 03-5617358, טל. 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-11.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2252-12.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-12.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "שניצל מ[?]",
+      "best_guess": null,
+      "reason": "Word after 'שניצל' unreadable."
+    },
+    {
+      "field": "raw_files",
+      "text": "11/12",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one recipe."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
