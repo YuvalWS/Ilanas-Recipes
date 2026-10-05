@@ -1,0 +1,115 @@
+{
+  "id": "b05-r12",
+  "batch": 5,
+  "title": "קציצות שווארמה אפויות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 ק\"ג שווארמה [?] טחון",
+        "1/2 ק\"ג חזה עוף טחון",
+        "3 יח' בצל קצוץ דק מטוגן",
+        "חופן פטרוזיליה קצוצה",
+        "6 שיני שום כתושות",
+        "2 ביצים",
+        "1 קישוא מגורד דק",
+        "1/3 כוס פירורי לחם",
+        "1/3 [?] מי סודה / מים רותחים",
+        "2 כפות קטשופ",
+        "גריל עוף, פלפל שחור",
+        "כפית פפריקה מתוקה",
+        "מעט מלח / מרק עוף"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב היטב",
+        "להעביר למקרר 1/4 שעה",
+        "לרפד בנייר אפיה",
+        "לרסס מעט ספריי שמן.",
+        "בידיים [?] ליצור קציצות קטנות ולהניח בתבנית.",
+        "לרסס את הקציצות מלמעלה בספריי שמן.",
+        "לאפות בתנור חם 180° כחצי שעה, להפוך את הקציצות",
+        "ולהמשיך לאפות עוד 1/4 שעה."
+      ]
+    }
+  ],
+  "notes": [
+    "The heading has a second line in brackets that is hard to read (something like 'קבב קציצות').",
+    "The back side (second scan) holds the oven steps; faint bleed-through of the front side is visible on it.",
+    "'קציצות שווארמה' is the title as written; the ingredient list and steps are on the front and back."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-11.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2117-12.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(second line in brackets)",
+      "best_guess": null,
+      "reason": "The bracketed second line under the title is not readable."
+    },
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "שווארמה [?] טחון",
+      "best_guess": "הודו",
+      "reason": "The word between 'שווארמה' and 'טחון' is unclear (maybe הודו)."
+    },
+    {
+      "field": "ingredients[0].items[8]",
+      "text": "1/3 [?] מי סודה / מים רותחים",
+      "best_guess": null,
+      "reason": "The unit before 'מי סודה' is a small unreadable mark."
+    },
+    {
+      "field": "ingredients[0].items[12]",
+      "text": "מעט מלח / מרק עוף",
+      "best_guess": null,
+      "reason": "The slash and the second word are read from small handwriting."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "לערבב היטב",
+      "best_guess": null,
+      "reason": "Line is written in cramped handwriting."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "להעביר למקרר 1/4 שעה",
+      "best_guess": null,
+      "reason": "Duration is hard to read."
+    },
+    {
+      "field": "instructions[0].steps[4]",
+      "text": "בידיים [?]",
+      "best_guess": null,
+      "reason": "The word after 'בידיים' (probably 'משומנות') is unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
