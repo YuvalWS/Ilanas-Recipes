@@ -1,35 +1,31 @@
 {
   "id": "b07-r14",
   "batch": 7,
-  "title": "סלט כרוב",
-  "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
-  },
+  "title": "סלט כרוב / איטריות",
+  "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "1 חבילת [?] [?]",
+        "1 חבילת גזר [?]",
         "1 כוסית שמן",
-        "1/4 כוסית רוטב סויה",
-        "1 כף סוכר",
+        "1/2 כוסית רוטב סויה",
+        "כף סוכר",
         "1/2 כפית מלח"
       ]
     },
     {
       "group": "below the ruled line",
       "items": [
-        "קשיו, צנוברים, פקן"
+        "קשיו, צנוברים, פקן",
+        "[?] ג' איטריות"
       ]
     }
   ],
   "instructions": [],
   "notes": [
-    "Title line reads 'סלט כרוב / [name]'. A handwritten name (or signature) appears at the lower left, probably the source; the first ingredient (a package) is not clear."
+    "Title line reads 'סלט כרוב / איטריות' (a slash separates two names). No source on the card. Below the ruled line the last line is the nuts and noodles line (the word at the lower left is the noodles, not a name)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -45,31 +41,25 @@
   "uncertainties": [
     {
       "field": "title",
-      "text": "סלט כרוב",
-      "best_guess": "סלט כרוב",
-      "reason": "Second word of the title read as 'כרוב'."
+      "text": "איטריות",
+      "best_guess": "Gemini: איטריות; spelling (with or without yod) not distinguishable on the card",
+      "reason": "Cramped word after the slash; consistent with the same word in the last line."
     },
     {
-      "field": "source",
-      "text": "name after the slash / at the lower left",
-      "best_guess": null,
-      "reason": "Unclear; looks like a first name."
+      "field": "ingredients[0].items[0]",
+      "text": "1 חבילת גזר [?]",
+      "best_guess": "Gemini: כרוב (or 'לקט כרוב גזר'); earlier reading: unreadable",
+      "reason": "First word read as 'גזר' (consistent with ink); the last word ends in a descending hook that does not look like the ב of 'כרוב' in the title."
     },
     {
-      "field": "ingredients[0]",
-      "text": "1 חבילת [?] [?]",
-      "best_guess": null,
-      "reason": "Package contents unreadable."
-    },
-    {
-      "field": "ingredients[2]",
-      "text": "1/4 כוסית רוטב סויה",
-      "best_guess": "רוטב סויה",
-      "reason": "'רוטב סויה' (soy sauce) is the most likely reading."
+      "field": "ingredients[1].items[1]",
+      "text": "[?] ג' איטריות",
+      "best_guess": "Gemini: 50; earlier reading: not recorded",
+      "reason": "Quantity (grams) is smudged; looks like '50' but not certain."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
