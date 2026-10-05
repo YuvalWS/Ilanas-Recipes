@@ -54,12 +54,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "מג'דרה",
-      "best_guess": "מג'דרה",
-      "reason": "Letters are crowded ('מצדרה'); read as 'מג'דרה' in light of the ingredients."
-    },
-    {
       "field": "source",
       "text": "א[?]",
       "best_guess": null,
