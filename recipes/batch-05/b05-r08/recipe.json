@@ -10,7 +10,7 @@
       "items": [
         "1 כף רסק עג'",
         "1/2 כפית מלח",
-        "1/2 כפית [crossed out] [?]",
+        "1/2 כפית אורגנו",
         "4 ענפי שמיר",
         "3 שיני שום [?] [?]"
       ]
@@ -21,8 +21,8 @@
       "group": null,
       "steps": [
         "מבשלים כ 5 ד'",
-        "בישול כ 7 דקות",
-        "300 [?] מים [?]",
+        "בישול 5–7 דקות",
+        "300 מ״ל מים",
         "מכסים ומבשלים [?] [?]",
         "להנמיך אש כ 5 ד'"
       ]
@@ -77,7 +77,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
