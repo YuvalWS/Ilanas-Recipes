@@ -6,7 +6,7 @@
     "text": "אסתר",
     "type": "person",
     "as_written": "אסתר",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -14,7 +14,7 @@
       "group": null,
       "items": [
         "6 ביצים",
-        "[?]150 גר' אגוזים",
+        "[?] גר' אגוזים",
         "3 כפות קמח אוסם מלאות",
         "1 כוס סוכר",
         "מעט תמצית שקדים"
@@ -23,7 +23,8 @@
   ],
   "instructions": [],
   "notes": [
-    "Card lists ingredients only; no preparation steps are written."
+    "Card lists ingredients only; no preparation steps are written.",
+    "Title line is written as 'עוגת אגוזים / אסתר' (source after the slash)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -38,26 +39,20 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוגת אגוזים / אסתר",
-      "best_guess": null,
-      "reason": "Name after the slash is partly smudged; 'אסתר' is a likely reading."
-    },
-    {
-      "field": "ingredients[1]",
-      "text": "[?]150 גר' אגוזים",
+      "field": "ingredients[0].items[1]",
+      "text": "[?] גר' אגוזים",
       "best_guess": "150 גר' אגוזים",
-      "reason": "Quantity digits are unclear."
+      "reason": "Quantity read as 150 on zoomed crops (the 5's top bar runs into the 0); the middle digit resembles her 3 slightly, so 130 is not fully excluded. Please confirm."
     },
     {
-      "field": "ingredients[4]",
-      "text": "מעט תמצית שקדים",
+      "field": "source",
+      "text": "אסתר",
       "best_guess": null,
-      "reason": "Last line is small and partly illegible."
+      "reason": "The name 'אסתר' is clearly legible; a faint, broken mark (like an apostrophe or yod) follows it at the end of the title line and could not be read. It may be a stray mark."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_opus_crops",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
