@@ -26,7 +26,8 @@
     }
   ],
   "notes": [
-    "Square card, no letterhead. Top block looks like a short dressing list (olive oil...). Below a ruled line is a crossed-out heading and three lines that cannot be read."
+    "Square card, no letterhead. Top block looks like a short dressing list (olive oil...). Below a ruled line is a crossed-out heading and three lines that cannot be read.",
+    "A Gemini file exists for this card; it names the card 'lettuce and mushroom salad' and lists lettuce and mushrooms, which are not visible on the card, so only its dressing lines were compared. Gemini did not read the section below the ruled line either."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -44,23 +45,29 @@
       "field": "title",
       "text": "(none)",
       "best_guess": null,
-      "reason": "No title."
+      "reason": "No title on the card (Gemini's 'סלט חסה ופטריות' is not written on it)."
     },
     {
-      "field": "ingredients",
-      "text": "lines 2-3",
-      "best_guess": null,
-      "reason": "Unreadable."
+      "field": "ingredients[1]",
+      "text": "[?]",
+      "best_guess": "Gemini: מיץ לימון; ink looks like a single word, possibly 'לימון' - not confirmed",
+      "reason": "Short one-word line, shaky handwriting."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "[?] מלח",
+      "best_guess": "Gemini: חרדל [or: מיונז], then a separate line מלח; not confirmed on the ink",
+      "reason": "First word of the line cannot be read; left word may be 'מלח'."
     },
     {
       "field": "instructions",
       "text": "all",
       "best_guess": null,
-      "reason": "Unreadable."
+      "reason": "Crossed-out heading and three lines below the ruled line are unreadable (not covered by Gemini)."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
