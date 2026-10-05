@@ -1,0 +1,102 @@
+{
+  "id": "b15-r13",
+  "batch": 15,
+  "title": "פשטידת פטריות",
+  "source": {
+    "text": "[?] (מאירה?)",
+    "type": "person",
+    "as_written": "(מאירה?)",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1. קוטג'",
+        "2. [250?] גר' גבינה 5%",
+        "3. 200 גר' [גבינה] צהובה מגורדת",
+        "4. 2 כפות אבקת מרק פטריות",
+        "5. 3 ביצים",
+        "6. [30/50?] גר' חמאה",
+        "7. [1?] בצל גדול קצוץ דק",
+        "8. 2 קופסאות פטריות [מתובלות/מבושלות?]",
+        "9. מלח, פלפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה (back)",
+      "steps": [
+        "לטגן את הבצל בחמאה",
+        "להוסיף הפטריות ולטגן [10?] דק'",
+        "להוסיף [?] [?] הפטריות לבלילה של השאר",
+        "להוסיף מלח ופלפל",
+        "לשמן תבנית [?] ולאפות [?] בחום בינוני"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Yellow sticky-note card, both sides. Front: title 'פשטידת פטריות / [?]' with a wavy underline and a word in parentheses at the left that looks like 'מאירה' (the same name appears in the title of a cheese quiche in this batch); numbered ingredients 1-9. Back: a printed letterhead of a contracting company (tel. 03-9658336, fax 03-9653845) and the heading 'הכנה:' with numbered steps.",
+    "The ditto marks on line 3 stand for 'גבינה'."
+  ],
+  "incidental_text": [
+    "Printed letterhead on the back: a brick-pattern logo, 'חברה לקבלנות בע\"מ', tel. 03-9658336, fax. 03-9653845"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-14.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-14.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2217-15.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-15.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "[?] (מאירה?)",
+      "best_guess": null,
+      "reason": "The word in parentheses looks like 'מאירה'; the word after the slash in the title is unclear."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[250?] גר' גבינה 5%",
+      "best_guess": null,
+      "reason": "Number unclear."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "[30/50?] גר' חמאה",
+      "best_guess": null,
+      "reason": "Number unclear."
+    },
+    {
+      "field": "ingredients[7]",
+      "text": "2 קופסאות פטריות [?]",
+      "best_guess": null,
+      "reason": "Word unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Several words unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
