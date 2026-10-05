@@ -1,0 +1,68 @@
+{
+  "id": "b18-r05",
+  "batch": 18,
+  "title": "עוגת פירות יבשים",
+  "source": {
+    "text": "רני בוסנק (המתכון מאמא שלו) (as printed in the intro)",
+    "type": "person",
+    "as_written": "רני בוסנק מאמא שלו",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "200 גרם צימוקים לבנים קטנים",
+        "100 גרם אגוזי מלך",
+        "100 גרם שקדים שלמים בקליפתם",
+        "5 כפות סוכר, גדושות",
+        "7 כפות מחוקות קמח תופח",
+        "2 ביצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים את התנור לחום של 180 מעלות, ומשמנים במרגרינה תבנית אינגליש קייק. מערבבים את כל החומרים יחד, יוצקים לתבנית ואופים משך כ־30 דקות."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping with a heading 'עוגת פירות יבשים'. Intro (a columnist): the recipe was received from Rani Bosnak ('רני בוסנק') from his mother ('מאמא שלו'); the columnist says the almonds can be replaced by 'נודרוק' nuts or, tastiest, Brazil nuts ('באגוזים ברזילאיים'). Page edge is torn at the top right."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-05.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "רני בוסנק (מאמא שלו)",
+      "best_guess": null,
+      "reason": "Source as stated in the intro: the recipe came from Rani Bosnak, who got it from his mother."
+    },
+    {
+      "field": "notes",
+      "text": "intro",
+      "best_guess": null,
+      "reason": "Intro paragraph read from a torn / partly cropped text; 'נודרוק' is as printed."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
