@@ -1,0 +1,75 @@
+{
+  "id": "b20-r13",
+  "batch": 20,
+  "title": "פתיתים / [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "מרכיבים שאפשר לקרוא מתוך ההוראות (אין רשימה נפרדת)",
+      "items": [
+        "בצל",
+        "מים",
+        "פתיתים",
+        "פפריקה",
+        "מלח",
+        "מעט פלפל שחור"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטגן בצל.",
+        "להוסיף מים ולהרתיח.",
+        "לשפוך הפתיתים.",
+        "להוסיף פפריקה, מלח, מעט פלפל שחור.",
+        "לכסות ולבשל."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Clear handwriting on a memo page with a company letterhead. The title is 'פתיתים' followed by a slash and another word that is unclear. The method lines are short infinitives; the ingredients were extracted from them (no quantities are written)."
+  ],
+  "incidental_text": [
+    "Printed company letterhead at the top of the memo page: logo 'בזל' - 'חברה להנדסה ובנין בע\"מ', 'מקבוצת חברות זלינגר בע\"מ', פקס. 03-5617358, טל. 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-15.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-15.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "פתיתים / [?]",
+      "best_guess": null,
+      "reason": "The word after the slash is unclear (a name, or a variant of the dish)."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "לכסות ולבשל",
+      "best_guess": null,
+      "reason": "The last line is small and was read as 'לכסות ולבשל'."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written; the word after the slash in the title might be a name."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
