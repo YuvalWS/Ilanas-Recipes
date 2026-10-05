@@ -1,0 +1,56 @@
+{
+  "id": "b14-r07",
+  "batch": 14,
+  "title": null,
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים (ל-25 עוגיות)",
+      "items": [
+        "200 גרם שקדים מולבנים פרוסים",
+        "3 כפות \"כמו סוכר\"",
+        "2 חלבונים מביצים במידה L"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים תנור ל-135 מעלות.",
+        "מניחים בקערה את השקדים, מפזרים מעל את ה\"כמו סוכר\" ומוסיפים את החלבונים. מערבבים בעדינות עד שכל השקדים מצופים בצורה אחידה.",
+        "בתבנית מרופדת בנייר אפייה מניחים כפות שטוחות של התערובת. אופים כ-50 דקות עד להזהבה מלאה. ייתכן שיידרש זמן אפייה נוסף על מנת לקבל את התוצאה הרצויה (תלוי בתנור). מצננים היטב ושומרים בכלי אטום בטמפרטורת החדר עד שלושה שבועות."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with no title visible (the top is cut). A tip line at the end: 'לגיוון: ניתן להוסיף לשקדים גרעיני חמניות או חמוציות.' A small pen stroke at the top left is not text. 'כמו סוכר' is a sugar-substitute product name (written in quotation marks in the clipping)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2213-08.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title visible on the clipping."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
