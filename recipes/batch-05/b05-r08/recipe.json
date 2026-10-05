@@ -8,9 +8,11 @@
     {
       "group": null,
       "items": [
-        "1 כוס רסק [?]",
+        "1 כף רסק עג'",
         "1/2 כפית מלח",
-        "1/2 [?] [crossed out] [?]"
+        "1/2 כפית [crossed out] [?]",
+        "4 ענפי שמיר",
+        "3 שיני שום [?] [?]"
       ]
     }
   ],
@@ -18,17 +20,18 @@
     {
       "group": null,
       "steps": [
-        "מבשלים 5 ד'",
-        "[?] [?] [?] 300 [?] מים [?]",
+        "מבשלים כ 5 ד'",
+        "בישול כ 7 דקות",
+        "300 [?] מים [?]",
         "מכסים ומבשלים [?] [?]",
-        "[?] עלים שמן [?]",
-        "[?] [?] [?] 3 [?]",
-        "[?] [?] [?]"
+        "להנמיך אש כ 5 ד'"
       ]
     }
   ],
   "notes": [
-    "A sauce-like list with no title. One word is crossed out in the 4th line (the crossed-out word looks like 'פלפל')."
+    "No title. The card interleaves ingredient-like lines and cooking steps; the lines are listed here in two groups (ingredients, steps), in the order they appear on the card within each group. Card order: 1 כף רסק עג'; מבשלים; 1/2 כפית מלח; 1/2 כפית (ditto) + crossed-out word; בישול; 300...מים; מכסים ומבשלים; 4 ענפי שמיר; 3 שיני שום; להנמיך אש.",
+    "ditto marks expanded: the ditto marks in line 4 repeat '1/2 כפית' from the line above; the next word is crossed out and then one more unreadable word follows.",
+    "'עג'' is written as an abbreviation (probably for עגבניות); left as written."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -43,32 +46,38 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "ingredients[0].items[0]",
-      "text": "1 כוס רסק [?]",
-      "best_guess": null,
-      "reason": "Second word unreadable (might be עגבניות)."
-    },
-    {
-      "field": "instructions",
-      "text": "most lines",
-      "best_guess": null,
-      "reason": "Only 'מבשלים' and 'מכסים ומבשלים' are readable; the rest is too shaky."
-    },
-    {
-      "field": "ingredients[0].items[2]",
-      "text": "1/2 [?] [crossed out] [?]",
-      "best_guess": null,
-      "reason": "Line partly crossed out and unreadable."
-    },
-    {
       "field": "title",
       "text": "none",
       "best_guess": null,
       "reason": "No title visible."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "1/2 כפית [crossed out] [?]",
+      "best_guess": "Gemini: 1/2 כוס יין (not supported by the ink, rejected); earlier reading: crossed-out word may be 'פלפל'",
+      "reason": "Line 4: one word crossed out heavily and a long final word that is unreadable."
+    },
+    {
+      "field": "ingredients[0].items[4]",
+      "text": "3 שיני שום [?] [?]",
+      "best_guess": null,
+      "reason": "Further words after 'שום' on the same row are visible but unreadable (Gemini shows nothing there)."
+    },
+    {
+      "field": "instructions[0].steps[2]",
+      "text": "300 [?] מים [?]",
+      "best_guess": "Gemini: 300 גר' אורז מים; earlier reading: 300 [?] מים",
+      "reason": "Unit and the word before/after 'מים' not confirmable on the crop."
+    },
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "מכסים ומבשלים [?] [?]",
+      "best_guess": "Gemini: כ 20 דק'",
+      "reason": "Number and unit after 'ומבשלים' cannot be confirmed in the shaky ink."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
