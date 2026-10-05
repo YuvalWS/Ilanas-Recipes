@@ -1,0 +1,77 @@
+{
+  "id": "b12-r01",
+  "batch": 12,
+  "title": "פרגיות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כפות [?] קורנפלור",
+        "[?] כפות שמן [?] [?]",
+        "2 כפות [?] [?]",
+        "1/4 [?] [?]",
+        "כפית כמון",
+        "מלח, פלפל שחור [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "שיטה (heading read as 'שיטה/תהליך')",
+      "steps": [
+        "בקערה מערבבים את הפרגיות עם התבלינים",
+        "[?] מניחים בתבנית ומפזרים [?]",
+        "[?] [?] ל[?] [?] [?]",
+        "[?] [?] [?] 45 דקות [?]",
+        "[?] מוסיפים [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. ",
+    "The red word 'פרגיות' is written in red ink at the end of the first line (a later label, read as the dish name). A ruled line splits the card into an ingredient block and a method block.",
+    "Neighbouring cards (scans 02, 03) may be parts of the same recipe; not certain."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2205-01.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-01.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "פרגיות (red ink)",
+      "best_guess": "פרגיות",
+      "reason": "Red word read as 'פרגיות' (chicken thighs); the slash after it might introduce a source that is not written."
+    },
+    {
+      "field": "ingredients",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Quantities and units partly unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Many words unreadable; heading of the method block unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
