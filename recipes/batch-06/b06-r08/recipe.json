@@ -9,15 +9,16 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] בני כמה [?]",
-        "[?] [?] מ[?] [?] [?]",
-        "(rest of the card is mostly faint show-through writing)"
+        "[?] בנייר כסף [?]",
+        "ולאפות [?] 20 [?]"
       ]
     }
   ],
   "notes": [
-    "Handwriting is very cramped/shaky; only the readable words are transcribed, in card order, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
-    "Almost the whole card is faint show-through of writing from the other side; only two lines at the top are in strong ink. Likely the back of scan 08 (relation not certain); kept separate."
+    "Only the top two lines are in strong ink; the rest of the card is faint, mirrored show-through of writing from the other side. The mirrored underline and bottom lines match scan b06-r07, so this is very probably the back of b06-r07 (same card); kept as a separate record, merging recommended.",
+    "Line 1 right-to-left: [?] / בנייר / כסף / [?]. Line 2: ולאפות, then unclear glyphs, then '20' near the left end. Gemini's '20 דק' ב 180°' is not confirmed: the temperature digits cannot be read and the order on the card differs.",
+    "Gemini's title ('אפיית דג בנייר כסף') is not on the card and was not copied.",
+    "Handwriting is shaky; a rescan or human re-read is recommended."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -33,13 +34,19 @@
   "uncertainties": [
     {
       "field": "instructions",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Even the two strong lines are unreadable."
+      "text": "[?] בנייר כסף [?]",
+      "best_guess": "First word - Gemini: לסדר; own alternative reading: לעטוף (5 glyphs). Last word - own tentative reading: לסגור (Gemini omitted it)",
+      "reason": "First and last words of line 1 unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "ולאפות [?] 20 [?]",
+      "best_guess": "Gemini: 20 דק' ב 180° (temperature not confirmed; earlier reading: none)",
+      "reason": "Glyphs between 'ולאפות' and '20' and after '20' are unclear; a temperature, if present, is unreadable."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
