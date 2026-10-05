@@ -1,0 +1,64 @@
+{
+  "id": "b15-r15",
+  "batch": 15,
+  "title": "לביבות כרובית אפויות",
+  "source": {
+    "text": "ניקי",
+    "type": "person",
+    "as_written": "ניקי",
+    "uncertain": true
+  },
+  "medium": "mixed",
+  "ingredients": [
+    {
+      "group": "מצרכים",
+      "items": [
+        "כרובית מפורקת לפרחים",
+        "2 גזרים מגורדים",
+        "בצל קצוץ ומטוגן",
+        "ביצה",
+        "חצי כוס פירורי לחם",
+        "א. מרק",
+        "מל\"פ (מלח, פלפל)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "לחלוט את הכרובית עד שהיא רכה, לסנן ולמעוך. לערבב את כל המצרכים.",
+        "להכין תבנית מרופדת בנייר אפיה משומן. ליצור לביבות, לסדר בתבנית, להכניס לתנור שחומם בחום בינוני, שמזהיב - משחים להפוך לצד השני."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed block on a card (right side) with a handwritten variant on the left (see next record). Header: 'לביבות כרובית אפויות - 17 לביבות'. Notes section: '17 לביבות.' A paper strip at the bottom reads 'ניקי - לביבות כרובית אפויות', which looks like the name of the person who gave the recipe."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-17.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-17.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "ניקי",
+      "best_guess": "ניקי",
+      "reason": "The strip at the bottom reads 'ניקי - לביבות כרובית אפויות'; read as the name of the source."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
