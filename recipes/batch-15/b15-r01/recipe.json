@@ -1,0 +1,71 @@
+{
+  "id": "b15-r01",
+  "batch": 15,
+  "title": "לביבות תפוחי אדמה [?]",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 תפוחי אדמה גדולים",
+        "1 בצל קטן",
+        "2 ביצים",
+        "2־3 כפות קמח תופח",
+        "מלח ופלפל שחור",
+        "שמן לטיגון חצי עמוק"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "קולפים את תפוחי האדמה ושוטפים היטב במים קרים. מגרדים גס על פומפייה. קולים את הבצל ומגרדים גס. סוחטים בידיים את התערובת המגורדת כדי להיפטר מהנוזלים המיותרים.",
+        "מערבבים עם הביצים והקמח לתערובת אחידה. ממליחים ומפלפלים. מחממים במחבת (רצוי טפלון) שטוחה ורחבה שמן לטיגון חצי עמוק (בערך בגובה שני ס\"מ). מניחים כף מהתערובת בשלולית שטוחה במחבת. חוזרים על הפעולה עד שנגמר המקום במחבת. מטגנים עד להזהבה. הופכים את הלטקס לצד השני ומטגנים עד להזהבה. הטיגון אמור להימשך כדקה־שתיים מכל צד ולא פחות. אם הן משחימות מהר מדי - הנמיכו את הלהבה. מניחים את הלביבות המוכנות על נייר סופג למשך דקה, לספיגת עודפי השמן. מגישים חם."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Scans 2217-01 and 2217-05 are two copies of the same newspaper clipping (the second one was scanned sideways and was rotated 90 degrees). The header reads 'כמות: 6 מנות, זמן הכנה: 20 דקות'.",
+    "The top of the clipping (the title) is cut: it reads '(לביבות תפוחי אדמה ... מסורתיות)' partly; the first words are cut by the page edge. A tan band with a few words at the bottom is also cut."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-01.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-01.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "unknown"
+    },
+    {
+      "file": "raw/Scanned_20261004-2217-05.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-05.jpg",
+      "rotation_applied_cw_degrees": 90,
+      "side": "unknown"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "לביבות תפוחי אדמה [?]",
+      "best_guess": null,
+      "reason": "The title line is cut; 'לביבות תפוחי אדמה' is readable and a second word looks like 'מסורתיות' but it is partly hidden."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "קולים את הבצל",
+      "best_guess": null,
+      "reason": "Printed as 'קולים' (probably a typo for 'קולפים'); written as it appears."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
