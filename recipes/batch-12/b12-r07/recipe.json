@@ -1,7 +1,7 @@
 {
   "id": "b12-r07",
   "batch": 12,
-  "title": "עוף [?]",
+  "title": "עוף בבצל",
   "source": {
     "text": "הקצבים",
     "type": "unknown",
@@ -13,14 +13,14 @@
     {
       "group": null,
       "items": [
-        "2 יח' כרעיים עוף",
+        "5 יח׳ כרעיים עוף",
         "3 כפות רוטב צ'ילי",
-        "כף [?] עוף",
+        "כף גריל עוף",
         "2 כפות פפריקה",
         "2 שיני שום כתושה",
         "מלח, פלפל שחור גרוס",
         "3 כפות סילאן",
-        "[?] כפות [?] [?] שמ[?] יין",
+        "1 פחית פטריות שמפיניון חתוכות — גם",
         "2 בצלים חתוכים לקוביות"
       ]
     }
@@ -56,12 +56,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוף [?]",
-      "best_guess": null,
-      "reason": "Second word of the title unreadable (maybe 'הבצל')."
-    },
-    {
       "field": "source",
       "text": "הקצבים",
       "best_guess": "הקצבים",
@@ -81,7 +75,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
