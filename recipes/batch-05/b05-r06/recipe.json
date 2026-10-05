@@ -1,0 +1,64 @@
+{
+  "id": "b05-r06",
+  "batch": 5,
+  "title": "קציצות עוף [?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג עוף טחון",
+        "כוס פטרוזיליה קצוצה",
+        "בצל בינוני קצוץ",
+        "מלח, פלפל שחור,",
+        "מעט כמון",
+        "4 כפות פירורי לחם / או שיבולת שועל,",
+        "2 כפות שמן, 1/2 כפית פפריקה מתוקה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב ו[?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Title and a second word in a different (blue) pen are written above a wavy line; the second word is smudged."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-05.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "קציצות עוף [?]",
+      "best_guess": "הקבבים",
+      "reason": "The word after 'קציצות עוף' (at the top left) is not readable; it may be 'הקבבים'."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "לערבב ו[?] [?]",
+      "best_guess": null,
+      "reason": "The last line is written very small; the first word is 'לערבב', the rest is unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
