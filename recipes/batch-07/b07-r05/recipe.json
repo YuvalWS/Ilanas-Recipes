@@ -1,12 +1,12 @@
 {
   "id": "b07-r05",
   "batch": 7,
-  "title": "רוטב [?]",
+  "title": "רוטב גזר [?]",
   "source": {
     "text": "חיה",
     "type": "person",
     "as_written": "חיה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -23,7 +23,7 @@
   ],
   "instructions": [],
   "notes": [
-    "Yellow memo card with a construction-company letterhead. Title: 'רוטב' + a second word that is not clear, then '/ חיה'."
+    "Yellow memo card with a construction-company letterhead. Title: 'רוטב' + a second word that appears to be 'גזר' (both Gemini readings also mention carrots), then '/ חיה'. Gemini's added items (cumin, carrots, '4 packages', cooking steps) are not on the card and were not adopted; Gemini's '1 כפית חומץ' is contradicted by the scan, which shows 'כוס' on the vinegar line."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company (logo, phone/fax)"
@@ -41,31 +41,19 @@
   "uncertainties": [
     {
       "field": "title",
-      "text": "רוטב [?]",
-      "best_guess": "רוטב גבינה",
-      "reason": "The second word of the title is unclear."
-    },
-    {
-      "field": "source",
-      "text": "חיה",
-      "best_guess": "חיה",
-      "reason": "Name after the slash is partly legible."
-    },
-    {
-      "field": "ingredients[0]",
-      "text": "1 כוס מים",
-      "best_guess": null,
-      "reason": "'מים' is not perfectly clear."
+      "text": "רוטב גזר [?]",
+      "best_guess": "Gemini: כבישת גזר / גזר מבושל (different first word); earlier reading: רוטב גבינה (second word unclear). Second word 'גזר' looks consistent with the ink.",
+      "reason": "First word 'רוטב' not confirmed; the two readings differ."
     },
     {
       "field": "ingredients[4]",
       "text": "[?] מלח [?]",
-      "best_guess": null,
+      "best_guess": "Possibly 'ומלח ופלפל' (own guess; Gemini did not read this line)",
       "reason": "Last line only partly readable."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
