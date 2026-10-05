@@ -1,0 +1,95 @@
+{
+  "id": "b02-r02",
+  "batch": 2,
+  "title": "בצק לפטיפורים",
+  "source": {
+    "text": "שומרי משקל (דיאט)",
+    "type": "publication",
+    "as_written": "דיאט / שומרי משקל",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים (30 מנות, כ-40 קלוריות למנה)",
+      "items": [
+        "4 ביצים, מופרדות",
+        "1/3 כוס סוכר",
+        "1/2 כוס קמח",
+        "2 כפות קורנפלור",
+        "3 כפות שמן"
+      ]
+    },
+    {
+      "group": "כלים",
+      "items": [
+        "תבנית מרובעת בגודל 30x30 ס\"מ"
+      ]
+    },
+    {
+      "group": "מילית קצפת בטעם שוקולד (תוספת של כ-35 קלוריות למנה)",
+      "items": [
+        "קצפת \"ריץ'\" בטעם שוקולד (צמחית, מופחתת קלוריות וללא שומן רווי)",
+        "מעט פתיתי שוקולד לפיזור"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "1. מניחים בתבנית דף אפייה. כך אין צורך לשמן את התבנית, והעוגה לא נדבקת ונשברת כשמוציאים אותה.",
+        "2. מקציפים את החלבונים עם הסוכר.",
+        "3. טורפים את החלמונים ומוסיפים להם 3-2 כפות מהקצף. מוסיפים בתנועות קיפול לקצף.",
+        "4. בקערה נפרדת מערבבים את הקמח עם הקורנפלור ומקפלים לאט לאט לתוך הקצף. לבסוף יוצקים את השמן בזילוף איטי ומערבבים.",
+        "5. שוטחים בתבנית ואופים בתנור בחום בינוני (180 מעלות) עד שהבצק מזהיב וקיסם שננעץ בתוכו יוצא יבש.",
+        "7. מצננים ומוציאים מהתבנית. מקלפים בזהירות את נייר האפייה. [?] את הפטיפורים [?], כך העוגה נחתכת טוב יותר."
+      ]
+    }
+  ],
+  "notes": [
+    "Multi-column clipping. Right column: the recipe header and ingredients. Left: method, the chocolate-whipped-cream filling idea, an introductory paragraph, and the beginning of another recipe ('סלסלות') that is cut off by the left edge of the scan (not transcribed).",
+    "Tip printed in the filling box: the petits fours can be decorated with fresh fruit (e.g. strawberries) under glazed cream, then chilled."
+  ],
+  "incidental_text": [
+    "Magazine logos: דיאט, שומרי משקל",
+    "Introductory paragraph about calories and the choice of a basic petit-four dough (partly cut off), not transcribed"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-02.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "step numbering 5 -> 7",
+      "best_guess": null,
+      "reason": "There is no step 6 on the clipping; a column of text at the left edge is cut off."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "את הפטיפורים [?]",
+      "best_guess": null,
+      "reason": "A word in the last step is hard to read."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "מילית קצפת",
+      "best_guess": null,
+      "reason": "The filling items were summarized from the paragraph under the heading, not from a list."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
