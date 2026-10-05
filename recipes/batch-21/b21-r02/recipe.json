@@ -1,12 +1,12 @@
 {
   "id": "b21-r02",
   "batch": 21,
-  "title": "שניצל שושנה",
+  "title": "שניצל",
   "source": {
     "text": "שושנה",
     "type": "person",
-    "as_written": "(inferred from the title 'שניצל שושנה')",
-    "uncertain": true
+    "as_written": "שושנה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -16,7 +16,7 @@
         "חרדל",
         "שום גבישי",
         "מלח דק",
-        "ביצה",
+        "ביצה (בצד: 2–3)",
         "פירורי לחם"
       ]
     }
@@ -55,12 +55,6 @@
       "reason": "Word unreadable."
     },
     {
-      "field": "source",
-      "text": "שושנה",
-      "best_guess": null,
-      "reason": "Not written as a source; inferred only from the title."
-    },
-    {
       "field": "notes[1]",
       "text": "2-3",
       "best_guess": null,
@@ -68,7 +62,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
