@@ -1,0 +1,73 @@
+{
+  "id": "b16-r09",
+  "batch": 16,
+  "title": "קינואה",
+  "source": {
+    "text": "מירי",
+    "type": "person",
+    "as_written": "מירי",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כוס [?] + [?] כוס מים רותחים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מוזגים [?] בסיר",
+        "מוסיפים קינואה ומערבבים",
+        "[?] המים [?] מביאים",
+        "לרתיחה, מבשלים 12 ד'",
+        "ומכסים"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'קינואה / מירי' with a wavy and a straight underline; the rest of the card is white. A very short instruction card; the quantities in the first line are not fully readable."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-14.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-14.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "מירי",
+      "best_guess": "מירי",
+      "reason": "Read as a first name."
+    },
+    {
+      "field": "ingredients[0]",
+      "text": "1 כוס [?] + [?] כוס מים רותחים",
+      "best_guess": null,
+      "reason": "Words and quantity unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Words unclear (the last two lines are 'לרתיחה, מבשלים 12 ד'' and 'ומכסים')."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
