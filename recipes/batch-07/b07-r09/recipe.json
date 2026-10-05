@@ -1,0 +1,75 @@
+{
+  "id": "b07-r09",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כף חרדל",
+        "לימון קטן סחוט",
+        "פחות מ-1/2 כוס חומץ",
+        "[ditto] שמן",
+        "מלח, פילפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשפוך [?] [?] לכל [?] הסלט"
+      ]
+    }
+  ],
+  "notes": [
+    "The ditto marks on the fourth line stand for the quantity above ('פחות מ-1/2 כוס'), so presumably 'less than 1/2 cup oil'.",
+    "A bracket on the left groups the ingredients with a three-word note, of which only 'לשפוך' and 'היטב' seem readable."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-10.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "[ditto] שמן",
+      "best_guess": "פחות מ-1/2 כוס שמן",
+      "reason": "Ditto marks - the quantity is inferred from the line above."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "לשפוך [?] [?] לכל [?] הסלט",
+      "best_guess": null,
+      "reason": "Several words unclear."
+    },
+    {
+      "field": "notes",
+      "text": "bracket words",
+      "best_guess": null,
+      "reason": "Word at the top of the bracket note unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
