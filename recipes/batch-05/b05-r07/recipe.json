@@ -11,12 +11,12 @@
         "1/2 ק\"ג בקר טחון",
         "1 ביצה",
         "1/2 כפית כוסברה טחונה",
-        "1/2 מלח",
-        "1/2 פלפל שחור",
-        "[?] שיני שום [?]",
+        "1/2 כפית מלח",
+        "1/2 כפית פלפל שחור",
+        "2 שיני שום [?] [?] [?]",
         "בצל, גזר אחד",
-        "[?] פלפל ירוק, 1/2 אדום",
-        "[?] תפו\"א",
+        "1/2 פלפל ירוק, 1/2 אדום",
+        "5 [?]",
         "[?] [?]",
         "שמן [?]"
       ]
@@ -24,7 +24,8 @@
   ],
   "instructions": [],
   "notes": [
-    "No title on the card (the first line is an ingredient). Units are missing on several lines ('1/2 מלח', '1/2 פלפל שחור') - transcribed as written."
+    "No title on the card (the first line is an ingredient); Gemini's title 'קציצות בקר ברוטב עגבניות' is not on the card and was not adopted.",
+    "Ditto marks under 'כפית' in the 'מלח' and 'פלפל שחור' lines expanded to 'כפית'; ditto marks expanded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -39,40 +40,28 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "ingredients[0].items[2]",
-      "text": "1/2 כפית כוסברה טחונה",
-      "best_guess": null,
-      "reason": "Word before 'כוסברה' looks like 'כפית'; 'טחונה' is smudged."
-    },
-    {
       "field": "ingredients[0].items[5]",
-      "text": "[?] שיני שום [?]",
-      "best_guess": null,
-      "reason": "Amount and extra words unreadable."
-    },
-    {
-      "field": "ingredients[0].items[7]",
-      "text": "[?] פלפל ירוק, 1/2 אדום",
-      "best_guess": null,
-      "reason": "The first amount is unreadable."
+      "text": "2 שיני שום [?] [?] [?]",
+      "best_guess": "Gemini: 'לכתוש או לגרר'; not confirmed on the scan (letters after 'שום' are cramped)",
+      "reason": "Extra words after 'שום' are cramped and unclear; the amount '2' is clear."
     },
     {
       "field": "ingredients[0].items[8]",
-      "text": "[?] תפו\"א",
-      "best_guess": null,
-      "reason": "Amount unreadable."
+      "text": "5 [?]",
+      "best_guess": "Gemini: 'עגבניות'; earlier reading: 'תפו\"א'",
+      "reason": "The amount 5 is clear, but the word is short and ends with a geresh-like tick; the two readings differ."
     },
     {
       "field": "ingredients[0].items[9]",
       "text": "[?] [?]",
-      "best_guess": null,
-      "reason": "Line is unreadable."
+      "best_guess": "Gemini: '2 כפות עגבניות [רסק עגבניות]'; the word looks like it begins with ע and ends with ות, but the amount and rest are unclear",
+      "reason": "Amount and words unclear."
     },
     {
       "field": "ingredients[0].items[10]",
       "text": "שמן [?]",
-      "best_guess": null,
-      "reason": "Word after 'שמן' unreadable."
+      "best_guess": "Gemini: 'לטיגון'; not confirmed (the word looks shorter, about 4-5 letters)",
+      "reason": "Word after 'שמן' unclear."
     },
     {
       "field": "title",
@@ -82,7 +71,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
