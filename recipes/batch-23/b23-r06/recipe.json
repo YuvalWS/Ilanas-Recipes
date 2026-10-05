@@ -1,0 +1,62 @@
+{
+  "id": "b23-r06",
+  "batch": 23,
+  "title": "בצק פריך מתוק",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "200 גרם קמח",
+        "100 גרם חמאה",
+        "קורט מלח",
+        "1 כף סוכר",
+        "3 כפות מים קרים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "[the method is torn away; only the first words 'הקמח …' are visible at the bottom edge]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Second article on the same torn newspaper page as 'עוגת שזיפים עם קצף'. Printed intro: 'יש להקפיד על ערבוב ביותר, לא להיעזר במיקסר [?]. החמאה צריכה להיות [?] מעט לתוך הבצק.' (partly torn). The article before it, 'הכנת בצק לקלתית (פלאן)', explains three basic doughs (a sweet crisp dough, a leaf dough and a rich dough) and is not a recipe."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-06.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "(torn)",
+      "best_guess": null,
+      "reason": "The method is torn away."
+    },
+    {
+      "field": "notes",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Printed intro is cut by the tear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
