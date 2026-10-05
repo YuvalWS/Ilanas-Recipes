@@ -46,7 +46,8 @@
   ],
   "notes": [
     "Collage of three pasted pieces on one scan: (1) right strip with a header 'כלים' (large pot/pan, tools list: 'קערה גדולה, קרש חיתוך, קולפן ירקות, סכין חדה, תבנית תנור גדולה, נייר אפייה או רדיד אלומיניום, מלקחיים') and '(5-6 מנות) המרכיבים', the ingredient lists and steps 1-3; (2) left strip with steps 4-8 (sweet potatoes, onion, garlic, coating, baking) and a storage note 'אפשר לשמור בכלי סגור במקרר, עד 3 ימים. מחממים כ־2 דקות בתנור מיקרוגל, או כ־10 דקות בתנור שחומם לחום בינוני.'; (3) a bottom piece that belongs to a different recipe (see next record). The title is not visible on any of the pieces. A line of blue-ink handwriting beside the ingredient list is unreadable. Parts of the right strip are cropped at the edge (first letters missing: the 'תפוחי אדמה' line reads 'ללת' (cropped); ingredient amounts in the 'דבש' line are cut: '1/2 ... כפות דבש').",
-    "The grouping of the right and left strips as one recipe is based on step numbering (1-3 on the right, 4-8 on the left) and matching ingredients (sweet potatoes, onions, garlic)."
+    "The grouping of the right and left strips as one recipe is based on step numbering (1-3 on the right, 4-8 on the left) and matching ingredients (sweet potatoes, onions, garlic).",
+    "אפשר לשמור בכלי סגור במקרר, עד 3 ימים. מחממים 2 דקות בתנור מיקרוגל, או 10 דקות בתנור שחומם לחום בינוני."
   ],
   "incidental_text": [
     "Handwritten blue-ink marks beside the ingredient list (unreadable)"
@@ -82,7 +83,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
