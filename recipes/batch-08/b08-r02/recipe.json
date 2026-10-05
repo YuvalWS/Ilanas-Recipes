@@ -9,17 +9,17 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] [?] [?] [?]",
+        "[?] שמן [?]",
         "[?] [?] מלח, סוכר [?]",
         "[?] [?] [?] קישואים [?]",
-        "[?] הבצל [?] [?]",
-        "[?] [?] [?] קטנות [?]",
+        "הבצל [?]",
+        "לקצוץ קוביות קטנות [?]",
         "[?] [?] [?] מלח [?]",
-        "[?] [?] [?] [?] [?] [?]",
+        "לבשל [?]",
         "(about 8 more lines, partly unreadable)",
         "(reverse side) [?] [?] [?] במיקסר",
         "(reverse side) [?] [?] [?] עד שמתקבל [?]",
-        "(reverse side) [?] [?] ([?]מלח) [?] [?]",
+        "ממשיכים להרתיח [?] עד שמתעבה",
         "(reverse side) ממשיכים להרתיח [?] [?] עד שמתעבה",
         "(reverse side) [?] [?] במיקסר"
       ]
@@ -76,7 +76,7 @@
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
