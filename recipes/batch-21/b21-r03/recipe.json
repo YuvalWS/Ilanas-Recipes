@@ -22,14 +22,17 @@
     {
       "group": "כך עושים",
       "steps": [
-        "בצלחת רחבה מפזרים את הביצים והחרדל, בצלחת שנייה קמח, מלח ותבלינים, ובשלישית פירורי לחם.",
-        "מצפים כל חזה עוף בקמח, מנערים עודף, טובלים בביצה ואז בפירורי לחם.",
-        "מטגנים בשמן בעומק 1 ס\"מ עד להזהבה, כ־2 דקות מכל צד, ומסננים על צלחת עם נייר סופג."
+        "שמים בצלחת רחבה של מרק את הביצים והחרדל וטורפים, בצלחת נוספת שמים קמח עם מלח ומערבבים ובצלחת שלישית שמים את פירורי הלחם.",
+        "מצפים כל חזה עוף בקמח (מקפידים להיפטר מעודפי קמח) ולאחר מכן בביצה טרופה ואז בפירורי לחם.",
+        "מטגנים בשמן בגובה 1 ס״מ עד להזהבה יפה מ־2 הצדדים ומעבירים לצלחת עם נייר סופג."
       ]
     }
   ],
   "notes": [
-    "Printed clipping with handwritten blue annotations at the top, the left margin ('ביצה / [?]קמח? / ביצה') and bottom; they were not legible enough to transcribe reliably."
+    "Handwritten left-margin sequence: ביצה / פירורים / ביצה.",
+    "Handwritten annotation above the ingredients: [?].",
+    "Handwritten annotation below the printed preparation: [?].",
+    "Independent Codex rereading corrects the printed preparation: beat eggs with mustard, combine flour with salt, shake off excess flour, then coat in beaten egg and breadcrumbs. The printed 2 refers to the two sides, not a two-minute cooking time; no frying duration is stated."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -41,17 +44,23 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "high",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "notes[0]",
-      "text": "ביצה / [?]קמח? / ביצה",
+      "field": "notes[1]",
+      "text": "[?]",
+      "best_guess": "רינה",
+      "reason": "Top blue annotation looks like a person’s name רינה, but the first/final letter forms are not fully certain."
+    },
+    {
+      "field": "notes[2]",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "Handwritten margin note, only partly readable; it seems to list the coating order."
+      "reason": "Bottom handwritten note crosses the printed final line; the full wording is not reliably readable."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
