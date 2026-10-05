@@ -1,8 +1,13 @@
 {
   "id": "b07-r17",
   "batch": 7,
-  "title": "[?]",
-  "source": null,
+  "title": "סלט הפתעות",
+  "source": {
+    "text": "אהרוני",
+    "type": "person",
+    "as_written": "אהרוני",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -10,14 +15,20 @@
       "items": [
         "5 כפות שמן זית",
         "2 כפות מיץ לימון",
-        "2 כפות [?] [?]",
+        "2 כפות תרכיז מיץ רימונים",
         "1-2 כפות דבש",
-        "מלח, פילפל",
-        "[?] [?] גר' [?] [?]"
+        "מלח, פילפל"
       ]
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לפזר גרגרי רימון על [?]"
+      ]
+    }
+  ],
   "notes": [
     "Lower block of the card of scan 17 (below the ruled line; the upper block is recipe b07-r16): a short heading underlined with a wavy line, then a dressing list (5 tbsp olive oil, 2 tbsp lemon juice, honey).",
     "The heading is a short word starting with 'א' (possibly a name); not fully readable.",
@@ -37,26 +48,20 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "heading",
-      "best_guess": "own re-read: possibly 'אסתר' (a name; may be the source of the dressing, not a title); not confirmed",
-      "reason": "Short heading, shaky handwriting."
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Final pomegranate line cropped."
     },
     {
-      "field": "ingredients[2]",
-      "text": "2 כפות [?] [?]",
-      "best_guess": "own re-read: possibly a mustard (e.g. 'חרדל ...' with further words); not confirmed",
-      "reason": "Item unreadable, 2-3 words."
-    },
-    {
-      "field": "ingredients[5]",
-      "text": "last line",
-      "best_guess": "own re-read: possibly '[?] [?] גר' ... כרוב ...' (a quantity of cabbage?); not confirmed",
-      "reason": "Last line mostly unreadable; the earlier word 'גרגרי' looks more like an abbreviation 'גר''."
+      "field": "notes",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Same scan also has upper salad dressing with circled honey correction; primary lower Ah aroni block separate."
     }
   ],
   "transcription": {
-    "method": "ai_reread_with_gemini_second_opinion",
+    "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
