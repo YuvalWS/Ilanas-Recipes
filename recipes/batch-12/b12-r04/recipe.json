@@ -1,0 +1,68 @@
+{
+  "id": "b12-r04",
+  "batch": 12,
+  "title": "עוף עם אורז בסיר",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] [?] כמות שמן",
+        "[?] [?] [?] קטנות",
+        "[?] 2 כפות [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "בסיר [?] כמות שמן",
+        "לטגן [?] הבצל",
+        "הבצל לקוביות קטנות",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] עד [?]",
+        "[?] 1 - 2 כפות [?]",
+        "ו[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] 1 כוס"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. Heading 'עוף עם אורז בסיר' (chicken with rice in a pot) with a number 1 before it; a ruled line below the heading. The method starts with putting oil in a pot and frying small cubes of onion; the rest is unclear."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2205-04.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-04.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עוף עם אורז בסיר",
+      "best_guess": "עוף עם אורז בסיר",
+      "reason": "Heading read as written; the middle word is slightly distorted."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Partly unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
