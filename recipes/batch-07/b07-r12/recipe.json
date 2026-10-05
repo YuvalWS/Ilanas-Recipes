@@ -1,0 +1,52 @@
+{
+  "id": "b07-r12",
+  "batch": 7,
+  "title": "לקט עלים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כפות מיונז",
+        "2 כפות חומץ",
+        "מלח פלפל",
+        "מעט סוכר",
+        "1/2 כפית שום"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Yellow memo card with a construction-company letterhead; underlined title 'לקט עלים' (assorted leaves). Ingredient list for the dressing; no method.",
+    "Scan 14 appears to be the back of this same card, with a different dressing (kept as the next record)."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company (logo, phone/fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-13.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "2 כפות מיונז",
+      "best_guess": "2 כפות מיונז",
+      "reason": "Item read as 'מיונז' (mayonnaise); the quantity digit is stretched."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
