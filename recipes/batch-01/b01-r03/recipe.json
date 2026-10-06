@@ -46,7 +46,7 @@
     "The tin size '26' appears to be written twice (once at the end of the line and once again just above it); recorded once.",
     "Last word of the syrup juice line ('טרי') sits cramped at the left edge of the card; read as 'טרי' (consistent with the ink and with Gemini's independent reading).",
     "Independent Codex rereading confirms the written oven temperature 180 in the enlarged scan. The source surname is cut off; no missing continuation was reconstructed.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded (it is only partly readable)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -84,8 +84,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source is only partly readable on the card, as recorded"
     }
   }
 }

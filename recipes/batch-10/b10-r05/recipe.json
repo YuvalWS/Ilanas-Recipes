@@ -37,7 +37,8 @@
     "A printed email/web printout (typed text) with handwritten additions: a blue handwritten line at the top and about six lines at the bottom that continue the method. The printed method stops after 'ושום כתוש,' and the handwriting continues from there.",
     "The printed ingredient paragraph has no quantity for the lemon etc.; it lists exactly what is printed.",
     "The handwritten text at the bottom overlaps the printed footer; only the first and last lines are readable.",
-    "Source set by the owner (issue #358): יהודית ר[?]אם. The owner asks to find out whether this יהודית is the same יהודית as in the other recipes (open question)."
+    "Source set by the owner (issue #358): יהודית ר[?]אם. The owner asks to find out whether this יהודית is the same יהודית as in the other recipes (open question).",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded (it is only partly readable)."
   ],
   "incidental_text": [
     "Printed footer of a web-mail page (site address, copyright line, 'תוכן מתוך'...)"
@@ -77,8 +78,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "issue #358",
-      "scope": "partly read: 'יהודית ר[?]אם'; whether she is the same יהודית as in other recipes is unconfirmed"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source is only partly readable on the card, as recorded"
     }
   }
 }

@@ -191,7 +191,7 @@
     if (r.source.uncertain || /\[\?\]/.test(r.source.text || "")) return r.proofread && r.proofread.source ? "unsure-checked" : "unsure";
     return "known";
   }
-  var SOURCE_STATUS = { "none-confirmed": "ללא מקור (אושר: אין מקור על הפתק)", "none-unchecked": "ללא מקור (טרם נבדק)", "unsure-checked": "מקור לא בטוח או לא קריא (נבדק: נשאר לא ודאי)", unsure: "מקור לא בטוח או לא קריא (טרם נבדק)" };
+  var SOURCE_STATUS = { "none-confirmed": "ללא מקור (אושר: אין מקור על הפתק)", "none-unchecked": "ללא מקור (טרם נבדק)", "unsure-checked": "מקור חלקי או לא קריא (אושר: כך על הפתק)", unsure: "מקור לא בטוח או לא קריא (טרם נבדק)" };
   // One source line can name several people (source.names): the filter lists the recipe under each of them.
   function srcNames(r) { return !r.source ? [] : (r.source.names && r.source.names.length ? r.source.names : (r.source.text ? [r.source.text] : [])); }
   function recipeTitle(r) { return r.title || r.assigned_title || "(ללא כותרת)"; }

@@ -34,7 +34,7 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Newspaper clipping, page 68, dated 21.1.2002 (the newspaper's name in the header is a stylized logo that I cannot read). It contains an introduction and three numbered tips and then the ingredient list; the method steps are not on this clipping (they are cut off - the left edge shows the beginning of the next column).",
     "Introduction: 'חביתית פיצה היא מאכל קלאסי לעצלנים - קלה להכנה, לא דורשת הכנות מוקדמות ותוך כדי עריכת השולחן המאכל כבר מוכן. זוהי, בעצם, חביתת שלוש שכבות: שכבת בסיס מפרוסות עגבנייה, מעליהן שכבה נכבדה של גבינה מלוחה ומעל הכל ביצים ופטרוזיליה קצוצה.' The numbered items were saved under the 'instructions' field as printed notes.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded (it is only partly readable)."
   ],
   "incidental_text": [
     "Printed at the bottom: '21.1.2002' and page number 68, with a newspaper logo",
@@ -75,8 +75,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source is only partly readable on the card, as recorded"
     }
   }
 }

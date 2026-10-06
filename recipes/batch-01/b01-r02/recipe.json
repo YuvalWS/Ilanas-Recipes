@@ -6,7 +6,7 @@
     "text": "שושנה",
     "type": "person",
     "as_written": "שושנה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -48,7 +48,7 @@
     "'קנמון' is spelled without yod on the card.",
     "A short dash after '1 כוס סוכר' is treated as a line filler.",
     "Independent Codex rereading of the full scan and enlarged crops: אפשר להוסיף, וקוקוס, או שקית, ולחתוך לריבועים, and ולאפות are visually confirmed. The loop at the left of להוסיף belongs to the handwriting; it is not treated as an ingredient quantity 8. Ambiguous optional additions remain flagged.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -104,8 +104,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
     }
   }
 }

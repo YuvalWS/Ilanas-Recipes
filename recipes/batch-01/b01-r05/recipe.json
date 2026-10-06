@@ -6,7 +6,7 @@
     "text": "קופ\"ח",
     "type": "unknown",
     "as_written": "(קופ\"ח)",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -43,7 +43,7 @@
     "Digitization remark: the card is cut at the bottom edge, so the lower halves of the last three lines (steps 5-7) are partly missing.",
     "Digitization remark: the word 'מלא' also appears alone on the line below the flour line (not part of a new ingredient).",
     "Independent Codex rereading confirms כוסמין, מקררים ופורסים, and נשמר במקרר. The overwritten baking time and truncated continuations remain uncertain; no missing cooking or storage advice was inferred.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -57,12 +57,6 @@
   "needs_human_verification": true,
   "confidence": "medium",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "(קופ\"ח)",
-      "best_guess": "קופת חולים (health fund)",
-      "reason": "Parenthetical after the title is an abbreviation; probably where the recipe came from, but not certain."
-    },
     {
       "field": "ingredients",
       "text": "עדיף ללא סוכר (צימוקים [?] משמש)",
@@ -105,8 +99,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
     }
   }
 }

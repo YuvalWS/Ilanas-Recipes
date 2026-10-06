@@ -6,7 +6,7 @@
     "text": "השף הראשי ב\"דומו\" (printed clipping)",
     "type": "unknown",
     "as_written": "השף הראשי ב\"דומו\"",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "clipping",
   "ingredients": [
@@ -44,7 +44,7 @@
   "notes": [
     "Printed clipping; the scan was upside down and was rotated 180 degrees. An intro says the recipe was given by the head chef at a restaurant called 'דומו' (concept store for food lovers); it is not transcribed beyond this.",
     "'בשר בקר מס' 5' is printed as such (a cut number). The Hungarian sausage name is printed 'קבנוס' with 'צ'אבאי' in parentheses.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -58,12 +58,6 @@
   "needs_human_verification": true,
   "confidence": "high",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "(publication) / chef",
-      "best_guess": "דומו",
-      "reason": "The intro credits the head chef of a place called 'דומו' (name as read); no publication name visible."
-    },
     {
       "field": "ingredients[5]",
       "text": "קבנוס הונגרי יבש (צ'אבאי)",
@@ -82,8 +76,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
     }
   }
 }

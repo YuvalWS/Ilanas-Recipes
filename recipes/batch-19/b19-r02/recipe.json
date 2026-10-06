@@ -6,7 +6,7 @@
     "text": "מירי",
     "type": "person",
     "as_written": "מירי",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -31,7 +31,7 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Card 2240-03 has the title 'פלפל ממולא / מירי' (underlined twice) and about ten lines of very narrow, tall handwriting that cannot be read; a short crowded fragment at the lower left (maybe 'ממולא'/'סוכר' and a number) is also unreadable. Card 2240-04 (printed 'רשות הדואר - דואר קדימה' logo; rotated 180 degrees) has about seven lines, ending with '45 דק' (45 minutes). It is assumed to be the continuation of 03 because of the topic, but this is not certain.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
   ],
   "incidental_text": [
     "Printed on 2240-04: logo and 'רשות הדואר - דואר קדימה'"
@@ -53,12 +53,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "מירי",
-      "best_guess": "מירי",
-      "reason": "Read as a first name after the slash."
-    },
     {
       "field": "ingredients",
       "text": "all",
@@ -89,8 +83,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
     }
   }
 }
