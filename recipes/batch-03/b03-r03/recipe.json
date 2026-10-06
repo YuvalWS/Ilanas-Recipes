@@ -37,7 +37,8 @@
     "A marinade-style card (honey, Dijon mustard, olive oil, salt, pepper, paprika, garlic, rosemary); the top row has a small ruled box with several short items that are not readable. The line at the top, left of the first ingredient, looks like a heading or hint and is unreadable.",
     "Faint bleed-through of writing from the reverse side is visible on the paper.",
     "ditto marks expanded: the tick under 'מעט' on the line above is read as 'מעט' before 'פפריקה מתוקה'.",
-    "Gemini's transcription describes a beef goulash with carrots and potatoes; this does not match the card (honey/mustard marinade, rosemary, wrapping, oven) and was not used."
+    "Gemini's transcription describes a beef goulash with carrots and potatoes; this does not match the card (honey/mustard marinade, rosemary, wrapping, oven) and was not used.",
+    "Suggested title 'מרינדה דבש וחרדל' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: honey, Dijon mustard, olive oil, paprika; 'spread the marinade on the meat'). Awaiting the owner's approval."
   ],
   "incidental_text": [
     "Printed footer: איטונג - איכות חיים לכל החיים (Itung company logo/slogan)"
@@ -84,5 +85,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "מרינדה דבש וחרדל",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "honey, Dijon mustard, olive oil, paprika; 'spread the marinade on the meat'"
 }
