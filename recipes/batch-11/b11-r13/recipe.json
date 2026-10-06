@@ -1,0 +1,71 @@
+{
+  "id": "b11-r13",
+  "batch": 11,
+  "title": "מרק עדשים בשתי שניות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים",
+      "items": [
+        "250 גרם עדשים אדומות (1 כוס, וחשוב עדשים אדומות)",
+        "1 ליטר מים",
+        "250 גרם (נטו) בצל מגורר גס",
+        "250 גרם (נטו) שורש סלרי מגורר גס",
+        "1 כף + 1 כפית מחוקות מלח",
+        "1/4 כפית מחוקה פלפל לבן",
+        "2 כפיות מחוקות כמון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "שוטפים היטב במסננת את העדשים (מאבק צריך).",
+        "שמים אותן בסיר עם המים, מביאים לרתיחה, מנמיכים אש, מכסים למחצה עם המכסה, עד שהעדשים מתרככות. עניין קצר יחסית.",
+        "במעבד מזון, בדסקית הגירור הגס, מגררים את הבצל ואת שורש הסלרי.",
+        "מוסיפים את הירקות המגוררים למרק ומבשלים רק עד שהירקות (ואלה בלבד!) מתרככים. גם פה, זה עניין של זמן קצר ביותר.",
+        "מוסיפים את התיבול, מערבבים, ומיד מכבים את האש.",
+        "בעזרת \"מיקסר מוט\" טוחנים את כל המרק לחומר דייסתי גבשושי."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed newspaper clipping in two pieces (the lower piece is torn and stapled); title, a short intro (the writer says the soup is quick to prepare) and the ingredient list are on the upper piece. The text is cut off at the bottom of the lower piece (a further paragraph is only partly visible).",
+    "The steps are printed numbered 1, 2, 3, 4, 4, 6 (the fifth is mis-numbered '4' in print); here they are listed in order without numbers. The text in step 2 of the original continues across the join of the two pieces (a line 'מאבק (צריך)' is the first line of the lower piece and reads as part of the last sentence of step 1 - see scan).",
+    "The line '250 גרם עדשים אדומות (1 כוס, וחשוב עדשים אדומות)' is typeset as written."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-14.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "join between the two pieces",
+      "best_guess": null,
+      "reason": "The line at the top of the lower piece ('מאבק (צריך)') seems to belong to step 1 but its exact connection is unclear."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "Not visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
