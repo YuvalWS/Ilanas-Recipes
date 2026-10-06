@@ -8,11 +8,11 @@
     {
       "group": null,
       "items": [
-        "2 בצלים [?] [?] (מוכנים?) (מ[?] 2 [?])",
+        "3 בצלים לרצועות (מספיק 2 גדולים)",
         "3 כפות טריאקי",
-        "3 כפות דבש — לא חייבים, לטעום",
-        "1/4 כפית מלח",
-        "[ditto] פלפל שחור גרוס"
+        "3 כפות דבש - לא חייבים (לטעום)",
+        "1.4 כפית מלח",
+        "1.4 כפית פלפל שחור גרוס"
       ]
     }
   ],
@@ -21,15 +21,17 @@
       "group": null,
       "steps": [
         "טיגון הבצל שיזהיב",
-        "להוסיף [?] הפרגיות [?] [?]",
-        "[?] [?] מערבבים [?] [?] ו[?]",
-        "[?] [?] בשר [?] [?] [?] [?]",
-        "[?] לטעום אם יש צורך לשפר"
+        "להוסיף הפרגיות והמרינדה",
+        "ומעל את שאר המצרכים לערבב",
+        "היטב לכסות הסיר ולבשל",
+        "כ-20 ד',",
+        "לטעום אם יש צורך לשפר"
       ]
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. A Roman numeral II and a number 2 start the first line: a second block of the same recipe (probably the sauce) of the chicken-thigh card in scan 11. The last line reads 'לטעום אם יש צורך לשפר' (taste and correct the seasoning if needed). A short parenthetical on line 3 is unreadable."
+    "Corrected by the owner in review comments on PR #245: his typed readings replace the earlier AI transcription of the same lines.",
+    "Ditto marks expanded: the marks before 'דבש' stand for 'כפות', and the two marks before 'פלפל שחור גרוס' for '1.4 כפית'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -41,32 +43,26 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "1.4 כפית מלח",
+      "best_guess": "1/4 כפית מלח",
+      "reason": "The owner typed '1.4' (probably meaning 1/4); kept as typed."
+    },
     {
       "field": "title",
       "text": "(none)",
       "best_guess": null,
-      "reason": "No title; looks like part II of another card (scan 11)."
-    },
-    {
-      "field": "ingredients",
-      "text": "lines 1-3",
-      "best_guess": null,
-      "reason": "Items unclear."
-    },
-    {
-      "field": "instructions",
-      "text": "most lines",
-      "best_guess": null,
-      "reason": "Partly unreadable."
+      "reason": "No title on the card."
     }
   ],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   }
 }
