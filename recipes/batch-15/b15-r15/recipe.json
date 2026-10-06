@@ -9,7 +9,7 @@
     "uncertain": true,
     "role": "chef"
   },
-  "medium": "mixed",
+  "medium": "printed",
   "ingredients": [
     {
       "group": "מצרכים",
@@ -35,7 +35,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed block on a card (right side) with a handwritten variant on the left (see next record). Header: 'לביבות כרובית אפויות - 17 לביבות'. Notes section: '17 לביבות.' A paper strip at the bottom reads 'ניקי - לביבות כרובית אפויות', which looks like the name of the person who gave the recipe.",
-    "Owner (2026-10-06): ניקי = Niki B, a chef (a person; listed with the publication writers). The name is unified in the source filter."
+    "Owner (2026-10-06): ניקי = Niki B, a chef (a person; listed with the publication writers). The name is unified in the source filter.",
+    "Split by the owner's request (issue #316): the printed recipe is this record; the handwritten variant on the left of the same card is b15-r16."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -62,5 +63,15 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "card": {
+    "id": "b15-card-01",
+    "kind": "other",
+    "recipes": [
+      "b15-r15",
+      "b15-r16"
+    ],
+    "position": "Right half of the card: the printed block (with the 'ניקי' strip at the bottom).",
+    "note": "One card holding two recipes: a printed recipe on the right and a handwritten variant on the left. They are separate recipes; check the other one if something looks missing."
   }
 }
