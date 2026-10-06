@@ -64,6 +64,13 @@
     });
 
   function srcText(r) { return r.source ? r.source.text : ""; }
+  // Where a recipe stands on its source. "none-confirmed" = no source and the owner checked the card
+  // (a proofread.source record exists); "none-unchecked" = no source recorded, nobody has confirmed it.
+  function sourceStatus(r) {
+    if (!r.source) return r.proofread && r.proofread.source ? "none-confirmed" : "none-unchecked";
+    return r.source.uncertain || /\[\?\]/.test(r.source.text || "") ? "unsure" : "known";
+  }
+  var SOURCE_STATUS = { "none-confirmed": "ללא מקור (אושר: אין מקור על הפתק)", "none-unchecked": "ללא מקור (טרם נבדק)", unsure: "מקור לא בטוח או לא קריא" };
   // One source line can name several people (source.names): the filter lists the recipe under each of them.
   function srcNames(r) { return !r.source ? [] : (r.source.names && r.source.names.length ? r.source.names : (r.source.text ? [r.source.text] : [])); }
   function recipeTitle(r) { return r.title || r.assigned_title || "(ללא כותרת)"; }
@@ -149,6 +156,17 @@
       srcNames(r).forEach(function (s) { group.set(s, (group.get(s) || 0) + 1); });
     });
     var fs = $("f-source");
+    var counts = {};
+    ALL.forEach(function (r) { var st = sourceStatus(r); counts[st] = (counts[st] || 0) + 1; });
+    var sg = document.createElement("optgroup");
+    sg.label = "מצב המקור";
+    Object.keys(SOURCE_STATUS).forEach(function (st) {
+      if (!counts[st]) return;
+      var o = document.createElement("option");
+      o.value = "status:" + st; o.textContent = SOURCE_STATUS[st] + " (" + counts[st] + ")";
+      sg.appendChild(o);
+    });
+    if (sg.children.length) fs.appendChild(sg);
     ["person", "publication"].forEach(function (category) {
       if (!seen[category].size) return;
       var group = document.createElement("optgroup");
@@ -204,7 +222,8 @@
     ALL.forEach(function (r) {
       if (fb && String(r.batch) !== fb) return;
       if (fm && r.medium !== fm) return;
-      if (fsrc && (!r.source || srcNames(r).map(function (nm) { return sourceGroup(r) + ":" + nm; }).indexOf(fsrc) < 0)) return;
+      if (fsrc && fsrc.indexOf("status:") === 0) { if ("status:" + sourceStatus(r) !== fsrc) return; }
+      else if (fsrc && (!r.source || srcNames(r).map(function (nm) { return sourceGroup(r) + ":" + nm; }).indexOf(fsrc) < 0)) return;
       if (fv === "need" && !r.needs_human_verification) return;
       if (fv === "ok" && r.needs_human_verification) return;
       var s = toks.length ? score(r, toks) : 1;

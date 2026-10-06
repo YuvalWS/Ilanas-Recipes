@@ -42,7 +42,7 @@ def run(browser, base):
     expect(page.locator("#grid .card")).to_have_count(len(recipes))
     assert page.locator("#f-source optgroup").all_text_contents()
     assert page.locator("#f-source optgroup").evaluate_all("groups => groups.map(g => g.label)") == [
-        "אנשים", "שפים, כותבים ומקורות בפרסומים"
+        "מצב המקור", "אנשים", "שפים, כותבים ומקורות בפרסומים"
     ]
 
     chosen = next(r for r in recipes if r["medium"] == "handwritten" and r["source"] and r["title"])
