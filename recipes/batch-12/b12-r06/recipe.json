@@ -35,7 +35,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. Blue card, torn at the top, with a piece of tape over the upper left. The front lists a dry coating mix (flour, cornflour, breadcrumbs, garlic and onion powder, paprika, pepper); the back says to mix in a bowl, put in a nylon bag, add chicken pieces, shake, put in a pan and bake. The boxed heading at the top left of the front is unreadable.",
-    "The right-hand column holds the quantities (1, 1/2, 3, 1/2, 1/2, 3/4, 1/4, 1); the unit words are read as 'כוס' / 'כפית' but with some uncertainty."
+    "The right-hand column holds the quantities (1, 1/2, 3, 1/2, 1/2, 3/4, 1/4, 1); the unit words are read as 'כוס' / 'כפית' but with some uncertainty.",
+    "Suggested title 'ציפוי פריך לעוף' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: flour, cornstarch, breadcrumbs, spices; chicken pieces are put in a bag). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -86,5 +87,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "ציפוי פריך לעוף",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "flour, cornstarch, breadcrumbs, spices; chicken pieces are put in a bag"
 }
