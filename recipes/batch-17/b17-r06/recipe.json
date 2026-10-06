@@ -1,0 +1,127 @@
+{
+  "id": "b17-r06",
+  "batch": 17,
+  "title": "עופות קטנים וירקות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים הדרושים",
+      "items": [
+        "4 עופות קטנים"
+      ]
+    },
+    {
+      "group": "לתיבול העופות",
+      "items": [
+        "שני שלישים כוס שמן זית",
+        "מלח ים",
+        "פלפל שחור, גרוס טרי",
+        "2 שיני שום כתושות"
+      ]
+    },
+    {
+      "group": "למצע הירקות",
+      "items": [
+        "4־6 ראשי שום צעירים",
+        "400 גרם תפוחי אדמה צעירים",
+        "400 גרם תפוחי אדמה מזן ראטה (למצוא בירקניות המובחרות ובשוקי האיכרים. כתחליף - לכו על תפודים משובחים לאפייה)",
+        "צרור גזרים צעירים",
+        "3 בצלים אדומים קטנים, קלופים",
+        "6 פלפלים קטנים. רצוי מזן פרדון",
+        "10 בצלצלי אשלוט, קלופים",
+        "2 כרשות צעירות",
+        "3 פלפלי צ'ילי"
+      ]
+    },
+    {
+      "group": "לתיבול הירקות",
+      "items": [
+        "חצי כוס שמן זית",
+        "מלח ים",
+        "פלפל שחור, גרוס טרי",
+        "4 ענפי תימין"
+      ]
+    },
+    {
+      "group": "אופציות, לתוספת טעם וניחוח לירקות",
+      "items": [
+        "3 מקלות קינמון או 3 ענפי לואיזה או 3 מקלות שוש מושרים במעט מים או מקל למון גראס חצוי לאורכו או פרוסות עבות של ג'ינג'ר טרי על קליפתו"
+      ]
+    },
+    {
+      "group": "לזיגוג העופות",
+      "items": [
+        "2 כפות דבש",
+        "2 כפות שמן זית",
+        "2 כפות מיץ לימון טרי"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה (the page ends here; further steps not on the clipping)",
+      "steps": [
+        "מערבבים את חומרי התיבול לעוף ומכסים את העוף בתערובת. משאירים את העוף בטמפרטורת החדר עד סיום שאר ההכנות.",
+        "שוטפים היטב את הירקות: את תפוחי האדמה חוצים או משאירים שלמים, לפי הטעם, את הפלפלים - צ'ילי ופדרון, משאירים שלמים. חותכים את הכרשות לקטעים של 4 ס\"מ, את הבצל האדום חותכים לשישיות, את הגזרים קולפים וחוצים לאורכם ואת בצלי האשלוט והשום משאירים שלמים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping from three pasted pieces: a large photo with the caption 'רולדת גפילטע. תענוג, למטה: עופות וירקות צעירים צלויים ובורקס גבינה של דלאל'; a right-hand strip with the title (partly cut: 'עופות קטנים וירקות') and an intro paragraph plus the ingredient lists; and a bottom piece with the end of the ingredients and steps 1-2. The intro paragraph is only partly readable at the torn edge and is therefore not transcribed in full: it says the dish is a roasting method with a pan-and-rack ('מתקן אפייה של תבנית ובה ...'), that the juices from the roasting drip onto the vegetables, that there is a further trick (glazing the chickens, see a box 'הכנת רוסטר בן רגע'), that 'small chickens' means birds of 400-600 g (maybe 900 g), and that they are sold in supermarket chains and butchers (brands named).",
+    "The next steps (3 onward) are not on the clipping.",
+    "Independent reread explicitly flags the missing cooking/glazing continuation."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-05.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "עופות קטנים וירקות",
+      "best_guess": "עופות קטנים וירקות",
+      "reason": "The first word is partly torn ('עופ...')."
+    },
+    {
+      "field": "notes",
+      "text": "intro paragraph",
+      "best_guess": null,
+      "reason": "Torn at the top; only paraphrased, not transcribed."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "Not visible."
+    },
+    {
+      "field": "instructions",
+      "text": "Method ends after vegetable cutting.",
+      "best_guess": null,
+      "reason": "The original clipping omits the rest of cooking and glazing instructions; cannot reconstruct from the photo or ingredients."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}
