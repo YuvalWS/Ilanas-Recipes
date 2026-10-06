@@ -32,7 +32,8 @@
     "A pin/staple is visible at the top right of the scan.",
     "Suggested title 'מרק כרוב ובטטה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)). Awaiting the owner's approval.",
     "Continuation merged into this recipe: scan 19 (previously the separate record b20-r16, PR #207) - the second card of the same soup (onion, green pepper, corn, cherry tomatoes). Noticed by the owner as part of another recipe; the pairing was found from the cards. The id b20-r16 is intentionally unused.",
-    "Owner (PR #203): the first half of a recipe, without title or source."
+    "Owner (PR #203): the first half of a recipe, without title or source.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'מרק כרוב ובטטה' (it is not written on the card)."
   ],
   "incidental_text": [
     "Printed company letterhead at the top of the memo page: logo 'בזל' - 'חברה להנדסה ובנין בע\"מ', 'מקבוצת חברות זלינגר בע\"מ', פקס. 03-5617358, טל. 03-5620372"
@@ -87,7 +88,7 @@
     "verified_at": null
   },
   "assigned_title": "מרק כרוב ובטטה",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)",
   "proofread": {
     "raw_files": {
@@ -107,6 +108,12 @@
       "date": "2026-10-06",
       "via": "PR #203 review comments",
       "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   }
 }
