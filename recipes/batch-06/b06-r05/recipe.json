@@ -16,6 +16,14 @@
         "מעט [?]",
         "כ 1-2 כפות סוכר לפי הטעם"
       ]
+    },
+    {
+      "group": "כרטיס שני",
+      "items": [
+        "[?] ביצים [?] [?] [?] [?]",
+        "2 1/2 ביצים קשות",
+        "4 כפות גדושות שקדים"
+      ]
     }
   ],
   "instructions": [
@@ -31,6 +39,19 @@
         "לאחר כ 1/2 שעה בישול",
         "3 כפות סוכר, פלפל"
       ]
+    },
+    {
+      "group": "כרטיס שני",
+      "steps": [
+        "בהקפצת [?] [?] [?]",
+        "[?] [?] [?]",
+        "הוספת הסוכר רק [?]",
+        "כדי [?] [?]",
+        "זמני סיר [?] 5 [?]",
+        "1950 טחון [?] 30 קציצות",
+        "1850 טחון - [?] קשות - 7 [?]",
+        "38 קציצות"
+      ]
     }
   ],
   "notes": [
@@ -39,7 +60,10 @@
     "A weight line '700 גר'' appears under the title without a stated ingredient name; the digits look overwritten and stray digits ('84') sit at the top right. Gemini adds 'דג' (fish) - not visible on the card, not copied.",
     "Gemini's 'חצי כוס סוכר', '1 כף חלת מתוקה', '1 כוס מים' and 'מיץ לימון' were not confirmed on the card: the last line clearly reads '3 כפות סוכר, פלפל'.",
     "Lower right corner is torn/stained and carries a few extra unreadable marks next to the last lines.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Second card merged into this recipe: scan 07 (previously the separate record b06-r06, PR #177) - the second card of the same stuffed-fish recipe (eggs, almonds, searing; weights and 38 patties). Noticed by the owner as part of another recipe; the pairing was found from the cards, not stated on them. The id b06-r06 is intentionally unused.",
+    "Nickname 'גפילטע פיש' given by the owner (chat, PR #395); the card heading is 'דגים ממולאים'. Approved by the owner for merging.",
+    "Owner (chat): approved as good for merging; added to 'הקלאסיים'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -48,6 +72,12 @@
       "original_path": "Batch 6/Scanned_20261004-2126-06.jpg",
       "rotation_applied_cw_degrees": 0,
       "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-07.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "unknown"
     }
   ],
   "needs_human_verification": true,
@@ -100,6 +130,42 @@
       "text": "כשהמים רותחים [?]",
       "best_guess": "Gemini: כשחמים ורתוחים; earlier: רותחים",
       "reason": "Last word shaky."
+    },
+    {
+      "field": "כרטיס שני: title",
+      "text": "(no title)",
+      "best_guess": "Gemini: הקפצת קציצות דגים במים וטבלת כמויות (made up by Gemini, not on the card)",
+      "reason": "No title on the card."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "top four lines",
+      "best_guess": "Gemini: הקפצת הקציצות במים / להכין המרק: סיר רחב עם מים / להרתיח עם כוסברה וגזר / להוסיף כפית מלח ומעט סוכר",
+      "reason": "Only a few words legible; Gemini's text does not match the ink."
+    },
+    {
+      "field": "כרטיס שני: ingredients",
+      "text": "first egg line",
+      "best_guess": "Gemini: כ-3.5 ביצים (2 קשות + 1.5 חלבון); ink seems to mention 'ביצים' ... 'רכות' ... 'חלבון'",
+      "reason": "Most words illegible."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "זמני סיר [?] 5 [?]",
+      "best_guess": "Gemini: זמני סיר מים - 5 דקות",
+      "reason": "Third and last words uncertain."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "1950 טחון [?] 30 קציצות",
+      "best_guess": "Gemini: כ-30 קציצות; own reading of the middle word: יצאו",
+      "reason": "Middle word uncertain."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "1850 טחון - [?] קשות - 7 [?]",
+      "best_guess": "Gemini: 3.5 קשות - 7 רגילות",
+      "reason": "The quantity before 'קשות' is scribbled and the last word is cut at the card edge."
     }
   ],
   "transcription": {
@@ -115,6 +181,21 @@
       "date": "2026-10-06",
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
+    },
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #177 comment",
+      "scope": "identified as part of another recipe; the pairing was found from the cards"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (PR #395 instructions)",
+      "scope": "owner's nickname"
     }
-  }
+  },
+  "assigned_title": "גפילטע פיש",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "Nickname given by the owner; the card heading is 'דגים ממולאים'."
 }
