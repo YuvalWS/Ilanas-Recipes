@@ -1,0 +1,92 @@
+{
+  "id": "b13-r03",
+  "batch": 13,
+  "title": "עוגת גבינה",
+  "source": {
+    "text": "שרה ר. (?)",
+    "type": "person",
+    "as_written": "שרה ר.",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים מופרדות",
+        "[?] חלבונים",
+        "2 כוס סוכר",
+        "1/2 כפית [?] ביסקויט",
+        "750 גרם גבינה [?]%",
+        "[?] 3% 1 יוגורט",
+        "1 [?] שמנת",
+        "[?] כפות [?] [?] קורנפלור",
+        "1 וניל",
+        "1 כוס [?] [?]",
+        "1 [?] יוגורט שקית?",
+        "[?] [?]",
+        "[?]",
+        "בתוך התבנית [?] [?] [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "(reverse side) 10 דק' 200°",
+        "(reverse side) 50 דק' 150°"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'עוגת גבינה / שרה ר.' with a second word in parentheses below that is unclear. A ruled line separates the beginning of the list from the rest; quantities are in the right-hand column.",
+    "The back (scan 04, a card with a printed frame and a printed footer 'איכות חיים לכל החיים') carries only the baking temperatures: 10 min at 200 degrees, then 50 min at 150 degrees, plus a crossed-out '20'. The card is assumed to be the back of scan 03 (same recipe) - not certain."
+  ],
+  "incidental_text": [
+    "Printed footer on scan 04: logo and the slogan 'איכות חיים לכל החיים' on a yellow band"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2209-03.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-03.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2209-04.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-04.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "שרה ר. / (word in parentheses)",
+      "best_guess": "שרה ר.",
+      "reason": "Name read as 'שרה ר.'; the parenthetical word is unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Several quantities and items unclear."
+    },
+    {
+      "field": "raw_files",
+      "text": "03/04",
+      "best_guess": null,
+      "reason": "Scan 04 is assumed to be the back of scan 03; the card styles differ (03 plain, 04 framed)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
