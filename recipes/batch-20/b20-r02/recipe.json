@@ -1,7 +1,7 @@
 {
   "id": "b20-r02",
   "batch": 20,
-  "title": "סלט [?]",
+  "title": "כרוב סגול",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -19,7 +19,8 @@
   "instructions": [],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Two scans (02 is upside down, 08 is upright) that appear to show the same small card: a title line ('סלט' plus an underlined word that is cut off by the top edge of the scan), then four or five short lines with a small mark ('ditto' or quantity?) to the right of some of them. Only 'סלט', '2-3', 'חומץ' and 'מלח' could be read with reasonable confidence.",
-    "Rescanning with the whole top edge included would probably reveal the title."
+    "Rescanning with the whole top edge included would probably reveal the title.",
+    "Owner (PR #151 review comments): title 'כרוב סגול'; editorial title 'סלט כרוב סגול'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -39,12 +40,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "title",
-      "text": "סלט [?]",
-      "best_guess": null,
-      "reason": "The second word is underlined and clipped at the top edge."
-    },
     {
       "field": "ingredients[0]",
       "text": "2-3 [?]",
@@ -82,5 +77,28 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #151 review comments",
+      "scope": null
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #151 review comments",
+      "scope": "owner's editorial title 'סלט כרוב סגול'"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  },
+  "assigned_title": "סלט כרוב סגול",
+  "assigned_title_status": "owner_suggested",
+  "assigned_title_basis": "Owner (PR #151): the editorial title should be 'סלט כרוב סגול'; the heading on the card reads 'כרוב סגול'."
 }
