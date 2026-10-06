@@ -45,7 +45,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping, scanned upside down and with a heavy ghost image of the other side showing through at the top (the ingredient list is partly obscured; the lines read from the ghost text are marked [?]). The title of the soup is cut off at the page edge; the ingredients and method describe a pea-and-celery soup, but this is not written on the clipping. Bottom stamp: 'המשך' arrow marks it as a continued column, page '127', date 8.12.2014 (printed date of the newspaper page).",
     "The upper ingredient lines (onion, celery) are faint and not fully readable.",
-    "Independent review resolved the visible publication logo לאשה at the bottom; the damaged upper ingredients and absent title remain unresolved."
+    "Independent review resolved the visible publication logo לאשה at the bottom; the damaged upper ingredients and absent title remain unresolved.",
+    "Suggested title 'מרק אפונה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: celery, onion, 800 g frozen peas, 1.6 L water, 15/5 minute cooking steps). Awaiting the owner's approval."
   ],
   "incidental_text": [
     "Printed on the clipping: page '127' and date 8.12.2014 with a section-name box, and the 'המשך' (continued) marker"
@@ -80,5 +81,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "מרק אפונה",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "celery, onion, 800 g frozen peas, 1.6 L water, 15/5 minute cooking steps"
 }
