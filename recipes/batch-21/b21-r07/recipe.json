@@ -5,9 +5,23 @@
   "source": null,
   "medium": "handwritten",
   "ingredients": [],
-  "instructions": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטבול שניצל בפירורים",
+        "רוטב עם (מעט [?])",
+        "להניח הנקניק על",
+        "הרוטב - ברביקיו [5? ?]",
+        "לאפות בתנור",
+        "נקניק: {מחוק: פסטרמה [?]}",
+        "חזה אוז"
+      ]
+    }
+  ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Handwriting is almost entirely illegible; one line is struck out. Rescan recommended."
+    "Scan was upside down and was rotated 180 degrees. Handwriting is almost entirely illegible; one line is struck out. Rescan recommended.",
+    "Text typed by the owner (PR #259); his {…} annotation marks a struck-out word. Kept in order as typed; which lines are ingredients (the last two) is not stated."
   ],
   "incidental_text": [
     "Orange printed company logo (not identified)"
@@ -24,10 +38,22 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "(none)",
+      "field": "instructions",
+      "text": "רוטב עם (מעט [?])",
       "best_guess": null,
-      "reason": "Not readable."
+      "reason": "Marked [?] by the owner (PR #259)."
+    },
+    {
+      "field": "instructions",
+      "text": "ברביקיו [5? ?]",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner (PR #259)."
+    },
+    {
+      "field": "instructions",
+      "text": "{מחוק: פסטרמה [?]}",
+      "best_guess": null,
+      "reason": "Struck-out word; marked [?] by the owner (PR #259)."
     }
   ],
   "transcription": {
@@ -36,5 +62,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #259 review comments",
+      "scope": "typed by the owner; ingredients/method split not stated"
+    }
   }
 }
