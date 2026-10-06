@@ -23,6 +23,13 @@
         "[?] 15-20 דקות",
         "[?] 5-10 דקות"
       ]
+    },
+    {
+      "group": "המשך בגב הכרטיס",
+      "steps": [
+        "[?] בנייר כסף [?]",
+        "ולאפות [?] 20 [?]"
+      ]
     }
   ],
   "notes": [
@@ -30,7 +37,9 @@
     "Time ranges are written right-to-left (the card visually shows 20-15 and 10-5); transcribed here in reading order as 15-20 and 5-10 minutes. Digits themselves are clear.",
     "Faint show-through of writing from the back of the card (likely scan b06-r08, mirrored) is visible at the top and between the lines; it is ignored here.",
     "No title or source on the card. Gemini's title ('דג סלמון אפוי') and 'על הדג' / 'אפיה:' / 'מכן' are not clearly visible on the card and were not copied.",
-    "Handwriting is cramped; remaining [?] marks are words/quantities that could not be confirmed. A rescan or human re-read is recommended."
+    "Handwriting is cramped; remaining [?] marks are words/quantities that could not be confirmed. A rescan or human re-read is recommended.",
+    "Continuation merged into this recipe: scan 09 (previously the separate record b06-r08, PR #187) - mirrored show-through shows it is the back of the card. Noticed by the owner as part of another recipe; the pairing was found from the cards. The id b06-r08 is intentionally unused.",
+    "Suggested title 'דג בשמן זית, סויה ושום' added by AI on 2026-10-06 (not on the card; basis: sauce: olive oil, soy, garlic, paprika; foil; bake 15-20 minutes (batch 6 is fish)). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -38,18 +47,18 @@
       "file": "raw/Scanned_20261004-2126-08.jpg",
       "original_path": "Batch 6/Scanned_20261004-2126-08.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-09.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
     }
   ],
   "needs_human_verification": true,
   "confidence": "medium",
   "uncertainties": [
-    {
-      "field": "title",
-      "text": "(no title)",
-      "best_guess": null,
-      "reason": "No title visible on the card."
-    },
     {
       "field": "instructions",
       "text": "לשפוך מלח [?], פפריקה",
@@ -91,6 +100,18 @@
       "text": "[?] 5-10 דקות",
       "best_guess": "Gemini: ולאחר מכן",
       "reason": "Words before the second baking time unclear."
+    },
+    {
+      "field": "המשך בגב הכרטיס: instructions",
+      "text": "[?] בנייר כסף [?]",
+      "best_guess": "First word - Gemini: לסדר; own alternative reading: לעטוף (5 glyphs). Last word - own tentative reading: לסגור (Gemini omitted it)",
+      "reason": "First and last words of line 1 unclear."
+    },
+    {
+      "field": "המשך בגב הכרטיס: instructions",
+      "text": "ולאפות [?] 20 [?]",
+      "best_guess": "Gemini: 20 דק' ב 180° (temperature not confirmed; earlier reading: none)",
+      "reason": "Glyphs between 'ולאפות' and '20' and after '20' are unclear; a temperature, if present, is unreadable."
     }
   ],
   "transcription": {
@@ -99,5 +120,28 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #PR #187 comment review comments",
+      "scope": "identified as part of another recipe; the pairing was found from the cards"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #182 review comments",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #182 review comments",
+      "scope": "confirmed: no source on the card"
+    }
+  },
+  "assigned_title": "דג בשמן זית, סויה ושום",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "sauce: olive oil, soy, garlic, paprika; foil; bake 15-20 minutes (batch 6 is fish)"
 }
