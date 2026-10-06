@@ -1,0 +1,70 @@
+{
+  "id": "b23-r02",
+  "batch": 23,
+  "title": "קרם",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "להמיס",
+      "items": [
+        "200 גר' שוקולד מריר",
+        "200 גרם חמאה"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "4 חלמונים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנת הקרם",
+      "steps": [
+        "סיר עם מכסה פתוח בלי מים",
+        "לכבות {מחוק בקו}",
+        "לקרר במקרר עד שמתקשה למרקם",
+        "כמו מיונז"
+      ]
+    },
+    {
+      "group": "הרכבה (מתחת לקו)",
+      "steps": [
+        "רצועה אפויה",
+        "3 כפות גדושות קרם",
+        "שוב רצועה",
+        "קרם",
+        "רצועה",
+        "קרם",
+        "מרימים את שולי ניר הכסף",
+        "ולמעלה נילון נצמד לפריזר לפחות",
+        "3 שעות"
+      ]
+    }
+  ],
+  "notes": [
+    "Corrected by the owner in review comments on PR #286: his typed readings replace the earlier AI transcription of the same lines.",
+    "Owner's remark: the two lines 'שוקולד' and 'חמאה' carry the margin note 'להמיס' (grouped here as 'להמיס'); the word 'לכבות' is struck through on the card."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-02.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  }
+}
