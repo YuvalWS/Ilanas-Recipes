@@ -1,0 +1,68 @@
+{
+  "id": "b02-r06",
+  "batch": 2,
+  "title": "פונטש",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "יין אדום ולבן",
+        "מים באותו כמות",
+        "סוכר ([?] כוס)",
+        "קוניאק (כמעט כוס)",
+        "ג'ינג'ר [?]",
+        "קינמון",
+        "לימון (1/2 כוס)",
+        "(לפי הטעם)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להרתיח ולהגיש חם."
+      ]
+    }
+  ],
+  "notes": [
+    "A curly brace on the card groups ג'ינג'ר, קינמון and לימון together with 'לפי הטעם' (to taste) written beside it.",
+    "Ginger is written roughly as 'גנג'ר' on the card; normalized here to ג'ינג'ר.",
+    "A signature or flourish at the bottom of the card.",
+    "Second line reads \"מים באותו כמות\" as written on the card (grammatically \"באותה\"); it appears to mean water in the same amount as the wine, but the card does not say so explicitly."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-06.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "סוכר ([?] כוס)",
+      "best_guess": "Gemini: 1; earlier reading: 1/2",
+      "reason": "Quantity is a single small hooked mark with a dot above; not written like the clear 1/2 on the lemon line. Could be 1, 1/2 or a 4; not certain."
+    },
+    {
+      "field": "ingredients[0].items[4]",
+      "text": "ג'ינג'ר [?]",
+      "best_guess": "Gemini: מרוכך / מגורר (hedged between two words); earlier reading: ביר (rejected, letter count)",
+      "reason": "Word after ginger is about four glyphs ending in a ר/ך-like stroke; Gemini itself offers two different words and neither is confirmed by the ink."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
