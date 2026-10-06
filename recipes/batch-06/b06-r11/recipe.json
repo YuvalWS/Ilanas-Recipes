@@ -25,12 +25,23 @@
         "פטרוזיליה",
         "סלמון נקי ופרוסים"
       ]
+    },
+    {
+      "group": "המשך בגב הכרטיס",
+      "steps": [
+        "[?] [?] [?] [?] [?]",
+        "לאפות כ [?] ד'",
+        "מכוסה",
+        "הורדת המכסה",
+        "לבשל כ [?] ד'"
+      ]
     }
   ],
   "notes": [
     "Card is a list of short lines, one per row; it is not clear which lines are ingredients and which are steps, so all lines are kept in card order under instructions.",
     "Heading read as 'סלמון / בצל מ'' - the final 'מ'' looks like an abbreviation (possibly 'מושחם', suggested by the first line 'להשחים'); not expanded because it is not written out.",
-    "Handwriting is shaky; a human re-read of the lines marked [?] is recommended."
+    "Handwriting is shaky; a human re-read of the lines marked [?] is recommended.",
+    "The method continues on the back of the card (scan -13, previously the separate record b06-r12, PR #204): same paper, ink and torn corner, with mirrored show-through. Noticed by the owner as part of another recipe; the pairing was found from the paper and the text. The id b06-r12 is intentionally unused."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -38,7 +49,13 @@
       "file": "raw/Scanned_20261004-2126-12.jpg",
       "original_path": "Batch 6/Scanned_20261004-2126-12.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-13.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
     }
   ],
   "needs_human_verification": true,
@@ -67,6 +84,24 @@
       "text": "סלמון נקי ופרוסים",
       "best_guess": "Gemini wrote ופרוס; the ink ends with 'ים'",
       "reason": "Last word may be ופרוסים or ופרוסות-like; ending read as ים."
+    },
+    {
+      "field": "back side: instructions",
+      "text": "line 1 (partly cut off at the top edge)",
+      "best_guess": "Gemini: טחינת סלמון / נתחי סלמון",
+      "reason": "First line is cut by the scan edge and not legible."
+    },
+    {
+      "field": "back side: instructions",
+      "text": "number in line 2 (minutes)",
+      "best_guess": "Gemini: 20",
+      "reason": "Digits written as two loops; reading not certain."
+    },
+    {
+      "field": "back side: instructions",
+      "text": "'כ' and number in line 5 (minutes)",
+      "best_guess": "Gemini: כ 5",
+      "reason": "The digit and whether 'כ' precedes it are not certain."
     }
   ],
   "transcription": {
@@ -75,5 +110,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #204 comment",
+      "scope": "identified scan -13 as part of another recipe; the partner (back of this card) was found from the paper and the text"
+    }
   }
 }
