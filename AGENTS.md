@@ -46,6 +46,8 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 
 - **Fragments of other recipes are not recipes (owner, 2026-10-06):** a newspaper page can show the torn-off end (or beginning) of a recipe that Ilana did not clip. Do not make it a recipe of its own (b08-r06 was removed for this reason); keep a one-line mention in the notes of the recipes on the same card. Only recipes Ilana clipped or wrote are kept. Removed ids stay unused and the card's `recipes` lists are updated.
 
+- **Frames on multi-recipe scans (owner, 2026-10-06):** for every note/clipping holding several recipes (those with a `card`), each recipe's `raw_files[]` entry carries `regions`: frames (`x`, `y`, `w`, `h` as fractions 0-1 of the stored scan) around where that recipe sits; a recipe that continues elsewhere gets several frames, one per area, and on a second scan its own entry. The recipe page draws a solid frame ("המתכון הזה") and dashed frames for the other recipes on the same scan, so no one mistakes a neighbouring fragment for the recipe. Draw frames for every new card, check them on the scan (overlay) and mention that they are approximate. Frames are not proofreading.
+
 ## Working in parallel (several people / tools edit this repo at the same time)
 
 - **Never commit generated files.** `data/recipes.json` (the website index) and `docs/NEEDS_REVIEW.md` are rebuilt automatically by the `Rebuild search index` GitHub Action after every push to `main` that touches `recipes/**`. Do not include them in PRs (the `Validate recipes` check warns); for a local preview run `python tools/build_index.py` and do not `git add` the result.

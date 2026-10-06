@@ -24,7 +24,8 @@
     }
   ],
   "notes": [
-    "Text typed by the owner (PR #26). A short separate recipe (the crumb topping) at the bottom of the second page of the card of b01-r21; split into its own record and linked to it with the card field. 'ברייזעלעך' = crumbs/streusel; the margarine line has no unit on the card (as typed)."
+    "Text typed by the owner (PR #26). A short separate recipe (the crumb topping) at the bottom of the second page of the card of b01-r21; split into its own record and linked to it with the card field. 'ברייזעלעך' = crumbs/streusel; the margarine line has no unit on the card (as typed).",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -32,7 +33,15 @@
       "file": "raw/Scanned_20261004-2101-21.jpg",
       "original_path": "Batch 1/Scanned_20261004-2101-21.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "back"
+      "side": "back",
+      "regions": [
+        {
+          "x": 0.02,
+          "y": 0.525,
+          "w": 0.96,
+          "h": 0.225
+        }
+      ]
     }
   ],
   "needs_human_verification": false,
