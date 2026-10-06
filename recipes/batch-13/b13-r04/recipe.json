@@ -3,10 +3,14 @@
   "batch": 13,
   "title": "עוגת גבינה",
   "source": {
-    "text": "שושנה",
+    "text": "שושנה, נורית",
     "type": "person",
-    "as_written": "שושנה",
-    "uncertain": true
+    "as_written": "שושנה, נורית",
+    "uncertain": false,
+    "names": [
+      "שושנה",
+      "נורית"
+    ]
   },
   "medium": "handwritten",
   "ingredients": [
@@ -46,7 +50,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'עוגת גבינה / שושנה, [?]' (a name, plus a second word). The card is divided into two parts marked II (a second block starts with 'מערבבים את כל החומרים'). The card has a printed frame and a footer 'איכות חיים לכל החיים'. Water stains are on the lower part.",
-    "The back (scan 06) has five lines of baking instructions at the top (the temperature 160 degrees and 10 minutes are the clearest parts); the rest is faint show-through. Assumed to be the back of scan 05."
+    "The back (scan 06) has five lines of baking instructions at the top (the temperature 160 degrees and 10 minutes are the clearest parts); the rest is faint show-through. Assumed to be the back of scan 05.",
+    "Source set by the owner (issue #381): שושנה, נורית. Two people are named on the card (listed under both names)."
   ],
   "incidental_text": [
     "Printed footer: logo and the slogan 'איכות חיים לכל החיים'"
@@ -68,12 +73,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "שושנה, [?]",
-      "best_guess": "שושנה",
-      "reason": "First name read as 'שושנה'; the next word is unclear."
-    },
     {
       "field": "ingredients",
       "text": "several lines",
@@ -99,5 +98,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #381",
+      "scope": null
+    }
   }
 }
