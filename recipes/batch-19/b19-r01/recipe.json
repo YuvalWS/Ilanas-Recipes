@@ -1,34 +1,31 @@
 {
   "id": "b19-r01",
   "batch": 19,
-  "title": "מרק [?]",
+  "title": "מרק עגבניות",
   "source": null,
   "medium": "handwritten",
-  "ingredients": [
-    {
-      "group": null,
-      "items": [
-        "[?]"
-      ]
-    }
-  ],
+  "ingredients": [],
   "instructions": [
     {
       "group": null,
       "steps": [
-        "קוצצים [?] צבעונות? (לבן)",
-        "[?] [?] כמות [?] מים",
-        "להרתיח ולבשל [?]",
-        "3 כפות [?] שמן [?] פרווה",
-        "פלפל שחור [?]",
-        "3 כפות סוכר [?] [?]",
-        "(ל[?] הטעם)",
-        "[?] [?] [?] שוב [?]"
+        "קרטון מיץ עגבניות (יכין)",
+        "ל[?] + אותה כמות מים",
+        "להרתיח, כשרותח +",
+        "3 כפות מרק עוף פרווה",
+        "פלפל שחור - מעט",
+        "3 כות סוכר (סוכר מים[?]",
+        "לפי הטעם)",
+        "להרתיח שוב מוסיפים",
+        "1/2 כוס אורז ולהרתיח",
+        "להקטין האש לבשל [?]",
+        "ועוד 1/4 שעה להשאיר [?]"
       ]
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card with a printed 'orange' sticker at the top left (after rotation) and a wavy-underlined title line that begins 'מרק' (soup) and ends with an unclear word. Scan 2240-02 is the back: only three short lines at the top (with fractions such as 1/4) and a stained blank area. The pairing of the two scans is an assumption (same pen and paper)."
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card with a printed 'orange' sticker at the top left (after rotation) and a wavy-underlined title line that begins 'מרק' (soup) and ends with an unclear word. Scan 2240-02 is the back: only three short lines at the top (with fractions such as 1/4) and a stained blank area. The pairing of the two scans is an assumption (same pen and paper).",
+    "Owner (PR #118 review comments): title 'מרק עגבניות'; the remaining text typed by the owner in card order (ingredients and method run together)."
   ],
   "incidental_text": [
     "Printed sticker 'orange' on the card"
@@ -51,24 +48,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "מרק [?]",
-      "best_guess": null,
-      "reason": "Second word of the title unclear."
-    },
-    {
-      "field": "ingredients",
-      "text": "all",
-      "best_guess": null,
-      "reason": "Not legible."
-    },
-    {
-      "field": "instructions",
-      "text": "all lines",
-      "best_guess": null,
-      "reason": "Mostly unclear; only the word 'מרק' in the title and a few fragments could be read."
-    },
-    {
       "field": "raw_files",
       "text": "2240-01/02",
       "best_guess": null,
@@ -87,5 +66,25 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #118 review comments",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #118 review comments",
+      "scope": "typed by the owner (ingredient and method lines together, as on the card)"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }
