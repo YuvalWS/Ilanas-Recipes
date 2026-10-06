@@ -134,7 +134,7 @@ def run(browser, base):
     assert unnamed["assigned_title"] in fixture_page.title()
     report = parse_qs(urlparse(fixture_page.locator(".actions > a").get_attribute("href")).query)
     assert report["recipe_title"] == [unnamed["assigned_title"]]
-    fixture_page.locator(".actions > button").click()
+    fixture_page.locator(".sharebox > button").click()
     expect(fixture_page.locator(".share-menu")).to_be_visible()
     shared_text = parse_qs(urlparse(fixture_page.get_by_text("WhatsApp", exact=True).get_attribute("href")).query)["text"][0]
     assert unnamed["assigned_title"] in shared_text and "אינה כותרת שתומללה מהמקור" in shared_text

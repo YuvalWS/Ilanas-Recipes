@@ -58,7 +58,7 @@ for rid in [a for a in sys.argv[1:] if not a.startswith("--")]:
         tree = git("write-tree", env=env)
     if tree == git("rev-parse", f"{branch}^{{tree}}"):
         print(f"{rid}: unchanged"); continue
-    msg = (f"Re-transcribe {rid}: confidence {old['confidence']} -> {new['confidence']}\n\n"
+    msg = os.environ.get("UPDATE_MSG") or (f"Re-transcribe {rid}: confidence {old['confidence']} -> {new['confidence']}\n\n"
            "Second reading from enlarged crops of the scan; unreadable words stay [?].")
     commit = git("commit-tree", tree, "-p", branch, "-m", msg + TRAILER)
     git("update-ref", f"refs/heads/{branch}", commit)

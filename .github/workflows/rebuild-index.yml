@@ -1,13 +1,21 @@
 name: Rebuild search index
 
-# data/recipes.json (what the website loads) is generated. Nobody should edit or commit it by hand:
-# whenever recipes (or the builder) change on main, this job rebuilds it and commits the result.
+# data/recipes.json (what the website loads) and docs/NEEDS_REVIEW.md are generated. Nobody should edit or
+# commit them by hand: whenever recipes (or the builder) change on main, this job regenerates them.
+#
+# Designed to be quiet and race-safe when many PRs are merged in a row:
+#  * a run that is no longer on the newest main commit exits successfully (the newer run does the work);
+#  * every attempt regenerates from the freshest origin/main, so there is never a rebase or merge conflict;
+#  * "nothing changed" and "lost the push race too many times" both exit 0 (the next run catches up).
+# The job only fails when the recipes themselves do not validate (a real problem worth a notification).
 on:
   push:
     branches: [main]
     paths:
       - "recipes/**"
       - "tools/build_index.py"
+      - "tools/needs_review.py"
+      - "schema/**"
       - ".github/workflows/rebuild-index.yml"
   workflow_dispatch:
 
@@ -27,18 +35,29 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install jsonschema
-      - name: Validate recipes
-        run: python tools/validate.py
-      - name: Rebuild index and docs
+      - name: Rebuild index and commit if changed
         run: |
-          python tools/build_index.py
-          python tools/needs_review.py
-      - name: Commit if changed
-        run: |
-          if git diff --quiet -- data/recipes.json docs/NEEDS_REVIEW.md; then echo "index up to date"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/recipes.json docs/NEEDS_REVIEW.md
-          git commit -m "Rebuild search index and review list [skip ci]"
-          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 5; done
-          exit 1
+          git fetch --quiet origin main
+          if [ "$(git rev-parse origin/main)" != "$GITHUB_SHA" ] && [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            echo "A newer commit exists on main; its own run will rebuild the index."; exit 0
+          fi
+          for i in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --hard --quiet origin/main
+            python tools/build_index.py
+            python tools/needs_review.py
+            if git diff --quiet -- data/recipes.json docs/NEEDS_REVIEW.md; then
+              echo "Index and review list are already up to date - nothing to commit."; exit 0
+            fi
+            git add data/recipes.json docs/NEEDS_REVIEW.md
+            git commit --quiet -m "Rebuild search index and review list [skip ci]"
+            if git push --quiet origin HEAD:main; then echo "Index rebuilt and pushed."; exit 0; fi
+            echo "Push raced with another commit (attempt $i); regenerating from the latest main."
+            sleep $((i * 4))
+          done
+          echo "::notice::Could not push after 5 attempts; the next run will rebuild the index."
+          exit 0
+      - name: Validate recipes (fails only on real data problems)
+        run: python tools/validate.py

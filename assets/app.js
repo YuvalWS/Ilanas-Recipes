@@ -66,6 +66,14 @@
   function srcText(r) { return r.source ? r.source.text : ""; }
   function recipeTitle(r) { return r.title || r.assigned_title || "(ללא כותרת)"; }
   function usesAssignedTitle(r) { return !r.title && !!r.assigned_title; }
+  // How an assigned_title is described to readers (it is never the heading written on the card).
+  function assignedKind(r) {
+    var st = r.assigned_title_status;
+    if (!r.assigned_title) return null;
+    if (st === "ai_suggested") return { tag: "כותרת מוצעת", note: "כותרת מוצעת (הצעה אוטומטית, טרם אושרה): היא אינה כתובה על הפתק." };
+    if (st === "owner_suggested") return { tag: "כותרת מוצעת", note: "כותרת מוצעת על ידי בעל האתר: היא אינה כתובה על הפתק." };
+    return { tag: "כותרת שניתנה", note: "כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור." };
+  }
   function sourceGroup(r) {
     // A clipping's byline can have type "person"; it is still a publication writer.
     return r.source.type === "publication" || r.source.type === "company" ||
@@ -84,7 +92,7 @@
   }
   function batchTitle(n) {
     var b = BATCH[n];
-    return "אצווה " + n + (b && b.title ? " - " + b.title : "");
+    return "אוסף " + n + (b && b.title ? " - " + b.title : "");
   }
 
   // ---- search ---------------------------------------------------------------------
@@ -134,6 +142,11 @@
         group.appendChild(o);
       });
       fs.appendChild(group);
+    });
+    $("clear-filters").addEventListener("click", function () {
+      Object.keys(FILTER_PARAMS).forEach(function (id) { $(id).value = id === "f-sort" ? "rel" : ""; });
+      writeFiltersToUrl("pushState");
+      renderList();
     });
     ["q", "f-batch", "f-medium", "f-source", "f-verify", "f-sort"].forEach(function (id) {
       $(id).addEventListener(id === "q" ? "input" : "change", function () {
@@ -198,7 +211,11 @@
     return e;
   }
 
+  function filtersActive() {
+    return Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
+  }
   function renderList() {
+    $("clear-filters").hidden = !filtersActive();
     var rows = currentResults();
     var grid = $("grid");
     grid.textContent = "";
@@ -214,9 +231,9 @@
       var meta = el("p", "meta", (srcText(r) ? srcText(r) + " · " : "") + mediumLabel(r.medium));
       body.appendChild(meta);
       var tags = el("p", "tags");
-      tags.appendChild(el("span", "tag", "אצווה " + r.batch));
+      tags.appendChild(el("span", "tag", batchTitle(r.batch).replace(" - ", " · ")));
       if (r.card) tags.appendChild(el("span", "tag", "1 מתוך " + r.card.recipes.length + " באותו " + CARD_KIND[r.card.kind].one));
-      if (usesAssignedTitle(r)) tags.appendChild(el("span", "tag", "כותרת שניתנה למתכון"));
+      if (usesAssignedTitle(r)) tags.appendChild(el("span", "tag", assignedKind(r).tag));
       if (r.needs_human_verification) tags.appendChild(el("span", "tag warn", "דורש הגהה"));
       body.appendChild(tags);
       a.appendChild(body);
@@ -242,8 +259,8 @@
   function absUrl(p) { return new URL(p, location.href).href; }
   function plainText(r) {
     var out = [recipeTitle(r)];
-    if (usesAssignedTitle(r)) out.push("כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור.");
-    else if (r.assigned_title) out.push("כותרת נוספת לחיפוש: " + r.assigned_title);
+    if (usesAssignedTitle(r)) out.push(assignedKind(r).note);
+    else if (r.assigned_title) out.push("כינוי / כותרת נוספת לחיפוש: " + r.assigned_title);
     if (r.source) out.push("מקור: " + r.source.text);
     if (r.ingredients.length) {
       out.push("", "מרכיבים:");
@@ -269,13 +286,16 @@
     } while (true);
     return url;
   }
-  function actions(r) {
+  function reportLink(r) {
     var box = el("div", "actions");
     var report = el("a", "btn", "⚠ דווחו על טעות במתכון");
     report.href = reportUrl(r); report.target = "_blank"; report.rel = "noopener";
     box.appendChild(report);
-
-    var share = el("button", "btn", "↗ שיתוף");
+    return box;
+  }
+  function shareBox(r) {
+    var box = el("div", "sharebox");
+    var share = el("button", "btn btn-share", "↗ שיתוף");
     share.type = "button";
     var menu = el("div", "share-menu"); menu.hidden = true;
     var url = pageUrl(r), text = plainText(r), title = (r.title || r.assigned_title || r.id) + " · המתכונים של אילנה";
@@ -352,16 +372,18 @@
       var img = el("img"); img.src = src; img.alt = "סריקה " + (i + 1);
       a.appendChild(img); fig.appendChild(a);
       var cap = {single: "", front: "צד קדמי", back: "צד אחורי", unknown: ""}[f.side] || "";
-      if (f.rotation_applied_cw_degrees) cap += (cap ? " · " : "") + "הסריקה סובבה ב-" + f.rotation_applied_cw_degrees + "°";
       if (cap) fig.appendChild(el("figcaption", null, cap));
       scans.appendChild(fig);
     });
     wrap.appendChild(scans);
 
     var txt = el("div", "text");
-    txt.appendChild(el("h2", null, recipeTitle(r)));
-    if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", "כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור."));
-    else if (r.assigned_title) txt.appendChild(el("p", "muted", "כותרת נוספת לחיפוש: " + r.assigned_title));
+    var tbar = el("div", "titlebar");
+    tbar.appendChild(el("h2", null, recipeTitle(r)));
+    tbar.appendChild(shareBox(r));
+    txt.appendChild(tbar);
+    if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", assignedKind(r).note));
+    else if (r.assigned_title) txt.appendChild(el("p", "muted", "כינוי / כותרת נוספת לחיפוש: " + r.assigned_title));
     if (r.needs_human_verification) {
       var warn = el("p", "banner warn", "תמלול זה דורש הגהה אנושית. השוו מול הסריקה. רמת ביטחון: " + ({high: "גבוהה", medium: "בינונית", low: "נמוכה"}[r.confidence] || r.confidence));
       txt.appendChild(warn);
@@ -395,9 +417,12 @@
       });
     }
     if (!r.ingredients.length && !r.instructions.length) txt.appendChild(el("p", "muted", "לא תומלל תוכן (ראו סריקה)."));
+    txt.appendChild(reportLink(r));      // right under the transcription
     if (r.notes.length) {
-      txt.appendChild(el("h3", null, "הערות"));
-      var nl = el("ul"); r.notes.forEach(function (n) { var li = el("li"); li.appendChild(withMarks(n)); nl.appendChild(li); }); txt.appendChild(nl);
+      var nd = el("details", "notes");     // collapsed by default
+      nd.appendChild(el("summary", null, "הערות (" + r.notes.length + ")"));
+      var nl = el("ul"); r.notes.forEach(function (n) { var li = el("li"); li.appendChild(withMarks(n)); nl.appendChild(li); });
+      nd.appendChild(nl); txt.appendChild(nd);
     }
     if (r.incidental_text.length) {
       txt.appendChild(el("h3", null, "טקסט נלווה (לא חלק מהמתכון)"));
@@ -423,7 +448,6 @@
       legal.appendChild(la); legal.appendChild(document.createTextNode("."));
       txt.appendChild(legal);
     }
-    txt.appendChild(actions(r));
     txt.appendChild(el("p", "muted id", r.id + " · " + r.path));
     wrap.appendChild(txt);
     v.appendChild(wrap);

@@ -5,3 +5,6 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# owner's original site photo (a resized copy lives in assets/site-photo.jpg)
+/EM2_0367.jpg
