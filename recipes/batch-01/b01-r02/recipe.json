@@ -22,12 +22,12 @@
       ]
     },
     {
-      "group": "left box (unclear)",
+      "group": "left box",
       "items": [
         "אפשר להוסיף",
-        "[?]",
-        "[?]",
-        "וקוקוס, או שקית",
+        "קליפת לימון",
+        "טיפות וניל",
+        "וקוקוס, או שקדים",
         "3 1/2 כוסות קמח"
       ]
     }
@@ -36,7 +36,7 @@
     {
       "group": null,
       "steps": [
-        "לערבב [?] משטחת בתבנית",
+        "לערבב טוב, משטחת בתבנית",
         "ולחתוך לריבועים לפני גמר האפיה",
         "ולאפות עוד מספר דקות."
       ]
@@ -48,7 +48,8 @@
     "'קנמון' is spelled without yod on the card.",
     "A short dash after '1 כוס סוכר' is treated as a line filler.",
     "Independent Codex rereading of the full scan and enlarged crops: אפשר להוסיף, וקוקוס, או שקית, ולחתוך לריבועים, and ולאפות are visually confirmed. The loop at the left of להוסיף belongs to the handwriting; it is not treated as an ingredient quantity 8. Ambiguous optional additions remain flagged.",
-    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded.",
+    "Owner (issue #427): the left box reads 'אפשר להוסיף / קליפת לימון / טיפות וניל / וקוקוס, או שקדים / 3 1/2 כוסות קמח'; the first method line is 'לערבב טוב, משטחת בתבנית'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,24 +68,6 @@
       "text": "עוגיות שושנה",
       "best_guess": null,
       "reason": "'שושנה' sits beside the boxed word 'עוגיות'; it may be part of the name (rose-shaped cookies) or a person's name (the source)."
-    },
-    {
-      "field": "ingredients[1].items[1]",
-      "text": "[?]",
-      "best_guess": "קינמון (previous reading) / שליש כוס שמן (other model)",
-      "reason": "One long word starting with what looks like ק; the letter count does not fit 'קינמון' cleanly and the other model's reading cannot be seen in the strokes."
-    },
-    {
-      "field": "ingredients[1].items[2]",
-      "text": "[?]",
-      "best_guess": "ו-1 כוס מים (other model, not confirmed)",
-      "reason": "Illegible; the first letters may be 'עוגות' but this is not reliable."
-    },
-    {
-      "field": "instructions[0].steps[0]",
-      "text": "לערבב [?] משטחת בתבנית",
-      "best_guess": "הכל / טוב",
-      "reason": "The word immediately after לערבב remains ambiguous; משטחת בתבנית is legible in the enlarged scan."
     }
   ],
   "transcription": {
@@ -106,6 +89,18 @@
       "date": "2026-10-06",
       "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
       "scope": "confirmed by the owner: the source as recorded"
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #427",
+      "scope": "the left box only"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #427",
+      "scope": "the first line only"
     }
   }
 }
