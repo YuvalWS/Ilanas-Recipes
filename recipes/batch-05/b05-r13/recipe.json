@@ -1,0 +1,64 @@
+{
+  "id": "b05-r13",
+  "batch": 5,
+  "title": "קציצות עוף הונגריות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג חזה עוף טחון",
+        "1/2 כוס פירורי לחם",
+        "2 ביצים",
+        "1 תפו\"א מבושל ומרוסק",
+        "מלח, פלפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שמים כל החומרים ומערבבים.",
+        "בסיר קטן 50 גר' מרגרינה עם 1 כף גדושה קמח + 1 כף גדושה מרק עוף. מערבבים שלא יהיו גושים ומוסיפים 1 כוס מים רותחים + 2 שיני שום: ([?] כשמסמיך)",
+        "מורידים מהאש ומוסיפים לתערובת הקציצות. להשהות במקרר שעתיים.",
+        "מוציאים מהמקרר עושים כדורים ומטבלים בפירורי לחם ומטגנים."
+      ]
+    }
+  ],
+  "notes": [
+    "The last lines are written clearly but in a long run-on style.",
+    "The word in the bracket before 'כשמסמיך' is still unreadable; the ink looks like 'רביכה' (roux), but the letters are not clear enough to confirm. Gemini's reading ('במידה ומשתמשים') does not fit the ink.",
+    "'להשהות' has one letter overwritten (scribbled over) but the word is clear in context.",
+    "Re-read with a second opinion: 'ומטבלים' confirmed (dipping in breadcrumbs); 'לתערובת' and 'להשהות' corrected from the earlier reading."
+  ],
+  "incidental_text": [
+    "Printed text bleeding through at the lower edge of the paper"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-13.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "([?] כשמסמיך)",
+      "best_guess": "Earlier reading: unreadable; own reading of the ink: 'רביכה' (roux). Gemini: 'במידה ומשתמשים' (does not fit the ink)",
+      "reason": "The word in brackets before 'כשמסמיך' is not clear enough to confirm."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
