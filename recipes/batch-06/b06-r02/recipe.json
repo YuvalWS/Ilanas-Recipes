@@ -1,0 +1,65 @@
+{
+  "id": "b06-r02",
+  "batch": 6,
+  "title": "דג סול",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטגן 2 בצלים [?] [?] [?] [?]",
+        "ו[?] [?] עגבניות [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] 2 [?] עגבניות [?] [?]",
+        "(several further lines unreadable)",
+        "(reverse side) [?] [?] [?] [?] [?]",
+        "(reverse side) [?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky; only the words confirmed on the scan are transcribed, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
+    "The front has a title with a circled number (10) to its left (probably a page/recipe number in Ilana's own numbering) and a line under the title. The back (scan 03) has only two handwritten lines at the top; the rest of that scan is faint show-through of the front's writing.",
+    "Gemini's reading (salmon in tomato-garlic sauce, 4 tbsp oil, 30 min, parsley, 'close the pot, 5 minutes') was NOT adopted: the title on the card reads 'דג סול' (not סלמון) and its body wording could not be confirmed on the ink; only 'לטגן 2 בצלים' and the word 'עגבניות' are visible with reasonable clarity."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-02.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-03.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "body",
+      "best_guess": "Gemini: fry 2 onions in 4 tbsp oil, add tomatoes and chopped garlic, black pepper, salt, fish in a flat pot ~30 min, parsley; back: close the pot, boil 5 more minutes (unverified, partly embellished)",
+      "reason": "Body text is too dense/shaky to transcribe reliably; only 'לטגן 2 בצלים' and 'עגבניות' confirmed on the scan."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 03 is assumed to be the back of scan 02 (show-through of 02's text is visible on 03)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
