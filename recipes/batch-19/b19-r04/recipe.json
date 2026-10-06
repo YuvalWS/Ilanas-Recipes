@@ -77,5 +77,19 @@
   },
   "assigned_title": "אורז עם רסק עגבניות וגזר",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "rice, fried onion, grated carrots, tomato paste, lemon, boiling water"
+  "assigned_title_basis": "rice, fried onion, grated carrots, tomato paste, lemon, boiling water",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
 }
