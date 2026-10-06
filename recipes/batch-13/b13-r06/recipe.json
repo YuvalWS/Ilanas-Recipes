@@ -4,7 +4,7 @@
   "title": "עוגת גבינה מופחתת קלוריות בציפוי שמנת קלה",
   "source": {
     "text": "(printed clipping, publication not shown)",
-    "type": "unknown",
+    "type": "publication",
     "as_written": "—",
     "uncertain": true
   },
@@ -51,7 +51,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping (low-calorie cheesecake with light-cream topping, 12 servings, preparation time 30 minutes) with two lines of blue handwriting added next to the 5th and the 8th ingredient lines: one reads 'שמנת קלה' near the 'גביע ...' line, the other is a short note starting with '1 כף' that cannot be read.",
     "Both the title and the ingredient lines are partly faded by a stain, so some printed words are reconstructed from context ('1 גביע שלי אשל' is probably a misprint or damaged text for a creamy ingredient). The step 2 text 'שהמליחית יציבה' is copied as printed - please check against the scan.",
-    "Handwritten additions read או שמנת קלה and 1 כף אינסטנט; they are annotations, not printed ingredients."
+    "Handwritten additions read או שמנת קלה and 1 כף אינסטנט; they are annotations, not printed ingredients.",
+    "Owner (chat, 2026-10-06): the source is an unknown paper clipping, not a person; source type changed to 'publication' (the publication itself is still not shown)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -97,5 +98,12 @@
     "verified_by": null,
     "verified_at": null
   },
-  "proofread": {}
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "type corrected: an unidentified printed clipping, not a person; the publication stays unknown"
+    }
+  }
 }
