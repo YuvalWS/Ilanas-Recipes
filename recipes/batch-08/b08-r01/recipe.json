@@ -1,31 +1,46 @@
 {
   "id": "b08-r01",
   "batch": 8,
-  "title": "קציצות [?]",
+  "title": "פרסה - כרתי",
   "source": null,
   "medium": "handwritten",
-  "ingredients": [],
-  "instructions": [
+  "ingredients": [
     {
       "group": null,
+      "items": [
+        "3 ענפים (פרסה)",
+        "1 ביצה",
+        "3 כפות קמח מצה",
+        "סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "צד ראשון",
       "steps": [
-        "קוצצים את הכרסה",
+        "קוצצים את הפרסה",
         "שמים בסיר ומכסים",
         "את הירק במים ומלח",
         "ומבשלים עד שמתרכך",
-        "ומסננים למסננת סוחטים",
-        "ומוציאים שתצא הרבה מים",
-        "[?] [?] [?] הרבה [?] [?]",
-        "אח״כ שמים קמח מצה",
+        "מוציאים למסננת סוחטים",
+        "ביד שלא יהיה הרבה מים",
+        "אח\"כ שמים קמח מצה"
+      ]
+    },
+    {
+      "group": "צד שני",
+      "steps": [
         "בערך 3 כפות",
-        "[?], קצת סוכר"
+        "ביצה, קצת סוכר"
       ]
     }
   ],
   "notes": [
     "Handwriting is dense and only partly legible; unreadable words are [?].",
     "Square card in brown ink; the heading at the top is crossed/scribbled and unreadable. A blue-ink note in the left margin ('3 ... 1 ...') is also unreadable. The steps describe boiling a (frozen?) vegetable in salted water until soft and draining it; the later lines are unclear.",
-    "The back (scan 02) has only two lines of its own; the rest is faint show-through."
+    "The back (scan 02) has only two lines of its own; the rest is faint show-through.",
+    "Corrected by the owner in review comments on PR #274: his typed readings replace the earlier AI transcription of the same lines."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -43,44 +58,20 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "heading at top",
-      "best_guess": null,
-      "reason": "Heading scribbled/crossed and unreadable."
-    },
-    {
-      "field": "instructions[0]",
-      "text": "[?] [?] [?] שרק הקפוא",
-      "best_guess": null,
-      "reason": "First line unclear; 'הקפוא' (the frozen) is the only clear word and might be 'הקפוא'."
-    },
-    {
       "field": "notes",
-      "text": "blue margin note",
+      "text": "blue-ink margin note",
       "best_guess": null,
-      "reason": "Unreadable."
-    },
-    {
-      "field": "instructions",
-      "text": "lines 5-8",
-      "best_guess": null,
-      "reason": "Mostly unreadable."
-    },
-    {
-      "field": "raw_files",
-      "text": "front/back",
-      "best_guess": null,
-      "reason": "Scan 02 assumed to be the back of scan 01 (it shows through)."
+      "reason": "The blue margin note on the card was not transcribed (not covered by the owner's corrections)."
     }
   ],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   }
 }
