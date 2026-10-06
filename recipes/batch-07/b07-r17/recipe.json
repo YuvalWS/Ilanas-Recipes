@@ -35,7 +35,9 @@
     "The heading is a short word starting with 'א' (possibly a name); not fully readable.",
     "ditto marks expanded (each stands for 'כפות').",
     "The Gemini file in this folder describes a different recipe (cauliflower fritters) and was not used.",
-    "Owner (2026-10-06): אהרוני is a chef (a person, but a professional source, listed with the publication writers)."
+    "Owner (2026-10-06): אהרוני is a chef (a person, but a professional source, listed with the publication writers).",
+    "Part of b07-card-01 with b07-r16 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -43,7 +45,15 @@
       "file": "raw/Scanned_20261004-2144-17.jpg",
       "original_path": "Batch 7/Scanned_20261004-2144-17.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.0,
+          "y": 0.6,
+          "w": 1.0,
+          "h": 0.4
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
@@ -76,5 +86,15 @@
       "via": "chat (chef אהרוני)",
       "scope": "role 'chef' only"
     }
+  },
+  "card": {
+    "id": "b07-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b07-r16",
+      "b07-r17"
+    ],
+    "position": "Lower block of the card, below the ruled line (a short heading starting with 'א', read as אהרוני, then the dressing list).",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   }
 }

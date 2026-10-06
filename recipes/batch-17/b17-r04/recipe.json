@@ -34,7 +34,9 @@
   "notes": [
     "Two scans show the same printed clipping: scan 03 (narrow strip, clear) and scan 04 (the same strip on the left, glued next to a different clipping on the right - see next record, partly torn). The heading is 'שוקיים עם בצלצלי [פנינה]' (the last word is cut at the page edge in both scans; 'פנינה' is inferred from the ingredient line 'בצלצלי פנינה').",
     "The first lines of the strip (a numbered step 4 and a serving line 'מגישים עם אורז לבן') belong to the preceding recipe and are cut at the top; this is stated in the step list as a remark.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Part of b17-card-01 with b17-r05 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -48,7 +50,15 @@
       "file": "raw/Scanned_20261004-2231-04.jpg",
       "original_path": "Batch 17/Scanned_20261004-2231-04.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.04,
+          "y": 0.19,
+          "w": 0.41,
+          "h": 0.79
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
@@ -81,5 +91,15 @@
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
     }
+  },
+  "card": {
+    "id": "b17-card-01",
+    "kind": "clipping",
+    "recipes": [
+      "b17-r04",
+      "b17-r05"
+    ],
+    "position": "Left column of the scan (heading 'שוקיים עם בצלצלי [פנינה]'); the first lines above the heading are the end of another recipe.",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   }
 }

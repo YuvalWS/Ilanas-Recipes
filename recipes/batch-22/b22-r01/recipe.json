@@ -77,7 +77,9 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Graph-paper sheet with two recipes: this cake (top and middle) and a zucchini pie (bottom, recipe 2 of this batch; same scan). Roman numerals 'I' and 'II' mark the two parts of the cake.",
     "Repeated page cross-checked against PR #273: squash slices ½ cm, stewed separately with a little cooked onion; no added water specified. Pastry is בצק עלים, prick it.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Part of b22-card-01 with b22-r02 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -85,7 +87,15 @@
       "file": "raw/Scanned_20261005-0923-01.jpg",
       "original_path": "Batch 22/Scanned_20261005-0923-01.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.0,
+          "y": 0.02,
+          "w": 1.0,
+          "h": 0.575
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
@@ -118,5 +128,15 @@
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
     }
+  },
+  "card": {
+    "id": "b22-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b22-r01",
+      "b22-r02"
+    ],
+    "position": "Top and middle of the graph-paper sheet (cake with parts I and II).",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   }
 }

@@ -23,7 +23,9 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. The card is a page from a company diary (a daily planner of a bank: 'בנק הפועלים', 'OCTOBER 1999', Monday 18 and Tuesday 19). The Monday column (right) holds this recipe; the Tuesday column (left) holds another recipe (see next record). No instructions are written.",
     "Ingredient lines are read as: '4 שקיות ברוקלי / [?] גבינה / 4 ביצים / גבינה צהובה מגורדת / [?] מה / א. מרק בצל / פלפל, מלח / מעט חרדל' - a few words are unclear.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Part of b15-card-02 with b15-r08 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [
     "Printed diary page: 'OCTOBER 1999', Monday 18 / Tuesday 19, 'בנק הפועלים', hour marks"
@@ -33,7 +35,15 @@
       "file": "raw/Scanned_20261004-2217-08.jpg",
       "original_path": "Batch 15/Scanned_20261004-2217-08.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.5,
+          "y": 0.12,
+          "w": 0.49,
+          "h": 0.58
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
@@ -72,5 +82,15 @@
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
     }
+  },
+  "card": {
+    "id": "b15-card-02",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b15-r07",
+      "b15-r08"
+    ],
+    "position": "Right page of the diary sheet (Monday 18), 'פשטידת ברוקלי'.",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   }
 }

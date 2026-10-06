@@ -26,7 +26,9 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Second article on the same torn newspaper page as 'עוגת שזיפים עם קצף'. Printed intro: 'יש להקפיד על ערבוב ביותר, לא להיעזר במיקסר [?]. החמאה צריכה להיות [?] מעט לתוך הבצק.' (partly torn). The article before it, 'הכנת בצק לקלתית (פלאן)', explains three basic doughs (a sweet crisp dough, a leaf dough and a rich dough) and is not a recipe.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Part of b23-card-01 with b23-r05 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -34,7 +36,15 @@
       "file": "raw/Scanned_20261005-0932-06.jpg",
       "original_path": "Batch 23/Scanned_20261005-0932-06.jpg",
       "rotation_applied_cw_degrees": 180,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.0,
+          "y": 0.595,
+          "w": 0.36,
+          "h": 0.405
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
@@ -67,5 +77,15 @@
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
     }
+  },
+  "card": {
+    "id": "b23-card-01",
+    "kind": "clipping",
+    "recipes": [
+      "b23-r05",
+      "b23-r06"
+    ],
+    "position": "Bottom-left column (heading 'בצק פריך מתוק'); the article between the columns ('הכנות בצק לקלתית') is a general introduction and is not part of a recipe.",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   }
 }

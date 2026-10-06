@@ -28,7 +28,9 @@
     "Small cramped block of handwriting along the bottom edge of the card, under a ruled line, that starts with the title 'סלט ברוקולי וחמוציות'. Only the title and a few words (חמוציות, 1/2 כפית מלח, שמן) are readable. The same physical card as the previous record.",
     "Rescan or a human reading is needed; the text runs close to the card edge.",
     "Same scan also used for the cauliflower recipe PR117; salad is the separate bottom block.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Part of b10-card-01 with b10-r01 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -36,7 +38,15 @@
       "file": "raw/Scanned_20261004-2156-01.jpg",
       "original_path": "Batch 10/Scanned_20261004-2156-01.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.0,
+          "y": 0.875,
+          "w": 1.0,
+          "h": 0.125
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
@@ -69,5 +79,15 @@
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
     }
+  },
+  "card": {
+    "id": "b10-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b10-r01",
+      "b10-r02"
+    ],
+    "position": "Bottom of the sheet, below the ruled line (heading 'סלט כרוב וחמוציות'); the sheet ends at the bottom edge.",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   }
 }
