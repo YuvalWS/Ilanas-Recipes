@@ -21,7 +21,8 @@
   "instructions": [],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Tuesday 19 column of the same diary page as the previous record. Two blue check marks appear next to some lines. The title line reads 'ברוקלי [?] כרובית' (the middle word looks like 'עם'). The line after the third ingredient is partly illegible.",
-    "No instructions are written."
+    "No instructions are written.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -54,5 +55,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

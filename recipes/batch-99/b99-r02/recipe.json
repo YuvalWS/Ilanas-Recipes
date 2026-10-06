@@ -36,7 +36,8 @@
   ],
   "notes": [
     "Photographed ruled memo card: heading חרוסת. Upper ingredient list followed by horizontal divider and a second fruit list; amounts as written, no gram units supplied where absent. Bracket לטחון ×2 sits by walnut/hazelnut lines. Several quantities overwritten.",
-    "Back not photographed; no full preparation visible. Ditto marks expanded for repeated אגוזי / quantities/units."
+    "Back not photographed; no full preparation visible. Ditto marks expanded for repeated אגוזי / quantities/units.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Another card is stuck behind it with tape at the top; a hand and a chair are visible in the photo."
@@ -71,5 +72,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

@@ -22,7 +22,8 @@
   "notes": [
     "Handwriting is very cramped/shaky; only the words confirmed on the scan are transcribed, with [?] for the rest. Recommend a human re-read (or rescan) of this card.",
     "The front has a title with a circled number (10) to its left (probably a page/recipe number in Ilana's own numbering) and a line under the title. The back (scan 03) has only two handwritten lines at the top; the rest of that scan is faint show-through of the front's writing.",
-    "Gemini's reading (salmon in tomato-garlic sauce, 4 tbsp oil, 30 min, parsley, 'close the pot, 5 minutes') was NOT adopted: the title on the card reads 'דג סול' (not סלמון) and its body wording could not be confirmed on the ink; only 'לטגן 2 בצלים' and the word 'עגבניות' are visible with reasonable clarity."
+    "Gemini's reading (salmon in tomato-garlic sauce, 4 tbsp oil, 30 min, parsley, 'close the pot, 5 minutes') was NOT adopted: the title on the card reads 'דג סול' (not סלמון) and its body wording could not be confirmed on the ink; only 'לטגן 2 בצלים' and the word 'עגבניות' are visible with reasonable clarity.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,5 +62,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

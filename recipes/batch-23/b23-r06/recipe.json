@@ -25,7 +25,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Second article on the same torn newspaper page as 'עוגת שזיפים עם קצף'. Printed intro: 'יש להקפיד על ערבוב ביותר, לא להיעזר במיקסר [?]. החמאה צריכה להיות [?] מעט לתוך הבצק.' (partly torn). The article before it, 'הכנת בצק לקלתית (פלאן)', explains three basic doughs (a sweet crisp dough, a leaf dough and a rich dough) and is not a recipe."
+    "Scan was upside down and was rotated 180 degrees. Second article on the same torn newspaper page as 'עוגת שזיפים עם קצף'. Printed intro: 'יש להקפיד על ערבוב ביותר, לא להיעזר במיקסר [?]. החמאה צריכה להיות [?] מעט לתוך הבצק.' (partly torn). The article before it, 'הכנת בצק לקלתית (פלאן)', explains three basic doughs (a sweet crisp dough, a leaf dough and a rich dough) and is not a recipe.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -58,5 +59,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

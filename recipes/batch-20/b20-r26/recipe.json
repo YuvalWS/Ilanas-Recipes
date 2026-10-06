@@ -39,7 +39,8 @@
     "Scan was upside down and was rotated 180 degrees. Photographed/tilted newspaper clipping: a folded page with a photo of the salad at the top and a glare band across part of the text, which hides a few letters in step 1. The clipping was scanned at a slight tilt (about 10 degrees), not corrected.",
     "A handwritten blue-ink annotation 'לימון' (lemon) is bracketed next to the line '2 כפות חומץ תפוחים'. Probably a handwritten alternative or addition, but this is not explained.",
     "Printed introduction (summarized): everybody starts eating this salad before the meat is ready and even before the pita and hummus start.",
-    "Independent Codex full-scan and crop rereading confirms the quantities and handwritten לימון, but the fold/glare still prevents certifying every letter of the initial preparation verb. The handwritten word is retained without inventing a lemon quantity or an instruction to substitute it for vinegar."
+    "Independent Codex full-scan and crop rereading confirms the quantities and handwritten לימון, but the fold/glare still prevents certifying every letter of the initial preparation verb. The handwritten word is retained without inventing a lemon quantity or an instruction to substitute it for vinegar.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed photo of the finished salad above the recipe"
@@ -74,5 +75,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

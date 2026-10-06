@@ -41,7 +41,8 @@
     "Heading is underlined. Top rows: '1 ק\"ג טחון' (underlined, right) and a second weight row; the '4 - 4[?]' kg row carries a crossed-out word. A stray '50' and a few letters sit at the far left margin and were not transcribed.",
     "Two crossed-out passages (one beside the onion line, one in the lower-left rows) are not transcribed.",
     "Compare with scan 06, which carries the same heading.",
-    "Gemini's reading (second opinion) was used only where it matched the ink; its extra phrases (e.g. 'fish meat chopped fine', 'fry in microwave', 'ice water', 'black pepper and sugar', 'teaspoon of salt') could not be confirmed on the card and were not copied."
+    "Gemini's reading (second opinion) was used only where it matched the ink; its extra phrases (e.g. 'fish meat chopped fine', 'fry in microwave', 'ice water', 'black pepper and sugar', 'teaspoon of salt') could not be confirmed on the card and were not copied.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -122,5 +123,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

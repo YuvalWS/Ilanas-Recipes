@@ -40,7 +40,8 @@
   "notes": [
     "The card has no separate ingredient list: the first line is '2 חב' ביסקויטים' and everything else is running instructions. The ingredient list here is compiled from the instructions, in order of appearance (שמנת מתוקה appears twice: once for the filling, once for the topping).",
     "The word 'בערך' is a small interlinear insertion above the line, with a caret between 'כפות' and 'קוניאק'.",
-    "Narrow spiral-bound note-pad card; the bottom third is blank."
+    "Narrow spiral-bound note-pad card; the bottom third is blank.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -73,5 +74,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

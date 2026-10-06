@@ -51,7 +51,8 @@
   ],
   "notes": [
     "Newspaper clipping; the red circular stamp text 'קציצות עוף וכרובית' is the recipe title. The source publication is not visible on the scan.",
-    "The ingredient list appears to have a repeated group (the spices 'מעט פלפל לבן ... שמן לטיגון' appear once for the meatballs and once more under the sauce); transcribed as printed."
+    "The ingredient list appears to have a repeated group (the spices 'מעט פלפל לבן ... שמן לטיגון' appear once for the meatballs and once more under the sauce); transcribed as printed.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Green-yellow herb decoration at the left edge"
@@ -80,5 +81,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

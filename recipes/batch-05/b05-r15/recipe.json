@@ -64,7 +64,8 @@
     }
   ],
   "notes": [
-    "A narrow newspaper strip (633x2814 px) with two printed recipes; this is the first, the second (אורז עם אטריות) is below it. A handwritten heading 'קציצות בעגבניות' (Ilana's own label) was written across the printed text between the first ingredient and the second, covering a few printed words. The paper strip is joined by tape/glue near step 3, which hides part of that line."
+    "A narrow newspaper strip (633x2814 px) with two printed recipes; this is the first, the second (אורז עם אטריות) is below it. A handwritten heading 'קציצות בעגבניות' (Ilana's own label) was written across the printed text between the first ingredient and the second, covering a few printed words. The paper strip is joined by tape/glue near step 3, which hides part of that line.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Handwritten label 'קציצות בעגבניות' in blue/black pen over the printed text"
@@ -99,5 +100,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

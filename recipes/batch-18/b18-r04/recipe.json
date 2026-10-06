@@ -48,7 +48,8 @@
   ],
   "notes": [
     "Printed clipping: large photo of the salad on a blue background and the title 'סלט ירוק בווינגרט רימונים עם תפוחים ושקדים'. Intro: 'חגיגי, עונתי (תפוחים ותמרים!) ואלגנטי. הימור שלי: וינגרט הרימונים הוא משהו שתמצאו מכינים את עצמכם גם אחרי החגים.'",
-    "The almond amount is printed as '1/2 1 כוסות' (right-to-left typesetting of 1 1/2); written in the usual order here. A short printed 'מעט מלח' line follows the almonds list; its assignment to the almonds section is as it appears in the columns."
+    "The almond amount is printed as '1/2 1 כוסות' (right-to-left typesetting of 1 1/2); written in the usual order here. A short printed 'מעט מלח' line follows the almonds list; its assignment to the almonds section is as it appears in the columns.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -75,5 +76,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

@@ -39,7 +39,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping with a red heading 'עוף צלוי עם עגבניות ופלפלים' and an intro paragraph about the Italian 'gremolata' ('גרמולטה היא תערובת עשבי תיבול, שום וקליפות הדרים מגורדות... מזרים את הרוטב?'). The intro is only partly transcribed in the notes: it says the chicken pieces are roasted in a pepper-and-tomato sauce, which is simple and tasty, and that the gremolata (Italian condiment) is sprinkled on top.",
-    "A pen mark crosses the clipping at the top right."
+    "A pen mark crosses the clipping at the top right.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -66,5 +67,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

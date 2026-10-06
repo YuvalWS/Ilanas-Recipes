@@ -44,7 +44,8 @@
   "notes": [
     "Printed clipping from a food column (4 servings). Intro: 'תה \"רגיל\" (תה שחור או חום), זה הסוד של המנה הזו. הוא הבסיס למשרה בניחוח אסייתי, והתוצאה מעולה. כל תה קלאסי יתאים כאן - כולל הפשוטים, וכמובן \"אינגליש ברקפסט\" או \"ארל גריי\".' Storage: 'איך שומרים? עד 5 ימים, במקרר.'",
     "Step 2 is printed 'את ואת ומיץ' (a typo: 'את שמן השומשום ואת מיץ הלימון'); written as printed.",
-    "The clipping is pasted on a card with a hand-drawn grid and a brown stain at the top right."
+    "The clipping is pasted on a card with a hand-drawn grid and a brown stain at the top right.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -71,5 +72,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

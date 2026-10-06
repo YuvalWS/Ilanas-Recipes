@@ -36,7 +36,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Card in a calm, fairly legible hand but with several unclear words. The method is written as short infinitive lines; the list of ingredients was extracted from them. A second, fainter handwriting from the back shows through the paper.",
     "The line 'רוטב:' is underlined.",
-    "The note says 2 רסק עגבניות without a unit or package size; retained literally. Ingredient list is derived from the written instructions."
+    "The note says 2 רסק עגבניות without a unit or package size; retained literally. Ingredient list is derived from the written instructions.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -56,5 +57,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

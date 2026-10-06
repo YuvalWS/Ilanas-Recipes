@@ -29,7 +29,8 @@
   ],
   "notes": [
     "Corrected by the owner in review comments on PR #278: his typed readings replace the earlier AI transcription of the same lines.",
-    "Owner's remarks: the title is 'טורט של 6 ביצים'; the bracket at the side says 'במיקסר היטב'; the first step reads 'מהטורט' (not 'מוסרת')."
+    "Owner's remarks: the title is 'טורט של 6 ביצים'; the bracket at the side says 'במיקסר היטב'; the first step reads 'מהטורט' (not 'מוסרת').",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -75,6 +76,12 @@
       "date": "2026-10-05",
       "via": "PR #278 pending review",
       "scope": "first step only"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

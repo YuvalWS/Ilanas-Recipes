@@ -39,7 +39,8 @@
     "Upper recipe on a card with two blocks separated by a ruled line (the lower block is recipe b07-r17). Title underlined: 'סלט הפתעות' (surprise salad).",
     "ditto marks expanded (each stands for 'כפות').",
     "A circled digit (looks like 5) is written next to the honey line; its meaning is unclear.",
-    "The 5th line continues to the left with further words (Gemini suggested 'בן יקאדא?'); unreadable."
+    "The 5th line continues to the left with further words (Gemini suggested 'בן יקאדא?'); unreadable.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -78,5 +79,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

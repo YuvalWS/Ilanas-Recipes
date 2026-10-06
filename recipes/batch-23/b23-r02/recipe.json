@@ -46,7 +46,8 @@
   ],
   "notes": [
     "Corrected by the owner in review comments on PR #286: his typed readings replace the earlier AI transcription of the same lines.",
-    "Owner's remark: the two lines 'שוקולד' and 'חמאה' carry the margin note 'להמיס' (grouped here as 'להמיס'); the word 'לכבות' is struck through on the card."
+    "Owner's remark: the two lines 'שוקולד' and 'חמאה' carry the margin note 'להמיס' (grouped here as 'להמיס'); the word 'לכבות' is struck through on the card.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -85,6 +86,12 @@
       "date": "2026-10-05",
       "via": "PR #286 review comments",
       "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

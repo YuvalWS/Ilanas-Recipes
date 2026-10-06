@@ -38,7 +38,8 @@
   ],
   "notes": [
     "Printed clipping with handwritten heading לביבות; no printed title or publication. The actual handwritten heading is used; תפוחי אדמה was Claude’s inferred addition.",
-    "Red tip heading השוס: describes potato starch. תפודים is retained as printed."
+    "Red tip heading השוס: describes potato starch. תפודים is retained as printed.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Blue-ink handwritten word 'לביבות' beside the 'חומרים' heading"
@@ -60,5 +61,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

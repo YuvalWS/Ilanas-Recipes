@@ -42,7 +42,8 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Ruled, torn card photographed on a wood-grain background; the right edge is torn and parts of the first characters of many lines are missing, and some lines are cut. A bracket groups 'כוס סוכר' and 'כוס מים' with the first instruction. A small second pen note is squeezed above some lines. The last three lines are baking notes (temperature 160 degrees, 20-25 minutes, a numbered oven shelf/setting '2.5' / '3').",
-    "Only the line 'אם מכניסים את כל השוקולד לעוגה יש להוסיף קצת יותר קמח.' is fully clear."
+    "Only the line 'אם מכניסים את כל השוקולד לעוגה יש להוסיף קצת יותר קמח.' is fully clear.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -87,5 +88,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

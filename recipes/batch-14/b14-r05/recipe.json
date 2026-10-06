@@ -43,7 +43,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping; the title and a top banner are cut off, so no title appears on the scan. Header line: 'כמות: 20 עוגיות גדולות (או כ-40 קטנות)'. A sidebar in a grey box ('סוד מתוק מקרין?' - heading in white on grey, as read) with a jar photo says: 'האויבת הגדולה של העוגיות האלה היא הלחות. כדי לשמור על העוגיות קריספיות חשוב לשמור אותן בכלי אטום (אני אוהבת להשתמש בקופסאות עם סגירת הוואקום - בהן העוגיות יישארו טריות שבועיים-שלושה).' Below, a price tag line: 'כלי אחסון: ₪72.50'.",
-    "Almond-and-egg-white cookies with optional chocolate dipping (same family as scans 07 and 08)."
+    "Almond-and-egg-white cookies with optional chocolate dipping (same family as scans 07 and 08).",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -76,5 +77,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

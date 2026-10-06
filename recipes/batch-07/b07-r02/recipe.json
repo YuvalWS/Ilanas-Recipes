@@ -20,7 +20,8 @@
   "notes": [
     "Underlined title 'רוטב' (dressing). Below it a line that appears to name the salad it goes with: 'סלט + [?]' (second part not clearly readable; see uncertainties).",
     "ditto marks expanded: in the second quantity line a ditto mark stands for 'כוס' (1/4 cup lemon juice).",
-    "A pink stain is on the lower left corner."
+    "A pink stain is on the lower left corner.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,5 +48,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

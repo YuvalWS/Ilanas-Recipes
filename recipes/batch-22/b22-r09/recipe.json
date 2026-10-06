@@ -27,7 +27,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card with a printed footer logo (a building-technology company, 'איטונג'); title reads 'בסיס - בצק לגבינה'. A staple is visible at the top."
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a printed footer logo (a building-technology company, 'איטונג'); title reads 'בסיס - בצק לגבינה'. A staple is visible at the top.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed logo at the bottom: 'איטונג - שיטת בניה אחת קדימה'"
@@ -62,5 +63,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

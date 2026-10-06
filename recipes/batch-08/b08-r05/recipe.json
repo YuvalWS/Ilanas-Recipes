@@ -24,7 +24,8 @@
     "Part of handwritten sheet b08-card-01 with b08-r02, b08-r03, b08-r04, b08-r05 (the other recipes on the same sheet).",
     "The card is free-form shorthand (ingredients and steps run together), so the lines are kept as written in 'instructions'.",
     "The recipe is written across both sides of the sheet: the first line is at the bottom of side A, the rest at the top of side B.",
-    "Owner's note: written in a different colored pen, parentheses were added around the word 'מלח', and 'מיץ לימון כף דבש - בסוף' was written."
+    "Owner's note: written in a different colored pen, parentheses were added around the word 'מלח', and 'מיץ לימון כף דבש - בסוף' was written.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed footer at the bottom of side A (part of the paper used as a notepad): a logo and 'איכות חיים לכל החיים'."
@@ -96,6 +97,12 @@
       "date": "2026-10-06",
       "via": "chat (owner transcription)",
       "scope": "typed by the owner from the rescan"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

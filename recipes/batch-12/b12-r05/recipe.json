@@ -41,7 +41,8 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Title 'עוף בתנור' (chicken in the oven) underlined. A blue scribble overlays the middle of the ingredient list ('...שום'). The back (scan 06, rotated 180 degrees) has six lines at the top: the baking continues until the water evaporates, the sauce is thick and the chicken browned; cover the pan again and bake another 25 minutes; serve with salad and 'פתיתים' (ptitim).",
-    "The ingredient lines 1-2 list vegetables cut into cubes; the first words of line 1 are unclear."
+    "The ingredient lines 1-2 list vegetables cut into cubes; the first words of line 1 are unclear.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -92,5 +93,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

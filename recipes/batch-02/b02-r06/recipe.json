@@ -31,7 +31,8 @@
     "A curly brace on the card groups ג'ינג'ר, קינמון and לימון together with 'לפי הטעם' (to taste) written beside it.",
     "Ginger is written roughly as 'גנג'ר' on the card; normalized here to ג'ינג'ר.",
     "A signature or flourish at the bottom of the card.",
-    "Second line reads \"מים באותו כמות\" as written on the card (grammatically \"באותה\"); it appears to mean water in the same amount as the wine, but the card does not say so explicitly."
+    "Second line reads \"מים באותו כמות\" as written on the card (grammatically \"באותה\"); it appears to mean water in the same amount as the wine, but the card does not say so explicitly.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -64,5 +65,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

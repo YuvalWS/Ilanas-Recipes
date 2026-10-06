@@ -30,7 +30,8 @@
   "instructions": [],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Narrow newspaper clipping with a sub-heading 'הפשוט והטוב'. It contains only the ingredient list and the optional extras; no method is on the clipping.",
-    "The final part is written in running text: 'עוד אפשר: 3 פילה אנשובי קצוצים ו־1 כפית צלפים קצוצים דק. לעיבוי, הוסיפו 2 כפות מיונז. למעט חריף, טבסקו או סריראצ'ה.' It was split into items here for searching."
+    "The final part is written in running text: 'עוד אפשר: 3 פילה אנשובי קצוצים ו־1 כפית צלפים קצוצים דק. לעיבוי, הוסיפו 2 כפות מיונז. למעט חריף, טבסקו או סריראצ'ה.' It was split into items here for searching.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -50,5 +51,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

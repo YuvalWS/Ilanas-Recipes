@@ -36,7 +36,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card in a printed frame with a footer 'איכות חיים לכל החיים'. Title 'פשטידת תירס' with a wavy underline and a small mark at the top left. A wavy line separates a second group of lines in the lower part that looks like a variation (a sauce/topping?)."
+    "Handwriting is only partly legible; unreadable words are [?]. Card in a printed frame with a footer 'איכות חיים לכל החיים'. Title 'פשטידת תירס' with a wavy underline and a small mark at the top left. A wavy line separates a second group of lines in the lower part that looks like a variation (a sauce/topping?).",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed footer: 'איכות חיים לכל החיים' on a gold band with a newspaper logo"
@@ -77,5 +78,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

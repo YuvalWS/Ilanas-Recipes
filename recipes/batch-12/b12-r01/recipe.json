@@ -34,7 +34,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. ",
     "The red word 'פרגיות' is written in red ink at the end of the first line (a later label, read as the dish name). A ruled line splits the card into an ingredient block and a method block.",
-    "Neighbouring cards (scans 02, 03) may be parts of the same recipe; not certain."
+    "Neighbouring cards (scans 02, 03) may be parts of the same recipe; not certain.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,5 +68,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

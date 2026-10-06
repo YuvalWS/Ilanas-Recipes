@@ -40,7 +40,8 @@
     }
   ],
   "notes": [
-    "Printed recipe card (page from a booklet) with a 4-line handwritten addition in blue ink under the printed text, about baking, cooling, halving, filling with jam and topping with powdered sugar (written 'א.סוכר', abbreviation of אבקת סוכר)."
+    "Printed recipe card (page from a booklet) with a 4-line handwritten addition in blue ink under the printed text, about baking, cooling, halving, filling with jam and topping with powdered sugar (written 'א.סוכר', abbreviation of אבקת סוכר).",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed page number 24"
@@ -81,5 +82,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

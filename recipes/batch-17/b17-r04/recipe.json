@@ -33,7 +33,8 @@
   ],
   "notes": [
     "Two scans show the same printed clipping: scan 03 (narrow strip, clear) and scan 04 (the same strip on the left, glued next to a different clipping on the right - see next record, partly torn). The heading is 'שוקיים עם בצלצלי [פנינה]' (the last word is cut at the page edge in both scans; 'פנינה' is inferred from the ingredient line 'בצלצלי פנינה').",
-    "The first lines of the strip (a numbered step 4 and a serving line 'מגישים עם אורז לבן') belong to the preceding recipe and are cut at the top; this is stated in the step list as a remark."
+    "The first lines of the strip (a numbered step 4 and a serving line 'מגישים עם אורז לבן') belong to the preceding recipe and are cut at the top; this is stated in the step list as a remark.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -72,5 +73,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

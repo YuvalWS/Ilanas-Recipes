@@ -38,7 +38,8 @@
     "Line 'בצל קטן מרוסק' and the line above it ('גזר לחתוך') are joined by a brace to the word 'להרתחה'.",
     "A weight line '700 גר'' appears under the title without a stated ingredient name; the digits look overwritten and stray digits ('84') sit at the top right. Gemini adds 'דג' (fish) - not visible on the card, not copied.",
     "Gemini's 'חצי כוס סוכר', '1 כף חלת מתוקה', '1 כוס מים' and 'מיץ לימון' were not confirmed on the card: the last line clearly reads '3 כפות סוכר, פלפל'.",
-    "Lower right corner is torn/stained and carries a few extra unreadable marks next to the last lines."
+    "Lower right corner is torn/stained and carries a few extra unreadable marks next to the last lines.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -107,5 +108,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

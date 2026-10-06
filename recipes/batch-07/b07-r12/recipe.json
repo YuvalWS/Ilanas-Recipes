@@ -20,7 +20,8 @@
   "notes": [
     "Yellow memo card with a construction-company letterhead; underlined title 'לקט עלים' (assorted leaves). Ingredient list for the dressing; no method.",
     "Scan 14 appears to be the back of this same card, with a different dressing (kept as the next record).",
-    "Gemini's file (dressing with 1/2 cup mayonnaise and 2 teaspoons vinegar, a title about baby leaves) matches this card in content but differs in quantities/units; its quantities and extra words were not copied."
+    "Gemini's file (dressing with 1/2 cup mayonnaise and 2 teaspoons vinegar, a title about baby leaves) matches this card in content but differs in quantities/units; its quantities and extra words were not copied.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company (logo, phone/fax)"
@@ -42,5 +43,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

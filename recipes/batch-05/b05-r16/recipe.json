@@ -29,7 +29,8 @@
     }
   ],
   "notes": [
-    "Second recipe on the same newspaper strip as the previous recipe (side dish for the meatballs)."
+    "Second recipe on the same newspaper strip as the previous recipe (side dish for the meatballs).",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,5 +50,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

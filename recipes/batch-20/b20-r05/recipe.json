@@ -38,7 +38,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Yellow sticky note, clear handwriting. The last block ('וטגן: 100 גר' שומשום / 100 גר' שקדים / להוסיף בסוף') was read as 'and fry: sesame, almonds; add at the end' - the first word is not fully sure."
+    "Scan was upside down and was rotated 180 degrees. Yellow sticky note, clear handwriting. The last block ('וטגן: 100 גר' שומשום / 100 גר' שקדים / להוסיף בסוף') was read as 'and fry: sesame, almonds; add at the end' - the first word is not fully sure.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -58,5 +59,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

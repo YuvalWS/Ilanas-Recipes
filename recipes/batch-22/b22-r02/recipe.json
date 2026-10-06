@@ -18,7 +18,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Second recipe on the same graph-paper sheet as the cheesecake; steps are numbered 1-4 on the card. The ingredients appear only inside the steps (onions, zucchini, eggs, oil, breadcrumbs, salt, pepper); no separate list."
+    "Handwriting is only partly legible; unreadable words are [?]. Second recipe on the same graph-paper sheet as the cheesecake; steps are numbered 1-4 on the card. The ingredients appear only inside the steps (onions, zucchini, eggs, oil, breadcrumbs, salt, pepper); no separate list.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -45,5 +46,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

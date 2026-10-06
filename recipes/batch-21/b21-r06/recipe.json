@@ -40,7 +40,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Fully legible printed clipping; a pin or scratch crosses the top-right of the title. No byline.",
-    "'חתובים' (probably printed typo for 'חתוכים') and 'מבמבוק' are copied as printed. The printed list ends at step 3; the rest of the clipping is cut off or was not kept."
+    "'חתובים' (probably printed typo for 'חתוכים') and 'מבמבוק' are copied as printed. The printed list ends at step 3; the rest of the clipping is cut off or was not kept.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,5 +68,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }
