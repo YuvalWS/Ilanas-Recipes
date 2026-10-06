@@ -1,0 +1,71 @@
+{
+  "id": "b21-r02",
+  "batch": 21,
+  "title": "שניצל",
+  "source": {
+    "text": "שושנה",
+    "type": "person",
+    "as_written": "שושנה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "(extracted from the steps; no separate list)",
+      "items": [
+        "חרדל",
+        "שום גבישי",
+        "מלח דק",
+        "ביצה (בצד: 2–3)",
+        "פירורי לחם"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "תערובת: חרדל, שום גבישי, מלח דק. לערבב ול[?] בבשר. לעשות היטב.",
+        "לטבול בביצה.",
+        "בפירורי לחם.",
+        "לטגן על בינוני."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. ",
+    "A small marker '2-3' is written at the left of the egg line (meaning unclear: number of eggs?)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-02.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-02.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "ול[?]",
+      "best_guess": "ולהכניס",
+      "reason": "Word unreadable."
+    },
+    {
+      "field": "notes[1]",
+      "text": "2-3",
+      "best_guess": null,
+      "reason": "Meaning of the number is unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
