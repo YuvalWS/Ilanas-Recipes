@@ -31,6 +31,7 @@ def new_fixture_page(browser, base, fixture, errors):
     page = context.new_page()
     page.on("pageerror", lambda error: errors.append(str(error)))
     page.goto(base)
+    page.wait_for_function("document.querySelectorAll('#grid .card').length > 0 || document.querySelector('#grid .empty')")
     return context, page
 
 
@@ -181,6 +182,7 @@ def run(browser, base):
     d["medium"] = "printed"
     context.close()
     context, page = new_fixture_page(browser, base, fixture, errors)
+    expect(page.locator("#grid .card")).to_have_count(4)            # wait until the app has finished loading
     page.locator("#f-medium").select_option("clipping")
     assert d["id"] in page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash.slice(2))")
     page.locator(f'#grid a[href="#/{d["id"]}"]').click()
