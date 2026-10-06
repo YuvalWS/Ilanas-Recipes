@@ -66,7 +66,7 @@ Confidence: high 83, medium 67, low 74. Flagged needs_human_verification: 181.
 | b18-r10 | 18 עוגות, מוסים וסלטים | עוגת פירות | Batch 18/Scanned_20261004-2238-12.jpg | handwritten |
 | b19-r02 | 19 פלפלים ממולאים ואחרים | פלפל ממולא | Batch 19/Scanned_20261004-2240-03.jpg, Batch 19/Scanned_20261004-2240-04.jpg | handwritten |
 | b19-r03 | 19 פלפלים ממולאים ואחרים | פלפלים ממולאים | Batch 19/Scanned_20261004-2240-05.jpg, Batch 19/Scanned_20261004-2240-06.jpg | handwritten |
-| b19-r08 | 19 פלפלים ממולאים ואחרים | פלפל ממולא | Batch 19/Scanned_20261004-2243-05.jpg, Batch 19/Scanned_20261004-2243-06.jpg | handwritten |
+| b19-r08 | 19 פלפלים ממולאים ואחרים | פלפל ממולא (בתנור) | Batch 19/Scanned_20261004-2243-05.jpg, Batch 19/Scanned_20261004-2243-06.jpg | handwritten |
 | b20-r08 | 20 סלטים ורטבים | סלט כרובית | Batch 20/Scanned_20261004-2248-10.jpg | handwritten |
 | b20-r18 | 20 סלטים ורטבים | סלט סיני | Batch 20/Scanned_20261004-2248-21.jpg | handwritten |
 | b20-r22 | 20 סלטים ורטבים | עגבניות שרי צנוברים | Batch 20/Scanned_20261004-2248-25.jpg | handwritten |
