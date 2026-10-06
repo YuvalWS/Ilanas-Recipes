@@ -14,13 +14,25 @@
         "1/2 כפית סוכר לבן",
         "1 כף א. מרק מרגיל"
       ]
+    },
+    {
+      "group": "כרטיס שני: המשך המתכון",
+      "items": [
+        "מלח, פלפל",
+        "בצל — לחתוך, לטגן",
+        "פלפל ירוק",
+        "תירס — להוסיף עם המים",
+        "עגבניות שרי — חתוך לפרוסות"
+      ]
     }
   ],
   "instructions": [],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Five lines of tall, shaky writing on a company memo, with quantities written in the right-hand margin (1/2, then a small fraction, 2, 1/2, 1). Only the first line ('כרוב לפרוס') and 'סוכר' could be read reliably; the other words are guesses. There is no title; it may be a cabbage salad but this is not stated.",
     "A pin/staple is visible at the top right of the scan.",
-    "Suggested title 'מרק כרוב ובטטה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)). Awaiting the owner's approval."
+    "Suggested title 'מרק כרוב ובטטה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)). Awaiting the owner's approval.",
+    "Continuation merged into this recipe: scan 19 (previously the separate record b20-r16, PR #207) - the second card of the same soup (onion, green pepper, corn, cherry tomatoes). Noticed by the owner as part of another recipe; the pairing was found from the cards. The id b20-r16 is intentionally unused.",
+    "Owner (PR #203): the first half of a recipe, without title or source."
   ],
   "incidental_text": [
     "Printed company letterhead at the top of the memo page: logo 'בזל' - 'חברה להנדסה ובנין בע\"מ', 'מקבוצת חברות זלינגר בע\"מ', פקס. 03-5617358, טל. 03-5620372"
@@ -31,22 +43,40 @@
       "original_path": "Batch 20/Scanned_20261004-2248-18.jpg",
       "rotation_applied_cw_degrees": 180,
       "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2248-19.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-19.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "unknown"
     }
   ],
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "No written heading."
-    },
-    {
       "field": "ingredients[0].items[4]",
       "text": "מרגיל",
       "best_guess": "רגיל",
       "reason": "Final powder word/brand uncertain."
+    },
+    {
+      "field": "כרטיס שני: המשך המתכון: all",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Not legible."
+    },
+    {
+      "field": "כרטיס שני: המשך המתכון: title",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "The brown-ink line (bottom) may be a title or a note, not legible."
+    },
+    {
+      "field": "כרטיס שני: המשך המתכון: source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source readable."
     }
   ],
   "transcription": {
@@ -58,5 +88,25 @@
   },
   "assigned_title": "מרק כרוב ובטטה",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)"
+  "assigned_title_basis": "cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)",
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #PR #207 comment review comments",
+      "scope": "identified as part of another recipe; the pairing was found from the cards"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #203 review comments",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #203 review comments",
+      "scope": "confirmed: no source on the card"
+    }
+  }
 }
