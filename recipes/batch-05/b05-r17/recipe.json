@@ -1,0 +1,95 @@
+{
+  "id": "b05-r17",
+  "batch": 5,
+  "title": "קצי׳ בשר",
+  "source": {
+    "text": "שולה",
+    "type": "person",
+    "as_written": "שולה",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 ק\"ג בשר טחון",
+        "1/2 כוס אורז",
+        "בצל קטן [?] ו[?] היטב",
+        "חופן כוסברה, פטרוזיליה",
+        "1 בצל",
+        "[?] שיני שום, [?]",
+        "1 ביצה",
+        "מעט א. מרק",
+        "מלח, פלפל",
+        "1 כף פירורי לחם גדושה",
+        "טיפה שמן"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ל[?] [?] [?] ה[?]",
+        "1/[?] שעה"
+      ]
+    }
+  ],
+  "notes": [
+    "Heading 'קצי בשר' (apparently short for קציצות בשר) followed by a slash and a name, read as 'שולה' (source); written in thin pen on a card with a metal clip at the top corner (the clip hides nothing essential but crosses the title).",
+    "Written very lightly and the writing is shaky; the last two lines and a few words remain unclear.",
+    "'א. מרק' is written as an abbreviation (probably 'אבקת מרק'); left as written, not expanded.",
+    "A short line '1 בצל' (after the herbs line) was missed in the earlier reading and is added after a second opinion; the letters are shaky but consistent with the ink."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2118.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2118.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "שולה",
+      "best_guess": null,
+      "reason": "The name after the slash is shaky; 'שולה' fits the four glyphs."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "בצל קטן [?] ו[?] היטב",
+      "best_guess": "Gemini: לחתוך ולטגן (ב-1 כף שמן); earlier reading: unreadable",
+      "reason": "The two verbs between 'בצל קטן' and 'היטב' are not clear; Gemini's 'ב-1 כף שמן' is not visible on the card and was not copied."
+    },
+    {
+      "field": "ingredients[0].items[5]",
+      "text": "[?] שיני שום, [?]",
+      "best_guess": "Gemini: 3 שיני שום, כרפס; earlier reading: [?] שיני שום, כמון",
+      "reason": "The count of garlic cloves is unclear, and the last word ends in a tall letter so it could be כמון or כרפס."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "ל[?] [?] [?] ה[?]",
+      "best_guess": "Gemini: להשהות במקרר (does not fit the ink, which has about four words, possibly beginning 'להכניס')",
+      "reason": "The last-but-one line is unclear."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "1/[?] שעה",
+      "best_guess": "Gemini: 1/2; earlier reading: 1/4",
+      "reason": "The denominator does not look like the clear '2' in the amounts at the top of the card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
