@@ -61,7 +61,9 @@
     "Gemini's 'חצי כוס סוכר', '1 כף חלת מתוקה', '1 כוס מים' and 'מיץ לימון' were not confirmed on the card: the last line clearly reads '3 כפות סוכר, פלפל'.",
     "Lower right corner is torn/stained and carries a few extra unreadable marks next to the last lines.",
     "Owner (2026-10-06): checked the card; it states no source.",
-    "Second card merged into this recipe: scan 07 (previously the separate record b06-r06, PR #177) - the second card of the same stuffed-fish recipe (eggs, almonds, searing; weights and 38 patties). Noticed by the owner as part of another recipe; the pairing was found from the cards, not stated on them. The id b06-r06 is intentionally unused."
+    "Second card merged into this recipe: scan 07 (previously the separate record b06-r06, PR #177) - the second card of the same stuffed-fish recipe (eggs, almonds, searing; weights and 38 patties). Noticed by the owner as part of another recipe; the pairing was found from the cards, not stated on them. The id b06-r06 is intentionally unused.",
+    "Nickname 'גפילטע פיש' given by the owner (chat, PR #395); the card heading is 'דגים ממולאים'. Approved by the owner for merging.",
+    "Owner (chat): approved as good for merging; added to 'הקלאסיים'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -185,6 +187,15 @@
       "date": "2026-10-06",
       "via": "PR #177 comment",
       "scope": "identified as part of another recipe; the pairing was found from the cards"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (PR #395 instructions)",
+      "scope": "owner's nickname"
     }
-  }
+  },
+  "assigned_title": "גפילטע פיש",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "Nickname given by the owner; the card heading is 'דגים ממולאים'."
 }
