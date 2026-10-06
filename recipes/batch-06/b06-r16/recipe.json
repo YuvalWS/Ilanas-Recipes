@@ -12,8 +12,9 @@
         "2 כפות קטשופ",
         "פלפל שחור גרוס",
         "מעט מלח",
-        "1 [?] [?] רוזמרין",
-        "״ יין לבן [?]"
+        "1 שן שום כתוש",
+        "מעט רוזמרין",
+        "מעט יין לבן כ-2 כפיות"
       ]
     }
   ],
@@ -21,10 +22,10 @@
     {
       "group": null,
       "steps": [
-        "כפיות [?] [?]",
-        "[?] [?] [?] [?]",
-        "[?] [?] [?] [?]",
-        "חום רגיל כ-15 דקות."
+        "לערבב הכל",
+        "ולמרוח את הדג רק",
+        "מלמעלה, לחמם התנור ולהכניס",
+        "חום רגיל כ-45 דקות"
       ]
     }
   ],
@@ -34,7 +35,9 @@
     "Gemini's line 5 ('1 כף שמן זית') was NOT adopted: the ink clearly ends with 'רוזמרין'. Gemini's 'חום בינוני' was NOT adopted: the ink reads 'חום רגיל'. Gemini's title, 'לערבב הכל ביחד', 'פרוסות הדג', 'שקדים טחונים', 'לבישול' and temperature were not confirmed on the card.",
     "The faint writing around the card is bleed-through from the reverse side and is ignored.",
     "Handwriting in the lower lines is cramped; a human re-read is recommended.",
-    "Suggested title 'רוטב מיונז וקטשופ' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: mayonnaise, ketchup, rosemary, white wine). Awaiting the owner's approval."
+    "Suggested title 'רוטב מיונז וקטשופ' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: mayonnaise, ketchup, rosemary, white wine). Awaiting the owner's approval.",
+    "Ditto mark expanded: the mark before 'יין לבן' stands for 'מעט' (the word above).",
+    "Owner (PR #220 review comments): no title, no source; garlic/rosemary/wine lines and the method typed by the owner."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,44 +50,7 @@
   ],
   "needs_human_verification": true,
   "confidence": "low",
-  "uncertainties": [
-    {
-      "field": "ingredients[4]",
-      "text": "1 [?] [?] רוזמרין",
-      "best_guess": "Gemini: 1 כף שמן זית (does not match the ink); earlier reading: none",
-      "reason": "Only 'רוזמרין' (rosemary) at the end of the line is clear; the words between the '1' and 'רוזמרין' are unreadable."
-    },
-    {
-      "field": "ingredients[5]",
-      "text": "״ יין לבן [?]",
-      "best_guess": "Gemini: 1 כף יין לבן לבישול (second Gemini file: 1 \" יין לבן בישול)",
-      "reason": "'יין לבן' is readable, preceded by a ditto mark whose referent is unclear, and followed by a word that may be 'לבישול'/'בישול'."
-    },
-    {
-      "field": "instructions[0]",
-      "text": "כפיות [?] [?]",
-      "best_guess": "Gemini: לערבב הכל ביחד (does not fit: first word reads 'כפיות')",
-      "reason": "Line 7 starts with 'כפיות'; the rest is unreadable."
-    },
-    {
-      "field": "instructions[1]",
-      "text": "[?] x4",
-      "best_guess": "Gemini: למרוח על פרוסות הדג",
-      "reason": "Starts probably with 'ולמרוח'; words not readable one by one."
-    },
-    {
-      "field": "instructions[2]",
-      "text": "[?] x4",
-      "best_guess": "Gemini: ולפזר מעל שקדים טחונים",
-      "reason": "Line ends with '...ים'; words not readable one by one."
-    },
-    {
-      "field": "instructions[3]",
-      "text": "כ-15",
-      "best_guess": "Gemini: 15",
-      "reason": "Digits agree with Gemini and the ink looks like '15', but the numeral is small and shaky."
-    }
-  ],
+  "uncertainties": [],
   "transcription": {
     "method": "ai_reread_with_gemini_second_opinion",
     "date": "2026-10-05",
@@ -94,5 +60,31 @@
   },
   "assigned_title": "רוטב מיונז וקטשופ",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "mayonnaise, ketchup, rosemary, white wine"
+  "assigned_title_basis": "mayonnaise, ketchup, rosemary, white wine",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #220 review comments",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #220 review comments",
+      "scope": "confirmed: no source on the card"
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #220 review comments",
+      "scope": "garlic/rosemary/wine lines"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #220 review comments",
+      "scope": "typed by the owner"
+    }
+  }
 }
