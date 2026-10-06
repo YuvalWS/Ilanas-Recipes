@@ -70,7 +70,9 @@
     "Compare with scan 06, which carries the same heading.",
     "Gemini's reading (second opinion) was used only where it matched the ink; its extra phrases (e.g. 'fish meat chopped fine', 'fry in microwave', 'ice water', 'black pepper and sugar', 'teaspoon of salt') could not be confirmed on the card and were not copied.",
     "Owner (2026-10-06): checked the card; it states no source.",
-    "Second card merged into this recipe: scan 05 (previously the separate record b06-r04, PR #170) - the second card of the same stuffed-fish recipe (continuation: sugar, pepper, shaping the patties, cooking in boiling water; weights). Noticed by the owner as part of another recipe; the pairing was found from the cards, not stated on them. The id b06-r04 is intentionally unused."
+    "Second card merged into this recipe: scan 05 (previously the separate record b06-r04, PR #170) - the second card of the same stuffed-fish recipe (continuation: sugar, pepper, shaping the patties, cooking in boiling water; weights). Noticed by the owner as part of another recipe; the pairing was found from the cards, not stated on them. The id b06-r04 is intentionally unused.",
+    "Nickname 'גפילטע פיש' given by the owner (chat, PR #394); the card heading is 'דגים ממולאים'. Approved by the owner for merging.",
+    "Owner (chat): approved as good for merging; added to 'הקלאסיים'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -230,6 +232,15 @@
       "date": "2026-10-06",
       "via": "PR #170 comment",
       "scope": "identified as part of another recipe; the pairing was found from the cards"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (PR #394 instructions)",
+      "scope": "owner's nickname"
     }
-  }
+  },
+  "assigned_title": "גפילטע פיש",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "Nickname given by the owner; the card heading is 'דגים ממולאים'."
 }
