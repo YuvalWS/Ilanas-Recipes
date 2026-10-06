@@ -1,22 +1,28 @@
 {
   "id": "b15-r23",
   "batch": 15,
-  "title": "לזניה [?]",
+  "title": "פלפל ממולא",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": null,
+      "group": "להשחים",
       "items": [
         "3 כפות שמן זית",
-        "1 כוס פסטות חתוכות",
-        "1 קוטג' [?]",
+        "בצל חתוך בינוני"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "להוסיף 1 כוס פטריות חתוכות אחרי שהבצל השחים",
+        "1 קוטג' 5%",
         "1/2 כוס שמיר",
-        "1 גבינה לבנה [?]",
+        "1 גבינת כנען",
         "2 ביצים טרופות",
-        "עוד 1/4 כפית [?]",
-        "[?] [?]",
-        "מרק עוף [?] 5 גר' [?]"
+        "מלח 1/2 כפית",
+        "פלפל 1/5 כפית",
+        "אבקת מרק פטריות - כף גדושה"
       ]
     }
   ],
@@ -24,15 +30,17 @@
     {
       "group": null,
       "steps": [
-        "[?] להכין [?] והכל? [?]",
-        "לערבב [?] [?]",
-        "[?] [?] ולאפות בחום [?]"
+        "לערבב",
+        "לחצות פלפלים אדומים",
+        "לנקות ולמרוח ביד כף שמן זית (לכולם) מבחוץ ומבפנים",
+        "למלא בתערובת ולאפות בחום בינוני-גבוה"
       ]
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card with a blue underlined title at the top left that reads partly 'גבינות? ממולא[?]'; the first line at the top right begins '3 כפות שמן'. Most lines are only partly legible; the bottom lines run to the page edge.",
-    "Heading appears to begin לזניה; last word is uncertain. Onion/oil upper block has a brace for browning."
+    "Heading appears to begin לזניה; last word is uncertain. Onion/oil upper block has a brace for browning.",
+    "Corrected by the owner in review comments on PR #201: his typed readings replace the earlier AI transcription of the same lines.",
+    "Ditto marks expanded: the mark after 'פלפל 1/5' stands for 'כפית'. The group 'להשחים' is the owner's reading of the brace label over the first two lines."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -43,27 +51,14 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "low",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "[?] ממולא [?]",
-      "best_guess": null,
-      "reason": "Title cannot be read reliably."
-    },
-    {
-      "field": "ingredients",
-      "text": "all lines",
-      "best_guess": null,
-      "reason": "Items and quantities mostly unclear."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   }
 }
