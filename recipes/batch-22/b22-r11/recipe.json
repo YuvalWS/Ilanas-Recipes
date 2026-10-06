@@ -3,9 +3,9 @@
   "batch": 22,
   "title": "עוגת גבינה",
   "source": {
-    "text": "מרי",
+    "text": "מירי",
     "type": "person",
-    "as_written": "מרי",
+    "as_written": "מירי",
     "uncertain": false
   },
   "medium": "handwritten",
@@ -43,7 +43,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. "
+    "Handwriting is only partly legible; unreadable words are [?]. ",
+    "Source set by the owner (issue #321): מירי. (earlier reading: מרי)"
   ],
   "incidental_text": [],
   "raw_files": [
