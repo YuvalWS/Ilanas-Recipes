@@ -1,0 +1,64 @@
+{
+  "id": "b01-r10",
+  "batch": 1,
+  "title": "רולדה שוקולד",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 ביצים",
+        "3/4 כוס סוכר",
+        "3 כפות קקאו גדושות",
+        "1 כף קמח גדושה",
+        "2 שקיות שמנת מתוקה",
+        "1/2 כוס אבקת סוכר",
+        "1 כפית תמצית וניל",
+        "פרורי שוקולד"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לרפד תבנית משומנת בנייר פרגמנט.",
+        "להקציף את החלמונים + סוכר, להוסיף קמח + קקאו ולהקציף.",
+        "להקציף את החלבונים ולהוסיף לחלמונים, לצקת בתבנית, לאפות 12 דק'. להפוך על מגבת עם אבקת סוכר, לגלגל.",
+        "להקציף שמנת עם אבקת סוכר + תמצית וניל, חלק למרוח לגלגל וחלק על הרולדה + פרורי שוקולד + [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "The '5' in the egg quantity has an overwritten knot at the top; read as 5 (Gemini also reads 5).",
+    "The '3/4' sugar quantity is slightly messy but read as 3/4 by both readings.",
+    "Independent Codex enlarged-crop rereading confirms the two-letter flour measure כף, including the loop/descender of ף; it is not כוס. The final word at the torn left edge remains unconfirmed."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-09.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "+ פרורי שוקולד + [?]",
+      "best_guess": "Gemini: אגוזים (not consistent with the visible letters); earlier reading: ולגלגל",
+      "reason": "Last word runs into the torn left edge; only 'ולגלג...' appears visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
