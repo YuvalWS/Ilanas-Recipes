@@ -1,7 +1,7 @@
 {
   "id": "b21-r05",
   "batch": 21,
-  "title": "רוטב [?]",
+  "title": "רוטב לשניצל",
   "source": {
     "text": "נורית",
     "type": "person",
@@ -24,7 +24,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Two-sided memo card with BZL letterhead. Handwriting is largely illegible with strong show-through. Only the fragments above could be read; their order and which side they belong to are not certain. Rescan recommended."
+    "Scan was upside down and was rotated 180 degrees. Two-sided memo card with BZL letterhead. Handwriting is largely illegible with strong show-through. Only the fragments above could be read; their order and which side they belong to are not certain. Rescan recommended.",
+    "Title per the owner (PR #255): רוטב לשניצל; source נורית confirmed."
   ],
   "incidental_text": [
     "Printed company letterhead on the memo page: logo 'בזל' and 'מקבוצת חברות זלינגר בע\"מ', פקס 03-5617358, טל. 03-5620372"
@@ -47,12 +48,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?] מורית",
-      "best_guess": null,
-      "reason": "Possibly a sauce ('רוטב ל...') and a person's name; unreadable."
-    },
-    {
       "field": "raw_files",
       "text": "05/06",
       "best_guess": null,
@@ -65,5 +60,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #255 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #255 review comments",
+      "scope": "confirmed (נורית)"
+    }
   }
 }
