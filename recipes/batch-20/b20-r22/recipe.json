@@ -1,0 +1,67 @@
+{
+  "id": "b20-r22",
+  "batch": 20,
+  "title": "עגבניות שרי צנוברים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג עגבניות [?]",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. The title is read as 'עגבניות שרי צבעוניות' (colorful cherry tomatoes; the last word is not sure), underlined by a wavy line. The body is about fourteen densely written lines of tall, narrow handwriting, with a few lines crossed through; only a few words ('עגבניות', 'שמן', 'חומץ'?) can be recognized, so nothing is transcribed. A fraction '1/4' is visible at the left margin.",
+    "Another card in this batch (scan 26) is titled 'עגבניות שרי / חגית'; the two cards may be related, but this is not stated.",
+    "Good candidate for rescanning at higher resolution or for human reading."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-25.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-25.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Not legible."
+    },
+    {
+      "field": "instructions",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Not legible."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
