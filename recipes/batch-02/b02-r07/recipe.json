@@ -13,14 +13,15 @@
         "הנוזל של האפרסקים + כוס מים להרתיח.",
         "להוסיף ג'לי משמש,",
         "להוסיף את רסק האפרסקים",
-        "[?] [?]"
+        "לחלק לצלוחיות"
       ]
     }
   ],
   "notes": [
     "A handwritten fragment on company notepaper. It has no title and no ingredient list; it describes a peach preparation with apricot jelly (ג'לי משמש), but the dish is not named.",
     "Letterhead phone numbers corrected: the card prints fax 03-5617358 and tel 03-5620372 (earlier version had them swapped).",
-    "Suggested title 'קינוח אפרסקים בג'לי' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: peaches blended, peach liquid boiled, apricot jelly added). Awaiting the owner's approval."
+    "Suggested title 'קינוח אפרסקים בג'לי' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: peaches blended, peach liquid boiled, apricot jelly added). Awaiting the owner's approval.",
+    "Owner (PR #47 review comments): the last line reads 'לחלק לצלוחיות'."
   ],
   "incidental_text": [
     "Printed letterhead: בזל - מקבוצת חברות זלינגר בע\"מ, חברה להנדסה ובנין בע\"מ, פקס. 03-5617358, טל. 03-5620372"
@@ -58,5 +59,25 @@
   },
   "assigned_title": "קינוח אפרסקים בג'לי",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "peaches blended, peach liquid boiled, apricot jelly added"
+  "assigned_title_basis": "peaches blended, peach liquid boiled, apricot jelly added",
+  "proofread": {
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #47 review comments",
+      "scope": "last line only"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
 }
