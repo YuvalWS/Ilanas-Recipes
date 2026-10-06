@@ -1,0 +1,63 @@
+{
+  "id": "b21-r11",
+  "batch": 21,
+  "title": "שניצלים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] קמח לחתוך",
+        "[?] קוביות",
+        "לרסק ביצה קשה בפומפיה",
+        "הטיגון: שמן חם מעט חמאה",
+        "לטבול בפירורי לחם ו[?]",
+        "[?] ביצה",
+        "כף לערבב שניהם.",
+        "לפזר כל תערובת על כל שניצל.",
+        "ומעט מרגרינה.",
+        "לגלגל ולהניח על צלחת.",
+        "לטבול בפירורי לחם ואח״כ בביצה."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Title is cut off at the edge. Probably another rolled-schnitzel recipe; the back (14) is very faint with mirrored show-through. Rescan recommended."
+  ],
+  "incidental_text": [
+    "Printed logo at the bottom of 13: 'רשות הדואר / דואר קדימה'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-13.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2252-14.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "[לימון?]",
+      "best_guess": null,
+      "reason": "Uncertain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
