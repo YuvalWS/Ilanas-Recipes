@@ -1,8 +1,13 @@
 {
   "id": "b17-r14",
   "batch": 17,
-  "title": "עוף [?]",
-  "source": null,
+  "title": "עוף בתנור",
+  "source": {
+    "text": "ח[?]",
+    "type": "person",
+    "as_written": "ח[?]",
+    "uncertain": true
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -38,7 +43,8 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Card with a staple, a small orange 'orange' sticker at the lower right and a title that reads 'עוף [?]' (underlined). Ink is blue and thin, and several lines are in a lighter second pen. The final three lines are unreadable except for temperatures (160° and 180° as read).",
-    "The back of the card (scan -17, previously the separate record b17-r15, PR #62) carries two more lines; its scan was upside down and was rotated 180 degrees. Lines read by the owner. The id b17-r15 is intentionally unused."
+    "The back of the card (scan -17, previously the separate record b17-r15, PR #62) carries two more lines; its scan was upside down and was rotated 180 degrees. Lines read by the owner. The id b17-r15 is intentionally unused.",
+    "Owner (PR #58 review comments): title עוף בתנור; source unclear, starts with ח (probably חיה)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -59,12 +65,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוף [?]",
-      "best_guess": null,
-      "reason": "Second word unclear."
-    },
-    {
       "field": "ingredients",
       "text": "several lines",
       "best_guess": null,
@@ -75,6 +75,12 @@
       "text": "all",
       "best_guess": null,
       "reason": "Mostly illegible."
+    },
+    {
+      "field": "source",
+      "text": "ח[?]",
+      "best_guess": "חיה",
+      "reason": "Owner: not clear, starts with ח; probably חיה."
     }
   ],
   "transcription": {
@@ -96,6 +102,18 @@
       "date": "2026-10-06",
       "via": "PR #62 comment",
       "scope": "the two continuation lines on the back only"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #58 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #58 review comments",
+      "scope": "partly read: starts with ח, probably חיה"
     }
   }
 }
