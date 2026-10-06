@@ -28,7 +28,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. ",
-    "Small square card with a short list: garlic, paprika, cumin, silan, olive oil, salt. Probably part of a chicken marinade (the previous card), but the card has no title."
+    "Small square card with a short list: garlic, paprika, cumin, silan, olive oil, salt. Probably part of a chicken marinade (the previous card), but the card has no title.",
+    "Suggested title 'מרינדה סילאן, שום ופפריקה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: garlic, paprika, cumin, silan, olive oil). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,5 +68,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "מרינדה סילאן, שום ופפריקה",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "garlic, paprika, cumin, silan, olive oil"
 }
