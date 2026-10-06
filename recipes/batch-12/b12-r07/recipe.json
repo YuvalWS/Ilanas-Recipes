@@ -37,11 +37,22 @@
         "[?] [?] [?] [?] [?] [?]",
         "[?] [?] [?] [?] [?]"
       ]
+    },
+    {
+      "group": "המשך בגב הכרטיס",
+      "steps": [
+        "ולבשל עוד כשעה,",
+        "מדי פעם לצקת מהרוטב",
+        "על העוף",
+        "לפתוח הסיר ולבשל עוד",
+        "כ־5 ד׳ עד לצמצום"
+      ]
     }
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'עוף [?] / הקצבים' - the part after the slash may be a source (a butcher shop / a group?), not certain.",
-    "Ingredient list in a column with quantities at the right; below a wavy line a method of about 7 lines (mixing the ingredients, oil, 3/4 cup) that cannot be read."
+    "Ingredient list in a column with quantities at the right; below a wavy line a method of about 7 lines (mixing the ingredients, oil, 3/4 cup) that cannot be read.",
+    "The method continues on the back of the card (scan -10, previously a separate untitled record b12-r08): the owner noticed it is the second part of this recipe (PR #239), and the handwriting and the last lines of the front side lead straight into it. The faint writing visible on the back scan is show-through from the front. Merged on 2026-10-06; the id b12-r08 is intentionally unused."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,7 +60,13 @@
       "file": "raw/Scanned_20261004-2205-09.jpg",
       "original_path": "Batch 12/Scanned_20261004-2205-09.jpg",
       "rotation_applied_cw_degrees": 180,
-      "side": "single"
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2205-10.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-10.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
     }
   ],
   "needs_human_verification": true,
@@ -80,5 +97,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #239 comment",
+      "scope": "identified the second scan as the continuation (back) of this recipe"
+    }
   }
 }
