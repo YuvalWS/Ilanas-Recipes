@@ -119,5 +119,19 @@
   },
   "assigned_title": "עוגת גבינה",
   "assigned_title_status": "owner_suggested",
-  "assigned_title_basis": "Owner: probably a cheese cake; the heading is torn off the note."
+  "assigned_title_basis": "Owner: probably a cheese cake; the heading is torn off the note.",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #82 review comments",
+      "scope": "heading torn off; owner's guess recorded as assigned_title"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #82 review comments",
+      "scope": "owner's suggestion 'עוגת גבינה'"
+    }
+  }
 }
