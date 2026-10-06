@@ -1,0 +1,79 @@
+{
+  "id": "b06-r11",
+  "batch": 6,
+  "title": "סלמון",
+  "source": {
+    "text": "רחל חן",
+    "type": "person",
+    "as_written": "רחל חן",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להשחים",
+        "בצל",
+        "[?] [?] [?] [?] [?]",
+        "[?] מעט שמן זית",
+        "מריחה של [?]",
+        "פפריקה, מלח",
+        "שיני שום כתוש",
+        "פלפל שחור",
+        "פטרוזיליה",
+        "סלמון נקי ופרוסים"
+      ]
+    }
+  ],
+  "notes": [
+    "Card is a list of short lines, one per row; it is not clear which lines are ingredients and which are steps, so all lines are kept in card order under instructions.",
+    "Heading read as 'סלמון / בצל מ'' - the final 'מ'' looks like an abbreviation (possibly 'מושחם', suggested by the first line 'להשחים'); not expanded because it is not written out.",
+    "Handwriting is shaky; a human re-read of the lines marked [?] is recommended."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-12.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "line 3 (5 words)",
+      "best_guess": "Gemini: לשפוך מעט שמן זית במחבת (line alignment with the card is unclear)",
+      "reason": "Cramped cursive; could not confirm any word."
+    },
+    {
+      "field": "instructions",
+      "text": "first word of line 4",
+      "best_guess": "Gemini: לשפוך",
+      "reason": "Large looped first word; 'מעט שמן זית' is visually consistent but the first word is not confirmed."
+    },
+    {
+      "field": "instructions",
+      "text": "last word of line 5",
+      "best_guess": "Gemini: שום",
+      "reason": "Only 'מריחה של' is clearly visible; the following word cannot be confirmed on the scan."
+    },
+    {
+      "field": "instructions",
+      "text": "סלמון נקי ופרוסים",
+      "best_guess": "Gemini wrote ופרוס; the ink ends with 'ים'",
+      "reason": "Last word may be ופרוסים or ופרוסות-like; ending read as ים."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
