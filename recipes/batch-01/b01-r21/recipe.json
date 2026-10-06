@@ -1,7 +1,7 @@
 {
   "id": "b01-r21",
   "batch": 1,
-  "title": "עוגת שמרים עם פירורים",
+  "title": "[?] עם פרורים",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -20,14 +20,6 @@
         "1 לבן",
         "1/8 כוס מי סודה",
         "1/2 כוס מים"
-      ]
-    },
-    {
-      "group": "פירורים",
-      "items": [
-        "1/2 [?] קמח",
-        "1/2 [?] מרגרינה",
-        "1/3 כוס סוכר"
       ]
     }
   ],
@@ -48,13 +40,6 @@
         "לגלגל ולהשאיר שיתפחו",
         "למרוח מעט מחלבונים [?] הגלילים."
       ]
-    },
-    {
-      "group": "פירורים",
-      "steps": [
-        "אם צריך להוסיף קמח וסוכר",
-        "[?] את [?]"
-      ]
     }
   ],
   "notes": [
@@ -64,7 +49,8 @@
     "A bracket joins the lines '1/8 כוס מי סודה' and '1/2 כוס מים' and is followed by the word 'פושרים' (lukewarm), i.e. apparently applying to both liquids.",
     "In the crumb section, part of the first line (after the flour) is struck through on the card; the lines were hard to separate.",
     "Gemini's transcription contains items not seen on the card and ignored here: vanilla, 'וניל', 1 cup crumb sugar, 10 minutes of proofing, baking temperature/time details.",
-    "Independent two-scan reread resolves 1 לבן, the flour reservation 1/2 cup, מלח + הקמח, and crumb sugar 1/3 cup. Other faded method words and crossed-out crumb quantities remain uncertain."
+    "Independent two-scan reread resolves 1 לבן, the flour reservation 1/2 cup, מלח + הקמח, and crumb sugar 1/3 cup. Other faded method words and crossed-out crumb quantities remain uncertain.",
+    "Owner (PR #26): the title is not clear (seems to read 'ארוכים עם פרורים'); the crumb recipe at the bottom of the second page was split into its own recipe b01-r25 (ברייזעלעך)."
   ],
   "incidental_text": [
     "Handwritten page numbers: 108 (front), 109 (back)"
@@ -87,12 +73,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "עוגת שמרים עם פירורים",
-      "best_guess": null,
-      "reason": "The title line is small and smudged; Gemini reads the same words, and 'שמרים' / 'פירורים' fit the recipe."
-    },
-    {
       "field": "ingredients",
       "text": "פירורים: 1/2 [?] קמח / 1/2 [?] מרגרינה",
       "best_guess": "Gemini: flour 'as needed', 1/2 package margarine",
@@ -103,6 +83,12 @@
       "text": "most lines",
       "best_guess": null,
       "reason": "Only the clear words are written out; Gemini's fuller sentences are not visible on the card."
+    },
+    {
+      "field": "title",
+      "text": "[?] עם פרורים",
+      "best_guess": "ארוכים עם פרורים",
+      "reason": "Owner: the title is not entirely clear; it seems to read 'ארוכים עם פרורים', but it is not clear what 'ארוכים' means. (Earlier AI reading: 'עוגת שמרים עם פירורים'.)"
     }
   ],
   "transcription": {
@@ -111,5 +97,29 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #26 comment",
+      "scope": "partly read: 'ארוכים עם פרורים' (uncertain)"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  },
+  "card": {
+    "id": "b01-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b01-r21",
+      "b01-r25"
+    ],
+    "position": "the dough recipe: the front side and most of the back side",
+    "note": "The bottom of the back side holds a separate short recipe, ברייזעלעך (the crumb topping), split into its own record."
   }
 }
