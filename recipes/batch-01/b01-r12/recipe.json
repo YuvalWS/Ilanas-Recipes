@@ -1,14 +1,14 @@
 {
   "id": "b01-r12",
   "batch": 1,
-  "title": "עוגת תפו\"ע",
+  "title": "עוגת תפוע\"ץ",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
       "group": null,
       "items": [
-        "2 כוסות תפו\"ע חתוכים לקוביות קטנות.",
+        "2 כוסות תפוע\"ץ חתוכים לקוביות קטנות.",
         "להשרות את התפוחים ביין או שרי למשך 1/2 שעה.",
         "[?] גר' צימוקים",
         "להוסיף:"
@@ -44,11 +44,11 @@
     }
   ],
   "notes": [
-    "The title abbreviation תפו\"ע = תפוחי עץ (apples); the body says 'התפוחים'.",
     "A horizontal line separates the cake part from a final paragraph about a beaten egg-white (meringue) topping.",
     "Gemini's 'שהקצף משחים' was checked against the scan: the last word clearly reads 'משחים' (browns), replacing the earlier guess 'מזהיב'.",
     "Independent Codex rereading resolves הכל and המלית from the enlarged preparation. The overwritten raisin quantity and missing baking duration remain unresolved; no 30-minute duration was inferred from Gemini.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Owner (issue #405): the card writes 'תפוע\"ץ' (an abbreviation of תפוח עץ, apple), in the title and in the first ingredient line; the earlier reading 'תפו\"ע' was wrong."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -94,6 +94,18 @@
       "date": "2026-10-06",
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #405",
+      "scope": "the word תפוע\"ץ only"
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #405",
+      "scope": "the word תפוע\"ץ in the first line only"
     }
   }
 }
