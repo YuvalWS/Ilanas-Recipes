@@ -50,7 +50,8 @@
     "In the crumb section, part of the first line (after the flour) is struck through on the card; the lines were hard to separate.",
     "Gemini's transcription contains items not seen on the card and ignored here: vanilla, 'וניל', 1 cup crumb sugar, 10 minutes of proofing, baking temperature/time details.",
     "Independent two-scan reread resolves 1 לבן, the flour reservation 1/2 cup, מלח + הקמח, and crumb sugar 1/3 cup. Other faded method words and crossed-out crumb quantities remain uncertain.",
-    "Owner (PR #26): the title is not clear (seems to read 'ארוכים עם פרורים'); the crumb recipe at the bottom of the second page was split into its own recipe b01-r25 (ברייזעלעך)."
+    "Owner (PR #26): the title is not clear (seems to read 'ארוכים עם פרורים'); the crumb recipe at the bottom of the second page was split into its own recipe b01-r25 (ברייזעלעך).",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [
     "Handwritten page numbers: 108 (front), 109 (back)"
@@ -66,7 +67,15 @@
       "file": "raw/Scanned_20261004-2101-21.jpg",
       "original_path": "Batch 1/Scanned_20261004-2101-21.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "back"
+      "side": "back",
+      "regions": [
+        {
+          "x": 0.02,
+          "y": 0.1,
+          "w": 0.96,
+          "h": 0.42
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
