@@ -28,7 +28,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Small card with an ingredients block (above a ruled line) and four lines of instructions below it; no title. Its content (rice, onion, carrots, tomato paste) matches the filling/sauce of the stuffed peppers in this batch, but the card does not say so."
+    "Handwriting is only partly legible; unreadable words are [?]. Small card with an ingredients block (above a ruled line) and four lines of instructions below it; no title. Its content (rice, onion, carrots, tomato paste) matches the filling/sauce of the stuffed peppers in this batch, but the card does not say so.",
+    "Suggested title 'אורז עם רסק עגבניות וגזר' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: rice, fried onion, grated carrots, tomato paste, lemon, boiling water). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -73,5 +74,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "אורז עם רסק עגבניות וגזר",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "rice, fried onion, grated carrots, tomato paste, lemon, boiling water"
 }
