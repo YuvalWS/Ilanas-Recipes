@@ -198,7 +198,6 @@ def run(browser, base):
     context, page = new_fixture_page(browser, base, fixture, errors)
     # list tags: proofread, suggested title, same-note
     expect(page.locator(f'#grid a[href="#/{b["id"]}"] .tag.ok')).to_contain_text("הוגה: כותרת, מקור, מרכיבים")
-    expect(page.locator(f'#grid a[href="#/{c["id"]}"] .tags')).to_contain_text("כותרת מוצעת")
     expect(page.locator(f'#grid a[href="#/{a["id"]}"] .tags')).to_contain_text("1 מתוך 2 באותו פתק")
 
     # ---- recipe page layout (recipe b) ----
@@ -232,30 +231,43 @@ def run(browser, base):
     expect(page.locator(".share-menu")).to_be_visible()
     print("PASS: recipe page: proofread badges per field, share icon in the title row, report under the transcription, collapsed notes, no rotation note")
 
-    # suggested-title filter and warnings
+    # no suggested-title filter any more; the warning is a small icon next to the title
     page.locator(".back a").click()
-    expect(page.locator("#t-suggested")).to_have_text("⚠ כותרת מוצעת (1)")
-    page.locator("#t-suggested").click()
-    expect(page.locator("#grid .card")).to_have_count(1)
-    assert page.locator("#grid .card a").get_attribute("href") == f"#/{c['id']}"
-    assert "suggested=1" in page.url
-    expect(page.locator("#grid .tag.warn", has_text="כותרת מוצעת")).to_have_count(1)
-    page.reload()
-    expect(page.locator("#t-suggested")).to_have_attribute("aria-pressed", "true")
-    page.locator("#clear-filters").click()
+    expect(page.locator("#t-suggested")).to_have_count(0)
+    expect(page.locator("#grid .title-warn")).to_have_count(1)                 # only the recipe whose title is not on the card
+    expect(page.locator(f'#grid a[href="#/{c["id"]}"] h3 .title-warn')).to_have_count(1)
+    expect(page.locator(f'#grid a[href="#/{c["id"]}"] h3')).to_have_text("שם מוצע לבדיקה")
+    expect(page.locator("#grid .tag", has_text="כותרת מוצעת")).to_have_count(0)
+    icon = page.locator(f'#grid a[href="#/{c["id"]}"] h3 .title-warn')
+    icon.hover()
+    expect(page.locator("#hint-pop")).to_contain_text("טרם אושרה")
+    page.locator("#q").hover()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    icon.click()                                                              # tap: tooltip, the recipe does not open
+    expect(page.locator("#hint-pop")).to_contain_text("אינה כתובה על הפתק")
+    assert "#/b" not in page.url and page.locator("#list-view").is_visible(), page.url
+    page.locator("#q").click()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    page.goto(base + "?suggested=1")                                          # the old filter link is simply ignored
     expect(page.locator("#grid .card")).to_have_count(4)
-    expect(page.locator("#t-suggested")).to_have_attribute("aria-pressed", "false")
     # suggested title page + same-note box
     page.locator(f'#grid a[href="#/{c["id"]}"]').click()
     expect(page.locator("#detail-view h2")).to_have_text("שם מוצע לבדיקה")
-    expect(page.locator(".text")).to_contain_text("טרם אושרה")
-    expect(page.locator(".suggested-warning")).to_contain_text("הצעה בלבד")
+    expect(page.locator(".suggested-warning, .banner.warn", has_text="הצעה בלבד")).to_have_count(0)   # no big warning banner
+    expect(page.locator(".titlewrap .title-warn")).to_have_count(1)
+    expect(page.locator(".titlewrap h2")).to_have_text("שם מוצע לבדיקה")
+    page.locator(".titlewrap .title-warn").hover()
+    expect(page.locator("#hint-pop")).to_contain_text("טרם אושרה")
+    page.locator(".titlewrap .title-warn").click()
+    expect(page.locator("#hint-pop")).to_contain_text("אינה כתובה על הפתק")
+    page.locator("#detail-view h2").click()
+    expect(page.locator("#hint-pop")).to_be_hidden()
     page.locator(".back a").click()
     page.locator(f'#grid a[href="#/{a["id"]}"]').click()
     expect(page.locator(".cardbox")).to_contain_text("אחד מ-2 מתכונים על אותו פתק")
     page.locator(f'.cardbox a[href="#/{d["id"]}"]').click()
     expect(page.locator("#detail-view h2")).to_have_text(d["title"])
-    print("PASS: suggested-title labelling and same-note links")
+    print("PASS: title warning as a small icon with tooltip (list and recipe page, no filter, no banner); same-note links")
     context.close()
 
     # ---- glossary hint: 'קמח אוסם' gets a tooltip (hover on a computer, tap on a phone) ----
@@ -296,7 +308,7 @@ def run(browser, base):
     print("PASS: glossary hint works by tap on a phone-sized screen")
     context.close()
 
-    # ---- "סיפורים מהאוסף": the anecdote page (data/story.json) ----
+    # ---- "סיפור המתכונים": the anecdote page (data/story.json) ----
     story = json.loads((ROOT / "data/story.json").read_text(encoding="utf-8"))["items"]
     assert story, "data/story.json should hold at least one story"
     page = browser.new_page()
@@ -304,7 +316,7 @@ def run(browser, base):
     page.goto(base)
     expect(page.locator("#grid .card").first).to_be_visible()
     page.locator("#story-link").click()
-    expect(page.locator("#story-view h2")).to_have_text("סיפורים מהאוסף")
+    expect(page.locator("#story-view h2")).to_have_text("סיפור המתכונים")
     expect(page.locator("#story-view .story")).to_have_count(len(story))
     expect(page.locator("#story-view .story-text").first).to_have_text(story[0]["text"])
     page.wait_for_function("document.querySelector('#story-view .story img').naturalWidth > 0")
