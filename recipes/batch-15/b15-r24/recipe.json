@@ -1,0 +1,56 @@
+{
+  "id": "b15-r24",
+  "batch": 15,
+  "title": "בצק לעוגת שכבות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "בצק",
+      "items": [
+        "1 קמח אוסם",
+        "2 סוכר וניל",
+        "3/4 מרגרינה",
+        "1/4 כוס מיץ תפוזים",
+        "2 ביצים"
+      ]
+    },
+    {
+      "group": "מילוי",
+      "items": [
+        "250 גר׳ אגוזים בטחונים",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card with a title line 'פשטידה ... / בצק לפשטידות שכבות?' (as read) and a short list of dough ingredients followed by a filling heading. The right edge has a staple stain; the lower left shows a pen mark."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2218-06.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Units are missing or unclear (the first quantity has no unit)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
