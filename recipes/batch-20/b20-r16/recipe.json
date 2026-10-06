@@ -20,7 +20,8 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Eight to nine lines of very tall, narrow and shaky handwriting in blue ink; a short line in a different (brown) ink at the bottom (and a mark at the top left). None of it could be read with any confidence, so no text is transcribed. The words 'פלפל' and 'מלח' may appear but this is a guess.",
     "A good candidate for rescanning at a higher resolution, or for human reading of the original card.",
-    "First line מלח, פלפל is seasoning, not a title. Later additions and serving line remain unclear."
+    "First line מלח, פלפל is seasoning, not a title. Later additions and serving line remain unclear.",
+    "Suggested title 'מרק ירקות עם תירס' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: onion, green pepper, corn 'added with the water', cherry tomatoes). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -59,5 +60,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "מרק ירקות עם תירס",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "onion, green pepper, corn 'added with the water', cherry tomatoes"
 }
