@@ -13,6 +13,8 @@ on:
     branches: [main]
     paths:
       - "recipes/**"
+      - "assets/**"
+      - "index.html"
       - "tools/build_index.py"
       - "tools/needs_review.py"
       - "schema/**"
@@ -48,10 +50,10 @@ jobs:
             git reset --hard --quiet origin/main
             python tools/build_index.py
             python tools/needs_review.py
-            if git diff --quiet -- data/recipes.json docs/NEEDS_REVIEW.md; then
+            if git diff --quiet -- data/recipes.json docs/NEEDS_REVIEW.md version.json; then
               echo "Index and review list are already up to date - nothing to commit."; exit 0
             fi
-            git add data/recipes.json docs/NEEDS_REVIEW.md
+            git add data/recipes.json docs/NEEDS_REVIEW.md version.json
             git commit --quiet -m "Rebuild search index and review list [skip ci]"
             if git push --quiet origin HEAD:main; then echo "Index rebuilt and pushed."; exit 0; fi
             echo "Push raced with another commit (attempt $i); regenerating from the latest main."

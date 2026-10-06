@@ -50,7 +50,7 @@
   var DATA = null, BATCH = {}, ALL = [];
   var $ = function (id) { return document.getElementById(id); };
 
-  fetch("data/recipes.json")
+  fetch("data/recipes.json?v=" + (window.SITE_VERSION || Date.now()))
     .then(function (r) { return r.json(); })
     .then(function (d) {
       DATA = d;
