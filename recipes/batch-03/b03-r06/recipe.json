@@ -1,0 +1,74 @@
+{
+  "id": "b03-r06",
+  "batch": 3,
+  "title": "תערובת הודו, אורז",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "250 גר' הודו ([?])"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "[?] [?] , צ'ילי (מעט) - [?]",
+        "לסגור הבשר [?]",
+        "מעט שמן לטגן 2 בצלים",
+        "[?] [?] [?] [?] [?]",
+        "[?] כוסות [?] [?] [?] 3",
+        "(second card) [?] [?] [?] [?]",
+        "(second card) [?] [?] [?] [?] [?] ל-30 דק'"
+      ]
+    }
+  ],
+  "notes": [
+    "Two orange-branded memo cards are in one scan: the upper card has most of the text, the lower card (reverse side or a second sheet) has two lines only. Left-aligned lines are cut off at the left edge of the paper.",
+    "Handwriting is very shaky; much of the card is still unreadable, so this is only a partial index. Several lines start with a small circled mark that may be a step marker.",
+    "Gemini's transcription (meat-and-rice dish with paprika, turmeric, carrots, 1 cup rice and 3 cups water) adds many details that cannot be seen on the card and was not used beyond the confirmed words."
+  ],
+  "incidental_text": [
+    "orange logo (twice)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-07.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "250 גר' בשר - ([?])",
+      "best_guess": "Gemini: בשר טחון (או תחליף סויה); not confirmed",
+      "reason": "Amount '250 גר'' and 'בשר' are readable; the word in parentheses is not."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": "Gemini: spices paprika, turmeric, salt; 1 cup rice; 3 cups boiling water; cover and cook about 30 minutes (not confirmed on the card)",
+      "reason": "Readable: 'צ'ילי (מעט)', 'לסגור הבשר', 'מעט שמן לטגן 2 בצלים', 'כוסות', the numbers 3 and 30. The rest is unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
