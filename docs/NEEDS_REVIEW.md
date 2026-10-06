@@ -61,7 +61,7 @@ Confidence: high 83, medium 67, low 74. Flagged needs_human_verification: 181.
 | b17-r08 | 17 עוף | שוקיים | Batch 17/Scanned_20261004-2231-07.jpg, Batch 17/Scanned_20261004-2231-08.jpg | handwritten |
 | b17-r10 | 17 עוף | עוף בתנור | Batch 17/Scanned_20261004-2231-10.jpg | handwritten |
 | b17-r11 | 17 עוף | עוף | Batch 17/Scanned_20261004-2231-11.jpg | handwritten |
-| b17-r12 | 17 עוף | עוף בתנור | Batch 17/Scanned_20261004-2231-12.jpg, Batch 17/Scanned_20261004-2231-13.jpg | handwritten |
+| b17-r12 | 17 עוף | עוף בתנור / מלח | Batch 17/Scanned_20261004-2231-12.jpg, Batch 17/Scanned_20261004-2231-13.jpg | handwritten |
 | b17-r13 | 17 עוף | עוף | Batch 17/Scanned_20261004-2231-14.jpg, Batch 17/Scanned_20261004-2231-15.jpg | handwritten |
 | b18-r10 | 18 עוגות, מוסים וסלטים | עוגת פירות | Batch 18/Scanned_20261004-2238-12.jpg | handwritten |
 | b19-r02 | 19 פלפלים ממולאים ואחרים | פלפל ממולא | Batch 19/Scanned_20261004-2240-03.jpg, Batch 19/Scanned_20261004-2240-04.jpg | handwritten |
