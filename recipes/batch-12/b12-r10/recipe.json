@@ -31,7 +31,8 @@
   ],
   "notes": [
     "Corrected by the owner in review comments on PR #245: his typed readings replace the earlier AI transcription of the same lines.",
-    "Ditto marks expanded: the marks before 'דבש' stand for 'כפות', and the two marks before 'פלפל שחור גרוס' for '1.4 כפית'."
+    "Ditto marks expanded: the marks before 'דבש' stand for 'כפות', and the two marks before 'פלפל שחור גרוס' for '1.4 כפית'.",
+    "Suggested title 'פרגיות בטריאקי עם בצל' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: owner-typed text: onions, teriyaki, honey, and 'הפרגיות והמרינדה'). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -64,5 +65,8 @@
     "human_verified": true,
     "verified_by": "Yuval (owner)",
     "verified_at": "2026-10-06"
-  }
+  },
+  "assigned_title": "פרגיות בטריאקי עם בצל",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "owner-typed text: onions, teriyaki, honey, and 'הפרגיות והמרינדה'"
 }
