@@ -6,7 +6,8 @@
     "text": "אהרוני",
     "type": "person",
     "as_written": "אהרוני",
-    "uncertain": false
+    "uncertain": false,
+    "role": "chef"
   },
   "medium": "handwritten",
   "ingredients": [
@@ -46,7 +47,8 @@
   "notes": [
     "Underlined heading 'צלי עגל / אהרון' (veal roast / Aharon). The upper block tells how to tie the roast with string, season it with thyme leaves, salt and pepper and sear it in hot oil; then a block headed 'רוטב:' (sauce) with a bracket at the left that groups a note on mixing with oil.",
     "A yellow sticker scribble overlaps the upper right corner of the scan and hides part of the first line.",
-    "Many words in the lower half are unreadable, so the text is only partly transcribed."
+    "Many words in the lower half are unreadable, so the text is only partly transcribed.",
+    "Owner (2026-10-06): אהרוני is a chef (a person, but a professional source, listed with the publication writers)."
   ],
   "incidental_text": [
     "Yellow scribbled sticky note overlapping the upper right corner"

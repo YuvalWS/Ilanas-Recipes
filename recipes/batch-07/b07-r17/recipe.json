@@ -6,7 +6,8 @@
     "text": "אהרוני",
     "type": "person",
     "as_written": "אהרוני",
-    "uncertain": false
+    "uncertain": false,
+    "role": "chef"
   },
   "medium": "handwritten",
   "ingredients": [
@@ -33,7 +34,8 @@
     "Lower block of the card of scan 17 (below the ruled line; the upper block is recipe b07-r16): a short heading underlined with a wavy line, then a dressing list (5 tbsp olive oil, 2 tbsp lemon juice, honey).",
     "The heading is a short word starting with 'א' (possibly a name); not fully readable.",
     "ditto marks expanded (each stands for 'כפות').",
-    "The Gemini file in this folder describes a different recipe (cauliflower fritters) and was not used."
+    "The Gemini file in this folder describes a different recipe (cauliflower fritters) and was not used.",
+    "Owner (2026-10-06): אהרוני is a chef (a person, but a professional source, listed with the publication writers)."
   ],
   "incidental_text": [],
   "raw_files": [

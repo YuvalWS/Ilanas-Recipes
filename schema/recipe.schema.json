@@ -76,6 +76,17 @@
         },
         "uncertain": {
           "type": "boolean"
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "chef",
+            null
+          ],
+          "description": "Optional. 'chef' = the source is a chef (a person, but a public/professional source rather than a personal contact); the website lists chefs with the publication writers, not with personal contacts."
         }
       }
     },

@@ -76,7 +76,8 @@
   }
   function sourceGroup(r) {
     // A clipping's byline can have type "person"; it is still a publication writer.
-    return r.source.type === "publication" || r.source.type === "company" ||
+    // Chefs (source.role === "chef") are people but professional sources: they sit with the publication writers.
+    return r.source.type === "publication" || r.source.type === "company" || r.source.role === "chef" ||
       r.medium === "clipping" || r.medium === "printed" ? "publication" : "person";
   }
   function prepare(r) {
@@ -134,7 +135,7 @@
     ["person", "publication"].forEach(function (category) {
       if (!seen[category].size) return;
       var group = document.createElement("optgroup");
-      group.label = category === "person" ? "אנשים" : "כותבים ומקורות בפרסומים";
+      group.label = category === "person" ? "אנשים" : "שפים, כותבים ומקורות בפרסומים";
       Array.from(seen[category].keys()).sort(function (a, b) { return a.localeCompare(b, "he"); }).forEach(function (s) {
         var o = document.createElement("option");
         // Include the category: one name may occur in both handwritten and printed recipes.
