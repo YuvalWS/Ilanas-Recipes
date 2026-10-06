@@ -53,7 +53,7 @@
   // ---- favorites (this device only) and "הקלאסיים" (curated family list) ----------
   var FAV_KEY = "ilanas-recipes:favorites:v1";
   var FAVS = [], favStorageOk = true, CLASSICS = {};
-  var onlyFavs = false, onlyClassics = false;
+  var onlyFavs = false, onlyClassics = false, onlySuggested = false;
   function loadFavs() {
     try {
       var v = JSON.parse(localStorage.getItem(FAV_KEY) || "[]");
@@ -113,6 +113,10 @@
     $("t-classics").hidden = !cn;
     $("t-classics").textContent = "★ הקלאסיים (" + cn + ")";
     $("t-classics").setAttribute("aria-pressed", onlyClassics ? "true" : "false");
+    var sn = ALL.filter(isSuggestedTitle).length;
+    $("t-suggested").hidden = !sn;
+    $("t-suggested").textContent = "⚠ כותרת מוצעת (" + sn + ")";
+    $("t-suggested").setAttribute("aria-pressed", onlySuggested ? "true" : "false");
     $("fav-share").disabled = !n;
   }
   function favLink() { return location.origin + location.pathname + "?addfavs=" + validFavs().join(","); }
@@ -141,6 +145,7 @@
   function setupFavUi() {
     $("t-favs").addEventListener("click", function () { onlyFavs = !onlyFavs; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
     $("t-classics").addEventListener("click", function () { onlyClassics = !onlyClassics; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
+    $("t-suggested").addEventListener("click", function () { onlySuggested = !onlySuggested; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
     $("fav-share").addEventListener("click", function () {
       var url = favLink(), text = "מועדפים מהמתכונים של אילנה (" + validFavs().length + " מתכונים)";
       if (navigator.share) navigator.share({ title: text, text: text, url: url }).catch(function () {});
@@ -192,6 +197,8 @@
   function srcNames(r) { return !r.source ? [] : (r.source.names && r.source.names.length ? r.source.names : (r.source.text ? [r.source.text] : [])); }
   function recipeTitle(r) { return r.title || r.assigned_title || "(ללא כותרת)"; }
   function usesAssignedTitle(r) { return !r.title && !!r.assigned_title; }
+  // A title that is only a proposal (not written on the card and not yet approved by the owner).
+  function isSuggestedTitle(r) { return usesAssignedTitle(r) && (r.assigned_title_status === "ai_suggested" || r.assigned_title_status === "owner_suggested"); }
   // How an assigned_title is described to readers (it is never the heading written on the card).
   function assignedKind(r) {
     var st = r.assigned_title_status;
@@ -298,7 +305,7 @@
     });
     $("clear-filters").addEventListener("click", function () {
       Object.keys(FILTER_PARAMS).forEach(function (id) { $(id).value = id === "f-sort" ? "rel" : ""; });
-      onlyFavs = false; onlyClassics = false;
+      onlyFavs = false; onlyClassics = false; onlySuggested = false;
       writeFiltersToUrl("pushState"); refreshFavUi();
       renderList();
     });
@@ -315,7 +322,7 @@
     "f-source": "source", "f-verify": "proofreading", "f-sort": "sort" };
   function readFiltersFromUrl() {
     var params = new URLSearchParams(location.search);
-    onlyFavs = params.get("favs") === "1"; onlyClassics = params.get("classics") === "1";
+    onlyFavs = params.get("favs") === "1"; onlyClassics = params.get("classics") === "1"; onlySuggested = params.get("suggested") === "1";
     Object.keys(FILTER_PARAMS).forEach(function (id) {
       var control = $(id), fallback = id === "f-sort" ? "rel" : "";
       var value = params.get(FILTER_PARAMS[id]);
@@ -334,6 +341,7 @@
     });
     if (onlyFavs) url.searchParams.set("favs", "1"); else url.searchParams.delete("favs");
     if (onlyClassics) url.searchParams.set("classics", "1"); else url.searchParams.delete("classics");
+    if (onlySuggested) url.searchParams.set("suggested", "1"); else url.searchParams.delete("suggested");
     if (url.href !== location.href) history[method](null, "", url.href);
   }
 
@@ -344,6 +352,7 @@
     ALL.forEach(function (r) {
       if (onlyFavs && !isFav(r.id)) return;
       if (onlyClassics && !CLASSICS[r.id]) return;
+      if (onlySuggested && !isSuggestedTitle(r)) return;
       if (fb && String(r.batch) !== fb) return;
       if (fm && mediumKey(r) !== fm) return;
       if (fsrc && fsrc.indexOf("status:") === 0) { if ("status:" + sourceStatus(r) !== fsrc) return; }
@@ -373,7 +382,7 @@
   }
 
   function filtersActive() {
-    return onlyFavs || onlyClassics || Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
+    return onlyFavs || onlyClassics || onlySuggested || Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
   }
   function renderList() {
     $("clear-filters").disabled = !filtersActive();
@@ -396,7 +405,7 @@
       tags.appendChild(el("span", "tag", batchTitle(r.batch).replace(" - ", " · ")));
       if (CLASSICS[r.id]) tags.appendChild(el("span", "tag classic", "★ קלאסי"));
       if (r.card) tags.appendChild(el("span", "tag", "1 מתוך " + r.card.recipes.length + " באותו " + CARD_KIND[r.card.kind].one));
-      if (usesAssignedTitle(r)) tags.appendChild(el("span", "tag", assignedKind(r).tag));
+      if (usesAssignedTitle(r)) tags.appendChild(el("span", isSuggestedTitle(r) ? "tag warn" : "tag", (isSuggestedTitle(r) ? "⚠ " : "") + assignedKind(r).tag));
       if (pfFields(r).length) { var pt = el("span", "tag ok", "✓ הוגה: " + pfFields(r).map(function (f) { return PF_NAMES[f]; }).join(", ")); tags.appendChild(pt); }
       if (r.needs_human_verification) tags.appendChild(el("span", "tag warn", "דורש הגהה"));
       body.appendChild(tags);
@@ -571,7 +580,8 @@
     acts.appendChild(shareBox(r));
     tbar.appendChild(acts);
     txt.appendChild(tbar);
-    if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", assignedKind(r).note));
+    if (isSuggestedTitle(r)) txt.appendChild(el("p", "banner warn suggested-warning", "⚠ שימו לב: הכותרת שמוצגת כאן היא הצעה בלבד (טרם אושרה): אינה כתובה על הפתק. " + (r.assigned_title_basis ? "בסיס ההצעה: " + r.assigned_title_basis + ". " : "") + "בדקו מול הסריקה."));
+    else if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", assignedKind(r).note));
     else if (r.assigned_title) txt.appendChild(el("p", "muted", "כינוי / כותרת נוספת לחיפוש: " + r.assigned_title));
     if (r.needs_human_verification) {
       var warn = el("p", "banner warn", "תמלול זה דורש הגהה אנושית. השוו מול הסריקה. רמת ביטחון: " + ({high: "גבוהה", medium: "בינונית", low: "נמוכה"}[r.confidence] || r.confidence));

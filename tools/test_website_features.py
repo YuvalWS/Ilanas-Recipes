@@ -227,11 +227,24 @@ def run(browser, base):
     expect(page.locator(".share-menu")).to_be_visible()
     print("PASS: recipe page: proofread badges per field, share icon in the title row, report under the transcription, collapsed notes, no rotation note")
 
-    # suggested title page + same-note box
+    # suggested-title filter and warnings
     page.locator(".back a").click()
+    expect(page.locator("#t-suggested")).to_have_text("⚠ כותרת מוצעת (1)")
+    page.locator("#t-suggested").click()
+    expect(page.locator("#grid .card")).to_have_count(1)
+    assert page.locator("#grid .card a").get_attribute("href") == f"#/{c['id']}"
+    assert "suggested=1" in page.url
+    expect(page.locator("#grid .tag.warn", has_text="כותרת מוצעת")).to_have_count(1)
+    page.reload()
+    expect(page.locator("#t-suggested")).to_have_attribute("aria-pressed", "true")
+    page.locator("#clear-filters").click()
+    expect(page.locator("#grid .card")).to_have_count(4)
+    expect(page.locator("#t-suggested")).to_have_attribute("aria-pressed", "false")
+    # suggested title page + same-note box
     page.locator(f'#grid a[href="#/{c["id"]}"]').click()
     expect(page.locator("#detail-view h2")).to_have_text("שם מוצע לבדיקה")
     expect(page.locator(".text")).to_contain_text("טרם אושרה")
+    expect(page.locator(".suggested-warning")).to_contain_text("הצעה בלבד")
     page.locator(".back a").click()
     page.locator(f'#grid a[href="#/{a["id"]}"]').click()
     expect(page.locator(".cardbox")).to_contain_text("אחד מ-2 מתכונים על אותו פתק")

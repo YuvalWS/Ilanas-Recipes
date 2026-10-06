@@ -97,3 +97,6 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .fav-banner { margin: 10px 0 0; padding: 10px 14px; border: 1px solid var(--accent); border-radius: 10px; background: var(--card); display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .empty { grid-column: 1 / -1; color: var(--muted); padding: 24px 4px; list-style: none; }
 .toast { position: fixed; bottom: 18px; inset-inline: 16px; margin: auto; max-width: 420px; background: #222; color: #fff; padding: 10px 16px; border-radius: 10px; text-align: center; z-index: 20; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
+
+.btn-warn[aria-pressed="true"] { background: #b26a00; border-color: #b26a00; color: #fff; }
+.suggested-warning { font-weight: 600; }
