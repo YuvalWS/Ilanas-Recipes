@@ -2,7 +2,12 @@
   "id": "b15-r21",
   "batch": 15,
   "title": "[?] גמבה קלויה ממולאת [?]",
-  "source": null,
+  "source": {
+    "text": "תנובה (ספר מתכונים)",
+    "type": "publication",
+    "as_written": "תנובה (ספר מתכונים)",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -41,7 +46,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card in a printed frame with a footer 'איכות חיים לכל החיים' (front). The title reads 'פשטידת? גמבה קלויה ממולאת' with a second small word below ('ממולאה'?). The front is crowded at the bottom: the last line runs over the printed footer. The back is headed 'הכנה:' with three numbered steps."
+    "Handwriting is only partly legible; unreadable words are [?]. Card in a printed frame with a footer 'איכות חיים לכל החיים' (front). The title reads 'פשטידת? גמבה קלויה ממולאת' with a second small word below ('ממולאה'?). The front is crowded at the bottom: the last line runs over the printed footer. The back is headed 'הכנה:' with three numbered steps.",
+    "Owner (PR #191 review comments): source is the Tnuva cookbook."
   ],
   "incidental_text": [
     "Printed footer: 'איכות חיים לכל החיים' on a gold band with a newspaper logo"
@@ -80,12 +86,6 @@
       "text": "step 2 and 3",
       "best_guess": null,
       "reason": "Several words unclear."
-    },
-    {
-      "field": "source",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No source written."
     }
   ],
   "transcription": {
@@ -94,5 +94,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #191 review comments",
+      "scope": null
+    }
   }
 }
