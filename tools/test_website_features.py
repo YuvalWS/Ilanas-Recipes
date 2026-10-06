@@ -45,6 +45,7 @@ def make_fixture(data):
         r.pop("assigned_title_status", None)
     # a: no source at all (the case that once broke the whole filter bar)
     a.update(title="מתכון בלי מקור", source=None, medium="handwritten")
+    # (b and c get uncertain sources below to exercise the "unsure" statuses)
     # b: one source line naming two people + proofread fields + a note and a rotated scan
     b.update(title="מתכון עם שני שמות", medium="handwritten", needs_human_verification=True,
              source={"text": "דנה (רונית)", "names": ["דנה", "רונית"], "type": "person", "as_written": "דנה (רונית)", "uncertain": False},
@@ -56,6 +57,8 @@ def make_fixture(data):
     # c: a chef (a person, listed with the publication writers) + AI-suggested title
     c.update(title=None, assigned_title="שם מוצע לבדיקה", assigned_title_status="ai_suggested", medium="handwritten",
              source={"text": "שף בדיקה", "type": "person", "as_written": "שף בדיקה", "uncertain": False, "role": "chef"})
+    b["source"]["uncertain"] = True           # has proofread.source below -> "unsure, checked"
+    c["source"]["uncertain"] = True           # no proofread.source -> "unsure, not yet checked"
     # d: one of two recipes on the same note
     d.update(title="מתכון שני על אותו פתק", medium="handwritten", source=None,
              proofread={"source": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": "confirmed: no source on the card"}})
@@ -148,7 +151,11 @@ def run(browser, base):
     groups = page.locator("#f-source optgroup").evaluate_all(
         "gs => gs.map(g => [g.label, [...g.querySelectorAll('option')].map(o => o.value)])")
     status = dict(groups)["מצב המקור"]
-    assert status == ["status:none-confirmed", "status:none-unchecked"], status
+    assert status == ["status:none-confirmed", "status:none-unchecked", "status:unsure-checked", "status:unsure"], status
+    page.locator("#f-source").select_option("status:unsure-checked")
+    assert page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)") == [f"#/{b['id']}"]
+    page.locator("#f-source").select_option("status:unsure")
+    assert page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)") == [f"#/{c['id']}"]
     page.locator("#f-source").select_option("status:none-confirmed")          # no source, confirmed by the owner
     assert [h for h in page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)")] == [f"#/{d['id']}"]
     page.locator("#f-source").select_option("status:none-unchecked")          # no source recorded, not yet checked

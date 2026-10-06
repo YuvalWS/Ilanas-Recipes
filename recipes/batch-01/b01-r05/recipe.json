@@ -42,7 +42,8 @@
     "Digitization remark: the line under the ingredient 'תערובת פירות יבשים' ('עדיף ללא סוכר ...') is a remark about the dried-fruit mix (preferably unsweetened), not a sugar quantity.",
     "Digitization remark: the card is cut at the bottom edge, so the lower halves of the last three lines (steps 5-7) are partly missing.",
     "Digitization remark: the word 'מלא' also appears alone on the line below the flour line (not part of a new ingredient).",
-    "Independent Codex rereading confirms כוסמין, מקררים ופורסים, and נשמר במקרר. The overwritten baking time and truncated continuations remain uncertain; no missing cooking or storage advice was inferred."
+    "Independent Codex rereading confirms כוסמין, מקררים ופורסים, and נשמר במקרר. The overwritten baking time and truncated continuations remain uncertain; no missing cooking or storage advice was inferred.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -99,5 +100,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

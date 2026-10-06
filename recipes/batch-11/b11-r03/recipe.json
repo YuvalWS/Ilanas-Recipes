@@ -42,7 +42,8 @@
   "notes": [
     "Two scans of the same printed recipe: scan 03 is a long clipping (title, intro paragraph, ingredient list, and below a second, torn-off clipping holding the rest of the ingredient list and the method); scan 04 (rotated 90 degrees clockwise to be upright) is a second copy of that lower piece alone, stapled at the upper right. The text of the two copies is identical.",
     "The intro paragraph (the writer calls it the most comforting mushroom soup in the world, an Italian-style version, with a note about substituting wild mushrooms and adding dried mushrooms) is not transcribed. Ranges such as '3-2' are typeset right-to-left and are written as printed.",
-    "The ingredient list is split over two pieces; the ingredients that appear only on the lower piece are 'מלח ופלפל גרוס טרי', 500 g mushrooms and the parsley, and they are listed last."
+    "The ingredient list is split over two pieces; the ingredients that appear only on the lower piece are 'מלח ופלפל גרוס טרי', 500 g mushrooms and the parsley, and they are listed last.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -81,5 +82,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

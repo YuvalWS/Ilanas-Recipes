@@ -44,7 +44,8 @@
   ],
   "notes": [
     "Printed label/clipping (white text on a blue background), 6 servings. The scan was upside down and was rotated 180 degrees. The label is folded in the middle and torn at the upper right. Ranges such as '5-4' and '3-2' are typeset right-to-left and are written as printed (read as 4-5 and 2-3).",
-    "The heading of the second text block is partly hard to read; it is probably 'הכנת המשרה' or similar and is quoted as read."
+    "The heading of the second text block is partly hard to read; it is probably 'הכנת המשרה' or similar and is quoted as read.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -77,5 +78,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

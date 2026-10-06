@@ -44,7 +44,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Narrow printed card with a dark blot over the last letters of the title ('סיניים') and two diagonal marks (pen/pencil) at the top corner. After the line '2 פלפל אדום' there is a printed sign '‹' joining it to 'חתוכים לאורך'; it is not clear whether it applies to the green pepper as well."
+    "Scan was upside down and was rotated 180 degrees. Narrow printed card with a dark blot over the last letters of the title ('סיניים') and two diagonal marks (pen/pencil) at the top corner. After the line '2 פלפל אדום' there is a printed sign '‹' joining it to 'חתוכים לאורך'; it is not clear whether it applies to the green pepper as well.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -83,5 +84,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

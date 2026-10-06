@@ -38,7 +38,8 @@
   ],
   "notes": [
     "Printed heading 'עוגת ריקוטה לפסח' with the subtitle '(וממש לא רק לפסח)' (shown here in the title); a ● end mark follows the last step. The heading is flanked by decorative star marks. The single line at the very top of the same column (beginning 'הגישו', ending 'או מעל.') is assigned to b08-r08 (pot roast), not to this cake.",
-    "Part of newspaper page b08-card-02 with b08-r06, b08-r07, b08-r08 (the other recipes on the same page)."
+    "Part of newspaper page b08-card-02 with b08-r06, b08-r07, b08-r08 (the other recipes on the same page).",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [
     "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
@@ -75,5 +76,13 @@
     ],
     "position": "Left-most column of the page, from the heading below the torn top edge to the bottom of the column (ingredients, then numbered method 1-5).",
     "note": "One newspaper page holding several recipes; the page is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }
