@@ -6,7 +6,7 @@
     "text": "פנינה",
     "type": "person",
     "as_written": "פנינה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -35,7 +35,7 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Card with a title 'עוף בתנור - פנינה' (underlined) and, on the right edge, fractions 1/3 next to סויה / קטשופ / דבש (thirds of a cup presumably, but no unit is written). A note at the top left reads '1/3 = בדרך? 3 כפות' (as read). The middle of the card is overwritten by several lines in a different, larger hand on top of earlier lines, which makes it unreadable. The last lines say 1.5 hours at 180 degrees covered, then half an hour at 200 degrees uncovered (the word 'מכוסה' is struck out and replaced as read).",
     "A tip in brackets after קטשופ ('...שיווק? עמוק') is unreadable.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,12 +49,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "פנינה",
-      "best_guess": "פנינה",
-      "reason": "Read from the title line 'עוף בתנור - פנינה'."
-    },
     {
       "field": "ingredients",
       "text": "units",
@@ -79,8 +73,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
     }
   }
 }

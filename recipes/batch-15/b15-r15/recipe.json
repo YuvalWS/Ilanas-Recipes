@@ -6,7 +6,7 @@
     "text": "ניקי (Niki B)",
     "type": "person",
     "as_written": "ניקי",
-    "uncertain": true,
+    "uncertain": false,
     "role": "chef"
   },
   "medium": "clipping",
@@ -38,7 +38,8 @@
     "Owner (2026-10-06): ניקי = Niki B, a chef (a person; listed with the publication writers). The name is unified in the source filter.",
     "Split by the owner's request (issue #316): the printed recipe is this record; the handwritten variant on the left of the same card is b15-r16.",
     "Owner (2026-10-06): the 'printed' category was merged into 'גזירי עיתון' (newspaper clippings), so this recipe's medium is now clipping.",
-    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection.",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -71,14 +72,7 @@
   ],
   "needs_human_verification": true,
   "confidence": "high",
-  "uncertainties": [
-    {
-      "field": "source",
-      "text": "ניקי",
-      "best_guess": "ניקי",
-      "reason": "The strip at the bottom reads 'ניקי - לביבות כרובית אפויות'; read as the name of the source."
-    }
-  ],
+  "uncertainties": [],
   "transcription": {
     "method": "ai_read_from_scan",
     "date": "2026-10-05",
@@ -100,8 +94,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat (ניקי = Niki B, chef)",
-      "scope": null
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: ניקי = Niki B (a chef), as recorded"
     },
     "medium": {
       "by": "Yuval (owner)",

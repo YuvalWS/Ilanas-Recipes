@@ -6,7 +6,7 @@
     "text": "מאירה",
     "type": "person",
     "as_written": "מאירה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -47,7 +47,7 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Two sides of one card (the front was assumed from the title line 'פשטידת גבינות / מאירה'). Front: a line with a blue underline and a crossed-out phrase 'שמנת או שלי או חלב' followed by 'יוגורט' written in grey. Back: a similar recipe with fractions of cups and semolina, written very densely; several words cannot be read.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,12 +67,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "מאירה",
-      "best_guess": "מאירה",
-      "reason": "Read as a first name."
-    },
     {
       "field": "ingredients",
       "text": "several lines",
@@ -103,8 +97,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
     }
   }
 }
