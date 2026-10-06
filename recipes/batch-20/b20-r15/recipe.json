@@ -19,7 +19,8 @@
   "instructions": [],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Five lines of tall, shaky writing on a company memo, with quantities written in the right-hand margin (1/2, then a small fraction, 2, 1/2, 1). Only the first line ('כרוב לפרוס') and 'סוכר' could be read reliably; the other words are guesses. There is no title; it may be a cabbage salad but this is not stated.",
-    "A pin/staple is visible at the top right of the scan."
+    "A pin/staple is visible at the top right of the scan.",
+    "Suggested title 'מרק כרוב ובטטה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)). Awaiting the owner's approval."
   ],
   "incidental_text": [
     "Printed company letterhead at the top of the memo page: logo 'בזל' - 'חברה להנדסה ובנין בע\"מ', 'מקבוצת חברות זלינגר בע\"מ', פקס. 03-5617358, טל. 03-5620372"
@@ -54,5 +55,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "מרק כרוב ובטטה",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "cabbage, onion, sweet potatoes, sugar and soup-powder (א. מרק)"
 }
