@@ -24,12 +24,27 @@
         "[?] [?] [?] [?]",
         "ל[?] [?] [?] [?] [?]"
       ]
+    },
+    {
+      "group": "המשך בכרטיס שני (סריקה 03)",
+      "steps": [
+        "[?] [?] הצלי",
+        "[?] [?] [?] [?]",
+        "[?] [?] ו[?] [?] [?] [?] ל[?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] [?] מעט [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] עד 3 [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?] ו[?]"
+      ]
     }
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. ",
     "Small square card with a short list: garlic, paprika, cumin, silan, olive oil, salt. Probably part of a chicken marinade (the previous card), but the card has no title.",
-    "Suggested title 'מרינדה סילאן, שום ופפריקה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: garlic, paprika, cumin, silan, olive oil). Awaiting the owner's approval."
+    "Suggested title 'מרינדה סילאן, שום ופפריקה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: garlic, paprika, cumin, silan, olive oil). Awaiting the owner's approval.",
+    "The method continues on a second card (scan -03, previously a separate untitled record b12-r03): the owner noticed it is the second part of another recipe (PR #218); its first line ('מים שיכסו העוף') follows this card's sauce ingredient list. Attached to this recipe on 2026-10-06; the id b12-r03 is intentionally unused. Attribution to THIS card rather than another is the owner's/AI's judgement from the content, not written on the cards."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -37,7 +52,13 @@
       "file": "raw/Scanned_20261004-2205-02.jpg",
       "original_path": "Batch 12/Scanned_20261004-2205-02.jpg",
       "rotation_applied_cw_degrees": 180,
-      "side": "single"
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2205-03.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-03.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "unknown"
     }
   ],
   "needs_human_verification": true,
@@ -60,6 +81,12 @@
       "text": "1/2 [?] סילן",
       "best_guess": null,
       "reason": "Unit unclear; 'סילן' (silan, date syrup) read."
+    },
+    {
+      "field": "second card: instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Practically unreadable."
     }
   ],
   "transcription": {
@@ -71,5 +98,13 @@
   },
   "assigned_title": "מרינדה סילאן, שום ופפריקה",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "garlic, paprika, cumin, silan, olive oil"
+  "assigned_title_basis": "garlic, paprika, cumin, silan, olive oil",
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #218 comment",
+      "scope": "identified scan -03 as the second part of a recipe (the exact partner card was determined from the content)"
+    }
+  }
 }
