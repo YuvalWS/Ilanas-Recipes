@@ -32,6 +32,7 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 - **Website wording (owner, 2026-10-06):** batches are called "אוסף" in the UI (not "אצווה"); the subtitle is just "ארכיון מתכונים סרוקים"; recipe pages have the share button in the title row, the "report a mistake" button directly under the transcription, and the notes section collapsed; the scan rotation note is not shown; the page header shows the owner's photo (`assets/site-photo.jpg`, favicon from it).
 - **Suggested titles:** for untitled cards an AI may propose `assigned_title` with `assigned_title_status: "ai_suggested"` and a one-line `assigned_title_basis`; it is shown as "כותרת מוצעת (טרם אושרה)". The owner approves it (`owner_approved`) or replaces it; the transcribed `title` stays null. Recipes are merged only after their titles are settled.
 - **Title-reviewed PRs:** a PR labelled `title-reviewed` had only its title checked by the owner; state that in the PR and leave the rest un-proofread.
+- **Source names (owner, 2026-10-06):** the recipe source filter groups sources into people (personal contacts) and "שפים, כותבים ומקורות בפרסומים". A chef is a person (`source.type: person`) with `source.role: "chef"` and is listed in the second group. Known chefs: אהרוני, ניקי (= Niki B; normalized to `ניקי (Niki B)`). The earlier reading מיקי/מיכי was corrected to מירי (b06-r13, b07-r06).
 
 ## Working in parallel (several people / tools edit this repo at the same time)
 

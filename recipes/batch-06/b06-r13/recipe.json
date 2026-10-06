@@ -3,9 +3,9 @@
   "batch": 6,
   "title": "מושט",
   "source": {
-    "text": "מיקי",
+    "text": "מירי",
     "type": "person",
-    "as_written": "מיקי",
+    "as_written": "מירי",
     "uncertain": false
   },
   "medium": "handwritten",
@@ -32,7 +32,8 @@
   "notes": [
     "Yellow memo card with a construction-company letterhead (Zelinger). The heading is written 'מושט / מיקי': dish name before the slash, name after it taken as the source.",
     "The curly bracket joins wine and lemon juice, with the word 'לערבב' beside it (reading is cramped but consistent with the ink).",
-    "Very cramped, shaky handwriting; the last two lines are partly legible only."
+    "Very cramped, shaky handwriting; the last two lines are partly legible only.",
+    "Source reading corrected by the owner on 2026-10-06: מירי (earlier AI reading: מיקי)."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company (logo, address line, phone/fax)"

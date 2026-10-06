@@ -3,9 +3,9 @@
   "batch": 7,
   "title": "סלט סלק גזר",
   "source": {
-    "text": "מיקי",
+    "text": "מירי",
     "type": "person",
-    "as_written": "מיקי",
+    "as_written": "מירי",
     "uncertain": false
   },
   "medium": "handwritten",
@@ -31,7 +31,8 @@
   "instructions": [],
   "notes": [
     "Heading 'סלט סלק גזר / מיכי' above a ruled line. Right block bracketed (oil, lemon juice, silan, salt/pepper); a scribbled word above it is unreadable (Gemini did not read it either).",
-    "The card writes 'סילן' (no alef)."
+    "The card writes 'סילן' (no alef).",
+    "Source reading corrected by the owner on 2026-10-06: מירי (earlier AI reading: מיקי)."
   ],
   "incidental_text": [],
   "raw_files": [
