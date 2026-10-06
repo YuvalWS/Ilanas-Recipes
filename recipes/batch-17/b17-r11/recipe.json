@@ -1,0 +1,70 @@
+{
+  "id": "b17-r11",
+  "batch": 17,
+  "title": "עוף",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 כפית מלח",
+        "1/2 כוס רוטב [?] האיים",
+        "4 כפות רוטב בר־בקיו",
+        "1 קופסה רסק עגבניות",
+        "2 כפות א. מרק בצל",
+        "1 לפתן מישמש בסירופ"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] הכל [?] העוף [?]",
+        "[?] [?] ה[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a title 'עוף - [?]' (the second word could be a name such as 'מורית'). Eight ingredient lines with numbers on the right; the final two lines hold instructions. A small word at the bottom left ('הרוג?'/'הרוגע?') is probably a signature or note.",
+    "Independent scan review resolves source נורית, barbecue sauce, onion soup powder, and canned apricots in syrup; overwritten sauce word and bottom method remain flagged."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-11.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[1]",
+      "text": "1/2 כוס רוטב [?] האיים",
+      "best_guess": "אלף",
+      "reason": "Word is crossed/overwritten."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "The bottom marinade/mixing instructions and torn last word remain unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
