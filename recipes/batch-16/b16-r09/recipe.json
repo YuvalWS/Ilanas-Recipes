@@ -1,0 +1,60 @@
+{
+  "id": "b16-r09",
+  "batch": 16,
+  "title": "קינואה",
+  "source": {
+    "text": "מירי",
+    "type": "person",
+    "as_written": "מירי",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כוס + 1 1/4 מים רותחים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מטגנים בצל",
+        "מוסיפים קינואה ומערבבים",
+        "והמים מביאים לרתיחה, מבשלים 12 ד'",
+        "ומכסים"
+      ]
+    }
+  ],
+  "notes": [
+    "Independently reread the full scan. Source מירי and instruction מטגנים בצל resolved. The first line is shorthand: 1 כוס + 1 1/4 מים רותחים; omitted words are not invented."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-14.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-14.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "1 כוס + 1 1/4 מים רותחים",
+      "best_guess": "1 כוס קינואה + 1 1/4 כוס מים רותחים",
+      "reason": "The shorthand omits the first ingredient and a repeated water unit; neither has been silently supplied."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
