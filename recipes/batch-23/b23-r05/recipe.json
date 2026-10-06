@@ -1,0 +1,79 @@
+{
+  "id": "b23-r05",
+  "batch": 23,
+  "title": "עוגת שזיפים עם קצף",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לבצק (the list is cut off in the clipping)",
+      "items": [
+        "150 גרם מרגרינה",
+        "1/2 כוס סוכר",
+        "3 [?]",
+        "[?] תמצית וניל",
+        "1 3/4 כוסות קמח",
+        "1 כפית אבקת אפיה"
+      ]
+    },
+    {
+      "group": "למילוי",
+      "items": [
+        "2 כפות פירורי לחם",
+        "1 ק\"ג שזיפים אדומים"
+      ]
+    },
+    {
+      "group": "לציפוי",
+      "items": [
+        "3 חלבונים",
+        "1/2 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[the first lines are cut off by the tear] מערבבים יחד את כל מרכיבי הבצק. כ-1/2 כוס בצק שמים בפריזר. שוטחים את יתרת [?] על הקרקעית והדפנות של [?] פאי או תבנית קפיצית מס' 8[?]. מפזרים פירורי לחם ומעליהם חצאי שזיפים מגולענים. [?] אופים כ-20 דק' [?] שחומם לחום בינוני [?] צלזיוס. מקציפים חלבונים [?] סוכר ושוטחים על העוגה [?] חלקית. במגרדת גסה [?] מעל את הבצק שהונח בפריזר ואופים כ-15 דקות נוספות."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Fragment of a torn newspaper page. Printed intro of this recipe: 'עוגה קלה להכנה, אהובה על כולם. כדי שאפשר יהיה לאפות אותה גם לאחר עונת השזיפים כדאי להקפיא שזיפים בשלים ומגולענים.' Printed headings: 'החומרים:' 'לבצק:'. The left columns are partly torn away, so quantities and method steps have gaps.",
+    "The scan also shows pieces of two neighboring articles (see the next recipe and 'הכנת בצק לקלתית (פלאן)' - an intro text about three basic pastry doughs).",
+    "A separate printed paragraph at the right of the page (which ends 'אופים שעה בתנור שחומם מראש לחום בינוני (190 מעלות צלזיוס). מצננים מעט בתבנית לפני שמעבירים לצלחת הגשה.') belongs to another recipe whose beginning is torn away."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-06.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "(cut off)",
+      "best_guess": null,
+      "reason": "Left columns torn: the quantity after '3' and the vanilla line are not fully visible."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Torn or unreadable words inside the method."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
