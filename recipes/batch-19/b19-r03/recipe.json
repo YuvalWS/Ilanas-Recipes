@@ -3,10 +3,10 @@
   "batch": 19,
   "title": "פלפלים ממולאים",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "יוטיוב",
+    "type": "publication",
+    "as_written": "יוטיוב",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -48,7 +48,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 2240-05 (printed frame with a yellow footer band 'איכות חיים לכל החיים' - a newspaper sticker): title line 'פלפלים ממולאים / [?]' (the last word is a name or an unclear word), then a heading 'הרוטב:' followed by about 14 crowded lines with fractions on the left; the last line is written below the printed band and reads in parentheses '(כוס חצי? אמית? שקדים)'. Card 2240-06 (the back) holds 11 lines of the same hand, with a bracketed phrase '(מקוצץ גס?)' and the words 'פלפלים' and 'הרוטב' - probably the filling or method. A large stain covers the lower right.",
-    "I could only read the headings and the sauce topic; all quantities are unreliable."
+    "I could only read the headings and the sauce topic; all quantities are unreliable.",
+    "Source set by the owner (issue #341): יוטיוב."
   ],
   "incidental_text": [
     "Printed footer: 'איכות חיים לכל החיים' on a yellow band with a newspaper logo"
@@ -70,12 +71,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "פלפלים ממולאים / [?]",
-      "best_guess": null,
-      "reason": "Recipe heading is clear; only slash attribution/name is unresolved."
-    },
     {
       "field": "ingredients",
       "text": "all lines",
@@ -101,5 +96,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #341",
+      "scope": null
+    }
   }
 }
