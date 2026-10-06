@@ -84,5 +84,13 @@
   },
   "assigned_title": "מרק אפונה",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "celery, onion, 800 g frozen peas, 1.6 L water, 15/5 minute cooking steps"
+  "assigned_title_basis": "celery, onion, 800 g frozen peas, 1.6 L water, 15/5 minute cooking steps",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    }
+  }
 }
