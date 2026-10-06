@@ -1,0 +1,106 @@
+{
+  "id": "b09-r04",
+  "batch": 9,
+  "title": "בקר",
+  "source": {
+    "text": "אינטרנט",
+    "type": "publication",
+    "as_written": "אינטרנט",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1-1.5 ק\"ג [בקר?]",
+        "2-3 כפות שמן זית [?]",
+        "1 כף גדושה חרדל דיזון",
+        "[ditto] חרדל גרגירים",
+        "[?] כפית שטוחה פילפל גרוס (או מעט פחות)",
+        "2-3 כפות דבש",
+        "עלים מ-5 ענפי תימין (או [?] כפות [?])",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים תנור ל-160° ([?] אוויר)",
+        "[?] [?]",
+        "מצפים את [?] בשכבה דקה שמן זית",
+        "מחממים מחבת גדולה",
+        "[?] [?] מכל הכיוונים, 2-3 דקות בערך",
+        "מוציאים לתבנית ומחממים מעט",
+        "מערבבים 2 סוגי חרדל, [?] ופלפל",
+        "מורחים על [?] מכל הכיוונים",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "(reverse side) [?] לתנור כ-20-30 ד'",
+        "(reverse side) פורסים ומגישים",
+        "(reverse side) [?] ומי [?] [?] ולסמם?",
+        "(reverse side) לפני ההגשה"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is partly legible; unreadable words are [?].",
+    "Scan 05 is the back of this card: four lines of continuation at the top (about 20-30 minutes in the oven, slicing and serving), the rest is show-through. Two blocks separated by a ruled line: ingredients (top) and method (bottom). Title is an underlined 'בקר - [word]' (second word not readable, maybe the cut of meat).",
+    "Most legible parts: the mustard/honey/thyme ingredients and the oven temperature 160°.",
+    "Owner (PR #61 review comments): title בקר, source אינטרנט (the internet)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-04.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2153-05.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "several",
+      "best_guess": null,
+      "reason": "Some quantities and units are unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "several",
+      "best_guess": null,
+      "reason": "Many words in the method are unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #61 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #61 review comments",
+      "scope": null
+    }
+  }
+}
