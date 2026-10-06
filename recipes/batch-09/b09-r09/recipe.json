@@ -1,0 +1,79 @@
+{
+  "id": "b09-r09",
+  "batch": 9,
+  "title": "צלי עגל",
+  "source": {
+    "text": "אהרוני",
+    "type": "person",
+    "as_written": "אהרוני",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "sauce block (bracketed, right)",
+      "items": [
+        "1-2 כפות [?] לבן ובש[?]",
+        "מלח, פלפל"
+      ]
+    },
+    {
+      "group": "left bracket note",
+      "items": [
+        "בשמן שפרש?"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] שחתל, לקשור אותו",
+        "לשחזר [?] בחוטים, עלי תימין, מלח ופלפל",
+        "ולהשים חם בשמן [?] (מחממים לטגן [?])",
+        "רוטב:",
+        "[?] [?] כפות חרדל",
+        "[?] כפות [?] דבש",
+        "(left note) לערבב בשמן [?] [?]",
+        "[?] [?] [?] שפושחם הבשר, נוסיף",
+        "[?] [?] [?] ולטגן בשמן",
+        "[?] [?] [?] שמחות [?] ולטגן",
+        "[?] [?] [?] עלי [?] מרוח [?] [?]",
+        "[?] [?] [?] [?] [?] [?] ו[?] על שיני שום"
+      ]
+    }
+  ],
+  "notes": [
+    "Underlined heading 'צלי עגל / אהרון' (veal roast / Aharon). The upper block tells how to tie the roast with string, season it with thyme leaves, salt and pepper and sear it in hot oil; then a block headed 'רוטב:' (sauce) with a bracket at the left that groups a note on mixing with oil.",
+    "A yellow sticker scribble overlaps the upper right corner of the scan and hides part of the first line.",
+    "Many words in the lower half are unreadable, so the text is only partly transcribed."
+  ],
+  "incidental_text": [
+    "Yellow scribbled sticky note overlapping the upper right corner"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-11.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Only isolated phrases are readable (לקשור אותו, בחוטים, עלי תימין, מלח ופלפל, רוטב)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
