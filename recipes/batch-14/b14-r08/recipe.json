@@ -1,0 +1,91 @@
+{
+  "id": "b14-r08",
+  "batch": 14,
+  "title": "עוגת שוקולד",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 טבלאות שוקולד מריר גדולות",
+        "1 כוס סוכר",
+        "1/4 כוס מים",
+        "1 מרגרינה = [?] כוס שמן",
+        "5 חלבונים",
+        "[?] כפות [?]",
+        "כוס קמח אוסם",
+        "[?] קמח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב את הסוכר עם המים",
+        "על האש להוסיף את השוקולד",
+        "על אש קטנה לערבב עד שנמס",
+        "[?] לסגור האש ולהוסיף [?] [?]",
+        "להקציף 5 חלבונים ולהוסיף 2 כפות [?]",
+        "[?] [?] [?] [?]",
+        "[?] להוסיף את [?] החלמונים",
+        "להוריד מהאש, 5 כפות [?] ולהכניס למקרר?",
+        "[?] להוסיף כוס קמח אוסם",
+        "[?] [?] קצת [?] קצת קמח [?]",
+        "אם מכניסים את כל השוקולד לעוגה יש להוסיף קצת יותר קמח.",
+        "[?] 160°",
+        "אפיה 20-25 דקות [?] מספר 2.5",
+        "[?] למס' 3 [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Ruled, torn card photographed on a wood-grain background; the right edge is torn and parts of the first characters of many lines are missing, and some lines are cut. A bracket groups 'כוס סוכר' and 'כוס מים' with the first instruction. A small second pen note is squeezed above some lines. The last three lines are baking notes (temperature 160 degrees, 20-25 minutes, a numbered oven shelf/setting '2.5' / '3').",
+    "Only the line 'אם מכניסים את כל השוקולד לעוגה יש להוסיף קצת יותר קמח.' is fully clear."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2213-09.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[3]",
+      "text": "1 מרגרינה = [?] כוס שמן",
+      "best_guess": null,
+      "reason": "The fraction is overwritten with scribbles (1/2 or 3/4?)."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Torn right margin cuts off the first words of many lines and the order of the middle steps cannot be determined."
+    },
+    {
+      "field": "instructions[12]",
+      "text": "אפיה 20-25 דקות [?] מספר 2.5",
+      "best_guess": null,
+      "reason": "The oven setting is unclear (shelf level? gas mark?)."
+    },
+    {
+      "field": "raw_files",
+      "text": "09",
+      "best_guess": null,
+      "reason": "A rescan on a plain white background with the torn edges visible would help."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
