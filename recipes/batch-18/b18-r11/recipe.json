@@ -1,0 +1,71 @@
+{
+  "id": "b18-r11",
+  "batch": 18,
+  "title": "סלפר? [?] / [?]",
+  "source": {
+    "text": "רונית? (?)",
+    "type": "person",
+    "as_written": "רונית",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "250 גר' צימוקים",
+        "250 גר' [?] [?]",
+        "2 [?] [?] ביצים",
+        "7 כפות קמח [?]",
+        "5 כפות סוכר",
+        "1 [?] [?] קמח [?]",
+        "(crossed out: 2 כפות סוכר)",
+        "כוס קמח אוסם"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Top line (title) is crowded and partly overwritten; a word at the top left ('רונית'?) might be a name. The ingredient list continues to the bottom of the card and one line ('2 כפות סוכר') is struck through."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-13.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(top line)",
+      "best_guess": null,
+      "reason": "Not readable."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Items and quantities partly unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #105 review comments",
+      "scope": "confirmed untitled"
+    }
+  }
+}
