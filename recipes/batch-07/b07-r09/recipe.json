@@ -27,7 +27,8 @@
   ],
   "notes": [
     "ditto marks expanded (fourth ingredient line: the quantity 'פחות מ-1/2 כוס' is copied from the line above).",
-    "A bracket on the left groups the ingredients with a handwritten note: 'בצנצנת לנער היטב' (in a jar, shake well). The first word is read with moderate certainty (agrees with Gemini's reading)."
+    "A bracket on the left groups the ingredients with a handwritten note: 'בצנצנת לנער היטב' (in a jar, shake well). The first word is read with moderate certainty (agrees with Gemini's reading).",
+    "Suggested title 'רוטב חרדל ולימון בצנצנת' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: mustard, lemon, vinegar and oil dressing shaken in a jar). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -54,5 +55,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "רוטב חרדל ולימון בצנצנת",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "mustard, lemon, vinegar and oil dressing shaken in a jar"
 }
