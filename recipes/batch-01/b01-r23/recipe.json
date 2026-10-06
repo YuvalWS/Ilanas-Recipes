@@ -1,0 +1,64 @@
+{
+  "id": "b01-r23",
+  "batch": 1,
+  "title": "עוגת קוקוס / 3 שכבות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "ללוש בצק",
+      "items": [
+        "חבילה קמח אסם",
+        "4 חלמונים",
+        "1 מרגרינה",
+        "כוס סוכר",
+        "מעט וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לחלק ל-2.",
+        "א. לרפד תבנית.",
+        "ב. להוסיף כוס חלב או מים + 3 כפות קקאו, לשפוך על חלק א', לאפות כ-1/4 שעה.",
+        "להקציף את החלבונים + כוס סוכר + 100 גר' קוקוס, לאפות עד כ-10 [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "The ingredient list on the card is only the 5 items bracketed with 'ללוש בצק' (knead into a dough). Milk or water, 3 tbsp cocoa, the egg whites, a cup of sugar and 100 g coconut appear only in the method lines.",
+    "The title word is 'קוקוס' (coconut), written the same way as 'קוקוס' in the last method line; the earlier transcription read it as 'קקאו'.",
+    "The '+' signs are written as a small upside-down T; the earlier transcription read the one before 'כוס סוכר' in the last step as '1'.",
+    "The bottom-left corner of the page is torn/stained; the last word of the method is cut off at the left edge (only a first letter, possibly 'ד', is visible).",
+    "Faint pencil marks to the left of 'ללוש בצק' (something like 'כ-' followed by a smudged word) are unreadable and not transcribed.",
+    "Gemini's second reading gave the title as 'קקאו' and added a count of 4 egg whites and a baking temperature; the card shows 'קוקוס' (ends in samekh) and just 'את החלבונים', with no count or temperature, so none of these were adopted."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-24.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-24.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "לאפות עד כ-10 [?]",
+      "best_guess": "Gemini: דקות; earlier reading: דקות (inferred; only a partial first letter is visible at the torn edge)",
+      "reason": "Last word is cut off by the torn left edge of the page; only a partial first letter is visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
