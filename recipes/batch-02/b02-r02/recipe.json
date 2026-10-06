@@ -1,0 +1,99 @@
+{
+  "id": "b02-r02",
+  "batch": 2,
+  "title": "בצק לפטיפורים",
+  "source": {
+    "text": "דיאט / שומרי משקל",
+    "type": "publication",
+    "as_written": "דיאט / שומרי משקל",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים",
+      "items": [
+        "4 ביצים, מופרדות",
+        "1/3 כוס סוכר",
+        "1/2 כוס קמח",
+        "2 כפות קורנפלור",
+        "3 כפות שמן"
+      ]
+    },
+    {
+      "group": "כלים",
+      "items": [
+        "תבנית מרובעת בגודל 30x30 ס\"מ"
+      ]
+    },
+    {
+      "group": "מלית קצפת בטעם שוקולד (תוספת של כ-35 קלוריות למנה)",
+      "items": [
+        "קצפת \"ריץ'\" בטעם שוקולד",
+        "מעט פתיתי שוקולד"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "1. מניחים בתבנית דף אפייה. כך אין צורך לשמן את התבנית, והעוגה לא נדבקת ונשברת כשמוציאים אותה.",
+        "2. מקציפים את החלבונים עם הסוכר.",
+        "3. טורפים את החלמונים ומוסיפים להם 3-2 כפות מהקצף. מוסיפים בתנועות קיפול לקצף.",
+        "4. בקערה נפרדת מערבבים את הקמח עם הקורנפלור ומקפלים לאט לאט לתוך הקצף. לבסוף יוצקים את השמן בזילוף איטי, ומערבבים.",
+        "5. שוטחים בתבנית ואופים בתנור בחום בינוני (180 מעלות) עד שהבצק מזהיב וקיסם שננעץ בתוכו יוצא יבש.",
+        "7. מצננים ומוציאים מהתבנית. מקלפים בזהירות את נייר האפייה. את הפטיפורים חותכים למחרת, כך העוגה נחתכת טוב יותר."
+      ]
+    },
+    {
+      "group": "מלית קצפת בטעם שוקולד (תוספת של כ-35 קלוריות למנה)",
+      "steps": [
+        "למלית הפטיפורים אפשר להשתמש בקצפת \"ריץ'\" בטעם שוקולד, שהיא צמחית, מופחתת קלוריות וללא שומן רווי. מעל הקצפת אפשר לפזר מעט פתיתי שוקולד.",
+        "אם תרצו, אפשר לקשט את הפטיפורים בפרי טרי (תותים, למשל), מעליהם לצקת ג'לי חם, ואחר כך לקרר. תוספת הקלור- [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Printed under the title: (30 מנות, כ-40 קלוריות למנה)",
+    "Multi-column magazine clipping. Right column: logos, title and ingredients; middle columns: utensils, method, the chocolate-whipped-cream filling box, and an introductory paragraph; far-left column: the end of another recipe ('סלסלות') cut off by the left edge of the scan (not transcribed).",
+    "The filling ingredients ('קצפת \"ריץ'\" בטעם שוקולד', 'מעט פתיתי שוקולד') are not a printed list; they were extracted verbatim from the filling paragraph.",
+    "Independent Codex rereading located the continuation of the filling tip at the top of the far-left column: יות פעוטה (5 קלוריות ...), תוצאה נאה ופשו..., להכנה. It belongs to the filling tip, not to the סלסלות recipe below. The left edge still cuts off words, so the missing portions were not reconstructed."
+  ],
+  "incidental_text": [
+    "Magazine logos: דיאט, שומרי משקל",
+    "Introductory paragraph (fully legible, not part of the recipe): 'קינוחים בכלל ועוגות בפרט הם האיום הממשי על כוח העמידה שלנו ועל השמירה על המשקל...' - explains that the classic petit-four recipe has about 170 calories per piece, a diet version 45-75 calories, and that the author chose a different basic petit-four dough, simpler and lower in calories than 'המתכון של מגי'.",
+    "Far-left column: end of a different recipe titled 'סלסלות' (meringue baskets), cut off by the scan edge"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-02.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[0]",
+      "text": "step numbering 5 -> 7",
+      "best_guess": null,
+      "reason": "There is no step 6 anywhere on the clipping; the printed method jumps from 5 to 7 (either a printing error or a missing piece). Check the original clipping."
+    },
+    {
+      "field": "instructions[1].steps[1]",
+      "text": "תוספת הקלור- [?]",
+      "best_guess": "תוספת הקלוריות ...",
+      "reason": "The filling tip continues past the bottom of the column ('תוספת הקלור-' is hyphenated) and the rest is not on the scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
