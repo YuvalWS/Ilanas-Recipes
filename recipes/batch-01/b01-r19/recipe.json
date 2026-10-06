@@ -1,0 +1,92 @@
+{
+  "id": "b01-r19",
+  "batch": 1,
+  "title": "עוגה",
+  "source": {
+    "text": "שרה [?]",
+    "type": "person",
+    "as_written": "שרה [?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים מופרדות",
+        "להקציף חלבון + 1 כוס סוכר",
+        "לקציפה קשה",
+        "6 חלמונים + 1 כוס סוכר",
+        "1/2 כוס שמן [?] [?]",
+        "[?] [?] [?] 3/4 כוס",
+        "[?] - מיץ תפוזים ([?])",
+        "[?] [?] [?] [?]",
+        "[?] [?]",
+        "2 כוסות קמח תופח"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Title 'עוגה' and source 'שרה ...' are on the top line, separated by a slash.",
+    "The card is a single running list mixing ingredients and method lines (e.g. 'להקציף חלבון + 1 כוס סוכר'); it is kept in card order under ingredients. A horizontal line divides the card; two hard-to-read lines below it (probably method) precede '2 כוסות קמח תופח', which ends the card at the bottom edge. No baking temperature/time is written.",
+    "A second-opinion transcription (gemini_transcribtion.txt) adds full method steps, vanilla/rum and 'קמח אוסם'; most of that is not visible on the card and was not used except as best_guess where partly consistent with the crops.",
+    "Independent reread confirmed לקציפה קשה and תפוזים; other shaky words remain flagged."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-18.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-18.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "שרה [?]",
+      "best_guess": "שרה רט (own reading) / שרה רוט (Gemini)",
+      "reason": "Surname after 'שרה' is 2-3 shaky letters; 'ר' then a ט-like letter; a 'ו' is not clearly visible."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "1/2 כוס שמן [?] [?]",
+      "best_guess": "Gemini: 'או מרגרינה מומסת'; own reading of the 2nd word is possibly 'מומסת', the 1st word looks like ה-ק-ק-צ-ל and is unresolved",
+      "reason": "Two words after 'שמן' are shaky and unconfirmed."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "[?] [?] [?] 3/4 כוס",
+      "best_guess": "own: 'קצת וניל [?]' (first word reads like ק-צ-ת); Gemini: 'מעט תמצית וניל או רום'",
+      "reason": "Three words before '3/4 כוס' are hard to read; 3/4 is clear."
+    },
+    {
+      "field": "ingredients[6]",
+      "text": "[?] - מיץ [?] ([?])",
+      "best_guess": "word after 'מיץ': תפוזים (own crop shows ת-פ-ו-ז; Gemini agrees); parenthesis: Gemini 'או מים', not confirmed; first word (looks like ב/נ-ו-ב/נ-ל-י-ה) unresolved",
+      "reason": "Shaky letters; only 'מיץ' is clear."
+    },
+    {
+      "field": "ingredients[7]",
+      "text": "[?] [?] [?] [?]",
+      "best_guess": "third word possibly 'תערובת'",
+      "reason": "First line below the divider (probably a method step) is largely illegible."
+    },
+    {
+      "field": "ingredients[8]",
+      "text": "[?] [?]",
+      "best_guess": null,
+      "reason": "Second line below the divider is illegible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
