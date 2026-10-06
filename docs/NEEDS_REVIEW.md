@@ -34,7 +34,7 @@ Confidence: high 83, medium 67, low 74. Flagged needs_human_verification: 181.
 | b12-r01 | 12 עוף | פרגיות | Batch 12/Scanned_20261004-2205-01.jpg | handwritten |
 | b12-r04 | 12 עוף | עוף עם אורז בסיר | Batch 12/Scanned_20261004-2205-04.jpg | handwritten |
 | b12-r05 | 12 עוף | עוף בתנור | Batch 12/Scanned_20261004-2205-05.jpg, Batch 12/Scanned_20261004-2205-06.jpg | handwritten |
-| b12-r07 | 12 עוף | עוף בבצל | Batch 12/Scanned_20261004-2205-09.jpg | handwritten |
+| b12-r07 | 12 עוף | עוף בבצל | Batch 12/Scanned_20261004-2205-09.jpg, Batch 12/Scanned_20261004-2205-10.jpg | handwritten |
 | b13-r01 | 13 עוגות גבינה | עוגת ביסקויט | Batch 13/Scanned_20261004-2209-01.jpg | handwritten |
 | b13-r03 | 13 עוגות גבינה | עוגת גבינה | Batch 13/Scanned_20261004-2209-03.jpg, Batch 13/Scanned_20261004-2209-04.jpg | handwritten |
 | b13-r04 | 13 עוגות גבינה | עוגת גבינה | Batch 13/Scanned_20261004-2209-05.jpg, Batch 13/Scanned_20261004-2209-06.jpg | handwritten |
