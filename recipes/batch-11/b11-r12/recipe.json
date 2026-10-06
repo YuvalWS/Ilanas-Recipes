@@ -3,10 +3,10 @@
   "batch": 11,
   "title": "מרק אפונה",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "דורית",
+    "type": "person",
+    "as_written": "דורית",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -28,7 +28,8 @@
   "instructions": [],
   "notes": [
     "Yellow memo card of a contracting company (printed letterhead with phone/fax), stapled to other papers. The title is underlined 'מרק אפונה' with a name after the slash that is unclear. Only an ingredient list is written; there is no method. The back side's writing shows through faintly.",
-    "The second ingredient line may read 'כוסות' (cups) or 'קופסאות' (cans); the third word (frozen / green?) is partly unclear."
+    "The second ingredient line may read 'כוסות' (cups) or 'קופסאות' (cans); the third word (frozen / green?) is partly unclear.",
+    "Source set by the owner (issue #336): דורית."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company with logo, phone and fax numbers"
@@ -44,12 +45,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "name after the slash",
-      "best_guess": null,
-      "reason": "Unclear; possibly 'דורית'."
-    },
     {
       "field": "ingredients[0]",
       "text": "2 [?] אפונה [?]",
@@ -75,5 +70,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #336",
+      "scope": null
+    }
   }
 }
