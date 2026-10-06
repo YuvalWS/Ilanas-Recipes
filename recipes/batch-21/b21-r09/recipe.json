@@ -1,0 +1,63 @@
+{
+  "id": "b21-r09",
+  "batch": 21,
+  "title": "שניצל מגולגל",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לדפוק השניצלים",
+        "בפירורי לחם מוזהב שומשום",
+        "למרוח חרדל בצד אחד",
+        "להניח מעל פסטרמה רומנית",
+        "לגלגל, קיסם [?]",
+        "להניח בתבנית צמודים",
+        "לפזר מלח, מעט שמן זית",
+        "ולשפוך מעל 1/2 בקבוק",
+        "רוטב איטלקי שרוף",
+        "לכסות בנייר כסף",
+        "לשלוח לתנור",
+        "ועוד 15 דקות ללא מכסה",
+        "[?] פירה או [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. One line near the top is struck out. A margin mark 'ש-ת' is incidental."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-10.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "[פסטרמה?]",
+      "best_guess": null,
+      "reason": "Guess based on the related cards in this batch; not clearly readable."
+    },
+    {
+      "field": "instructions[0].steps[11]",
+      "text": "[בלי מכסה?]",
+      "best_guess": null,
+      "reason": "Uncertain reading."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
