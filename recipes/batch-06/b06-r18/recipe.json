@@ -1,0 +1,74 @@
+{
+  "id": "b06-r18",
+  "batch": 6,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שום, פלפל, בצל",
+        "מטוגן",
+        "גריל דג, פלפל שחור",
+        "פפריקה"
+      ]
+    }
+  ],
+  "notes": [
+    "Only four short lines of very large writing; the rest of the card is blank. Line 1 is still unreadable.",
+    "Line 3 starts with 'גריל דג' on the card; Gemini's earlier version added 'תבלין' (not on the card), and its later version agrees with the card.",
+    "Owner (PR #229 review comments): confirmed untitled; the first line reads 'שום, פלפל, בצל'.",
+    "Suggested title 'דג בגריל עם שום ופלפל' added by AI on 2026-10-06 (not on the card; basis: garlic, pepper, onion; fried / grilled fish (batch 6 is fish)). Awaiting the owner's approval."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-19.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-19.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "line 1",
+      "best_guess": "Gemini: כל זה פרוס דק; earlier reading: unreadable",
+      "reason": "Gemini's reading could not be confirmed on the crop: the glyph groups of line 1 do not clearly match these words (the 4th-5th groups resemble 'פלפל' in line 3)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #229 review comments",
+      "scope": "confirmed untitled"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #229 review comments",
+      "scope": "first line only"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  },
+  "assigned_title": "דג בגריל עם שום ופלפל",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "garlic, pepper, onion; fried / grilled fish (batch 6 is fish)"
+}
