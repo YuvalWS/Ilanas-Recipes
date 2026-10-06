@@ -1,0 +1,93 @@
+{
+  "id": "b02-r09",
+  "batch": 2,
+  "title": "רפרפת שזיפים וצימוקים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המצרכים ל-6 מנות:",
+      "items": [
+        "1/2 ק\"ג שזיפים יבשים מגולענים",
+        "100 גרם צימוקים",
+        "1 1/2 כוסות מים",
+        "מיץ לימון לטעם",
+        "1/2 כוס יין אדום מתוק",
+        "סוכר לטעם"
+      ]
+    },
+    {
+      "group": "[?]",
+      "items": [
+        "[?] מיכל שמנת מתוקה [?]",
+        "[?] כף סו[?]"
+      ]
+    },
+    {
+      "group": "ב. לקציפות חלבון:",
+      "items": [
+        "2 חלבונים",
+        "קורט מלח",
+        "2 כפות סוכר",
+        "מים לבישול + 2 כפות חומץ"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה:",
+      "steps": [
+        "רוחצים את השזיפים, חותכים לחצאים ומבשלים עם הצימוקים והמים על להבה נמוכה עד להתרככותם.",
+        "מוסיפים מיץ לימון, מצננים מעט ומעבירים לממחה. מערבלים עד לקבלת מחית חלקה ואחידה.",
+        "מחזירים את המחית לסיר, מוסיפים את היין, הסוכר ומרתיחים כ-3 דקות. טועמים ומשפרים את הטעם.",
+        "א. עם קצפת: מקציפים את השמנת בתוספת סוכר ומערבבים עם מחית השזיפים.",
+        "ב. עם קציפות חלבון: מקציפים את החלבונים בתוספת קורט מלח, מוסיפים סוכר בהדרגה עד לקבלת קצף יציב ומוצק. מרתיחים כ-3 כוסות מים בסיר שטוח בתוספת חומץ. מעבירים בכף מקצף החלבונים למים הרותחים ומבשלים כ-4 דקות עד להתקשות הקצף. מוציאים בכף מחוררת ומניחים על מחית השזיפים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping. The recipe is under the red heading 'רפרפת שזיפים וצימוקים' on the right-hand side, together with the 'מגש פירות יבשים' (dried-fruit platter) article, which is entered separately (b02-r08). The ingredient list for option א' (whipped cream) sits on a torn, folded strip at the very top of the middle column; its heading is missing and its two lines are partly cut/creased."
+  ],
+  "incidental_text": [
+    "Photo caption: מגש פירות יבשים",
+    "מתכון השער: מרק צ'ורבה עמ' 12",
+    "דיזנגוף 166 ת\"א, מיקוד 64589 טל': 5243157/8 פקס': 03-5230055"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-08.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[1].group",
+      "text": "[?]",
+      "best_guess": "א. לקצפת:",
+      "reason": "The heading of the option א' (cream) ingredient list is torn off at the top edge; inferred only from the parallel 'ב. לקציפות חלבון:' heading and the method."
+    },
+    {
+      "field": "ingredients[1].items[0]",
+      "text": "[?] מיכל שמנת מתוקה [?]",
+      "best_guess": "1 מיכל שמנת מתוקה \"עמיד...\" (last word unclear, possibly a brand or 'עמידה')",
+      "reason": "Line is on a torn, creased strip at the top edge; the leading digit is partly cut and the last word is distorted by the fold."
+    },
+    {
+      "field": "ingredients[1].items[1]",
+      "text": "[?] כף סו[?]",
+      "best_guess": "1 כף סוכר",
+      "reason": "Second line of the torn strip is mostly hidden behind the fold; only 'כף סו' is visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_opus_crops",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
