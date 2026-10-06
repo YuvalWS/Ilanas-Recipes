@@ -25,14 +25,15 @@
     "This is a fragment: steps 1-2 and the ingredient list of this recipe are not in the scan folder as far as seen.",
     "Independent reread confirms the lower fragment publication לאשה and date 22.10.2012; corrected the duplicated ה in והגזר.",
     "Suggested title 'עוף צלוי עם ירקות מקורמלים' added by AI on 2026-10-06 (not on the card; basis: method fragment: roasting chicken, caramelising vegetables, final uncovered roasting (a clipping, step 3 onward)). Awaiting the owner's approval.",
-    "Owner (chat, 2026-10-06): accepted the suggested title 'עוף צלוי עם ירקות מקורמלים' (it is not written on the card)."
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוף צלוי עם ירקות מקורמלים' (it is not written on the card).",
+    "Scan cropped at the owner's request (chat, 2026-10-06): the original collage scan Scanned_20261004-2231-02.jpg holds two separate recipes, so each recipe now has its own image: this file is the bottom part (the bottom piece (this recipe)); the other recipe is b17-r02. The uncropped original stays at original_path."
   ],
   "incidental_text": [
     "Printed 'המשך' marker and date 22.10.2012 with a section-name box"
   ],
   "raw_files": [
     {
-      "file": "raw/Scanned_20261004-2231-02.jpg",
+      "file": "raw/Scanned_20261004-2231-02_bottom.jpg",
       "original_path": "Batch 17/Scanned_20261004-2231-02.jpg",
       "rotation_applied_cw_degrees": 0,
       "side": "single"
@@ -73,6 +74,12 @@
       "date": "2026-10-06",
       "via": "chat",
       "scope": "accepted the suggested title"
+    },
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "cropped to the bottom part of the scan (two recipes were on one scan)"
     }
   },
   "assigned_title": "עוף צלוי עם ירקות מקורמלים",

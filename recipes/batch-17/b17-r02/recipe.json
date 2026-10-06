@@ -50,14 +50,15 @@
     "אפשר לשמור בכלי סגור במקרר, עד 3 ימים. מחממים 2 דקות בתנור מיקרוגל, או 10 דקות בתנור שחומם לחום בינוני.",
     "Suggested title 'רוטב סויה, דבש ולימון' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed 'הרוטב': olive oil, soy sauce, honey, lemon juice, salt, pepper; oven at 200 degrees). Awaiting the owner's approval.",
     "Suggested title updated to 'עוף עם ירקות בתנור ברוטב סויה, דבש ולימון' after the owner's report (issue #414); basis: owner (issue #414): the title should start with 'עוף עם...'; the method roasts chicken legs with potatoes, sweet potatoes, onions and garlic in a soy-honey-lemon sauce. Still a suggestion awaiting the owner's approval; not written on the card.",
-    "Owner (chat, 2026-10-06): accepted the suggested title 'עוף עם ירקות בתנור ברוטב סויה, דבש ולימון' (it is not written on the card)."
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוף עם ירקות בתנור ברוטב סויה, דבש ולימון' (it is not written on the card).",
+    "Scan cropped at the owner's request (chat, 2026-10-06): the original collage scan Scanned_20261004-2231-02.jpg holds two separate recipes, so each recipe now has its own image: this file is the top part (the two upper strips (this recipe)); the other recipe is b17-r03. The uncropped original stays at original_path."
   ],
   "incidental_text": [
     "Handwritten blue-ink marks beside the ingredient list (unreadable)"
   ],
   "raw_files": [
     {
-      "file": "raw/Scanned_20261004-2231-02.jpg",
+      "file": "raw/Scanned_20261004-2231-02_top.jpg",
       "original_path": "Batch 17/Scanned_20261004-2231-02.jpg",
       "rotation_applied_cw_degrees": 0,
       "side": "single"
@@ -113,6 +114,12 @@
       "date": "2026-10-06",
       "via": "chat",
       "scope": "accepted the suggested title"
+    },
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "cropped to the top part of the scan (two recipes were on one scan)"
     }
   }
 }
