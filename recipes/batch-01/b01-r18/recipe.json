@@ -1,0 +1,77 @@
+{
+  "id": "b01-r18",
+  "batch": 1,
+  "title": "עוגת שרלוטה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 חב' ביסקויטים",
+        "חלב",
+        "2 חב' שוקולד ב-200 גר'",
+        "3 כפות מים",
+        "3 חלמונים",
+        "שמנת מתוקה",
+        "3 חלבונים",
+        "2 כפות סוכר",
+        "3 כפות בערך קוניאק",
+        "שמנת מתוקה",
+        "[?] כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטבול בחלב, לסדר בתבנית עגולה שלמים בתחתית וחצאים בדפנות.",
+        "להמיס על אדים 2 חב' שוקולד ב-200 גר' ו-3 כפות מים.",
+        "להוסיף 3 חלמונים ולערבב.",
+        "להקציף שמנת מתוקה ולהוסיף לשוקולד.",
+        "להקציף 3 חלבונים ו-2 כפות סוכר ולהוסיף לתערובת ו-3 כפות בערך קוניאק.",
+        "לשפוך את התערובת מעל הביסקויטים.",
+        "להקציף שמנת מתוקה ו-[?] כוס סוכר ולקשט את העוגה.",
+        "[?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "The card has no separate ingredient list: the first line is '2 חב' ביסקויטים' and everything else is running instructions. The ingredient list here is compiled from the instructions, in order of appearance (שמנת מתוקה appears twice: once for the filling, once for the topping).",
+    "The word 'בערך' is a small interlinear insertion above the line, with a caret between 'כפות' and 'קוניאק'.",
+    "Narrow spiral-bound note-pad card; the bottom third is blank."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-17.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-17.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[10], instructions[0].steps[6]",
+      "text": "[?] כוס סוכר",
+      "best_guess": "Gemini: 1/4; earlier readings: 1/4 and 3/4",
+      "reason": "The numerator of the fraction looks overwritten (a 1 and a 3 on top of each other); the denominator 4 is clear. Gemini and an earlier reading say 1/4, a later zoomed reading said 3/4 - not confirmed on the crop."
+    },
+    {
+      "field": "instructions[0].steps[7]",
+      "text": "[?] [?] [?] [?]",
+      "best_guess": "? פירות והשמנה בנס קפה (?)",
+      "reason": "Last line of the card, written smaller and shakier. First word begins with ל and ends with ק (unclear middle letters); second word may be 'פירות'; third looks like 'והשמנה' (or 'והשמנת'); last word starts with 'ב' and may be 'בנסקפה'/'בנס קפה'. Too uncertain to put in the text; needs a human reader. Gemini did not read this line (it wrote a storage-in-the-fridge line that is not on the card, rejected)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
