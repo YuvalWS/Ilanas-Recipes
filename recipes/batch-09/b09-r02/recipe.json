@@ -2,12 +2,7 @@
   "id": "b09-r02",
   "batch": 9,
   "title": "צלי בקר ברוטב",
-  "source": {
-    "text": "יש",
-    "type": "unknown",
-    "as_written": "יש",
-    "uncertain": false
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -55,7 +50,8 @@
     "Printed two-page magazine spread (logo 'יש'), handwritten title in red at the top. Serves 6. The long printed introduction on the right page (about the classic pot roast and three keys: suitable cut, a good pot, and 'hot-cold' method) is not transcribed.",
     "Equipment list (הכלים): large plate; large pot with lid (preferably thick bottom); 2 forks; wooden spoon; cutting board; sharp knife; 2 containers for storing the meat and sauce; strainer.",
     "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2).",
-    "Independent Codex rereading confirms the red title צלי בקר ברוטב and all recipe quantities/steps, including כעשר דקות in sauce preparation. The visible source logo is recorded as יש without inferring a magazine name, issue, or date."
+    "Independent Codex rereading confirms the red title צלי בקר ברוטב and all recipe quantities/steps, including כעשר דקות in sauce preparation. The visible source logo is recorded as יש without inferring a magazine name, issue, or date.",
+    "Owner (issue #354): the card states no source."
   ],
   "incidental_text": [
     "Magazine logo 'יש' and a long printed intro paragraph"
@@ -77,5 +73,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #354",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }
