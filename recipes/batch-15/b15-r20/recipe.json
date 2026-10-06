@@ -1,0 +1,80 @@
+{
+  "id": "b15-r20",
+  "batch": 15,
+  "title": "פשטידת זיתים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "בצק",
+      "items": [
+        "100 גר׳ מרגרינה או 1/2 כוס שמן",
+        "2 כפות גדושות גבינה לבנה",
+        "1 כף שומשום",
+        "1 כוס קמח אוסם"
+      ]
+    },
+    {
+      "group": "למילוי",
+      "items": [
+        "2 ביצים",
+        "1 קוטג'",
+        "2 שמנת או 1 שמנת ו-1 לבן שלי",
+        "150 גר׳ גבינה צהובה מגורדת",
+        "1 קופסה זיתים חתוכים — לסנן, לא לשטוף",
+        "סוג? [?]",
+        "מעט פלפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב ולכסות התבנית",
+        "לערבב [?] [?] [?] ולהוסיף [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. The first heading is 'בצק:' (the first letters are close to a '3' sign) and the second 'למילוי:'. A struck-through word appears in the line about olives."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-22.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-22.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Several quantities unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "last lines",
+      "best_guess": null,
+      "reason": "Illegible."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
