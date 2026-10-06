@@ -1,0 +1,49 @@
+{
+  "id": "b22-r02",
+  "batch": 22,
+  "title": "פשטידת קישואים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "4–5 בצלים לחתוך לעיגולים או קשת. לטגן בסיר במעט שמן עד שהבצל שקוף.",
+        "5–6 קשואים קלופים וחתוכים לפרוסות של כ־1/2 ס״מ. לאדות בסיר נפרד עם מעט מהבצל המטוגן (10–20 דקות בחום נמוך עד ריכוך — לא לשרוף).",
+        "לשטוח על תבנית בצק עלים. לנקב אותו!",
+        "לערבב יחד בצל מאודה + קשואים מאודים + 4 ביצים ושמנת מתוקה או צמחית. אפשר להוסיף מעט פירורי לחם, מלח ופלפל. לשפוך מעל הבצק. לאפות בתנור בחום בינוני.",
+        "בתאבון."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Second recipe on the same graph-paper sheet as the cheesecake; steps are numbered 1-4 on the card. The ingredients appear only inside the steps (onions, zucchini, eggs, oil, breadcrumbs, salt, pepper); no separate list."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-01.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "notes",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Same physical page includes separate upper cheesecake recipe absent from this PR extraction; whole-page transcription incomplete."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
