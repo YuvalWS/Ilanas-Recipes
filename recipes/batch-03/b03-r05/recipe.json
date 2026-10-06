@@ -73,7 +73,8 @@
     "Printed newspaper clipping in three pieces: right piece = main ingredients, greens and freekeh; middle piece = continuation of the freekeh list, parsley coulis, serving ingredients and the first steps; left piece = remaining steps. Reading order reconstructed from the text flow (each piece continues mid-sentence from the previous one).",
     "No recipe title and no publication name appear on the clipping (the top of the right piece starts directly with 'החומרים (ל־6 סועדים):').",
     "The line '...רט כמון' at the top of the middle piece is the last item of the freekeh ingredients (the instructions season the freekeh with 'מעט כמון'); its first letter is hidden by a folded corner of the clipping.",
-    "The printed text spells the herb 'ראשד' in the ingredient list and 'הראשה' in the instructions; both kept as printed."
+    "The printed text spells the herb 'ראשד' in the ingredient list and 'הראשה' in the instructions; both kept as printed.",
+    "Suggested title 'סלט פריקה עם חלומי' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed list: halloumi slices, sage, dried lemon, olive oil; method cooks freekeh (פריקה) and dresses it with lemon juice). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -112,5 +113,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "סלט פריקה עם חלומי",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "printed list: halloumi slices, sage, dried lemon, olive oil; method cooks freekeh (פריקה) and dresses it with lemon juice"
 }
