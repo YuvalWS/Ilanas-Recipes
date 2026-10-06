@@ -12,7 +12,7 @@
         "1 מרגרינה",
         "1 אבקת מרק בצל",
         "גבינה צהובה מגוררת — בצד: כוס עד כוס וחצי",
-        "1 שמנת 9%"
+        "1 [?] 9%"
       ]
     }
   ],
@@ -21,14 +21,14 @@
       "group": null,
       "steps": [
         "לערבב הכל במיקסר [?]",
-        "[?] גוללים [?] כמו נקניק [?]",
+        "גוללים גליל כמו נקניק 2",
         "מורחים חלמון והרבה שומשום",
-        "פורסים פרוסות בעובי אצבע, אופים ומוציאים חם."
+        "אופים ואוכלים חם"
       ]
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Yellowish thin paper, crumpled at the top. No title written. Looks like a savory cheese/pastry roll; at the right margin of the cheese line there is a small note ('כוס אחד? / כוס וחצי?') and a sentence ending 'הרי זה משובח'."
+    "Corrected by the owner in review comments on PR #293: his typed readings replace the earlier AI transcription of the same lines."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -43,29 +43,29 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No title written."
-    },
-    {
       "field": "ingredients",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
+      "text": "1 [?] 9%",
+      "best_guess": "גבינה לבנה 9% או קוטג' 9%",
+      "reason": "Owner: the word 'שמנת' is NOT written on the card; which ingredient this is is unclear (probably white cheese 9% or cottage cheese 9%)."
     },
     {
       "field": "instructions",
-      "text": "[?]",
+      "text": "לערבב הכל במיקסר [?]",
       "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
+      "reason": "Not covered by the owner's corrections."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "Owner confirmed the card has no title."
     }
   ],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   }
 }
