@@ -63,6 +63,8 @@
       $("count").textContent = "שגיאה בטעינת הנתונים (data/recipes.json): " + e;
     });
 
+  // "מודפס" (printed) was merged into "גזירי עיתון" (newspaper clippings): old data/URLs still work.
+  function mediumKey(r) { return r.medium === "printed" ? "clipping" : r.medium; }
   function srcText(r) { return r.source ? r.source.text : ""; }
   // Where a recipe stands on its source. "none-confirmed" = no source and the owner checked the card
   // (a proofread.source record exists); "none-unchecked" = no source recorded, nobody has confirmed it.
@@ -200,6 +202,7 @@
     Object.keys(FILTER_PARAMS).forEach(function (id) {
       var control = $(id), fallback = id === "f-sort" ? "rel" : "";
       var value = params.get(FILTER_PARAMS[id]);
+      if (id === "f-medium" && value === "printed") value = "clipping";   // old shared links
       control.value = value === null ? fallback : value;
       // Unknown select values must not silently turn the result list empty.
       if (control.tagName === "SELECT" && control.selectedIndex < 0) control.value = fallback;
@@ -221,7 +224,7 @@
     var rows = [];
     ALL.forEach(function (r) {
       if (fb && String(r.batch) !== fb) return;
-      if (fm && r.medium !== fm) return;
+      if (fm && mediumKey(r) !== fm) return;
       if (fsrc && fsrc.indexOf("status:") === 0) { if ("status:" + sourceStatus(r) !== fsrc) return; }
       else if (fsrc && (!r.source || srcNames(r).map(function (nm) { return sourceGroup(r) + ":" + nm; }).indexOf(fsrc) < 0)) return;
       if (fv === "need" && !r.needs_human_verification) return;
@@ -286,7 +289,7 @@
     other: { one: "פריט", full: "פריט" }
   };
   function mediumLabel(m) {
-    return { handwritten: "כתב יד", clipping: "גזיר", printed: "מודפס", mixed: "מעורב" }[m] || m;
+    return { handwritten: "כתב יד", clipping: "גזיר עיתון", printed: "גזיר עיתון", mixed: "מעורב" }[m] || m;
   }
 
   // ---- share + report a mistake ---------------------------------------------------
@@ -504,7 +507,7 @@
       });
       det.appendChild(ul); txt.appendChild(det);
     }
-    if (r.medium === "clipping") {
+    if (mediumKey(r) === "clipping") {
       var legal = el("p", "legal", LEGAL_NOTICE_CLIPPING);
       var la = el("a", null, "פנו אלינו");
       la.href = "https://github.com/" + REPO + "/issues/new?" + qs({ title: "בקשת הסרה: " + r.id, body: "מתכון: " + pageUrl(r) + "\n\nסיבת הבקשה:\n" });

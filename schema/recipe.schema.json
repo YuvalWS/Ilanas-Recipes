@@ -108,7 +108,7 @@
         "printed",
         "mixed"
       ],
-      "description": "handwritten = pen on a note; clipping = cut out of a magazine/newspaper/package; printed = a printed sheet; mixed = more than one."
+      "description": "handwritten | clipping (newspaper/magazine clippings AND other printed pages; shown as 'גזירי עיתון') | mixed. 'printed' is deprecated and treated as clipping by the site; do not use it for new recipes."
     },
     "ingredients": {
       "type": "array",
