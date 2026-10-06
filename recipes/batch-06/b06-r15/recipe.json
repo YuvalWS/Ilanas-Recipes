@@ -9,7 +9,20 @@
     "uncertain": false
   },
   "medium": "handwritten",
-  "ingredients": [],
+  "ingredients": [
+    {
+      "group": "כרטיס שני: הרוטב",
+      "items": [
+        "2 כפות מיונז",
+        "2 כפות קטשופ",
+        "פלפל שחור גרוס",
+        "מעט מלח",
+        "1 שן שום כתוש",
+        "מעט רוזמרין",
+        "מעט יין לבן כ-2 כפיות"
+      ]
+    }
+  ],
   "instructions": [
     {
       "group": null,
@@ -21,13 +34,23 @@
         "[?] [?] [?] [?] [?] [?]",
         "נייר אפיה [?] [?] [?]"
       ]
+    },
+    {
+      "group": "כרטיס שני: הרוטב",
+      "steps": [
+        "לערבב הכל",
+        "ולמרוח את הדג רק",
+        "מלמעלה, לחמם התנור ולהכניס",
+        "חום רגיל כ-45 דקות"
+      ]
     }
   ],
   "notes": [
     "Yellow memo card with a construction-company letterhead. The heading reads 'סלמון / [name]' (name after the slash uncertain), with a scribbled-out line under it. Only the heading name and the body lines are on the card; a faint mirror-image of the reverse side shows through the paper and is ignored.",
     "Words 'להפשיר', 'לטבל בענפי שמיר' and 'עגבניות' were accepted after Gemini's second reading was checked against the zoomed ink (letter count and shapes are consistent); they remain a medium-confidence reading of shaky handwriting.",
     "Gemini's title/lines 'סלמון בשקית קוקי', 'על הדג', 'מיץ מחצי לימון לשפוך מעל' and 'ולאפות בתנור' were NOT adopted: they do not match the visible ink (the card's last visible line begins 'נייר אפיה'), so they are only recorded in uncertainties.",
-    "Handwriting is very cramped/shaky; a human re-read (or rescan) of this card is recommended."
+    "Handwriting is very cramped/shaky; a human re-read (or rescan) of this card is recommended.",
+    "Second card merged into this recipe: scan 17 (previously the separate record b06-r16, PR #220; the owner's issue #412 saw that it is a fish recipe and wondered whether it continues another recipe). The pairing was found from the cards, not stated on them: both are yellow memo cards with a staple at the same corner and the same handwriting; this card says to defrost the salmon in the pan and spread something on it, the second card is the sauce ('2 כפות מיונז, 2 כפות קטשופ ...') and says to spread it on the fish only on top and bake about 45 minutes. The second card's ingredients and method were typed by the owner (PR #220). The id b06-r16 is intentionally unused."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company (logo, phone/fax)"
@@ -37,7 +60,13 @@
       "file": "raw/Scanned_20261004-2126-16.jpg",
       "original_path": "Batch 6/Scanned_20261004-2126-16.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "unknown"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-17.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-17.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "unknown"
     }
   ],
   "needs_human_verification": true,
@@ -74,5 +103,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #220 review comments",
+      "scope": "second card (group 'כרטיס שני: הרוטב') only, typed by the owner"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #220 review comments",
+      "scope": "second card (group 'כרטיס שני: הרוטב') only, typed by the owner"
+    }
   }
 }
