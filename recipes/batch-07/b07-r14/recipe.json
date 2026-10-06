@@ -1,0 +1,67 @@
+{
+  "id": "b07-r14",
+  "batch": 7,
+  "title": "סלט כרוב",
+  "source": {
+    "text": "נאוה שרף",
+    "type": "person",
+    "as_written": "נאוה שרף",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 חבילה צר כרוב",
+        "1 כוסית שמן",
+        "1/2 כוסית רוטב סויה",
+        "כף סוכר",
+        "1/2 כפית מלח"
+      ]
+    },
+    {
+      "group": "below the ruled line",
+      "items": [
+        "קשיו, צנוברים, פקן",
+        "[?] ג' איטריות"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Title line reads 'סלט כרוב / איטריות' (a slash separates two names). No source on the card. Below the ruled line the last line is the nuts and noodles line (the word at the lower left is the noodles, not a name)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-15.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "1 חבילת גזר [?]",
+      "best_guess": "Gemini: כרוב (or 'לקט כרוב גזר'); earlier reading: unreadable",
+      "reason": "First word read as 'גזר' (consistent with ink); the last word ends in a descending hook that does not look like the ב of 'כרוב' in the title."
+    },
+    {
+      "field": "ingredients[1].items[1]",
+      "text": "[?] ג' איטריות",
+      "best_guess": "Gemini: 50; earlier reading: not recorded",
+      "reason": "Quantity (grams) is smudged; looks like '50' but not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
