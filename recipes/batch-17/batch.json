@@ -3,8 +3,8 @@
   "title": "עוף",
   "title_en": "Chicken",
   "title_status": "ai_suggested",
-  "description": "Roast chicken and drumsticks: printed clippings (tea-marinated chicken, drumsticks with leek and prunes, small chickens, tagine) and several partly legible handwritten cards. (Continuation cards merged into their recipes: scan -17 is the back of b17-r14 (id b17-r15 unused).)",
+  "description": "Roast chicken and drumsticks: printed clippings (tea-marinated chicken, drumsticks with leek and prunes, small chickens, tagine) and several partly legible handwritten cards. (Continuation cards merged into their recipes: scan -17 is the back of b17-r14 (id b17-r15 unused).) (Later, the bottom piece b17-r03 was merged into b17-r02 at the owner's request; the id is unused.)",
   "scan_folder": "Batch 17",
   "scan_count": 17,
-  "recipe_count": 14
+  "recipe_count": 12
 }

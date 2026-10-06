@@ -2,7 +2,12 @@
   "id": "b17-r02",
   "batch": 17,
   "title": null,
-  "source": null,
+  "source": {
+    "text": "לאשה",
+    "type": "publication",
+    "as_written": "לאשה 22.10.2012",
+    "uncertain": false
+  },
   "medium": "clipping",
   "ingredients": [
     {
@@ -42,14 +47,23 @@
         "הציפוי ברוטב: מכניסים כמה מהכרעיים לקערה והופכים אותן מצד לצד. מורחים עליהן את הרוטב (בידיים) כך שהכרעיים יהיו עטופות בו לגמרי. מניחים לשאריות רוטב לטפטף לקערה ומניחים את הכרעיים, על צד העור, בתבנית. מכינים כך את כל הכרעיים. מכניסים לקערה את הירקות והופכים־עוטפים גם אותם ברוטב. מניחים את הירקות בתבנית, בין חלקי העוף.",
         "האפייה: מכניסים את התבנית לתנור החם ואופים 45 דקות. מוציאים את התבנית בזהירות (מומלץ בעזרת כפפות מיוחדות או 2 מגבות מטבח יבשות ועבות), הופכים את חלקי העוף לצד השני (בעזרת מלקחיים או מזלג וכף), הופכים גם את הירקות. מחזירים את התבנית לתנור ואופים כחצי שעה (אולי מעט יותר, תלוי בגודל הכרעיים), עד שפני העוף שחומים. פותחים את התנור, שולפים מעט את התבנית החוצה, נועצים מזלג בעוף ומנתקים חתיכה קטנה. טועמים. בשר העוף צריך להתנתק בקלות ולהיות רך. נועצים קצה סכין חד בתפוחי האדמה והבטטות - הסכין צריך לעבור בקלות. אם העוף עדיין לא מוכן, אופים עוד 10 דקות ובודקים שוב. גם אם הירקות כבר מוכנים, אין בעיה להחזיר אותם לתנור עם העוף - זה לא יזיק להם. מוציאים ומגישים חם."
       ]
+    },
+    {
+      "group": "החלק התחתון בדף (שלבים 3-5 של מתכון עוף צלוי; ללא כותרת ורכיבים)",
+      "steps": [
+        "מוציאים את העוף מהמשרה, מתבלים אותו במלח ובפלפל ומסדרים בתבנית. מסננים את נוזלי המשרה ויוצקים על העוף ומוסיפים לתבנית גם את החמוציות מהמשרה. צולים 15־20 דקות, עד שנתחי העוף מזהיבים, מכסים ברדיד אלומיניום, מנמיכים את החום לבינוני (180 מעלות) וצולים עוד כ־30 דקות.",
+        "הירקות: בינתיים, מחממים את השמן במחבת גדולה, מוסיפים את הסוכר ואת הבצלים, מערבבים ומטגנים 5 דקות. מוסיפים את הסלרי והגזר, מערבבים ומטגנים כ־5 דקות, עד שהקרמל נספג בירקות והם מתרככים. מוסיפים את השום והתימין ומבשלים 5 דקות נוספות, תוך ערבוב מדי פעם. מתבלים במלח ובפלפל ומסירים מהכיריים. מעבירים את כל תכולת המחבת לתבנית העוף, מסדרים את הירקות בין נתחי העוף וצולים 15־20 דקות ללא כיסוי, עד הזהבה־השחמה.",
+        "מוציאים, משהים כמה דקות, ומגישים. אם רוצים, זורים פטרוזיליה מלמעלה."
+      ]
     }
   ],
   "notes": [
     "Collage of three pasted pieces on one scan: (1) right strip with a header 'כלים' (large pot/pan, tools list: 'קערה גדולה, קרש חיתוך, קולפן ירקות, סכין חדה, תבנית תנור גדולה, נייר אפייה או רדיד אלומיניום, מלקחיים') and '(5-6 מנות) המרכיבים', the ingredient lists and steps 1-3; (2) left strip with steps 4-8 (sweet potatoes, onion, garlic, coating, baking) and a storage note 'אפשר לשמור בכלי סגור במקרר, עד 3 ימים. מחממים כ־2 דקות בתנור מיקרוגל, או כ־10 דקות בתנור שחומם לחום בינוני.'; (3) a bottom piece that belongs to a different recipe (see next record). The title is not visible on any of the pieces. A line of blue-ink handwriting beside the ingredient list is unreadable. Parts of the right strip are cropped at the edge (first letters missing: the 'תפוחי אדמה' line reads 'ללת' (cropped); ingredient amounts in the 'דבש' line are cut: '1/2 ... כפות דבש').",
     "The grouping of the right and left strips as one recipe is based on step numbering (1-3 on the right, 4-8 on the left) and matching ingredients (sweet potatoes, onions, garlic).",
     "אפשר לשמור בכלי סגור במקרר, עד 3 ימים. מחממים 2 דקות בתנור מיקרוגל, או 10 דקות בתנור שחומם לחום בינוני.",
-    "Suggested title 'רוטב סויה, דבש ולימון' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed 'הרוטב': olive oil, soy sauce, honey, lemon juice, salt, pepper; oven at 200 degrees). Awaiting the owner's approval.",
-    "Suggested title updated to 'עוף עם ירקות בתנור ברוטב סויה, דבש ולימון' after the owner's report (issue #414); basis: owner (issue #414): the title should start with 'עוף עם...'; the method roasts chicken legs with potatoes, sweet potatoes, onions and garlic in a soy-honey-lemon sauce. Still a suggestion awaiting the owner's approval; not written on the card."
+    "Bottom piece merged into this recipe (previously the separate record b17-r03): steps 3-5 of a chicken roast with a marinade, cranberries, celery, carrot and caramelised onions, printed in the same collage; it carries the publication 'לאשה' and the date 22.10.2012, and two sentences highlighted in yellow. The owner asked (chat, 2026-10-06) to merge b17-r02 and b17-r03 into one recipe. CAUTION for inspection: the text of the bottom piece is not the same dish as the two upper strips (soy-honey-lemon sauce, potatoes, sweet potatoes; the bottom steps speak of a marinade and cranberries), so the bottom piece may belong to a different recipe whose beginning is not on the scan.",
+    "Source taken from the bottom piece ('לאשה', 22.10.2012); the earlier 'confirmed: no source' record applied to the upper strips only and was removed.",
+    "Suggested title 'עוף עם ירקות בתנור ברוטב סויה, דבש ולימון' (AI, after the owner's issue #414: it should start with 'עוף עם...'). Not on the card; awaiting the owner's approval."
   ],
   "incidental_text": [
     "Handwritten blue-ink marks beside the ingredient list (unreadable)"
@@ -78,10 +92,10 @@
       "reason": "The quantity of honey is cut off / overwritten by blue pen."
     },
     {
-      "field": "source",
-      "text": "(publication)",
+      "field": "bottom piece: ingredients",
+      "text": "(none)",
       "best_guess": null,
-      "reason": "No publication name; the date 22.10.2012 is printed on the bottom piece only."
+      "reason": "Not on this piece."
     }
   ],
   "transcription": {
@@ -100,12 +114,6 @@
       "date": "2026-10-06",
       "via": "owner's review of all open recipes (no comment = confirmed)",
       "scope": "confirmed untitled"
-    },
-    "source": {
-      "by": "Yuval (owner)",
-      "date": "2026-10-06",
-      "via": "owner's review of all open recipes (no comment = confirmed)",
-      "scope": "confirmed: no source on the card"
     }
   }
 }
