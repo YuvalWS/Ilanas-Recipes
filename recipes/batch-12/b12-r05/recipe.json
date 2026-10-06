@@ -1,0 +1,96 @@
+{
+  "id": "b12-r05",
+  "batch": 12,
+  "title": "עוף בתנור",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 גמבות אדומות וצהובות לקוביות",
+        "6 בצלים חתוכים לקוביות",
+        "3 כפות פפריקה + 1 כף [?] [?] [?]",
+        "4 כפות כמון",
+        "5 כפות שמן זית",
+        "1 כפית מלח",
+        "1 1/2 כוסות מים רותחים עד לגובה [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "במתכנת? בקערה מערבבים [?] [?] את הפרגיות",
+        "[?] [?] עם התבלינים",
+        "מערבבים בכמון ובפפריקה",
+        "מוסיפים את הפרגיות",
+        "בקערה מערבבים שמן, פיתה? כמון",
+        "ופפריקה ומורחים על הפרגיות",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] ומתבלים? [?]",
+        "(reverse side) התבנית [?] לבערך? [?]",
+        "(reverse side) שהמים מתאדים,",
+        "(reverse side) הרוטב סמיך והעוף משחים",
+        "(reverse side) מכסים שוב את התבנית ומאפים",
+        "(reverse side) עוד 25 דקות",
+        "(reverse side) מגישים עם סלט ופתיתים"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Title 'עוף בתנור' (chicken in the oven) underlined. A blue scribble overlays the middle of the ingredient list ('...שום'). The back (scan 06, rotated 180 degrees) has six lines at the top: the baking continues until the water evaporates, the sauce is thick and the chicken browned; cover the pan again and bake another 25 minutes; serve with salad and 'פתיתים' (ptitim).",
+    "The ingredient lines 1-2 list vegetables cut into cubes; the first words of line 1 are unclear."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2205-05.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2205-06.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "6 [?] [?] וצהובות? לקוביות",
+      "best_guess": null,
+      "reason": "Vegetables unreadable (peppers? potatoes?)."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "[?] שמן [?] שום",
+      "best_guess": null,
+      "reason": "Blue ink scribble over the line."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Words partly unreadable."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 06 assumed to be the back of scan 05."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
