@@ -1,0 +1,65 @@
+{
+  "id": "b15-r11",
+  "batch": 15,
+  "title": "פשטידת אנטי פסטי",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים",
+      "items": [
+        "1 חציל, חתוך לקוביות בגודל 3X3 ס\"מ",
+        "2 פלפלים אדומים, חתוכים לקוביות 2X2 ס\"מ",
+        "1 חבילה פטריות שמפיניון, נקיות",
+        "2 בצלים, חתוכים לקוביות בגודל 2X2 ס\"מ",
+        "2-3 קישואים, חתוכים לרבעים לאורכם ופרוסים בעובי של 1 ס\"מ",
+        "אפשרות: 1 דלעת ערמונים בקליפתה, חתוכה לקוביות בגודל 2X2 ס\"מ",
+        "1 ראש שום, חצוי",
+        "1 כפית תימין יבש",
+        "1 כפית מלח",
+        "1/2 כפית פלפל שחור גרוס דק",
+        "4 כפות שמן זית",
+        "1 כמות בלילה (ראו מתכון בסיס)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מחממים את התנור לחום גבוה (200 מעלות) ומרפדים תבנית תנור בנייר אפייה.",
+        "שמים את כל הירקות בקערה גדולה, מוסיפים את השמן והתבלינים ומערבבים בידיים עד שהירקות מצופים בשמן. מעבירים לתבנית ואופים 30-40 דקות, עד שהירקות מזהיבים-משחימים ומתרככים קלות. מוציאים ומניחים לצינון. מנמיכים את חום התנור ל־190 מעלות.",
+        "הרכבת הפשטידה: מערבבים את בלילת הפשטידה (ראו מתכון בסיס). מחלצים את השום הצלוי מקליפתו ומוסיפים אותו ואת שאר הירקות לקערה. מערבבים בעדינות, יוצקים לתבנית (או התבניות), ואופים כ־45 דקות, עד שהפשטידה מתייצבת ומזהיבה. מוציאים ומגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping from the same Shavuot article. Intro line: 'את ירקות האנטי פסטי אפשר להכין יום קודם ולאחסן במקרר.' The bottom of the strip is slightly cut and curved; the wording of step 3 was read from partly cut line ends ('הפ־ / שטידה', 'הצ־ / לוי') and may differ slightly from the original."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-11.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-11.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[2]",
+      "text": "הרכבת הפשטידה...",
+      "best_guess": null,
+      "reason": "Line ends are cut off by the strip edge; some words reconstructed from context in this one step ('הצלוי', 'את שאר הירקות', 'או התבניות')."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
