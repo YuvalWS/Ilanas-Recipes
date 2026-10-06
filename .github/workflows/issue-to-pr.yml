@@ -1,0 +1,88 @@
+name: Issue to PR (AI correction proposal)
+
+# Flow: a reader reports a mistake (issue form) -> the owner reads it and adds the label `ai-fix`
+# -> this job asks Claude to apply the correction to that recipe and open a PR (never merged automatically)
+# -> GitHub e-mails the owner about the new PR (Settings > Notifications > Watching) and the optional
+#    mail step below can send an extra e-mail.
+#
+# Needs repository secret ANTHROPIC_API_KEY (Settings > Secrets and variables > Actions) and
+# Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+# Without the secret the job only leaves a comment on the issue and exits successfully.
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: issue-to-pr-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    if: github.event.label.name == 'ai-fix'
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+    steps:
+      - name: Check configuration
+        id: cfg
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body "AI fix is not configured: add the repository secret ANTHROPIC_API_KEY, then re-add the label \`ai-fix\`."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/checkout@v4
+        if: steps.cfg.outputs.configured == 'true'
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        if: steps.cfg.outputs.configured == 'true'
+        with:
+          python-version: "3.11"
+      - run: pip install jsonschema
+        if: steps.cfg.outputs.configured == 'true'
+      - name: Ask Claude to prepare the correction PR
+        if: steps.cfg.outputs.configured == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Repository: ${{ github.repository }}. Handle issue #${{ github.event.issue.number }} (a reader's mistake report).
+            1. Read AGENTS.md first and follow it strictly (never invent text; uncertain = [?]; ditto marks; JSON schema).
+            2. Read the issue (fields: recipe id, page/scan URLs, current transcription, what is wrong). Open the scan under
+               recipes/batch-NN/<id>/raw/ and verify the reader's claim yourself on the image.
+            3. Only if the correction is confirmed on the scan, edit recipes/batch-NN/<id>/recipe.json (keep the schema, update
+               uncertainties/confidence honestly; do not mark it human-verified). If it cannot be confirmed, change nothing and
+               explain in a comment on the issue.
+            4. Run `python tools/validate.py`.
+            5. Create a branch `fix/issue-${{ github.event.issue.number }}-<id>`, commit, push and open a PR whose body starts with
+               "Closes #${{ github.event.issue.number }}" and quotes the reader's report and what you verified. Add the label
+               `pending-corrections`. Do NOT merge. Do not touch data/recipes.json or docs/NEEDS_REVIEW.md (generated).
+          claude_args: |
+            --allowedTools "Read,Edit,Write,Bash(python tools/validate.py:*),Bash(git:*),Bash(gh:*)"
+      # Optional extra e-mail (GitHub already e-mails you about new PRs if you watch the repo).
+      # Needs secrets MAIL_SERVER, MAIL_USERNAME, MAIL_PASSWORD, MAIL_TO; remove `if: false` to enable.
+      - name: E-mail the owner
+        if: ${{ false && steps.cfg.outputs.configured == 'true' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          to: ${{ secrets.MAIL_TO }}
+          from: Ilana's Recipes <${{ secrets.MAIL_USERNAME }}>
+          subject: "Recipe correction PR proposed for issue #${{ github.event.issue.number }}"
+          body: "Claude proposed a correction for ${{ github.server_url }}/${{ github.repository }}/issues/${{ github.event.issue.number }} - review the new pull request."
