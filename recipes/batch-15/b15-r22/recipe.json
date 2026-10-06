@@ -1,13 +1,8 @@
 {
   "id": "b15-r22",
   "batch": 15,
-  "title": "פשטידת כרובית",
-  "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
-  },
+  "title": "פשטידת כרובית / לקט נורמנדי",
+  "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
@@ -42,7 +37,9 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Front: title 'פשטידת כרובית / [?]' (the word after the slash looks like 'רוזנברג'/'חרו...' and is unclear) and an ingredient list in the right column; the last lines of the front describe putting margarine in the tray. Back: the preparation: mix cottage, cream, flour, eggs and spices; one line is crossed out; sprinkle the grated cheese and bread crumbs over the cauliflower; bake in a medium oven for about 45 minutes."
+    "Handwriting is only partly legible; unreadable words are [?]. Front: title 'פשטידת כרובית / [?]' (the word after the slash looks like 'רוזנברג'/'חרו...' and is unclear) and an ingredient list in the right column; the last lines of the front describe putting margarine in the tray. Back: the preparation: mix cottage, cream, flour, eggs and spices; one line is crossed out; sprinkle the grated cheese and bread crumbs over the cauliflower; bake in a medium oven for about 45 minutes.",
+    "Owner (issue #360): the card states no source.",
+    "Owner info (issue #360): 'לקט נורמנדי' is a Sunfrost frozen-vegetable mix, 800 g, containing 40% broccoli, 40% cauliflower and 20% carrot."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -63,12 +60,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "The word after the slash in the title is unclear."
-    },
-    {
       "field": "ingredients[2]",
       "text": "2 שמנת [?]",
       "best_guess": null,
@@ -87,5 +78,25 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #360",
+      "scope": "confirmed: no source on the card"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #360",
+      "scope": null
+    },
+    "notes": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #360",
+      "scope": "the note about לקט נורמנדי"
+    }
   }
 }
