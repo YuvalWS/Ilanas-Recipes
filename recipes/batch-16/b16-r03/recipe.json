@@ -1,13 +1,8 @@
 {
   "id": "b16-r03",
   "batch": 16,
-  "title": "מג'דרה",
-  "source": {
-    "text": "א[?]",
-    "type": "unknown",
-    "as_written": "א[?]",
-    "uncertain": true
-  },
+  "title": "מג'דרה / אורז",
+  "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
@@ -39,7 +34,8 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Torn card on a wooden table; the right edge of the card is torn so that the first/last words of many lines are cut (the text reads past the edge). The title reads 'מג'דרה / א[?]' (or 'מצדרה'); the word after the slash looks like a name starting with 'א'. Three steps are numbered 1, 2, 3 on the right edge. A short signature-like word at the bottom ('אביגיל'? / 'אדיבל'?) is underlined.",
-    "The dish is a lentil-and-rice dish (as the title says 'מג'דרה'); no interpretation was added."
+    "The dish is a lentil-and-rice dish (as the title says 'מג'דרה'); no interpretation was added.",
+    "Per the owner (issue #330): the card has no source; the title is 'מג'דרה / אורז'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -53,12 +49,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "א[?]",
-      "best_guess": null,
-      "reason": "Word after the slash; could be a name starting with 'א'."
-    },
     {
       "field": "ingredients",
       "text": "several lines",
@@ -84,5 +74,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #330",
+      "scope": "confirmed: no source on the card"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #330",
+      "scope": null
+    }
   }
 }
