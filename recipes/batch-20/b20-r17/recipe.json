@@ -36,7 +36,8 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Card on grey-blue paper with a staple at the top right and a wavy line across the middle. The upper part has six lines, the lower part three. The words 'שמן', 'מים', 'חומץ', 'מיץ לימון', 'סוכר', 'מלח', 'סויה' and 'פלפל' are readable but they are connected by words that are not, so the order and quantities cannot be given. It looks like a sauce or dressing; this is not stated on the card.",
     "No title could be identified.",
-    "Owner (PR #210): the card has no title and no source."
+    "Owner (PR #210): the card has no title and no source.",
+    "Suggested title 'רוטב או תיבול (כרטיס לא קריא)' added by AI on 2026-10-06 (not on the card; basis: only fragments (oil, vinegar, lemon juice, sugar, soy) are readable; looks like a sauce or dressing). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -77,5 +78,8 @@
       "via": "PR #210 (chat)",
       "scope": "confirmed: no source on the card"
     }
-  }
+  },
+  "assigned_title": "רוטב או תיבול (כרטיס לא קריא)",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "only fragments (oil, vinegar, lemon juice, sugar, soy) are readable; looks like a sauce or dressing"
 }

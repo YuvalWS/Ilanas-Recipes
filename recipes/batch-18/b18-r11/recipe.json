@@ -1,12 +1,12 @@
 {
   "id": "b18-r11",
   "batch": 18,
-  "title": "סלפר? [?] / [?]",
+  "title": null,
   "source": {
-    "text": "רונית? (?)",
+    "text": "רונית",
     "type": "person",
     "as_written": "רונית",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -26,7 +26,9 @@
   ],
   "instructions": [],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Top line (title) is crowded and partly overwritten; a word at the top left ('רונית'?) might be a name. The ingredient list continues to the bottom of the card and one line ('2 כפות סוכר') is struck through."
+    "Handwriting is only partly legible; unreadable words are [?]. Top line (title) is crowded and partly overwritten; a word at the top left ('רונית'?) might be a name. The ingredient list continues to the bottom of the card and one line ('2 כפות סוכר') is struck through.",
+    "Owner (chat, 2026-10-06): the source is רונית; the card has no title; it is some cake.",
+    "Suggested title 'עוגת צימוקים' added by AI on 2026-10-06 (not on the card; basis: owner: 'some cake'; ingredients are raisins, flour, eggs and sugar). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -40,12 +42,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "title",
-      "text": "(top line)",
-      "best_guess": null,
-      "reason": "Not readable."
-    },
     {
       "field": "ingredients",
       "text": "several lines",
@@ -64,8 +60,17 @@
     "title": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "PR #105 review comments",
-      "scope": "confirmed untitled"
+      "via": "chat",
+      "scope": "confirmed untitled; the owner says it is a cake"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": null
     }
-  }
+  },
+  "assigned_title": "עוגת צימוקים",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "owner: 'some cake'; ingredients are raisins, flour, eggs and sugar"
 }
