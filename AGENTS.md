@@ -44,6 +44,8 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 
 - **Stories / anecdotes (owner, 2026-10-06):** background anecdotes about the collection (e.g. the cookbook "המטבח המשובח" that held the recipes) are shown on the site page `#/story` ("סיפורים מהאוסף", linked under the site title). They live in `data/story.json` (`items`: title, text, image, image_alt, caption); `text` is the owner's own words, kept verbatim - do not rewrite or embellish; captions only state what is visible. Pictures go in `assets/story/` (web-sized copy; keep the original scan name). `tools/validate.py` checks the pictures exist; a browser test covers the page.
 
+- **Fragments of other recipes are not recipes (owner, 2026-10-06):** a newspaper page can show the torn-off end (or beginning) of a recipe that Ilana did not clip. Do not make it a recipe of its own (b08-r06 was removed for this reason); keep a one-line mention in the notes of the recipes on the same card. Only recipes Ilana clipped or wrote are kept. Removed ids stay unused and the card's `recipes` lists are updated.
+
 ## Working in parallel (several people / tools edit this repo at the same time)
 
 - **Never commit generated files.** `data/recipes.json` (the website index) and `docs/NEEDS_REVIEW.md` are rebuilt automatically by the `Rebuild search index` GitHub Action after every push to `main` that touches `recipes/**`. Do not include them in PRs (the `Validate recipes` check warns); for a local preview run `python tools/build_index.py` and do not `git add` the result.
