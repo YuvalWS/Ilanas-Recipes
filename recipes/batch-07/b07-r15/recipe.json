@@ -22,7 +22,8 @@
     "White card with a printed frame. A column of single-word ingredients on the right, separated by a long vertical line from a two-line note at the upper left.",
     "Upper-left note, line 1: 'כרוב לבן [?]' (a further partly cut-off word at the left end is unreadable). Line 2: '[?]'.",
     "A scribbled-out line at the top left (struck through with a wavy line) looks like a crossed-out title; unreadable.",
-    "A scribble above the 5th ingredient ('חומץ') is unreadable (possibly a crossed-out or added word)."
+    "A scribble above the 5th ingredient ('חומץ') is unreadable (possibly a crossed-out or added word).",
+    "Suggested title 'רוטב חרדל וסויה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -73,5 +74,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "רוטב חרדל וסויה",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar"
 }
