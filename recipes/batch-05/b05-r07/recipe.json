@@ -25,7 +25,8 @@
   "instructions": [],
   "notes": [
     "No title on the card (the first line is an ingredient); Gemini's title 'קציצות בקר ברוטב עגבניות' is not on the card and was not adopted.",
-    "Ditto marks under 'כפית' in the 'מלח' and 'פלפל שחור' lines expanded to 'כפית'; ditto marks expanded."
+    "Ditto marks under 'כפית' in the 'מלח' and 'פלפל שחור' lines expanded to 'כפית'; ditto marks expanded.",
+    "Suggested title 'קציצות בקר וכוסברה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: ground beef, egg, coriander, salt, pepper, garlic (batch 5 is meatballs)). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -52,5 +53,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "קציצות בקר וכוסברה",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "ground beef, egg, coriander, salt, pepper, garlic (batch 5 is meatballs)"
 }
