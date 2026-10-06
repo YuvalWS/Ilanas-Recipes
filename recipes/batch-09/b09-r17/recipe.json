@@ -1,0 +1,81 @@
+{
+  "id": "b09-r17",
+  "batch": 9,
+  "title": "בשר בקר",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "בצל",
+        "שום, פפריקה, פלפל",
+        "במקום מים מעט א. מרק",
+        "1 פלפל ירוק שלם",
+        "2–3 עלי דפנה",
+        "שמיר",
+        "קליפת סלרי, פטרוזיליה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "(reverse side) 8 lines, unreadable"
+      ]
+    }
+  ],
+  "notes": [
+    "Yellow memo card of a building-materials company (printed letterhead with phone/fax at the bottom edge). Both scans were upside down and were rotated 180 degrees. The writing is an extremely dense, narrow cursive that cannot be read reliably; the back of the card (scan 22) shows the front's text faintly through the paper and has about eight lines of its own in the lower half.",
+    "Rescanning probably will not help; a human who knows Ilana's handwriting is needed.",
+    "Underlined words at upper center read בשר בקר; additional upper-left writing remains uncertain. Added visible first-side ingredient lines."
+  ],
+  "incidental_text": [
+    "Printed company letterhead with logo and phone/fax numbers"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-21.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-21.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2153-22.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-22.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Nothing readable."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 22 assumed to be the other side of the card in scan 21."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
