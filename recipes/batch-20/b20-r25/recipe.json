@@ -6,7 +6,7 @@
     "text": "השף חיים כהן",
     "type": "person",
     "as_written": "[?]נחה: השף חיים כהן",
-    "uncertain": false
+    "uncertain": true
   },
   "medium": "clipping",
   "ingredients": [],
@@ -23,7 +23,7 @@
     "Clipping starts with a partial credit line at the top ('...נחה: השף חיים כהן'; the first letters are cut off) and shows only the title and two method steps; the ingredient list is not on the clipping. The ingredients named in the method are: 8 small red or green peppers, 200 g grated feta, a tomato grated on a grater, a bunch of parsley and olive oil.",
     "In step 2 the clipping says 'פטה מגוררת' and 'מרוסקת בפומפייה' (the latter probably refers to the tomato; the text reads 'עגבנייה מרוסקת בפומפייה').",
     "Independent Codex rereading confirms the title and both complete preparation steps. No separate ingredient list is printed on this fragment, so ingredients is an empty list rather than an invented missing ingredient [?]. The clipped credit prefix remains unresolved.",
-    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded (it is only partly readable)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -36,7 +36,14 @@
   ],
   "needs_human_verification": true,
   "confidence": "medium",
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "השף חיים כהן",
+      "best_guess": null,
+      "reason": "The word before 'השף' is cut off ('...נחה')."
+    }
+  ],
   "transcription": {
     "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
@@ -49,7 +56,7 @@
       "by": "Yuval (owner)",
       "date": "2026-10-06",
       "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
-      "scope": "confirmed by the owner: the source as recorded"
+      "scope": "confirmed by the owner: the source is only partly readable on the card, as recorded (the word before 'השף' is cut off)"
     }
   }
 }
