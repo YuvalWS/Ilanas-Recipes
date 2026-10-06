@@ -1,8 +1,13 @@
 {
   "id": "b18-r09",
   "batch": 18,
-  "title": "עוגה [?]",
-  "source": null,
+  "title": "[?] 26",
+  "source": {
+    "text": "דורית",
+    "type": "person",
+    "as_written": "דורית",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -14,7 +19,7 @@
         "1/2 שקית אבקת אפיה",
         "1 1/2 כוס קמח רגיל",
         "2 כפות שמן",
-        "2 כפות קקאו? [?]"
+        "2 כפות שטוחות"
       ]
     }
   ],
@@ -22,9 +27,10 @@
     {
       "group": null,
       "steps": [
-        "להקציף חלבונים עם הסוכר",
-        "כשהקצף [?] להוסיף את החלמונים מהחמאה? [?]",
-        "להוסיף את החלמונים, הקמח [?] ו[?] השמן."
+        "להקציף חלבונים + הסוכר",
+        "כשהקצף חזק להוריד מהירות ל-1",
+        "להוסיף החלמונים, הקמח,",
+        "[?]וניל השמן"
       ]
     },
     {
@@ -36,7 +42,7 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Yellow torn card. The top line carries a date-like '26/6' and a word that looks like 'גרוית'/'ברוית' in a box; the title is not clear. Side 11 (the back) holds three short lines at the top and is blank otherwise."
+    "Corrected by the owner in review comments on PR #96: his typed readings replace the earlier AI transcription of the same lines."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -54,38 +60,32 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
       "field": "title",
-      "text": "(top line)",
-      "best_guess": null,
-      "reason": "The header ('26/6 ... ') cannot be read."
-    },
-    {
-      "field": "ingredients[6]",
-      "text": "2 כפות קקאו? [?]",
-      "best_guess": null,
-      "reason": "The line is torn and partly unreadable."
+      "text": "[?] 26",
+      "best_guess": "עוגה בתבנית 26",
+      "reason": "Owner: the top of the card is torn; the visible part is '26' and apparently means a cake in a 26 cm pan."
     },
     {
       "field": "instructions",
-      "text": "lines 2-3",
-      "best_guess": null,
-      "reason": "Partly unreadable."
+      "text": "[?]וניל השמן",
+      "best_guess": "תמצית ה",
+      "reason": "Owner: torn; apparently '...תמצית ה' before 'וניל השמן'."
     },
     {
-      "field": "raw_files",
-      "text": "10/11",
+      "field": "ingredients",
+      "text": "2 כפות שטוחות",
       "best_guess": null,
-      "reason": "Assumed to be two sides of one card."
+      "reason": "The noun after '2 כפות' (possibly the cocoa alternative on the left) is unclear."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   }
 }
