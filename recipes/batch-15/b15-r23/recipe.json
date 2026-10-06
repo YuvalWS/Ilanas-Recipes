@@ -1,0 +1,64 @@
+{
+  "id": "b15-r23",
+  "batch": 15,
+  "title": "פלפל ממולא",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "להשחים",
+      "items": [
+        "3 כפות שמן זית",
+        "בצל חתוך בינוני"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "להוסיף 1 כוס פטריות חתוכות אחרי שהבצל השחים",
+        "1 קוטג' 5%",
+        "1/2 כוס שמיר",
+        "1 גבינת כנען",
+        "2 ביצים טרופות",
+        "מלח 1/2 כפית",
+        "פלפל 1/5 כפית",
+        "אבקת מרק פטריות - כף גדושה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב",
+        "לחצות פלפלים אדומים",
+        "לנקות ולמרוח ביד כף שמן זית (לכולם) מבחוץ ומבפנים",
+        "למלא בתערובת ולאפות בחום בינוני-גבוה"
+      ]
+    }
+  ],
+  "notes": [
+    "Heading appears to begin לזניה; last word is uncertain. Onion/oil upper block has a brace for browning.",
+    "Corrected by the owner in review comments on PR #201: his typed readings replace the earlier AI transcription of the same lines.",
+    "Ditto marks expanded: the mark after 'פלפל 1/5' stands for 'כפית'. The group 'להשחים' is the owner's reading of the brace label over the first two lines."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2218-05.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  }
+}
