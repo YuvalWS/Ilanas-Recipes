@@ -27,7 +27,8 @@
   ],
   "notes": [
     "Square card, no letterhead. Top block looks like a short dressing list (olive oil...). Below a ruled line is a crossed-out heading and three lines that cannot be read.",
-    "A Gemini file exists for this card; it names the card 'lettuce and mushroom salad' and lists lettuce and mushrooms, which are not visible on the card, so only its dressing lines were compared. Gemini did not read the section below the ruled line either."
+    "A Gemini file exists for this card; it names the card 'lettuce and mushroom salad' and lists lettuce and mushrooms, which are not visible on the card, so only its dressing lines were compared. Gemini did not read the section below the ruled line either.",
+    "Suggested title 'סלט חסה ופטריות' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: the method line starts 'סלט ... חסה, פטריות'; ingredients are an olive-oil-lemon-garlic dressing). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -72,5 +73,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "סלט חסה ופטריות",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "the method line starts 'סלט ... חסה, פטריות'; ingredients are an olive-oil-lemon-garlic dressing"
 }
