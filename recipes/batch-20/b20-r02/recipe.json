@@ -20,7 +20,8 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Two scans (02 is upside down, 08 is upright) that appear to show the same small card: a title line ('סלט' plus an underlined word that is cut off by the top edge of the scan), then four or five short lines with a small mark ('ditto' or quantity?) to the right of some of them. Only 'סלט', '2-3', 'חומץ' and 'מלח' could be read with reasonable confidence.",
     "Rescanning with the whole top edge included would probably reveal the title.",
-    "Owner (PR #151 review comments): title 'כרוב סגול'; editorial title 'סלט כרוב סגול'."
+    "Owner (PR #151 review comments): title 'כרוב סגול'; editorial title 'סלט כרוב סגול'.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט כרוב סגול' (it is not written on the card)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -88,8 +89,8 @@
     "assigned_title": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "PR #151 review comments",
-      "scope": "owner's editorial title 'סלט כרוב סגול'"
+      "via": "chat",
+      "scope": "accepted the suggested title"
     },
     "source": {
       "by": "Yuval (owner)",
@@ -99,6 +100,6 @@
     }
   },
   "assigned_title": "סלט כרוב סגול",
-  "assigned_title_status": "owner_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "Owner (PR #151): the editorial title should be 'סלט כרוב סגול'; the heading on the card reads 'כרוב סגול'."
 }

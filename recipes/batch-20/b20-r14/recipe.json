@@ -49,7 +49,8 @@
     "Two clippings that continue each other: scan 17 holds the tools, ingredients and the start of step 1; scan 16 continues from the end of step 1 to the last step. The title of the recipe is not on either piece, so no title is given (from the content it is a salad of kohlrabi, radishes, spring onions and olives; this description is not a title).",
     "Scan was upside down and was rotated 180 degrees. Printed ranges are typeset right-to-left (for example '25-20', '12-10', '150-100', '3-2'); they are written here in the usual order.",
     "Scan 16 is printed on thin paper and the reverse side shows through, so a few words in steps 2 and 3 are faint.",
-    "Suggested title 'סלט קולרבי וצנוניות' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed list: kohlrabi, small fresh radishes; method starts with preparing the kohlrabi). Awaiting the owner's approval."
+    "Suggested title 'סלט קולרבי וצנוניות' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed list: kohlrabi, small fresh radishes; method starts with preparing the kohlrabi). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט קולרבי וצנוניות' (it is not written on the card)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -102,7 +103,7 @@
     "verified_at": null
   },
   "assigned_title": "סלט קולרבי וצנוניות",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "printed list: kohlrabi, small fresh radishes; method starts with preparing the kohlrabi",
   "proofread": {
     "title": {
@@ -116,6 +117,12 @@
       "date": "2026-10-06",
       "via": "owner's review of all open recipes (no comment = confirmed)",
       "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   }
 }

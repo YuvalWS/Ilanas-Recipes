@@ -53,7 +53,10 @@
   // ---- favorites (this device only) and "הקלאסיים" (curated family list) ----------
   var FAV_KEY = "ilanas-recipes:favorites:v1";
   var FAVS = [], favStorageOk = true, CLASSICS = {};
-  var onlyFavs = false, onlyClassics = false, onlySuggested = false;
+  // Sharing / importing favorites is hidden for now (owner, 2026-10-06). The code stays; add ?favtransfer=1 to the
+  // address to switch the share and import buttons (and ?addfavs= links) back on.
+  var FAV_TRANSFER = new URLSearchParams(location.search).get("favtransfer") === "1";
+  var onlyFavs = false, onlyClassics = false;
   function loadFavs() {
     try {
       var v = JSON.parse(localStorage.getItem(FAV_KEY) || "[]");
@@ -113,10 +116,6 @@
     $("t-classics").hidden = !cn;
     $("t-classics").textContent = "★ הקלאסיים (" + cn + ")";
     $("t-classics").setAttribute("aria-pressed", onlyClassics ? "true" : "false");
-    var sn = ALL.filter(isSuggestedTitle).length;
-    $("t-suggested").hidden = !sn;
-    $("t-suggested").textContent = "⚠ כותרת מוצעת (" + sn + ")";
-    $("t-suggested").setAttribute("aria-pressed", onlySuggested ? "true" : "false");
     $("fav-share").disabled = !n;
   }
   function favLink() { return location.origin + location.pathname + "?addfavs=" + validFavs().join(","); }
@@ -143,9 +142,9 @@
     }
   }
   function setupFavUi() {
+    $("fav-share").hidden = !FAV_TRANSFER; $("fav-import").hidden = !FAV_TRANSFER;
     $("t-favs").addEventListener("click", function () { onlyFavs = !onlyFavs; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
     $("t-classics").addEventListener("click", function () { onlyClassics = !onlyClassics; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
-    $("t-suggested").addEventListener("click", function () { onlySuggested = !onlySuggested; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
     $("fav-share").addEventListener("click", function () {
       var url = favLink(), text = "מועדפים מהמתכונים של אילנה (" + validFavs().length + " מתכונים)";
       if (navigator.share) navigator.share({ title: text, text: text, url: url }).catch(function () {});
@@ -175,7 +174,7 @@
           setupFavUi();
           route();
           var add = new URLSearchParams(location.search).get("addfavs");
-          if (add !== null) offerImport(parseFavIds(add), true);
+          if (FAV_TRANSFER && add !== null) offerImport(parseFavIds(add), true);
         });
     })
     .catch(function (e) {
@@ -199,6 +198,16 @@
   function usesAssignedTitle(r) { return !r.title && !!r.assigned_title; }
   // A title that is only a proposal (not written on the card and not yet approved by the owner).
   function isSuggestedTitle(r) { return usesAssignedTitle(r) && (r.assigned_title_status === "ai_suggested" || r.assigned_title_status === "owner_suggested"); }
+  // A small warning icon next to a title that is NOT written on the card (a suggested or given title); the
+  // explanation shows as a tooltip (hover on a computer, tap on a phone; see the shared bubble below).
+  function titleWarning(r) {
+    var text = assignedKind(r).note;
+    if (r.assigned_title_status === "ai_suggested" || r.assigned_title_status === "owner_suggested")
+      text += (r.assigned_title_basis ? " בסיס ההצעה: " + r.assigned_title_basis + "." : "") + " בדקו מול הסריקה.";
+    var w = el("span", "hint title-warn"); w.tabIndex = 0; w.setAttribute("role", "button");
+    w.setAttribute("aria-label", "הכותרת אינה כתובה על הפתק"); w.setAttribute("data-hint", text);
+    return w;
+  }
   // How an assigned_title is described to readers (it is never the heading written on the card).
   function assignedKind(r) {
     var st = r.assigned_title_status;
@@ -305,7 +314,7 @@
     });
     $("clear-filters").addEventListener("click", function () {
       Object.keys(FILTER_PARAMS).forEach(function (id) { $(id).value = id === "f-sort" ? "rel" : ""; });
-      onlyFavs = false; onlyClassics = false; onlySuggested = false;
+      onlyFavs = false; onlyClassics = false;
       writeFiltersToUrl("pushState"); refreshFavUi();
       renderList();
     });
@@ -322,7 +331,7 @@
     "f-source": "source", "f-verify": "proofreading", "f-sort": "sort" };
   function readFiltersFromUrl() {
     var params = new URLSearchParams(location.search);
-    onlyFavs = params.get("favs") === "1"; onlyClassics = params.get("classics") === "1"; onlySuggested = params.get("suggested") === "1";
+    onlyFavs = params.get("favs") === "1"; onlyClassics = params.get("classics") === "1";
     Object.keys(FILTER_PARAMS).forEach(function (id) {
       var control = $(id), fallback = id === "f-sort" ? "rel" : "";
       var value = params.get(FILTER_PARAMS[id]);
@@ -341,7 +350,6 @@
     });
     if (onlyFavs) url.searchParams.set("favs", "1"); else url.searchParams.delete("favs");
     if (onlyClassics) url.searchParams.set("classics", "1"); else url.searchParams.delete("classics");
-    if (onlySuggested) url.searchParams.set("suggested", "1"); else url.searchParams.delete("suggested");
     if (url.href !== location.href) history[method](null, "", url.href);
   }
 
@@ -352,7 +360,6 @@
     ALL.forEach(function (r) {
       if (onlyFavs && !isFav(r.id)) return;
       if (onlyClassics && !CLASSICS[r.id]) return;
-      if (onlySuggested && !isSuggestedTitle(r)) return;
       if (fb && String(r.batch) !== fb) return;
       if (fm && mediumKey(r) !== fm) return;
       if (fsrc && fsrc.indexOf("status:") === 0) { if ("status:" + sourceStatus(r) !== fsrc) return; }
@@ -382,7 +389,7 @@
   }
 
   function filtersActive() {
-    return onlyFavs || onlyClassics || onlySuggested || Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
+    return onlyFavs || onlyClassics || Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
   }
   function renderList() {
     $("clear-filters").disabled = !filtersActive();
@@ -398,14 +405,15 @@
       var img = el("img"); img.loading = "lazy"; img.src = r.thumb; img.alt = "סריקה: " + recipeTitle(r);
       a.appendChild(img);
       var body = el("div", "card-body");
-      body.appendChild(el("h3", null, recipeTitle(r)));
+      var h3 = el("h3", null, recipeTitle(r));
+      if (usesAssignedTitle(r)) h3.appendChild(titleWarning(r));
+      body.appendChild(h3);
       var meta = el("p", "meta", (srcText(r) ? srcText(r) + " · " : "") + mediumLabel(r.medium));
       body.appendChild(meta);
       var tags = el("p", "tags");
       tags.appendChild(el("span", "tag", batchTitle(r.batch).replace(" - ", " · ")));
       if (CLASSICS[r.id]) tags.appendChild(el("span", "tag classic", "★ קלאסי"));
       if (r.card) tags.appendChild(el("span", "tag", "1 מתוך " + r.card.recipes.length + " באותו " + CARD_KIND[r.card.kind].one));
-      if (usesAssignedTitle(r)) tags.appendChild(el("span", isSuggestedTitle(r) ? "tag warn" : "tag", (isSuggestedTitle(r) ? "⚠ " : "") + assignedKind(r).tag));
       if (pfFields(r).length) { var pt = el("span", "tag ok", "✓ הוגה: " + pfFields(r).map(function (f) { return PF_NAMES[f]; }).join(", ")); tags.appendChild(pt); }
       if (r.needs_human_verification) tags.appendChild(el("span", "tag warn", "דורש הגהה"));
       body.appendChild(tags);
@@ -576,6 +584,7 @@
     document.addEventListener("focusout", function (e) { if (hintOf(e) && !pinned) hide(); });
     document.addEventListener("click", function (e) {
       var t = hintOf(e);
+      if (t) e.preventDefault();                       // an icon inside a card link shows its tooltip instead of opening the recipe
       if (t) { if (pinned === t) hide(); else { show(t); pinned = t; } } else hide();
     });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") hide(); });
@@ -634,6 +643,7 @@
     var tbar = el("div", "titlebar");
     var tw = el("div", "titlewrap");
     tw.appendChild(el("h2", null, recipeTitle(r)));
+    if (usesAssignedTitle(r)) tw.appendChild(titleWarning(r));
     var tb = pfBadge(r, "title") || pfBadge(r, "assigned_title"); if (tb) tw.appendChild(tb);
     if (CLASSICS[r.id]) { var cb = el("span", "tag classic", "★ מהקלאסיים"); cb.title = "מתכון שנבחר לרשימת הקלאסיים של המשפחה"; tw.appendChild(cb); }
     tbar.appendChild(tw);
@@ -642,9 +652,7 @@
     acts.appendChild(shareBox(r));
     tbar.appendChild(acts);
     txt.appendChild(tbar);
-    if (isSuggestedTitle(r)) txt.appendChild(el("p", "banner warn suggested-warning", "⚠ שימו לב: הכותרת שמוצגת כאן היא הצעה בלבד (טרם אושרה): אינה כתובה על הפתק. " + (r.assigned_title_basis ? "בסיס ההצעה: " + r.assigned_title_basis + ". " : "") + "בדקו מול הסריקה."));
-    else if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", assignedKind(r).note));
-    else if (r.assigned_title) txt.appendChild(el("p", "muted", "כינוי / כותרת נוספת לחיפוש: " + r.assigned_title));
+    if (!usesAssignedTitle(r) && r.assigned_title) txt.appendChild(el("p", "muted", "כינוי / כותרת נוספת לחיפוש: " + r.assigned_title));
     if (r.needs_human_verification) {
       var warn = el("p", "banner warn", "תמלול זה דורש הגהה אנושית. השוו מול הסריקה. רמת ביטחון: " + ({high: "גבוהה", medium: "בינונית", low: "נמוכה"}[r.confidence] || r.confidence));
       txt.appendChild(warn);
@@ -722,13 +730,13 @@
   }
 
   // ---- routing --------------------------------------------------------------------
-  // ---- "סיפורים מהאוסף": anecdotes from data/story.json (text = the owner's own words) ---------------
+  // ---- "סיפור המתכונים": anecdotes from data/story.json (text = the owner's own words) ---------------
   function renderStory() {
     var v = $("story-view");
     $("list-view").hidden = true; $("detail-view").hidden = true; v.hidden = false; v.textContent = "";
-    document.title = "סיפורים מהאוסף · המתכונים של אילנה";
+    document.title = "סיפור המתכונים · המתכונים של אילנה";
     var nav = el("p", "back"); var back = el("a", null, "← חזרה לרשימה"); back.href = "#/"; nav.appendChild(back); v.appendChild(nav);
-    v.appendChild(el("h2", null, "סיפורים מהאוסף"));
+    v.appendChild(el("h2", null, "סיפור המתכונים"));
     var box = el("div", "stories"); v.appendChild(box);
     fetch("data/story.json?v=" + (window.SITE_VERSION || Date.now()))
       .then(function (r) { return r.ok ? r.json() : { items: [] }; })

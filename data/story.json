@@ -1,5 +1,5 @@
 {
-  "_comment": "סיפורים מהאוסף: anecdotes shown on the site page #/story. Add items to `items`; the text is the owner's own words (do not rewrite). Images live in assets/story/.",
+  "_comment": "סיפור המתכונים: anecdotes shown on the site page #/story. Add items to `items`; the text is the owner's own words (do not rewrite). Images live in assets/story/.",
   "items": [
     {
       "id": "hamitbach-hamshubach",

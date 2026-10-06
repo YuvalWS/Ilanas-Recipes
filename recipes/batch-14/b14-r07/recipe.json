@@ -27,7 +27,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping with no title visible (the top is cut). A tip line at the end: 'לגיוון: ניתן להוסיף לשקדים גרעיני חמניות או חמוציות.' A small pen stroke at the top left is not text. 'כמו סוכר' is a sugar-substitute product name (written in quotation marks in the clipping).",
     "Owner (2026-10-06): checked the card; it states no source.",
-    "Suggested title 'עוגיות שקדים וחלבונים' added by AI on 2026-10-06 (not on the card; basis: printed method: sliced almonds, egg whites and a sugar substitute, baked into flat cookies). Awaiting the owner's approval."
+    "Suggested title 'עוגיות שקדים וחלבונים' added by AI on 2026-10-06 (not on the card; basis: printed method: sliced almonds, egg whites and a sugar substitute, baked into flat cookies). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוגיות שקדים וחלבונים' (it is not written on the card)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,9 +62,15 @@
       "date": "2026-10-06",
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   },
   "assigned_title": "עוגיות שקדים וחלבונים",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "printed method: sliced almonds, egg whites and a sugar substitute, baked into flat cookies"
 }
