@@ -80,7 +80,7 @@ jobs:
             4. Run `python tools/validate.py`.
             5. Create a branch `fix/issue-${{ github.event.issue.number }}-<id>`, commit, push and open a PR whose body starts with
                "Closes #${{ github.event.issue.number }}" and quotes the reader's report and what you verified. Add the label
-               `pending-corrections`. Do NOT merge. Do not touch data/recipes.json or docs/NEEDS_REVIEW.md (generated).
+               `pending-corrections`. Do NOT merge. Do not touch data/recipes.json or docs/NEEDS_REVIEW.md (generated). AI edits are NOT proofreading: never write the `proofread` field (the owner records it when merging a verified fix).
           claude_args: |
             --allowedTools "Read,Edit,Write,Bash(python tools/validate.py:*),Bash(git:*),Bash(gh:*)"
       # Optional extra e-mail (GitHub already e-mails you about new PRs if you watch the repo).
