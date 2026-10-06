@@ -1,7 +1,7 @@
 {
   "id": "b20-r08",
   "batch": 20,
-  "title": "סלט כרובית",
+  "title": "סלט כרוב",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -15,13 +15,23 @@
         "(1/3) כוס שמן [?] 2/3",
         "1/3 [?] חומץ (בלסמי)"
       ]
+    },
+    {
+      "group": "כרטיס שני",
+      "items": [
+        "7 כפיות סוכר חום",
+        "1 1/2 כפיות מלח",
+        "2 שיני שום כתושות"
+      ]
     }
   ],
   "instructions": [],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Large shaky handwriting on a square card. The underlined first line seems to start with 'סלט' and contains a string of digits that looks like '3236313' (maybe a phone number or a scribble) - unclear. Only 'בצל ירוק', 'כוס שמן', 'חומץ' and '(בלסמי)' and the fractions 1/3, 2/3 could be read, so this is probably a dressing or salad; this is a guess only.",
     "A brown stain (hole?) in the middle of the card.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Second card merged into this recipe: scan 11 (previously the separate record b20-r09, PR #180) - the second square card of the same salad (dressing seasonings: brown sugar, salt, garlic); same card size and the same hole position. Noticed by the owner as part of another recipe; the pairing was found from the cards, not stated on them. The id b20-r09 is intentionally unused.",
+    "Owner (chat, PR #396): the title is 'סלט כרוב' (earlier read as 'סלט כרובית'); no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -30,6 +40,12 @@
       "original_path": "Batch 20/Scanned_20261004-2248-10.jpg",
       "rotation_applied_cw_degrees": 0,
       "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2248-11.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "unknown"
     }
   ],
   "needs_human_verification": true,
@@ -42,10 +58,10 @@
       "reason": "Most words are unreadable; fractions are read from the margins and may belong to different lines."
     },
     {
-      "field": "source",
-      "text": "(none)",
+      "field": "כרטיס שני: title",
+      "text": "[?]",
       "best_guess": null,
-      "reason": "No source written."
+      "reason": "No heading visible; ingredient-only note."
     }
   ],
   "transcription": {
@@ -59,8 +75,20 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "via": "chat (PR #396 instructions)",
       "scope": "confirmed: no source on the card"
+    },
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #180 comment",
+      "scope": "identified as part of another recipe; the pairing was found from the cards"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (PR #396 instructions)",
+      "scope": null
     }
   }
 }
