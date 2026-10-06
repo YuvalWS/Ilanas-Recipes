@@ -1,7 +1,7 @@
 {
   "id": "b06-r10",
   "batch": 6,
-  "title": "רוטב לקציצות [?] [?]",
+  "title": "רוטב לקציצות דג או בקר",
   "source": null,
   "medium": "handwritten",
   "ingredients": [],
@@ -27,7 +27,8 @@
   "notes": [
     "Large shaky writing that fills the card; the card has more lines (about 15) than Gemini's 13-line reading, and the first line is cut by the top edge of the scan, so Gemini's line-by-line alignment could not be confirmed.",
     "The first line reads 'רוטב לקציצות' (a sauce for patties); Gemini's title omitted 'רוטב ל'. Title line has an underline arc.",
-    "Looks like a sauce for fish patties (Gemini: garlic, mayonnaise, tomato paste, sugar, pepper sauce, almonds); only words visible on the card are transcribed here. Recommend a human re-read (or rescan)."
+    "Looks like a sauce for fish patties (Gemini: garlic, mayonnaise, tomato paste, sugar, pepper sauce, almonds); only words visible on the card are transcribed here. Recommend a human re-read (or rescan).",
+    "Owner (PR #195 review comments): title 'רוטב לקציצות דג או בקר' (the last word is cut off, probably בקר)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -41,12 +42,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "title",
-      "text": "רוטב לקציצות [?] [?]",
-      "best_guess": "Gemini: קציצות דג אפויות (omits 'רוטב ל'); earlier reading: no title",
-      "reason": "First two words are clear; the last two are cramped at the top edge of the card."
-    },
     {
       "field": "instructions",
       "text": "שמן [?]",
@@ -106,6 +101,12 @@
       "text": "[?] [?] [?]",
       "best_guess": "Gemini: על אש נמוכה",
       "reason": "Last line; not confirmed on the crop."
+    },
+    {
+      "field": "title",
+      "text": "רוטב לקציצות דג או בקר",
+      "best_guess": "בקר",
+      "reason": "Owner: the last word is cut off on the card; probably בקר."
     }
   ],
   "transcription": {
@@ -114,5 +115,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #195 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }
