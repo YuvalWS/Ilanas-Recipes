@@ -52,6 +52,7 @@ def make_fixture(data):
     b.update(title="מתכון עם שני שמות", medium="handwritten", needs_human_verification=True,
              source={"text": "דנה (רונית)", "names": ["דנה", "רונית"], "type": "person", "as_written": "דנה (רונית)", "uncertain": False},
              notes=["הערת בדיקה אחת", "הערת בדיקה שנייה"],
+             ingredients=[{"group": None, "items": ["כוס קמח אוסם", "2 ביצים"]}],
              proofread={"title": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": None},
                         "source": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": "השם הראשון בלבד"},
                         "ingredients": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": None}})
@@ -251,6 +252,44 @@ def run(browser, base):
     page.locator(f'.cardbox a[href="#/{d["id"]}"]').click()
     expect(page.locator("#detail-view h2")).to_have_text(d["title"])
     print("PASS: suggested-title labelling and same-note links")
+    context.close()
+
+    # ---- glossary hint: 'קמח אוסם' gets a tooltip (hover on a computer, tap on a phone) ----
+    HINT = "קמח אוסם - ככל הנראה הכוונה לקמח תופח"
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    page.locator(f'#grid a[href="#/{b["id"]}"]').click()
+    hint = page.locator("#detail-view .hint")
+    expect(hint).to_have_count(1)
+    expect(hint).to_have_text("קמח אוסם")
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    hint.hover()
+    expect(page.locator("#hint-pop")).to_have_text(HINT)
+    page.locator("#detail-view h2").hover()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    hint.click()                                    # tap: pins the bubble
+    expect(page.locator("#hint-pop")).to_have_text(HINT)
+    page.locator("#detail-view h2").click()         # tap elsewhere closes it
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    box = page.locator("#hint-pop")
+    hint.click()
+    bb = box.bounding_box(); vw = page.viewport_size["width"]
+    assert bb and bb["x"] >= 0 and bb["x"] + bb["width"] <= vw, bb
+    print("PASS: glossary hint on 'קמח אוסם' (hover tooltip, tap to show/hide, stays inside the screen)")
+    context.close()
+    # on a phone-sized touch screen
+    context = browser.new_context(viewport={"width": 375, "height": 700}, has_touch=True, is_mobile=True)
+    context.route("**/data/recipes.json*", lambda route: route.fulfill(json=fixture))
+    context.route("**/data/classics.json*", lambda route: route.fulfill(json={"ids": []}))
+    page = context.new_page()
+    page.on("pageerror", lambda error: errors.append(str(error)))
+    page.goto(base + "#/" + b["id"])
+    page.locator("#detail-view .hint").tap()
+    expect(page.locator("#hint-pop")).to_have_text(HINT)
+    bb = page.locator("#hint-pop").bounding_box()
+    assert bb["x"] >= 0 and bb["x"] + bb["width"] <= 375, bb
+    page.locator("#detail-view h2").tap()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    print("PASS: glossary hint works by tap on a phone-sized screen")
     context.close()
     assert not errors, errors
 
