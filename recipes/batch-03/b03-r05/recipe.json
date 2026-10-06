@@ -1,0 +1,134 @@
+{
+  "id": "b03-r05",
+  "batch": 3,
+  "title": null,
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים (ל־6 סועדים)",
+      "items": [
+        "300 גרם גבינת חלומי פרוסה לפרוסות של 1/2 ס\"מ",
+        "2 כפות קמח",
+        "6 עלי מרווה",
+        "2 כפות לימון פרסי יבש טחון דק",
+        "1/2 כוס שמן זית"
+      ]
+    },
+    {
+      "group": "לירוקים",
+      "items": [
+        "50 גרם גרגירי אפונה טרייה חלוטה",
+        "50 גרם פול טרי חלוט וקלוף",
+        "50 גרם שעועית ירוקה חלוטה ופרוסה למקטעים",
+        "50 גרם שעועית רחבה חלוטה",
+        "1 צרור עלי רוקט",
+        "1 צרור עלי ראשד"
+      ]
+    },
+    {
+      "group": "לפריקה",
+      "items": [
+        "1/2 כוס פריקה",
+        "מיץ לימון לתיבול",
+        "שמן זית לתיבול",
+        "[?]רט כמון"
+      ]
+    },
+    {
+      "group": "לקולי פטרוזיליה",
+      "items": [
+        "1 צרור פטרוזיליה",
+        "1/4 כוס שמן קנולה",
+        "מעט מלח"
+      ]
+    },
+    {
+      "group": "להגשה",
+      "items": [
+        "1/2 כוס שקדים טבעיים שהושרו במים חמים ונקלפו",
+        "1 כפית חרדל איכותי ללא גרעינים",
+        "2 בצלי שאלוט קצוצים דק",
+        "1/4 כוס מיץ לימון",
+        "1/4 כוס שמן זית",
+        "1/2 כוס קרוטונים איכותיים (עדיף תוצרת בית)",
+        "מלח ופלפל שחור לפי הטעם"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מבשלים את הפריקה בסיר מים רותחים כ־15 דקות עד שהיא מוכנה. מסננים ושוטפים. לפני ההגשה מתבלים במיץ לימון, שמן זית ומעט כמון.",
+        "חולטים את האפונה, הפול ושני סוגי השעועית, כל אחד בנפרד, במים רותחים עם מעט מלח למשך חצי דקה עד דקה וחצי. מעבירים מיד למי קרח ומסננים. קולפים את הפול וחותכים את השעועית הירוקה למקטעים. שומרים במקרר.",
+        "שוטפים את עלי הרוקט ועלי הראשד, מייבשים ושומרים במקרר.",
+        "חולטים את הפטרוזיליה כ־4 דקות בסיר מים רותחים ומצננים מיד במי קרח. מסננים מהנוזלים וטוחנים בבלנדר עם 1/4 כוס שמן קנולה ומעט מלח. מסננים ושומרים במקרר.",
+        "מפזרים את כל הירוקים בצלחות ההגשה (פיזור שטוח), וביניהם את הפריקה והשקדים. בקערה נפרדת טורפים את החרדל, בצלי השאלוט, מיץ הלימון ושמן הזית, מתבלים במלח ופלפל ומזלפים על הירקות. מזלפים בין הירקות את קולי הפטרוזיליה.",
+        "במקביל מחממים מחבת טפלון. מקמחים את פרוסות החלומי, מנערים ומטגנים בשמן הזית ועלי המרווה עד להזהבה. מספיגים, מאבקים באבקת הלימון הפרסי ומניחים על הירוקים. מפזרים את הקרוטונים ומגישים מיד."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed newspaper clipping in three pieces: right piece = main ingredients, greens and freekeh; middle piece = continuation of the freekeh list, parsley coulis, serving ingredients and the first steps; left piece = remaining steps. Reading order reconstructed from the text flow (each piece continues mid-sentence from the previous one).",
+    "No recipe title and no publication name appear on the clipping (the top of the right piece starts directly with 'החומרים (ל־6 סועדים):').",
+    "The line '...רט כמון' at the top of the middle piece is the last item of the freekeh ingredients (the instructions season the freekeh with 'מעט כמון'); its first letter is hidden by a folded corner of the clipping.",
+    "The printed text spells the herb 'ראשד' in the ingredient list and 'הראשה' in the instructions; both kept as printed.",
+    "Suggested title 'סלט פריקה עם חלומי' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed list: halloumi slices, sage, dried lemon, olive oil; method cooks freekeh (פריקה) and dresses it with lemon juice). Awaiting the owner's approval."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-06.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[2].items[3]",
+      "text": "[?]רט כמון",
+      "best_guess": "קורט כמון",
+      "reason": "The first letter(s) are covered by a folded corner of the clipping; only 'רט כמון' is visible."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title is printed on the surviving clipping pieces; it was probably cut off."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The publication is not visible on the scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "סלט פריקה עם חלומי",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "printed list: halloumi slices, sage, dried lemon, olive oil; method cooks freekeh (פריקה) and dresses it with lemon juice",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}
