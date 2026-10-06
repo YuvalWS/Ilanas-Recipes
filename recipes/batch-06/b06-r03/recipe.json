@@ -20,6 +20,13 @@
         "2-3 כפות [?]",
         "גזר, בצל קטן ומים - [?]"
       ]
+    },
+    {
+      "group": "כרטיס שני",
+      "items": [
+        "סוכר 2 כפות גדושות",
+        "פלפל השחור"
+      ]
     }
   ],
   "instructions": [
@@ -34,6 +41,26 @@
         "[?] [?] [?]",
         "[?] [?] [?] [?]"
       ]
+    },
+    {
+      "group": "כרטיס שני",
+      "steps": [
+        "להשאיר את התערובת זמן מה כדי [?]",
+        "אולי מעט סוכר בתערובת",
+        "לאחר כ-3/4 בישול להוסיף למים",
+        "סוכר 2 כפות גדושות ופלפל השחור",
+        "ליצור קציצות [?] למים שרותחים",
+        "ב[?] [?]",
+        "ומכסין [?]",
+        "פילה [?] [?] 1[?]80 טחון",
+        "כ-[?] ביצים קשות [?]",
+        "[?] 1[?]30 - 7 [?]",
+        "8 ביצים [?]",
+        "7 כפות שקדים",
+        "1½ בצל גדול מרוסק או 2 קטנים",
+        "900 גר' [?] [?]",
+        "[?] 3/4 קשות. 4 [?] [?]"
+      ]
     }
   ],
   "notes": [
@@ -42,7 +69,8 @@
     "Two crossed-out passages (one beside the onion line, one in the lower-left rows) are not transcribed.",
     "Compare with scan 06, which carries the same heading.",
     "Gemini's reading (second opinion) was used only where it matched the ink; its extra phrases (e.g. 'fish meat chopped fine', 'fry in microwave', 'ice water', 'black pepper and sugar', 'teaspoon of salt') could not be confirmed on the card and were not copied.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Second card merged into this recipe: scan 05 (previously the separate record b06-r04, PR #170) - the second card of the same stuffed-fish recipe (continuation: sugar, pepper, shaping the patties, cooking in boiling water; weights). Noticed by the owner as part of another recipe; the pairing was found from the cards, not stated on them. The id b06-r04 is intentionally unused."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -51,6 +79,12 @@
       "original_path": "Batch 6/Scanned_20261004-2126-04.jpg",
       "rotation_applied_cw_degrees": 0,
       "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-05.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "unknown"
     }
   ],
   "needs_human_verification": true,
@@ -115,6 +149,66 @@
       "text": "[?] [?] [?] / [?] [?] [?] [?]",
       "best_guess": "Gemini: כוס וחצי מי קרח / כפית מלח (not confirmed on card)",
       "reason": "Two rows (one containing a struck-out word) are not legible on the scan."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "להשאיר את התערובת זמן מה כדי [?]",
+      "best_guess": "Earlier reading: שיתפח; Gemini: 'בצד עם כדורי הדגים' (does not match the ink)",
+      "reason": "Last word of the second row is unclear."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "ליצור קציצות [?] למים שרותחים",
+      "best_guess": "Gemini: ולהכניס",
+      "reason": "Word between 'קציצות' and 'למים' unclear."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "ב[?] [?]",
+      "best_guess": "Earlier reading: 'בחתיכה'; Gemini: 'שמירת החתיכות במקרר'",
+      "reason": "Row 8 words unclear."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "ומכסין [?]",
+      "best_guess": "Gemini: לסגור מכסה",
+      "reason": "Last word of row 9 unclear."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "פילה [?] [?] 1[?]80 טחון",
+      "best_guess": "Earlier reading: 1780; Gemini: 1500-1720 גרם",
+      "reason": "Heading of first quantity block; digits are overwritten."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "כ-[?] ביצים קשות [?]",
+      "best_guess": "Gemini: 3",
+      "reason": "Quantity glyph unclear."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "[?] 1[?]30 - 7 [?]",
+      "best_guess": "Earlier reading: 1730 - 7; Gemini: 1500 - 1720",
+      "reason": "Digits overwritten, row clipped at left edge."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "8 ביצים [?]",
+      "best_guess": "Earlier reading: רכות; Gemini reads the similar word on scan 03 as טרופות",
+      "reason": "Word after the ditto marks unclear."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "900 גר' [?] [?]",
+      "best_guess": "Gemini: 900 גרם דג",
+      "reason": "Words after 900 unclear."
+    },
+    {
+      "field": "כרטיס שני: instructions",
+      "text": "[?] 3/4 קשות. 4 [?] [?]",
+      "best_guess": "Gemini: 2.75 ביצים קשות, 4 ביצים רגילות; earlier reading: 1 3/4",
+      "reason": "Whole-number digit differs between readings (1 vs 2); row end clipped."
     }
   ],
   "transcription": {
@@ -130,6 +224,12 @@
       "date": "2026-10-06",
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
+    },
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #170 comment",
+      "scope": "identified as part of another recipe; the pairing was found from the cards"
     }
   }
 }
