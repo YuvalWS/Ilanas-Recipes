@@ -1,0 +1,76 @@
+{
+  "id": "b11-r15",
+  "batch": 11,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] הבצל [?] גזר קוביות",
+        "מטגנים מעט",
+        "להוסיף את האפונה",
+        "[?] המים והתבלינים",
+        "לבשל על אש קטנה שעתיים",
+        "להוסיף [?] [?]",
+        "עוד [?] [?] [?].",
+        "מרוסק."
+      ]
+    }
+  ],
+  "notes": [
+    "Plain yellow card, no letterhead; cramped but regular handwriting. The card seems to describe the cooking of a (lentil?) soup with onion and carrot cubes, but several words are unclear. Probably a continuation or a variant of a soup on neighbouring scans, but this is not certain.",
+    "Suggested title 'תבשיל אפונה וגזר' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: method: onion, carrot cubes, then peas). Awaiting the owner's approval."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-16.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-16.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title."
+    },
+    {
+      "field": "instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Words partly unclear; the topic (lentil soup) is only an impression based on 'להוסיף את העדשים'."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "תבשיל אפונה וגזר",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "method: onion, carrot cubes, then peas",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}
