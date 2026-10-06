@@ -1,0 +1,67 @@
+{
+  "id": "b16-r01",
+  "batch": 16,
+  "title": "איטריות ואורז",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 כפות שמן — לחמם",
+        "1 כוס איטריות — להשחים בשמן",
+        "כשחום להוסיף 1 כוס אורז",
+        "לערבב ביחד",
+        "2 כוסות מים רותחים",
+        "תבלינים או מרק פרווה — כף"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב ולהרתיח",
+        "לבשל כ־18 דקות [?]",
+        "[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Ruled notebook-paper card with a torn top edge and stains. Side 1 has a wavy-underlined title 'פשטידת [?]' (the second word is unclear). Side 2 (the back) has only two lines in dark ink plus faint bleed-through from side 1; the dark lines read roughly 'אפשר לבשל? [?] מוכנים/מלוחים [?] נקיים. [?] [?] מוצא ...'.",
+    "Both sides are assumed to belong to one recipe (same paper).",
+    "180° was a misreading: line refers to approximately 18 minutes cooking. Reverse has a separate topping suggestion and faded show-through."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-01.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2223-02.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Faded/clipped last cooking words and marginal annotation."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
