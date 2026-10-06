@@ -19,7 +19,8 @@
   "instructions": [],
   "notes": [
     "Dressing ingredient list; no title or source on the card. Ditto marks expanded (one under 'כוס' and one under 'שמן' on the canola line; one under 'כוס' on the vinegar line). Appears to be the back of the yellow card in scan 13 (faint show-through of the other side at the bottom).",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Suggested title 'רוטב לסלט (שמן שומשום ובלסמי)' added by AI on 2026-10-06 (not on the card; basis: ingredient list only: sesame oil, canola oil, balsamic vinegar, honey, salt and pepper). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -47,5 +48,8 @@
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
     }
-  }
+  },
+  "assigned_title": "רוטב לסלט (שמן שומשום ובלסמי)",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "ingredient list only: sesame oil, canola oil, balsamic vinegar, honey, salt and pepper"
 }
