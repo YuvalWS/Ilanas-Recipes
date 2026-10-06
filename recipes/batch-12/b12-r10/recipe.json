@@ -1,0 +1,86 @@
+{
+  "id": "b12-r10",
+  "batch": 12,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 בצלים לרצועות (מספיק 2 גדולים)",
+        "3 כפות טריאקי",
+        "3 כפות דבש - לא חייבים (לטעום)",
+        "1.4 כפית מלח",
+        "1.4 כפית פלפל שחור גרוס"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "טיגון הבצל שיזהיב",
+        "להוסיף הפרגיות והמרינדה",
+        "ומעל את שאר המצרכים לערבב",
+        "היטב לכסות הסיר ולבשל",
+        "כ-20 ד',",
+        "לטעום אם יש צורך לשפר"
+      ]
+    }
+  ],
+  "notes": [
+    "Corrected by the owner in review comments on PR #245: his typed readings replace the earlier AI transcription of the same lines.",
+    "Ditto marks expanded: the marks before 'דבש' stand for 'כפות', and the two marks before 'פלפל שחור גרוס' for '1.4 כפית'.",
+    "Suggested title 'פרגיות בטריאקי עם בצל' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: owner-typed text: onions, teriyaki, honey, and 'הפרגיות והמרינדה'). Awaiting the owner's approval."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2205-12.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-12.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "1.4 כפית מלח",
+      "best_guess": "1/4 כפית מלח",
+      "reason": "The owner typed '1.4' (probably meaning 1/4); kept as typed."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title on the card."
+    }
+  ],
+  "transcription": {
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  },
+  "assigned_title": "פרגיות בטריאקי עם בצל",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "owner-typed text: onions, teriyaki, honey, and 'הפרגיות והמרינדה'",
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #245 review comments",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #245 review comments",
+      "scope": null
+    }
+  }
+}
