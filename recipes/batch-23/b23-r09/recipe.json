@@ -71,5 +71,25 @@
   },
   "assigned_title": "עוגיות גבינה צהובה ושומשום (מלוחות)",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "savory dough: flour, margarine, onion-soup powder, grated yellow cheese; rolled, brushed with yolk and sesame"
+  "assigned_title_basis": "savory dough: flour, margarine, onion-soup powder, grated yellow cheese; rolled, brushed with yolk and sesame",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #293 review comments",
+      "scope": "confirmed untitled"
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #293 review comments",
+      "scope": "one line (the unnamed 9% dairy ingredient)"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #293 review comments",
+      "scope": "lines 2-4"
+    }
+  }
 }
