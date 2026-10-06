@@ -3,10 +3,10 @@
   "batch": 13,
   "title": "עוגת ביסקויט",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "ציפי פ.",
+    "type": "person",
+    "as_written": "ציפי פ.",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -36,7 +36,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. A bracket on the left groups a blue-ink note of five short lines that cannot be read. The title is underlined with a wavy line; the word after the slash (a name?) is unclear.",
     "Layered biscuit-and-cream cake; scan 02 (a card about biscuits dipped in milk) may be a continuation or a related card - not certain.",
-    "Independent reread resolves cream-whipping vanilla product, white cheese, and instant vanilla; no missing package units supplied."
+    "Independent reread resolves cream-whipping vanilla product, white cheese, and instant vanilla; no missing package units supplied.",
+    "Source set by the owner (issue #359): ציפי פ.."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -50,12 +51,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "word after the slash",
-      "best_guess": null,
-      "reason": "Unreadable (maybe a first name starting with ב)."
-    },
     {
       "field": "instructions[1]",
       "text": "בתבנית [?] [?] שכבה [?]",
@@ -75,5 +70,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #359",
+      "scope": null
+    }
   }
 }
