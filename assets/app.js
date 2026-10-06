@@ -698,11 +698,38 @@
   }
 
   // ---- routing --------------------------------------------------------------------
+  // ---- "סיפורים מהאוסף": anecdotes from data/story.json (text = the owner's own words) ---------------
+  function renderStory() {
+    var v = $("story-view");
+    $("list-view").hidden = true; $("detail-view").hidden = true; v.hidden = false; v.textContent = "";
+    document.title = "סיפורים מהאוסף · המתכונים של אילנה";
+    var nav = el("p", "back"); var back = el("a", null, "← חזרה לרשימה"); back.href = "#/"; nav.appendChild(back); v.appendChild(nav);
+    v.appendChild(el("h2", null, "סיפורים מהאוסף"));
+    var box = el("div", "stories"); v.appendChild(box);
+    fetch("data/story.json?v=" + (window.SITE_VERSION || Date.now()))
+      .then(function (r) { return r.ok ? r.json() : { items: [] }; })
+      .catch(function () { return { items: [] }; })
+      .then(function (d) {
+        if (!(d.items || []).length) { box.appendChild(el("p", "muted", "אין עדיין סיפורים.")); return; }
+        d.items.forEach(function (it) {
+          var f = el("figure", "story");
+          if (it.image) { var img = el("img"); img.src = it.image; img.alt = it.image_alt || ""; img.loading = "lazy"; f.appendChild(img); }
+          var body = el("div", "story-body");
+          body.appendChild(el("h3", null, it.title || ""));
+          body.appendChild(el("p", "story-text", it.text || ""));
+          if (it.caption) body.appendChild(el("p", "muted story-caption", it.caption));
+          f.appendChild(body); box.appendChild(f);
+        });
+      });
+  }
+
   function route() {
     if (!DATA) return;
     readFiltersFromUrl();
     updateFavLabels();
     var m = location.hash.match(/^#\/(b\d+-r\d+)$/);
+    $("story-view").hidden = true;
+    if (location.hash === "#/story") return renderStory();
     if (m) return renderDetail(m[1]);
     document.title = "המתכונים של אילנה";
     $("detail-view").hidden = true; $("list-view").hidden = false;

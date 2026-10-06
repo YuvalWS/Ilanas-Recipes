@@ -54,5 +54,12 @@ if os.path.exists(cp) and not sys.argv[1:]:
     for cid in json.load(open(cp, encoding="utf-8")).get("ids", []):
         if cid not in seen:
             print(f"data/classics.json: unknown recipe id {cid}"); errors += 1
+sp = os.path.join(ROOT, "data", "story.json")         # story items need text, and their pictures must exist
+if os.path.exists(sp) and not sys.argv[1:]:
+    for it in json.load(open(sp, encoding="utf-8")).get("items", []):
+        if not it.get("text"):
+            print(f"data/story.json: item {it.get('id')} has no text"); errors += 1
+        if it.get("image") and not os.path.exists(os.path.join(ROOT, it["image"])):
+            print(f"data/story.json: missing picture {it['image']}"); errors += 1
 print(f"checked {len(dirs)} recipes, {errors} problem(s)")
 sys.exit(1 if errors else 0)
