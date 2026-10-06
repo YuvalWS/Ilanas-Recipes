@@ -66,5 +66,25 @@
     "human_verified": true,
     "verified_by": "Yuval (owner)",
     "verified_at": "2026-10-06"
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #286 review comments",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #286 review comments",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #286 review comments",
+      "scope": null
+    }
   }
 }

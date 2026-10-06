@@ -69,5 +69,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #328",
+      "scope": "scan rotated 180 degrees"
+    }
   }
 }

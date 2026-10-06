@@ -87,5 +87,31 @@
     "human_verified": true,
     "verified_by": "Yuval (owner)",
     "verified_at": "2026-10-06"
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #96 review comments",
+      "scope": "visible part '26' only; the torn start is not read"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #96 review comments",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #96 review comments",
+      "scope": "last line only"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #96 review comments",
+      "scope": "front-side steps"
+    }
   }
 }
