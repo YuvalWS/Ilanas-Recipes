@@ -92,5 +92,13 @@
   },
   "assigned_title": "פילה מדומה עם אגסים ויין אדום",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "printed list: 800 g 'פילה מדומה' beef, red wine, 6 hard pears, onion"
+  "assigned_title_basis": "printed list: 800 g 'פילה מדומה' beef, red wine, 6 hard pears, onion",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    }
+  }
 }
