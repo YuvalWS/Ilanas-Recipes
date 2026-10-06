@@ -38,7 +38,8 @@
     "No title on the card; it is a fried cauliflower with a lemon, olive oil, garlic and parsley dressing (judging by the ingredients and steps).",
     "A second recipe (a salad with broccoli and cranberries) starts below a ruled line at the bottom of the card - kept as the next record.",
     "The line 'מבשלים 10 ד' בדיוק' reads '10 minutes exactly'.",
-    "Bottom contains a separate crossed-through cabbage/cranberry salad note. It is only partially captured and must not be silently treated as cauliflower instructions."
+    "Bottom contains a separate crossed-through cabbage/cranberry salad note. It is only partially captured and must not be silently treated as cauliflower instructions.",
+    "Suggested title 'כרובית בלימון ושום' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: cauliflower florets boiled 10 minutes; lemon juice, garlic, parsley, olive oil). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -95,5 +96,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "כרובית בלימון ושום",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "cauliflower florets boiled 10 minutes; lemon juice, garlic, parsley, olive oil"
 }
