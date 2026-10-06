@@ -1,12 +1,12 @@
 {
   "id": "b22-r05",
   "batch": 22,
-  "title": "עוגת [?] של 6 ביצים",
+  "title": "טורט של 6 ביצים",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": "(a short bracket at the right edge, partly torn, is labeled 'מיקסר …')",
+      "group": "במיקסר היטב",
       "items": [
         "2 חב' גבינה",
         "1 1/4 כוס סוכר",
@@ -21,14 +21,15 @@
     {
       "group": null,
       "steps": [
-        "1/3 מוסרת לאפות",
+        "1/3 מהטורט לאפות",
         "1/3 מערבבים עם החומרים והגבינה",
         "1/3 לשפוך מלמעלה"
       ]
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Lined notepaper, torn across the middle; the title is cut off at the right edge. Fractions '1/3' appear at the start of three lines but their meaning is not clear."
+    "Corrected by the owner in review comments on PR #278: his typed readings replace the earlier AI transcription of the same lines.",
+    "Owner's remarks: the title is 'טורט של 6 ביצים'; the bracket at the side says 'במיקסר היטב'; the first step reads 'מהטורט' (not 'מוסרת')."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -40,32 +41,20 @@
     }
   ],
   "needs_human_verification": true,
-  "confidence": "low",
+  "confidence": "medium",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
-      "field": "ingredients",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
       "field": "instructions",
-      "text": "[?]",
+      "text": "1/3 ... (three '1/3' lines)",
       "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
+      "reason": "Meaning of the three 1/3 lines is not stated on the card (AI note kept); the layer order is as written."
     }
   ],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   }
 }
