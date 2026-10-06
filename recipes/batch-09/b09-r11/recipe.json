@@ -1,0 +1,93 @@
+{
+  "id": "b09-r11",
+  "batch": 9,
+  "title": "בקר",
+  "source": {
+    "text": "חגית",
+    "type": "person",
+    "as_written": "חגית",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 [?] [?] (note at top left, in parentheses)",
+        "בצל",
+        "2 שיני שום",
+        "מלח, [?], פלפל שחור",
+        "תבלין סטייק"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטגן פרוסות בצל",
+        "עד [?] חומות [?]",
+        "[?] [?] [?] שיני שום",
+        "קצת [?] ו[?] [?]",
+        "[?] [?]",
+        "מלח, [?] מרק, פלפל שחור",
+        "[?] [?] [?], תבלין סטייק",
+        "[?] [?] [?] [?] [?] [?] [?]",
+        "(reverse side) לערבב [?] התבלינים",
+        "(reverse side) [?] [?] ברוטב [?]",
+        "(reverse side) וה[?] [?] [?] מהקרוב?",
+        "(reverse side) [?] [?], ל[?] [?]",
+        "(reverse side) והבשר [?] [?] [?] ה[?] סיום",
+        "(reverse side) ו[?] [?]ד [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Both scans were upside down and were rotated 180 degrees. Card with a staple at the top. Heading 'בקר / חגית' (beef / [name]). The front starts with frying sliced onion until brown, then garlic and spices including 'תבלין סטייק' (steak seasoning); the back continues with mixing the spices and the sauce.",
+    "Several lines are only partly legible; a short note in parentheses at the top left of the front is unreadable."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-13.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-13.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2153-14.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-14.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "חגית",
+      "best_guess": "חגית",
+      "reason": "Name after the slash read as 'חגית'; the middle letters are unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Only about half of the words are readable."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 14 assumed to continue scan 13."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
