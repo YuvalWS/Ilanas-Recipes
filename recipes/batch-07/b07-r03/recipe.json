@@ -37,7 +37,8 @@
     "Small square card with a printed rule at the top edge; a column of quantities (right) with items to their left, a bracket '(' around the upper-middle area, and a left column of three short lines each starting with '1'. A crossed-out word is in the third row. No title is visible.",
     "The first two rows (oil, lemon juice) look like the start of a dressing; the lower rows (almonds, apple) look like salad ingredients, but the card does not say so.",
     "Suggested title 'סלט עם חמוציות ושקדים' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: ingredient list includes a handful of cranberries and sliced almonds). Awaiting the owner's approval.",
-    "Owner (PR #242): the card is untitled; source פנינה."
+    "Owner (PR #242): the card is untitled; source פנינה.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט עם חמוציות ושקדים' (it is not written on the card)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -114,7 +115,7 @@
     "verified_at": null
   },
   "assigned_title": "סלט עם חמוציות ושקדים",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "ingredient list includes a handful of cranberries and sliced almonds",
   "proofread": {
     "source": {
@@ -128,6 +129,12 @@
       "date": "2026-10-06",
       "via": "PR #242 review comments",
       "scope": "confirmed untitled"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   }
 }

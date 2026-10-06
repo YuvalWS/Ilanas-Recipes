@@ -40,7 +40,8 @@ def run(browser, base):
     # ---- start state ----
     expect(page.locator("#grid .card")).to_have_count(4)
     expect(page.locator("#t-favs")).to_have_text("♥ המועדפים שלי (0)")
-    expect(page.locator("#fav-share")).to_be_disabled()
+    expect(page.locator("#fav-share")).to_be_hidden()                 # sharing/importing favorites is hidden for now
+    expect(page.locator("#fav-import")).to_be_hidden()
     expect(page.locator("#t-classics")).to_have_text("★ הקלאסיים (2)")
     page.locator("#t-favs").click()
     expect(page.locator("#grid .empty")).to_contain_text("עדיין אין מועדפים")
@@ -101,14 +102,14 @@ def run(browser, base):
     print("PASS: הקלאסיים toggle, tags, combination with favorites, badge on the recipe page")
 
     # ---- share link + import in a fresh browser context ----
-    page.goto(base)
+    page.goto(base + "?favtransfer=1")                                  # the hidden switch brings the feature back
     card_heart(page, c["id"]).click()
     expect(page.locator("#fav-share")).to_be_enabled()
     page.locator("#fav-share").click()
     link = page.evaluate("window.__copied")
     assert link and "?addfavs=" in link and b["id"] in link and c["id"] in link and a["id"] not in link, link
     ctx2, p2 = new_fixture_page(browser, base, fixture, errors)
-    p2.goto(base.rstrip("/") + "/?addfavs=" + link.split("?addfavs=")[1] + ",zz-99-r99")
+    p2.goto(base.rstrip("/") + "/?favtransfer=1&addfavs=" + link.split("?addfavs=")[1] + ",zz-99-r99")
     expect(p2.locator("#fav-banner")).to_contain_text("2 מתכונים חדשים")
     p2.locator("#fav-banner button", has_text="הוספה למועדפים").click()
     expect(p2.locator("#t-favs")).to_have_text("♥ המועדפים שלי (2)")
@@ -117,9 +118,16 @@ def run(browser, base):
     p2.goto(base)
     expect(p2.locator("#fav-banner")).to_be_hidden()
     ctx2.close()
+    # without the switch an ?addfavs= link does nothing
+    ctx4, p4 = new_fixture_page(browser, base, fixture, errors)
+    p4.goto(base.rstrip("/") + "/?addfavs=" + link.split("?addfavs=")[1])
+    expect(p4.locator("#grid .card").first).to_be_visible()
+    expect(p4.locator("#fav-banner")).to_be_hidden()
+    expect(p4.locator("#t-favs")).to_have_text("♥ המועדפים שלי (0)")
+    ctx4.close()
     # manual import (paste a link or ids)
     ctx3, p3 = new_fixture_page(browser, base, fixture, errors)
-    p3.goto(base)
+    p3.goto(base + "?favtransfer=1")
     p3.once("dialog", lambda dlg: dlg.accept(f"{a['id']}, {d['id']}"))
     p3.locator("#fav-import").click()
     expect(p3.locator("#fav-banner")).to_contain_text("2 מתכונים חדשים")

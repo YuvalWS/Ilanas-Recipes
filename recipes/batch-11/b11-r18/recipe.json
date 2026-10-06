@@ -22,7 +22,8 @@
   "notes": [
     "Yellow memo card of a contracting company (printed letterhead with phone/fax), stapled to neighbouring cards. Seven lines of fairly large writing that look like additions or variants for a soup (for example 'or with ...', 'olive oil 2-3 tablespoons', 'in canola oil'). Probably related to scans 17-18 (green pea soup), but this is not certain.",
     "Owner (PR #206): the card has no title and no source.",
-    "Suggested title 'תוספות והערות למרק (לא בטוח)' added by AI on 2026-10-06 (not on the card; basis: short variant lines (vegetables, olive oil, canola oil) on a card probably tied to the green pea soup next to it; weak guess). Awaiting the owner's approval."
+    "Suggested title 'תוספות והערות למרק (לא בטוח)' added by AI on 2026-10-06 (not on the card; basis: short variant lines (vegetables, olive oil, canola oil) on a card probably tied to the green pea soup next to it; weak guess). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'תוספות והערות למרק (לא בטוח)' (it is not written on the card)."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company"
@@ -64,9 +65,15 @@
       "date": "2026-10-06",
       "via": "PR #206 (chat)",
       "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   },
   "assigned_title": "תוספות והערות למרק (לא בטוח)",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "short variant lines (vegetables, olive oil, canola oil) on a card probably tied to the green pea soup next to it; weak guess"
 }

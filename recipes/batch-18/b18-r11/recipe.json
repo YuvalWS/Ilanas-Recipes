@@ -28,7 +28,8 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Top line (title) is crowded and partly overwritten; a word at the top left ('רונית'?) might be a name. The ingredient list continues to the bottom of the card and one line ('2 כפות סוכר') is struck through.",
     "Owner (chat, 2026-10-06): the source is רונית; the card has no title; it is some cake.",
-    "Suggested title 'עוגת צימוקים' added by AI on 2026-10-06 (not on the card; basis: owner: 'some cake'; ingredients are raisins, flour, eggs and sugar). Awaiting the owner's approval."
+    "Suggested title 'עוגת צימוקים' added by AI on 2026-10-06 (not on the card; basis: owner: 'some cake'; ingredients are raisins, flour, eggs and sugar). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוגת צימוקים' (it is not written on the card)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -68,9 +69,15 @@
       "date": "2026-10-06",
       "via": "chat",
       "scope": null
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   },
   "assigned_title": "עוגת צימוקים",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "owner: 'some cake'; ingredients are raisins, flour, eggs and sugar"
 }

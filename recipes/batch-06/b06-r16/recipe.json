@@ -39,7 +39,8 @@
     "Ditto mark expanded: the mark before 'יין לבן' stands for 'מעט' (the word above).",
     "Owner (PR #220 review comments): no title, no source; garlic/rosemary/wine lines and the method typed by the owner.",
     "Suggested title updated to 'דג ברוטב מיונז וקטשופ' after the owner's report (issue #412); basis: owner (issue #412): it looks like a fish recipe (the method says to spread the sauce on the fish) and the title should include fish; mayonnaise, ketchup, rosemary, white wine. Still a suggestion awaiting the owner's approval; not written on the card.",
-    "Owner (issue #412) wonders whether this card continues another recipe; it may be the sauce card that goes with the salmon card b06-r15 (same yellow card, staple at the same corner, same pen) - to be inspected."
+    "Owner (issue #412) wonders whether this card continues another recipe; it may be the sauce card that goes with the salmon card b06-r15 (same yellow card, staple at the same corner, same pen) - to be inspected.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'דג ברוטב מיונז וקטשופ' (it is not written on the card)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,7 +62,7 @@
     "verified_at": null
   },
   "assigned_title": "דג ברוטב מיונז וקטשופ",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "owner (issue #412): it looks like a fish recipe (the method says to spread the sauce on the fish) and the title should include fish; mayonnaise, ketchup, rosemary, white wine",
   "proofread": {
     "title": {
@@ -87,6 +88,12 @@
       "date": "2026-10-06",
       "via": "PR #220 review comments",
       "scope": "typed by the owner"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   }
 }

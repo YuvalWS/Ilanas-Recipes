@@ -32,7 +32,8 @@
     "Clipping without a title: it starts with the dressing ingredient list; the list of salad ingredients and the title above it are cut off. From the instructions it is a salad of lentils, spinach leaves, onion, chili and coriander (spinach, lentils, onion, chili and coriander are only named in the method).",
     "Printed at the bottom: 'adonimeir@gmail.com' (probably the author's e-mail address; not claimed as the source).",
     "Owner (2026-10-06): checked the card; it states no source.",
-    "Suggested title 'סלט עדשים ותרד' added by AI on 2026-10-06 (not on the card; basis: the method names lentils, spinach leaves, onion, chili and coriander with a dressing). Awaiting the owner's approval."
+    "Suggested title 'סלט עדשים ותרד' added by AI on 2026-10-06 (not on the card; basis: the method names lentils, spinach leaves, onion, chili and coriander with a dressing). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט עדשים ותרד' (it is not written on the card)."
   ],
   "incidental_text": [
     "Printed e-mail address at the bottom of the clipping: adonimeir@gmail.com"
@@ -74,9 +75,15 @@
       "date": "2026-10-06",
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   },
   "assigned_title": "סלט עדשים ותרד",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "the method names lentils, spinach leaves, onion, chili and coriander with a dressing"
 }
