@@ -2,7 +2,12 @@
   "id": "b07-r03",
   "batch": 7,
   "title": null,
-  "source": null,
+  "source": {
+    "text": "פנינה",
+    "type": "person",
+    "as_written": "פנינה",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -31,7 +36,8 @@
     "Handwriting is very shaky and only partly legible; unreadable words are [?].",
     "Small square card with a printed rule at the top edge; a column of quantities (right) with items to their left, a bracket '(' around the upper-middle area, and a left column of three short lines each starting with '1'. A crossed-out word is in the third row. No title is visible.",
     "The first two rows (oil, lemon juice) look like the start of a dressing; the lower rows (almonds, apple) look like salad ingredients, but the card does not say so.",
-    "Suggested title 'סלט עם חמוציות ושקדים' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: ingredient list includes a handful of cranberries and sliced almonds). Awaiting the owner's approval."
+    "Suggested title 'סלט עם חמוציות ושקדים' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: ingredient list includes a handful of cranberries and sliced almonds). Awaiting the owner's approval.",
+    "Owner (PR #242): the card is untitled; source פנינה."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -109,5 +115,19 @@
   },
   "assigned_title": "סלט עם חמוציות ושקדים",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "ingredient list includes a handful of cranberries and sliced almonds"
+  "assigned_title_basis": "ingredient list includes a handful of cranberries and sliced almonds",
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #242 review comments",
+      "scope": null
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #242 review comments",
+      "scope": "confirmed untitled"
+    }
+  }
 }
