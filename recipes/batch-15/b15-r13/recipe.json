@@ -3,10 +3,14 @@
   "batch": 15,
   "title": "פשטידת פטריות",
   "source": {
-    "text": "[?] (מאירה?)",
+    "text": "חיה (מאירה)",
     "type": "person",
-    "as_written": "(מאירה?)",
-    "uncertain": true
+    "as_written": "חיה (מאירה)",
+    "uncertain": false,
+    "names": [
+      "חיה",
+      "מאירה"
+    ]
   },
   "medium": "handwritten",
   "ingredients": [
@@ -39,7 +43,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Yellow sticky-note card, both sides. Front: title 'פשטידת פטריות / [?]' with a wavy underline and a word in parentheses at the left that looks like 'מאירה' (the same name appears in the title of a cheese quiche in this batch); numbered ingredients 1-9. Back: a printed letterhead of a contracting company (tel. 03-9658336, fax 03-9653845) and the heading 'הכנה:' with numbered steps.",
-    "The ditto marks on line 3 stand for 'גבינה'."
+    "The ditto marks on line 3 stand for 'גבינה'.",
+    "Source set by the owner (issue #329): חיה (מאירה). Both names are listed in the source filter (source.names): חיה and מאירה."
   ],
   "incidental_text": [
     "Printed letterhead on the back: a brick-pattern logo, 'חברה לקבלנות בע\"מ', tel. 03-9658336, fax. 03-9653845"
@@ -61,12 +66,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "[?] (מאירה?)",
-      "best_guess": null,
-      "reason": "The word in parentheses looks like 'מאירה'; the word after the slash in the title is unclear."
-    },
     {
       "field": "ingredients[1]",
       "text": "[250?] גר' גבינה 5%",
@@ -98,5 +97,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #329",
+      "scope": null
+    }
   }
 }

@@ -64,6 +64,8 @@
     });
 
   function srcText(r) { return r.source ? r.source.text : ""; }
+  // One source line can name several people (source.names): the filter lists the recipe under each of them.
+  function srcNames(r) { return !r.source ? [] : (r.source.names && r.source.names.length ? r.source.names : (r.source.text ? [r.source.text] : [])); }
   function recipeTitle(r) { return r.title || r.assigned_title || "(ללא כותרת)"; }
   function usesAssignedTitle(r) { return !r.title && !!r.assigned_title; }
   // How an assigned_title is described to readers (it is never the heading written on the card).
@@ -141,10 +143,8 @@
     });
     var seen = { person: new Map(), publication: new Map() };
     ALL.forEach(function (r) {
-      var s = srcText(r);
-      if (!s) return;
       var group = seen[sourceGroup(r)];
-      group.set(s, (group.get(s) || 0) + 1);
+      srcNames(r).forEach(function (s) { group.set(s, (group.get(s) || 0) + 1); });
     });
     var fs = $("f-source");
     ["person", "publication"].forEach(function (category) {
@@ -202,7 +202,7 @@
     ALL.forEach(function (r) {
       if (fb && String(r.batch) !== fb) return;
       if (fm && r.medium !== fm) return;
-      if (fsrc && (!r.source || sourceGroup(r) + ":" + srcText(r) !== fsrc)) return;
+      if (fsrc && (!r.source || srcNames(r).map(function (nm) { return sourceGroup(r) + ":" + nm; }).indexOf(fsrc) < 0)) return;
       if (fv === "need" && !r.needs_human_verification) return;
       if (fv === "ok" && r.needs_human_verification) return;
       var s = toks.length ? score(r, toks) : 1;
