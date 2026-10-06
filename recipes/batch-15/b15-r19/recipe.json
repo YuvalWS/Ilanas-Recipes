@@ -46,7 +46,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Two sides of one card (the front was assumed from the title line 'פשטידת גבינות / מאירה'). Front: a line with a blue underline and a crossed-out phrase 'שמנת או שלי או חלב' followed by 'יוגורט' written in grey. Back: a similar recipe with fractions of cups and semolina, written very densely; several words cannot be read."
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Two sides of one card (the front was assumed from the title line 'פשטידת גבינות / מאירה'). Front: a line with a blue underline and a crossed-out phrase 'שמנת או שלי או חלב' followed by 'יוגורט' written in grey. Back: a similar recipe with fractions of cups and semolina, written very densely; several words cannot be read.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -97,5 +98,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

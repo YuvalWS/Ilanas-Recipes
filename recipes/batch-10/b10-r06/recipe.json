@@ -50,7 +50,8 @@
   "notes": [
     "Printed clipping, typed text, clear. The title's last word is cut by the left edge of the scan ('בתנו[ר]'). A subtitle line reads 'הבשמל? טבעוני כמובן!'.",
     "Storage note printed at the bottom: 'איך שומרים? מכוסה במקרר, עד 3 ימים.'",
-    "Ranges such as '1-2' and '20-25' are printed right-to-left (so they look like '2-1' and '25-20' on the page); they are written here in the usual order. The soaking range for the cashews is printed '50-20' and read as 20-50 minutes, which is unusual - please check against the scan."
+    "Ranges such as '1-2' and '20-25' are printed right-to-left (so they look like '2-1' and '25-20' on the page); they are written here in the usual order. The soaking range for the cashews is printed '50-20' and read as 20-50 minutes, which is unusual - please check against the scan.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [
     "A pencil/ink diagonal mark at the bottom edge"
@@ -91,5 +92,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

@@ -45,7 +45,8 @@
     "The card gives '(100 גר')' for both the 1 cup of ground almonds and the 1/2 cup of chopped blanched almonds; this is transcribed as written.",
     "The tin size '26' appears to be written twice (once at the end of the line and once again just above it); recorded once.",
     "Last word of the syrup juice line ('טרי') sits cramped at the left edge of the card; read as 'טרי' (consistent with the ink and with Gemini's independent reading).",
-    "Independent Codex rereading confirms the written oven temperature 180 in the enlarged scan. The source surname is cut off; no missing continuation was reconstructed."
+    "Independent Codex rereading confirms the written oven temperature 180 in the enlarged scan. The source surname is cut off; no missing continuation was reconstructed.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -78,5 +79,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

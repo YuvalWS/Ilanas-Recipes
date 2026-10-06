@@ -38,7 +38,8 @@
     "Printed caption: 'העוף עם פירורי הלחם. נדרשים ארבעה מצרכים בלבד | צילום: אפרת מוסקוביץ''.",
     "Printed intro: 'טובלים את חלקי העוף בשני מרכיבים, מעיפים לתנור, וכשהתבנית יוצאת, מתאפקים לא לחסל הכל'.",
     "'מהולקות' (probably a printed typo for 'מחולקות') and 'הותכים' (probably 'חותכים') are copied as printed.",
-    "The step texts were lightly condensed into separate steps; the print runs them as one paragraph."
+    "The step texts were lightly condensed into separate steps; the print runs them as one paragraph.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [
     "Printed section tag 'אוכל'"
@@ -79,5 +80,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

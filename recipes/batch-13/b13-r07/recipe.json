@@ -41,7 +41,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping (10-12 servings, preparation time 20 minutes). The clipping is cut at the bottom after step 2; the topping steps are not on this scan.",
-    "Ranges and numbers typeset right-to-left are written in the usual order. "
+    "Ranges and numbers typeset right-to-left are written in the usual order. ",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -74,5 +75,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

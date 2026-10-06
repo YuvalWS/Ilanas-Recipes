@@ -41,7 +41,8 @@
     }
   ],
   "notes": [
-    "Printed newspaper clipping; the scan was upside down and was rotated 180 degrees. The intro paragraph (a note on soups in Turkey and red lentil soup) is not transcribed. 'ו-1/2 1' means 1 1/2 cups (typeset right-to-left)."
+    "Printed newspaper clipping; the scan was upside down and was rotated 180 degrees. The intro paragraph (a note on soups in Turkey and red lentil soup) is not transcribed. 'ו-1/2 1' means 1 1/2 cups (typeset right-to-left).",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -68,5 +69,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

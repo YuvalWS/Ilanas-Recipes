@@ -66,7 +66,8 @@
     "Glazed carrots (tsimmes). Printed heading 'גזר מזוגג' is flanked by decorative star marks. The method continues into the second column; the top of the second column also holds a short tail of this recipe: the last line of the additions list ('...יפה מגוררת מתפוז אחד', partly hidden by a stain, kept as the last item of the additions group) and the closing sentence 'כן, אפשר להוסיף...'. The additions heading is printed with an unbalanced bracket: 'תוספות ולהוסיף בשלב 3):' (as printed). The first characters of some 'ו/או' lines are slightly cut by the torn right edge of the page.",
     "The assignment of the two tail lines at the top of the second column to this recipe is based on content (additions to the carrots, orange zest, 'these ingredients complement each other'); no other recipe on the page is about additions.",
     "Part of newspaper page b08-card-02 with b08-r06, b08-r08, b08-r09 (the other recipes on the same page).",
-    "Nickname 'צימעס' given by the owner (assigned_title); the printed heading is 'גזר מזוגג' and the text itself calls it 'צימעס' ('צימעס פשוט ובסיסי')."
+    "Nickname 'צימעס' given by the owner (assigned_title); the printed heading is 'גזר מזוגג' and the text itself calls it 'צימעס' ('צימעס פשוט ובסיסי').",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [
     "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
@@ -117,5 +118,13 @@
     "position": "Right-most column, below the kneidlach recipe (b08-r06): heading, intro, 'חומרי ליבה' and the additions list; the numbered method and a short tail continue at the top of the second column from the right.",
     "note": "One newspaper page holding several recipes; the page is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   },
-  "assigned_title": "צימעס"
+  "assigned_title": "צימעס",
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
+  }
 }

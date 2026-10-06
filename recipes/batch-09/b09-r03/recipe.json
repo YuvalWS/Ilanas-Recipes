@@ -46,7 +46,8 @@
   "notes": [
     "Printed clipping (8 servings). The intro paragraph (the fruits give the relatively heavy dish sweetness and lightness; looks great on yellow rice, etc.) is not transcribed.",
     "A handwritten phone number is written at the bottom of the clipping; the digits are deliberately not transcribed here so they are not published on the public website (see the scan).",
-    "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2)."
+    "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2).",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [
     "Handwritten phone number at the bottom (digits not transcribed)",
@@ -76,5 +77,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

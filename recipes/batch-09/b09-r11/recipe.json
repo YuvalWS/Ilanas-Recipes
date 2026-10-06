@@ -44,7 +44,8 @@
   ],
   "notes": [
     "Both scans were upside down and were rotated 180 degrees. Card with a staple at the top. Heading 'בקר / חגית' (beef / [name]). The front starts with frying sliced onion until brown, then garlic and spices including 'תבלין סטייק' (steak seasoning); the back continues with mixing the spices and the sauce.",
-    "Several lines are only partly legible; a short note in parentheses at the top left of the front is unreadable."
+    "Several lines are only partly legible; a short note in parentheses at the top left of the front is unreadable.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -89,5 +90,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

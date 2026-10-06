@@ -39,7 +39,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed newspaper clipping with a perforated red frame; a large green round logo of a cookery column ('גיל חובב והתוספות' as read) takes up the left side and is cut by the page edge. The text is clear. Title: 'עוגת גבינה בלי נקיפות מצפון' (cheesecake without pangs of conscience).",
-    "Section headings are 'החומרים הדרושים', 'לתחתית', 'לשכבת הגבינה', 'ללמעלה', 'אופן ההכנה'. The text says 'חצי אחוז' (0.5% fat) cottage/white cheese; the words are copied as printed. The fourth line of the cheese layer ends 'חלבון + 2 ביצים' (one egg white + 2 eggs?) - copied as printed."
+    "Section headings are 'החומרים הדרושים', 'לתחתית', 'לשכבת הגבינה', 'ללמעלה', 'אופן ההכנה'. The text says 'חצי אחוז' (0.5% fat) cottage/white cheese; the words are copied as printed. The fourth line of the cheese layer ends 'חלבון + 2 ביצים' (one egg white + 2 eggs?) - copied as printed.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [
     "Large round logo of a cookery column ('גיל חובב והתוספות' as read), partly cut"
@@ -68,5 +69,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

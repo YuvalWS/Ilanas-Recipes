@@ -43,7 +43,8 @@
   ],
   "notes": [
     "Printed clipping; the scan was upside down and was rotated 180 degrees. An intro says the recipe was given by the head chef at a restaurant called 'דומו' (concept store for food lovers); it is not transcribed beyond this.",
-    "'בשר בקר מס' 5' is printed as such (a cut number). The Hungarian sausage name is printed 'קבנוס' with 'צ'אבאי' in parentheses."
+    "'בשר בקר מס' 5' is printed as such (a cut number). The Hungarian sausage name is printed 'קבנוס' with 'צ'אבאי' in parentheses.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -76,5 +77,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }

@@ -37,7 +37,8 @@
   "notes": [
     "Ruled index card; heading 'בשר בקר / דורה' (beef / Dora). The top three lines look like ingredient quantities (ginger, a quarter of something, one packet of onion soup mix); the method says to soak overnight in the refrigerator, start the oven at a high temperature (marked 'important!') and then reduce the heat and cook until tender.",
     "Scan 16 (ruled card, only three handwritten lines at the top) is treated as the back / continuation.",
-    "Bottle unit for ketchup expanded from ditto below ginger; no assumption about what commercial ginger product means."
+    "Bottle unit for ketchup expanded from ditto below ginger; no assumption about what commercial ginger product means.",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -82,5 +83,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
+      "scope": "checked: the source stays uncertain/unreadable as recorded"
+    }
   }
 }
