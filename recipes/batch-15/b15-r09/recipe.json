@@ -1,0 +1,68 @@
+{
+  "id": "b15-r09",
+  "batch": 15,
+  "title": "מאפה קישואים וברוקולי",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "350 גר' קישואים",
+        "מעט מלח",
+        "350 גר' ברוקולי",
+        "1/2 כוס שמיר קצוץ",
+        "1 גביע קוטג' תנובה 5%",
+        "1 גביע שלי אשל או שלי גיל",
+        "2 ביצים",
+        "1 כף פירורי לחם",
+        "מלח, פלפל",
+        "1 גביע שמנת תנובה קלה",
+        "2 פרוסות עמק לייט חתוכות לקוביות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מגרדים את הקישואים במגררת דקה. שמים במסננת. זורים מעט מלח ומשהים לשעה.",
+        "מבשלים את הברוקולי במים מומלחים עד שמתרכך. מסננים וקוצצים גס.",
+        "סוחטים את הקישואים היטב. שמים בקערה. מוסיפים את כל החומרים (פרט לעמק). יוצקים לתבנית משומנת. זורים למעלה את הגבינה הצהובה ואופים עד שהמאפה משחים.",
+        "מגישים את המנה חמה בליווי 2 כפות שמנת."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with the header '3 מנות / זמן הכנה ללא זמן האפייה: 15 דקות', a photo of a cottage cheese tub and a green banner with a '3 ...' number logo. A short handwritten word appears at the top (a name or a note) and is not readable.",
+    "Step 3 is printed with the line breaks in an odd order; the final words 'הצהובה ואופים עד שהמאפה משחים' were read from the next lines. No oven temperature is given."
+  ],
+  "incidental_text": [
+    "Handwritten word at the top of the clipping (unreadable)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-09.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-09.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "notes",
+      "text": "handwritten word at top",
+      "best_guess": null,
+      "reason": "Unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
