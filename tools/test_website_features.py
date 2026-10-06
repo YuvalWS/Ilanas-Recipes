@@ -291,6 +291,27 @@ def run(browser, base):
     expect(page.locator("#hint-pop")).to_be_hidden()
     print("PASS: glossary hint works by tap on a phone-sized screen")
     context.close()
+
+    # ---- "סיפורים מהאוסף": the anecdote page (data/story.json) ----
+    story = json.loads((ROOT / "data/story.json").read_text(encoding="utf-8"))["items"]
+    assert story, "data/story.json should hold at least one story"
+    page = browser.new_page()
+    page.on("pageerror", lambda error: errors.append(str(error)))
+    page.goto(base)
+    expect(page.locator("#grid .card").first).to_be_visible()
+    page.locator("#story-link").click()
+    expect(page.locator("#story-view h2")).to_have_text("סיפורים מהאוסף")
+    expect(page.locator("#story-view .story")).to_have_count(len(story))
+    expect(page.locator("#story-view .story-text").first).to_have_text(story[0]["text"])
+    page.wait_for_function("document.querySelector('#story-view .story img').naturalWidth > 0")
+    assert "#/story" in page.url and page.locator("#list-view").is_hidden() and page.locator("#detail-view").is_hidden()
+    page.reload()
+    expect(page.locator("#story-view .story")).to_have_count(len(story))      # a direct link works too
+    page.locator("#story-view .back a").click()
+    expect(page.locator("#grid .card").first).to_be_visible()
+    assert page.locator("#story-view").is_hidden()
+    print("PASS: story page: header link, anecdote text and picture, direct link, back to the list")
+    page.close()
     assert not errors, errors
 
 

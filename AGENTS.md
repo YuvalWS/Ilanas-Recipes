@@ -42,6 +42,8 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 
 - **Glossary hints (owner, 2026-10-06):** wherever a known term appears in recipe text (ingredients, instructions, notes) the site shows a hint: a hover tooltip on a computer, a tap tooltip on a phone. The terms live in the `GLOSSARY` list in `assets/app.js` (term + hint text), so they apply to every current and future recipe automatically; to add one, add an entry there and a check to `tools/test_website_features.py`. Do not change the transcription itself. Current entry: "קמח אוסם" - "קמח אוסם - ככל הנראה הכוונה לקמח תופח" (Osem flour, probably self-raising flour).
 
+- **Stories / anecdotes (owner, 2026-10-06):** background anecdotes about the collection (e.g. the cookbook "המטבח המשובח" that held the recipes) are shown on the site page `#/story` ("סיפורים מהאוסף", linked under the site title). They live in `data/story.json` (`items`: title, text, image, image_alt, caption); `text` is the owner's own words, kept verbatim - do not rewrite or embellish; captions only state what is visible. Pictures go in `assets/story/` (web-sized copy; keep the original scan name). `tools/validate.py` checks the pictures exist; a browser test covers the page.
+
 ## Working in parallel (several people / tools edit this repo at the same time)
 
 - **Never commit generated files.** `data/recipes.json` (the website index) and `docs/NEEDS_REVIEW.md` are rebuilt automatically by the `Rebuild search index` GitHub Action after every push to `main` that touches `recipes/**`. Do not include them in PRs (the `Validate recipes` check warns); for a local preview run `python tools/build_index.py` and do not `git add` the result.

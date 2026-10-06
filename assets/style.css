@@ -106,3 +106,13 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .hint-pop { position: absolute; z-index: 50; max-width: min(18rem, calc(100vw - 16px)); padding: 8px 12px; border-radius: 8px;
   background: var(--fg); color: var(--bg); font-size: .9rem; line-height: 1.4; box-shadow: 0 2px 10px rgba(0,0,0,.3); pointer-events: none; }
 .hint-pop[hidden] { display: none; }
+
+.top-links { margin: 0 0 10px; font-size: .9rem; }
+.top-links a { color: var(--accent); }
+.story { display: flex; gap: 20px; align-items: flex-start; margin: 0 0 24px; }
+.story img { width: min(320px, 45%); border-radius: 10px; border: 1px solid var(--line); }
+.story-body { min-width: 0; flex: 1; }
+.story-body h3 { margin: 0 0 8px; }
+.story-text { font-size: 1.1rem; line-height: 1.6; margin: 0 0 8px; }
+.story-caption { font-size: .85rem; }
+@media (max-width: 620px) { .story { flex-direction: column; } .story img { width: 100%; } }

@@ -1,0 +1,15 @@
+{
+  "_comment": "סיפורים מהאוסף: anecdotes shown on the site page #/story. Add items to `items`; the text is the owner's own words (do not rewrite). Images live in assets/story/.",
+  "items": [
+    {
+      "id": "hamitbach-hamshubach",
+      "title": "המטבח המשובח",
+      "image": "assets/story/Scanned_20261006-1720.jpg",
+      "image_alt": "כריכת הספר המטבח המשובח מאת ליליאן קורופלד, בלויה וקרועה בשוליים",
+      "caption": "כריכת הספר \"המטבח המשובח\" מאת ליליאן קורופלד (כפי שכתוב על הכריכה). סריקה מקורית: Scanned_20261006-1720.jpg",
+      "text": "כל המתכונים של סבתא אילנה היו כרוכים בתור ספר המתכונים הזה. לא נראה שהיא עשתה בו שימוש חוץ מתיקיית מתכונים...",
+      "added_by": "Yuval (owner)",
+      "date": "2026-10-06"
+    }
+  ]
+}
