@@ -1,8 +1,13 @@
 {
   "id": "b16-r06",
   "batch": 16,
-  "title": "איטריות [?]",
-  "source": null,
+  "title": "אטריות אורז",
+  "source": {
+    "text": "שושנה",
+    "type": "person",
+    "as_written": "שושנה",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -25,7 +30,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 10 has a printed letterhead of a construction group ('מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372) and a wavy-underlined title in the first line that cannot be read. The body is a block of narrow, shaky lines (about 8 lines) that are not readable. Card 11 (back) holds four short lines in blue ink at the top; a light bleed-through ghost fills the rest. This is a 'soup / dish' card (the word 'מרק'/'מים' seems to appear) but nothing can be stated with confidence.",
-    "Heading starts איטריות; second word and slash attribution remain uncertain. Back continues frying softened noodles and avoiding frequent stirring."
+    "Heading starts איטריות; second word and slash attribution remain uncertain. Back continues frying softened noodles and avoiding frequent stirring.",
+    "Owner (PR #232 review comments): title אטריות אורז, source שושנה."
   ],
   "incidental_text": [
     "Printed letterhead on card 10: brick-pattern logo, 'מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372"
@@ -47,12 +53,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Title not readable."
-    },
     {
       "field": "ingredients",
       "text": "all",
@@ -78,5 +78,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #232 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #232 review comments",
+      "scope": null
+    }
   }
 }
