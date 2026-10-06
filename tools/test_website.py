@@ -111,7 +111,7 @@ def run(browser, base):
     no_name.update(title=None, source=None)
     no_name.pop("assigned_title", None)
     context = browser.new_context()
-    context.route("**/data/recipes.json", lambda route: route.fulfill(json=fixture))
+    context.route("**/data/recipes.json*", lambda route: route.fulfill(json=fixture))
     fixture_page = context.new_page()
     fixture_page.on("pageerror", lambda error: errors.append(str(error)))
     fixture_page.goto(base)

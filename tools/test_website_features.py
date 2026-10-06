@@ -26,7 +26,7 @@ class QuietHandler(SimpleHTTPRequestHandler):
 
 def new_fixture_page(browser, base, fixture, errors):
     context = browser.new_context()
-    context.route("**/data/recipes.json", lambda route: route.fulfill(json=fixture))
+    context.route("**/data/recipes.json*", lambda route: route.fulfill(json=fixture))
     page = context.new_page()
     page.on("pageerror", lambda error: errors.append(str(error)))
     page.goto(base)
@@ -80,6 +80,28 @@ def run(browser, base):
     expect(page.locator("#grid .card")).to_have_count(len(data["recipes"]))
     assert not errors, errors
     print("PASS: real data (recipes without a source): filters set up, source list filled, no page errors")
+
+    # ---- cache busting: every release is requested under a new URL (no cache clearing needed on phones) ----
+    ctx = browser.new_context()
+    ctx.route("**/version.json*", lambda route: route.fulfill(json={"v": "zz9test"}))
+    cp = ctx.new_page()
+    seen = []
+    cp.on("request", lambda req: seen.append(req.url))
+    cp.goto(base)
+    expect(cp.locator("#grid .card")).to_have_count(len(data["recipes"]))
+    for part in ("assets/style.css?v=zz9test", "assets/app.js?v=zz9test", "data/recipes.json?v=zz9test"):
+        assert any(part in u for u in seen), (part, [u for u in seen if "assets" in u or "data" in u][:6])
+    assert any("version.json?t=" in u for u in seen), "version.json must be fetched with a timestamp query"
+    assert cp.locator("#grid .card img").first.get_attribute("src").find("thumb.jpg?v=") > 0, "thumbnails need a content-hash version"
+    ctx.close()
+    # a missing version.json must not break the site (falls back to a timestamp)
+    ctx = browser.new_context()
+    ctx.route("**/version.json*", lambda route: route.fulfill(status=404, body="nope"))
+    cp = ctx.new_page()
+    cp.goto(base)
+    expect(cp.locator("#grid .card")).to_have_count(len(data["recipes"]))
+    ctx.close()
+    print("PASS: cache busting (version.json -> versioned css/js/data URLs, hashed thumbnails, safe fallback)")
 
     # header, wording, favicon
     expect(page.locator(".sub")).to_have_text("ארכיון מתכונים סרוקים")

@@ -7,7 +7,7 @@
 <meta name="description" content="ארכיון מתכונים סרוקים של סבתא אילנה">
 <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/favicon-180.png">
-<link rel="stylesheet" href="assets/style.css">
+<noscript><link rel="stylesheet" href="assets/style.css"></noscript>
 </head>
 <body>
 <header class="top">
@@ -64,6 +64,21 @@
   <p>כל הטקסטים הם תמלול ראשוני מהסריקות. סימן <mark class="q">[?]</mark> = מילה שלא הצלחנו לקרוא. הסריקה היא המקור.</p>
 </footer>
 
-<script src="assets/app.js"></script>
+<script>
+/* Cache busting: version.json is fetched uncached (timestamp query), then the stylesheet, script and data are
+   requested with ?v=<release id>. A new release therefore always loads fresh files, even on phones. */
+(function () {
+  function boot(v) {
+    window.SITE_VERSION = v;
+    var css = document.createElement("link"); css.rel = "stylesheet"; css.href = "assets/style.css?v=" + v;
+    function js() { var s = document.createElement("script"); s.src = "assets/app.js?v=" + v; document.body.appendChild(s); }
+    css.onload = js; css.onerror = js;
+    document.head.appendChild(css);
+  }
+  fetch("version.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (o) { boot(o.v); }, function () { boot(String(Date.now())); });
+})();
+</script>
 </body>
 </html>
