@@ -1,7 +1,7 @@
 {
   "id": "b01-r22",
   "batch": 1,
-  "title": "[?]",
+  "title": "עוגיות שושנה",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -35,7 +35,8 @@
   "notes": [
     "Large shaky handwriting on a square card. The front carries a printed 'רשות הדואר - דואר קדימה' logo at the bottom. The back (23) is grouped as the continuation because of the handwriting and the ingredients ending mid-list; this grouping is probable but not certain.",
     "The top line of the front holds two words: a long first word (title?) and a shorter second word (a name?). Gemini read them as 'סוהרורים שושנה' (title + source); the ink does not let me confirm either, so title and source are left open.",
-    "Gemini's transcription adds items that are not visible on the card and were ignored: 'חבילות', baking powder, wine, vanilla sugar quantities, a jam/lemon/chocolate filling, cutting into triangles and rolling 'like rugelach'."
+    "Gemini's transcription adds items that are not visible on the card and were ignored: 'חבילות', baking powder, wine, vanilla sugar quantities, a jam/lemon/chocolate filling, cutting into triangles and rolling 'like rugelach'.",
+    "Owner's title: 'עוגיות שושנה'. Title reviewed by the owner (PR review, 2026-10-06); the rest of the transcription has NOT been proofread yet."
   ],
   "incidental_text": [
     "Printed logo: רשות הדואר - דואר קדימה"
