@@ -1,0 +1,74 @@
+{
+  "id": "b23-r04",
+  "batch": 23,
+  "title": "עוגה 7×7",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 קמח אסם",
+        "1 גולדבנד",
+        "3 ביצים",
+        "1/4 כוס סוכר",
+        "1 שמנת"
+      ]
+    },
+    {
+      "group": "(bracket labeled 'לערבב')",
+      "items": [
+        "7 חלמונים",
+        "7 כפות סוכר",
+        "7 כפות קמח אסם",
+        "7 כפות שמן",
+        "7 כפות קפה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לאפות 1/4 שעה",
+        "מקציפה חלבונים + 1 כוס סוכר ומוסיפים 100 ג׳ אגוזים [?]",
+        "[?] מוציאים את התבנית [?] [?] [?] עד שמשחים."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Lined, stained and torn card; the title is clipped and the digit '7' is repeated in the right-hand column ('7 חלמונים', '7 כפות סוכר', …). A small drawn diamond/ink mark in the left margin is incidental."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-05.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
