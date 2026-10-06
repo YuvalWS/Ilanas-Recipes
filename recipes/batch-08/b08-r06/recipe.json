@@ -20,7 +20,8 @@
   ],
   "notes": [
     "Filled matzo-ball (kneidlach) recipe at the top of the right-most column. The heading and the beginning (probably the filling ingredients / first steps) are cut off by the torn top edge of the clipping, so title is null and only the visible text is transcribed as instructions. The first paragraph (salt, pepper, mix with the fried onion, chill) is evidently the end of the chopped-liver filling, whose start is missing. A dark '>' mark printed to the right of the first paragraph is a decorative marker.",
-    "Part of newspaper page b08-card-02 with b08-r07, b08-r08, b08-r09 (the other recipes on the same page)."
+    "Part of newspaper page b08-card-02 with b08-r07, b08-r08, b08-r09 (the other recipes on the same page).",
+    "Suggested title 'קניידלך ממולא' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: filling for stuffed matzo balls (קניידלך) described in the clipping). Awaiting the owner's approval."
   ],
   "incidental_text": [
     "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
@@ -70,5 +71,8 @@
     ],
     "position": "Right-most column of the page, at the very top (starts under the torn-off heading), above the 'גזר מזוגג' recipe (b08-r07).",
     "note": "One newspaper page holding several recipes; the page is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
-  }
+  },
+  "assigned_title": "קניידלך ממולא",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "filling for stuffed matzo balls (קניידלך) described in the clipping"
 }
