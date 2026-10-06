@@ -1,0 +1,87 @@
+{
+  "id": "b08-r05",
+  "batch": 8,
+  "title": "קרה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "(כמו קישוא) חותכים",
+        "לקוביות, מים שמכסה [?]",
+        "כפיות סוכר. לבשל על",
+        "אש קטנה עד שנספג [?]",
+        "[?]א שקוף (הרבה זמן)",
+        "גם טיפה מלח מיץ לימון",
+        "כף דבש - בסוף"
+      ]
+    }
+  ],
+  "notes": [
+    "Transcribed by the owner (Yuval) from the rescan Batch 8/Scanned_20261005-1649-01/02.jpg on 2026-10-05, not parsed by AI; the text is as he typed it, including his [?] marks. Replaces the earlier AI reading of the older, poorer scans (Scanned_20261004-2146-03/04.jpg, still kept in raw/ of b08-r02).",
+    "Part of handwritten sheet b08-card-01 with b08-r02, b08-r03, b08-r04, b08-r05 (the other recipes on the same sheet).",
+    "The card is free-form shorthand (ingredients and steps run together), so the lines are kept as written in 'instructions'.",
+    "The recipe is written across both sides of the sheet: the first line is at the bottom of side A, the rest at the top of side B.",
+    "Owner's note: written in a different colored pen, parentheses were added around the word 'מלח', and 'מיץ לימון כף דבש - בסוף' was written."
+  ],
+  "incidental_text": [
+    "Printed footer at the bottom of side A (part of the paper used as a notepad): a logo and 'איכות חיים לכל החיים'."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-1649-01.jpg",
+      "original_path": "Batch 8/Scanned_20261005-1649-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261005-1649-02.jpg",
+      "original_path": "Batch 8/Scanned_20261005-1649-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "מים שמכסה [?]",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own transcription of the card."
+    },
+    {
+      "field": "instructions",
+      "text": "שנספג [?]",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own transcription of the card."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]א שקוף",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own transcription of the card."
+    }
+  ],
+  "transcription": {
+    "method": "human_transcription_by_owner",
+    "date": "2026-10-05",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-05"
+  },
+  "card": {
+    "id": "b08-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b08-r02",
+      "b08-r03",
+      "b08-r04",
+      "b08-r05"
+    ],
+    "position": "Starts at the bottom of side A ('חותכים') and continues at the top of side B ('לקוביות...').",
+    "note": "Written in blue ballpoint on the back of a printed newspaper footer (logo and the line 'איכות חיים לכל החיים'; the logo word looks like 'איטונג'). The sheet holds several short recipes one after the other and is split here into separate recipes (b08-r02 .. b08-r05) - check the other recipes of this card if one looks incomplete."
+  }
+}
