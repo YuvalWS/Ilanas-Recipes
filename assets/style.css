@@ -69,3 +69,7 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .notes { margin-top: 18px; border: 1px dashed var(--line); border-radius: 8px; padding: 6px 12px; }
 .notes summary { cursor: pointer; font-weight: 600; }
 @media (max-width: 520px) { .logo { height: 56px; } .top h1 { font-size: 1.35rem; } }
+.pf { font-size: .72rem; font-weight: 600; padding: 1px 8px; border-radius: 99px; background: #d6f0dc; color: #1c5a2b; vertical-align: middle; white-space: nowrap; cursor: help; }
+.tag.ok { background: #d6f0dc; color: #1c5a2b; }
+.banner.ok { background: #e3f4e7; color: #1c5a2b; padding: 8px 12px; border-radius: 8px; }
+@media (prefers-color-scheme: dark) { .pf, .tag.ok { background: #1f4a2b; color: #bfe8c9; } .banner.ok { background: #1b3a25; color: #bfe8c9; } }

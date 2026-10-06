@@ -96,6 +96,21 @@
     return "אוסף " + n + (b && b.title ? " - " + b.title : "");
   }
 
+  // ---- per-field proofreading (r.proofread) -----------------------------------------
+  var PF_NAMES = { title: "כותרת", assigned_title: "כותרת מוצעת", source: "מקור", medium: "סוג", ingredients: "מרכיבים",
+    instructions: "אופן הכנה", notes: "הערות", incidental_text: "טקסט נלווה", raw_files: "סריקה", card: "קישור בין מתכונים" };
+  function pfInfo(r, f) {
+    var p = r.proofread && r.proofread[f];
+    if (!p) return null;
+    return "הוגה על ידי " + p.by + " · " + p.date + (p.via ? " · " + p.via : "") + (p.scope ? " · " + p.scope : "");
+  }
+  function pfBadge(r, f) {
+    var t = pfInfo(r, f);
+    if (!t) return null;
+    var b = el("span", "pf", "✓ הוגה"); b.title = t; return b;
+  }
+  function pfFields(r) { return Object.keys(r.proofread || {}).filter(function (f) { return PF_NAMES[f]; }); }
+
   // ---- search ---------------------------------------------------------------------
   function score(r, toks) {
     var total = 0;
@@ -235,6 +250,7 @@
       tags.appendChild(el("span", "tag", batchTitle(r.batch).replace(" - ", " · ")));
       if (r.card) tags.appendChild(el("span", "tag", "1 מתוך " + r.card.recipes.length + " באותו " + CARD_KIND[r.card.kind].one));
       if (usesAssignedTitle(r)) tags.appendChild(el("span", "tag", assignedKind(r).tag));
+      if (pfFields(r).length) { var pt = el("span", "tag ok", "✓ הוגה: " + pfFields(r).map(function (f) { return PF_NAMES[f]; }).join(", ")); tags.appendChild(pt); }
       if (r.needs_human_verification) tags.appendChild(el("span", "tag warn", "דורש הגהה"));
       body.appendChild(tags);
       a.appendChild(body);
@@ -380,7 +396,8 @@
 
     var txt = el("div", "text");
     var tbar = el("div", "titlebar");
-    tbar.appendChild(el("h2", null, recipeTitle(r)));
+    var h2 = el("h2", null, recipeTitle(r)); var tb = pfBadge(r, "title") || pfBadge(r, "assigned_title"); if (tb) { h2.appendChild(document.createTextNode(" ")); h2.appendChild(tb); }
+    tbar.appendChild(h2);
     tbar.appendChild(shareBox(r));
     txt.appendChild(tbar);
     if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", assignedKind(r).note));
@@ -389,18 +406,24 @@
       var warn = el("p", "banner warn", "תמלול זה דורש הגהה אנושית. השוו מול הסריקה. רמת ביטחון: " + ({high: "גבוהה", medium: "בינונית", low: "נמוכה"}[r.confidence] || r.confidence));
       txt.appendChild(warn);
     }
+    if (pfFields(r).length) {
+      var pbox = el("p", "banner ok", "חלקים שהוגהו בידי אדם: " + pfFields(r).map(function (f) { return PF_NAMES[f] + (r.proofread[f].scope ? " (" + r.proofread[f].scope + ")" : ""); }).join(" · ") + ". שאר השדות עדיין לא הוגהו.");
+      pbox.title = pfFields(r).map(function (f) { return PF_NAMES[f] + ": " + pfInfo(r, f); }).join("\n");
+      txt.appendChild(pbox);
+    }
     var facts = el("p", "meta");
     var bits = [];
     if (r.source) bits.push("מקור: " + r.source.text + (r.source.uncertain ? " (לא בטוח)" : ""));
     bits.push(mediumLabel(r.medium));
     bits.push(batchTitle(r.batch));
     facts.textContent = bits.join(" · ");
+    var sb = pfBadge(r, "source"); if (sb) { facts.appendChild(document.createTextNode(" ")); facts.appendChild(sb); }
     txt.appendChild(facts);
 
     if (r.card) txt.appendChild(cardBox(r));
 
     if (r.ingredients.length) {
-      txt.appendChild(el("h3", null, "מרכיבים"));
+      var hi = el("h3", null, "מרכיבים"); var bi = pfBadge(r, "ingredients"); if (bi) { hi.appendChild(document.createTextNode(" ")); hi.appendChild(bi); } txt.appendChild(hi);
       r.ingredients.forEach(function (g) {
         if (g.group) txt.appendChild(el("h4", null, g.group));
         var ul = el("ul");
@@ -409,7 +432,7 @@
       });
     }
     if (r.instructions.length) {
-      txt.appendChild(el("h3", null, "אופן הכנה"));
+      var hs = el("h3", null, "אופן הכנה"); var bs = pfBadge(r, "instructions"); if (bs) { hs.appendChild(document.createTextNode(" ")); hs.appendChild(bs); } txt.appendChild(hs);
       r.instructions.forEach(function (g) {
         if (g.group) txt.appendChild(el("h4", null, g.group));
         var ol = el("ol");

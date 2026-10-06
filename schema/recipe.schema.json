@@ -310,6 +310,59 @@
         "null"
       ],
       "description": "One short English line: why this assigned title was suggested (e.g. 'from the ingredient list: chicken, teriyaki, onion')."
+    },
+    "proofread": {
+      "description": "Per-field human proofreading record. A key is present only for a field a human (normally the owner) has checked or corrected against the scan; the value says who, when and via what. Absence of a field means it is still unproofread AI text. Every manual correction MUST set the corrected field here, even if only one line of the field was touched (put what was checked in `scope`).",
+      "type": [
+        "object",
+        "null"
+      ],
+      "propertyNames": {
+        "enum": [
+          "title",
+          "assigned_title",
+          "source",
+          "medium",
+          "ingredients",
+          "instructions",
+          "notes",
+          "incidental_text",
+          "raw_files",
+          "card"
+        ]
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "by",
+          "date"
+        ],
+        "properties": {
+          "by": {
+            "type": "string",
+            "description": "e.g. 'Yuval (owner)'"
+          },
+          "date": {
+            "type": "string",
+            "description": "YYYY-MM-DD"
+          },
+          "via": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "where the correction came from, e.g. 'PR #274 review comments', 'issue #322', 'chat'"
+          },
+          "scope": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "what exactly was checked when it is not the whole field, e.g. 'first ingredient only', 'confirmed untitled'"
+          }
+        }
+      }
     }
   },
   "$defs": {
