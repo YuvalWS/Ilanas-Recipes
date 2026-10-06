@@ -53,7 +53,7 @@ Confidence: high 83, medium 67, low 74. Flagged needs_human_verification: 181.
 | b15-r18 | 15 פשטידות ולביבות | פשטידת תירס | Batch 15/Scanned_20261004-2217-19.jpg | handwritten |
 | b15-r19 | 15 פשטידות ולביבות | פשטידת גבינות | Batch 15/Scanned_20261004-2217-20.jpg, Batch 15/Scanned_20261004-2217-21.jpg | handwritten |
 | b15-r20 | 15 פשטידות ולביבות | פשטידת זיתים | Batch 15/Scanned_20261004-2217-22.jpg | handwritten |
-| b15-r22 | 15 פשטידות ולביבות | פשטידת כרובית | Batch 15/Scanned_20261004-2218-03.jpg, Batch 15/Scanned_20261004-2218-04.jpg | handwritten |
+| b15-r22 | 15 פשטידות ולביבות | פשטידת כרובית / לקט נורמנדי | Batch 15/Scanned_20261004-2218-03.jpg, Batch 15/Scanned_20261004-2218-04.jpg | handwritten |
 | b15-r24 | 15 פשטידות ולביבות | בצק לעוגת שכבות | Batch 15/Scanned_20261004-2218-06.jpg | handwritten |
 | b16-r01 | 16 תבשילי דגנים וקטניות | איטריות ואורז | Batch 16/Scanned_20261004-2223-01.jpg, Batch 16/Scanned_20261004-2223-02.jpg | handwritten |
 | b16-r03 | 16 תבשילי דגנים וקטניות | מג'דרה / אורז | Batch 16/Scanned_20261004-2223-06.jpg | handwritten |
