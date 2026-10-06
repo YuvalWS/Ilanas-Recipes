@@ -1,0 +1,86 @@
+{
+  "id": "b08-r06",
+  "batch": 8,
+  "title": null,
+  "source": {
+    "text": "(newspaper, name not on the clipping), 27.3.2009",
+    "type": "publication",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ממליחים, מפלפלים ומערבבים עם הבצל המטוגן. מקררים שעה לפחות.",
+        "עושים בכל כדור קניידלך, לפני הבישול, גומה באצבע רטובה. מרחיבים את הגומה ככל האפשר וממלאים בכפית בתערובת הכבד הקצוץ. סוגרים את הכדור ומחליקים אותו בידיים רטובות. מבשלים כמו קניידלך רגילים."
+      ]
+    }
+  ],
+  "notes": [
+    "Filled matzo-ball (kneidlach) recipe at the top of the right-most column. The heading and the beginning (probably the filling ingredients / first steps) are cut off by the torn top edge of the clipping, so title is null and only the visible text is transcribed as instructions. The first paragraph (salt, pepper, mix with the fried onion, chill) is evidently the end of the chopped-liver filling, whose start is missing. A dark '>' mark printed to the right of the first paragraph is a decorative marker.",
+    "Part of newspaper page b08-card-02 with b08-r07, b08-r08, b08-r09 (the other recipes on the same page).",
+    "Suggested title 'קניידלך ממולא' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: filling for stuffed matzo balls (קניידלך) described in the clipping). Awaiting the owner's approval."
+  ],
+  "incidental_text": [
+    "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
+    "Cut section heading at the top right of the page: ...וגים (the first letters are torn off)",
+    "Framed advertisement, heading: צעדים ראשונים בבישול - Ruth Yulis (Herzliya) cooking courses for beginners, with phone 09־9584805",
+    "Photo (not text) of rolled, ribbon-tied sticks/candles at the bottom centre of the page"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-1649-03.jpg",
+      "original_path": "Batch 8/Scanned_20261005-1649-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "The heading is cut off by the torn top edge; no title is visible, so it is left null (the printed text only identifies it as a recipe for filled kneidlach)."
+    },
+    {
+      "field": "instructions",
+      "text": "first paragraph (ממליחים, מפלפלים ומערבבים...)",
+      "best_guess": null,
+      "reason": "This paragraph starts mid-recipe (the filling and earlier steps are torn off); it is kept in this recipe as the likeliest place, no other recipe on the page uses a fried-onion/liver mixture."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan_sonnet",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "card": {
+    "id": "b08-card-02",
+    "kind": "clipping",
+    "recipes": [
+      "b08-r06",
+      "b08-r07",
+      "b08-r08",
+      "b08-r09"
+    ],
+    "position": "Right-most column of the page, at the very top (starts under the torn-off heading), above the 'גזר מזוגג' recipe (b08-r07).",
+    "note": "One newspaper page holding several recipes; the page is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
+  },
+  "assigned_title": "קניידלך ממולא",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "filling for stuffed matzo balls (קניידלך) described in the clipping",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    }
+  }
+}
