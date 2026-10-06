@@ -50,14 +50,128 @@
   var DATA = null, BATCH = {}, ALL = [];
   var $ = function (id) { return document.getElementById(id); };
 
+  // ---- favorites (this device only) and "הקלאסיים" (curated family list) ----------
+  var FAV_KEY = "ilanas-recipes:favorites:v1";
+  var FAVS = [], favStorageOk = true, CLASSICS = {};
+  var onlyFavs = false, onlyClassics = false;
+  function loadFavs() {
+    try {
+      var v = JSON.parse(localStorage.getItem(FAV_KEY) || "[]");
+      FAVS = Array.isArray(v) ? v.filter(function (x) { return typeof x === "string"; }) : [];
+    } catch (e) { FAVS = []; favStorageOk = false; }
+  }
+  function saveFavs() {
+    try { localStorage.setItem(FAV_KEY, JSON.stringify(FAVS)); favStorageOk = true; }
+    catch (e) { favStorageOk = false; toast("לא ניתן לשמור בדפדפן הזה (מצב פרטי?). המועדפים יישמרו רק בביקור הנוכחי."); }
+  }
+  function isFav(id) { return FAVS.indexOf(id) >= 0; }
+  function validFavs() { return FAVS.filter(function (id) { return ALL.some(function (r) { return r.id === id; }); }); }
+  function toggleFav(id) {
+    if (isFav(id)) FAVS = FAVS.filter(function (x) { return x !== id; }); else FAVS.push(id);
+    saveFavs();
+    refreshFavUi();
+  }
+  function toast(msg) {
+    var t = $("toast");
+    if (!t) { t = el("div", "toast"); t.id = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+    t.textContent = msg; t.hidden = false;
+    clearTimeout(toast._t); toast._t = setTimeout(function () { t.hidden = true; }, 4000);
+  }
+  function heartIcon() {                       // standard heart; filled via CSS when the recipe is a favorite
+    var NS = "http://www.w3.org/2000/svg";
+    var svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", "0 0 24 24"); svg.setAttribute("width", "20"); svg.setAttribute("height", "20");
+    svg.setAttribute("aria-hidden", "true"); svg.setAttribute("class", "heart-icon");
+    var p = document.createElementNS(NS, "path");
+    p.setAttribute("d", "M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.7 5 6 5c2.1 0 3.4 1.2 4.2 2.4h3.6C14.6 6.2 15.9 5 18 5c3.3 0 5.1 3.4 3.6 6.8C19.5 16.4 12 21 12 21z");
+    p.setAttribute("stroke", "currentColor"); p.setAttribute("stroke-width", "1.8"); p.setAttribute("stroke-linejoin", "round");
+    svg.appendChild(p); return svg;
+  }
+  function heartButton(r, withLabel) {
+    var b = el("button", "heart" + (withLabel ? " heart-wide" : ""));
+    b.type = "button"; b.setAttribute("data-fav-id", r.id);
+    b.appendChild(heartIcon());
+    if (withLabel) b.appendChild(el("span", "heart-label"));
+    b.addEventListener("click", function (ev) { ev.preventDefault(); ev.stopPropagation(); toggleFav(r.id); });
+    syncHeart(b);
+    return b;
+  }
+  function syncHeart(b) {
+    var on = isFav(b.getAttribute("data-fav-id"));
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+    b.setAttribute("aria-label", on ? "הסרה מהמועדפים" : "הוספה למועדפים");
+    b.title = on ? "הסרה מהמועדפים" : "הוספה למועדפים";
+    var l = b.querySelector(".heart-label"); if (l) l.textContent = on ? "במועדפים" : "הוספה למועדפים";
+  }
+  function refreshFavUi() { updateFavLabels(); if (onlyFavs && !$("list-view").hidden) renderList(); }   // a heart removed in the favorites view drops its card
+  function updateFavLabels() {
+    Array.prototype.forEach.call(document.querySelectorAll("button.heart"), syncHeart);
+    var n = validFavs().length;
+    $("t-favs").textContent = "♥ המועדפים שלי (" + n + ")";
+    $("t-favs").setAttribute("aria-pressed", onlyFavs ? "true" : "false");
+    var cn = Object.keys(CLASSICS).length;
+    $("t-classics").hidden = !cn;
+    $("t-classics").textContent = "★ הקלאסיים (" + cn + ")";
+    $("t-classics").setAttribute("aria-pressed", onlyClassics ? "true" : "false");
+    $("fav-share").disabled = !n;
+  }
+  function favLink() { return location.origin + location.pathname + "?addfavs=" + validFavs().join(","); }
+  function parseFavIds(text) {
+    var m = String(text || "").match(/b\d{2}-r\d{2,3}/g) || [];
+    return m.filter(function (id, i) { return m.indexOf(id) === i && ALL.some(function (r) { return r.id === id; }); });
+  }
+  function offerImport(ids, fromUrl) {
+    var fresh = ids.filter(function (id) { return !isFav(id); });
+    var box = $("fav-banner"); box.textContent = ""; box.hidden = false;
+    if (!ids.length) { box.appendChild(el("span", null, "לא נמצאו מתכונים תקינים ברשימה שהתקבלה.")); }
+    else if (!fresh.length) { box.appendChild(el("span", null, "כל " + ids.length + " המתכונים שברשימה כבר במועדפים שלכם.")); }
+    else {
+      box.appendChild(el("span", null, "התקבלה רשימת מועדפים עם " + fresh.length + " מתכונים חדשים."));
+      var add = el("button", "btn btn-small", "הוספה למועדפים"); add.type = "button";
+      add.addEventListener("click", function () { fresh.forEach(function (id) { FAVS.push(id); }); saveFavs(); refreshFavUi(); box.hidden = true; toast("נוספו " + fresh.length + " מתכונים למועדפים"); });
+      box.appendChild(add);
+    }
+    var skip = el("button", "btn btn-small", "סגירה"); skip.type = "button";
+    skip.addEventListener("click", function () { box.hidden = true; });
+    box.appendChild(skip);
+    if (fromUrl) {                               // the link has done its job: drop the parameter
+      var u = new URL(location.href); u.searchParams.delete("addfavs"); history.replaceState(null, "", u.href);
+    }
+  }
+  function setupFavUi() {
+    $("t-favs").addEventListener("click", function () { onlyFavs = !onlyFavs; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
+    $("t-classics").addEventListener("click", function () { onlyClassics = !onlyClassics; writeFiltersToUrl("pushState"); refreshFavUi(); renderList(); });
+    $("fav-share").addEventListener("click", function () {
+      var url = favLink(), text = "מועדפים מהמתכונים של אילנה (" + validFavs().length + " מתכונים)";
+      if (navigator.share) navigator.share({ title: text, text: text, url: url }).catch(function () {});
+      else if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(function () { toast("הקישור למועדפים הועתק"); }, function () { window.prompt("העתיקו את הקישור:", url); });
+      else window.prompt("העתיקו את הקישור:", url);
+    });
+    $("fav-import").addEventListener("click", function () {
+      var t = window.prompt("הדביקו כאן קישור מועדפים (או רשימת מזהי מתכונים):", "");
+      if (t) offerImport(parseFavIds(t), false);
+    });
+  }
+
   fetch("data/recipes.json?v=" + (window.SITE_VERSION || Date.now()))
     .then(function (r) { return r.json(); })
     .then(function (d) {
       DATA = d;
       d.batches.forEach(function (b) { BATCH[b.batch] = b; });
       ALL = d.recipes.map(prepare);
-      fillFilters();
-      route();
+      return fetch("data/classics.json?v=" + (window.SITE_VERSION || Date.now()))
+        .then(function (r) { return r.ok ? r.json() : { ids: [] }; })
+        .catch(function () { return { ids: [] }; })
+        .then(function (c) {
+          CLASSICS = {};
+          (c.ids || []).forEach(function (id) { if (ALL.some(function (r) { return r.id === id; })) CLASSICS[id] = true; });
+          loadFavs();
+          fillFilters();
+          setupFavUi();
+          route();
+          var add = new URLSearchParams(location.search).get("addfavs");
+          if (add !== null) offerImport(parseFavIds(add), true);
+        });
     })
     .catch(function (e) {
       $("count").textContent = "שגיאה בטעינת הנתונים (data/recipes.json): " + e;
@@ -184,7 +298,8 @@
     });
     $("clear-filters").addEventListener("click", function () {
       Object.keys(FILTER_PARAMS).forEach(function (id) { $(id).value = id === "f-sort" ? "rel" : ""; });
-      writeFiltersToUrl("pushState");
+      onlyFavs = false; onlyClassics = false;
+      writeFiltersToUrl("pushState"); refreshFavUi();
       renderList();
     });
     ["q", "f-batch", "f-medium", "f-source", "f-verify", "f-sort"].forEach(function (id) {
@@ -200,6 +315,7 @@
     "f-source": "source", "f-verify": "proofreading", "f-sort": "sort" };
   function readFiltersFromUrl() {
     var params = new URLSearchParams(location.search);
+    onlyFavs = params.get("favs") === "1"; onlyClassics = params.get("classics") === "1";
     Object.keys(FILTER_PARAMS).forEach(function (id) {
       var control = $(id), fallback = id === "f-sort" ? "rel" : "";
       var value = params.get(FILTER_PARAMS[id]);
@@ -216,6 +332,8 @@
       if (!value || (id === "f-sort" && value === "rel")) url.searchParams.delete(param);
       else url.searchParams.set(param, value);
     });
+    if (onlyFavs) url.searchParams.set("favs", "1"); else url.searchParams.delete("favs");
+    if (onlyClassics) url.searchParams.set("classics", "1"); else url.searchParams.delete("classics");
     if (url.href !== location.href) history[method](null, "", url.href);
   }
 
@@ -224,6 +342,8 @@
     var fb = $("f-batch").value, fm = $("f-medium").value, fsrc = $("f-source").value, fv = $("f-verify").value;
     var rows = [];
     ALL.forEach(function (r) {
+      if (onlyFavs && !isFav(r.id)) return;
+      if (onlyClassics && !CLASSICS[r.id]) return;
       if (fb && String(r.batch) !== fb) return;
       if (fm && mediumKey(r) !== fm) return;
       if (fsrc && fsrc.indexOf("status:") === 0) { if ("status:" + sourceStatus(r) !== fsrc) return; }
@@ -253,7 +373,7 @@
   }
 
   function filtersActive() {
-    return Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
+    return onlyFavs || onlyClassics || Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
   }
   function renderList() {
     $("clear-filters").disabled = !filtersActive();
@@ -261,6 +381,7 @@
     var grid = $("grid");
     grid.textContent = "";
     $("count").textContent = rows.length + " מתכונים" + (rows.length !== ALL.length ? " (מתוך " + ALL.length + ")" : "");
+    if (!rows.length && onlyFavs && !validFavs().length) grid.appendChild(el("li", "empty", "עדיין אין מועדפים. לחצו על הלב ♥ בתמונת מתכון כדי להוסיף."));
     rows.forEach(function (x) {
       var r = x.r;
       var li = el("li", "card");
@@ -273,6 +394,7 @@
       body.appendChild(meta);
       var tags = el("p", "tags");
       tags.appendChild(el("span", "tag", batchTitle(r.batch).replace(" - ", " · ")));
+      if (CLASSICS[r.id]) tags.appendChild(el("span", "tag classic", "★ קלאסי"));
       if (r.card) tags.appendChild(el("span", "tag", "1 מתוך " + r.card.recipes.length + " באותו " + CARD_KIND[r.card.kind].one));
       if (usesAssignedTitle(r)) tags.appendChild(el("span", "tag", assignedKind(r).tag));
       if (pfFields(r).length) { var pt = el("span", "tag ok", "✓ הוגה: " + pfFields(r).map(function (f) { return PF_NAMES[f]; }).join(", ")); tags.appendChild(pt); }
@@ -280,6 +402,7 @@
       body.appendChild(tags);
       a.appendChild(body);
       li.appendChild(a);
+      li.appendChild(heartButton(r, false));
       grid.appendChild(li);
     });
   }
@@ -441,8 +564,12 @@
     var tw = el("div", "titlewrap");
     tw.appendChild(el("h2", null, recipeTitle(r)));
     var tb = pfBadge(r, "title") || pfBadge(r, "assigned_title"); if (tb) tw.appendChild(tb);
+    if (CLASSICS[r.id]) { var cb = el("span", "tag classic", "★ מהקלאסיים"); cb.title = "מתכון שנבחר לרשימת הקלאסיים של המשפחה"; tw.appendChild(cb); }
     tbar.appendChild(tw);
-    tbar.appendChild(shareBox(r));
+    var acts = el("div", "title-actions");
+    acts.appendChild(heartButton(r, true));
+    acts.appendChild(shareBox(r));
+    tbar.appendChild(acts);
     txt.appendChild(tbar);
     if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", assignedKind(r).note));
     else if (r.assigned_title) txt.appendChild(el("p", "muted", "כינוי / כותרת נוספת לחיפוש: " + r.assigned_title));
@@ -526,6 +653,7 @@
   function route() {
     if (!DATA) return;
     readFiltersFromUrl();
+    updateFavLabels();
     var m = location.hash.match(/^#\/(b\d+-r\d+)$/);
     if (m) return renderDetail(m[1]);
     document.title = "המתכונים של אילנה";

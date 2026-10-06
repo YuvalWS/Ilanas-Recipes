@@ -10,6 +10,7 @@ on:
       - "data/recipes.json"
       - "schema/**"
       - "tools/test_website*.py"
+      - "data/classics.json"
       - ".github/workflows/website-tests.yml"
   push:
     branches: [main]
@@ -33,3 +34,5 @@ jobs:
         run: python tools/test_website.py
       - name: Feature checks (no-source recipes, clear button, proofread badges, layout, ...)
         run: python tools/test_website_features.py
+      - name: Favorites and הקלאסיים checks
+        run: python tools/test_website_favorites.py

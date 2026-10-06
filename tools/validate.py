@@ -49,5 +49,10 @@ for cid, members in cards.items():       # interlinks: same list in every merged
     lists = {tuple(v) for v in members.values()}
     if len(lists) != 1 or not set(members) <= set(next(iter(lists))):
         print(f"card {cid}: recipes {sorted(members)} do not agree on card.recipes"); errors += 1
+cp = os.path.join(ROOT, "data", "classics.json")      # the curated list must only name existing recipes
+if os.path.exists(cp) and not sys.argv[1:]:
+    for cid in json.load(open(cp, encoding="utf-8")).get("ids", []):
+        if cid not in seen:
+            print(f"data/classics.json: unknown recipe id {cid}"); errors += 1
 print(f"checked {len(dirs)} recipes, {errors} problem(s)")
 sys.exit(1 if errors else 0)
