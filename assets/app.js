@@ -77,6 +77,7 @@
     return { tag: "כותרת שניתנה", note: "כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור." };
   }
   function sourceGroup(r) {
+    if (!r.source) return "person";                       // recipes without a source never reach the source filter
     // A clipping's byline can have type "person"; it is still a publication writer.
     // Chefs (source.role === "chef") are people but professional sources: they sit with the publication writers.
     return r.source.type === "publication" || r.source.type === "company" || r.source.role === "chef" ||
@@ -143,6 +144,7 @@
     });
     var seen = { person: new Map(), publication: new Map() };
     ALL.forEach(function (r) {
+      if (!r.source) return;                                // many recipes have no source
       var group = seen[sourceGroup(r)];
       srcNames(r).forEach(function (s) { group.set(s, (group.get(s) || 0) + 1); });
     });
