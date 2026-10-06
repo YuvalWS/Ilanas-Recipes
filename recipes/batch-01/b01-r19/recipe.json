@@ -3,10 +3,10 @@
   "batch": 1,
   "title": "עוגה",
   "source": {
-    "text": "שרה [?]",
+    "text": "שרה רוט",
     "type": "person",
-    "as_written": "שרה [?]",
-    "uncertain": true
+    "as_written": "שרה רוט",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -31,7 +31,8 @@
     "Title 'עוגה' and source 'שרה ...' are on the top line, separated by a slash.",
     "The card is a single running list mixing ingredients and method lines (e.g. 'להקציף חלבון + 1 כוס סוכר'); it is kept in card order under ingredients. A horizontal line divides the card; two hard-to-read lines below it (probably method) precede '2 כוסות קמח תופח', which ends the card at the bottom edge. No baking temperature/time is written.",
     "A second-opinion transcription (gemini_transcribtion.txt) adds full method steps, vanilla/rum and 'קמח אוסם'; most of that is not visible on the card and was not used except as best_guess where partly consistent with the crops.",
-    "Independent reread confirmed לקציפה קשה and תפוזים; other shaky words remain flagged."
+    "Independent reread confirmed לקציפה קשה and תפוזים; other shaky words remain flagged.",
+    "Source set by the owner (issue #324): שרה רוט."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -45,12 +46,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "שרה [?]",
-      "best_guess": "שרה רט (own reading) / שרה רוט (Gemini)",
-      "reason": "Surname after 'שרה' is 2-3 shaky letters; 'ר' then a ט-like letter; a 'ו' is not clearly visible."
-    },
     {
       "field": "ingredients[4]",
       "text": "1/2 כוס שמן [?] [?]",
