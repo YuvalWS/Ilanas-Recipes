@@ -1,0 +1,76 @@
+{
+  "id": "b06-r09",
+  "batch": 6,
+  "title": "דג סלמון",
+  "source": {
+    "text": "יפעת",
+    "type": "person",
+    "as_written": "יפעת",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 כפות יין לבן",
+        "2-3 כפות רוטב טריאקי",
+        "2 כפות סילן"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מלח, פלפל שחור",
+        "לשפוך על הדג, להמתין חצי שעה",
+        "לפזר פרוסות שום [?] [?]",
+        "[?] [?] [?] [?]",
+        "לכסות ולאפות כ-15-20 ד'",
+        "על אש בינונית/גבוהה",
+        "(אם הדג קפוא אין צורך להשרות",
+        "בלימון ומלח)"
+      ]
+    }
+  ],
+  "notes": [
+    "Ditto marks expanded: the marks under the first ingredient line stand for 'כפות' in the teriyaki and soy lines.",
+    "Title line has a long underline and an arrow/line at the right. The first three lines are an ingredient list with quantities.",
+    "A word is crossed out after 'מלח, פלפל שחור' (unreadable) and another between 'קפוא' and 'אין' in the last parenthetical; neither is transcribed.",
+    "Possible extra letter (ב) before 'חצי שעה' in the second instruction line; not certain.",
+    "Lines 3-4 of the instructions are small and shaky; see uncertainties."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-10.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "לפזר פרוסות שום [?] [?]",
+      "best_guess": "Gemini: וגזר קצוץ; earlier reading: unreadable",
+      "reason": "Last two words of the line are cramped; Gemini's reading is not clearly confirmed on the crop."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] [?] [?] [?]",
+      "best_guess": "Gemini: וגם עשבי תיבול שמיר/פטרוזיליה; earlier reading: unreadable",
+      "reason": "Whole line is shaky and crosses a crease; could not confirm Gemini's words on the scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
