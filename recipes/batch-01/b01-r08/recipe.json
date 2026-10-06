@@ -1,0 +1,86 @@
+{
+  "id": "b01-r08",
+  "batch": 1,
+  "title": "עוגת תפוזים",
+  "source": {
+    "text": "דורית",
+    "type": "person",
+    "as_written": "= דורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 ביצים",
+        "1 כוס סוכר",
+        "1 [?]",
+        "1 וניל",
+        "3 כוסות קמח אוסם",
+        "1 קופסה רסק תפוזים"
+      ]
+    },
+    {
+      "group": "להקציף במיקסר",
+      "items": [
+        "3 חלמונים",
+        "סוכר",
+        "מרגרינה",
+        "וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להוסיף 3 כוסות קמח לערבב עם ה-S",
+        "מרדדים את הבצק על תבנית משומנת, לשפוך את הרסק תפוזים, להכניס [?] עד שיזהב כ-20 דק'.",
+        "להקציף את החלבונים ← 3 כפות סוכר, ולשפוך את הקצף על הרסק ולאפות עוד כ-10 דק'."
+      ]
+    }
+  ],
+  "notes": [
+    "This card holds two recipes: the orange cake (above) and a biscuit cream (קרם לביסקויט, below the second divider). The cream is its own entry (b01-r09).",
+    "The group label is written beside a brace: 'להקציף' is written above the crossed-out word 'לערבב', followed by 'במיקסר'.",
+    "The title line reads 'עוגת תפוזים = דורית'; 'דורית' after the '=' is taken as the source.",
+    "Digitization remark: Gemini read the source as 'זכוכית' and the title as 'עוגת תפוז = זכוכית'; on the scan the word after the '=' reads 'דורית', so the source was kept.",
+    "Digitization remark: Gemini listed 'מרגרינה' as a separate ingredient line; on the card it appears only inside the bracket group (להקציף במיקסר), so it was not added to the main list.",
+    "Independent Codex enlarged-crop rereading confirms the Latin S, על תבנית משומנת (not עם הידיים), שיזהב, ולשפוך, and ולאפות. The small arrow preceding 3 כפות סוכר is recorded as an arrow rather than an invented word. The dairy ingredient and the word after להכניס remain unconfirmed."
+  ],
+  "incidental_text": [
+    "Faint printed form/number columns from the reverse side show through on the left; a pink check-mark; a large pen squiggle between the lines near 'לערבב'."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-08.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "1 [?]",
+      "best_guess": "Gemini: לבניה; earlier reading: לבנה",
+      "reason": "Both readings begin 'לבנ'; the first letter is covered by an ink blot / unclear glyph and the ending is not clear, so the word is not confirmed."
+    },
+    {
+      "field": "instructions",
+      "text": "להכניס [?]",
+      "best_guess": "לתנור",
+      "reason": "Word is shaky; letter shapes do not clearly match. Gemini gives no reading for this spot."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
