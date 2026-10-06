@@ -45,5 +45,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #315",
+      "scope": "the word 'פרוס' after שום only"
+    }
   }
 }

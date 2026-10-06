@@ -73,5 +73,25 @@
     ],
     "position": "Right half of the card: the printed block (with the 'ניקי' strip at the bottom).",
     "note": "One card holding two recipes: a printed recipe on the right and a handwritten variant on the left. They are separate recipes; check the other one if something looks missing."
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (ניקי = Niki B, chef)",
+      "scope": null
+    },
+    "medium": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #316",
+      "scope": null
+    },
+    "card": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #316",
+      "scope": null
+    }
   }
 }

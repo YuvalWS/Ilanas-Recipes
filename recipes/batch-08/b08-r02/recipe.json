@@ -59,5 +59,19 @@
     ],
     "position": "Side A, first (top) recipe.",
     "note": "Written in blue ballpoint on the back of a printed newspaper footer (logo and the line 'איכות חיים לכל החיים'; the logo word looks like 'איטונג'). The sheet holds several short recipes one after the other and is split here into separate recipes (b08-r02 .. b08-r05) - check the other recipes of this card if one looks incomplete."
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (owner transcription)",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (owner transcription)",
+      "scope": "typed by the owner from the rescan"
+    }
   }
 }

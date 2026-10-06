@@ -94,5 +94,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #40 review comments",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #40 review comments",
+      "scope": "first ingredient '10 שוקיים' only"
+    }
   }
 }

@@ -89,5 +89,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #325",
+      "scope": "name expansion 'שרה ר.' -> 'שרה רוט' is the owner's probable reading"
+    }
   }
 }
