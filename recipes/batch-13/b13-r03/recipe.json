@@ -3,7 +3,7 @@
   "batch": 13,
   "title": "עוגת גבינה",
   "source": {
-    "text": "שרה ר. (?)",
+    "text": "שרה רוט",
     "type": "person",
     "as_written": "שרה ר.",
     "uncertain": true
@@ -41,7 +41,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'עוגת גבינה / שרה ר.' with a second word in parentheses below that is unclear. A ruled line separates the beginning of the list from the rest; quantities are in the right-hand column.",
-    "The back (scan 04, a card with a printed frame and a printed footer 'איכות חיים לכל החיים') carries only the baking temperatures: 10 min at 200 degrees, then 50 min at 150 degrees, plus a crossed-out '20'. The card is assumed to be the back of scan 03 (same recipe) - not certain."
+    "The back (scan 04, a card with a printed frame and a printed footer 'איכות חיים לכל החיים') carries only the baking temperatures: 10 min at 200 degrees, then 50 min at 150 degrees, plus a crossed-out '20'. The card is assumed to be the back of scan 03 (same recipe) - not certain.",
+    "Source set by the owner (issue #325): שרה רוט. The card reads 'שרה ר.'; the owner thinks it is probably short for שרה רוט (kept as uncertain)."
   ],
   "incidental_text": [
     "Printed footer on scan 04: logo and the slogan 'איכות חיים לכל החיים' on a yellow band"
