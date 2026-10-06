@@ -77,7 +77,7 @@ For example: `?q=עוגה&medium=handwritten&proofreading=need&sort=title#/`. So
 
 ### Browser regression checks
 
-Install Playwright (`pip install playwright`, then `playwright install chromium`) and run `python tools/test_website.py`. To use a system Chromium, set `CHROMIUM_PATH`, for example `CHROMIUM_PATH=/usr/bin/chromium python tools/test_website.py`. The test serves a temporary local HTTP server and checks shared/reloaded filters, navigation history, source categories, and assigned-title search/display/share behavior without changing recipe data.
+Install Playwright (`pip install playwright`, then `playwright install chromium`) and run `python tools/test_website.py`. To use a system Chromium, set `CHROMIUM_PATH`, for example `CHROMIUM_PATH=/usr/bin/chromium python tools/test_website.py`. Also run `python tools/test_website_features.py` (filters with recipes that have no source, clear button, share icon/placement, collapsed notes, proofread badges, `source.names`, chefs, suggested titles, same-note links). Both run in CI (`Website tests`) on every site change. The test serves a temporary local HTTP server and checks shared/reloaded filters, navigation history, source categories, and assigned-title search/display/share behavior without changing recipe data.
 
 ### Deploy
 

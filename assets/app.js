@@ -74,7 +74,7 @@
     if (!r.assigned_title) return null;
     if (st === "ai_suggested") return { tag: "כותרת מוצעת", note: "כותרת מוצעת (הצעה אוטומטית, טרם אושרה): היא אינה כתובה על הפתק." };
     if (st === "owner_suggested") return { tag: "כותרת מוצעת", note: "כותרת מוצעת על ידי בעל האתר: היא אינה כתובה על הפתק." };
-    return { tag: "כותרת שניתנה", note: "כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור." };
+    return { tag: "כותרת שניתנה למתכון", note: "כותרת שניתנה למתכון לצורך חיפוש; אינה כותרת שתומללה מהמקור." };
   }
   function sourceGroup(r) {
     if (!r.source) return "person";                       // recipes without a source never reach the source filter
@@ -233,7 +233,7 @@
     return Object.keys(FILTER_PARAMS).some(function (id) { return $(id).value && !(id === "f-sort" && $(id).value === "rel"); });
   }
   function renderList() {
-    $("clear-filters").hidden = !filtersActive();
+    $("clear-filters").disabled = !filtersActive();
     var rows = currentResults();
     var grid = $("grid");
     grid.textContent = "";
@@ -312,9 +312,26 @@
     box.appendChild(report);
     return box;
   }
+  function shareIcon() {                  // the usual share glyph: three nodes joined by two lines
+    var NS = "http://www.w3.org/2000/svg";
+    var svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", "0 0 24 24"); svg.setAttribute("width", "18"); svg.setAttribute("height", "18");
+    svg.setAttribute("aria-hidden", "true"); svg.setAttribute("class", "share-icon");
+    [["line", { x1: 8.3, y1: 10.9, x2: 15.7, y2: 6.6 }], ["line", { x1: 8.3, y1: 13.1, x2: 15.7, y2: 17.4 }],
+     ["circle", { cx: 18, cy: 5.5, r: 3 }], ["circle", { cx: 6, cy: 12, r: 3 }], ["circle", { cx: 18, cy: 18.5, r: 3 }]].forEach(function (x) {
+      var n = document.createElementNS(NS, x[0]);
+      Object.keys(x[1]).forEach(function (k) { n.setAttribute(k, x[1][k]); });
+      if (x[0] === "line") { n.setAttribute("stroke", "currentColor"); n.setAttribute("stroke-width", "1.8"); n.setAttribute("stroke-linecap", "round"); }
+      else n.setAttribute("fill", "currentColor");
+      svg.appendChild(n);
+    });
+    return svg;
+  }
   function shareBox(r) {
     var box = el("div", "sharebox");
-    var share = el("button", "btn btn-share", "↗ שיתוף");
+    var share = el("button", "btn btn-share");
+    share.appendChild(shareIcon());
+    share.appendChild(document.createTextNode(" שיתוף"));
     share.type = "button";
     var menu = el("div", "share-menu"); menu.hidden = true;
     var url = pageUrl(r), text = plainText(r), title = (r.title || r.assigned_title || r.id) + " · המתכונים של אילנה";
@@ -398,8 +415,10 @@
 
     var txt = el("div", "text");
     var tbar = el("div", "titlebar");
-    var h2 = el("h2", null, recipeTitle(r)); var tb = pfBadge(r, "title") || pfBadge(r, "assigned_title"); if (tb) { h2.appendChild(document.createTextNode(" ")); h2.appendChild(tb); }
-    tbar.appendChild(h2);
+    var tw = el("div", "titlewrap");
+    tw.appendChild(el("h2", null, recipeTitle(r)));
+    var tb = pfBadge(r, "title") || pfBadge(r, "assigned_title"); if (tb) tw.appendChild(tb);
+    tbar.appendChild(tw);
     tbar.appendChild(shareBox(r));
     txt.appendChild(tbar);
     if (usesAssignedTitle(r)) txt.appendChild(el("p", "muted", assignedKind(r).note));

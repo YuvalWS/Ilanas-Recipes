@@ -60,7 +60,8 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .cardbox-h { margin: 0 0 4px; font-weight: 600; }
 .cardbox ul { margin: 4px 0; }
 .titlebar { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.titlebar h2 { flex: 1 1 12rem; margin: 0 0 6px; }
+.titlewrap { flex: 1 1 12rem; display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
+.titlebar h2 { margin: 0 0 6px; }
 .sharebox { position: relative; flex: none; margin-inline-start: auto; }
 .btn-share { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600; padding: 9px 20px; }
 .btn-share:hover { color: #fff; filter: brightness(1.1); }
@@ -73,3 +74,7 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .tag.ok { background: #d6f0dc; color: #1c5a2b; }
 .banner.ok { background: #e3f4e7; color: #1c5a2b; padding: 8px 12px; border-radius: 8px; }
 @media (prefers-color-scheme: dark) { .pf, .tag.ok { background: #1f4a2b; color: #bfe8c9; } .banner.ok { background: #1b3a25; color: #bfe8c9; } }
+.btn:disabled { opacity: .45; cursor: default; }
+.btn:disabled:hover { border-color: var(--line); color: var(--fg); }
+.btn-share { display: inline-flex; align-items: center; gap: 6px; }
+.share-icon { flex: none; }
