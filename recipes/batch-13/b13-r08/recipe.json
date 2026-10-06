@@ -3,10 +3,10 @@
   "batch": 13,
   "title": "עוגת גבינה",
   "source": {
-    "text": "[?]ית",
+    "text": "נורית",
     "type": "person",
-    "as_written": "[?]ית",
-    "uncertain": true
+    "as_written": "נורית",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -45,7 +45,8 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Two yellow memo cards of a contracting company (scan 10 has the printed letterhead and the title line 'עוגת גבינה / [?]ית' with a wavy underline and a stapled corner; scan 11 continues with a bracketed 'חלבונים 1/4 כוס סוכר' at the top and a numbered method). A parenthetical '(או 3 גביעים)' follows the first ingredient; the first column holds quantities.",
-    "Scan 11 is treated as the continuation (second card) of scan 10, not a back side; this relation is an assumption. The method includes numbered steps (a circled 3 and a circled number at the left), a mention of 'חום גבוה' and 10 minutes, and ends with a line about 1/4 cup sugar."
+    "Scan 11 is treated as the continuation (second card) of scan 10, not a back side; this relation is an assumption. The method includes numbered steps (a circled 3 and a circled number at the left), a mention of 'חום גבוה' and 10 minutes, and ends with a line about 1/4 cup sugar.",
+    "Source set by the owner (issue #323): נורית."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company on scan 10 (logo, phone and fax)"
@@ -67,12 +68,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "[?]ית",
-      "best_guess": null,
-      "reason": "Word after the slash ends with 'ית' (a woman's name) but the beginning is unclear."
-    },
     {
       "field": "ingredients",
       "text": "units",
