@@ -1,0 +1,117 @@
+{
+  "id": "b01-r22",
+  "batch": 1,
+  "title": "עוגיות שושנה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 מרגרינה",
+        "1 ק\"ג קמח רגיל",
+        "2 [?]פירן",
+        "1 כוס מים",
+        "1 [?] סוכר = פסטי[?]",
+        "2 [?] [?]-[?] [?] 2 כוסות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מי [?] [?] [?] באמת - [?]",
+        "[?] עלות [?]",
+        "להוסיף [?] מעט קינמון",
+        "[?] [?] [?] ...",
+        "[?] [?] מלח [?]",
+        "מערבבים [?] [?] ...",
+        "[?] [?] [?] [?] ...",
+        "[?] [?] [?] ... [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Large shaky handwriting on a square card. The front carries a printed 'רשות הדואר - דואר קדימה' logo at the bottom. The back (23) is grouped as the continuation because of the handwriting and the ingredients ending mid-list; this grouping is probable but not certain.",
+    "The top line of the front holds two words: a long first word (title?) and a shorter second word (a name?). Gemini read them as 'סוהרורים שושנה' (title + source); the ink does not let me confirm either, so title and source are left open.",
+    "Gemini's transcription adds items that are not visible on the card and were ignored: 'חבילות', baking powder, wine, vanilla sugar quantities, a jam/lemon/chocolate filling, cutting into triangles and rolling 'like rugelach'.",
+    "Owner's title: 'עוגיות שושנה'. Title reviewed by the owner (PR review, 2026-10-06); the rest of the transcription has NOT been proofread yet."
+  ],
+  "incidental_text": [
+    "Printed logo: רשות הדואר - דואר קדימה"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-22.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-22.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2101-23.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-23.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": "Gemini: סוהרורים (with the source 'שושנה' on the same line)",
+      "reason": "The top line of the front is very irregular; the first word has about 7-8 letters and ends in ים, but I cannot confirm Gemini's spelling or that it is a title."
+    },
+    {
+      "field": "source",
+      "text": null,
+      "best_guess": "Gemini: שושנה",
+      "reason": "The left word of the top line could be a person's name; not confirmable from the ink."
+    },
+    {
+      "field": "ingredients",
+      "text": "3 מרגרינה",
+      "best_guess": "earlier reading: 2; Gemini: 3 חבילות",
+      "reason": "The digit looks like a 3 (open to the left, unlike the 2s on the card); no unit is written."
+    },
+    {
+      "field": "ingredients",
+      "text": "2 [?]פירן",
+      "best_guess": "Gemini: 2 שקיות אבקת אפייה",
+      "reason": "The word does not obviously match Gemini's reading; letters before 'פירן' are unclear."
+    },
+    {
+      "field": "ingredients",
+      "text": "1 [?] סוכר = פסטי[?]",
+      "best_guess": "Gemini: סוכר וניל",
+      "reason": "Word before 'סוכר' and the end of 'פסטי...' after '=' are unreadable."
+    },
+    {
+      "field": "ingredients",
+      "text": "2 [?] [?]-[?] [?] 2 כוסות",
+      "best_guess": null,
+      "reason": "Last ingredient overlaps the printed logo and is very irregular; Gemini cut it at '2 כוסות...'."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines of the back",
+      "best_guess": null,
+      "reason": "Only 'מי', 'באמת', 'להוסיף', 'מעט קינמון' and a few letters are readable; Gemini's fuller method is not visible on the card."
+    },
+    {
+      "field": "raw_files",
+      "text": "grouping of 22 and 23",
+      "best_guess": null,
+      "reason": "The two scans are probably one recipe (same pen, same card type), but no title or number confirms it."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
