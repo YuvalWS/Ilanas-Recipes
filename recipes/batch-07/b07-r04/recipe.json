@@ -77,6 +77,12 @@
       "date": "2026-10-06",
       "via": "PR #246 review comments",
       "scope": "typed by the owner"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment on the source = confirmed)",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

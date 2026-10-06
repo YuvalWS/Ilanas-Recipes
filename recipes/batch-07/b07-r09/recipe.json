@@ -71,6 +71,12 @@
       "date": "2026-10-06",
       "via": "PR #256 review comments",
       "scope": "the jar note moved to the ingredient group"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment on the source = confirmed)",
+      "scope": "confirmed: no source on the card"
     }
   }
 }
