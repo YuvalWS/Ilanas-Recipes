@@ -1,0 +1,78 @@
+{
+  "id": "b21-r05",
+  "batch": 21,
+  "title": "רוטב לשניצל",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] 3 דקות ולהוסיף [?]",
+        "[?] 20 דקות",
+        "1 כף קורנפלור",
+        "1/4 כוס מרק",
+        "1 כפית [?]",
+        "(הוספתי [?])"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Two-sided memo card with BZL letterhead. Handwriting is largely illegible with strong show-through. Only the fragments above could be read; their order and which side they belong to are not certain. Rescan recommended.",
+    "Title per the owner (PR #255): רוטב לשניצל; source נורית confirmed."
+  ],
+  "incidental_text": [
+    "Printed company letterhead on the memo page: logo 'בזל' and 'מקבוצת חברות זלינגר בע\"מ', פקס 03-5617358, טל. 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-05.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-05.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2252-06.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "raw_files",
+      "text": "05/06",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one recipe."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #255 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #255 review comments",
+      "scope": "confirmed (נורית)"
+    }
+  }
+}
