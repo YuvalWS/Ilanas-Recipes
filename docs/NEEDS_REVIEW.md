@@ -9,7 +9,7 @@ Confidence: high 83, medium 69, low 88. Flagged needs_human_verification: 197.
 |---|---|---|---|---|
 | b01-r02 | 1 עוגות וטורטים | עוגיות שושנה | Batch 1/Scanned_20261004-2101-02.jpg | handwritten |
 | b01-r07 | 1 עוגות וטורטים | טורט | Batch 1/Scanned_20261004-2101-07.jpg | handwritten |
-| b01-r19 | 1 עוגות וטורטים | עוגה | Batch 1/Scanned_20261004-2101-18.jpg | handwritten |
+| b01-r19 | 1 עוגות וטורטים | עוגה | Batch 1/Scanned_20261004-2101-18.jpg, Batch 1/Scanned_20261004-2101-19.jpg | handwritten |
 | b01-r22 | 1 עוגות וטורטים | עוגיות שושנה | Batch 1/Scanned_20261004-2101-22.jpg, Batch 1/Scanned_20261004-2101-23.jpg | handwritten |
 | b02-r04 | 2 קינוחים, עוגיות ומתוקים | עוגיות במילוי אינסטנט | Batch 2/Scanned_20261004-2105-04.jpg | handwritten |
 | b03-r02 | 3 בשר ועוף | פרגיות | Batch 3/Scanned_20261004-2110-03.jpg | handwritten |
