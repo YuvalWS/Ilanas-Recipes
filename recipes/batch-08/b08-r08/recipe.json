@@ -35,9 +35,10 @@
     "Article text (printed, under the heading 'צלי בשר לא מסובך'; the last two paragraphs are at the top of the third column and may be the article's continuation or the recipe's own introduction):\n\"איזה נתח אתם שואלים? נתח לא מסובך ולא שמן, שאפשר לקנות אצל הקצב בסופר. \"צלי כתף\", למשל, הוא נתח מצוין לעניין והוא מצוי בכל קצביה ב\"סופר\". לכו על נתח טרי. פסח, אתם יודעים. גם \"פלש פילה\", שהוא יותר צר, עגול ומוארך, יכול להתאים.\"\n\"שאני אקשור את הנתח? מה פתאום. שהקצב יעשה לכם את זה. ייקח לו 3 דקות לעשות מה שלכם ייקח רבע שעה לפחות. זה משאיר את הצלי מגובש, יפה ואחיד. רק לפני ההגשה אל תשכחו לגזור את החוט ולזרוק אותו.\"\n\"אפשר לבשל את הנתח במים, במרק צח או ביין אדום (לא חייבים יקר, לכו על יין אדום טוב, לא יקר). בכל מקרה, את הנוזלים יוצקים לסיר כשהם רותחים.\"\n\"כדאי להכין את התבשיל יום לפני ורק לחמם לפני ההגשה. אפשר לחמם את הנתח שלם, להגיש ולפרוס ליד השולחן. אפשר לפרוס את הנתח כשהוא קר (עובי של קצת פחות מסנטימטר) ולחמם ברוטב את הנתח כשהוא כבר פרוס.\"",
     "The recipe has no separate printed title; the title field uses the article heading 'צלי בשר לא מסובך'. The ingredient list begins with 'נתח צלי כתף'. The article starts at the bottom of the second column (after the carrot method) and continues at the top of the third column, directly above the 'חומרי ליבה' list.",
     "The method is cut: step 2 ends mid-sentence at the bottom of the third column ('מציצים מתחת לנתח'), the continuation is not in the clipping, and a single line at the very top of the left-most column ('הגישו בצ[?] או מעל.'), which is cut by the torn top edge, is likely its tail. Text between these two parts is missing.",
-    "Part of newspaper page b08-card-02 with b08-r06, b08-r07, b08-r09 (the other recipes on the same page).",
+    "Part of newspaper page b08-card-02 with b08-r07, b08-r09 (the other recipes on the same page).",
     "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
-    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(newspaper, name not on the clipping), 27.3.2009' was removed. The printed date 27.3.2009 of the newspaper page is kept here."
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(newspaper, name not on the clipping), 27.3.2009' was removed. The printed date 27.3.2009 of the newspaper page is kept here.",
+    "Owner (chat, 2026-10-06): The fragment b08-r06 (the end of a stuffed-kneidlach recipe at the top of the right-hand column, its beginning torn off) was removed at the owner's request on 2026-10-06: Ilana did not clip that recipe, only the others on the page. Its id is intentionally unused."
   ],
   "incidental_text": [
     "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
@@ -92,13 +93,12 @@
     "id": "b08-card-02",
     "kind": "clipping",
     "recipes": [
-      "b08-r06",
       "b08-r07",
       "b08-r08",
       "b08-r09"
     ],
     "position": "Second column from the right (article 'צלי בשר לא מסובך', below the carrot method of b08-r07) continuing into the third column from the right (intro, 'חומרי ליבה' ingredients, numbered method), with the tail of the method at the top of the left-most column.",
-    "note": "One newspaper page holding several recipes; the page is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
+    "note": "One newspaper page holding several recipes; the page is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card. The fragment b08-r06 (the end of a stuffed-kneidlach recipe at the top of the right-hand column, its beginning torn off) was removed at the owner's request on 2026-10-06: Ilana did not clip that recipe, only the others on the page. Its id is intentionally unused."
   },
   "proofread": {
     "source": {
@@ -106,6 +106,12 @@
       "date": "2026-10-06",
       "via": "chat",
       "scope": "confirmed: no source on the card"
+    },
+    "card": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "the page's recipe list: the fragment b08-r06 was removed"
     }
   }
 }
