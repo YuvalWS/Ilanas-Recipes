@@ -98,8 +98,9 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .empty { grid-column: 1 / -1; color: var(--muted); padding: 24px 4px; list-style: none; }
 .toast { position: fixed; bottom: 18px; inset-inline: 16px; margin: auto; max-width: 420px; background: #222; color: #fff; padding: 10px 16px; border-radius: 10px; text-align: center; z-index: 20; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
 
-.btn-warn[aria-pressed="true"] { background: #b26a00; border-color: #b26a00; color: #fff; }
-.suggested-warning { font-weight: 600; }
+.hint.title-warn { border-bottom: 0; cursor: help; margin-inline-start: 6px; font-size: .75em; font-weight: 400; color: var(--warn-fg); background: var(--warn-bg); border-radius: 50%; padding: 1px 4px; vertical-align: middle; display: inline-block; line-height: 1.2; }
+.title-warn::before { content: "⚠"; }
+.titlewrap .title-warn { font-size: .9rem; }
 
 .hint { border-bottom: 1px dotted var(--accent); cursor: help; }
 .hint:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
