@@ -47,7 +47,9 @@
   ],
   "notes": [
     "Printed clipping. The recipe is under the red heading 'רפרפת שזיפים וצימוקים' on the right-hand side, together with the 'מגש פירות יבשים' (dried-fruit platter) article, which is entered separately (b02-r08). The ingredient list for option א' (whipped cream) sits on a torn, folded strip at the very top of the middle column; its heading is missing and its two lines are partly cut/creased.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Part of b02-card-01 with b02-r08 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [
     "Photo caption: מגש פירות יבשים",
@@ -59,7 +61,21 @@
       "file": "raw/Scanned_20261004-2105-08.jpg",
       "original_path": "Batch 2/Scanned_20261004-2105-08.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.365,
+          "y": 0.04,
+          "w": 0.29,
+          "h": 0.8
+        },
+        {
+          "x": 0.665,
+          "y": 0.55,
+          "w": 0.335,
+          "h": 0.45
+        }
+      ]
     }
   ],
   "needs_human_verification": true,
@@ -98,5 +114,15 @@
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
     }
+  },
+  "card": {
+    "id": "b02-card-01",
+    "kind": "clipping",
+    "recipes": [
+      "b02-r08",
+      "b02-r09"
+    ],
+    "position": "The recipe text in the middle column (preparation) and the ingredients block at the bottom of the right-hand column ('רפרפת שזיפים וצימוקים').",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
   }
 }

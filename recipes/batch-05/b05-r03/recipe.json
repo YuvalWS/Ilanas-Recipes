@@ -52,7 +52,9 @@
   ],
   "notes": [
     "Newspaper clipping, 7-9 servings ('7־9 מנות'), from the 'סגנון' section, dated 10.03.10, page 42; photo credit דניאל לילה. The same scan also holds a small handwritten card on the table (see the next recipe).",
-    "The word 'חדרה' in the byline is slightly smudged but readable."
+    "The word 'חדרה' in the byline is slightly smudged but readable.",
+    "Part of b05-card-01 with b05-r04 (the other recipe on the same item); the item was split into separate recipes. Link added by AI on 2026-10-06 after the owner noticed items with several recipes without frames.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [
     "Section header at the top-right is stylised and only partly legible ('קפיטל...')",
@@ -65,7 +67,15 @@
       "file": "raw/Scanned_20261004-2117-03.jpg",
       "original_path": "Batch 5/Scanned_20261004-2117-03.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 0.56
+        }
+      ]
     }
   ],
   "needs_human_verification": false,
@@ -84,5 +94,16 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "card": {
+    "id": "b05-card-01",
+    "kind": "other",
+    "recipes": [
+      "b05-r03",
+      "b05-r04"
+    ],
+    "position": "The newspaper clipping on top of the scan (recipe 'קציצות חזה עוף ברוטב עגבניות').",
+    "note": "One physical item (sheet / clipping) holding several recipes; it is split into separate recipes. If a recipe looks incomplete, check the other recipes of the same card."
+  },
+  "proofread": {}
 }
