@@ -1,0 +1,121 @@
+{
+  "id": "b20-r14",
+  "batch": 20,
+  "title": null,
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "הכלים",
+      "items": [
+        "קרש חיתוך",
+        "סכין חדה",
+        "קערה בינונית-גדולה",
+        "כף לערבוב"
+      ]
+    },
+    {
+      "group": "המרכיבים (4 מנות) - לסלט",
+      "items": [
+        "4 קולורבי בינוניים",
+        "20-25 (כ־250 גרם) צנוניות טריות קטנות",
+        "1 צרור בינוני (10-12 גבעולים) בצל ירוק, רצוי בעל עלים דקים",
+        "100-150 גרם זיתים שחורים, רצוי מזן \"קלמטה\""
+      ]
+    },
+    {
+      "group": "המרכיבים - לרוטב",
+      "items": [
+        "2-3 כפות שמן זית",
+        "3 כפות מיץ לימון טרי",
+        "כ־1/2 כפית מלח גס, מומלץ אטלנטי",
+        "כ־1/4 כפית פלפל שחור גרוס"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "הקולרבי: מסירים בעזרת סכין את הגבעולים הדקים שסובבים את הקולרבי. קוטמים את הקצוות וקולפים אותו. חוצים את הקולרבי לאורכו, חותכים כל מחצית לרוחבה ל־2 פרוסות, משאירים את הפרוסות זו על זו וחותכים שתי וערב לקוביות בינוניות. חותכים כך את כל הקולרבי ומעבירים לקערה.",
+        "הצנוניות: [?] את הצנוניות ומסירים בעדינות [?] זנב ולכלוך. מנגבים את הצנוניות ומשאירים אותן בקליפתן. מסירים את הקצוות וחותכים כל צנונית לפרוסות בעובי כ־1/2 ס\"מ. מוסיפים לקערה.",
+        "הבצל הירוק: רוחצים את הבצלים, מנערים מעט ומניחים על מגבת מטבח יבשה. סופגים בעדינות שאריות מים. מסירים את החלק הלבן (אפשר לשמור אותו לשימוש בתבשיל או בסלט אחר), נפטרים מחלקים יבשים ופגומים, וחותכים את גבעולי הבצל (אפשר גם לגזור במספריים) לחתיכות בינוניות-קטנות.",
+        "הזיתים: מסננים את הזיתים ומניחים אותם על קרש חיתוך. חותכים 4 פרוסות מסביב לגרעין כל זית ומעבירים אותן לקערה. נזהרים שלא להוסיף גרעיני זיתים לקערה.",
+        "התיבול: יוצקים על הירקות את שמן הזית ומיץ הלימון. מפזרים את המלח והפלפל השחור. מערבבים וטועמים. אם צריך, מוסיפים מעט מאחד או יותר מהתבלינים ומערבבים שוב. מגישים (אפשר לשמור במקרר עד יומיים)."
+      ]
+    }
+  ],
+  "notes": [
+    "Two clippings that continue each other: scan 17 holds the tools, ingredients and the start of step 1; scan 16 continues from the end of step 1 to the last step. The title of the recipe is not on either piece, so no title is given (from the content it is a salad of kohlrabi, radishes, spring onions and olives; this description is not a title).",
+    "Scan was upside down and was rotated 180 degrees. Printed ranges are typeset right-to-left (for example '25-20', '12-10', '150-100', '3-2'); they are written here in the usual order.",
+    "Scan 16 is printed on thin paper and the reverse side shows through, so a few words in steps 2 and 3 are faint.",
+    "Suggested title 'סלט קולרבי וצנוניות' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed list: kohlrabi, small fresh radishes; method starts with preparing the kohlrabi). Awaiting the owner's approval."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-17.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-17.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2248-16.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-16.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The title was not on either clipping piece."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "הצנוניות: [?] ... [?] זנב",
+      "best_guess": null,
+      "reason": "The first words of step 2 are very faint (print from the reverse side shows through)."
+    },
+    {
+      "field": "raw_files",
+      "text": "16/17",
+      "best_guess": null,
+      "reason": "Assumed to continue each other (text flows from one to the other)."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source or publication visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "סלט קולרבי וצנוניות",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "printed list: kohlrabi, small fresh radishes; method starts with preparing the kohlrabi",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}
