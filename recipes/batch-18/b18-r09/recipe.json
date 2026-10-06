@@ -1,0 +1,91 @@
+{
+  "id": "b18-r09",
+  "batch": 18,
+  "title": "[?] 26",
+  "source": {
+    "text": "דורית",
+    "type": "person",
+    "as_written": "דורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים",
+        "1 1/2 כוס סוכר",
+        "תמצית וניל (2 כפיות)",
+        "1/2 שקית אבקת אפיה",
+        "1 1/2 כוס קמח רגיל",
+        "2 כפות שמן",
+        "2 כפות שטוחות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להקציף חלבונים + הסוכר",
+        "כשהקצף חזק להוריד מהירות ל-1",
+        "להוסיף החלמונים, הקמח,",
+        "[?]וניל השמן"
+      ]
+    },
+    {
+      "group": "back",
+      "steps": [
+        "(back) [?] [?] כוס סוכר",
+        "(back) [?] [?] מכוסה"
+      ]
+    }
+  ],
+  "notes": [
+    "Corrected by the owner in review comments on PR #96: his typed readings replace the earlier AI transcription of the same lines."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-10.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2238-11.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?] 26",
+      "best_guess": "עוגה בתבנית 26",
+      "reason": "Owner: the top of the card is torn; the visible part is '26' and apparently means a cake in a 26 cm pan."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]וניל השמן",
+      "best_guess": "תמצית ה",
+      "reason": "Owner: torn; apparently '...תמצית ה' before 'וניל השמן'."
+    },
+    {
+      "field": "ingredients",
+      "text": "2 כפות שטוחות",
+      "best_guess": null,
+      "reason": "The noun after '2 כפות' (possibly the cocoa alternative on the left) is unclear."
+    }
+  ],
+  "transcription": {
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  }
+}
