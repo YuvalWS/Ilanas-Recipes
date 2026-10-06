@@ -1,0 +1,105 @@
+{
+  "id": "b19-r03",
+  "batch": 19,
+  "title": "פלפלים ממולאים",
+  "source": {
+    "text": "[?]",
+    "type": "unknown",
+    "as_written": "[?]",
+    "uncertain": true
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "הרוטב",
+      "items": [
+        "1 כפית [?] [?]",
+        "1/2 [?]",
+        "[?]",
+        "1 שמן זית [?]",
+        "1 [?]",
+        "[?] [?] כפית [?]",
+        "[?] 11 [?]",
+        "1 כוס חצי? [?]",
+        "1/2 [?] ...",
+        "1 [?]",
+        "[?]"
+      ]
+    },
+    {
+      "group": "(back)",
+      "items": [
+        "[?] 1/2 [?] [?] כפית",
+        "[?] [?] פלפלים",
+        "[?] 2 [?] כפות",
+        "1 [?] ו-[?] שמן"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "(back) [?] [?]",
+        "(back) להוסיף [?] [?] בצל",
+        "(back) [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 2240-05 (printed frame with a yellow footer band 'איכות חיים לכל החיים' - a newspaper sticker): title line 'פלפלים ממולאים / [?]' (the last word is a name or an unclear word), then a heading 'הרוטב:' followed by about 14 crowded lines with fractions on the left; the last line is written below the printed band and reads in parentheses '(כוס חצי? אמית? שקדים)'. Card 2240-06 (the back) holds 11 lines of the same hand, with a bracketed phrase '(מקוצץ גס?)' and the words 'פלפלים' and 'הרוטב' - probably the filling or method. A large stain covers the lower right.",
+    "I could only read the headings and the sauce topic; all quantities are unreliable."
+  ],
+  "incidental_text": [
+    "Printed footer: 'איכות חיים לכל החיים' on a yellow band with a newspaper logo"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2240-05.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2240-05.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2240-06.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2240-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "פלפלים ממולאים / [?]",
+      "best_guess": null,
+      "reason": "Recipe heading is clear; only slash attribution/name is unresolved."
+    },
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": null,
+      "reason": "Quantities and items are unreliable."
+    },
+    {
+      "field": "instructions",
+      "text": "back",
+      "best_guess": null,
+      "reason": "Not legible."
+    },
+    {
+      "field": "raw_files",
+      "text": "2240-05/06",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
