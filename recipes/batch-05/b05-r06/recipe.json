@@ -1,8 +1,13 @@
 {
   "id": "b05-r06",
   "batch": 5,
-  "title": "קציצות עוף [?]",
-  "source": null,
+  "title": "קציצות עוף",
+  "source": {
+    "text": "הקצבים",
+    "type": "company",
+    "as_written": "הקצבים",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -29,7 +34,8 @@
   "notes": [
     "The title is written above a wavy dividing line. 'קציצות עוף' is mostly in a light-blue pen (some strokes retraced in dark blue); the last word at the top-left corner is in dark blue and its left end runs into the card edge.",
     "The last word of the title may be a source/place (e.g. a butcher's shop) rather than part of the dish name; it is kept in the title until verified.",
-    "Gemini's second reading (title 'קציצות הודו אדום / חיה', '1 ק\"ג עוף הודו טחון', 'לערבב לנוח קצת, קציצה') was checked against the scan; the card shows 'עוף טחון' only, so its additions were not adopted."
+    "Gemini's second reading (title 'קציצות הודו אדום / חיה', '1 ק\"ג עוף הודו טחון', 'לערבב לנוח קצת, קציצה') was checked against the scan; the card shows 'עוף טחון' only, so its additions were not adopted.",
+    "Owner (PR #107 review comments): title קציצות עוף, source הקצבים."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -42,19 +48,26 @@
   ],
   "needs_human_verification": true,
   "confidence": "medium",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "קציצות עוף [?]",
-      "best_guess": "Gemini: 'הודו אדום / חיה' (rejected: does not match the ink, which ends in ...ים at the card edge); earlier readings: 'הקצבים' or 'הקבבים'",
-      "reason": "Dark-blue word at the top-left corner, partly at the card edge. Letters appear to be ה-ק-(צ or ב)-(ב or ה)-י-ם; read as 'הקצבים' (the butchers) or, as in the previous reading, 'הקבבים'. Not certain."
-    }
-  ],
+  "uncertainties": [],
   "transcription": {
     "method": "ai_reread_codex_crops_crosschecked_claude",
     "date": "2026-10-05",
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #107 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #107 review comments",
+      "scope": null
+    }
   }
 }
