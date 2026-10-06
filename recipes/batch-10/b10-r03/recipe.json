@@ -1,0 +1,75 @@
+{
+  "id": "b10-r03",
+  "batch": 10,
+  "title": "כרובית",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "חולטים + מלח",
+        "עד שרותח שוב",
+        "2) לסנן",
+        "3) ביצים, מעט מים",
+        "קמח רגיל, מעט",
+        "מלח - טיפה",
+        "לטבול הכרובית",
+        "טיגון בשמן תום[?] [?]",
+        "[? ?]  + [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very shaky; unreadable words are [?].",
+    "Very large, stretched script with a crossed heading at the top left; no word can be read reliably. A human who knows Ilana's handwriting is needed.",
+    "Owner (PR #125 review comments): title 'כרובית' (marked with asterisks) and the method typed by the owner."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2156-02.jpg",
+      "original_path": "Batch 10/Scanned_20261004-2156-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "[?] marks",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own typed text (PR #125)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #125 review comments",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #125 review comments",
+      "scope": "typed by the owner"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}
