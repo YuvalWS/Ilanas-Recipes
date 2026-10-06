@@ -1,0 +1,35 @@
+name: Website tests
+
+# Browser regression checks (Playwright) for the static site. They run on every pull request and push
+# that touches the site, the index or the tests, so a broken filter bar can not be merged unnoticed.
+on:
+  pull_request:
+    paths:
+      - "assets/**"
+      - "index.html"
+      - "data/recipes.json"
+      - "schema/**"
+      - "tools/test_website*.py"
+      - ".github/workflows/website-tests.yml"
+  push:
+    branches: [main]
+    paths:
+      - "assets/**"
+      - "index.html"
+      - "tools/test_website*.py"
+  workflow_dispatch:
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install playwright jsonschema
+      - run: python -m playwright install --with-deps chromium
+      - name: Existing checks (URL filters, navigation, titles, share)
+        run: python tools/test_website.py
+      - name: Feature checks (no-source recipes, clear button, proofread badges, layout, ...)
+        run: python tools/test_website_features.py
