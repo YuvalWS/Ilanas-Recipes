@@ -1,12 +1,12 @@
 {
   "id": "b17-r12",
   "batch": 17,
-  "title": "עוף בתנור",
+  "title": "עוף בתנור / מלח",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
-    "uncertain": true
+    "text": "טלוויזיה",
+    "type": "publication",
+    "as_written": "טלוויזיה",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -41,7 +41,9 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Card 12 has a printed letterhead of a construction group ('מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372). The title line reads 'עוף בתנור / [?] / [?]' (two words after the title, perhaps names, are unclear), underlined. Card 13 (back, white, upright) continues with oven times and temperatures (20 minutes at 250 degrees then turn; then 200 degrees) with bleed-through from the front.",
     "The order of the lines at the end of the front card ('לפזר מסביב 1 כף מלח בישול') was read as shown.",
-    "Independent two-scan review corrects the last instruction to 200°C uncovered (לא לכסות), not covered."
+    "Independent two-scan review corrects the last instruction to 200°C uncovered (לא לכסות), not covered.",
+    "Source set by the owner (issue #340): טלוויזיה. (a television programme/channel as the source)",
+    "Title per the owner (issue #340): 'עוף בתנור / מלח'."
   ],
   "incidental_text": [
     "Printed letterhead on card 12: brick-pattern logo, 'מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372"
@@ -63,12 +65,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "[?] (names after the title)",
-      "best_guess": null,
-      "reason": "Two words after the title cannot be read."
-    },
     {
       "field": "ingredients",
       "text": "line 2",
@@ -100,5 +96,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #340",
+      "scope": null
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #340",
+      "scope": null
+    }
   }
 }
