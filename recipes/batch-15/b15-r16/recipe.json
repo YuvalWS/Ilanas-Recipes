@@ -32,7 +32,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Handwritten variant on the left half of the same card as the printed 'לביבות כרובית אפויות'; the title line reads 'לביבות ירק אפויות'. It follows the printed recipe but uses zucchini instead of cauliflower (as read). Several lines in the left column are not legible."
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Handwritten variant on the left half of the same card as the printed 'לביבות כרובית אפויות'; the title line reads 'לביבות ירק אפויות'. It follows the printed recipe but uses zucchini instead of cauliflower (as read). Several lines in the left column are not legible.",
+    "Split by the owner's request (issue #316): this is the handwritten recipe; the printed recipe on the right of the same card is b15-r15."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -65,5 +66,15 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "card": {
+    "id": "b15-card-01",
+    "kind": "other",
+    "recipes": [
+      "b15-r15",
+      "b15-r16"
+    ],
+    "position": "Left half of the card: the handwritten variant 'לביבות ירק אפויות'.",
+    "note": "One card holding two recipes: a printed recipe on the right and a handwritten variant on the left. They are separate recipes; check the other one if something looks missing."
   }
 }
