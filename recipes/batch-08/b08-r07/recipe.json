@@ -2,11 +2,7 @@
   "id": "b08-r07",
   "batch": 8,
   "title": "גזר מזוגג",
-  "source": {
-    "text": "(newspaper, name not on the clipping), 27.3.2009",
-    "type": "publication",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -67,7 +63,8 @@
     "The assignment of the two tail lines at the top of the second column to this recipe is based on content (additions to the carrots, orange zest, 'these ingredients complement each other'); no other recipe on the page is about additions.",
     "Part of newspaper page b08-card-02 with b08-r06, b08-r08, b08-r09 (the other recipes on the same page).",
     "Nickname 'צימעס' given by the owner (assigned_title); the printed heading is 'גזר מזוגג' and the text itself calls it 'צימעס' ('צימעס פשוט ובסיסי').",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(newspaper, name not on the clipping), 27.3.2009' was removed. The printed date 27.3.2009 of the newspaper page is kept here."
   ],
   "incidental_text": [
     "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
@@ -123,8 +120,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

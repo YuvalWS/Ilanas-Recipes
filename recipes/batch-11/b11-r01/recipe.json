@@ -2,12 +2,7 @@
   "id": "b11-r01",
   "batch": 11,
   "title": "מרק אפונה",
-  "source": {
-    "text": "(printed clipping, publication not shown)",
-    "type": "unknown",
-    "as_written": "—",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -36,7 +31,8 @@
     "Printed clipping (white print on blue), only the ingredient list (המרכיבים, 6 servings) is on this scan - no method is visible; the clipping is wrinkled and cut at the edges. The title 'מרק אפונה' is written by hand on a yellow sticker.",
     "Scan was upside down and was rotated 180 degrees. The line '1/4 כוס (60 מ\"ל) מים' and '2 כפות קמח' are probably for thickening, but the clipping does not say so in the visible part.",
     "Printed ranges such as '8-10' appear as '10-8' in the typeset text and are written here in the usual order.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(printed clipping, publication not shown)' was removed."
   ],
   "incidental_text": [
     "Handwritten yellow sticker with the title"
@@ -57,12 +53,6 @@
       "text": "(none)",
       "best_guess": null,
       "reason": "No method text is visible on this scan; it may be on a missing piece."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "Not visible."
     }
   ],
   "transcription": {
@@ -76,8 +66,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

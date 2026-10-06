@@ -2,12 +2,7 @@
   "id": "b13-r07",
   "batch": 13,
   "title": "עוגת גבינה מהירה בקצפת ותות שדה",
-  "source": {
-    "text": "(printed clipping, publication not shown)",
-    "type": "unknown",
-    "as_written": "—",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -42,7 +37,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping (10-12 servings, preparation time 20 minutes). The clipping is cut at the bottom after step 2; the topping steps are not on this scan.",
     "Ranges and numbers typeset right-to-left are written in the usual order. ",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(printed clipping, publication not shown)' was removed."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,12 +57,6 @@
       "text": "topping steps",
       "best_guess": null,
       "reason": "The clipping ends after step 2; the rest of the method (topping) is not on this scan."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "No publication visible."
     }
   ],
   "transcription": {
@@ -80,8 +70,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

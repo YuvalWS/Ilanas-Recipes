@@ -2,12 +2,7 @@
   "id": "b09-r03",
   "batch": 9,
   "title": "צלי בקר ברימונים ותפוחים",
-  "source": {
-    "text": "(printed clipping, publication not shown)",
-    "type": "unknown",
-    "as_written": "—",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -47,7 +42,8 @@
     "Printed clipping (8 servings). The intro paragraph (the fruits give the relatively heavy dish sweetness and lightness; looks great on yellow rice, etc.) is not transcribed.",
     "A handwritten phone number is written at the bottom of the clipping; the digits are deliberately not transcribed here so they are not published on the public website (see the scan).",
     "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2).",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(printed clipping, publication not shown)' was removed."
   ],
   "incidental_text": [
     "Handwritten phone number at the bottom (digits not transcribed)",
@@ -63,14 +59,7 @@
   ],
   "needs_human_verification": true,
   "confidence": "high",
-  "uncertainties": [
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "No publication name or date is visible on the clipping."
-    }
-  ],
+  "uncertainties": [],
   "transcription": {
     "method": "ai_read_from_scan",
     "date": "2026-10-05",
@@ -82,8 +71,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

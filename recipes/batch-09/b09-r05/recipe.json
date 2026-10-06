@@ -2,12 +2,7 @@
   "id": "b09-r05",
   "batch": 9,
   "title": "צלי בקר ביין אדום",
-  "source": {
-    "text": "(printed clipping, publication not shown)",
-    "type": "unknown",
-    "as_written": "—",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -44,7 +39,8 @@
   ],
   "notes": [
     "Printed clipping, 10 servings; the title in red print at the top is partly damaged (read as 'צלי בקר ביין אדום'). The intro lines are not transcribed. The bottom edge of the clipping is torn and creased, so the last lines of step 2 and step 3 are partly hidden.",
-    "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2)."
+    "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2).",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(printed clipping, publication not shown)' was removed."
   ],
   "incidental_text": [
     "Printed intro lines at the top (not transcribed)"
@@ -77,12 +73,6 @@
       "text": "lines near the crease",
       "best_guess": null,
       "reason": "A few words near the fold/tear (around 'שעתיים-שעתיים וחצי') are slightly damaged but readable."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "No publication name or date visible."
     }
   ],
   "transcription": {
@@ -92,5 +82,12 @@
     "verified_by": null,
     "verified_at": null
   },
-  "proofread": {}
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
+    }
+  }
 }

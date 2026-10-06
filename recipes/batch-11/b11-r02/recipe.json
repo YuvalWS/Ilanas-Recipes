@@ -2,12 +2,7 @@
   "id": "b11-r02",
   "batch": 11,
   "title": "מרק ירקות גטול שומן",
-  "source": {
-    "text": "(newspaper strip, publication not shown)",
-    "type": "unknown",
-    "as_written": "—",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -43,7 +38,8 @@
     "Narrow newspaper strip with a perforated (red dotted) frame and an intro paragraph about a soup made without fat. The title is partly torn; read as 'מרק ירקות נטול שומן' (the printed spelling at the top looks like 'גטול' because of the torn paper/letter shape). The scan was upside down and was rotated 180 degrees.",
     "The step 1 text says 'ותותכים לרבעים' - this is a typo or a misreading for 'וחותכים'; kept as read here, please check against the scan.",
     "Printed ranges such as '8-10' appear as '10-8' in the typeset text and are written here in the usual order.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(newspaper strip, publication not shown)' was removed."
   ],
   "incidental_text": [
     "Newspaper footer with the publication name at the bottom edge",
@@ -71,12 +67,6 @@
       "text": "ותותכים",
       "best_guess": "וחותכים",
       "reason": "Probably 'וחותכים'."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "Publication name at the bottom is cut off / not clear."
     }
   ],
   "transcription": {
@@ -90,8 +80,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }
