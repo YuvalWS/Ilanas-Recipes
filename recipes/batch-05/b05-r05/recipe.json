@@ -1,0 +1,69 @@
+{
+  "id": "b05-r05",
+  "batch": 5,
+  "title": "קציצות",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "קציצות / חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג חזה עוף טחון",
+        "1 קישוא",
+        "1 תפו\"א / גזר",
+        "1 שקית קניידלעך (פרורי לחם)",
+        "א. מרק עוף ([?] כוס)",
+        "פפריקה",
+        "1 בצל",
+        "הרבה שום 4,5"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ריסוק ולסחוט",
+        "להשהות כשעתיים."
+      ]
+    }
+  ],
+  "notes": [
+    "Heading is 'קציצות / חיה' with a wavy line under it; 'חיה' is read as the source's first name (the card follows the usual 'title / person' pattern).",
+    "A curly brace beside the קישוא and the line below it (תפו\"א / גזר) carries the words 'ריסוק ולסחוט' (crush/grate and squeeze), so it applies to both; it is kept as the first instruction step.",
+    "The last line 'להשהות כשעתיים.' (let it rest about two hours) is the only other instruction; what is rested and where is not written. The ה letters match her ה in 'הרבה'.",
+    "'4,5' after 'הרבה שום' is written with a comma; probably 4-5 (cloves) but the unit is not written.",
+    "The bracket after 'מרק עוף' is read as an opening bracket before the amount; no closing bracket is visible."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-04.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[4]",
+      "text": "[?]. מרק עוף ([?] כוס)",
+      "best_guess": "First sign: Gemini: א.; earlier reading: ג. or א. (possibly an abbreviation of אבקת). Amount: Gemini: 1/2; earlier reading: 1/2 כף",
+      "reason": "The first sign is a single letter with a period crossed by a long stroke. The amount is a '1' stacked over a cramped 2-like shape; the unit reads כוס (clear final ס), but the quantity is not certain enough."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
