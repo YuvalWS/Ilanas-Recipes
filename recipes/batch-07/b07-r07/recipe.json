@@ -1,0 +1,81 @@
+{
+  "id": "b07-r07",
+  "batch": 7,
+  "title": "חסה",
+  "source": {
+    "text": "שולה",
+    "type": "person",
+    "as_written": "שולה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] כפות שמן זית",
+        "[?] כפות [?] מיץ [?] 4 לימון",
+        "2 שיני שום כתושה",
+        "1/2 כפית מלח, פלפל גרוס",
+        "1 כף סוכר (20 שניות במיקרוגל"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Dressing-type ingredient list. The blue word at the upper right (the source) is written over the printed letterhead logo. Last line is continued at the bottom left corner in a small second row ('(20 שניות' / 'במיקרוגל').",
+    "The back (scan 08) is mostly faint show-through of the front plus about three lines of blue words at the upper right that cannot be read; Gemini's 'toppings' list (carrot, cranberries, nuts) is not visible on the card and was not copied."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company group (logos, phone/fax numbers)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-07.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2144-08.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "[?] כפות שמן זית",
+      "best_guess": "earlier reading: 3; Gemini: 2",
+      "reason": "The digit is not certain."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?] כפות [?] מיץ [?] 4 לימון",
+      "best_guess": "Gemini: 4 כפות מיץ לימון / מיץ מ-4 לימונים (its two readings differ); earlier reading: possibly juice of 4 lemons",
+      "reason": "Quantities and the small words around '4' are unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "(20 שניות במיקרוגל",
+      "best_guess": "Gemini: 20 שניות במיקרוגל",
+      "reason": "Small bottom-left second row; the word 'במיקרוגל' is partly legible and matches Gemini's reading, but the closing is unclear."
+    },
+    {
+      "field": "raw_files",
+      "text": "back",
+      "best_guess": null,
+      "reason": "Back (scan 08) blue words at top right are unreadable; scan 08 assumed to be the back of scan 07."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
