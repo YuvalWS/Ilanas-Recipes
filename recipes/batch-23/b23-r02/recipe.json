@@ -1,36 +1,52 @@
 {
   "id": "b23-r02",
   "batch": 23,
-  "title": "[?]",
+  "title": "קרם",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
     {
+      "group": "להמיס",
+      "items": [
+        "200 גר' שוקולד מריר",
+        "200 גרם חמאה"
+      ]
+    },
+    {
       "group": null,
       "items": [
-        "500 ג׳ שוקולד מריר",
-        "200 ג׳ חמאה",
-        "2 כפות קוניאק",
         "4 חלמונים"
       ]
     }
   ],
   "instructions": [
     {
-      "group": null,
+      "group": "הכנת הקרם",
       "steps": [
-        "[?] במקרר עד שמתקשה [?]",
-        "כמו מיונז",
-        "שכבה עוגה",
+        "סיר עם מכסה פתוח בלי מים",
+        "לכבות {מחוק בקו}",
+        "לקרר במקרר עד שמתקשה למרקם",
+        "כמו מיונז"
+      ]
+    },
+    {
+      "group": "הרכבה (מתחת לקו)",
+      "steps": [
+        "רצועה אפויה",
         "3 כפות גדושות קרם",
-        "[?]",
-        "[?] קרם",
-        "[?] [?] ו[?] [?]"
+        "שוב רצועה",
+        "קרם",
+        "רצועה",
+        "קרם",
+        "מרימים את שולי ניר הכסף",
+        "ולמעלה נילון נצמד לפריזר לפחות",
+        "3 שעות"
       ]
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Large, shaky handwriting on a tall narrow card; the single word at the top (probably the title or the source name) is unclear. Rescan or a human reader recommended."
+    "Corrected by the owner in review comments on PR #286: his typed readings replace the earlier AI transcription of the same lines.",
+    "Owner's remark: the two lines 'שוקולד' and 'חמאה' carry the margin note 'להמיס' (grouped here as 'להמיס'); the word 'לכבות' is struck through on the card."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -41,33 +57,14 @@
       "side": "single"
     }
   ],
-  "needs_human_verification": true,
-  "confidence": "low",
-  "uncertainties": [
-    {
-      "field": "title",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
-      "field": "ingredients",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    },
-    {
-      "field": "instructions",
-      "text": "[?]",
-      "best_guess": null,
-      "reason": "Words marked [?] could not be read reliably."
-    }
-  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   }
 }
