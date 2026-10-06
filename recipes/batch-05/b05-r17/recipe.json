@@ -6,7 +6,7 @@
     "text": "שולה",
     "type": "person",
     "as_written": "שולה",
-    "uncertain": true
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -40,7 +40,8 @@
     "Heading 'קצי בשר' (apparently short for קציצות בשר) followed by a slash and a name, read as 'שולה' (source); written in thin pen on a card with a metal clip at the top corner (the clip hides nothing essential but crosses the title).",
     "Written very lightly and the writing is shaky; the last two lines and a few words remain unclear.",
     "'א. מרק' is written as an abbreviation (probably 'אבקת מרק'); left as written, not expanded.",
-    "A short line '1 בצל' (after the herbs line) was missed in the earlier reading and is added after a second opinion; the letters are shaky but consistent with the ink."
+    "A short line '1 בצל' (after the herbs line) was missed in the earlier reading and is added after a second opinion; the letters are shaky but consistent with the ink.",
+    "Source set by the owner (issue #379): שולה."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -54,12 +55,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "שולה",
-      "best_guess": null,
-      "reason": "The name after the slash is shaky; 'שולה' fits the four glyphs."
-    },
     {
       "field": "ingredients[0].items[2]",
       "text": "בצל קטן [?] ו[?] היטב",
@@ -91,5 +86,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #379",
+      "scope": null
+    }
   }
 }
