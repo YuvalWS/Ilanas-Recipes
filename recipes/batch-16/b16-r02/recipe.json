@@ -1,7 +1,7 @@
 {
   "id": "b16-r02",
   "batch": 16,
-  "title": "ספגטי בולונז [?]",
+  "title": "ספגטי בולונז (2-3 מנות)",
   "source": null,
   "medium": "handwritten",
   "ingredients": [
@@ -33,7 +33,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Three yellow sticky-note cards assumed to belong to one recipe: card 03 (rotated 180 degrees; has a staple) has the title and the ingredient list; card 04 (upright; printed letterhead of a contracting company, tel. 03-9658336) is a densely written block of preparation steps starting 'מחממים את השמן במחבת גדולה'; card 05 (rotated 180 degrees, same letterhead) continues with 'בינתיים מבשלים את הספגטי לפי הוראות היצרן ...'.",
-    "The title reads 'ספגטי בולונז...' with an unclear last word; the grouping of the three cards is the transcriber's assumption (same sticky-note pad, staple marks, and the word 'ספגטי' on cards 03 and 05)."
+    "The title reads 'ספגטי בולונז...' with an unclear last word; the grouping of the three cards is the transcriber's assumption (same sticky-note pad, staple marks, and the word 'ספגטי' on cards 03 and 05).",
+    "Owner (PR #217 review comments): title."
   ],
   "incidental_text": [
     "Printed letterhead on cards 04 and 05: brick-pattern logo, 'חברה לקבלנות בע\"מ', tel. 03-9658336, fax 03-9653845"
@@ -62,12 +63,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": "ספגטי [בולונז?]",
-      "best_guess": "ספגטי בולונז",
-      "reason": "The word after 'ספגטי' is written in a cramped way; read as 'בולונז' with low confidence."
-    },
-    {
       "field": "ingredients",
       "text": "several lines",
       "best_guess": null,
@@ -92,5 +87,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #217 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }
