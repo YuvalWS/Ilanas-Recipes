@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>המתכונים של אילנה</title>
-<meta name="description" content="ארכיון מתכונים סרוקים של סבתא אילנה - עיון וחיפוש">
+<meta name="description" content="ארכיון מתכונים סרוקים של סבתא אילנה">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <header class="top">
-  <h1><a href="#/">המתכונים של אילנה</a></h1>
-  <p class="sub">ארכיון מתכונים סרוקים · עיון וחיפוש</p>
+  <a class="brand" href="#/">
+    <img class="logo" src="assets/site-photo.jpg" width="144" height="96" alt="אילנה">
+    <div class="brand-text"><h1>המתכונים של אילנה</h1><p class="sub">ארכיון מתכונים סרוקים</p></div>
+  </a>
 </header>
 
 <main id="app" aria-live="polite">
@@ -19,7 +23,7 @@
       <input id="q" type="search" placeholder="חיפוש: שם מתכון, מרכיב, מקור, הוראות..." autocomplete="off" aria-label="חיפוש">
     </div>
     <div class="filters">
-      <label>אצווה
+      <label>אוסף
         <select id="f-batch"><option value="">הכל</option></select>
       </label>
       <label>סוג
@@ -47,6 +51,7 @@
           <option value="title">שם</option>
         </select>
       </label>
+      <button id="clear-filters" class="btn btn-clear" type="button" hidden>✕ נקו סינון</button>
     </div>
     <p id="count" class="count"></p>
     <ul id="grid" class="grid"></ul>

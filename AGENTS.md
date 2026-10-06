@@ -29,6 +29,9 @@ This file preserves the project owner's (Yuval's) original instructions, verbati
 
 - **One item, several recipes (2026-10-05):** when a note or newspaper page holds several recipes, split it into separate recipes (one folder each, all pointing at the same scan) and interlink them with the `card` field (`id`, `kind`, `recipes` = every recipe on the item incl. itself, `position`). `tools/validate.py` checks the lists are complete and symmetric; the website shows an "N recipes on the same note/clipping" box with links. Done first for batch 8 (`b08-card-01` = handwritten note, `b08-card-02` = newspaper page).
 - **Owner-transcribed cards:** when the owner types a transcription himself, use it verbatim (`transcription.method: human_transcription_by_owner`); do not re-parse the handwriting.
+- **Website wording (owner, 2026-10-06):** batches are called "אוסף" in the UI (not "אצווה"); the subtitle is just "ארכיון מתכונים סרוקים"; recipe pages have the share button in the title row, the "report a mistake" button directly under the transcription, and the notes section collapsed; the scan rotation note is not shown; the page header shows the owner's photo (`assets/site-photo.jpg`, favicon from it).
+- **Suggested titles:** for untitled cards an AI may propose `assigned_title` with `assigned_title_status: "ai_suggested"` and a one-line `assigned_title_basis`; it is shown as "כותרת מוצעת (טרם אושרה)". The owner approves it (`owner_approved`) or replaces it; the transcribed `title` stays null. Recipes are merged only after their titles are settled.
+- **Title-reviewed PRs:** a PR labelled `title-reviewed` had only its title checked by the owner; state that in the PR and leave the rest un-proofread.
 
 ## Working in parallel (several people / tools edit this repo at the same time)
 
