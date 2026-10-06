@@ -3,9 +3,9 @@
   "batch": 6,
   "title": "סלמון",
   "source": {
-    "text": "רחל חן",
+    "text": "רחל מן",
     "type": "person",
-    "as_written": "רחל חן",
+    "as_written": "רחל מן",
     "uncertain": false
   },
   "medium": "handwritten",
@@ -41,7 +41,8 @@
     "Card is a list of short lines, one per row; it is not clear which lines are ingredients and which are steps, so all lines are kept in card order under instructions.",
     "Heading read as 'סלמון / בצל מ'' - the final 'מ'' looks like an abbreviation (possibly 'מושחם', suggested by the first line 'להשחים'); not expanded because it is not written out.",
     "Handwriting is shaky; a human re-read of the lines marked [?] is recommended.",
-    "The method continues on the back of the card (scan -13, previously the separate record b06-r12, PR #204): same paper, ink and torn corner, with mirrored show-through. Noticed by the owner as part of another recipe; the pairing was found from the paper and the text. The id b06-r12 is intentionally unused."
+    "The method continues on the back of the card (scan -13, previously the separate record b06-r12, PR #204): same paper, ink and torn corner, with mirrored show-through. Noticed by the owner as part of another recipe; the pairing was found from the paper and the text. The id b06-r12 is intentionally unused.",
+    "Owner (chat, PR #393): the source is 'רחל מן' (earlier read as 'רחל חן')."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -117,6 +118,12 @@
       "date": "2026-10-06",
       "via": "PR #204 comment",
       "scope": "identified scan -13 as part of another recipe; the partner (back of this card) was found from the paper and the text"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (PR #393 instructions)",
+      "scope": null
     }
   }
 }
