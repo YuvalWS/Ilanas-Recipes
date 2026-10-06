@@ -31,7 +31,8 @@
     "The last lines are written clearly but in a long run-on style.",
     "The word in the bracket before 'כשמסמיך' is still unreadable; the ink looks like 'רביכה' (roux), but the letters are not clear enough to confirm. Gemini's reading ('במידה ומשתמשים') does not fit the ink.",
     "'להשהות' has one letter overwritten (scribbled over) but the word is clear in context.",
-    "Re-read with a second opinion: 'ומטבלים' confirmed (dipping in breadcrumbs); 'לתערובת' and 'להשהות' corrected from the earlier reading."
+    "Re-read with a second opinion: 'ומטבלים' confirmed (dipping in breadcrumbs); 'לתערובת' and 'להשהות' corrected from the earlier reading.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed text bleeding through at the lower edge of the paper"
@@ -60,5 +61,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

@@ -31,7 +31,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. Heading 'עוף עם אורז בסיר' (chicken with rice in a pot) with a number 1 before it; a ruled line below the heading. The method starts with putting oil in a pot and frying small cubes of onion; the rest is unclear."
+    "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. Heading 'עוף עם אורז בסיר' (chicken with rice in a pot) with a number 1 before it; a ruled line below the heading. The method starts with putting oil in a pot and frying small cubes of onion; the rest is unclear.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -58,5 +59,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

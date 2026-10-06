@@ -29,7 +29,8 @@
     }
   ],
   "notes": [
-    "Applied YuvalWS’s six pending review corrections and independently checked the entire scan. The title and 300 g ingredient are sesame, not plums; the complete method is visible down to the storage instruction."
+    "Applied YuvalWS’s six pending review corrections and independently checked the entire scan. The title and 300 g ingredient are sesame, not plums; the complete method is visible down to the storage instruction.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -49,5 +50,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

@@ -37,7 +37,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Lined, stained and torn card; the title is clipped and the digit '7' is repeated in the right-hand column ('7 חלמונים', '7 כפות סוכר', …). A small drawn diamond/ink mark in the left margin is incidental."
+    "Handwriting is only partly legible; unreadable words are [?]. Lined, stained and torn card; the title is clipped and the digit '7' is repeated in the right-hand column ('7 חלמונים', '7 כפות סוכר', …). A small drawn diamond/ink mark in the left margin is incidental.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -77,6 +78,12 @@
       "date": "2026-10-05",
       "via": "PR #288 (label title-reviewed)",
       "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

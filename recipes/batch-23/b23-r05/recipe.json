@@ -42,7 +42,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Fragment of a torn newspaper page. Printed intro of this recipe: 'עוגה קלה להכנה, אהובה על כולם. כדי שאפשר יהיה לאפות אותה גם לאחר עונת השזיפים כדאי להקפיא שזיפים בשלים ומגולענים.' Printed headings: 'החומרים:' 'לבצק:'. The left columns are partly torn away, so quantities and method steps have gaps.",
     "The scan also shows pieces of two neighboring articles (see the next recipe and 'הכנת בצק לקלתית (פלאן)' - an intro text about three basic pastry doughs).",
-    "A separate printed paragraph at the right of the page (which ends 'אופים שעה בתנור שחומם מראש לחום בינוני (190 מעלות צלזיוס). מצננים מעט בתבנית לפני שמעבירים לצלחת הגשה.') belongs to another recipe whose beginning is torn away."
+    "A separate printed paragraph at the right of the page (which ends 'אופים שעה בתנור שחומם מראש לחום בינוני (190 מעלות צלזיוס). מצננים מעט בתבנית לפני שמעבירים לצלחת הגשה.') belongs to another recipe whose beginning is torn away.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -75,5 +76,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

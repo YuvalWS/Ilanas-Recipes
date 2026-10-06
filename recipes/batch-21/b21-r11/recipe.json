@@ -24,7 +24,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Title is cut off at the edge. Probably another rolled-schnitzel recipe; the back (14) is very faint with mirrored show-through. Rescan recommended."
+    "Handwriting is only partly legible; unreadable words are [?]. Title is cut off at the edge. Probably another rolled-schnitzel recipe; the back (14) is very faint with mirrored show-through. Rescan recommended.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed logo at the bottom of 13: 'רשות הדואר / דואר קדימה'"
@@ -59,5 +60,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

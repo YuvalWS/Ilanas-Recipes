@@ -27,7 +27,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Memo sheet of a concrete company (ישראבטון תעשיות בטון בע\"מ, רח' הבונים 2, רמת גן 52462, tel 03-5757211, fax 03-5758222) with a logo of a cement truck at the bottom. The title 'עוגיות שקדים' has a wavy underline. The first ingredient line is followed by a dash and a word that is unclear.",
     "Quantities have no units for the first three items; none were added.",
-    "Independent reread: שקית follows the sliced almond line; vanilla is written 2 וניל with no unit, so no invented packets. No temperature given."
+    "Independent reread: שקית follows the sliced almond line; vanilla is written 2 וניל with no unit, so no invented packets. No temperature given.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed letterhead: ישראבטון תעשיות בטון בע\"מ, address, tel and fax; truck logo"
@@ -49,5 +50,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

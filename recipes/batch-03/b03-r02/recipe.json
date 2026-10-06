@@ -33,7 +33,8 @@
   ],
   "notes": [
     "Shaky handwriting; the line order follows the card. The oven temperature 200°, '1.5 שעות' and the phrase about 'half an hour until a nice color is obtained' are the most legible parts.",
-    "There is a drawn line under the last text line."
+    "There is a drawn line under the last text line.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -90,5 +91,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

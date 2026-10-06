@@ -35,7 +35,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping with the header '3 מנות / זמן הכנה ללא זמן האפייה: 15 דקות', a photo of a cottage cheese tub and a green banner with a '3 ...' number logo. A short handwritten word appears at the top (a name or a note) and is not readable.",
-    "Step 3 is printed with the line breaks in an odd order; the final words 'הצהובה ואופים עד שהמאפה משחים' were read from the next lines. No oven temperature is given."
+    "Step 3 is printed with the line breaks in an odd order; the final words 'הצהובה ואופים עד שהמאפה משחים' were read from the next lines. No oven temperature is given.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Handwritten word at the top of the clipping (unreadable)"
@@ -64,5 +65,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

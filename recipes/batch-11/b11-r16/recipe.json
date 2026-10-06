@@ -26,7 +26,8 @@
     }
   ],
   "notes": [
-    "Yellow memo card of a contracting company (printed letterhead with phone/fax), stapled to neighbouring cards. Title is underlined: 'מרק אפונה ירוקה' (green pea soup). Only the first ingredient ('1 שקית אפונה ירוקה') and a few words (מים רותחים, פטרוזיליה) are readable. The text continues on the next card (scan 18) and possibly scan 19, which seem to belong to the same soup, but this is not certain, so each card is its own record."
+    "Yellow memo card of a contracting company (printed letterhead with phone/fax), stapled to neighbouring cards. Title is underlined: 'מרק אפונה ירוקה' (green pea soup). Only the first ingredient ('1 שקית אפונה ירוקה') and a few words (מים רותחים, פטרוזיליה) are readable. The text continues on the next card (scan 18) and possibly scan 19, which seem to belong to the same soup, but this is not certain, so each card is its own record.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed letterhead of a contracting company"
@@ -61,5 +62,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

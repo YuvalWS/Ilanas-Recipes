@@ -32,7 +32,8 @@
     "Handwritten left-margin sequence: ביצה / פירורים / ביצה.",
     "Handwritten annotation above the ingredients: [?].",
     "Handwritten annotation below the printed preparation: [?].",
-    "Independent Codex rereading corrects the printed preparation: beat eggs with mustard, combine flour with salt, shake off excess flour, then coat in beaten egg and breadcrumbs. The printed 2 refers to the two sides, not a two-minute cooking time; no frying duration is stated."
+    "Independent Codex rereading corrects the printed preparation: beat eggs with mustard, combine flour with salt, shake off excess flour, then coat in beaten egg and breadcrumbs. The printed 2 refers to the two sides, not a two-minute cooking time; no frying duration is stated.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -65,5 +66,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

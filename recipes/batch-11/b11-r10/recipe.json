@@ -36,7 +36,8 @@
     "Yellowed ruled paper folded in four, clear handwriting. Steps are lettered א, ב, ג, then numbered 3, ה (the original numbering is not consistent and is shown here as written only in part).",
     "A boxed note in the right margin next to the method heading is partly legible: 'פרמ/ם ... מים 2'; not transcribed.",
     "The step that mentions the egg is written twice (egg yolk, then egg white, then 'the whole egg is also fine').",
-    "Margin contains a pot sketch showing water at approximately half height. The yolk line says כפות מים without a written number; no spoon count inferred."
+    "Margin contains a pot sketch showing water at approximately half height. The yolk line says כפות מים without a written number; no spoon count inferred.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -56,5 +57,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

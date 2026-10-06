@@ -34,7 +34,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Printed clipping from the same Shavuot article. Intro line: 'את ירקות האנטי פסטי אפשר להכין יום קודם ולאחסן במקרר.' The bottom of the strip is slightly cut and curved; the wording of step 3 was read from partly cut line ends ('הפ־ / שטידה', 'הצ־ / לוי') and may differ slightly from the original."
+    "Scan was upside down and was rotated 180 degrees. Printed clipping from the same Shavuot article. Intro line: 'את ירקות האנטי פסטי אפשר להכין יום קודם ולאחסן במקרר.' The bottom of the strip is slightly cut and curved; the wording of step 3 was read from partly cut line ends ('הפ־ / שטידה', 'הצ־ / לוי') and may differ slightly from the original.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,5 +62,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

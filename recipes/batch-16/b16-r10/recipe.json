@@ -30,7 +30,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Printed clipping with the heading 'או תבשיל עדשים וקינואה מרענן ובריא?' (the first words 'או' and the question mark come from the original lead-in). The ingredient list is not printed separately; the quantities were taken from the sentences of the method. This is a conversion done by the transcriber: ingredients were extracted from the numbered text, nothing was added."
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with the heading 'או תבשיל עדשים וקינואה מרענן ובריא?' (the first words 'או' and the question mark come from the original lead-in). The ingredient list is not printed separately; the quantities were taken from the sentences of the method. This is a conversion done by the transcriber: ingredients were extracted from the numbered text, nothing was added.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -63,5 +64,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

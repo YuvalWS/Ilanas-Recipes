@@ -42,7 +42,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Narrow newspaper strip with a tan title band and a photograph of sesame-coated cookies. Printed introduction: מגה פשוטות וקלות להכנה, וסופר שומשומיות ועשירות. A short pen stroke at the top is not text. Section headers: מה צריך: and כך עושים:.",
     "The author writes in the first person ('חברים שלי'), so the clipping comes from a columnist; no publication or author name is on the strip.",
-    "Independent Codex rereading of the full clipping and an enlarged introductory strip confirms the wording, ingredients, oven temperature and baking time. No author or publication is visible, so source remains null rather than guessed."
+    "Independent Codex rereading of the full clipping and an enlarged introductory strip confirms the wording, ingredients, oven temperature and baking time. No author or publication is visible, so source remains null rather than guessed.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -62,5 +63,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

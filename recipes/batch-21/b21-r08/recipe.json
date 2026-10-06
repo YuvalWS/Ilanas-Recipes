@@ -29,7 +29,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Printed clipping; the title is printed in a pale grey and partly faint. Note: printed text reads 'חזה אווז' for the goose breast; 'סלטימבוקה' is the Italian saltimbocca. A hand-drawn vertical bracket (pen) marks step 4 at the right edge."
+    "Scan was upside down and was rotated 180 degrees. Printed clipping; the title is printed in a pale grey and partly faint. Note: printed text reads 'חזה אווז' for the goose breast; 'סלטימבוקה' is the Italian saltimbocca. A hand-drawn vertical bracket (pen) marks step 4 at the right edge.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -56,5 +57,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

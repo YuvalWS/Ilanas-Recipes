@@ -34,7 +34,8 @@
   "notes": [
     "Printed newspaper clipping in two pieces (the lower piece is torn and stapled); title, a short intro (the writer says the soup is quick to prepare) and the ingredient list are on the upper piece. The text is cut off at the bottom of the lower piece (a further paragraph is only partly visible).",
     "The steps are printed numbered 1, 2, 3, 4, 4, 6 (the fifth is mis-numbered '4' in print); here they are listed in order without numbers. The text in step 2 of the original continues across the join of the two pieces (a line 'מאבק (צריך)' is the first line of the lower piece and reads as part of the last sentence of step 1 - see scan).",
-    "The line '250 גרם עדשים אדומות (1 כוס, וחשוב עדשים אדומות)' is typeset as written."
+    "The line '250 גרם עדשים אדומות (1 כוס, וחשוב עדשים אדומות)' is typeset as written.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,5 +68,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

@@ -23,7 +23,8 @@
   ],
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Layered omelet ('חביתות בשכבות'): four omelets, each with a different filling (as read). This is an interpretation of the card, not a statement on it. There are no ingredient quantities.",
-    "First line says eight omelets, later repeat another four; final cheese option is צהובה, not בולגרית."
+    "First line says eight omelets, later repeat another four; final cheese option is צהובה, not בולגרית.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -50,5 +51,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

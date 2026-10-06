@@ -47,7 +47,8 @@
     "The title abbreviation תפו\"ע = תפוחי עץ (apples); the body says 'התפוחים'.",
     "A horizontal line separates the cake part from a final paragraph about a beaten egg-white (meringue) topping.",
     "Gemini's 'שהקצף משחים' was checked against the scan: the last word clearly reads 'משחים' (browns), replacing the earlier guess 'מזהיב'.",
-    "Independent Codex rereading resolves הכל and המלית from the enlarged preparation. The overwritten raisin quantity and missing baking duration remain unresolved; no 30-minute duration was inferred from Gemini."
+    "Independent Codex rereading resolves הכל and המלית from the enlarged preparation. The overwritten raisin quantity and missing baking duration remain unresolved; no 30-minute duration was inferred from Gemini.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -86,5 +87,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

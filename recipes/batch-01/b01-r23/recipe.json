@@ -33,7 +33,8 @@
     "The '+' signs are written as a small upside-down T; the earlier transcription read the one before 'כוס סוכר' in the last step as '1'.",
     "The bottom-left corner of the page is torn/stained; the last word of the method is cut off at the left edge (only a first letter, possibly 'ד', is visible).",
     "Faint pencil marks to the left of 'ללוש בצק' (something like 'כ-' followed by a smudged word) are unreadable and not transcribed.",
-    "Gemini's second reading gave the title as 'קקאו' and added a count of 4 egg whites and a baking temperature; the card shows 'קוקוס' (ends in samekh) and just 'את החלבונים', with no count or temperature, so none of these were adopted."
+    "Gemini's second reading gave the title as 'קקאו' and added a count of 4 egg whites and a baking temperature; the card shows 'קוקוס' (ends in samekh) and just 'את החלבונים', with no count or temperature, so none of these were adopted.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -60,5 +61,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

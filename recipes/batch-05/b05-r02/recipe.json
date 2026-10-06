@@ -46,7 +46,8 @@
     }
   ],
   "notes": [
-    "Newspaper clipping in two columns. The top of the right column is the tail of a different (previous) recipe and is recorded under incidental text. The ingredient list continues from the right column into the left column."
+    "Newspaper clipping in two columns. The top of the right column is the tail of a different (previous) recipe and is recorded under incidental text. The ingredient list continues from the right column into the left column.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Tail of another recipe at the top of the right column: '...רותחים עד לגובה 3/4 הקציצות. 5. מוסיפים אפונה, תירס ותפוחי אדמה ומבשלים הכל יחד עד שתפוחי האדמה רכים.'"
@@ -75,5 +76,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

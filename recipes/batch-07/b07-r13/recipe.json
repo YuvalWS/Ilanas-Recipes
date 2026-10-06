@@ -18,7 +18,8 @@
   ],
   "instructions": [],
   "notes": [
-    "Dressing ingredient list; no title or source on the card. Ditto marks expanded (one under 'כוס' and one under 'שמן' on the canola line; one under 'כוס' on the vinegar line). Appears to be the back of the yellow card in scan 13 (faint show-through of the other side at the bottom)."
+    "Dressing ingredient list; no title or source on the card. Ditto marks expanded (one under 'כוס' and one under 'שמן' on the canola line; one under 'כוס' on the vinegar line). Appears to be the back of the yellow card in scan 13 (faint show-through of the other side at the bottom).",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -38,5 +39,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

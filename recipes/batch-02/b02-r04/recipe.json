@@ -48,7 +48,8 @@
   "notes": [
     "The word 'אינסטנט' appears both in the title and in the filling list; Gemini reads it the same way and it matches the ink in both places.",
     "Gemini's 'חבילה' (package), 'פודינג' (pudding), the oven temperature and baking/rolling/shaping steps, and 'about half an hour' of resting are not visible on the card and were not copied. Gemini also missed the card's 'כ-12 שעות' (about 12 hours) line.",
-    "The card line 'לחלק הבצק ל-4 חלקים' independently supports Gemini's reading of 4 portions in the left bracket, but the digit in the bracket line itself was not confirmed."
+    "The card line 'לחלק הבצק ל-4 חלקים' independently supports Gemini's reading of 4 portions in the left bracket, but the digit in the bracket line itself was not confirmed.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed Holiday Inn Select logo and footer 'FOR RESERVATIONS 1-800-HOLIDAY' (hotel notepad paper)"
@@ -95,5 +96,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

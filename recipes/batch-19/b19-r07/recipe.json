@@ -34,7 +34,8 @@
     }
   ],
   "notes": [
-    "Printed clipping (plain text, no photo) headed 'שם המתכון: פלפלים ממולאים' - 'לכמה מנות/סועדים: 8'. The clipping is glued over a larger page, and a crease crosses the lower part. A grey wood table is visible on the left."
+    "Printed clipping (plain text, no photo) headed 'שם המתכון: פלפלים ממולאים' - 'לכמה מנות/סועדים: 8'. The clipping is glued over a larger page, and a crease crosses the lower part. A grey wood table is visible on the left.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,5 +62,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

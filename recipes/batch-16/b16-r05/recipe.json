@@ -29,7 +29,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Card 08 (a card with a printed header logo of a postal company: 'רשות הדואר - דואר קדימה') has a wavy-underlined title that reads roughly 'אורז [?] ירקות' and a block of tall, narrow, partly illegible lines. Card 09 (no title, no printed matter) continues in the same hand and mentions 'דקות' (20 minutes, 10 minutes covered). The pairing of the two cards is an assumption.",
-    "Both cards are written with heavy bleed-through from their reverse sides, which makes them extremely hard to read; a rescan of both (with a white sheet behind) is recommended."
+    "Both cards are written with heavy bleed-through from their reverse sides, which makes them extremely hard to read; a rescan of both (with a white sheet behind) is recommended.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "Printed on card 08: logo and 'רשות הדואר - דואר קדימה' (Israel Post, Priority Mail)"
@@ -76,5 +77,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

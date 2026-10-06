@@ -37,7 +37,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. The first heading is 'בצק:' (the first letters are close to a '3' sign) and the second 'למילוי:'. A struck-through word appears in the line about olives."
+    "Handwriting is only partly legible; unreadable words are [?]. The first heading is 'בצק:' (the first letters are close to a '3' sign) and the second 'למילוי:'. A struck-through word appears in the line about olives.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -76,5 +77,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

@@ -36,7 +36,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. Card with several blue-ink additions on top of black ink (e.g. an extra word 'קשה'/'קצה' above the second line, '150' written in blue at the left). A second heading 'ברוקולי / [?]' appears in the middle of the card, so this card may describe a broccoli variation of a cheese quiche."
+    "Handwriting is only partly legible; unreadable words are [?]. Card with several blue-ink additions on top of black ink (e.g. an extra word 'קשה'/'קצה' above the second line, '150' written in blue at the left). A second heading 'ברוקולי / [?]' appears in the middle of the card, so this card may describe a broccoli variation of a cheese quiche.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -63,5 +64,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

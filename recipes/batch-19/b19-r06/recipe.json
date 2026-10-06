@@ -41,7 +41,8 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed clipping with the heading 'פלפלים במלית אורז' ('4 מנות'). A short blue pen mark at the lower left is not text.",
-    "The method mentions parsley and black pepper although the ingredient list names white pepper and does not list parsley; written as printed. One of the printed quantities, '500 גרם אורז' for 250 g meat and 8 peppers, looks large but is printed so."
+    "The method mentions parsley and black pepper although the ingredient list names white pepper and does not list parsley; written as printed. One of the printed quantities, '500 גרם אורז' for 250 g meat and 8 peppers, looks large but is printed so.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -68,5 +69,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

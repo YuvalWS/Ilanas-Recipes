@@ -28,7 +28,8 @@
     }
   ],
   "notes": [
-    "Scan was upside down and was rotated 180 degrees. Printed clipping about a reduced-calorie cheesecake filling (the dough layer is described elsewhere). Fully legible; copied as printed, including the odd words noted below."
+    "Scan was upside down and was rotated 180 degrees. Printed clipping about a reduced-calorie cheesecake filling (the dough layer is described elsewhere). Fully legible; copied as printed, including the odd words noted below.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -61,5 +62,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

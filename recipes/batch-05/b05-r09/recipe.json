@@ -31,7 +31,8 @@
   "instructions": [],
   "notes": [
     "The grouping label written vertically on the left edge next to the first bracket is only partly readable ('מרכיבים' + 'קציצות'); it is taken to mean the ingredients for the meatballs. It does not read as a name, so no source is recorded (Gemini's 'אילנה / קציצות הודו' reading of the margin is not supported).",
-    "The last line (פפריקה) runs close to the bottom edge of the scan; more lines may exist below the edge."
+    "The last line (פפריקה) runs close to the bottom edge of the scan; more lines may exist below the edge.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -64,5 +65,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

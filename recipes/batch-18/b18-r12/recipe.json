@@ -36,7 +36,8 @@
   "notes": [
     "Two scans of the same printed recipe, both already rotated 180 degrees: the first contains title and ingredients, the second continues the ingredient list and contains preparation steps.",
     "Handwritten annotation on the ingredient scan: דיאט. Its role is not stated on the clipping; no publication attribution was inferred.",
-    "Independent Codex rereading confirms the title עוגת פירות יבשים and the word הווניל, correcting the previous title and extra ר. All ingredient quantities and preparation steps are legible across the two scans."
+    "Independent Codex rereading confirms the title עוגת פירות יבשים and the word הווניל, correcting the previous title and extra ר. All ingredient quantities and preparation steps are legible across the two scans.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [
     "דיאט"
@@ -64,5 +65,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
   }
 }

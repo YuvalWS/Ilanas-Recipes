@@ -40,7 +40,8 @@
     "Handwriting is dense and only partly legible; unreadable words are [?].",
     "Square card in brown ink; the heading at the top is crossed/scribbled and unreadable. A blue-ink note in the left margin ('3 ... 1 ...') is also unreadable. The steps describe boiling a (frozen?) vegetable in salted water until soft and draining it; the later lines are unclear.",
     "The back (scan 02) has only two lines of its own; the rest is faint show-through.",
-    "Corrected by the owner in review comments on PR #274: his typed readings replace the earlier AI transcription of the same lines."
+    "Corrected by the owner in review comments on PR #274: his typed readings replace the earlier AI transcription of the same lines.",
+    "Owner (2026-10-06): checked the card; it states no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -92,6 +93,12 @@
       "date": "2026-10-05",
       "via": "PR #274 review comments",
       "scope": "text typed by the owner; the blue margin note was not covered"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
     }
   }
 }
