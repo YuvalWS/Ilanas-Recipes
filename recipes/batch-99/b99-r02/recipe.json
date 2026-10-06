@@ -8,20 +8,24 @@
     {
       "group": null,
       "items": [
-        "1 ק״ג שזיפים ללא גרעינים",
-        "500 [?]",
-        "[?] שקדים",
-        "400 אגוזי מלך",
-        "400 אגוזי לוז",
-        "400 פקן"
+        "1 ק\"ג שזיפים ללא גרעינים"
       ]
     },
     {
-      "group": "בלוק שני (מתחת לקו)",
+      "group": "4 סוגי אגוזים (סוגר: לטחון ×2)",
       "items": [
-        "750 שזיפים",
-        "250 תפוחים",
-        "350 מישמש",
+        "400 שקדים",
+        "400 אגוזי מלך",
+        "400 אגוזי לוז",
+        "400 אגוז [?]"
+      ]
+    },
+    {
+      "group": "מתחת לקו",
+      "items": [
+        "750 גר' שזיפים",
+        "250 גר' תפוחים",
+        "350 גר' מישמש",
         "250 צימוקים"
       ]
     }
@@ -30,14 +34,14 @@
     {
       "group": null,
       "steps": [
-        "לטחון ×2 — סוגר לצד אגוזי מלך ולוז."
+        "לטחון ×2 (סוגר על ארבע שורות האגוזים)"
       ]
     }
   ],
   "notes": [
-    "Photographed ruled memo card: heading חרוסת. Upper ingredient list followed by horizontal divider and a second fruit list; amounts as written, no gram units supplied where absent. Bracket לטחון ×2 sits by walnut/hazelnut lines. Several quantities overwritten.",
-    "Back not photographed; no full preparation visible. Ditto marks expanded for repeated אגוזי / quantities/units.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Full proofreading typed by the owner (issue #406); it replaces the earlier AI reading. Ditto marks expanded: the mark under 'אגוזי' on the 400 hazelnut line stands for 'אגוזי'; the marks on the apples and apricot lines stand for \"גר'\" (the word above).",
+    "Owner (issue #406): it is not clear what exactly this recipe is: a haroset normally also has wine, and the owner and family thought dates too. A bracket on the right of the four nut lines says 'לטחון x 2'. Whether the lower block is part of the recipe or a separate recipe (maybe a compote/relish) is unclear."
   ],
   "incidental_text": [
     "Another card is stuck behind it with tape at the top; a hand and a chair are visible in the photo."
@@ -55,23 +59,23 @@
   "uncertainties": [
     {
       "field": "ingredients",
-      "text": "500 [?], [?] שקדים",
+      "text": "400 אגוז [?]",
       "best_guess": null,
-      "reason": "Second fruit wording and overwritten almond amount uncertain."
+      "reason": "Owner (issue #406): it is not clear which nut the last line means."
     },
     {
-      "field": "instructions",
-      "text": "[?]",
+      "field": "recipe",
+      "text": "the lower list (750 / 250 / 350 / 250)",
       "best_guess": null,
-      "reason": "Only grind-twice bracket visible; back not photographed."
+      "reason": "Owner (issue #406): not clear whether the lower block is part of this recipe or a separate one, maybe a compote relish (לפתן)."
     }
   ],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
-    "human_verified": false,
-    "verified_by": null,
-    "verified_at": null
+    "method": "human_transcription_by_owner",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
   },
   "proofread": {
     "source": {
@@ -79,6 +83,24 @@
       "date": "2026-10-06",
       "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
       "scope": "confirmed: no source on the card"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #406",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #406",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #406",
+      "scope": null
     }
   }
 }
