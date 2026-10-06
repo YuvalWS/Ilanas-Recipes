@@ -534,15 +534,53 @@
   }
 
   // ---- detail view ----------------------------------------------------------------
+  // Glossary hints: a term that appears in recipe text gets a tooltip (hover on a computer, tap on a phone).
+  // To add a hint for all current and future recipes, add one entry here (and see AGENTS.md).
+  var GLOSSARY = [
+    { term: "קמח אוסם", hint: "קמח אוסם - ככל הנראה הכוונה לקמח תופח" }
+  ];
+  function reEscape(t) { return t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+  var MARK_RE = new RegExp("(\\[\\?\\]|" + GLOSSARY.map(function (g) { return reEscape(g.term); }).join("|") + ")");
+  function glossaryHint(term) { for (var i = 0; i < GLOSSARY.length; i++) if (GLOSSARY[i].term === term) return GLOSSARY[i].hint; return null; }
+
   function withMarks(text) {
-    // highlight the [?] marker used for unreadable words
+    // highlight the [?] marker used for unreadable words; add tooltips to glossary terms
     var frag = document.createDocumentFragment();
-    String(text).split(/(\[\?\])/).forEach(function (part) {
+    String(text).split(MARK_RE).forEach(function (part) {
       if (part === "[?]") { var m = el("mark", "q", "[?]"); m.title = "מילה שלא נקראה"; frag.appendChild(m); }
+      else if (part && glossaryHint(part)) {
+        var h = el("span", "hint", part); h.tabIndex = 0; h.setAttribute("role", "button"); h.setAttribute("data-hint", glossaryHint(part));
+        frag.appendChild(h);
+      }
       else if (part) frag.appendChild(document.createTextNode(part));
     });
     return frag;
   }
+
+  // One shared tooltip bubble: hover/focus on a computer, tap (click) on a phone.
+  (function () {
+    var pop = null, pinned = null;
+    function ensure() { if (!pop) { pop = el("div", "hint-pop"); pop.id = "hint-pop"; pop.setAttribute("role", "tooltip"); pop.hidden = true; document.body.appendChild(pop); } return pop; }
+    function show(t) {
+      var p = ensure(); p.textContent = t.getAttribute("data-hint"); p.hidden = false;
+      var b = t.getBoundingClientRect(), w = p.offsetWidth, left = b.left + b.width / 2 - w / 2;
+      left = Math.max(8, Math.min(left, document.documentElement.clientWidth - w - 8));
+      var top = b.top - p.offsetHeight - 8; if (top < 8) top = b.bottom + 8;
+      p.style.left = (left + window.pageXOffset) + "px"; p.style.top = (top + window.pageYOffset) + "px";
+    }
+    function hide() { if (pop) pop.hidden = true; pinned = null; }
+    function hintOf(e) { return e.target.closest ? e.target.closest(".hint") : null; }
+    document.addEventListener("mouseover", function (e) { var t = hintOf(e); if (t && !pinned) show(t); });
+    document.addEventListener("mouseout", function (e) { var t = hintOf(e); if (t && !pinned) hide(); });
+    document.addEventListener("focusin", function (e) { var t = hintOf(e); if (t) show(t); });
+    document.addEventListener("focusout", function (e) { if (hintOf(e) && !pinned) hide(); });
+    document.addEventListener("click", function (e) {
+      var t = hintOf(e);
+      if (t) { if (pinned === t) hide(); else { show(t); pinned = t; } } else hide();
+    });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") hide(); });
+    window.addEventListener("hashchange", hide);
+  })();
 
   function renderDetail(id) {
     var r = ALL.filter(function (x) { return x.id === id; })[0];
