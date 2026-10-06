@@ -22,7 +22,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is almost entirely illegible; one line is struck out. Rescan recommended.",
     "Text typed by the owner (PR #259); his {…} annotation marks a struck-out word. Kept in order as typed; which lines are ingredients (the last two) is not stated.",
-    "Suggested title 'שניצל ונקניק ברוטב ברביקיו' added by AI on 2026-10-06 (not on the card; basis: lines: dip schnitzel in crumbs, sausage on barbecue sauce, bake in the oven; handwriting almost illegible (weak guess)). Awaiting the owner's approval."
+    "Suggested title 'שניצל ונקניק ברוטב ברביקיו' added by AI on 2026-10-06 (not on the card; basis: lines: dip schnitzel in crumbs, sausage on barbecue sauce, bake in the oven; handwriting almost illegible (weak guess)). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'שניצל ונקניק ברוטב ברביקיו' (it is not written on the card)."
   ],
   "incidental_text": [
     "Orange printed company logo (not identified)"
@@ -76,9 +77,15 @@
       "date": "2026-10-06",
       "via": "owner's review of all open recipes (no comment on the source = confirmed)",
       "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   },
   "assigned_title": "שניצל ונקניק ברוטב ברביקיו",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "lines: dip schnitzel in crumbs, sausage on barbecue sauce, bake in the oven; handwriting almost illegible (weak guess)"
 }
