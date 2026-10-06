@@ -2,11 +2,7 @@
   "id": "b08-r08",
   "batch": 8,
   "title": "צלי בשר לא מסובך",
-  "source": {
-    "text": "(newspaper, name not on the clipping), 27.3.2009",
-    "type": "publication",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -40,7 +36,8 @@
     "The recipe has no separate printed title; the title field uses the article heading 'צלי בשר לא מסובך'. The ingredient list begins with 'נתח צלי כתף'. The article starts at the bottom of the second column (after the carrot method) and continues at the top of the third column, directly above the 'חומרי ליבה' list.",
     "The method is cut: step 2 ends mid-sentence at the bottom of the third column ('מציצים מתחת לנתח'), the continuation is not in the clipping, and a single line at the very top of the left-most column ('הגישו בצ[?] או מעל.'), which is cut by the torn top edge, is likely its tail. Text between these two parts is missing.",
     "Part of newspaper page b08-card-02 with b08-r06, b08-r07, b08-r09 (the other recipes on the same page).",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(newspaper, name not on the clipping), 27.3.2009' was removed. The printed date 27.3.2009 of the newspaper page is kept here."
   ],
   "incidental_text": [
     "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
@@ -107,8 +104,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }

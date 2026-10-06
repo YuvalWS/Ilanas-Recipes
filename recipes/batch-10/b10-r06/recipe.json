@@ -2,12 +2,7 @@
   "id": "b10-r06",
   "batch": 10,
   "title": "כרובית וברוקולי מוקרמים בתנור",
-  "source": {
-    "text": "(printed clipping, publication not shown)",
-    "type": "unknown",
-    "as_written": "—",
-    "uncertain": true
-  },
+  "source": null,
   "medium": "clipping",
   "ingredients": [
     {
@@ -51,7 +46,8 @@
     "Printed clipping, typed text, clear. The title's last word is cut by the left edge of the scan ('בתנו[ר]'). A subtitle line reads 'הבשמל? טבעוני כמובן!'.",
     "Storage note printed at the bottom: 'איך שומרים? מכוסה במקרר, עד 3 ימים.'",
     "Ranges such as '1-2' and '20-25' are printed right-to-left (so they look like '2-1' and '25-20' on the page); they are written here in the usual order. The soaking range for the cashews is printed '50-20' and read as 20-50 minutes, which is unusual - please check against the scan.",
-    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded."
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(printed clipping, publication not shown)' was removed."
   ],
   "incidental_text": [
     "A pencil/ink diagonal mark at the bottom edge"
@@ -78,12 +74,6 @@
       "text": "כרובית וברוקולי מוקרמים בתנו[ר]",
       "best_guess": "בתנור",
       "reason": "The last letter is cut off by the scan edge."
-    },
-    {
-      "field": "source",
-      "text": "(publication)",
-      "best_guess": null,
-      "reason": "No publication name or date is visible on the clipping."
     }
   ],
   "transcription": {
@@ -97,8 +87,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat: owner checked all recipes in 'unsure/unreadable source'",
-      "scope": "checked: the source stays uncertain/unreadable as recorded"
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }
