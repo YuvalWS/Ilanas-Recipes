@@ -114,6 +114,17 @@ def run(browser, base):
     assert page.locator(".card .tag").first.inner_text().startswith("אוסף ")
     print("PASS: header photo, subtitle, favicon, אוסף wording and batch name on thumbnails")
 
+    # ---- medium filter: "מודפס" merged into "גזירי עיתון" ----
+    assert page.locator("#f-medium option").evaluate_all("o => o.map(x => x.value)") == ["", "handwritten", "clipping", "mixed"]
+    assert page.locator("#f-medium option[value=clipping]").inner_text() == "גזירי עיתון"
+    assert "מודפס" not in page.locator("#f-medium").inner_text()
+    n_clip = sum(1 for r in data["recipes"] if r["medium"] in ("clipping", "printed"))
+    page.goto(base + "?medium=printed")                                    # old shared link
+    expect(page.locator("#f-medium")).to_have_value("clipping")
+    expect(page.locator("#grid .card")).to_have_count(n_clip)
+    page.goto(base)
+    print("PASS: medium filter: 'גזירי עיתון' replaces 'מודפס' (old ?medium=printed links still work)")
+
     # ---- clear-filters button: always visible, disabled when idle ----
     clear = page.locator("#clear-filters")
     expect(clear).to_be_visible()
@@ -158,6 +169,18 @@ def run(browser, base):
     page.locator("#f-source").select_option("")
     print("PASS: source.names filter under each name; chef grouped with publication writers; no-source recipes tolerated")
 
+    # a legacy "printed" recipe counts as a newspaper clipping (filter, label, legal notice)
+    d["medium"] = "printed"
+    context.close()
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    page.locator("#f-medium").select_option("clipping")
+    assert d["id"] in page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash.slice(2))")
+    page.locator(f'#grid a[href="#/{d["id"]}"]').click()
+    expect(page.locator(".legal")).to_be_visible()
+    expect(page.locator(".text .meta")).to_contain_text("גזיר עיתון")
+    d["medium"] = "handwritten"
+    context.close()
+    context, page = new_fixture_page(browser, base, fixture, errors)
     # list tags: proofread, suggested title, same-note
     expect(page.locator(f'#grid a[href="#/{b["id"]}"] .tag.ok')).to_contain_text("הוגה: כותרת, מקור, מרכיבים")
     expect(page.locator(f'#grid a[href="#/{c["id"]}"] .tags')).to_contain_text("כותרת מוצעת")

@@ -9,7 +9,7 @@
     "uncertain": true,
     "role": "chef"
   },
-  "medium": "printed",
+  "medium": "clipping",
   "ingredients": [
     {
       "group": "מצרכים",
@@ -36,7 +36,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Printed block on a card (right side) with a handwritten variant on the left (see next record). Header: 'לביבות כרובית אפויות - 17 לביבות'. Notes section: '17 לביבות.' A paper strip at the bottom reads 'ניקי - לביבות כרובית אפויות', which looks like the name of the person who gave the recipe.",
     "Owner (2026-10-06): ניקי = Niki B, a chef (a person; listed with the publication writers). The name is unified in the source filter.",
-    "Split by the owner's request (issue #316): the printed recipe is this record; the handwritten variant on the left of the same card is b15-r16."
+    "Split by the owner's request (issue #316): the printed recipe is this record; the handwritten variant on the left of the same card is b15-r16.",
+    "Owner (2026-10-06): the 'printed' category was merged into 'גזירי עיתון' (newspaper clippings), so this recipe's medium is now clipping."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -84,7 +85,7 @@
     "medium": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "issue #316",
+      "via": "chat: printed category merged into newspaper clippings",
       "scope": null
     },
     "card": {

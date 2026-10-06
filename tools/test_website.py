@@ -45,7 +45,13 @@ def run(browser, base):
         "מצב המקור", "אנשים", "שפים, כותבים ומקורות בפרסומים"
     ]
 
-    chosen = next(r for r in recipes if r["medium"] == "handwritten" and r["source"] and r["title"])
+    def combo(r):
+        return (r["title"], r["batch"], r["medium"], r["source"]["text"], r["needs_human_verification"])
+
+    def unique(r):                       # the filter combination below must match exactly one recipe
+        return sum(1 for o in recipes if o["source"] and o["title"] and combo(o) == combo(r)) == 1
+
+    chosen = next(r for r in recipes if r["medium"] == "handwritten" and r["source"] and r["title"] and unique(r))
     values = {"#q": chosen["title"], "#f-batch": str(chosen["batch"]), "#f-medium": "handwritten",
               "#f-source": "person:" + chosen["source"]["text"],
               "#f-verify": "need" if chosen["needs_human_verification"] else "ok", "#f-sort": "title"}
