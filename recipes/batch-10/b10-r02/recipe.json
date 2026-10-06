@@ -1,0 +1,64 @@
+{
+  "id": "b10-r02",
+  "batch": 10,
+  "title": "סלט כרוב וחמוציות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] כוס [?] חמוציות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] 1/2 כפית מלח [?] [?] שמן",
+        "[?] כפות [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very shaky; unreadable words are [?].",
+    "Small cramped block of handwriting along the bottom edge of the card, under a ruled line, that starts with the title 'סלט ברוקולי וחמוציות'. Only the title and a few words (חמוציות, 1/2 כפית מלח, שמן) are readable. The same physical card as the previous record.",
+    "Rescan or a human reading is needed; the text runs close to the card edge.",
+    "Same scan also used for the cauliflower recipe PR117; salad is the separate bottom block."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2156-01.jpg",
+      "original_path": "Batch 10/Scanned_20261004-2156-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Only 'חמוציות' is readable."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Mostly unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
