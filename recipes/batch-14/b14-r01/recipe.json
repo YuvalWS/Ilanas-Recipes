@@ -46,7 +46,8 @@
   "notes": [
     "Handwriting is only partly legible; unreadable words are [?]. Two sides of one stained card (side 2 is assumed to continue side 1: it is the same pen and style). The title and source line at the top of side 1 is partly covered by a torn edge: it reads '[?] / אביה'. A fourth ingredient 'כפות חומץ' (2 tablespoons vinegar) is crossed out with a line. A 'שמן' line is preceded by a struck-out word. Faint writing from the other side bleeds through everywhere.",
     "The recipe looks like a rolled pastry with date paste ('ממרח תמרים') and cinnamon, cut into 10 slices, with calories per slice noted - this is an interpretation, not stated on the card.",
-    "The last line of side 2 ('1 מרגרינה = 2/3 כוס שמן') is a substitution note: 1 [packet?] of margarine equals 2/3 cup oil (the first word is struck through)."
+    "The last line of side 2 ('1 מרגרינה = 2/3 כוס שמן') is a substitution note: 1 [packet?] of margarine equals 2/3 cup oil (the first word is struck through).",
+    "Owner: the heading is torn; 'probably עוגת גבינה' (kept as assigned_title, not as the transcribed title)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -115,5 +116,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "עוגת גבינה",
+  "assigned_title_status": "owner_suggested",
+  "assigned_title_basis": "Owner: probably a cheese cake; the heading is torn off the note."
 }
