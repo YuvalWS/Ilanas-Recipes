@@ -19,7 +19,8 @@
   ],
   "notes": [
     "A handwritten fragment on company notepaper. It has no title and no ingredient list; it describes a peach preparation with apricot jelly (ג'לי משמש), but the dish is not named.",
-    "Letterhead phone numbers corrected: the card prints fax 03-5617358 and tel 03-5620372 (earlier version had them swapped)."
+    "Letterhead phone numbers corrected: the card prints fax 03-5617358 and tel 03-5620372 (earlier version had them swapped).",
+    "Suggested title 'קינוח אפרסקים בג'לי' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: peaches blended, peach liquid boiled, apricot jelly added). Awaiting the owner's approval."
   ],
   "incidental_text": [
     "Printed letterhead: בזל - מקבוצת חברות זלינגר בע\"מ, חברה להנדסה ובנין בע\"מ, פקס. 03-5617358, טל. 03-5620372"
@@ -54,5 +55,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "קינוח אפרסקים בג'לי",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "peaches blended, peach liquid boiled, apricot jelly added"
 }
