@@ -1,0 +1,95 @@
+{
+  "id": "b23-r09",
+  "batch": 23,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 קמח אסם",
+        "1 מרגרינה",
+        "1 אבקת מרק בצל",
+        "גבינה צהובה מגוררת — בצד: כוס עד כוס וחצי",
+        "1 [?] 9%"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב הכל במיקסר [?]",
+        "גוללים גליל כמו נקניק 2",
+        "מורחים חלמון והרבה שומשום",
+        "אופים ואוכלים חם"
+      ]
+    }
+  ],
+  "notes": [
+    "Corrected by the owner in review comments on PR #293: his typed readings replace the earlier AI transcription of the same lines.",
+    "Suggested title 'עוגיות גבינה צהובה ושומשום (מלוחות)' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: savory dough: flour, margarine, onion-soup powder, grated yellow cheese; rolled, brushed with yolk and sesame). Awaiting the owner's approval."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-09.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "1 [?] 9%",
+      "best_guess": "גבינה לבנה 9% או קוטג' 9%",
+      "reason": "Owner: the word 'שמנת' is NOT written on the card; which ingredient this is is unclear (probably white cheese 9% or cottage cheese 9%)."
+    },
+    {
+      "field": "instructions",
+      "text": "לערבב הכל במיקסר [?]",
+      "best_guess": null,
+      "reason": "Not covered by the owner's corrections."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "Owner confirmed the card has no title."
+    }
+  ],
+  "transcription": {
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  },
+  "assigned_title": "עוגיות גבינה צהובה ושומשום (מלוחות)",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "savory dough: flour, margarine, onion-soup powder, grated yellow cheese; rolled, brushed with yolk and sesame",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #293 review comments",
+      "scope": "confirmed untitled"
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #293 review comments",
+      "scope": "one line (the unnamed 9% dairy ingredient)"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #293 review comments",
+      "scope": "lines 2-4"
+    }
+  }
+}
