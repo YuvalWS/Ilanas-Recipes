@@ -93,7 +93,7 @@ Confidence: high 84, medium 87, low 111. Flagged needs_human_verification: 238.
 | b18-r02 | 18 עוגות, מוסים וסלטים | (no title read) | Batch 18/Scanned_20261004-2238-02.jpg | handwritten |
 | b18-r07 | 18 עוגות, מוסים וסלטים | [?] | Batch 18/Scanned_20261004-2238-07.jpg | handwritten |
 | b18-r10 | 18 עוגות, מוסים וסלטים | עוגת פירות | Batch 18/Scanned_20261004-2238-12.jpg | handwritten |
-| b18-r11 | 18 עוגות, מוסים וסלטים | סלפר? [?] / [?] | Batch 18/Scanned_20261004-2238-13.jpg | handwritten |
+| b18-r11 | 18 עוגות, מוסים וסלטים | (no title read) | Batch 18/Scanned_20261004-2238-13.jpg | handwritten |
 | b19-r01 | 19 פלפלים ממולאים ואחרים | מרק עגבניות | Batch 19/Scanned_20261004-2240-01.jpg, Batch 19/Scanned_20261004-2240-02.jpg | handwritten |
 | b19-r02 | 19 פלפלים ממולאים ואחרים | פלפל ממולא | Batch 19/Scanned_20261004-2240-03.jpg, Batch 19/Scanned_20261004-2240-04.jpg | handwritten |
 | b19-r03 | 19 פלפלים ממולאים ואחרים | פלפלים ממולאים | Batch 19/Scanned_20261004-2240-05.jpg, Batch 19/Scanned_20261004-2240-06.jpg | handwritten |
@@ -121,7 +121,7 @@ Confidence: high 84, medium 87, low 111. Flagged needs_human_verification: 238.
 
 ## Recipes with no title read
 
-b01-r24, b02-r07, b03-r03, b03-r05, b05-r07, b05-r08, b05-r10, b06-r01, b06-r16, b06-r18, b07-r03, b07-r04, b07-r09, b07-r11, b07-r13, b07-r15, b08-r06, b09-r07, b10-r01, b10-r04, b11-r09, b11-r15, b11-r17, b11-r18, b12-r06, b12-r10, b14-r05, b14-r07, b16-r08, b17-r02, b17-r03, b18-r01, b18-r02, b19-r04, b20-r11, b20-r14, b20-r17, b21-r07, b23-r09
+b01-r24, b02-r07, b03-r03, b03-r05, b05-r07, b05-r08, b05-r10, b06-r01, b06-r16, b06-r18, b07-r03, b07-r04, b07-r09, b07-r11, b07-r13, b07-r15, b08-r06, b09-r07, b10-r01, b10-r04, b11-r09, b11-r15, b11-r17, b11-r18, b12-r06, b12-r10, b14-r05, b14-r07, b16-r08, b17-r02, b17-r03, b18-r01, b18-r02, b18-r11, b19-r04, b20-r11, b20-r14, b20-r17, b21-r07, b23-r09
 
 ## Rescanning tips
 
