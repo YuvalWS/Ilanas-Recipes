@@ -2,7 +2,12 @@
   "id": "b01-r09",
   "batch": 1,
   "title": "קרם לביסקויט",
-  "source": null,
+  "source": {
+    "text": "דורית",
+    "type": "person",
+    "as_written": "דורית",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -28,7 +33,8 @@
   "notes": [
     "Second recipe on the same card as 'עוגת תפוזים' (bottom half).",
     "Line 1 ends with a short dash after 'שמנת' (as on the card).",
-    "Independent Codex rereading confirms the quantities and surrounding cream instructions, but the final word after הבסקויט remains ambiguous. It was not converted into a layering instruction or an assumed mixing step."
+    "Independent Codex rereading confirms the quantities and surrounding cream instructions, but the final word after הבסקויט remains ambiguous. It was not converted into a layering instruction or an assumed mixing step.",
+    "Source set by the owner (issue #362): דורית."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -55,5 +61,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #362",
+      "scope": null
+    }
   }
 }
