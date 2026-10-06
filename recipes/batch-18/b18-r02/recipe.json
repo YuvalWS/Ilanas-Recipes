@@ -74,5 +74,19 @@
   },
   "assigned_title": "עוגת תפוחים",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "apples and 3 eggs; method pours batter between the apples (weak guess)"
+  "assigned_title_basis": "apples and 3 eggs; method pours batter between the apples (weak guess)",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #70 pending review",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #70 pending review",
+      "scope": null
+    }
+  }
 }
