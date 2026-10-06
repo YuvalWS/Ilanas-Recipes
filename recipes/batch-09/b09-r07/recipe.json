@@ -43,7 +43,8 @@
   "notes": [
     "Printed clipping, 6 servings. The scan was sideways and was rotated 90 degrees clockwise. The title is cut off above the top of the scan, so no title is available. A small note printed at the top of the right column about the benefits of red meat is not transcribed.",
     "Ingredient list is cut at the upper right (the last lines) and at the top of the left column: the end of the ingredient list reads 'מלח, פלפל שחור טחון טרי'. The order of the lines between the two columns is as printed. The quantity of bay leaves (and possibly other lines) is hidden.",
-    "The list also mentions 'גרגירי פלפל' and 'אגוז מוסקט' in the method, which do not appear in the visible ingredient list (probably in the cut-off part)."
+    "The list also mentions 'גרגירי פלפל' and 'אגוז מוסקט' in the method, which do not appear in the visible ingredient list (probably in the cut-off part).",
+    "Suggested title 'פילה מדומה עם אגסים ויין אדום' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: printed list: 800 g 'פילה מדומה' beef, red wine, 6 hard pears, onion). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -88,5 +89,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "פילה מדומה עם אגסים ויין אדום",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "printed list: 800 g 'פילה מדומה' beef, red wine, 6 hard pears, onion"
 }
