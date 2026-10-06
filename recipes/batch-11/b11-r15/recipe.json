@@ -23,7 +23,8 @@
   "notes": [
     "Plain yellow card, no letterhead; cramped but regular handwriting. The card seems to describe the cooking of a (lentil?) soup with onion and carrot cubes, but several words are unclear. Probably a continuation or a variant of a soup on neighbouring scans, but this is not certain.",
     "Suggested title 'תבשיל אפונה וגזר' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: method: onion, carrot cubes, then peas). Awaiting the owner's approval.",
-    "Owner (chat, 2026-10-06): accepted the suggested title 'תבשיל אפונה וגזר' (it is not written on the card)."
+    "Owner (chat, 2026-10-06): accepted the suggested title 'תבשיל אפונה וגזר' (it is not written on the card).",
+    "Owner (issue #424): the title should be 'מרק אפונה וגזר' (shown as the title of this untitled card; the card itself has no title)."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -57,9 +58,9 @@
     "verified_by": null,
     "verified_at": null
   },
-  "assigned_title": "תבשיל אפונה וגזר",
+  "assigned_title": "מרק אפונה וגזר",
   "assigned_title_status": "owner_approved",
-  "assigned_title_basis": "method: onion, carrot cubes, then peas",
+  "assigned_title_basis": "owner (issue #424): it is a soup, not a stew",
   "proofread": {
     "title": {
       "by": "Yuval (owner)",
@@ -76,8 +77,8 @@
     "assigned_title": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "chat",
-      "scope": "accepted the suggested title"
+      "via": "issue #424",
+      "scope": "the title the owner prefers"
     }
   }
 }
