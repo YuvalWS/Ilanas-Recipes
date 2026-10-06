@@ -1,0 +1,95 @@
+{
+  "id": "b18-r01",
+  "batch": 18,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים",
+        "1 כוס קמח אוסם",
+        "1 כוס סוכר + 2 ווניל",
+        "2 כפות שמן",
+        "לנסות 1 וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להכניס לתנור מחומם"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Scans 01 and 09 show the same card twice (scan 09 was upside down and was rotated 180 degrees); the layout and wording are identical. The first line (title) is partly written over an underlined word and reads roughly 'עוגת הגבינות' / 'לתהגבינות' (not certain). No instructions are written, only ingredients. An asterisk-like mark follows '1 כוס סוכר' and a bracket on the left side groups a few unclear words.",
+    "Independent reread: the top says 6 eggs and tin size 26; Claude’s עוגת [?] heading was not written.",
+    "Suggested title 'עוגת ספוג' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: 6 eggs, 1 cup flour, 1 cup sugar, oil, vanilla (weak guess)). Awaiting the owner's approval.",
+    "Note written at the top of the card (owner): 'תבנית 26'.",
+    "Owner (PR #66 review comments): sugar line '+ 2 ווניל', 'לנסות 1 וניל', the oven line moved to the instructions, note 'תבנית 26'."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-01.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2238-09.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-09.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "No title on either duplicate scan; upper text is 6 eggs separated and tin size 26, not עוגת."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "עוגת ספוג",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "6 eggs, 1 cup flour, 1 cup sugar, oil, vanilla (weak guess)",
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #66 review comments",
+      "scope": "sugar/vanilla lines"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #66 review comments",
+      "scope": "the line 'להכניס לתנור מחומם' is an instruction, not an ingredient"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}
