@@ -3,10 +3,10 @@
   "batch": 1,
   "title": "טורט עם קקאו וקוניאק",
   "source": {
-    "text": "[?] / שולה",
+    "text": "שאולוב",
     "type": "person",
-    "as_written": "עוגת [?] / שולה",
-    "uncertain": true
+    "as_written": "שאולוב",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [
@@ -46,7 +46,8 @@
   ],
   "notes": [
     "Earlier reading of 'קינמון' (cinnamon) corrected to 'קוניאק' (cognac) in title, ingredients and instructions (clear on zoom, confirmed by Gemini).",
-    "Independent Codex enlarged-crop rereading resolves שולה, the ratio connector על, and את הקרם לשפוך בכל צידי העוגה. The first source name and the stained/ambiguous preparation words remain flagged."
+    "Independent Codex enlarged-crop rereading resolves שולה, the ratio connector על, and את הקרם לשפוך בכל צידי העוגה. The first source name and the stained/ambiguous preparation words remain flagged.",
+    "Source set by the owner (issue #378): שאולוב."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -60,12 +61,6 @@
   "needs_human_verification": true,
   "confidence": "medium",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "עוגת [?] / שולה",
-      "best_guess": "אורית / מגית (first name); שולה is legible after the slash",
-      "reason": "Independent crop confirms שולה, but the first name’s opening/middle letters are ambiguous; agreement with a model alone is not enough to certify אורית."
-    },
     {
       "field": "instructions",
       "text": "ולבחוש [?] הקקאו",
@@ -85,5 +80,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #378",
+      "scope": null
+    }
   }
 }
