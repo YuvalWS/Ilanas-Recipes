@@ -73,5 +73,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #110 pending review",
+      "scope": "confirmed untitled"
+    }
   }
 }
