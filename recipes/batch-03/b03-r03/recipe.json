@@ -45,7 +45,8 @@
     "Gemini's transcription describes a beef goulash with carrots and potatoes; this does not match the card (honey/mustard marinade, rosemary, wrapping, oven) and was not used.",
     "Suggested title 'מרינדה דבש וחרדל' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: honey, Dijon mustard, olive oil, paprika; 'spread the marinade on the meat'). Awaiting the owner's approval.",
     "Note written in the top corner of the card (owner): 'בקר 5 או 6'.",
-    "Owner (PR #67 review comments): source is the cookbook 'מטבח בקלי קלות'."
+    "Owner (PR #67 review comments): source is the cookbook 'מטבח בקלי קלות'.",
+    "Suggested title updated to 'בקר במרינדת דבש וחרדל' after the owner's report (issue #413); basis: owner (issue #413): the title should be 'בקר במרינדת...' according to the ingredients (honey, Dijon mustard, olive oil, paprika, rosemary); the card's corner note 'בקר 5 או 6'. Still a suggestion awaiting the owner's approval; not written on the card."
   ],
   "incidental_text": [
     "Printed footer: איטונג - איכות חיים לכל החיים (Itung company logo/slogan)"
@@ -87,9 +88,9 @@
     "verified_by": null,
     "verified_at": null
   },
-  "assigned_title": "מרינדה דבש וחרדל",
+  "assigned_title": "בקר במרינדת דבש וחרדל",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "honey, Dijon mustard, olive oil, paprika; 'spread the marinade on the meat'",
+  "assigned_title_basis": "owner (issue #413): the title should be 'בקר במרינדת...' according to the ingredients (honey, Dijon mustard, olive oil, paprika, rosemary); the card's corner note 'בקר 5 או 6'",
   "proofread": {
     "source": {
       "by": "Yuval (owner)",
