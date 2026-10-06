@@ -3,9 +3,9 @@
   "batch": 10,
   "title": "כרובית צלויה בשמן זית",
   "source": {
-    "text": "[?]",
-    "type": "unknown",
-    "as_written": "[?]",
+    "text": "יהודית ר[?]אם",
+    "type": "person",
+    "as_written": "יהודית ר[?]אם",
     "uncertain": true
   },
   "medium": "mixed",
@@ -36,7 +36,8 @@
   "notes": [
     "A printed email/web printout (typed text) with handwritten additions: a blue handwritten line at the top and about six lines at the bottom that continue the method. The printed method stops after 'ושום כתוש,' and the handwriting continues from there.",
     "The printed ingredient paragraph has no quantity for the lemon etc.; it lists exactly what is printed.",
-    "The handwritten text at the bottom overlaps the printed footer; only the first and last lines are readable."
+    "The handwritten text at the bottom overlaps the printed footer; only the first and last lines are readable.",
+    "Source set by the owner (issue #358): יהודית ר[?]אם. The owner asks to find out whether this יהודית is the same יהודית as in the other recipes (open question)."
   ],
   "incidental_text": [
     "Printed footer of a web-mail page (site address, copyright line, 'תוכן מתוך'...)"
@@ -53,16 +54,16 @@
   "confidence": "medium",
   "uncertainties": [
     {
-      "field": "source",
-      "text": "blue handwriting at the top",
-      "best_guess": null,
-      "reason": "Handwritten words at the top (possibly a name and a word) are unreadable."
-    },
-    {
       "field": "instructions",
       "text": "handwritten lines",
       "best_guess": null,
       "reason": "Most of the handwritten continuation is unreadable."
+    },
+    {
+      "field": "source",
+      "text": "יהודית ר[?]אם",
+      "best_guess": "יהודית ראם",
+      "reason": "Owner's partial reading (issue #358); some letters are not certain."
     }
   ],
   "transcription": {
@@ -71,5 +72,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #358",
+      "scope": "partly read: 'יהודית ר[?]אם'; whether she is the same יהודית as in other recipes is unconfirmed"
+    }
   }
 }
