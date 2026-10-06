@@ -1,8 +1,13 @@
 {
   "id": "b05-r04",
   "batch": 5,
-  "title": "[?] / קציצות",
-  "source": null,
+  "title": "קציצות",
+  "source": {
+    "text": "סוניה",
+    "type": "person",
+    "as_written": "סוניה",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -29,7 +34,8 @@
     }
   ],
   "notes": [
-    "A small orange-branded memo card photographed below the clipping in the same scan. The faint blue handwriting is partly bleeding through from the other side and is almost unreadable. One line in a different, darker pen reads about 'בצל ולא קמח (מגורד)'."
+    "A small orange-branded memo card photographed below the clipping in the same scan. The faint blue handwriting is partly bleeding through from the other side and is almost unreadable. One line in a different, darker pen reads about 'בצל ולא קמח (מגורד)'.",
+    "Owner (PR #99 review comments): title קציצות, source סוניה."
   ],
   "incidental_text": [
     "orange logo"
@@ -45,12 +51,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "title",
-      "text": "[?] / קציצות",
-      "best_guess": null,
-      "reason": "Title is faint; only 'קציצות' after the slash can be read."
-    },
     {
       "field": "ingredients",
       "text": "all lines",
@@ -70,5 +70,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #99 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #99 review comments",
+      "scope": null
+    }
   }
 }
