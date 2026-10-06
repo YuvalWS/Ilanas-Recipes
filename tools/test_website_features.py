@@ -27,6 +27,7 @@ class QuietHandler(SimpleHTTPRequestHandler):
 def new_fixture_page(browser, base, fixture, errors):
     context = browser.new_context()
     context.route("**/data/recipes.json*", lambda route: route.fulfill(json=fixture))
+    context.route("**/data/classics.json*", lambda route: route.fulfill(json={"ids": fixture.get("_classics", [])}))
     page = context.new_page()
     page.on("pageerror", lambda error: errors.append(str(error)))
     page.goto(base)

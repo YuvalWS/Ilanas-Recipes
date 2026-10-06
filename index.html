@@ -22,6 +22,15 @@
     <div class="search-row">
       <input id="q" type="search" placeholder="חיפוש: שם מתכון, מרכיב, מקור, הוראות..." autocomplete="off" aria-label="חיפוש">
     </div>
+    <div id="fav-banner" class="fav-banner" hidden></div>
+    <div class="quick">
+      <button id="t-favs" class="btn btn-toggle" type="button" aria-pressed="false"></button>
+      <button id="t-classics" class="btn btn-toggle" type="button" aria-pressed="false" hidden></button>
+      <span class="quick-tools">
+        <button id="fav-share" class="btn btn-small" type="button">שיתוף המועדפים</button>
+        <button id="fav-import" class="btn btn-small" type="button">ייבוא מועדפים</button>
+      </span>
+    </div>
     <div class="filters">
       <label>אוסף
         <select id="f-batch"><option value="">הכל</option></select>

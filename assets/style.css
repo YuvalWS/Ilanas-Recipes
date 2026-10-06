@@ -78,3 +78,22 @@ mark.q { background: var(--mark); color: inherit; border-radius: 3px; padding: 0
 .btn:disabled:hover { border-color: var(--line); color: var(--fg); }
 .btn-share { display: inline-flex; align-items: center; gap: 6px; }
 .share-icon { flex: none; }
+
+.card { position: relative; }
+.heart { display: inline-flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer; color: #b4232a; background: rgba(255,255,255,.92); border: 1px solid var(--line); border-radius: 99px; padding: 0; width: 36px; height: 36px; font: inherit; }
+.card > .heart { position: absolute; top: 8px; inset-inline-start: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+.heart .heart-icon path { fill: transparent; }
+.heart[aria-pressed="true"] .heart-icon path { fill: currentColor; }
+.heart-wide { width: auto; padding: 0 14px; height: 38px; font-size: .95rem; background: var(--card); color: var(--fg); }
+.heart-wide .heart-icon { color: #b4232a; }
+.heart:hover { border-color: #b4232a; }
+.title-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-start; margin-inline-start: auto; }
+.quick { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0 0; }
+.quick-tools { margin-inline-start: auto; display: flex; gap: 6px; }
+.btn-toggle[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+.btn-small { font-size: .85rem; padding: 5px 10px; }
+.tag.classic { background: #fde9b0; color: #6b4a00; font-weight: 600; }
+@media (prefers-color-scheme: dark) { .tag.classic { background: #4a3a0c; color: #ffd978; } .heart { background: rgba(30,24,20,.9); } }
+.fav-banner { margin: 10px 0 0; padding: 10px 14px; border: 1px solid var(--accent); border-radius: 10px; background: var(--card); display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.empty { grid-column: 1 / -1; color: var(--muted); padding: 24px 4px; list-style: none; }
+.toast { position: fixed; bottom: 18px; inset-inline: 16px; margin: auto; max-width: 420px; background: #222; color: #fff; padding: 10px 16px; border-radius: 10px; text-align: center; z-index: 20; box-shadow: 0 4px 14px rgba(0,0,0,.35); }

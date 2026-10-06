@@ -54,7 +54,7 @@ print(f"{len(recipes)} recipes in {len(batches)} batches -> data/recipes.json")
 # version.json: one short id for the whole site build (data + code). index.html loads it uncached and asks for
 # app.js / style.css / data/recipes.json with ?v=<id>, so every release is fetched fresh without clearing caches.
 version = hashlib.sha1("".join(fhash(os.path.join(ROOT, p), 40) for p in
-                               ("data/recipes.json", "assets/app.js", "assets/style.css", "index.html")).encode()).hexdigest()[:10]
+                               ("data/recipes.json", "data/classics.json", "assets/app.js", "assets/style.css", "index.html")).encode()).hexdigest()[:10]
 with open(os.path.join(ROOT, "version.json"), "w", encoding="utf-8") as f:
     json.dump({"v": version}, f)
 print("version.json:", version)
