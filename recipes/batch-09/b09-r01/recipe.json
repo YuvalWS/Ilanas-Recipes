@@ -1,0 +1,85 @@
+{
+  "id": "b09-r01",
+  "batch": 9,
+  "title": "בריסקס - חזה בקר",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "למרוח בשמן [?]",
+        "להוסיף מלח, [?]",
+        "תבלין סטייק",
+        "פילפל שחור ואדום",
+        "לסדר בתבנית. לכסות",
+        "ובתנור 160°",
+        "[?]-[?] שעות",
+        "לקרר ולפרוס דק"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is partly legible; unreadable words are [?].",
+    "Roast-beef style card (cook covered in the oven at 160° for a few hours, cool, slice thin). Heading is a word before 'בקר' that is not clear (possibly 'רוסטביף').",
+    "The card has no ingredient list; 'תבלין סטייק' (steak seasoning), black and red pepper are named inside the steps.",
+    "Owner's title: 'בריסקס - חזה בקר'. Title reviewed by the owner (PR review, 2026-10-06); the rest of the transcription has NOT been proofread yet."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-01.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?] בקר",
+      "best_guess": "רוסטביף בקר",
+      "reason": "First word of the heading is unclear."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "למרוח בשמן [?]",
+      "best_guess": null,
+      "reason": "The word after 'בשמן' is unclear."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "להוסיף מלח, [?]",
+      "best_guess": null,
+      "reason": "Word after 'מלח' is unclear; also the first word could be 'לסדר'."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "לסדר בתבנית. לכסות",
+      "best_guess": null,
+      "reason": "Read as 'לסדר בתבנית. לכסות'; first word uncertain."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "ובתנור 160°",
+      "best_guess": null,
+      "reason": "Read as 'ובתנור'; the temperature 160° is clear."
+    },
+    {
+      "field": "instructions[6]",
+      "text": "[?]-[?] שעות",
+      "best_guess": null,
+      "reason": "Hour range not readable (maybe 3-4)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
