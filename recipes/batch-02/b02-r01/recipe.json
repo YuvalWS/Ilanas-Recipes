@@ -3,10 +3,14 @@
   "batch": 2,
   "title": "מוס",
   "source": {
-    "text": "[?]",
+    "text": "דונה / אילנה",
     "type": "person",
-    "as_written": "/ [?] [?]",
-    "uncertain": true
+    "as_written": "דונה \\ אילנה",
+    "uncertain": false,
+    "names": [
+      "דונה",
+      "אילנה"
+    ]
   },
   "medium": "handwritten",
   "ingredients": [
@@ -48,7 +52,8 @@
     "A triangle/arrow mark is drawn at the end of the last line (an end mark; no text).",
     "A scribbled/crossed-out mark stands just before the powdered-sugar quantity; the quantity itself reads 1/2 (also read as 1/2 by Gemini).",
     "The egg numeral '6' is written over an earlier mark (bold overwrite); Gemini also reads 6, and the card's later steps are consistent with whites and yolks being separated.",
-    "Gemini's 'מיכל קצפת צמחית (ריץ')' and its elaborated method (small pot, bain-marie, folding, serving cups, refrigerating) are not on the card and were not copied."
+    "Gemini's 'מיכל קצפת צמחית (ריץ')' and its elaborated method (small pot, bain-marie, folding, serving cups, refrigerating) are not on the card and were not copied.",
+    "Source set by the owner (issue #357): דונה / אילנה."
   ],
   "incidental_text": [
     "A mark resembling '8' in the top-right corner of the note (meaning unclear; possibly a sorting mark)."
@@ -64,12 +69,6 @@
   "needs_human_verification": true,
   "confidence": "medium",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "/ [?] [?]",
-      "best_guess": "Gemini: דינה פלורסהיים; earlier reading: דינה ה[?] (first word 'דינה'; the second word, roughly 'ה...ילבה', unreadable)",
-      "reason": "Two words after the slash next to the title, probably the person the recipe came from. The first word is 'דינה' in both readings, but the second word on the ink ends in '...בה' and does not clearly match 'פלורסהיים', so it is not confirmed."
-    },
     {
       "field": "ingredients[0].items[1]",
       "text": "1 1/2 [?] קפה נמס",
@@ -89,5 +88,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #357",
+      "scope": null
+    }
   }
 }
