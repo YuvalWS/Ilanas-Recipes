@@ -92,5 +92,19 @@
   },
   "assigned_title": "רוטב סויה, דבש ולימון",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "printed 'הרוטב': olive oil, soy sauce, honey, lemon juice, salt, pepper; oven at 200 degrees"
+  "assigned_title_basis": "printed 'הרוטב': olive oil, soy sauce, honey, lemon juice, salt, pepper; oven at 200 degrees",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
 }
