@@ -20,7 +20,8 @@
     "Part of handwritten sheet b08-card-01 with b08-r02, b08-r03, b08-r04, b08-r05 (the other recipes on the same sheet).",
     "The card is free-form shorthand (ingredients and steps run together), so the lines are kept as written in 'instructions'.",
     "'לוביה / שעועית לבנה עם נקודות שחורות': the second name after the slash is how it is written (black-eyed beans).",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [
     "Printed footer at the bottom of side A (part of the paper used as a notepad): a logo and 'איכות חיים לכל החיים'."
@@ -30,7 +31,15 @@
       "file": "raw/Scanned_20261005-1649-01.jpg",
       "original_path": "Batch 8/Scanned_20261005-1649-01.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "front"
+      "side": "front",
+      "regions": [
+        {
+          "x": 0.03,
+          "y": 0.545,
+          "w": 0.95,
+          "h": 0.265
+        }
+      ]
     }
   ],
   "needs_human_verification": true,

@@ -173,6 +173,42 @@
               "back",
               "unknown"
             ]
+          },
+          "regions": {
+            "type": "array",
+            "description": "Optional frames marking where this recipe is on the scan when the sheet/clipping holds several recipes. Fractions (0-1) of the stored scan's width/height.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "x",
+                "y",
+                "w",
+                "h"
+              ],
+              "properties": {
+                "x": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "w": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "h": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
           }
         }
       }

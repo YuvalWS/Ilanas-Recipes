@@ -34,7 +34,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Handwritten variant on the left half of the same card as the printed 'לביבות כרובית אפויות'; the title line reads 'לביבות ירק אפויות'. It follows the printed recipe but uses zucchini instead of cauliflower (as read). Several lines in the left column are not legible.",
     "Split by the owner's request (issue #316): this is the handwritten recipe; the printed recipe on the right of the same card is b15-r15.",
-    "Owner (2026-10-06): checked the card; it states no source."
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -42,7 +43,21 @@
       "file": "raw/Scanned_20261004-2217-17.jpg",
       "original_path": "Batch 15/Scanned_20261004-2217-17.jpg",
       "rotation_applied_cw_degrees": 180,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.03,
+          "y": 0.04,
+          "w": 0.6,
+          "h": 0.57
+        },
+        {
+          "x": 0.03,
+          "y": 0.61,
+          "w": 0.28,
+          "h": 0.35
+        }
+      ]
     }
   ],
   "needs_human_verification": true,

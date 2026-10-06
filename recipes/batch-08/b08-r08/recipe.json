@@ -38,7 +38,8 @@
     "Part of newspaper page b08-card-02 with b08-r07, b08-r09 (the other recipes on the same page).",
     "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
     "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(newspaper, name not on the clipping), 27.3.2009' was removed. The printed date 27.3.2009 of the newspaper page is kept here.",
-    "Owner (chat, 2026-10-06): The fragment b08-r06 (the end of a stuffed-kneidlach recipe at the top of the right-hand column, its beginning torn off) was removed at the owner's request on 2026-10-06: Ilana did not clip that recipe, only the others on the page. Its id is intentionally unused."
+    "Owner (chat, 2026-10-06): The fragment b08-r06 (the end of a stuffed-kneidlach recipe at the top of the right-hand column, its beginning torn off) was removed at the owner's request on 2026-10-06: Ilana did not clip that recipe, only the others on the page. Its id is intentionally unused.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [
     "Newspaper date line: יום שישי, ב' בניסן תשס\"ט - 27.3.2009",
@@ -51,7 +52,27 @@
       "file": "raw/Scanned_20261005-1649-03.jpg",
       "original_path": "Batch 8/Scanned_20261005-1649-03.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.524,
+          "y": 0.381,
+          "w": 0.228,
+          "h": 0.27
+        },
+        {
+          "x": 0.289,
+          "y": 0.0,
+          "w": 0.215,
+          "h": 0.652
+        },
+        {
+          "x": 0.014,
+          "y": 0.0,
+          "w": 0.26,
+          "h": 0.026
+        }
+      ]
     }
   ],
   "needs_human_verification": true,

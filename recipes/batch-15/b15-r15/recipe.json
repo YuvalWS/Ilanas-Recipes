@@ -37,7 +37,8 @@
     "Scan was upside down and was rotated 180 degrees. Printed block on a card (right side) with a handwritten variant on the left (see next record). Header: 'לביבות כרובית אפויות - 17 לביבות'. Notes section: '17 לביבות.' A paper strip at the bottom reads 'ניקי - לביבות כרובית אפויות', which looks like the name of the person who gave the recipe.",
     "Owner (2026-10-06): ניקי = Niki B, a chef (a person; listed with the publication writers). The name is unified in the source filter.",
     "Split by the owner's request (issue #316): the printed recipe is this record; the handwritten variant on the left of the same card is b15-r16.",
-    "Owner (2026-10-06): the 'printed' category was merged into 'גזירי עיתון' (newspaper clippings), so this recipe's medium is now clipping."
+    "Owner (2026-10-06): the 'printed' category was merged into 'גזירי עיתון' (newspaper clippings), so this recipe's medium is now clipping.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -45,7 +46,27 @@
       "file": "raw/Scanned_20261004-2217-17.jpg",
       "original_path": "Batch 15/Scanned_20261004-2217-17.jpg",
       "rotation_applied_cw_degrees": 180,
-      "side": "single"
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.635,
+          "y": 0.19,
+          "w": 0.36,
+          "h": 0.43
+        },
+        {
+          "x": 0.31,
+          "y": 0.615,
+          "w": 0.685,
+          "h": 0.285
+        },
+        {
+          "x": 0.33,
+          "y": 0.925,
+          "w": 0.32,
+          "h": 0.075
+        }
+      ]
     }
   ],
   "needs_human_verification": true,

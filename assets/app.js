@@ -582,6 +582,26 @@
     window.addEventListener("hashchange", hide);
   })();
 
+  // Frames (raw_files[].regions, fractions of the scan) around each recipe of a multi-recipe sheet or clipping.
+  function sceneFrames(r, rf) {
+    var out = [];
+    function add(rec, regions, mine) {
+      regions.forEach(function (g, k) {
+        var d = el("div", "frame" + (mine ? " mine" : " other"));
+        d.style.left = (g.x * 100) + "%"; d.style.top = (g.y * 100) + "%"; d.style.width = (g.w * 100) + "%"; d.style.height = (g.h * 100) + "%";
+        if (k === 0) d.appendChild(el("span", "frame-label", mine ? "המתכון הזה" : recipeTitle(rec)));
+        d.setAttribute("data-recipe", rec.id); out.push(d);
+      });
+    }
+    if (!r.card || !(rf.regions || []).length) return out;
+    ALL.forEach(function (o) {
+      if (o.id === r.id || r.card.recipes.indexOf(o.id) < 0) return;
+      (o.raw_files || []).forEach(function (of) { if (of.original_path === rf.original_path && (of.regions || []).length) add(o, of.regions, false); });
+    });
+    add(r, rf.regions, true);
+    return out;
+  }
+
   function renderDetail(id) {
     var r = ALL.filter(function (x) { return x.id === id; })[0];
     var v = $("detail-view");
@@ -599,9 +619,13 @@
       var fig = el("figure");
       var a = el("a"); a.href = src; a.target = "_blank"; a.rel = "noopener";
       var img = el("img"); img.src = src; img.alt = "סריקה " + (i + 1);
-      a.appendChild(img); fig.appendChild(a);
+      a.appendChild(img);
+      var frames = sceneFrames(r, f);                       // several recipes on one sheet/clipping: frame each recipe
+      if (frames.length) { var box = el("div", "scanbox"); box.appendChild(a); frames.forEach(function (fr) { box.appendChild(fr); }); fig.appendChild(box); }
+      else fig.appendChild(a);
       var cap = {single: "", front: "צד קדמי", back: "צד אחורי", unknown: ""}[f.side] || "";
       if (cap) fig.appendChild(el("figcaption", null, cap));
+      if (frames.length) fig.appendChild(el("figcaption", "frames-note", "המסגרת הצבעונית מסמנת היכן המתכון הזה בדף; מסגרות מקווקוות הן מתכונים אחרים על אותו דף (המסגרות משוערות)."));
       scans.appendChild(fig);
     });
     wrap.appendChild(scans);

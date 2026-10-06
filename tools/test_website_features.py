@@ -65,6 +65,10 @@ def make_fixture(data):
     # d: one of two recipes on the same note
     d.update(title="מתכון שני על אותו פתק", medium="handwritten", source=None,
              proofread={"source": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": "confirmed: no source on the card"}})
+    # a and d are two recipes on one scan: each gets a frame (fractions of the scan)
+    d["raw_files"][0]["original_path"] = a["raw_files"][0]["original_path"]
+    a["raw_files"][0]["regions"] = [{"x": 0.05, "y": 0.05, "w": 0.4, "h": 0.3}, {"x": 0.05, "y": 0.4, "w": 0.4, "h": 0.1}]
+    d["raw_files"][0]["regions"] = [{"x": 0.5, "y": 0.1, "w": 0.45, "h": 0.6}]
     a["card"] = {"id": "t-card-1", "kind": "handwritten_note", "recipes": [a["id"], d["id"]], "position": "למעלה", "note": None}
     d["card"] = {"id": "t-card-1", "kind": "handwritten_note", "recipes": [a["id"], d["id"]], "position": "למטה", "note": None}
     return fixture, a, b, c, d
@@ -310,6 +314,24 @@ def run(browser, base):
     page.locator("#story-view .back a").click()
     expect(page.locator("#grid .card").first).to_be_visible()
     assert page.locator("#story-view").is_hidden()
+    # ---- frames around each recipe of a multi-recipe sheet/clipping ----
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    page.locator(f'#grid a[href="#/{a["id"]}"]').click()
+    expect(page.locator(".scans .frame.mine")).to_have_count(2)                  # two frames for this recipe
+    expect(page.locator(".scans .frame.other")).to_have_count(1)                 # the other recipe on the same scan
+    expect(page.locator(".scans .frame.mine .frame-label")).to_have_text("המתכון הזה")
+    expect(page.locator(".scans .frame.other .frame-label")).to_have_text(d["title"])
+    expect(page.locator(".scans .frames-note")).to_contain_text("המסגרת הצבעונית")
+    img = page.locator(".scans .scanbox img").bounding_box(); fr = page.locator(".scans .frame.mine").first.bounding_box()
+    assert abs(fr["x"] - (img["x"] + 0.05 * img["width"])) < 4 and abs(fr["width"] - 0.4 * img["width"]) < 4, (fr, img)
+    assert abs(fr["y"] - (img["y"] + 0.05 * img["height"])) < 4 and abs(fr["height"] - 0.3 * img["height"]) < 4, (fr, img)
+    assert page.locator(".scans a").first.get_attribute("href"), "the scan stays a link to the full image"
+    page.goto(base + "#/" + b["id"])
+    expect(page.locator("#detail-view h2")).to_have_text(b["title"])
+    expect(page.locator(".scans .frame")).to_have_count(0)                       # single recipes get no frames
+    print("PASS: scan frames: this recipe framed (solid), other recipes on the same scan dashed, none on single recipes")
+    context.close()
+
     print("PASS: story page: header link, anecdote text and picture, direct link, back to the list")
     page.close()
     assert not errors, errors
