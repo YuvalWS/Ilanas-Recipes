@@ -87,6 +87,17 @@
             null
           ],
           "description": "Optional. 'chef' = the source is a chef (a person, but a public/professional source rather than a personal contact); the website lists chefs with the publication writers, not with personal contacts."
+        },
+        "names": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Optional. When one source line names several people (e.g. 'חיה (מאירה)'), list each name here; the website filter then lists the recipe under every name. `text` stays the line as normalized for display."
         }
       }
     },
