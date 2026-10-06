@@ -1,0 +1,112 @@
+{
+  "id": "b05-r15",
+  "batch": 5,
+  "title": "קציצות ברוטב עגבניות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לקציצות",
+      "items": [
+        "500 גרם בשר בקר טחון גס (עדיף צלעות [?] צוואר, אבל מה שיש לכם במקפיא זה אחלה)",
+        "2 פרוסות לחם אחיד או 1 פיתה רטובים וסחוטים משאריות מים",
+        "3 כפות גדושות פירורי לחם או שיבולת שועל דקה",
+        "1 ביצה",
+        "2 כפיות שטוחות מלח אטלנטי",
+        "1 כפית פלפל שחור גרוס",
+        "אפשרות: קצת טימין טרי או יבש"
+      ]
+    },
+    {
+      "group": "לרוטב",
+      "items": [
+        "1/4 כוס שמן זית",
+        "3 שיני שום מעוכות",
+        "2 קופסאות שימורי עגבניות קלופות וקצוצות",
+        "מלח בנדיבות",
+        "1 כפית סוכר",
+        "פלפל שחור",
+        "3 ענפים של טימין טרי",
+        "פטרוזיליה קצוצה להגשה"
+      ]
+    },
+    {
+      "group": "אורז עם אטריות",
+      "items": [
+        "3 כפות שמן זית",
+        "1 1/2 כוסות אורז בסמטי, מושרה ל־10 דקות ושטוף היטב",
+        "1 כוס אטריות ביצים",
+        "3 1/2 כוסות מים רותחים",
+        "2 כפיות שטוחות מלח",
+        "1/4 כפית כורכום"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מערבבים את כל החומרים של הקציצות בקערה. שמים במקרר לחצי שעה.",
+        "מכינים את הרוטב: שמים במחבת את שמן הזית ושיני השום ורק אז מדליקים את האש. מחממים מעט שהשום יגיר את ריחו וטעמו בעדינות ומוסיפים את שימורי העגבניות הקצוצות, המלח, הסוכר, הפלפל השחור והטימין.",
+        "מגלגלים את תערובת הבשר לקציצות בגודל כדור פינג־פונג [?] עם הרוטב. יוצקים מהרוטב על הקציצות.",
+        "מביאים לרתיחה, מנמיכים להבה ומכסים (אפשר לכסות עם נייר אפייה). מבשלים מכוסה כ־20 דקות.",
+        "לפני ההגשה מתבלים בפטרוזיליה קצוצה."
+      ]
+    },
+    {
+      "group": "אורז עם אטריות",
+      "steps": [
+        "מחממים את שמן הזית בסיר. מוסיפים את האורז וקולים אותו כ־3 דקות. מערבבים כל הזמן עם כף עץ.",
+        "מוסיפים את האטריות ויוצקים את המים הרותחים. מוסיפים מלח וטועמים את מי הבישול. הם צריכים להרגיש מלוחים מדי.",
+        "מוסיפים את הכורכום, מביאים לרתיחה ומנמיכים להבה, מכסים ומבשלים 20 דקות. מסירים את המכסה ומכסים במגבת בד נקייה לעוד 10 דקות.",
+        "מערבבים בתנועות עדינות עם מזלג."
+      ]
+    }
+  ],
+  "notes": [
+    "A narrow newspaper strip (633x2814 px) with two printed recipes; this is the first, the second (אורז עם אטריות) is below it. A handwritten heading 'קציצות בעגבניות' (Ilana's own label) was written across the printed text between the first ingredient and the second, covering a few printed words. The paper strip is joined by tape/glue near step 3, which hides part of that line.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Handwritten label 'קציצות בעגבניות' in blue/black pen over the printed text"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-15.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "(עדיף צלעות [?] צוואר ...",
+      "best_guess": null,
+      "reason": "A few printed words are covered by the handwritten label."
+    },
+    {
+      "field": "instructions[0].steps[2]",
+      "text": "בגודל כדור פינג־פונג [?] עם הרוטב",
+      "best_guess": null,
+      "reason": "The middle of this line is obscured by the glued join in the strip."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

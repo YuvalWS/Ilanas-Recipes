@@ -1,0 +1,106 @@
+{
+  "id": "b03-r04",
+  "batch": 3,
+  "title": "בקר וירקות שורש",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "[?] (6-4 מנות בתבנית 30X30 ס\"מ)",
+      "items": [
+        "[?] ק\"ג נתח בקר לבישול ארוך (לדוגמה: [?], כתף, פרוסות אוסובוקו)",
+        "2 בטטות, קלופות וחצויות לאורך",
+        "2 בצלים קלופים וחצויים",
+        "3 תפוחי אדמה, קלופים וחצויים",
+        "1 כרוב סגול קטן, חתוך לרבעים",
+        "1 ראש שום, חצוי",
+        "מלח, פלפל שחור גרוס",
+        "שמן זית",
+        "4 ענפי תימין",
+        "4 עלי מרווה, קצוצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "[?]",
+      "steps": [
+        "מחממים את התנור ל־200 מעלות.",
+        "[?] בתבנית את הירקות. זורים מלח ופלפל ומזלפים מעט שמן זית. מפזרים על הבשר את התימין, המרווה, מלח ופלפל, ומעסים אותו בהם. מניחים את הבשר על הירקות.",
+        "מכסים את התבנית ברדיד אלומיניום ואופים שעה. מנמיכים את חום התנור ל־150 מעלות ואופים 3 שעות נוספות. מסירים את הרדיד, מרטיבים את הבשר והירקות בנוזלים שהצטברו בתבנית, מעלים שוב את חום התנור ל־200 מעלות וצולים עוד 15 דקות. מגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "איך שומרים? עד 3 ימים, במקרר.",
+    "Printed recipe clipping, badly faded along the right (line-start) edge. Faded: the ingredients heading, the beef amount, the first example cut, the second vegetable, the instructions heading and the first word of step 2.",
+    "Step 1 'מחממים' is partly faded; only 'מח..מ' is visible, completed from the standard phrase 'מחממים את התנור' (certain from context). The leading digits '2' (sweet potatoes) and '1' (garlic) are faint but legible.",
+    "'ומזלפים' (step 2): the print looks like 'ומולפים' because the ז is faint; 'ומזלפים' is the only real word that fits (the previous transcription had 'ומוסיפים', which is wrong).",
+    "Storage line: ניתן לשמור במקרר עד 3 ימים.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-05.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].group",
+      "text": "[?] (6-4 מנות בתבנית 30X30 ס\"מ)",
+      "best_guess": "מצרכים:",
+      "reason": "The heading word before the portions note is faded; the faint shapes (ending in 'כים:') fit 'מצרכים:'. Portions text is as printed (6-4)."
+    },
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "[?] ק\"ג נתח בקר",
+      "best_guess": "1½ or 2½ (a printed fraction '1/2' is visible, the whole number before it is faded)",
+      "reason": "The beef amount is faded."
+    },
+    {
+      "field": "ingredients[0].items[0]",
+      "text": "(לדוגמה: [?], כתף",
+      "best_guess": "אסאדו",
+      "reason": "The first example cut is faded; only the ending 'אדו' is faintly visible, which fits 'אסאדו' (a common long-cooking cut)."
+    },
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "2 [?] קלופים וחצויים",
+      "best_guess": "גזרים",
+      "reason": "The vegetable name is almost completely faded; a masculine-plural root vegetable is implied by 'קלופים וחצויים'. Guess from context only."
+    },
+    {
+      "field": "instructions[0].group",
+      "text": "[?]",
+      "best_guess": "הכנה",
+      "reason": "The instructions heading is faded; the faint shapes fit 'הכנה' / 'ההכנה'."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "[?] בתבנית את הירקות",
+      "best_guess": "מסדרים",
+      "reason": "The first word of step 2 is faded; it ends in '...ים'. 'מסדרים' or 'מניחים' would fit."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "b07-r01",
+  "batch": 7,
+  "title": "וויניגרט רוטב לסלט",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 כפות שמן זית",
+        "3 כפות מיץ לימון טרי",
+        "1.5 כף דבש",
+        "1.5 כף חרדל דיזון",
+        "1 שן שום כתוש",
+        "כפית מלח",
+        "מעט פילפל שחור"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Ingredient list only, no method. Underlined title at the top.",
+    "Spelling kept as written (פילפל, דיזון). Quantities 1.5 written with a decimal point on both lines; the unit for mustard is כף (not כפית) as written.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-01.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

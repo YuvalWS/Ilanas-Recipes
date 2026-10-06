@@ -1,0 +1,76 @@
+{
+  "id": "b15-r07",
+  "batch": 15,
+  "title": "פשטידת ברוקלי",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 שקית ברוקלי",
+        "2 חב׳ גבינה",
+        "3 ביצים",
+        "גבינה צהובה מגורדת",
+        "קמח מצה",
+        "א. מרק בצל",
+        "פלפל, מלח",
+        "מעט חרדל"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. The card is a page from a company diary (a daily planner of a bank: 'בנק הפועלים', 'OCTOBER 1999', Monday 18 and Tuesday 19). The Monday column (right) holds this recipe; the Tuesday column (left) holds another recipe (see next record). No instructions are written.",
+    "Ingredient lines are read as: '4 שקיות ברוקלי / [?] גבינה / 4 ביצים / גבינה צהובה מגורדת / [?] מה / א. מרק בצל / פלפל, מלח / מעט חרדל' - a few words are unclear.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Printed diary page: 'OCTOBER 1999', Monday 18 / Tuesday 19, 'בנק הפועלים', hour marks"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-08.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[1]",
+      "text": "[?] גבינה",
+      "best_guess": null,
+      "reason": "Quantity/word before 'גבינה' unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "[?] מה",
+      "best_guess": null,
+      "reason": "Unclear line (maybe 'גמרי מלא')."
+    },
+    {
+      "field": "ingredients[7]",
+      "text": "מעט חרדל",
+      "best_guess": "מעט חרדל",
+      "reason": "Last word read as 'חרדל'; not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

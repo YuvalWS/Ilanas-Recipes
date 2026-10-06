@@ -1,0 +1,100 @@
+{
+  "id": "b02-r01",
+  "batch": 2,
+  "title": "מוס",
+  "source": {
+    "text": "דונה / אילנה",
+    "type": "person",
+    "as_written": "דונה \\ אילנה",
+    "uncertain": false,
+    "names": [
+      "דונה",
+      "אילנה"
+    ]
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "1) להמס",
+      "items": [
+        "200 גר' שוקולד מריר",
+        "1 1/2 [?] קפה נמס",
+        "1/3 כוס קוניאק",
+        "1/2 כוס אבקת סוכר"
+      ]
+    },
+    {
+      "group": "2) להקציף",
+      "items": [
+        "1 קופסת צמחית",
+        "1/3 כוס סוכר"
+      ]
+    },
+    {
+      "group": "3)",
+      "items": [
+        "6 ביצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "3) להקציף החלבונים",
+        "4) לערבב 2 [?] 3",
+        "להוסיף החלמונים ל-1 ואחרי שמתקרר להוסיף הכל לקצף"
+      ]
+    }
+  ],
+  "notes": [
+    "Group 1 (chocolate, coffee, cognac, powdered sugar) and group 2 (cream, sugar) are each marked with a curly bracket and a word written to its left: group 1's word reads 'להמס' (to melt; partly covered by a stain) and group 2's is 'להקציף' (to whip).",
+    "A triangle/arrow mark is drawn at the end of the last line (an end mark; no text).",
+    "A scribbled/crossed-out mark stands just before the powdered-sugar quantity; the quantity itself reads 1/2 (also read as 1/2 by Gemini).",
+    "The egg numeral '6' is written over an earlier mark (bold overwrite); Gemini also reads 6, and the card's later steps are consistent with whites and yolks being separated.",
+    "Gemini's 'מיכל קצפת צמחית (ריץ')' and its elaborated method (small pot, bain-marie, folding, serving cups, refrigerating) are not on the card and were not copied.",
+    "Source set by the owner (issue #357): דונה / אילנה."
+  ],
+  "incidental_text": [
+    "A mark resembling '8' in the top-right corner of the note (meaning unclear; possibly a sorting mark)."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-01.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[1]",
+      "text": "1 1/2 [?] קפה נמס",
+      "best_guess": "Gemini: כפית (teaspoon); earlier reading: כף (tablespoon)",
+      "reason": "The unit is a single compressed glyph; readings differ and the ink does not decide between them."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "4) לערבב 2 [?] 3",
+      "best_guess": "ו (and) - 'mix 2 and 3'; Gemini: 'עם' (with)",
+      "reason": "The small connecting glyph between 2 and 3 looks like a lone 'א'-like mark, not a clean letter; the meaning 'mix 2 with/and 3' is clear from context."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #357",
+      "scope": null
+    }
+  }
+}

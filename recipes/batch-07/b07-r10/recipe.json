@@ -1,0 +1,49 @@
+{
+  "id": "b07-r10",
+  "batch": 7,
+  "title": "סלט חסה",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "חצאי שרי עגבניות",
+        "פרוסות פטריות טריות",
+        "שקדים קלופים",
+        "פטרוזיליה",
+        "פרוסות בצל לבן ואדום"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Underlined title 'סלט חסה / נורית' under a construction-company letterhead. Five ingredient lines; there is no separate line for lettuce on the card (Gemini's 'חסה', quantities, 'קצוץ', sugared pecans and dressing line are not on the card and were not used)."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company group"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-11.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

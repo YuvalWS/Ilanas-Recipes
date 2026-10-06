@@ -1,0 +1,7 @@
+{
+  "_comment": "הקלאסיים: curated family list. Add recipe ids (merged recipes only) to `ids`; edit with tools/classics.py or by PR.",
+  "ids": [
+    "b06-r03",
+    "b06-r05"
+  ]
+}

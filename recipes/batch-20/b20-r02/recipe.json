@@ -1,0 +1,105 @@
+{
+  "id": "b20-r02",
+  "batch": 20,
+  "title": "כרוב סגול",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2-3 [?] (תפוחים?)",
+        "[?] [?] [?] (מיץ? לימון?)",
+        "חומץ",
+        "מלח",
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Two scans (02 is upside down, 08 is upright) that appear to show the same small card: a title line ('סלט' plus an underlined word that is cut off by the top edge of the scan), then four or five short lines with a small mark ('ditto' or quantity?) to the right of some of them. Only 'סלט', '2-3', 'חומץ' and 'מלח' could be read with reasonable confidence.",
+    "Rescanning with the whole top edge included would probably reveal the title.",
+    "Owner (PR #151 review comments): title 'כרוב סגול'; editorial title 'סלט כרוב סגול'.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט כרוב סגול' (it is not written on the card)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-02.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-02.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2248-08.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "2-3 [?]",
+      "best_guess": "2-3 תפוחים",
+      "reason": "The word after the quantity could be 'תפוחים' but is not clear."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?] [?] [?]",
+      "best_guess": null,
+      "reason": "Second line unreadable; the word 'לימון' may appear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Last word unreadable."
+    },
+    {
+      "field": "raw_files",
+      "text": "02/08",
+      "best_guess": null,
+      "reason": "Both scans are assumed to show the same card (same layout, same words), scanned in two orientations."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #151 review comments",
+      "scope": null
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  },
+  "assigned_title": "סלט כרוב סגול",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "Owner (PR #151): the editorial title should be 'סלט כרוב סגול'; the heading on the card reads 'כרוב סגול'."
+}

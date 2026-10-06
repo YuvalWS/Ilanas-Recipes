@@ -1,0 +1,67 @@
+{
+  "id": "b20-r04",
+  "batch": 20,
+  "title": "סלט חסה אלגנטי",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "מה צריך",
+      "items": [
+        "צרור עלי חסה",
+        "1 תפוח ירוק",
+        "1 אגס",
+        "1/2 בצל סגול קטן (לא חובה)",
+        "4-5 תמרים (אפשר להחליף גם בצימוקים)",
+        "1 כף שמן זית",
+        "מיץ מ־1/2 לימון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "כך עושים",
+      "steps": [
+        "קורעים את החסה בידיים לחתיכות בגודל ביס.",
+        "חוצים את התפוח, נפטרים מהליבה, ופורסים כל חצי לפרוסות דקיקות. אין צורך לקלוף (הידד!). חוזרים על הפעולה גם עם האגס.",
+        "פורסים את הבצל הסגול לפרוסות דקות.",
+        "נפטרים מהגלעינים של התמרים וקוצצים אותם לקוביות קטנות. עד כאן אפשר לשמור את כל המרכיבים במקרר עד ההגשה.",
+        "מערבבים בקערה גדולה את קרעי החסה, פרוסות התפוח, האגס והבצל, יחד עם קוביות התמרים. סוחטים מעל הכל את הלימון, מטפטפים משמן הזית, ומתבלים במלח ופלפל בנדיבות.",
+        "מערבבים וזוללים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed introduction: 'מצד אחד לא רוצים לגנוב את ההצגה לתבשיל המושלם (ובטח שלא לקציצות של דודה חדוה), אבל כשסלט כל כך טעים בפני עצמו, זה קצת מתבקש שזה מה שיקרה בסוף.'",
+    "The printed range '5־4 תמרים' is typeset right-to-left; written here as 4-5.",
+    "Independent Codex rereading confirms בנדיבות and וזוללים at the end of the preparation, and corrects the introductory name to חדוה. No source is visible; none was invented.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-04.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-04.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "b07-r11",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "שמן זית",
+        "לימון",
+        "שן שום כתוש",
+        "מלח ופילפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "סלט בצל חסה, פטריות [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] ?"
+      ]
+    }
+  ],
+  "notes": [
+    "Square card, no letterhead. Top block looks like a short dressing list (olive oil...). Below a ruled line is a crossed-out heading and three lines that cannot be read.",
+    "A Gemini file exists for this card; it names the card 'lettuce and mushroom salad' and lists lettuce and mushrooms, which are not visible on the card, so only its dressing lines were compared. Gemini did not read the section below the ruled line either.",
+    "Suggested title 'סלט חסה ופטריות' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: the method line starts 'סלט ... חסה, פטריות'; ingredients are an olive-oil-lemon-garlic dressing). Awaiting the owner's approval.",
+    "Owner (PR #260): the card is untitled.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט חסה ופטריות' (it is not written on the card)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-12.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No title on the card (Gemini's 'סלט חסה ופטריות' is not written on it)."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "[?]",
+      "best_guess": "Gemini: מיץ לימון; ink looks like a single word, possibly 'לימון' - not confirmed",
+      "reason": "Short one-word line, shaky handwriting."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "[?] מלח",
+      "best_guess": "Gemini: חרדל [or: מיונז], then a separate line מלח; not confirmed on the ink",
+      "reason": "First word of the line cannot be read; left word may be 'מלח'."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Crossed-out heading and three lines below the ruled line are unreadable (not covered by Gemini)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "סלט חסה ופטריות",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "the method line starts 'סלט ... חסה, פטריות'; ingredients are an olive-oil-lemon-garlic dressing",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #260 review comments",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment on the source = confirmed)",
+      "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  }
+}

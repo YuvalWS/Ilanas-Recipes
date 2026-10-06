@@ -1,0 +1,106 @@
+{
+  "id": "b01-r05",
+  "batch": 1,
+  "title": "עוגת פירות יבשים (קופ\"ח)",
+  "source": {
+    "text": "קופ\"ח",
+    "type": "unknown",
+    "as_written": "(קופ\"ח)",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "200 גר' אגוזי מלך טבעיים",
+        "200 גר' תערובת פירות יבשים",
+        "עדיף ללא סוכר (צימוקים [?] משמש)",
+        "2 ביצים",
+        "2 כפות קמח מלא או קמח כוסמין מלא",
+        "תבנית אינגליש 24 משומנת היטב"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "1. מערבבים אגוזים ופירות",
+        "2. טורפים ביצים ומוסיפים",
+        "3. מוסיפים קמח ומערבבים [?]",
+        "4. מניחים בתבנית",
+        "5. אופים בינוני [?] [?]",
+        "6. מקררים ופורסים [?]",
+        "7. נשמר במקרר [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Digitization remark: ditto marks expanded. The two ditto marks on the second ingredient line stand for the quantity and unit of the line above (200 גר').",
+    "Digitization remark: in this hand the letter א looks like a joined ס+ל; reading it as א gives אגוזי / אגוזים / אופים / אינגליש, consistent across the card.",
+    "Digitization remark: the line under the ingredient 'תערובת פירות יבשים' ('עדיף ללא סוכר ...') is a remark about the dried-fruit mix (preferably unsweetened), not a sugar quantity.",
+    "Digitization remark: the card is cut at the bottom edge, so the lower halves of the last three lines (steps 5-7) are partly missing.",
+    "Digitization remark: the word 'מלא' also appears alone on the line below the flour line (not part of a new ingredient).",
+    "Independent Codex rereading confirms כוסמין, מקררים ופורסים, and נשמר במקרר. The overwritten baking time and truncated continuations remain uncertain; no missing cooking or storage advice was inferred.",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-05.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "עדיף ללא סוכר (צימוקים [?] משמש)",
+      "best_guess": "Gemini: 'צימוקים משמש'; own crop reading: possibly 'צימוקים ומשמש'",
+      "reason": "'עדיף ללא סוכר' read with Gemini's help and consistent with the ink; the word between 'צימוקים' and 'משמש' is shaky (possible extra ו)."
+    },
+    {
+      "field": "instructions",
+      "text": "3. מוסיפים קמח ומערבבים [?]",
+      "best_guess": "Gemini: nothing after 'ומערבבים'",
+      "reason": "A bracket curl and a single letter appear to the left of the line; meaning unclear, perhaps just a stray mark."
+    },
+    {
+      "field": "instructions",
+      "text": "5. אופים בינוני [?] [?]",
+      "best_guess": "Gemini: 'כ-45 דק''  (earlier note: oven/temperature/time words unread)",
+      "reason": "After 'בינוני' the digits are scribbled over and the card edge cuts the line; a time such as 'דק'' is possible but the number is not certain."
+    },
+    {
+      "field": "instructions",
+      "text": "6. מקררים ופורסים [?]",
+      "best_guess": "כשהיא קרה",
+      "reason": "מקררים ופורסים is readable in the enlarged scan; the continuation at the lower-left edge remains cut/ambiguous."
+    },
+    {
+      "field": "instructions",
+      "text": "7. נשמר במקרר [?]",
+      "best_guess": "שבועיים / או במקפיא",
+      "reason": "נשמר במקרר is legible; the storage-duration/continuation crosses the bottom edge and is not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
+    }
+  }
+}

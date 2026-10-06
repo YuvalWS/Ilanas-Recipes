@@ -1,0 +1,91 @@
+{
+  "id": "b09-r16",
+  "batch": 9,
+  "title": "[?]",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/3 כוס [?] חריף",
+        "1 כף [?] חרדל",
+        "פפריקה אדומה [?]",
+        "מלח, פלפל שחור"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "נתח בשר [?] ס\"מ 5",
+        "הפנות? [?] [?]",
+        "[?] [?] הסיר [?]",
+        "עם בצל חתוך ושום",
+        "[?] [?] [?] [?] השאר",
+        "[?] 2 כוסות מים",
+        "[?] [?] 1 1/2 שעות",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] הרוטב [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is clear in places but many words are unreadable; unreadable words are [?].",
+    "Tall narrow card with an underlined heading at the top (cut by the top edge, unreadable). Mentions a meat cut about 5 cm, onion and garlic, 2 cups of water, 1.5 hours, sauce - probably a stewed beef dish; this is an impression only.",
+    "A small bracketed word (maybe a name) appears below the ingredient block."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-20.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-20.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "heading at top",
+      "best_guess": null,
+      "reason": "Heading is cut off by the top edge."
+    },
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Quantities are visible but the items are partly unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": null,
+      "reason": "Many words unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #110 pending review",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment on the source = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

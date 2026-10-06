@@ -1,0 +1,82 @@
+{
+  "id": "b20-r24",
+  "batch": 20,
+  "title": "חביתת פיצה",
+  "source": {
+    "text": "[עיתון? - לוגו לא קריא], 21.1.2002, עמ' 68",
+    "type": "publication",
+    "as_written": "21.1.2002 68",
+    "uncertain": true
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים",
+      "items": [
+        "1/4 כוס שמן",
+        "3 עגבניות, פרוסות לפרוסות בעובי 1 ס\"מ",
+        "250-300 גרם גבינת \"חמד\" מלוחה",
+        "4-6 ביצים",
+        "20 גבעולי פטרוזיליה, קצוצים דק-דק"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הערות מודפסות",
+      "steps": [
+        "החלק הטעים ביותר הן השאריות שנדבקות למחבת. לא לשלוף סכינים, יש מספיק לכולם.",
+        "סוג הגבינה המומלץ הוא גבינה מלוחה פשוטה, אך יהיו מי שיעדיפו גבינה כפרית או בולגרית.",
+        "את חביתת הפיצה מגישים בד\"כ למרכז השולחן, וכל אחד לוקח לעצמו מנה."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Newspaper clipping, page 68, dated 21.1.2002 (the newspaper's name in the header is a stylized logo that I cannot read). It contains an introduction and three numbered tips and then the ingredient list; the method steps are not on this clipping (they are cut off - the left edge shows the beginning of the next column).",
+    "Introduction: 'חביתית פיצה היא מאכל קלאסי לעצלנים - קלה להכנה, לא דורשת הכנות מוקדמות ותוך כדי עריכת השולחן המאכל כבר מוכן. זוהי, בעצם, חביתת שלוש שכבות: שכבת בסיס מפרוסות עגבנייה, מעליהן שכבה נכבדה של גבינה מלוחה ומעל הכל ביצים ופטרוזיליה קצוצה.' The numbered items were saved under the 'instructions' field as printed notes.",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded (it is only partly readable)."
+  ],
+  "incidental_text": [
+    "Printed at the bottom: '21.1.2002' and page number 68, with a newspaper logo",
+    "Cut-off text from the next column along the left edge"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-27.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-27.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "method",
+      "best_guess": null,
+      "reason": "The cooking method is not on the clipping (cut off); the 'instructions' field holds only the printed tips."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The newspaper's name is a stylized logo that could not be read."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source is only partly readable on the card, as recorded"
+    }
+  }
+}

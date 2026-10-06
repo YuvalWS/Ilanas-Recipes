@@ -1,0 +1,78 @@
+{
+  "id": "b06-r15",
+  "batch": 6,
+  "title": "סלמון",
+  "source": {
+    "text": "מאירה",
+    "type": "person",
+    "as_written": "מאירה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] קפוא: לגרד עגבניות",
+        "להפשיר סלמון בתוך התבנית",
+        "לטבל בענפי שמיר",
+        "למרוח [?] להניח בתבנית",
+        "[?] [?] [?] [?] [?] [?]",
+        "נייר אפיה [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Yellow memo card with a construction-company letterhead. The heading reads 'סלמון / [name]' (name after the slash uncertain), with a scribbled-out line under it. Only the heading name and the body lines are on the card; a faint mirror-image of the reverse side shows through the paper and is ignored.",
+    "Words 'להפשיר', 'לטבל בענפי שמיר' and 'עגבניות' were accepted after Gemini's second reading was checked against the zoomed ink (letter count and shapes are consistent); they remain a medium-confidence reading of shaky handwriting.",
+    "Gemini's title/lines 'סלמון בשקית קוקי', 'על הדג', 'מיץ מחצי לימון לשפוך מעל' and 'ולאפות בתנור' were NOT adopted: they do not match the visible ink (the card's last visible line begins 'נייר אפיה'), so they are only recorded in uncertainties.",
+    "Handwriting is very cramped/shaky; a human re-read (or rescan) of this card is recommended."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company (logo, phone/fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-16.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-16.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions[0]",
+      "text": "[?] קפוא",
+      "best_guess": "Gemini: בשקית קוקי",
+      "reason": "First word of line 1 unreadable; the second word looks like קפוא (frozen) rather than Gemini's 'קוקי', which fits 'להפשיר' on the next line."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "למרוח [?] להניח בתבנית",
+      "best_guess": "Gemini: למרוח על הדג ולהניח בתבנית",
+      "reason": "One word (about 4-5 letters, starts with ו/ל) between 'למרוח' and 'להניח'; Gemini's two words 'על הדג' do not fit the ink."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "[?] x6",
+      "best_guess": "Gemini: מיץ מחצי לימון לשפוך מעל (not matched to the ink); the line seems to end with 'סלת'",
+      "reason": "Line 5 is not readable word by word."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "נייר אפיה [?] [?] [?]",
+      "best_guess": "Gemini has no such line (it ends 'ולאפות בתנור')",
+      "reason": "Last line: 'נייר אפיה' read from the ink; the remaining three words are unreadable (maybe ending 'ולפה')."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

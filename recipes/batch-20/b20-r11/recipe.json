@@ -1,0 +1,89 @@
+{
+  "id": "b20-r11",
+  "batch": 20,
+  "title": null,
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "רוטב (הרשימה שמופיעה בקטע; הכותרת מעליה חתוכה)",
+      "items": [
+        "1 כפית חרדל",
+        "1 כף דבש או סילאן",
+        "1/2 כפית פלפל שחור גרוס",
+        "1 שן שום כתושה",
+        "מעט מלח",
+        "1 כף חומץ בלסמי מצומצם"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שוטפים היטב את העדשים ומשרים כחצי שעה בקערה עם מים. מסננים ומבשלים כ־20 דקות בסיר מלא במים, עד שהן רכות, אך לא רכות מדי (אל דנטה).",
+        "חשוב לטעום את העדשים במהלך הבישול כדי שלא יהיו רכות מדי. מסננים ומצננים. שוטפים היטב את עלי התרד.",
+        "מערבבים בקערה את עלי התרד, העדשים, הבצל, הצ'ילי והכוסברה.",
+        "לפני ההגשה מערבבים היטב את חומרי הרוטב ויוצקים אל הסלט."
+      ]
+    }
+  ],
+  "notes": [
+    "Clipping without a title: it starts with the dressing ingredient list; the list of salad ingredients and the title above it are cut off. From the instructions it is a salad of lentils, spinach leaves, onion, chili and coriander (spinach, lentils, onion, chili and coriander are only named in the method).",
+    "Printed at the bottom: 'adonimeir@gmail.com' (probably the author's e-mail address; not claimed as the source).",
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Suggested title 'סלט עדשים ותרד' added by AI on 2026-10-06 (not on the card; basis: the method names lentils, spinach leaves, onion, chili and coriander with a dressing). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט עדשים ותרד' (it is not written on the card)."
+  ],
+  "incidental_text": [
+    "Printed e-mail address at the bottom of the clipping: adonimeir@gmail.com"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-13.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The title and the main ingredient list were cut off the clipping."
+    },
+    {
+      "field": "source",
+      "text": "adonimeir@gmail.com",
+      "best_guess": null,
+      "reason": "An e-mail address appears but it is not stated whether it names the author."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  },
+  "assigned_title": "סלט עדשים ותרד",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "the method names lentils, spinach leaves, onion, chili and coriander with a dressing"
+}

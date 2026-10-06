@@ -1,0 +1,114 @@
+{
+  "id": "b06-r19",
+  "batch": 6,
+  "title": "סלמון",
+  "source": {
+    "text": "חגית",
+    "type": "person",
+    "as_written": "חגית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/3 כוס שמן זית כתית",
+        "2 כפות דבש",
+        "2 שיני שום כתושות"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להפשיר ולהסיר העור הלבן",
+        "להמליח ולפלפל",
+        "למרוח את הדג היטב",
+        "[?] [?] במקרר [?]",
+        "לפזר [?] [?]",
+        "או פטרוזיליה, שמי[?]",
+        "(reverse side) בתנור:",
+        "1[?]0° 15 ד' מכוסה",
+        "5 ד' לא מכוסה"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is shaky; unreadable words are marked [?] and not filled in. Rescan or a human re-read would help for lines 4-6 of the front.",
+    "The three ingredient lines are grouped by a bracket at the left of the front, apparently a marinade for the fish (the card does not say so).",
+    "Card with a printed newspaper footer (a Hebrew newspaper slogan). The back (scan 21) shows faint show-through of the front plus its own 3 lines of baking instructions at the top.",
+    "Spelling and abbreviations kept as written (ד' = minutes)."
+  ],
+  "incidental_text": [
+    "Printed newspaper-style footer at the bottom of the front side"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-20.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-20.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2126-21.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-21.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "1/[?] כוס שמן זית כתית",
+      "best_guess": "Gemini: 1/3; earlier reading: 1/2",
+      "reason": "The denominator after the slash is unclear (looks like 3 or 2)."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "2 כפות [?]",
+      "best_guess": "Gemini: סויה",
+      "reason": "The word does not clearly show the letters of סויה; not confirmed on the ink."
+    },
+    {
+      "field": "instructions[3]",
+      "text": "[?] [?] במקרר [?]",
+      "best_guess": "Gemini: 1/2 שעה במקרר להחמיץ",
+      "reason": "Only 'במקרר' is plausibly legible; the quantity, unit and last word could not be confirmed."
+    },
+    {
+      "field": "instructions[4]",
+      "text": "לפזר [?] [?]",
+      "best_guess": "Gemini: רוזמרין קצוץ",
+      "reason": "Words after 'לפזר' not confirmed on the ink; the second word seems to end in a final mem, which does not fit."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "או פטרוזיליה, שמי[?]",
+      "best_guess": "possibly שמיר (dill); Gemini omitted this tail",
+      "reason": "Faint word after the comma, last letter unclear."
+    },
+    {
+      "field": "instructions[7]",
+      "text": "1[?]0° 15 ד' מכוסה",
+      "best_guess": "Gemini: 180",
+      "reason": "The middle digit is blotted/overwritten; read as 8 but not certain. Gemini placed 15 before 180; on the card 180° is written first (right-most)."
+    },
+    {
+      "field": "raw_files",
+      "text": "front/back",
+      "best_guess": null,
+      "reason": "Scan 21 is assumed to be the back of scan 20; the contents (baking times) fit the recipe."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "b18-r08",
+  "batch": 18,
+  "title": "מוס מנצח",
+  "source": {
+    "text": "ג׳סיקה שרה",
+    "type": "person",
+    "as_written": "ג׳סיקה שרה",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים",
+      "items": [
+        "500 גרם שוקולד",
+        "250 מ\"ל חלב או שמנת להקצפה (אפשר לערבב)",
+        "1/2 כוס מיץ ענבים (תירוש)",
+        "כף תמצית וניל",
+        "טיפונת מלח לחיזוק טעם השוקולד",
+        "5 ביצים מופרדות, חלבונים מוקצפים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "ממיסים בסיר על אש נמוכה את השוקולד עם השמנת. כשהכול נמס יחד, מוסיפים את היין, המלח והוניל, ומורידים מהאש כשהכול נמס ומבריק.",
+        "מוסיפים את החלמונים אחד אחד תוך ערבוב, עד שהם מתאחדים עם השוקולד.",
+        "שופכים לחלבונים המוקצפים את השוקולד ומקפלים בעדינות.",
+        "שמים בכוסיות או בפיירקס - ולמקרר (או למקפיא) ולהעביר למקרר כמה שעות לפני ההגשה.",
+        "לגיוון אפשר להוסיף קינמון, אלכוהול או קפה נמס מהול בקצת מים. אם רוצים להוסיף כוכב אניס או חתיכת שורש ג'ינג'ר, יש להוציא אותם לפני הערבוב עם החלמונים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed mousse recipe with introductory paragraph crediting ג׳סיקה שרה; intro describes replacing milk/cream with coconut milk for a dairy-free version. Intro is summarized; photo credit is not a recipe attribution.",
+    "Method says היין while ingredients name מיץ ענבים (תירוש); retained literal discrepancy. No publication named."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-08.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

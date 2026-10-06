@@ -1,0 +1,92 @@
+{
+  "id": "b01-r15",
+  "batch": 1,
+  "title": "טורט עם קקאו וקוניאק",
+  "source": {
+    "text": "שאולוב",
+    "type": "person",
+    "as_written": "שאולוב",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים (להפריד חלבונים וחלמונים)",
+        "3/4 כוס סוכר",
+        "4 כפות קקאו",
+        "2 כפות קמח תופח",
+        "מעט קוניאק מהול במים",
+        "(3 כפות על 2 כפות מים)"
+      ]
+    },
+    {
+      "group": "למילוי",
+      "items": [
+        "1 אינסטנט וניל",
+        "1 כוס חלב",
+        "1 שמנת מתוקה",
+        "(להקציף יחד במשך דקה)",
+        "100 גר' שוקולד מריר",
+        "4 כפות חלב",
+        "1/4 חב' מרגרינה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "להקציף חלבונים, להוסיף לאט סוכר, להוסיף החלמונים ולבחוש [?] הקקאו והקמח ולאפות בחום בינוני.",
+        "להרטיב את העוגה בקוניאק, לצפות בקרם של אינסטנט, את הקרם לשפוך בכל צידי העוגה.",
+        "שוקולד ממס על אדים [?] כפות חלב ורבע חב' מרגרינה."
+      ]
+    }
+  ],
+  "notes": [
+    "Earlier reading of 'קינמון' (cinnamon) corrected to 'קוניאק' (cognac) in title, ingredients and instructions (clear on zoom, confirmed by Gemini).",
+    "Independent Codex enlarged-crop rereading resolves שולה, the ratio connector על, and את הקרם לשפוך בכל צידי העוגה. The first source name and the stained/ambiguous preparation words remain flagged.",
+    "Source set by the owner (issue #378): שאולוב."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-14.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "ולבחוש [?] הקקאו",
+      "best_guess": "Gemini: את; earlier reading: עם",
+      "reason": "Word is partly covered by a blue ink blot/stain; cannot confirm either reading."
+    },
+    {
+      "field": "instructions",
+      "text": "שוקולד ממס על אדים [?] כפות חלב",
+      "best_guess": "וארבע",
+      "reason": "'אדים' accepted (Gemini: melt over steam; ink consistent, first letter ambiguous). The word before 'כפות חלב' ends in a descender and could be 'וארבע' (matching '4 כפות חלב' in ingredients) but is not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #378",
+      "scope": null
+    }
+  }
+}

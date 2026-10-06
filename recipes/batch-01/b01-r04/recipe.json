@@ -1,0 +1,58 @@
+{
+  "id": "b01-r04",
+  "batch": 1,
+  "title": "עוגת אגוזים",
+  "source": {
+    "text": "אסתר",
+    "type": "person",
+    "as_written": "אסתר",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "6 ביצים",
+        "150 גר' אגוזים",
+        "3 כפות קמח אוסם מלאות",
+        "1 כוס סוכר",
+        "מעט תמצית שקדים"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Card lists ingredients only; no preparation steps are written.",
+    "Title line is written as 'עוגת אגוזים / אסתר' (source after the slash).",
+    "Independent Codex rereading confirms 150 grams of nuts: the middle digit has the upper stroke and lower bowl of 5, unlike the separate 3 on the flour line. The faint mark following אסתר remains unconfirmed.",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-04.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
+    }
+  }
+}

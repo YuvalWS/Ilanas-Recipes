@@ -1,0 +1,85 @@
+{
+  "id": "b10-r05",
+  "batch": 10,
+  "title": "כרובית צלויה בשמן זית",
+  "source": {
+    "text": "יהודית ר[?]אם",
+    "type": "person",
+    "as_written": "יהודית ר[?]אם",
+    "uncertain": true
+  },
+  "medium": "mixed",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 ליטרים מים, כרובית גדולה עם העלים, כוס שמן זית (אפשר קצת פחות).",
+        "1 כף מלח גס, 3 שיני שום קלופות וקצוצות או שום גבישי או קוביות שום,",
+        "מעט פלפל לבן טחון."
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מביאים את המים לרתיחה בסיר גדול. מכניסים את הכרובית לסיר כשהיא הפוכה (קצה הגזע פונה מעלה) ומבשלים 7 דקות. מוציאים, מסננים מהמים ומקררים. מניחים בתבנית.",
+        "בינתיים מכינים בלילה של - מלח, פלפל, שמן זית ושום כתוש,",
+        "[handwritten] יוצקים על הכרובית ו[?]",
+        "[handwritten] [?] [?] שהוסיפה [?] [?] [?]",
+        "[handwritten] [?] [?] [?] [?] [?]",
+        "[handwritten] [?] [?], אפשר לשמור במקרר",
+        "[handwritten] עד 3 ימים"
+      ]
+    }
+  ],
+  "notes": [
+    "A printed email/web printout (typed text) with handwritten additions: a blue handwritten line at the top and about six lines at the bottom that continue the method. The printed method stops after 'ושום כתוש,' and the handwriting continues from there.",
+    "The printed ingredient paragraph has no quantity for the lemon etc.; it lists exactly what is printed.",
+    "The handwritten text at the bottom overlaps the printed footer; only the first and last lines are readable.",
+    "Source set by the owner (issue #358): יהודית ר[?]אם. The owner asks to find out whether this יהודית is the same יהודית as in the other recipes (open question).",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded (it is only partly readable)."
+  ],
+  "incidental_text": [
+    "Printed footer of a web-mail page (site address, copyright line, 'תוכן מתוך'...)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2156-04.jpg",
+      "original_path": "Batch 10/Scanned_20261004-2156-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "handwritten lines",
+      "best_guess": null,
+      "reason": "Most of the handwritten continuation is unreadable."
+    },
+    {
+      "field": "source",
+      "text": "יהודית ר[?]אם",
+      "best_guess": "יהודית ראם",
+      "reason": "Owner's partial reading (issue #358); some letters are not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source is only partly readable on the card, as recorded"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "b22-r01",
+  "batch": 22,
+  "title": "עוגת גבינה ואוכמניות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "I (the first four lines are joined by a large bracket labeled 'לערבב')",
+      "items": [
+        "2 קופסאות גבינה 9% (אפשר 2 קופסאות של 5%)",
+        "1 קופסת גבינה 5%",
+        "1 גיל",
+        "4 חלמונים.",
+        "להוסיף 3/4 קופסה אינסטנט פודינג וניל",
+        "4 כפות קורנפלור."
+      ]
+    },
+    {
+      "group": "פשטידת קשואים",
+      "items": [
+        "4–5 בצלים",
+        "5–6 קשואים קלופים",
+        "4 ביצים",
+        "שמנת מתוקה או צמחית",
+        "מעט פירורי לחם — אפשר",
+        "מלח ופלפל",
+        "בצק עלים"
+      ]
+    },
+    {
+      "group": "עוגת גלידה / חיה",
+      "items": [
+        "4 ביצים",
+        "1 מקצפת",
+        "3/4 כוס סוכר",
+        "100 ג׳ אגוזים קצוצים",
+        "100 ג׳ שוקולד מרוסק",
+        "3/4 כף נס קפה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "II",
+      "steps": [
+        "להקציף 4 חלבונים + 1 כוס סוכר",
+        "לערבב יחד את שני התערובות",
+        "להכניס לתנור ולאפות בחום לא גבוה עד שהעוגה מזהיבה.",
+        "להוציא מהתנור ולמרוח מחית אוכמניות (אפשר להכניס שוב לתנור לכמה דקות).",
+        "לקרר היטב.",
+        "להקציף 1-2 שמנת מתוקה + 1/2 קופסה אינסטנט פודינג וניל + 2 כפות סוכר. למרוח על העוגה כשהיא קרה לגמרי."
+      ]
+    },
+    {
+      "group": "פשטידת קשואים",
+      "steps": [
+        "4–5 בצלים לחתוך לעיגולים או קשת. לטגן בסיר במעט שמן עד שהבצל שקוף.",
+        "5–6 קשואים קלופים וחתוכים לפרוסות של כ־1/2 ס״מ. לאדות בסיר נפרד עם מעט מהבצל המטוגן (10–20 דקות בחום נמוך עד ריכוך — לא לשרוף).",
+        "לשטוח על תבנית בצק עלים. לנקב אותו!",
+        "לערבב יחד בצל מאודה + קשואים מאודים + 4 ביצים ושמנת מתוקה או צמחית. אפשר להוסיף מעט פירורי לחם, מלח ופלפל. לשפוך מעל הבצק. לאפות בתנור בחום בינוני.",
+        "בתאבון."
+      ]
+    },
+    {
+      "group": "עוגת גלידה / חיה",
+      "steps": [
+        "להקציף חלבונים עם 1/2 כוס סוכר; מקצפת עם 1/4 כוס סוכר.",
+        "לערבב שניהם עם החלמונים.",
+        "לחלק את כל הנ״ל לשניים.",
+        "שליש אחד לערבב עם נס קפה; בשליש השני לערבב עם האגוזים [?].",
+        "להשאיר מעט אגוזים ושוקולד לקישוט.",
+        "לשים ב־2 תבניות ארוכות; בתחתית את החלק עם האגוזים ומעל את התערובת עם הקפה (2 כפות)."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Graph-paper sheet with two recipes: this cake (top and middle) and a zucchini pie (bottom, recipe 2 of this batch; same scan). Roman numerals 'I' and 'II' mark the two parts of the cake.",
+    "Repeated page cross-checked against PR #273: squash slices ½ cm, stewed separately with a little cooked onion; no added water specified. Pastry is בצק עלים, prick it.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-01.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions[0].steps",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "b20-r12",
+  "batch": 20,
+  "title": "ספגטי",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "מרכיבים שאפשר לקרוא מתוך ההוראות (אין רשימה נפרדת)",
+      "items": [
+        "ספגטי",
+        "2 שיני שום",
+        "מעט שמן",
+        "2 רסק עגבניות",
+        "פפריקה, מעט מלח ופלפל שחור",
+        "מעט מים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להרתיח מים.",
+        "לשפוך הספגטי.",
+        "לבשל 7 ד׳ לפי ההוראות. ולסנן.",
+        "רוטב: לחתוך 2 שיני שום לקטן.",
+        "לטגן במעט שמן.",
+        "להוסיף 2 רסק עגבניות,",
+        "פפריקה, מעט מלח ופלפל שחור",
+        "ומעט מים, לבשל מעט.",
+        "ולשפוך על הספגטי."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Card in a calm, fairly legible hand but with several unclear words. The method is written as short infinitive lines; the list of ingredients was extracted from them. A second, fainter handwriting from the back shows through the paper.",
+    "The line 'רוטב:' is underlined.",
+    "The note says 2 רסק עגבניות without a unit or package size; retained literally. Ingredient list is derived from the written instructions.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-14.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-14.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

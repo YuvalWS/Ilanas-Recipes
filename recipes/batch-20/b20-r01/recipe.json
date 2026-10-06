@@ -1,0 +1,74 @@
+{
+  "id": "b20-r01",
+  "batch": 20,
+  "title": "רוטב ויניגרט לשדרוג סלט חסה",
+  "source": {
+    "text": "השף אורן לוקסנבורג, מסעדת Bariba בנמל תל אביב",
+    "type": "person",
+    "as_written": "המתכון באדיבות השף אורן לוקסנבורג ממסעדת Bariba בנמל תל אביב",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "מרכיבי הרוטב (מופיעים בתוך משפט ההוראות; אין רשימה נפרדת)",
+      "items": [
+        "חצי בצל סגול",
+        "חצי כוס מיץ לימון",
+        "כפית חרדל דיז'ון",
+        "2 כפות דבש",
+        "כוס שמן זית",
+        "שן שום"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מעבירים למעבד מזון חצי בצל סגול, חצי כוס מיץ לימון, כפית חרדל דיז'ון, 2 כפות דבש, כוס שמן זית ושן שום. טוחנים לרוטב חלק.",
+        "מתקבלת כמות גדולה של רוטב שנשמר לאורך זמן במקרר. לצורך הכנת סלט משתמשים רק בשלוש כפות.",
+        "לסלט עצמו מוסיפים מלח ופלפל לפי הטעם (אם יוצא חמצמץ מדי - אפשר להוסיף עוד קצת דבש או סוכר. עדיף חום)."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Two scans of the same newspaper clipping (01 and 07); they look identical side by side - not compared word by word.",
+    "Printed introduction: 'עכשיו, כשחם, כשבכל קלוריה נחשבת, וכשהחסה הולכת להיות מרכז תזונתנו, מה יכול להיות יותר טוב ונחוץ מרוטב משובח לחסה? למשל, רוטב ויניגרט.'",
+    "The ingredient list above was extracted from the first instruction sentence (the clipping has no separate list)."
+  ],
+  "incidental_text": [
+    "Banner at the top of the clipping, read as 'המתכון של ליהיא' (column name)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-01.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-01.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2248-07.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "incidental_text",
+      "text": "המתכון של ליהיא",
+      "best_guess": null,
+      "reason": "The banner text is on a grey background and the last word was read with some difficulty."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

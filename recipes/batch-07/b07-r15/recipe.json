@@ -1,0 +1,114 @@
+{
+  "id": "b07-r15",
+  "batch": 7,
+  "title": null,
+  "source": {
+    "text": "שושנה",
+    "type": "person",
+    "as_written": "שושנה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "לתערובת המוכנה [?]",
+      "items": [
+        "שמן זית",
+        "חרדל",
+        "שום",
+        "סויה",
+        "חומץ",
+        "סכרזית"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "White card with a printed frame. A column of single-word ingredients on the right, separated by a long vertical line from a two-line note at the upper left.",
+    "Upper-left note, line 1: 'כרוב לבן [?]' (a further partly cut-off word at the left end is unreadable). Line 2: '[?]'.",
+    "A scribbled-out line at the top left (struck through with a wavy line) looks like a crossed-out title; unreadable.",
+    "A scribble above the 5th ingredient ('חומץ') is unreadable (possibly a crossed-out or added word).",
+    "Suggested title 'רוטב חרדל וסויה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar). Awaiting the owner's approval.",
+    "Owner (PR #268 review comments): source שושנה; the ingredient group is labelled 'לתערובת המוכנה [?]'.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'רוטב חרדל וסויה' (it is not written on the card)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-16.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-16.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "last ingredient (6th line) [?]",
+      "best_guess": "Gemini: חמוציות (also offered: סוכריות / גרעיניות / קוביות); earlier reading: unreadable. The first glyph looks more like a squared ם/פ/ח than a clear ח, so not confirmed",
+      "reason": "Shaky handwriting; ink not clearly matching Gemini's guess."
+    },
+    {
+      "field": "ingredients",
+      "text": "סוכר, סויה, חומץ (lines 2, 4, 5)",
+      "best_guess": null,
+      "reason": "Read with Gemini's help; consistent with the ink but the handwriting is very shaky."
+    },
+    {
+      "field": "notes",
+      "text": "upper-left note line 2",
+      "best_guess": "Gemini: וחמוציות (or שקדים); the first glyph looks like a large loop, not ו, so not confirmed",
+      "reason": "Unreadable."
+    },
+    {
+      "field": "notes",
+      "text": "upper-left note line 1, extra word at left end",
+      "best_guess": "Gemini read the line as just 'כרוב לבן'",
+      "reason": "There seems to be another partial word at the left end."
+    },
+    {
+      "field": "title",
+      "text": "crossed-out top-left line",
+      "best_guess": "Gemini: סלט כרוב (crossed out)",
+      "reason": "Scribbled over with a wavy line; not readable on the scan. No title set."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "רוטב חרדל וסויה",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar",
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #268 review comments",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #268 review comments",
+      "scope": "group label only"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  }
+}

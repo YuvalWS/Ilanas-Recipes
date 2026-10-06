@@ -1,0 +1,83 @@
+{
+  "id": "b17-r09",
+  "batch": 17,
+  "title": "טאג'ין עם זעפרן ולימונים כבושים",
+  "source": {
+    "text": "אורי שני, מסעדת 'טורקיז בית יצחק' (as printed)",
+    "type": "person",
+    "as_written": "מאת אורי שני 'טורקיז בית יצחק'",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים (ל־6 מנות)",
+      "items": [
+        "6 שוקי עוף",
+        "3 בטטות קלופות וחתוכות לפרוסות",
+        "3 תפוחי אדמה קלופים וחתוכים לפרוסות",
+        "2 קישואים חתוכים לפרוסות",
+        "3 בצלים בינוניים חתוכים לטבעות",
+        "3 עגבניות קלופות וחתוכות גס",
+        "4 גזרים חתוכים לפרוסות",
+        "פרחים מכרובית אחת בינונית"
+      ]
+    },
+    {
+      "group": "למשרה",
+      "items": [
+        "2 לימונים כבושים קצוצים",
+        "2 כפות דבש",
+        "5 שיני שום כתושות",
+        "2 כפות שמן זית",
+        "כף פפריקה מתוקה",
+        "כף כמון",
+        "כף אבקת ג'ינג'ר",
+        "כף זעפרן",
+        "צרור פטרוזיליה קצוצה",
+        "חצי כוס מים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "מערבבים את כל מרכיבי המשרה.",
+        "משרים את כל הירקות והעוף במשרה למשך 24 שעות.",
+        "מחממים תנור (או פלטה) לחום של 180 מעלות.",
+        "מסדרים בטאג'ין, בשכבות, את מרכיבי התבשיל: בתחתית הכלי שמים את הבטטות, הגזרים ותפוחי האדמה שמתבשלים לאט. מעליהם מניחים את הקישואים, הבצלים, הכרובית והעגבניות, ומעליהם את שוקי העוף. את הרוטב שנותר שופכים מעל, בשכבה אחידה.",
+        "מבשלים כשעתיים בתנור או על פלטה חמה (לא לבשל על אש ישירה)."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping with two sections. Top: the end of an article introducing 'טאג'ין מרוקאי (עם בונוס בריא)' (the Moroccan tagine, clay pot with a conical lid, cooked with its own juices - no added fat needed); the first letters of the heading are cut ('טאג'ין מרוקאי'). Below: the recipe 'טאג'ין עם זעפרן ולימונים כבושים - מאת אורי שני, \"טורקיז בית יצחק\"' (a dish served at the restaurant 'טורקיז בית יצחק'). The intro of the second recipe: 'מנה המוגשת במסעדת \"טורקיז בית יצחק\", שבה השילוב בין הלימונים הכבושים, ירקות השורש והזעפרן מעניק טעם חדש, עמוק ומפתיע לירקות ולעוף.'"
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-09.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-09.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "אורי שני, מסעדת 'טורקיז בית יצחק'",
+      "best_guess": null,
+      "reason": "Credit printed under the heading; the publication itself is not shown."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

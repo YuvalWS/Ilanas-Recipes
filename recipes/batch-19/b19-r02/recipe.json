@@ -1,0 +1,90 @@
+{
+  "id": "b19-r02",
+  "batch": 19,
+  "title": "פלפל ממולא",
+  "source": {
+    "text": "מירי",
+    "type": "person",
+    "as_written": "מירי",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] מ[?]",
+        "[?] [?] הפלפלים [?] מ[?]",
+        "[?] [?] [?]",
+        "(back) [?] [?] [?] ... 45 דקות",
+        "(back) [?] [?] בתבנית"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card 2240-03 has the title 'פלפל ממולא / מירי' (underlined twice) and about ten lines of very narrow, tall handwriting that cannot be read; a short crowded fragment at the lower left (maybe 'ממולא'/'סוכר' and a number) is also unreadable. Card 2240-04 (printed 'רשות הדואר - דואר קדימה' logo; rotated 180 degrees) has about seven lines, ending with '45 דק' (45 minutes). It is assumed to be the continuation of 03 because of the topic, but this is not certain.",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
+  ],
+  "incidental_text": [
+    "Printed on 2240-04: logo and 'רשות הדואר - דואר קדימה'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2240-03.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2240-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2240-04.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2240-04.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Not legible."
+    },
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Not legible except '45 דק'' on the back."
+    },
+    {
+      "field": "raw_files",
+      "text": "2240-03/04",
+      "best_guess": null,
+      "reason": "Assumed to be one recipe."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
+    }
+  }
+}

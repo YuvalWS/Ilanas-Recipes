@@ -1,0 +1,78 @@
+{
+  "id": "b21-r03",
+  "batch": 21,
+  "title": "שניצלים של בית",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "מה צריך",
+      "items": [
+        "10 פרוסות חזה עוף, משוטח לשניצלים",
+        "2 ביצים L",
+        "1/2 כפית חרדל (לא חובה)",
+        "1 כוס קמח לבן",
+        "1 כוס פירורי לחם",
+        "1/2 כפית מלח",
+        "שמן לטיגון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "כך עושים",
+      "steps": [
+        "שמים בצלחת רחבה של מרק את הביצים והחרדל וטורפים, בצלחת נוספת שמים קמח עם מלח ומערבבים ובצלחת שלישית שמים את פירורי הלחם.",
+        "מצפים כל חזה עוף בקמח (מקפידים להיפטר מעודפי קמח) ולאחר מכן בביצה טרופה ואז בפירורי לחם.",
+        "מטגנים בשמן בגובה 1 ס״מ עד להזהבה יפה מ־2 הצדדים ומעבירים לצלחת עם נייר סופג."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwritten left-margin sequence: ביצה / פירורים / ביצה.",
+    "Handwritten annotation above the ingredients: [?].",
+    "Handwritten annotation below the printed preparation: [?].",
+    "Independent Codex rereading corrects the printed preparation: beat eggs with mustard, combine flour with salt, shake off excess flour, then coat in beaten egg and breadcrumbs. The printed 2 refers to the two sides, not a two-minute cooking time; no frying duration is stated.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-03.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "notes[1]",
+      "text": "[?]",
+      "best_guess": "רינה",
+      "reason": "Top blue annotation looks like a person’s name רינה, but the first/final letter forms are not fully certain."
+    },
+    {
+      "field": "notes[2]",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Bottom handwritten note crosses the printed final line; the full wording is not reliably readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

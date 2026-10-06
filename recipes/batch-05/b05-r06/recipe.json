@@ -1,0 +1,73 @@
+{
+  "id": "b05-r06",
+  "batch": 5,
+  "title": "קציצות עוף",
+  "source": {
+    "text": "הקצבים",
+    "type": "company",
+    "as_written": "הקצבים",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג עוף טחון",
+        "כוס פטרוזיליה קצוצה",
+        "בצל בינוני קצוץ",
+        "מלח, פלפל שחור,",
+        "מעט כמון",
+        "4 כפות פירורי לחם / או שיבולת שועל,",
+        "2 כפות שמן, 1/2 כפית פפריקה מתוקה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב ולהניח בצד"
+      ]
+    }
+  ],
+  "notes": [
+    "The title is written above a wavy dividing line. 'קציצות עוף' is mostly in a light-blue pen (some strokes retraced in dark blue); the last word at the top-left corner is in dark blue and its left end runs into the card edge.",
+    "The last word of the title may be a source/place (e.g. a butcher's shop) rather than part of the dish name; it is kept in the title until verified.",
+    "Gemini's second reading (title 'קציצות הודו אדום / חיה', '1 ק\"ג עוף הודו טחון', 'לערבב לנוח קצת, קציצה') was checked against the scan; the card shows 'עוף טחון' only, so its additions were not adopted.",
+    "Owner (PR #107 review comments): title קציצות עוף, source הקצבים."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-05.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #107 review comments",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #107 review comments",
+      "scope": null
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "b06-r17",
+  "batch": 6,
+  "title": "סלמון",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?]",
+        "[?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky and stylised; only the title (blue ink, top right) could be read letter by letter. The body is five lines of [?] in card order. Recommend a human re-read (or rescan) of this card.",
+    "Memo card of a building company (printed letterhead).",
+    "Gemini's second-opinion transcription gives a salmon coating recipe (crushed garlic, soy/chili sauce, olive oil, mayonnaise, ground almonds or breadcrumbs, 1/4 hour in a hot oven). It could not be matched to the ink line by line (the card has five lines, Gemini's text has seven or eight, and the last card line seems to start with 'מלח'), so none of it was copied into the text.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Printed letterhead: engineering and construction company logo, group name, phone and fax numbers"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-18.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-18.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all five lines",
+      "best_guess": "Gemini (not aligned to the card lines): למרוח שום כתוש / רוטב סויה / צ'ילי / שמן זית / מיונז - למרוח / מעל שקדים טחונים / פירורי לחם / 1/4 שעה בתנור חם. Earlier reading: nothing readable. Last line may begin 'מלח' and contains a slash fraction (maybe 1/4).",
+      "reason": "Gemini's reading cannot be confirmed on the zoomed crops; it may be embellished."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

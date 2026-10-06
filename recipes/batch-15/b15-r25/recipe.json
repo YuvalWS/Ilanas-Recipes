@@ -1,0 +1,78 @@
+{
+  "id": "b15-r25",
+  "batch": 15,
+  "title": "פלפלים ממולאים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "12 פלפלים מנוקים מגרגרים, מוברשים בשמן זית ואפויים כחצי שעה בתנור חם 170-180 מעלות עד התרככות."
+      ]
+    },
+    {
+      "group": "למילית",
+      "items": [
+        "1 גבינת קוטג' תנובה",
+        "1 גבינת תנובה 9% שומן",
+        "שקית גבינת חמד פיראוס (250 גרם) מפוררת",
+        "1 שקית פתיתי עמק למאפים מסדרת השף הלבן",
+        "גבינה צהובה מגורדת",
+        "2-3 ביצים טרופות היטב",
+        "2 כפות קמח תופח",
+        "2 כפות מלח ופלפל שחור, לטעם",
+        "1 שמיר קצוץ",
+        "מעט טימין יבש או טרי"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "שמים את הפלפלים בכלי חסין חום, ומחממים תנור לחום בינוני (170-180 מעלות).",
+        "מערבבים את כל חומרי המילוי, מתקנים את התיבול, וממלאים כל פלפל כדי שלושה רבעים.",
+        "אופים בתנור מחומם (ניתן לכסות קלות בנייר כסף אם הפלפלים נצרבים מדי), עד שהגבינה תופחת ומקבלת מרקם של סופלה, כ־1/2 שעה או מעט יותר. מגישים חם."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with the heading '16. פלפלים ממולאים' and a photo of a cottage cheese tub (a recipe from a numbered list).",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2218-07.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2218-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "ingredients[4]",
+      "text": "שקית גבינת חמד פיראוס (250 גרם)",
+      "best_guess": null,
+      "reason": "'פיראוס' is printed as shown (a brand name?); read as printed."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

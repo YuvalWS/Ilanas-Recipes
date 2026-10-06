@@ -1,0 +1,70 @@
+{
+  "id": "b11-r11",
+  "batch": 11,
+  "title": "מרק עדשים כתומות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "3 כפות שמן זית",
+        "1 בצל, קלוף וחתוך גס",
+        "1 גזר קטן, קלוף וחתוך גס",
+        "1 תפוח אדמה, קלוף וחתוך גס",
+        "1 ו-1/2 כוסות עדשים כתומות",
+        "1 כפית כמון",
+        "מלח ופלפל",
+        "6 כוסות מים"
+      ]
+    },
+    {
+      "group": "להגשה",
+      "items": [
+        "קצת בצל ירוק או עירית, שמן זית וקליפת לימון מגורדת. לא חובה."
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מחממים את שמן הזית בסיר. מוסיפים את הירקות החתוכים ומבשלים אותם כחמש דקות. מוסיפים את העדשים, התבלינים והמים. מביאים לרתיחה, מנמיכים להבה, מכסים את הסיר ומבשלים כ-30 דקות או עד שהירקות והעדשים רכים מאוד.",
+        "מתקנים תיבול ואם רוצים אפשר לטחון את המרק בבלנדר מוט לפני ההגשה.",
+        "מגישים עם התוספות מלמעלה אם רוצים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed newspaper clipping; the scan was upside down and was rotated 180 degrees. The intro paragraph (a note on soups in Turkey and red lentil soup) is not transcribed. 'ו-1/2 1' means 1 1/2 cups (typeset right-to-left).",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(newspaper clipping, publication not shown)' was removed."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-12.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-12.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "b07-r09",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "צנצנת — לנער היטב",
+      "items": [
+        "1 כף חרדל",
+        "לימון קטן סחוט",
+        "פחות מ-1/3 כוס חומץ",
+        "פחות מ-1/3 כוס שמן",
+        "מלח, פילפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשפוך זמן קצר לפני ההגשה."
+      ]
+    }
+  ],
+  "notes": [
+    "ditto marks expanded (fourth ingredient line: the quantity 'פחות מ-1/2 כוס' is copied from the line above).",
+    "A bracket on the left groups the ingredients with a handwritten note: 'בצנצנת לנער היטב' (in a jar, shake well). The first word is read with moderate certainty (agrees with Gemini's reading).",
+    "Suggested title 'רוטב חרדל ולימון בצנצנת' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: mustard, lemon, vinegar and oil dressing shaken in a jar). Awaiting the owner's approval.",
+    "Owner (PR #256): the quantities are 1/3 (not 1/2) for the vinegar and for the oil; the oil line is written with three ditto marks ('פחות מ-1/3 כוס', expanded) + 'שמן'; the note 'צנצנת — לנער היטב' (without the word 'במיכל') covers the whole ingredient group, so it is the group label, not a step.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'רוטב חרדל ולימון בצנצנת' (it is not written on the card)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-10.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "No heading written on this dressing note."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "רוטב חרדל ולימון בצנצנת",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "mustard, lemon, vinegar and oil dressing shaken in a jar",
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #256 review comments",
+      "scope": "quantities (1/3), ditto expansion, group label"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #256 review comments",
+      "scope": "the jar note moved to the ingredient group"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment on the source = confirmed)",
+      "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  }
+}

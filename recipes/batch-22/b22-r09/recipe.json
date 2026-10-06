@@ -1,0 +1,75 @@
+{
+  "id": "b22-r09",
+  "batch": 22,
+  "title": "בסיס-בצק לגבינה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 גולדבנד (סוג מרגרינה בטעם חמאה)",
+        "2 חלמונים",
+        "1/2 כוס סוכר",
+        "2 כוסות קמח אסם"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "אחרי האפיה מגרדים מלמעלה פירורים קטנים",
+        "ומפזרים על הגבינה",
+        "אפיה כרגיל",
+        "גבינה מ־2 גבינה [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card with a printed footer logo (a building-technology company, 'איטונג'); title reads 'בסיס - בצק לגבינה'. A staple is visible at the top.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Printed logo at the bottom: 'איטונג - שיטת בניה אחת קדימה'"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-08.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

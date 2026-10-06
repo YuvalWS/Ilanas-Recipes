@@ -1,0 +1,77 @@
+{
+  "id": "b13-r07",
+  "batch": 13,
+  "title": "עוגת גבינה מהירה בקצפת ותות שדה",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "750 גרם גבינת תנובה 9%",
+        "1 גביע שמנת תנובה 15% אורגינל",
+        "4 ביצים מופרדות לחלבונים וחלמונים",
+        "5 כפות אינסטנט פודינג וניל",
+        "3 כפות קמח",
+        "3/4 כוס סוכר"
+      ]
+    },
+    {
+      "group": "לציפוי",
+      "items": [
+        "3 כפות סוכר",
+        "2 מכלים שמנת עמידה להקצפה 38% מסדרת השף הלבן",
+        "500 גרם תות שדה שטוף ומיובש או כל פרי העונה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "תבנית קפיצית בקוטר 24 ס\"מ משומנת",
+      "steps": [
+        "מחממים תנור לחום בינוני (180 מעלות), שמים בקערה את הגבינה, החלמונים, הקמח, הפודינג, חצי כוס סוכר והשמנת ומערבבים.",
+        "מקציפים את החלבונים עם יתרת הסוכר לקצף נוקשה ומקפלים לתערובת הגבינה, יוצקים לתבנית ואופים 50-60 דקות עד שהעוגה מזהיבה או עד שקיסם עץ הננעץ במרכזה יוצא יבש."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping (10-12 servings, preparation time 20 minutes). The clipping is cut at the bottom after step 2; the topping steps are not on this scan.",
+    "Ranges and numbers typeset right-to-left are written in the usual order. ",
+    "Owner (2026-10-06): checked the source on the card; it remains uncertain or unreadable as recorded.",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(printed clipping, publication not shown)' was removed."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2209-09.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-09.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "topping steps",
+      "best_guess": null,
+      "reason": "The clipping ends after step 2; the rest of the method (topping) is not on this scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

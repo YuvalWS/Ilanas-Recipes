@@ -1,0 +1,70 @@
+{
+  "id": "b23-r03",
+  "batch": 23,
+  "title": "עוגת תפוחים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "חומרים",
+      "items": [
+        "4 ביצים",
+        "1 1/4 כוס סוכר",
+        "3/4 כוס שמן",
+        "1 שקית סוכר וניל",
+        "2 כוסות קמח אסם",
+        "7 תפוחי גרנד",
+        "1/4 כוס סוכר",
+        "מעט קינמון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "מקציפים את כל החומרים פרט לקמח במיקסר, אחר מוסיפים את הקמח.",
+        "את התפוחים מקלפים ופורסים לפרוסות דקות ומערבבים בתוכם 1/4 כוס סוכר וקינמון.",
+        "אחר לוקחים מחצית הבצק ויוצקים לתבנית משומנת. מעל מניחים את התפוחים ואח״כ על התפוחים את שאר הבצק.",
+        "אופים בחום בינוני בערך כשעה."
+      ]
+    }
+  ],
+  "notes": [
+    "Two-sided: 03 is the front (title, ingredients, start of the method) and 04 the back (rest of the method, 'כשעה' at the end). A dark blue strip along the right (04) or left (03) edge is part of the memo pad.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-03.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261005-0932-04.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

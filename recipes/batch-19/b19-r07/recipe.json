@@ -1,0 +1,74 @@
+{
+  "id": "b19-r07",
+  "batch": 19,
+  "title": "פלפלים ממולאים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים (לכמה מנות/סועדים: 8)",
+      "items": [
+        "8 פלפלים אדומים",
+        "250 גר' בשר בקר טחון פעם אחת",
+        "כוס אורז",
+        "4 שיני שום כתושות",
+        "1/2 כפית פלפל שחור",
+        "1/2 כפית כמון",
+        "מלח לפי הטעם",
+        "2 כפות פטרוזיליה קצוצה",
+        "1 קופסה עגבניות חתוכות",
+        "1 כף רסק עגבניות",
+        "1/4 כוס שמן זית"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "בקערה מערבבים היטב: בשר, אורז, שום ופטרוזיליה. ממליחים ומפלפלים וממלאים את הפלפלים 3/4 מהנפח.",
+        "בסיר מבשלים את העגבניות והרסק בשמן זית. מבשלים כחצי שעה מעל להבה בינונית.",
+        "מניחים את הפלפלים בעדינות ברוטב ומוסיפים מים כך שהרוטב יגיע לגובה 3/4 מהפלפלים. מכסים ומבשלים שעה וחצי מעל להבה קטנה.",
+        "מגישים חם עם הרוטב."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping (plain text, no photo) headed 'שם המתכון: פלפלים ממולאים' - 'לכמה מנות/סועדים: 8'. The clipping is glued over a larger page, and a crease crosses the lower part. A grey wood table is visible on the left.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2243-04.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2243-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

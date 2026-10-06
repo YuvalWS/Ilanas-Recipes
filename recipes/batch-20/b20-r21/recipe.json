@@ -1,0 +1,78 @@
+{
+  "id": "b20-r21",
+  "batch": 20,
+  "title": "סלט חמוציות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים לסלט",
+      "items": [
+        "חסה משי או חסות בשלושה צבעים חתוכות גס",
+        "3/4 כוס חמוציות מיובשות",
+        "3/4 כוס אגוזי מלך קצוצים גס",
+        "שלושה בצלים ירוקים חתוכים לרצועות",
+        "פרוסות דקות של בצל סגול"
+      ]
+    },
+    {
+      "group": "חומרים לרוטב",
+      "items": [
+        "שן שום כתושה",
+        "כף סילאן (אפשר גם שתי כפות, על־פי המתיקות הרצויה)",
+        "מלח",
+        "פלפל לבן",
+        "שליש כוס שמן אגוזים או קנולה",
+        "שליש כוס מיץ לימון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "מערבבים את כל חומרי הרוטב. יוצקים על הסלט, ממתינים עשר דקות ואוכלים. טעים ובריא מאוד (בחמוציות יש נוגדי חמצון שיסייעו למערכת החיסונית לקראת מתקפת החורף של הווירוסים)."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with a smudged ink stamp (or marker) at the top right that overlaps the title; the stamp text could not be read.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Ink stamp/marker text at the top of the clipping (unreadable)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-24.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-24.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source or publication visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

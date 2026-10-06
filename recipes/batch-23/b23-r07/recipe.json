@@ -1,0 +1,62 @@
+{
+  "id": "b23-r07",
+  "batch": 23,
+  "title": "עוגיות שומשום",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 ביצים",
+        "1/2 כוס שמן",
+        "1 1/4 כוס סוכר",
+        "300 גר' שומשום",
+        "1 כוס קמח תופח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב את החומרים יחד",
+        "למרוח את הבצק לתבנית משומנת.",
+        "לאפות עד שמזהיב להוציא מהתנור לחתוך מיד לריבועים",
+        "להכניס שוב לעשר דקות לייבוש.",
+        "להוציא מהתבנית עם סכין כשזה חם ולהכניס לקופסה"
+      ]
+    }
+  ],
+  "notes": [
+    "Applied YuvalWS’s six pending review corrections and independently checked the entire scan. The title and 300 g ingredient are sesame, not plums; the complete method is visible down to the storage instruction.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-07.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "b01-r02",
+  "batch": 1,
+  "title": "עוגיות שושנה",
+  "source": {
+    "text": "שושנה",
+    "type": "person",
+    "as_written": "שושנה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 מרגרינה",
+        "2 ביצים",
+        "1 כוס סוכר",
+        "3 כוסות קמח",
+        "1 אבקת אפיה",
+        "קנמון"
+      ]
+    },
+    {
+      "group": "left box (unclear)",
+      "items": [
+        "אפשר להוסיף",
+        "[?]",
+        "[?]",
+        "וקוקוס, או שקית",
+        "3 1/2 כוסות קמח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב [?] משטחת בתבנית",
+        "ולחתוך לריבועים לפני גמר האפיה",
+        "ולאפות עוד מספר דקות."
+      ]
+    }
+  ],
+  "notes": [
+    "The word 'עוגיות' is drawn inside a box at the top; 'שושנה' is written beside it. A bordered zig-zag decoration runs along the bottom of the card.",
+    "The left column is fenced off by a slanted line and a bottom line; its purpose is unclear (a second reading by another model interprets it as an oil-based alternative to the dough, but this could not be confirmed).",
+    "'קנמון' is spelled without yod on the card.",
+    "A short dash after '1 כוס סוכר' is treated as a line filler.",
+    "Independent Codex rereading of the full scan and enlarged crops: אפשר להוסיף, וקוקוס, או שקית, ולחתוך לריבועים, and ולאפות are visually confirmed. The loop at the left of להוסיף belongs to the handwriting; it is not treated as an ingredient quantity 8. Ambiguous optional additions remain flagged.",
+    "Owner (chat, 2026-10-06): confirmed the source of this card as recorded."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-02.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title/source",
+      "text": "עוגיות שושנה",
+      "best_guess": null,
+      "reason": "'שושנה' sits beside the boxed word 'עוגיות'; it may be part of the name (rose-shaped cookies) or a person's name (the source)."
+    },
+    {
+      "field": "ingredients[1].items[1]",
+      "text": "[?]",
+      "best_guess": "קינמון (previous reading) / שליש כוס שמן (other model)",
+      "reason": "One long word starting with what looks like ק; the letter count does not fit 'קינמון' cleanly and the other model's reading cannot be seen in the strokes."
+    },
+    {
+      "field": "ingredients[1].items[2]",
+      "text": "[?]",
+      "best_guess": "ו-1 כוס מים (other model, not confirmed)",
+      "reason": "Illegible; the first letters may be 'עוגות' but this is not reliable."
+    },
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "לערבב [?] משטחת בתבנית",
+      "best_guess": "הכל / טוב",
+      "reason": "The word immediately after לערבב remains ambiguous; משטחת בתבנית is legible in the enlarged scan."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #2 (label title-reviewed)",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner confirmed the status of each recipe in 'unsure/unreadable source'",
+      "scope": "confirmed by the owner: the source as recorded"
+    }
+  }
+}

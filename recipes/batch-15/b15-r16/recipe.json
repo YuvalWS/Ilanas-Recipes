@@ -1,0 +1,110 @@
+{
+  "id": "b15-r16",
+  "batch": 15,
+  "title": "לביבות ירק אפויות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 קישואים",
+        "2 גזרים",
+        "בצל קצוץ מטוגן",
+        "2 ביצים",
+        "5 כפות פירורי לחם",
+        "[?] שום כתוש",
+        "א' מרק",
+        "מלח, פלפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] קישואים",
+        "להכין תבנית [?] אפיה משומן, ליצור לביבות",
+        "[?] הטה, לסחוט [?] שמזהיב",
+        "להכניס לתנור שחומם [?] 15 [?]",
+        "[?] משחים [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Handwritten variant on the left half of the same card as the printed 'לביבות כרובית אפויות'; the title line reads 'לביבות ירק אפויות'. It follows the printed recipe but uses zucchini instead of cauliflower (as read). Several lines in the left column are not legible.",
+    "Split by the owner's request (issue #316): this is the handwritten recipe; the printed recipe on the right of the same card is b15-r15.",
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-17.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-17.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single",
+      "regions": [
+        {
+          "x": 0.03,
+          "y": 0.04,
+          "w": 0.6,
+          "h": 0.57
+        },
+        {
+          "x": 0.03,
+          "y": 0.61,
+          "w": 0.28,
+          "h": 0.35
+        }
+      ]
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "2 קישואים",
+      "best_guess": null,
+      "reason": "Read as 'קישואים'; the printed version uses cauliflower."
+    },
+    {
+      "field": "instructions",
+      "text": "left column",
+      "best_guess": null,
+      "reason": "Most lines only partly legible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "card": {
+    "id": "b15-card-01",
+    "kind": "other",
+    "recipes": [
+      "b15-r15",
+      "b15-r16"
+    ],
+    "position": "Left half of the card: the handwritten variant 'לביבות ירק אפויות'.",
+    "note": "One card holding two recipes: a printed recipe on the right and a handwritten variant on the left. They are separate recipes; check the other one if something looks missing."
+  },
+  "proofread": {
+    "card": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #316",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

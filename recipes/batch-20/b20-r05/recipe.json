@@ -1,0 +1,71 @@
+{
+  "id": "b20-r05",
+  "batch": 20,
+  "title": "סלט כרוב",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "כרוב קצוץ דק."
+      ]
+    },
+    {
+      "group": "רוטב",
+      "items": [
+        "4 כפות סויה",
+        "4 כפיות סוכר",
+        "4 כפות חומץ"
+      ]
+    },
+    {
+      "group": "לטגן",
+      "items": [
+        "100 גר' שומשום",
+        "100 גר' שקדים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "להוסיף רוטב שעתיים קודם.",
+        "לטגן: 100 גר׳ שומשום, 100 גר׳ שקדים.",
+        "להוסיף בסוף."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Yellow sticky note, clear handwriting. The last block ('וטגן: 100 גר' שומשום / 100 גר' שקדים / להוסיף בסוף') was read as 'and fry: sesame, almonds; add at the end' - the first word is not fully sure.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-05.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-05.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "b07-r04",
+  "batch": 7,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "עלי בייבי 2 צבעים",
+        "עלי בייבי 2 צבעים",
+        "בצל סגול פרוסות דקיקות",
+        "גזר - רצועות",
+        "פיטריות פרוסות",
+        "עגבניות שרי לקצוץ",
+        "אפשר קוביות תפו\"עץ, אגוזים"
+      ]
+    },
+    {
+      "group": "הרוטב",
+      "items": [
+        "מיץ תפוז",
+        "שמן זית",
+        "כפית שום כתוש",
+        "דבש, פילפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב: הבייבי, החסה (לקרוע)",
+        "לערבב הכל - בקופסה",
+        "ולמקרר, להוסיף לפני ההגשה"
+      ]
+    }
+  ],
+  "notes": [
+    "Dense, small, sloping, shaky handwriting (about 16 lines) on a card with a printed frame and a newspaper footer; almost nothing can be read. 'פיתות' (pita) appears in one line. Gemini read this card as a baby-leaf salad with dressing, but that list (about 12 short items, no pita) does not match the visible lines and could not be confirmed on the scan, so it was not adopted. Rescan at higher resolution or human reading needed.",
+    "Text typed by the owner (PR #246). The second line is written with two ditto marks + '2 צבעים' (expanded to 'עלי בייבי 2 צבעים'). Suggested title added by AI (not on the card).",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'סלט עלי בייבי ברוטב תפוז' (it is not written on the card)."
+  ],
+  "incidental_text": [
+    "Printed footer: a newspaper slogan in a yellow box"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-04.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "סלט עלי בייבי ברוטב תפוז",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "owner-typed text: baby leaves, vegetables, orange-juice dressing, mixed in a box and chilled",
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #246 review comments",
+      "scope": "typed by the owner"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #246 review comments",
+      "scope": "typed by the owner"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment on the source = confirmed)",
+      "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "b17-r07",
+  "batch": 17,
+  "title": "עוף צלוי עם עגבניות ופלפלים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים (4 מנות)",
+      "items": [
+        "2־3 כפות שמן זית",
+        "3 כרעיים של עוף",
+        "2 בצלים, קלופים ופרוסים דק",
+        "3־4 שיני שום, קלופות וקצוצות",
+        "3 פלפלים אדומים טריים, חתוכים לרצועות",
+        "מלח, פלפל שחור",
+        "2/3 כוס יין לבן",
+        "2/3 כוס ציר עוף (מוכן מאבקה או קובייה או מתוצרת בית)",
+        "1 קופסה (400 גרם) עגבניות מרוסקות"
+      ]
+    },
+    {
+      "group": "לגרמולטה",
+      "items": [
+        "1/2 צרור פטרוזיליה טרייה",
+        "1־3 שיני שום, קלופות",
+        "קליפה מ־1/2 לימון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "הצלי: מכינים סיר רחב או מחבת בעלת שוליים גבוהים (כזו שתוכל בסופו של דבר להכיל את העוף ואת הרוטב ביחד). מחממים את שמן הזית בסיר ומטגנים את נתחי העוף על להבה בינונית־גבוהה, עד שהם מזהיבים משני הצדדים. מוציאים את נתחי העוף לצלחת נפרדת. מוסיפים למחבת את הבצל, השום והפלפלים, ומטגנים על להבה בינונית־גבוהה כמה דקות, עד שהם מתרככים ומתבשלים. מתבלים במלח ובפלפל, מוסיפים את היין הלבן ומבשלים כמה דקות על להבה בינונית־גבוהה, עד שהוא מתאדה קצת. מוסיפים את הציר ואת העגבניות, מערבבים ומבשלים כמה דקות על להבה בינונית־גבוהה, עד שהרוטב מסמיך קצת. מחזירים את נתחי העוף, מנמיכים את הלהבה ומבשלים על להבה נמוכה כשעה, במהלכה הופכים את העוף מדי פעם ברוטב.",
+        "הגרמולטה: קוצצים את הפטרוזיליה דק ומגרדים לתוכה את קליפת הלימון ואת השום (במקום לגרד, אפשר לקצוץ את השום דק מאוד על קרש חיתוך). מערבבים וזורים את התערובת על העוף. מגישים."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with a red heading 'עוף צלוי עם עגבניות ופלפלים' and an intro paragraph about the Italian 'gremolata' ('גרמולטה היא תערובת עשבי תיבול, שום וקליפות הדרים מגורדות... מזרים את הרוטב?'). The intro is only partly transcribed in the notes: it says the chicken pieces are roasted in a pepper-and-tomato sauce, which is simple and tasty, and that the gremolata (Italian condiment) is sprinkled on top.",
+    "A pen mark crosses the clipping at the top right.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-06.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

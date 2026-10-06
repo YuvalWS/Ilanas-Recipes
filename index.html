@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>המתכונים של אילנה</title>
+<meta name="description" content="ארכיון מתכונים סרוקים של סבתא אילנה">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<noscript><link rel="stylesheet" href="assets/style.css"></noscript>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">
+    <img class="logo" src="assets/site-photo.jpg" width="144" height="96" alt="אילנה">
+    <div class="brand-text"><h1>המתכונים של אילנה</h1><p class="sub">ארכיון מתכונים סרוקים</p></div>
+  </a>
+  <p class="top-links"><a id="story-link" href="#/story">סיפור המתכונים</a></p>
+</header>
+
+<main id="app" aria-live="polite">
+  <section id="list-view">
+    <div class="search-row">
+      <input id="q" type="search" placeholder="חיפוש: שם מתכון, מרכיב, מקור, הוראות..." autocomplete="off" aria-label="חיפוש">
+    </div>
+    <div id="fav-banner" class="fav-banner" hidden></div>
+    <div class="quick">
+      <button id="t-favs" class="btn btn-toggle" type="button" aria-pressed="false"></button>
+      <button id="t-classics" class="btn btn-toggle" type="button" aria-pressed="false" hidden></button>
+      <span class="quick-tools">
+        <button id="fav-share" class="btn btn-small" type="button">שיתוף המועדפים</button>
+        <button id="fav-import" class="btn btn-small" type="button">ייבוא מועדפים</button>
+      </span>
+    </div>
+    <div class="filters">
+      <label>אוסף
+        <select id="f-batch"><option value="">הכל</option></select>
+      </label>
+      <label>סוג
+        <select id="f-medium">
+          <option value="">הכל</option>
+          <option value="handwritten">כתב יד</option>
+          <option value="clipping">גזירי עיתון</option>
+          <option value="mixed">מעורב</option>
+        </select>
+      </label>
+      <label>מקור
+        <select id="f-source"><option value="">הכל</option></select>
+      </label>
+      <label>הגהה
+        <select id="f-verify">
+          <option value="">הכל</option>
+          <option value="need">דורש הגהה אנושית</option>
+          <option value="ok">נקרא בביטחון</option>
+        </select>
+      </label>
+      <label>מיון
+        <select id="f-sort">
+          <option value="rel">רלוונטיות / סדר סריקה</option>
+          <option value="title">שם</option>
+        </select>
+      </label>
+      <button id="clear-filters" class="btn btn-clear" type="button" disabled>✕ נקו סינון</button>
+    </div>
+    <p id="count" class="count"></p>
+    <ul id="grid" class="grid"></ul>
+  </section>
+
+  <article id="detail-view" hidden></article>
+  <article id="story-view" hidden></article>
+</main>
+
+<footer class="foot">
+  <p>כל הטקסטים הם תמלול ראשוני מהסריקות. סימן <mark class="q">[?]</mark> = מילה שלא הצלחנו לקרוא. הסריקה היא המקור.</p>
+</footer>
+
+<script>
+/* Cache busting: version.json is fetched uncached (timestamp query), then the stylesheet, script and data are
+   requested with ?v=<release id>. A new release therefore always loads fresh files, even on phones. */
+(function () {
+  function boot(v) {
+    window.SITE_VERSION = v;
+    var css = document.createElement("link"); css.rel = "stylesheet"; css.href = "assets/style.css?v=" + v;
+    function js() { var s = document.createElement("script"); s.src = "assets/app.js?v=" + v; document.body.appendChild(s); }
+    css.onload = js; css.onerror = js;
+    document.head.appendChild(css);
+  }
+  fetch("version.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (o) { boot(o.v); }, function () { boot(String(Date.now())); });
+})();
+</script>
+</body>
+</html>

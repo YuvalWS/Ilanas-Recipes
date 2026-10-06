@@ -1,0 +1,125 @@
+{
+  "id": "b06-r01",
+  "batch": 6,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "ירקות ודגים (as listed in the lower half of the card)",
+      "items": [
+        "בצל",
+        "חציל",
+        "גמבה",
+        "פלפל",
+        "עגבניה",
+        "דגים"
+      ]
+    },
+    {
+      "group": "lower block",
+      "items": [
+        "1/2 כוס שמן",
+        "1 רסק",
+        "[?]",
+        "פפריקה",
+        "מלח",
+        "פלפל",
+        "סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "upper block (above the ruled line)",
+      "steps": [
+        "1 כוס מים (בסוגר: להרתיח)",
+        "1 כוס חומץ (בסוגר: להרתיח)",
+        "להרתיח ולהוסיף על הכל [?] עד חם",
+        "2–3 כפות שמן, מלח",
+        "טיפה סוכר"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is very cramped/shaky. Words that could not be confirmed are marked [?]. Recommend a human re-read (or rescan) of this card.",
+    "The card has an upper block (liquid to boil) and, below a ruled line, a list of vegetables and fish followed by seasonings; it has no visible title. It looks like a fish-with-vegetables dish, but that is an impression only.",
+    "ditto marks expanded: the second line of the upper block begins with a ditto mark under 'כוס' (read as 1 כוס).",
+    "Gemini's second opinion was largely rejected for this card: its ingredient list (גזר, שמיר, פטרוזיליה, ביצים, סלק, 'פלפל שחור'), '1 כפית של מלח', '1/2 כוס סוכר' and its title are not on the card (the card says 'טיפה סוכר').",
+    "Suggested title 'דג עם ירקות כבושים בחומץ' added by AI on 2026-10-06 (not on the card; basis: vinegar and water boiled over onion, eggplant, pepper, tomato and fish (weak guess)). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'דג עם ירקות כבושים בחומץ' (it is not written on the card)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-01.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "1 כוס [?]",
+      "best_guess": "Gemini: שמן; earlier reading: unreadable; ink looks more like חומץ (ח-ו-מ-ץ) than שמן",
+      "reason": "Second liquid of the boiling mixture, after a ditto mark for 'כוס'; word is unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "הכל [?] עד חם",
+      "best_guess": "Gemini: בצדה עד חם; earlier reading: unreadable",
+      "reason": "Word after 'הכל' is distorted; 'עד/עוד חם' also uncertain."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] כפות שמן",
+      "best_guess": "earlier reading: 2; Gemini did not read this line",
+      "reason": "Quantity digit is ambiguous."
+    },
+    {
+      "field": "ingredients",
+      "text": "1 רסק, [?]",
+      "best_guess": "Gemini: רסק עגבניות; the word after the comma starts with מ and does not look like עגבניות",
+      "reason": "Word after 'רסק' is unreadable."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No readable heading; the owner verified the card has no (readable) title."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  },
+  "assigned_title": "דג עם ירקות כבושים בחומץ",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "vinegar and water boiled over onion, eggplant, pepper, tomato and fish (weak guess)"
+}

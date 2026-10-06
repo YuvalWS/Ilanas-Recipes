@@ -1,0 +1,60 @@
+{
+  "id": "b07-r02",
+  "batch": 7,
+  "title": "רוטב",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/4 כוס שמן",
+        "1/4 כוס מיץ לימון",
+        "1 כף דבש",
+        "1 כפית חרדל",
+        "מלח, פילפל שחור"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Underlined title 'רוטב' (dressing). Below it a line that appears to name the salad it goes with: 'סלט + [?]' (second part not clearly readable; see uncertainties).",
+    "ditto marks expanded: in the second quantity line a ditto mark stands for 'כוס' (1/4 cup lemon juice).",
+    "A pink stain is on the lower left corner.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-02.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "notes",
+      "text": "line under the title: 'סלט + [?]'",
+      "best_guess": "Gemini: גרגרי/גרעיני רימון (pomegranate seeds); earlier reading: '... לימון'. On the zoomed crop the middle word looks like 'גרגרי' and the last word's first letter has a tall ascender like the ל of 'לימון' two lines below, so it may be 'גרגרי לימון' rather than 'רימון'; not confirmed.",
+      "reason": "Handwriting of the last two words is ambiguous (ר vs ל)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

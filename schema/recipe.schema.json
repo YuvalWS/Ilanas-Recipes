@@ -1,0 +1,461 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YuvalWS/Ilanas-Recipes/schema/recipe.schema.json",
+  "title": "Ilana's recipe",
+  "description": "One digitized recipe. Text is transcribed exactly as written; '[?]' marks an unreadable word or number and is always explained in `uncertainties`. Nothing is invented: absent fields are null or empty lists.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "batch",
+    "title",
+    "source",
+    "medium",
+    "ingredients",
+    "instructions",
+    "notes",
+    "incidental_text",
+    "raw_files",
+    "needs_human_verification",
+    "confidence",
+    "uncertainties",
+    "transcription"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^b[0-9]{2}-r[0-9]{2,3}$",
+      "description": "bNN-rMM: batch number and recipe order inside the batch."
+    },
+    "batch": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Title as written, or null when the card has none."
+    },
+    "assigned_title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Optional editorial name chosen for browsing and search, not a transcription of the original heading. Keep title null for an untitled card. Omit or use null until a name is assigned."
+    },
+    "source": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "type"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Who/what the recipe came from, normalized from `as_written`."
+        },
+        "type": {
+          "enum": [
+            "person",
+            "publication",
+            "company",
+            "unknown"
+          ]
+        },
+        "as_written": {
+          "type": "string",
+          "description": "The source line exactly as it appears."
+        },
+        "uncertain": {
+          "type": "boolean"
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "chef",
+            null
+          ],
+          "description": "Optional. 'chef' = the source is a chef (a person, but a public/professional source rather than a personal contact); the website lists chefs with the publication writers, not with personal contacts."
+        },
+        "names": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Optional. When one source line names several people (e.g. 'חיה (מאירה)'), list each name here; the website filter then lists the recipe under every name. `text` stays the line as normalized for display."
+        }
+      }
+    },
+    "medium": {
+      "enum": [
+        "handwritten",
+        "clipping",
+        "printed",
+        "mixed"
+      ],
+      "description": "handwritten | clipping (newspaper/magazine clippings AND other printed pages; shown as 'גזירי עיתון') | mixed. 'printed' is deprecated and treated as clipping by the site; do not use it for new recipes."
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ingredientGroup"
+      }
+    },
+    "instructions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/instructionGroup"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Additional notes written on the card (and short digitization remarks, in English)."
+    },
+    "incidental_text": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Text/logos on the page that are not part of the recipe (company logos, page numbers, ads)."
+    },
+    "raw_files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "file",
+          "original_path",
+          "rotation_applied_cw_degrees",
+          "side"
+        ],
+        "properties": {
+          "file": {
+            "type": "string",
+            "pattern": "^raw/",
+            "description": "Path of the (rotated if needed) scan relative to the recipe folder."
+          },
+          "original_path": {
+            "type": "string",
+            "description": "Where the unrotated scan came from."
+          },
+          "rotation_applied_cw_degrees": {
+            "enum": [
+              0,
+              90,
+              180,
+              270
+            ]
+          },
+          "side": {
+            "enum": [
+              "single",
+              "front",
+              "back",
+              "unknown"
+            ]
+          },
+          "regions": {
+            "type": "array",
+            "description": "Optional frames marking where this recipe is on the scan when the sheet/clipping holds several recipes. Fractions (0-1) of the stored scan's width/height.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "x",
+                "y",
+                "w",
+                "h"
+              ],
+              "properties": {
+                "x": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "w": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "h": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "needs_human_verification": {
+      "type": "boolean"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "field",
+          "reason"
+        ],
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The text as transcribed."
+          },
+          "best_guess": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "A guess, kept OUT of the main text; never treated as fact."
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "transcription": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "date",
+        "human_verified"
+      ],
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "human_verified": {
+          "type": "boolean"
+        },
+        "verified_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "card": {
+      "description": "Set when one physical item (a handwritten note, a newspaper page...) holds several recipes. Every recipe on the item has its own recipe.json with the SAME `card.id` and the SAME `card.recipes` list (all ids on the item, including itself), so a reader can always find the neighbouring recipes. `position` says where on the item this recipe is.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "recipes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "e.g. b08-card-01"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "handwritten_note",
+            "clipping",
+            "printed_sheet",
+            "other"
+          ]
+        },
+        "recipes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^b\\d+-r\\d+$"
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "position": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "where on the item this recipe is (side, column, order)"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "assigned_title_status": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "owner_suggested",
+        "ai_suggested",
+        "owner_approved",
+        null
+      ],
+      "description": "Who proposed `assigned_title` and whether the owner approved it. 'ai_suggested' = a suggestion made by an AI from the card's content (never shown as the original heading); 'owner_suggested' = the owner's own suggestion; 'owner_approved' = the owner confirmed the name. Only meaningful when assigned_title is set."
+    },
+    "assigned_title_basis": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "One short English line: why this assigned title was suggested (e.g. 'from the ingredient list: chicken, teriyaki, onion')."
+    },
+    "proofread": {
+      "description": "Per-field human proofreading record. A key is present only for a field a human (normally the owner) has checked or corrected against the scan; the value says who, when and via what. Absence of a field means it is still unproofread AI text. Every manual correction MUST set the corrected field here, even if only one line of the field was touched (put what was checked in `scope`).",
+      "type": [
+        "object",
+        "null"
+      ],
+      "propertyNames": {
+        "enum": [
+          "title",
+          "assigned_title",
+          "source",
+          "medium",
+          "ingredients",
+          "instructions",
+          "notes",
+          "incidental_text",
+          "raw_files",
+          "card"
+        ]
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "by",
+          "date"
+        ],
+        "properties": {
+          "by": {
+            "type": "string",
+            "description": "e.g. 'Yuval (owner)'"
+          },
+          "date": {
+            "type": "string",
+            "description": "YYYY-MM-DD"
+          },
+          "via": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "where the correction came from, e.g. 'PR #274 review comments', 'issue #322', 'chat'"
+          },
+          "scope": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "what exactly was checked when it is not the whole field, e.g. 'first ingredient only', 'confirmed untitled'"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "ingredientGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "group",
+        "items"
+      ],
+      "properties": {
+        "group": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "instructionGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "group",
+        "steps"
+      ],
+      "properties": {
+        "group": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

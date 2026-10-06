@@ -1,0 +1,72 @@
+{
+  "id": "b22-r08",
+  "batch": 22,
+  "title": "עוגת גבינה קלאסית",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לשימון התבנית",
+      "items": [
+        "תרסיס שמן"
+      ]
+    },
+    {
+      "group": "לבסיס",
+      "items": [
+        "150 גרם ביסקוויטים טחונים לפירורים",
+        "100 גרם חמאה מומסת"
+      ]
+    },
+    {
+      "group": "לעוגה",
+      "items": [
+        "4 ביצים",
+        "2 גביעי (500 גרם) גבינה לבנה 9% (אפשר גם 5%)",
+        "2 גביעי (400 גרם) שמנת חמוצה 15%",
+        "1 כוס (200 גרם) סוכר",
+        "1 כפית תמצית וניל אמיתית",
+        "1 כף קורנפלור"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping, cut off at the bottom: only the introduction and the ingredient list are present; the method is not on this scan. Printed intro: 'בלי הפרדת ביצים ובלי הקצפות - עוגת גבינה אפויה, קלה להכנה שתמיד עושה את העבודה. מכינים את העוגה יום מראש.' Printed heading before the list: 'החומרים לתבנית קפיצית בקוטר 24 ס\"מ'.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-07.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "The clipping ends before the method."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Original scan folders and loose scans (the rotated copies live under recipes/*/raw/)
+/Batch */
+/Scanned_*.jpg
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# owner's original site photo (a resized copy lives in assets/site-photo.jpg)
+/EM2_0367.jpg

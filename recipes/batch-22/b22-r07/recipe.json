@@ -1,0 +1,74 @@
+{
+  "id": "b22-r07",
+  "batch": 22,
+  "title": "מעדיפים מלית מופחתת קלוריות?",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "(extracted from the steps; no separate list)",
+      "items": [
+        "3 חלבונים",
+        "3/4 כוס תחליף סוכר \"כמו-סוכר\" (או 3/4 כוס סוכר רגיל)",
+        "500 גרם גבינה לבנה 1/2 אחוז שומן (אפשר גם 5 אחוזים)",
+        "גביע שמנת חמוצה 9 אחוזים",
+        "2 כפות קורנפלור",
+        "כפית תמצית וניל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מקציפים בקערה 3 חלבונים עד שהם מקבלים מרקם של קצף אמבט, ומזרזפים פנימה בהדרגה 3/4 כוס תחליף סוכר \"כמו-סוכר\" (או 3/4 כוס סוכר רגיל). ממשיכים להקציף עד שנוצר קצף יציב, אך לא יציב מדי (כמו גבעות רכות).",
+        "מעבירים את הקצף לקערה אחרת. שמים בקערת ההקצפה (אין צורך לשטוף אותה) 500 גרם גבינה לבנה 1/2 אחוז שומן (אפשר גם להתפרע עם 5 אחוזים), גביע שמנת חמוצה 9 אחוזים, 2 כפות קורנפלור וכפית תמצית וניל. מקציפים היטב עד שנוצרת תערובת אחידה, סמיכה מעט וללא גושים.",
+        "מקפלים את קצף הביצים לתוך תערובת הגבינה ומוזגים לתבנית עם הבצק. אסור לוותר על שכבת הבצק כדי לחסוך קלוריות, כי יש לה תפקיד חשוב בספיגת הנוזלים של המלית - בלעדיה המלית לא מתייצבת. מצננים לפחות 12 שעות לפני ההגשה."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping about a reduced-calorie cheesecake filling (the dough layer is described elsewhere). Fully legible; copied as printed, including the odd words noted below.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-06.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "instructions[0].steps[0]",
+      "text": "ומזרזפים",
+      "best_guess": "ומזרימים",
+      "reason": "Word looks unusual in print (possibly 'ומזרימים'); copied as read."
+    },
+    {
+      "field": "instructions[0].steps[2]",
+      "text": "המילית / המלית",
+      "best_guess": null,
+      "reason": "Both spellings appear in the print (read as 'המלית' in the last sentence); copied as read."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

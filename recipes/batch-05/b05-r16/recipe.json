@@ -1,0 +1,62 @@
+{
+  "id": "b05-r16",
+  "batch": 5,
+  "title": "אורז עם אטריות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "3 כפות שמן זית",
+        "1 1/2 כוסות אורז בסמטי, מושרה ל־10 דקות ושטוף היטב",
+        "1 כוס אטריות ביצים",
+        "3 1/2 כוסות מים רותחים",
+        "2 כפיות שטוחות מלח",
+        "1/4 כפית כורכום"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מחממים את שמן הזית בסיר. מוסיפים את האורז וקולים אותו כ־3 דקות. מערבבים כל הזמן עם כף עץ.",
+        "מוסיפים את האטריות ויוצקים את המים הרותחים. מוסיפים מלח וטועמים את מי הבישול. הם צריכים להרגיש מלוחים מדי.",
+        "מוסיפים את הכורכום, מביאים לרתיחה ומנמיכים להבה. מכסים ומבשלים 20 דקות. מסירים את המכסה ומכסים במגבת בד נקייה לעוד 10 דקות.",
+        "מערבבים בתנועות עדינות עם מזלג."
+      ]
+    }
+  ],
+  "notes": [
+    "Second recipe on the same newspaper strip as the previous recipe (side dish for the meatballs).",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-15.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

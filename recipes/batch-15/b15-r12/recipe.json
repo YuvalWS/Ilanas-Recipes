@@ -1,0 +1,113 @@
+{
+  "id": "b15-r12",
+  "batch": 15,
+  "title": "פשטידת ברוקולי וגבינה",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "800 גר׳ ברוקולי קפוא מופשר ומסונן (2 חבילות)",
+        "30 גר' חמאה מומסת",
+        "1 קוטג'",
+        "4 ביצים טרופות",
+        "3 כפות קמח תופח",
+        "1/4 כפית אגוז מוסקט מגורר",
+        "מלח ופלפל לפי הטעם",
+        "1 [?] שמן זית [?]"
+      ]
+    },
+    {
+      "group": "רוטב (back)",
+      "items": [
+        "1 [?] שום טחון [?] לתיבול",
+        "[?]",
+        "25 גר' חמאה",
+        "3/4 כוס שמנת לקצפת",
+        "3/4 כוס [חלב?]",
+        "[?] מוסקט, מלח ופלפל לפי הטעם"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] ירקות? [?] פשטידה",
+        "מאפיית? המחבת? [?] בעיר? קטן",
+        "(last lines at the bottom edge of the back are crowded and unreadable)"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Square card written on both sides. The front has the title 'פשטידת ברוקולי וגבינה' with a wavy underline and a first group of ingredients; the first number before 'גר'' has loops (200 or 800?). The back continues the list with a second group (likely a white sauce: butter, flour, milk, nutmeg), then a wavy line and instructions that are crowded at the bottom edge and cannot be read.",
+    "The 'רוטב' label is my reading of the group of lines (butter, flour, ...). It is not written on the card.",
+    "Which side is the front is assumed from the title.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-12.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-12.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2217-13.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-13.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "[200/800?] גר' ברוקולי",
+      "best_guess": null,
+      "reason": "The number is unclear; the note '2 חבילות' suggests 2 packs."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "3 כפות קמח [תופח?]",
+      "best_guess": null,
+      "reason": "Word after 'קמח' unclear."
+    },
+    {
+      "field": "ingredients[5]",
+      "text": "1/4 כפית אגוז מוסקט [שגור?]",
+      "best_guess": null,
+      "reason": "Last word unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "back, last lines",
+      "best_guess": null,
+      "reason": "Instructions at the bottom of the back are illegible."
+    },
+    {
+      "field": "raw_files",
+      "text": "2217-12/13",
+      "best_guess": null,
+      "reason": "Assumed to be the two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

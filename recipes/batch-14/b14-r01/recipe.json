@@ -1,0 +1,138 @@
+{
+  "id": "b14-r01",
+  "batch": 14,
+  "title": "[?]",
+  "source": {
+    "text": "אביה",
+    "type": "person",
+    "as_written": "אביה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 קמח אוסם קטן",
+        "2/3 כוס שמן",
+        "1 לבן 3%"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב לבן במיקסר",
+        "[?] [?] [?] [?]",
+        "[?] קמח",
+        "[?] [?] [?]",
+        "1/2 קופסה ממרח תמרים לפזר",
+        "[?] כוס מים [?] [?] [?]",
+        "[?] [?] [?]",
+        "(side 2) להניח על [?]",
+        "(side 2) [?] במגש [?]",
+        "(side 2) בחלבון של ביצה",
+        "(side 2) ולפזר קינמון",
+        "(side 2) [?] [?] [?] 40-45 דקות, לא יותר",
+        "(side 2) [?] [?] [?]",
+        "(side 2) אחרי שמתקרר לחתוך ל-10 פרוסות",
+        "(side 2) 1 פרוסה = 100 קל'",
+        "(side 2) 1 פרוסה = [?] קל'",
+        "(side 2) 1 מרגרינה = 2/3 כוס שמן"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Two sides of one stained card (side 2 is assumed to continue side 1: it is the same pen and style). The title and source line at the top of side 1 is partly covered by a torn edge: it reads '[?] / אביה'. A fourth ingredient 'כפות חומץ' (2 tablespoons vinegar) is crossed out with a line. A 'שמן' line is preceded by a struck-out word. Faint writing from the other side bleeds through everywhere.",
+    "The recipe looks like a rolled pastry with date paste ('ממרח תמרים') and cinnamon, cut into 10 slices, with calories per slice noted - this is an interpretation, not stated on the card.",
+    "The last line of side 2 ('1 מרגרינה = 2/3 כוס שמן') is a substitution note: 1 [packet?] of margarine equals 2/3 cup oil (the first word is struck through).",
+    "Owner: the heading is torn; 'probably עוגת גבינה' (kept as assigned_title, not as the transcribed title).",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוגת גבינה' (it is not written on the card)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2213-01.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2213-02.jpg",
+      "original_path": "Batch 14/Scanned_20261004-2213-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "[?] (top right of side 1)",
+      "best_guess": null,
+      "reason": "Word hidden by a torn edge and stains."
+    },
+    {
+      "field": "ingredients[0]",
+      "text": "1 [?] קמח אוסם קטן",
+      "best_guess": null,
+      "reason": "Unit unclear; 'אוסם קטן' probably refers to a small pack of Osem flour (not certain)."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "1 לבן 3%",
+      "best_guess": null,
+      "reason": "Read as 'לבן' (leben/yoghurt) 3% - the first instruction says 'לערבב לבן במיקסר'."
+    },
+    {
+      "field": "instructions",
+      "text": "side 1, lines 2-7",
+      "best_guess": null,
+      "reason": "Most of the line is not legible (stains, narrow shaky script)."
+    },
+    {
+      "field": "instructions",
+      "text": "side 2, lines 1-5 and 12",
+      "best_guess": null,
+      "reason": "Only fragments legible."
+    },
+    {
+      "field": "instructions",
+      "text": "1 פרוסה = [?] קל'",
+      "best_guess": null,
+      "reason": "Second calorie figure unclear (maybe 80)."
+    },
+    {
+      "field": "raw_files",
+      "text": "01/02",
+      "best_guess": null,
+      "reason": "Side order assumed (01 front, 02 back)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "עוגת גבינה",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "Owner: probably a cheese cake; the heading is torn off the note.",
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #82 review comments",
+      "scope": "heading torn off; owner's guess recorded as assigned_title"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "b06-r13",
+  "batch": 6,
+  "title": "מושט",
+  "source": {
+    "text": "מירי",
+    "type": "person",
+    "as_written": "מירי",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "יין לבן",
+        "מיץ לימון",
+        "מעט מלח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "יין לבן ומיץ לימון (סוגר מסולסל משותף): לערבב",
+        "לשמן בתבנית",
+        "לסדר פרוסות [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Yellow memo card with a construction-company letterhead (Zelinger). The heading is written 'מושט / מיקי': dish name before the slash, name after it taken as the source.",
+    "The curly bracket joins wine and lemon juice, with the word 'לערבב' beside it (reading is cramped but consistent with the ink).",
+    "Very cramped, shaky handwriting; the last two lines are partly legible only.",
+    "Source reading corrected by the owner on 2026-10-06: מירי (earlier AI reading: מיקי)."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company (logo, address line, phone/fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-14.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-14.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "לסדר פרוסות [?]",
+      "best_guess": "Gemini: לסדר פרוסות הדג; last word not clearly legible",
+      "reason": "Last line is cramped; first words look like 'לסדר פרוסות', final word cannot be confirmed."
+    },
+    {
+      "field": "instructions",
+      "text": "לשמן בתבנית",
+      "best_guess": "Gemini: שמן בתבנית (without initial ל)",
+      "reason": "A leading ל appears before 'שמן'; Gemini omitted it."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (מיקי -> מירי)",
+      "scope": null
+    }
+  }
+}

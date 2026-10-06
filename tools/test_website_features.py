@@ -1,0 +1,368 @@
+#!/usr/bin/env python3
+"""Browser checks for site features (complements tools/test_website.py). Requires Playwright; see README.md.
+
+Covers: filter setup with recipes that have no source (regression: empty source list, dead filters),
+always-visible clear-filters button, source.names, chef grouping, proofread badges, suggested titles,
+recipe-page layout (share icon in the title row, report button under the transcription, collapsed notes,
+no rotation note), card interlinks, header photo, favicon and wording.
+"""
+import copy
+import functools
+import json
+import os
+import threading
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
+
+from playwright.sync_api import expect, sync_playwright
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+class QuietHandler(SimpleHTTPRequestHandler):
+    def log_message(self, *args):
+        pass
+
+
+def new_fixture_page(browser, base, fixture, errors):
+    context = browser.new_context()
+    context.route("**/data/recipes.json*", lambda route: route.fulfill(json=fixture))
+    context.route("**/data/classics.json*", lambda route: route.fulfill(json={"ids": fixture.get("_classics", [])}))
+    page = context.new_page()
+    page.on("pageerror", lambda error: errors.append(str(error)))
+    page.goto(base)
+    page.wait_for_function("document.querySelectorAll('#grid .card').length > 0 || document.querySelector('#grid .empty')")
+    return context, page
+
+
+def make_fixture(data):
+    """Four controlled recipes taken from real ones (so scans and thumbnails exist)."""
+    fixture = copy.deepcopy(data)
+    fixture["recipes"] = copy.deepcopy([r for r in data["recipes"] if r["raw_files"]][:4])
+    a, b, c, d = fixture["recipes"]
+    for r in (a, b, c, d):
+        r.pop("card", None)
+        r.pop("proofread", None)
+        r.pop("assigned_title", None)
+        r.pop("assigned_title_status", None)
+    # a: no source at all (the case that once broke the whole filter bar)
+    a.update(title="מתכון בלי מקור", source=None, medium="handwritten")
+    # (b and c get uncertain sources below to exercise the "unsure" statuses)
+    # b: one source line naming two people + proofread fields + a note and a rotated scan
+    b.update(title="מתכון עם שני שמות", medium="handwritten", needs_human_verification=True,
+             source={"text": "דנה (רונית)", "names": ["דנה", "רונית"], "type": "person", "as_written": "דנה (רונית)", "uncertain": False},
+             notes=["הערת בדיקה אחת", "הערת בדיקה שנייה"],
+             ingredients=[{"group": None, "items": ["כוס קמח אוסם", "2 ביצים"]}],
+             proofread={"title": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": None},
+                        "source": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": "השם הראשון בלבד"},
+                        "ingredients": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": None}})
+    b["raw_files"][0]["rotation_applied_cw_degrees"] = 180
+    # c: a chef (a person, listed with the publication writers) + AI-suggested title
+    c.update(title=None, assigned_title="שם מוצע לבדיקה", assigned_title_status="ai_suggested", medium="handwritten",
+             source={"text": "שף בדיקה", "type": "person", "as_written": "שף בדיקה", "uncertain": False, "role": "chef"})
+    b["source"]["uncertain"] = True           # has proofread.source below -> "unsure, checked"
+    c["source"]["uncertain"] = True           # no proofread.source -> "unsure, not yet checked"
+    # d: one of two recipes on the same note
+    d.update(title="מתכון שני על אותו פתק", medium="handwritten", source=None,
+             proofread={"source": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": "confirmed: no source on the card"}})
+    # a and d are two recipes on one scan: each gets a frame (fractions of the scan)
+    d["raw_files"][0]["original_path"] = a["raw_files"][0]["original_path"]
+    a["raw_files"][0]["regions"] = [{"x": 0.05, "y": 0.05, "w": 0.4, "h": 0.3}, {"x": 0.05, "y": 0.4, "w": 0.4, "h": 0.1}]
+    d["raw_files"][0]["regions"] = [{"x": 0.5, "y": 0.1, "w": 0.45, "h": 0.6}]
+    a["card"] = {"id": "t-card-1", "kind": "handwritten_note", "recipes": [a["id"], d["id"]], "position": "למעלה", "note": None}
+    d["card"] = {"id": "t-card-1", "kind": "handwritten_note", "recipes": [a["id"], d["id"]], "position": "למטה", "note": None}
+    return fixture, a, b, c, d
+
+
+def run(browser, base):
+    errors = []
+    data = json.loads((ROOT / "data/recipes.json").read_text(encoding="utf-8"))
+
+    # ---- real data: the filter bar must work even though many recipes have no source ----
+    page = browser.new_page()
+    page.on("pageerror", lambda error: errors.append(str(error)))
+    page.goto(base)
+    expect(page.locator("#grid .card")).to_have_count(len(data["recipes"]))
+    assert any(r["source"] is None for r in data["recipes"]), "real data should contain recipes without a source"
+    assert page.locator("#f-source option").count() > 5, "source list is empty"
+    page.locator("#q").fill(data["recipes"][0]["title"] or "x")
+    page.locator("#q").fill("")
+    expect(page.locator("#grid .card")).to_have_count(len(data["recipes"]))
+    assert not errors, errors
+    print("PASS: real data (recipes without a source): filters set up, source list filled, no page errors")
+
+    # ---- cache busting: every release is requested under a new URL (no cache clearing needed on phones) ----
+    ctx = browser.new_context()
+    ctx.route("**/version.json*", lambda route: route.fulfill(json={"v": "zz9test"}))
+    cp = ctx.new_page()
+    seen = []
+    cp.on("request", lambda req: seen.append(req.url))
+    cp.goto(base)
+    expect(cp.locator("#grid .card")).to_have_count(len(data["recipes"]))
+    for part in ("assets/style.css?v=zz9test", "assets/app.js?v=zz9test", "data/recipes.json?v=zz9test"):
+        assert any(part in u for u in seen), (part, [u for u in seen if "assets" in u or "data" in u][:6])
+    assert any("version.json?t=" in u for u in seen), "version.json must be fetched with a timestamp query"
+    assert cp.locator("#grid .card img").first.get_attribute("src").find("thumb.jpg?v=") > 0, "thumbnails need a content-hash version"
+    ctx.close()
+    # a missing version.json must not break the site (falls back to a timestamp)
+    ctx = browser.new_context()
+    ctx.route("**/version.json*", lambda route: route.fulfill(status=404, body="nope"))
+    cp = ctx.new_page()
+    cp.goto(base)
+    expect(cp.locator("#grid .card")).to_have_count(len(data["recipes"]))
+    ctx.close()
+    print("PASS: cache busting (version.json -> versioned css/js/data URLs, hashed thumbnails, safe fallback)")
+
+    # header, wording, favicon
+    expect(page.locator(".sub")).to_have_text("ארכיון מתכונים סרוקים")
+    assert "עיון וחיפוש" not in page.locator("body").inner_text()
+    assert "אצווה" not in page.locator("body").inner_text()
+    assert "אוסף" in page.locator(".filters").inner_text()
+    page.wait_for_function("document.querySelector('img.logo').complete && document.querySelector('img.logo').naturalWidth > 0")
+    assert page.locator("link[rel=icon]").get_attribute("href").endswith(".png")
+    assert page.request.get(base + page.locator("link[rel=icon]").get_attribute("href")).ok
+    assert page.locator(".card .tag").first.inner_text().startswith("אוסף ")
+    print("PASS: header photo, subtitle, favicon, אוסף wording and batch name on thumbnails")
+
+    # ---- medium filter: "מודפס" merged into "גזירי עיתון" ----
+    assert page.locator("#f-medium option").evaluate_all("o => o.map(x => x.value)") == ["", "handwritten", "clipping", "mixed"]
+    assert page.locator("#f-medium option[value=clipping]").inner_text() == "גזירי עיתון"
+    assert "מודפס" not in page.locator("#f-medium").inner_text()
+    n_clip = sum(1 for r in data["recipes"] if r["medium"] in ("clipping", "printed"))
+    page.goto(base + "?medium=printed")                                    # old shared link
+    expect(page.locator("#f-medium")).to_have_value("clipping")
+    expect(page.locator("#grid .card")).to_have_count(n_clip)
+    page.goto(base)
+    print("PASS: medium filter: 'גזירי עיתון' replaces 'מודפס' (old ?medium=printed links still work)")
+
+    # ---- clear-filters button: always visible, disabled when idle ----
+    clear = page.locator("#clear-filters")
+    expect(clear).to_be_visible()
+    expect(clear).to_be_disabled()
+    page.locator("#f-medium").select_option("clipping")
+    expect(clear).to_be_enabled()
+    page.locator("#q").fill("משהו")
+    clear.click()
+    expect(clear).to_be_disabled()
+    for selector, value in {"#q": "", "#f-batch": "", "#f-medium": "", "#f-source": "", "#f-verify": "", "#f-sort": "rel"}.items():
+        expect(page.locator(selector)).to_have_value(value)
+    expect(page.locator("#grid .card")).to_have_count(len(data["recipes"]))
+    assert "?" not in page.url, page.url
+    print("PASS: clear-filters button visible, enabled only with active filters, resets controls and URL")
+    page.close()
+
+    # ---- fixtures ----
+    fixture, a, b, c, d = make_fixture(data)
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    expect(page.locator("#grid .card")).to_have_count(4)
+    groups = page.locator("#f-source optgroup").evaluate_all(
+        "gs => gs.map(g => [g.label, [...g.querySelectorAll('option')].map(o => o.value)])")
+    status = dict(groups)["מצב המקור"]
+    assert status == ["status:none-confirmed", "status:none-unchecked", "status:unsure-checked", "status:unsure"], status
+    page.locator("#f-source").select_option("status:unsure-checked")
+    assert page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)") == [f"#/{b['id']}"]
+    page.locator("#f-source").select_option("status:unsure")
+    assert page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)") == [f"#/{c['id']}"]
+    page.locator("#f-source").select_option("status:none-confirmed")          # no source, confirmed by the owner
+    assert [h for h in page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)")] == [f"#/{d['id']}"]
+    page.locator("#f-source").select_option("status:none-unchecked")          # no source recorded, not yet checked
+    assert page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)") == [f"#/{a['id']}"]
+    page.locator("#f-source").select_option("")
+    expect(page.locator("#grid .card")).to_have_count(4)
+    people = dict(groups)["אנשים"]
+    pubs = dict(groups)["שפים, כותבים ומקורות בפרסומים"]
+    assert "person:דנה" in people and "person:רונית" in people, groups      # source.names: listed under each name
+    assert "person:דנה (רונית)" not in people, groups
+    assert "publication:שף בדיקה" in pubs and "person:שף בדיקה" not in people, groups   # chef -> with the publication writers
+    for name in ("person:דנה", "person:רונית"):
+        page.locator("#f-source").select_option(name)
+        expect(page.locator("#grid .card")).to_have_count(1)
+        assert page.locator("#grid .card a").get_attribute("href") == f"#/{b['id']}"
+    page.locator("#f-source").select_option("publication:שף בדיקה")
+    assert page.locator("#grid .card a").get_attribute("href") == f"#/{c['id']}"
+    page.locator("#f-source").select_option("")
+    print("PASS: source.names filter under each name; chef grouped with publication writers; no-source recipes tolerated")
+
+    # a legacy "printed" recipe counts as a newspaper clipping (filter, label, legal notice)
+    d["medium"] = "printed"
+    context.close()
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    expect(page.locator("#grid .card")).to_have_count(4)            # wait until the app has finished loading
+    page.locator("#f-medium").select_option("clipping")
+    assert d["id"] in page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash.slice(2))")
+    page.locator(f'#grid a[href="#/{d["id"]}"]').click()
+    expect(page.locator(".legal")).to_be_visible()
+    expect(page.locator(".text .meta")).to_contain_text("גזיר עיתון")
+    d["medium"] = "handwritten"
+    context.close()
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    # list tags: proofread, suggested title, same-note
+    expect(page.locator(f'#grid a[href="#/{b["id"]}"] .tag.ok')).to_contain_text("הוגה: כותרת, מקור, מרכיבים")
+    expect(page.locator(f'#grid a[href="#/{a["id"]}"] .tags')).to_contain_text("1 מתוך 2 באותו פתק")
+
+    # ---- recipe page layout (recipe b) ----
+    page.locator(f'#grid a[href="#/{b["id"]}"]').click()
+    h2 = page.locator("#detail-view h2")
+    expect(h2).to_have_text(b["title"])                                   # badge must not pollute the heading
+    expect(page.locator(".titlewrap .pf")).to_have_count(1)
+    expect(page.locator("#detail-view .pf")).to_have_count(3)             # title, source, ingredients (instructions not proofread)
+    assert "הוגה על ידי Yuval (owner)" in page.locator(".titlewrap .pf").get_attribute("title")
+    expect(page.locator(".banner.ok")).to_contain_text("חלקים שהוגהו בידי אדם")
+    expect(page.locator(".banner.ok")).to_contain_text("השם הראשון בלבד")
+    share = page.locator(".titlebar .sharebox > button")
+    expect(share).to_be_visible()
+    expect(share.locator("svg.share-icon")).to_have_count(1)
+    assert "↗" not in share.inner_text()
+    hb, sb = h2.bounding_box(), share.bounding_box()
+    assert sb["x"] + sb["width"] <= hb["x"] + 1 or sb["x"] < hb["x"], ("share must be on the opposite (left) side of the title", hb, sb)
+    # report button directly under the transcription, before the notes
+    order = page.locator(".text").evaluate("t => [...t.children].map(e => e.tagName + '.' + e.className)")
+    ri = next(i for i, x in enumerate(order) if x.startswith("DIV.actions"))
+    ni = next(i for i, x in enumerate(order) if x.startswith("DETAILS.notes"))
+    assert ri < ni and order[ri - 1].split(".")[0] in ("OL", "UL", "H4", "P"), order
+    expect(page.locator("details.notes")).not_to_have_attribute("open", "")
+    assert page.locator("details.notes").evaluate("d => d.open") is False
+    page.locator("details.notes summary").click()
+    assert page.locator("details.notes").evaluate("d => d.open") is True
+    assert "סובבה" not in page.locator("#detail-view").inner_text()        # no "rotated by..." note
+    assert not page.locator("figcaption").all_text_contents() or all("°" not in t for t in page.locator("figcaption").all_text_contents())
+    # share menu fallback (no navigator.share in headless Chromium here)
+    share.click()
+    expect(page.locator(".share-menu")).to_be_visible()
+    print("PASS: recipe page: proofread badges per field, share icon in the title row, report under the transcription, collapsed notes, no rotation note")
+
+    # no suggested-title filter any more; the warning is a small icon next to the title
+    page.locator(".back a").click()
+    expect(page.locator("#t-suggested")).to_have_count(0)
+    expect(page.locator("#grid .title-warn")).to_have_count(1)                 # only the recipe whose title is not on the card
+    expect(page.locator(f'#grid a[href="#/{c["id"]}"] h3 .title-warn')).to_have_count(1)
+    expect(page.locator(f'#grid a[href="#/{c["id"]}"] h3')).to_have_text("שם מוצע לבדיקה")
+    expect(page.locator("#grid .tag", has_text="כותרת מוצעת")).to_have_count(0)
+    icon = page.locator(f'#grid a[href="#/{c["id"]}"] h3 .title-warn')
+    icon.hover()
+    expect(page.locator("#hint-pop")).to_contain_text("טרם אושרה")
+    page.locator("#q").hover()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    icon.click()                                                              # tap: tooltip, the recipe does not open
+    expect(page.locator("#hint-pop")).to_contain_text("אינה כתובה על הפתק")
+    assert "#/b" not in page.url and page.locator("#list-view").is_visible(), page.url
+    page.locator("#q").click()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    page.goto(base + "?suggested=1")                                          # the old filter link is simply ignored
+    expect(page.locator("#grid .card")).to_have_count(4)
+    # suggested title page + same-note box
+    page.locator(f'#grid a[href="#/{c["id"]}"]').click()
+    expect(page.locator("#detail-view h2")).to_have_text("שם מוצע לבדיקה")
+    expect(page.locator(".suggested-warning, .banner.warn", has_text="הצעה בלבד")).to_have_count(0)   # no big warning banner
+    expect(page.locator(".titlewrap .title-warn")).to_have_count(1)
+    expect(page.locator(".titlewrap h2")).to_have_text("שם מוצע לבדיקה")
+    page.locator(".titlewrap .title-warn").hover()
+    expect(page.locator("#hint-pop")).to_contain_text("טרם אושרה")
+    page.locator(".titlewrap .title-warn").click()
+    expect(page.locator("#hint-pop")).to_contain_text("אינה כתובה על הפתק")
+    page.locator("#detail-view h2").click()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    page.locator(".back a").click()
+    page.locator(f'#grid a[href="#/{a["id"]}"]').click()
+    expect(page.locator(".cardbox")).to_contain_text("אחד מ-2 מתכונים על אותו פתק")
+    page.locator(f'.cardbox a[href="#/{d["id"]}"]').click()
+    expect(page.locator("#detail-view h2")).to_have_text(d["title"])
+    print("PASS: title warning as a small icon with tooltip (list and recipe page, no filter, no banner); same-note links")
+    context.close()
+
+    # ---- glossary hint: 'קמח אוסם' gets a tooltip (hover on a computer, tap on a phone) ----
+    HINT = "קמח אוסם - ככל הנראה הכוונה לקמח תופח"
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    page.locator(f'#grid a[href="#/{b["id"]}"]').click()
+    hint = page.locator("#detail-view .hint")
+    expect(hint).to_have_count(1)
+    expect(hint).to_have_text("קמח אוסם")
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    hint.hover()
+    expect(page.locator("#hint-pop")).to_have_text(HINT)
+    page.locator("#detail-view h2").hover()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    hint.click()                                    # tap: pins the bubble
+    expect(page.locator("#hint-pop")).to_have_text(HINT)
+    page.locator("#detail-view h2").click()         # tap elsewhere closes it
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    box = page.locator("#hint-pop")
+    hint.click()
+    bb = box.bounding_box(); vw = page.viewport_size["width"]
+    assert bb and bb["x"] >= 0 and bb["x"] + bb["width"] <= vw, bb
+    print("PASS: glossary hint on 'קמח אוסם' (hover tooltip, tap to show/hide, stays inside the screen)")
+    context.close()
+    # on a phone-sized touch screen
+    context = browser.new_context(viewport={"width": 375, "height": 700}, has_touch=True, is_mobile=True)
+    context.route("**/data/recipes.json*", lambda route: route.fulfill(json=fixture))
+    context.route("**/data/classics.json*", lambda route: route.fulfill(json={"ids": []}))
+    page = context.new_page()
+    page.on("pageerror", lambda error: errors.append(str(error)))
+    page.goto(base + "#/" + b["id"])
+    page.locator("#detail-view .hint").tap()
+    expect(page.locator("#hint-pop")).to_have_text(HINT)
+    bb = page.locator("#hint-pop").bounding_box()
+    assert bb["x"] >= 0 and bb["x"] + bb["width"] <= 375, bb
+    page.locator("#detail-view h2").tap()
+    expect(page.locator("#hint-pop")).to_be_hidden()
+    print("PASS: glossary hint works by tap on a phone-sized screen")
+    context.close()
+
+    # ---- "סיפור המתכונים": the anecdote page (data/story.json) ----
+    story = json.loads((ROOT / "data/story.json").read_text(encoding="utf-8"))["items"]
+    assert story, "data/story.json should hold at least one story"
+    page = browser.new_page()
+    page.on("pageerror", lambda error: errors.append(str(error)))
+    page.goto(base)
+    expect(page.locator("#grid .card").first).to_be_visible()
+    page.locator("#story-link").click()
+    expect(page.locator("#story-view h2")).to_have_text("סיפור המתכונים")
+    expect(page.locator("#story-view .story")).to_have_count(len(story))
+    expect(page.locator("#story-view .story-text").first).to_have_text(story[0]["text"])
+    page.wait_for_function("document.querySelector('#story-view .story img').naturalWidth > 0")
+    assert "#/story" in page.url and page.locator("#list-view").is_hidden() and page.locator("#detail-view").is_hidden()
+    page.reload()
+    expect(page.locator("#story-view .story")).to_have_count(len(story))      # a direct link works too
+    page.locator("#story-view .back a").click()
+    expect(page.locator("#grid .card").first).to_be_visible()
+    assert page.locator("#story-view").is_hidden()
+    # ---- frames around each recipe of a multi-recipe sheet/clipping ----
+    context, page = new_fixture_page(browser, base, fixture, errors)
+    page.locator(f'#grid a[href="#/{a["id"]}"]').click()
+    expect(page.locator(".scans .frame.mine")).to_have_count(2)                  # two frames for this recipe
+    expect(page.locator(".scans .frame.other")).to_have_count(1)                 # the other recipe on the same scan
+    expect(page.locator(".scans .frame.mine .frame-label")).to_have_text("המתכון הזה")
+    expect(page.locator(".scans .frame.other .frame-label")).to_have_text(d["title"])
+    expect(page.locator(".scans .frames-note")).to_contain_text("המסגרת הצבעונית")
+    img = page.locator(".scans .scanbox img").bounding_box(); fr = page.locator(".scans .frame.mine").first.bounding_box()
+    assert abs(fr["x"] - (img["x"] + 0.05 * img["width"])) < 4 and abs(fr["width"] - 0.4 * img["width"]) < 4, (fr, img)
+    assert abs(fr["y"] - (img["y"] + 0.05 * img["height"])) < 4 and abs(fr["height"] - 0.3 * img["height"]) < 4, (fr, img)
+    assert page.locator(".scans a").first.get_attribute("href"), "the scan stays a link to the full image"
+    page.goto(base + "#/" + b["id"])
+    expect(page.locator("#detail-view h2")).to_have_text(b["title"])
+    expect(page.locator(".scans .frame")).to_have_count(0)                       # single recipes get no frames
+    print("PASS: scan frames: this recipe framed (solid), other recipes on the same scan dashed, none on single recipes")
+    context.close()
+
+    print("PASS: story page: header link, anecdote text and picture, direct link, back to the list")
+    page.close()
+    assert not errors, errors
+
+
+if __name__ == "__main__":
+    handler = functools.partial(QuietHandler, directory=str(ROOT))
+    server = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    try:
+        with sync_playwright() as playwright:
+            options = {"headless": True, "args": ["--no-sandbox"]}
+            if os.environ.get("CHROMIUM_PATH"):
+                options["executable_path"] = os.environ["CHROMIUM_PATH"]
+            browser = playwright.chromium.launch(**options)
+            try:
+                run(browser, f"http://127.0.0.1:{server.server_port}/")
+            finally:
+                browser.close()
+    finally:
+        server.shutdown()
+        server.server_close()

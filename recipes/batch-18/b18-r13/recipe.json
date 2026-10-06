@@ -1,0 +1,73 @@
+{
+  "id": "b18-r13",
+  "batch": 18,
+  "title": "לביבות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "חומרים",
+      "items": [
+        "1 ק\"ג תפודים קלופים. רצוי מזן לטיגון",
+        "1 בצל קטן וקלוף",
+        "מלח לפי הטעם",
+        "1 ביצה גדולה",
+        "קורט סודה לשתייה",
+        "1 כפית סוכר (או יותר)",
+        "2־3 כפות קמח תפוחי אדמה",
+        "שמן תירס לטיגון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "חותכים את התפודים והבצל לפרוסות עבות ומגרדים במגרדת דקה, רצוי של מעבד מזון, הכי קטן שאפשר.",
+        "סוחטים את הגרודה לתוך מסננת דקה, היטב היטב. מערבבים את הגרירה עם יתר החומרים.",
+        "בינתיים שקע העמילן שבנוזלים אל קרקעית הקערה. נפטרים מרוב הנוזלים ומוסיפים לבלילה את העמילן. מערבבים היטב.",
+        "מחממים שמן לגובה אצבע ומטגנים בו לביבות קטנות משני הצדדים, שמספיגים על מגבות נייר."
+      ]
+    },
+    {
+      "group": "השוס",
+      "steps": [
+        "קמח תפוחי אדמה. מוצר מקסים שחייב לגור אצלכם במזווה בכלי סגור. הקמח הדקיק הזה מעבה את הלביבה ומעניק גמישות נגיסה לחלק הרך שלה."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping with handwritten heading לביבות; no printed title or publication. The actual handwritten heading is used; תפוחי אדמה was Claude’s inferred addition.",
+    "Red tip heading השוס: describes potato starch. תפודים is retained as printed.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Blue-ink handwritten word 'לביבות' beside the 'חומרים' heading"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-16.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-16.jpg",
+      "rotation_applied_cw_degrees": 90,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

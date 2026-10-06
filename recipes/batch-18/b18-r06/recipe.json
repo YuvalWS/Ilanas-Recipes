@@ -1,0 +1,94 @@
+{
+  "id": "b18-r06",
+  "batch": 18,
+  "title": "סלט טונה וירוקים (לברוסקטה)",
+  "source": {
+    "text": "עדי שוורץ (עמודה 'אצל עדי במטבח') (as printed)",
+    "type": "person",
+    "as_written": "אצל עדי במטבח / עדי שוורץ",
+    "uncertain": false
+  },
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים",
+      "items": [
+        "1 קופסת טונה בשמן זית באיכות טובה",
+        "4 מלפפונים חמוצים, חתוכים לקוביות קטנות",
+        "חצי פלפל אדום חתוך לקוביות קטנות",
+        "2 כפות תירס",
+        "1 עגבנייה חתוכה לקוביות קטנות",
+        "1 כפית מיונז",
+        "1 כפית קטשופ",
+        "מלח, פלפל ומיץ לימון"
+      ]
+    },
+    {
+      "group": "המצרכים לברוסקטה",
+      "items": [
+        "בגט או כל לחם פרוס",
+        "שמן זית",
+        "שן שום קצוצה",
+        "לקט עשבי תיבול טריים קצוצים",
+        "מלח גס ופלפל שחור גרוס"
+      ]
+    },
+    {
+      "group": "המצרכים לירוקים",
+      "items": [
+        "לקט עלי בייבי",
+        "1 כף שמן זית",
+        "1 כף מיץ לימון",
+        "1 כף חומץ בלסמי בהיר אם מוצאים",
+        "מלח גס ופלפל שחור גרוס"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "בקערה מערבבים את הירוקים.",
+        "מסננים מהטונה את השומן העודף ומפוררים בעזרת מזלג.",
+        "מוסיפים את הטונה לירוקים. מתבלים במלח, פלפל, מיץ לימון, קטשופ ומיונז, מערבבים היטב לחיבור מרקם אחיד וטועמים."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping from a column 'אצל עדי במטבח' (a black banner with a portrait photo) with the heading 'מהיר וטעים'. Intro: 'עדי שוורץ למד מהאחיינית שלו איך מכינים ברוסקטה עם סלט טונה וירוקים ברבע שעה.' Two blue-ink handwritten words on the left (a name?) are unreadable. A pen mark crosses the right column. The bruschetta assembly steps are not printed on the clipping."
+  ],
+  "incidental_text": [
+    "Blue-ink handwritten words on the left side (unreadable)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-06.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "עדי שוורץ",
+      "best_guess": null,
+      "reason": "Column 'אצל עדי במטבח' by Adi Schwartz as printed; the publication is not shown."
+    },
+    {
+      "field": "notes",
+      "text": "handwritten words",
+      "best_guess": null,
+      "reason": "Unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

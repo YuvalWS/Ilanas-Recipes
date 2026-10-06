@@ -1,0 +1,72 @@
+{
+  "id": "b23-r01",
+  "batch": 23,
+  "title": "עוגת אגוזים",
+  "source": {
+    "text": "אפרת",
+    "type": "person",
+    "as_written": "אפרת",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "(above the first line, small: 'בדוק')",
+        "4 חלבונים + 1 כוס סוכר להקציף",
+        "150 ג׳ אגוזים קצוצים גס — להוסיף",
+        "[?] משטחים בתבנית שטוחה",
+        "תבנית שטוחה של התנור 33/35 (אלומיניום)",
+        "לשמן במרגרינה או על ניר אפיה",
+        "חלמון 1 + 2 כפות קמח [?]",
+        "לשפוך [?]",
+        "לאפות בחום נמוך 1 שעה בערך",
+        "לכבות אש. לפתוח אחרי 1/2 שעה",
+        "[?] כשהוא מהתנור [?] [?] [?]",
+        "[?] ו[?] מהתנור [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. The title reads 'עוגת …' followed by a word that is not clear (possibly a name). Several lines are only guessable (a nut and egg-white mixture baked on a flat tray). A phone number is written at the top of the card (not transcribed).",
+    "Source set by the owner (issue #343): אפרת."
+  ],
+  "incidental_text": [
+    "A phone number is written in the top margin above a rule (not transcribed)."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0932-01.jpg",
+      "original_path": "Batch 23/Scanned_20261005-0932-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #343",
+      "scope": null
+    }
+  }
+}

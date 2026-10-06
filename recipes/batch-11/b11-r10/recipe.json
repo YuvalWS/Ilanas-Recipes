@@ -1,0 +1,69 @@
+{
+  "id": "b11-r10",
+  "batch": 11,
+  "title": "מרק תירס",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "חומרים",
+      "items": [
+        "2 קופ' תירס",
+        "1 ביצה",
+        "3-2 כפות אבקת מרק פרווה (קנור)",
+        "מעט פלפל שחור",
+        "2 כפות יין יבש (אדום / לבן)",
+        "מעט רוטב סויה (1/2 כפית) - אפשר גם לוותר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "לרסק 1 3/4 קופסאות תירס בבלנדר (במערבל יד)",
+        "להוסיף מים + רסק התירס לסיר גדול + 1/4 גרגרי תירס",
+        "להרתיח את המרק",
+        "להוסיף אבקת מרק + פלפל + סויה + יין, לטעום",
+        "להוסיף טעם לפי הצורך",
+        "לטרוף חלמון + כפות מים — להוסיף במהירות למרק הרותח",
+        "לטרוף חלבון - להוסיף במהירות למרק",
+        "אפשר גם את הביצה השלמה, אותו הדבר"
+      ]
+    }
+  ],
+  "notes": [
+    "Yellowed ruled paper folded in four, clear handwriting. Steps are lettered א, ב, ג, then numbered 3, ה (the original numbering is not consistent and is shown here as written only in part).",
+    "A boxed note in the right margin next to the method heading is partly legible: 'פרמ/ם ... מים 2'; not transcribed.",
+    "The step that mentions the egg is written twice (egg yolk, then egg white, then 'the whole egg is also fine').",
+    "Margin contains a pot sketch showing water at approximately half height. The yolk line says כפות מים without a written number; no spoon count inferred.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-11.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "b15-r05",
+  "batch": 15,
+  "title": "בלילה בסיסית לפשטידה",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המרכיבים",
+      "items": [
+        "350 גרם גבינה צפתית 5%, מפוררת",
+        "3 מכלים (750 גרם) קוטג' 5%",
+        "1 תבילה (250 גרם) גבינת חמד 5%, מגורדת גס",
+        "4 ביצים",
+        "1/2 כוס פירורי לחם או קמח תירס",
+        "1/2 כפית מלח",
+        "1/2 כפית פלפל שחור גרוס דק"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "שמים בקערה את כל מרכיבי הבלילה ומערבבים היטב.",
+        "מוסיפים את הירקות (ראו במתכונים הבאים) ומערבבים בעדינות לפיזור אחיד.",
+        "אופים בהתאם להנחיות בכל מתכון. מוציאים ומגישים.",
+        "את כל הפשטידות אפשר לשמור עד 3 ימים במקרר, או עד חודש במקפיא. לפני ההגשה מחממים קלות בתנור."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was sideways and was rotated 90 degrees clockwise. Printed clipping about Shavuot quiches with an introductory paragraph: 'שבועות הוא חג של הרבה גבינות שמנות, חמאה ובצקים פריכים, אבל אפשר להפתיע בו בעזרת פשטידות צבעוניות, מלאות בירקות טעימים, שמבוססות על גבינות עם לא יותר מ־5% שומן. כל הפשטידות דורשות הכנה מוקדמת של הירקות, וכך מתקבל טעמן הייחודי. אפשר להכין את כל הפשטידות עם בלילת הגבינות הבסיסית (ראו להלן), ואפשר גם לשדרג (ראו הצעה בכל מתכון).'",
+    "Pan size: 30x20 cm or 3 'English cake' pans. This is the basic batter used for the vegetable quiches in this batch.",
+    "The first big letter of the article is a decorative initial; the page edge is perforated.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-06.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-06.jpg",
+      "rotation_applied_cw_degrees": 90,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication name or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

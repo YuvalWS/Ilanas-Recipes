@@ -1,0 +1,26 @@
+name: Validate recipes
+
+on:
+  pull_request:
+    paths:
+      - "recipes/**"
+      - "schema/**"
+      - "tools/**"
+      - "data/recipes.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install jsonschema
+      - run: python tools/validate.py
+      - name: data/recipes.json is generated - do not edit it in a PR
+        run: |
+          git fetch --depth=1 origin "${{ github.base_ref }}"
+          if ! git diff --quiet "origin/${{ github.base_ref }}"...HEAD -- data/recipes.json; then
+            echo "::warning::data/recipes.json is rebuilt automatically on main; please drop it from this PR to avoid merge conflicts."
+          fi

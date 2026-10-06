@@ -1,0 +1,94 @@
+{
+  "id": "b01-r25",
+  "batch": 1,
+  "title": "ברייזעלעך",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1/2 כוס קמח",
+        "1/3 מרגרינה",
+        "1/3 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "אם זה רך להוסיף קמח וסוכר.",
+        "להדק את הברייזעלעך."
+      ]
+    }
+  ],
+  "notes": [
+    "Text typed by the owner (PR #26). A short separate recipe (the crumb topping) at the bottom of the second page of the card of b01-r21; split into its own record and linked to it with the card field. 'ברייזעלעך' = crumbs/streusel; the margarine line has no unit on the card (as typed).",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection.",
+    "Owner (chat, 2026-10-06): confirmed that the card has no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-21.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-21.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back",
+      "regions": [
+        {
+          "x": 0.02,
+          "y": 0.525,
+          "w": 0.96,
+          "h": 0.225
+        }
+      ]
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "human_transcription_by_owner",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  },
+  "card": {
+    "id": "b01-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b01-r21",
+      "b01-r25"
+    ],
+    "position": "bottom of the second page (back side)",
+    "note": "Part of the same card as b01-r21 (the dough recipe); a separate short recipe."
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #26 comment (typed text)",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #26 comment (typed text)",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #26 comment (typed text)",
+      "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

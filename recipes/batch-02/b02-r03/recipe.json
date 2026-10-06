@@ -1,0 +1,94 @@
+{
+  "id": "b02-r03",
+  "batch": 2,
+  "title": "טורט פרג",
+  "source": null,
+  "medium": "mixed",
+  "ingredients": [
+    {
+      "group": "החומרים",
+      "items": [
+        "8 ביצים מופרדות",
+        "250 גרם פרג טחון",
+        "250 גרם אגוזי מלך קצוצים גס",
+        "125 גרם אבקת סוכר",
+        "125 גרם סוכר",
+        "250 גרם מרגרינה",
+        "קליפת לימון מגוררת"
+      ]
+    },
+    {
+      "group": "למילוי",
+      "items": [
+        "ריבה באיכות טובה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "מקציפים מרגרינה עם אבקת סוכר.",
+        "מוסיפים לאט חלמונים ומקציפים היטב.",
+        "מקציפים לחוד חלבונים עם סוכר.",
+        "מקפלים בעדינות חלבונים מוקצפים לתערובת החלמונים.",
+        "מוסיפים אגוזים ופרג, מקפלים ומעבירים לתבנית קפיצית מס' 28.",
+        "(handwritten) אופים [?] [?]°",
+        "(handwritten) 1 - 1½ שעה, מצננים.",
+        "(handwritten) חוצים, ממלאים בריבה, [?] א.סוכר [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Printed recipe card (page from a booklet) with a 4-line handwritten addition in blue ink under the printed text, about baking, cooling, halving, filling with jam and topping with powdered sugar (written 'א.סוכר', abbreviation of אבקת סוכר).",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Printed page number 24"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-03.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[5]",
+      "text": "אופים [?] [?]°",
+      "best_guess": "[?] = an unreadable word or two (cursive letters look roughly like 'ב..ל' / 'ה'); [?]° digits look like 3/120° (could also be 3/170°, perhaps gas mark 3)",
+      "reason": "Cramped cursive right above the printed rule; the words between 'אופים' and the temperature cannot be read, and the temperature digits are not certain."
+    },
+    {
+      "field": "instructions[7]",
+      "text": "[?] א.סוכר [?]",
+      "best_guess": "first [?]: למעלה; last [?]: unclear - may contain the digits 100 (e.g. 'ו-100 ג'')",
+      "reason": "Bottom handwritten line is shaky and at the edge of the scan; only 'א.סוכר' is clearly legible."
+    },
+    {
+      "field": "source",
+      "text": null,
+      "best_guess": null,
+      "reason": "The printed card does not name a source (it looks like a page torn from a booklet)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_opus_crops",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

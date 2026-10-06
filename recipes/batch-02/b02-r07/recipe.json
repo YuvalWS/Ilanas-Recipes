@@ -1,0 +1,90 @@
+{
+  "id": "b02-r07",
+  "batch": 2,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "קודם אפרסקים - בבלנדר ללא הנוזל.",
+        "הנוזל של האפרסקים + כוס מים להרתיח.",
+        "להוסיף ג'לי משמש,",
+        "להוסיף את רסק האפרסקים",
+        "לחלק לצלוחיות"
+      ]
+    }
+  ],
+  "notes": [
+    "A handwritten fragment on company notepaper. It has no title and no ingredient list; it describes a peach preparation with apricot jelly (ג'לי משמש), but the dish is not named.",
+    "Letterhead phone numbers corrected: the card prints fax 03-5617358 and tel 03-5620372 (earlier version had them swapped).",
+    "Suggested title 'קינוח אפרסקים בג'לי' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: peaches blended, peach liquid boiled, apricot jelly added). Awaiting the owner's approval.",
+    "Owner (PR #47 review comments): the last line reads 'לחלק לצלוחיות'.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'קינוח אפרסקים בג'לי' (it is not written on the card)."
+  ],
+  "incidental_text": [
+    "Printed letterhead: בזל - מקבוצת חברות זלינגר בע\"מ, חברה להנדסה ובנין בע\"מ, פקס. 03-5617358, טל. 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-07.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": null,
+      "best_guess": null,
+      "reason": "No title written."
+    },
+    {
+      "field": "instructions[0].steps[4]",
+      "text": "[?] [?]",
+      "best_guess": "Gemini: לצקת את התערובת לכוסיות הגשה (a paraphrase, not a confirmed reading); earlier reading: '[?] לצנחיות'",
+      "reason": "Last line is two cramped words; the second looks like 'ל' + about six glyphs (possibly לצלחות / לכוסיות / לצנצנות) but no reading is confirmed on the scan. Likely 'pour/fill into ...' but not certain."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "קינוח אפרסקים בג'לי",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "peaches blended, peach liquid boiled, apricot jelly added",
+  "proofread": {
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #47 review comments",
+      "scope": "last line only"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  }
+}

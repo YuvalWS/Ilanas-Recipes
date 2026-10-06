@@ -1,0 +1,55 @@
+{
+  "id": "b07-r05",
+  "batch": 7,
+  "title": "כרוב גזר",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 כוס מים",
+        "1 כוס חומץ",
+        "1 כף שמן",
+        "סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "המלח לכרוב."
+      ]
+    }
+  ],
+  "notes": [
+    "Yellow memo card with a construction-company letterhead. Title: 'רוטב' + a second word that appears to be 'גזר' (both Gemini readings also mention carrots), then '/ חיה'. Gemini's added items (cumin, carrots, '4 packages', cooking steps) are not on the card and were not adopted; Gemini's '1 כפית חומץ' is contradicted by the scan, which shows 'כוס' on the vinegar line."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company (logo, phone/fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-05.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}

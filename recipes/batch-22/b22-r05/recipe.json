@@ -1,0 +1,87 @@
+{
+  "id": "b22-r05",
+  "batch": 22,
+  "title": "טורט של 6 ביצים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "במיקסר היטב",
+      "items": [
+        "2 חב' גבינה",
+        "1 1/4 כוס סוכר",
+        "1 כוס חלב",
+        "סוכר וניל",
+        "1 ביצה",
+        "3 כפות סולת"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "1/3 מהטורט לאפות",
+        "1/3 מערבבים עם החומרים והגבינה",
+        "1/3 לשפוך מלמעלה"
+      ]
+    }
+  ],
+  "notes": [
+    "Corrected by the owner in review comments on PR #278: his typed readings replace the earlier AI transcription of the same lines.",
+    "Owner's remarks: the title is 'טורט של 6 ביצים'; the bracket at the side says 'במיקסר היטב'; the first step reads 'מהטורט' (not 'מוסרת').",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-04.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "1/3 ... (three '1/3' lines)",
+      "best_guess": null,
+      "reason": "Meaning of the three 1/3 lines is not stated on the card (AI note kept); the layer order is as written."
+    }
+  ],
+  "transcription": {
+    "method": "human_corrections_by_owner_via_pr_review",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #278 pending review",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #278 pending review",
+      "scope": "side-bracket label only"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #278 pending review",
+      "scope": "first step only"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

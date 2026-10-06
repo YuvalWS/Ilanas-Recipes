@@ -1,0 +1,114 @@
+{
+  "id": "b17-r12",
+  "batch": 17,
+  "title": "עוף בתנור / מלח",
+  "source": {
+    "text": "טלוויזיה",
+    "type": "publication",
+    "as_written": "טלוויזיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "עוף שלם - 800 גר'",
+        "ירקות יבשים: פטרוזיליה, [?]",
+        "חצי ראש שום עם קליפה",
+        "שמן זית",
+        "1 כף מלח בישול"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לנקות ולחתוך עור מיותר",
+        "למלא בירקות יבשים",
+        "לדחוף פנימה חצי ראש שום עם קליפה",
+        "[?] את הירקות, למרוח על העוף שמן זית",
+        "להניח נייר כסף מעל [?] בתבנית",
+        "לפזר מסביב 1 כף מלח בישול",
+        "(back) [?] [?] בתנור",
+        "(back) [?] התנור [?] 40 דק'",
+        "(back) 20 דק' ב־250° ולהפוך [?]",
+        "ל־200° לא לכסות"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card 12 has a printed letterhead of a construction group ('מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372). The title line reads 'עוף בתנור / [?] / [?]' (two words after the title, perhaps names, are unclear), underlined. Card 13 (back, white, upright) continues with oven times and temperatures (20 minutes at 250 degrees then turn; then 200 degrees) with bleed-through from the front.",
+    "The order of the lines at the end of the front card ('לפזר מסביב 1 כף מלח בישול') was read as shown.",
+    "Independent two-scan review corrects the last instruction to 200°C uncovered (לא לכסות), not covered.",
+    "Source set by the owner (issue #340): טלוויזיה. (a television programme/channel as the source)",
+    "Title per the owner (issue #340): 'עוף בתנור / מלח'."
+  ],
+  "incidental_text": [
+    "Printed letterhead on card 12: brick-pattern logo, 'מקבוצת חברות זלינגר בע\"מ', tel. 03-5617358, fax 03-5620372"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-12.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2231-13.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "line 2",
+      "best_guess": null,
+      "reason": "Second herb after 'פטרוזיליה' unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "back",
+      "best_guess": null,
+      "reason": "Only '250°', '200°', '20 דק'' and '40 דק'' are fairly clear."
+    },
+    {
+      "field": "raw_files",
+      "text": "12/13",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one card."
+    },
+    {
+      "field": "instructions",
+      "text": "ל־200° לא לכסות",
+      "best_guess": null,
+      "reason": "The rest of oven sequence remains uncertain; the final words are clearly uncovered, correcting Claude’s covered reading."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #340",
+      "scope": null
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #340",
+      "scope": null
+    }
+  }
+}

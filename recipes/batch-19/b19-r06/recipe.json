@@ -1,0 +1,81 @@
+{
+  "id": "b19-r06",
+  "batch": 19,
+  "title": "פלפלים במלית אורז",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "לבישול (4 מנות)",
+      "items": [
+        "8 פלפלים ירוקים בהירים, בינוניים, שלמים, ללא החלק העליון, נקיים מגרעינים",
+        "2 עגבניות קלופות, אחת מהן פרוסה ל־8 פרוסות והשנייה חצויה",
+        "3 כפות רסק עגבניות",
+        "2־3 כפות שמן",
+        "מלח",
+        "פלפל שחור"
+      ]
+    },
+    {
+      "group": "למלית",
+      "items": [
+        "3 כפות שמן, לטיגון",
+        "1 בצל, קלוף וחתוך לקוביות קטנות",
+        "250 גרם בשר בקר טחון",
+        "500 גרם אורז",
+        "1/4 צרור שמיר, קצוץ",
+        "כורכום",
+        "מלח",
+        "פלפל לבן"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "ההכנה",
+      "steps": [
+        "המלית: מחממים את השמן במחבת ומטגנים את הבצל עד הזהבה. מוסיפים את הבשר ומטגנים כמה דקות, עד שצבעו משתנה. מוסיפים גם את האורז ומטגנים עוד דקה, עד שהוא מזהיב. מוסיפים גם את השמיר, הפטרוזיליה, הכורכום, מלח ופלפל שחור, יוצקים פנימה שתי כוסות מים ומבשלים כעשר דקות, רק עד שהאורז מתרכך למחצה. מצננים קצת.",
+        "הבישול: ממלאים את הפלפלים ומסדרים אותם בסיר שיכיל אותם בצפיפות, עם הפתח כלפי מעלה. מכסים כל פלפל בפרוסת עגבנייה. מערבבים בקערה שתי כוסות מים, את רסק העגבניות, המלח הפלפל והשמן, יוצקים לסיר ומוסיפים לו גם את שני חצאי העגבנייה. מבשלים חצי שעה, עד שהפלפלים מתרככים והאורז מוכן."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Printed clipping with the heading 'פלפלים במלית אורז' ('4 מנות'). A short blue pen mark at the lower left is not text.",
+    "The method mentions parsley and black pepper although the ingredient list names white pepper and does not list parsley; written as printed. One of the printed quantities, '500 גרם אורז' for 250 g meat and 8 peppers, looks large but is printed so.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2243-03.jpg",
+      "original_path": "Batch 19/Scanned_20261004-2243-03.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

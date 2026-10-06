@@ -1,0 +1,93 @@
+{
+  "id": "b05-r01",
+  "batch": 5,
+  "title": "קציצות עוף וכרובית",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "המצרכים לקציצות",
+      "items": [
+        "1 ק\"ג עוף טחון",
+        "1 צרור פטרוזיליה",
+        "1 צרור כוסברה",
+        "1 בצל גדול חתוך לקוביות קטנות",
+        "4 שיני שום מגוררות",
+        "1 ביצה",
+        "3־4 כפות פירורי לחם",
+        "קמצוץ אגוז מוסקט",
+        "מעט כורכום",
+        "מעט כמון",
+        "מלח, פלפל לבן",
+        "שמן לטיגון"
+      ]
+    },
+    {
+      "group": "המצרכים לרוטב",
+      "items": [
+        "4 גבעולי סלרי חתוכים גס, כולל העלים",
+        "1 בצל פרוס",
+        "1 ראש כרובית בינוני, מופרד לפרחים",
+        "2 כוסות מים",
+        "מלח",
+        "מעט פלפל לבן",
+        "מעט כורכום",
+        "מעט כמון",
+        "שמן לטיגון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "אופן ההכנה",
+      "steps": [
+        "מכינים את הרוטב: בסיר רחב מטגנים את הבצל. מוסיפים את הסלרי ופרחי הכרובית. מתבלים.",
+        "מוסיפים 2 כוסות מים. מערבבים. מביאים לרתיחה על להבה נמוכה.",
+        "מכינים את הקציצות: מערבבים היטב את כל המצרכים יחד בקערה. יוצרים כדורים קטנים, ומטגנים קלות במחבת עם מעט שמן. הטיגון צריך להיות קצר יחסית, רק עד לסגירה של הבשר.",
+        "מוציאים את הקציצות ומעבירים לסיר עם הרוטב.",
+        "מבשלים על להבה נמוכה 20 דקות. אפשר לצמצם את הרוטב למידה הרצויה."
+      ]
+    }
+  ],
+  "notes": [
+    "Newspaper clipping; the red circular stamp text 'קציצות עוף וכרובית' is the recipe title. The source publication is not visible on the scan.",
+    "The ingredient list appears to have a repeated group (the spices 'מעט פלפל לבן ... שמן לטיגון' appear once for the meatballs and once more under the sauce); transcribed as printed.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Green-yellow herb decoration at the left edge"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2117-01.jpg",
+      "original_path": "Batch 5/Scanned_20261004-2117-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": "none",
+      "best_guess": null,
+      "reason": "The publication/author is not visible on the clipping."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

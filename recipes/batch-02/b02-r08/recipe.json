@@ -1,0 +1,63 @@
+{
+  "id": "b02-r08",
+  "batch": 2,
+  "title": "מגש פירות יבשים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "השזיפים השחורים מגולענים וממולאים בשקדים חלוטים וקלופים.",
+        "על המשמשים מניחים חצי דובדבן מסוכר.",
+        "את התאנים יפה לחצות לרוחב ועל מרקמן הנאה מניחים אגוזים או שקדים.",
+        "התמרים המגולענים ממולאים בבוטנים או בשקדים קלויים ומגולגלים בפתיתי קוקוס.",
+        "ולבסוף, את הצימוקים מגוונים בשני זנים - כהים ובהירים, ובשקדים."
+      ]
+    }
+  ],
+  "notes": [
+    "The printed article describes a dried-fruit platter, suitable for Tu BiShvat and long winter evenings, for 2-4 couples in a sitting area. This entry transcribes the arrangement steps; there is no ingredient list for the platter.",
+    "The same clipping also contains a recipe for 'רפרפת שזיפים וצימוקים' (entered separately) and a recipe for egg-white topping/cream.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Large photo of the finished platter",
+    "Address block: דיזנגוף 166 ת\"א, מיקוד 64589, טל' 03-5230055",
+    "מתכון השער: מרק צ'ורבה עמ' 12"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-08.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-08.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "source",
+      "text": null,
+      "best_guess": null,
+      "reason": "The magazine's name is not visible on the clipping (an address on Dizengoff St. is printed)."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

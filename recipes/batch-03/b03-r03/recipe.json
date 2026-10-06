@@ -1,0 +1,115 @@
+{
+  "id": "b03-r03",
+  "batch": 3,
+  "title": null,
+  "source": {
+    "text": "מטבח בקלי קלות (ספר מתכונים)",
+    "type": "publication",
+    "as_written": "מטבח בקלי קלות (ספר מתכונים)",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כפות דבש",
+        "[?] חרדל דיג'ון [?]",
+        "[?] שמן זית [?]",
+        "1/2 [?] מלח",
+        "מעט פלפל שחור",
+        "מעט פפריקה מתוקה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] כ-5 [?]",
+        "ולהוסיף שני שום",
+        "למרוח [?] המרינדה [?] בשרי",
+        "לעטוף [?]",
+        "[?] [?] [?] רוזמרין",
+        "[?] [?] עלי דפנה",
+        "[?] [?] [?] בתנור [?]",
+        "[?] ל-2 שעות",
+        "[?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "A marinade-style card (honey, Dijon mustard, olive oil, salt, pepper, paprika, garlic, rosemary); the top row has a small ruled box with several short items that are not readable. The line at the top, left of the first ingredient, looks like a heading or hint and is unreadable.",
+    "Faint bleed-through of writing from the reverse side is visible on the paper.",
+    "ditto marks expanded: the tick under 'מעט' on the line above is read as 'מעט' before 'פפריקה מתוקה'.",
+    "Gemini's transcription describes a beef goulash with carrots and potatoes; this does not match the card (honey/mustard marinade, rosemary, wrapping, oven) and was not used.",
+    "Suggested title 'מרינדה דבש וחרדל' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: honey, Dijon mustard, olive oil, paprika; 'spread the marinade on the meat'). Awaiting the owner's approval.",
+    "Note written in the top corner of the card (owner): 'בקר 5 או 6'.",
+    "Owner (PR #67 review comments): source is the cookbook 'מטבח בקלי קלות'.",
+    "Suggested title updated to 'בקר במרינדת דבש וחרדל' after the owner's report (issue #413); basis: owner (issue #413): the title should be 'בקר במרינדת...' according to the ingredients (honey, Dijon mustard, olive oil, paprika, rosemary); the card's corner note 'בקר 5 או 6'. Still a suggestion awaiting the owner's approval; not written on the card.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'בקר במרינדת דבש וחרדל' (it is not written on the card)."
+  ],
+  "incidental_text": [
+    "Printed footer: איטונג - איכות חיים לכל החיים (Itung company logo/slogan)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-04.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "top line",
+      "best_guess": "Gemini: גולש בקר (not supported by the card); the word בקר may appear left of the slash on the first line",
+      "reason": "The first line (possibly a title or an ingredient) is unreadable."
+    },
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": "Gemini: 1 כף שמן; 1/2 כפית מלח (a different dish in its reading; unconfirmed)",
+      "reason": "Quantities of mustard and oil, the unit before מלח (כף or כפית) and the boxed items are not readable."
+    },
+    {
+      "field": "instructions",
+      "text": "most lines",
+      "best_guess": "Gemini: bay leaves (עלי דפנה) accepted; its other steps (stew with beef, wine, potatoes) do not match the card",
+      "reason": "Instruction lines are only partly legible; רוזמרין and 'ל-2 שעות' look right, 'עלי דפנה' agrees with Gemini and the ink."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "assigned_title": "בקר במרינדת דבש וחרדל",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "owner (issue #413): the title should be 'בקר במרינדת...' according to the ingredients (honey, Dijon mustard, olive oil, paprika, rosemary); the card's corner note 'בקר 5 או 6'",
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #67 review comments",
+      "scope": null
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "b13-r08",
+  "batch": 13,
+  "title": "עוגת גבינה",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 חב' גבינה (או 3 גביעים)",
+        "4 כפות לבן או שמנת",
+        "4 כפות אינסטנט",
+        "4 כפות קורנפלור",
+        "3/4 כוס סוכר",
+        "4 חלמונים",
+        "1 סוכר וניל"
+      ]
+    },
+    {
+      "group": "card 2 (scan 11)",
+      "items": [
+        "4 חלבונים",
+        "1/4 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "(scan 11) להקציף את החלבונים עם 1/4 כוס סוכר ...",
+        "(scan 11) ... לערבב בעדינות? ... [?]",
+        "(scan 11) 1) [?] [?] [?] 10 דקות (חם גבוה?)",
+        "(scan 11) 3) [?] [?] [?] ללוש? [?]",
+        "(scan 11) [?] [?] [?]",
+        "(scan 11) [?] [?] [?] 1/4 כוס סוכר [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Two yellow memo cards of a contracting company (scan 10 has the printed letterhead and the title line 'עוגת גבינה / [?]ית' with a wavy underline and a stapled corner; scan 11 continues with a bracketed 'חלבונים 1/4 כוס סוכר' at the top and a numbered method). A parenthetical '(או 3 גביעים)' follows the first ingredient; the first column holds quantities.",
+    "Scan 11 is treated as the continuation (second card) of scan 10, not a back side; this relation is an assumption. The method includes numbered steps (a circled 3 and a circled number at the left), a mention of 'חום גבוה' and 10 minutes, and ends with a line about 1/4 cup sugar.",
+    "Source set by the owner (issue #323): נורית."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company on scan 10 (logo, phone and fax)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2209-10.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-10.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2209-11.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "units",
+      "best_guess": null,
+      "reason": "Units (כפות / חב' / כוס) are readable; some items are close to illegible."
+    },
+    {
+      "field": "instructions",
+      "text": "scan 11",
+      "best_guess": null,
+      "reason": "Several words in the method are unreadable."
+    },
+    {
+      "field": "raw_files",
+      "text": "10/11",
+      "best_guess": null,
+      "reason": "Scan 11 assumed to continue scan 10."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #323",
+      "scope": null
+    }
+  }
+}

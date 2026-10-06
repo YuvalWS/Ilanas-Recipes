@@ -1,0 +1,93 @@
+{
+  "id": "b17-r05",
+  "batch": 17,
+  "title": "שוקיים עם כרשה ושזיפים",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים הדרושים",
+      "items": [
+        "12 שוקי עוף",
+        "3 כפות שמן זית",
+        "1 כף עלי אורגנו",
+        "4 שיני שום קלופות, חצויות לאורכן",
+        "6 כרשות טריות, חתוכות",
+        "[?] כפות דבש",
+        "4 כפות מיץ לימון",
+        "2 כוסות מים",
+        "מעט אגוז מוסקט מגורד",
+        "18 שזיפים מיובשים",
+        "מלח, פלפל שחור גרוס"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": "הכנה",
+      "steps": [
+        "[?] את השמן בסיר שטוח ורחב וכשהוא חם מטגנים ומשחימים בו את השוקיים היטב, סביב־סביב, ממליחים ומפלפלים. מוציאים [?] את השוקיים ומניחים בצד.",
+        "מוסיפים לסיר את האורגנו, השום והכרשות [?] כשתי דקות.",
+        "מחזירים פנימה את השוקיים, מערבבים. [?] את הדבש, מיץ הלימון והמים, ממליחים ומפלפלים ומוסיפים עוד מעט ומוסיפים גם את אגוז [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Right-hand clipping in scan 04. Its right edge is torn away: the first letters of the last ingredient lines and steps are missing, so bracketed words in the steps are the likely reading of torn line starts and are not certain. The first digit of several ingredient quantities (the '1', '3', '4' column) is torn and the amount for honey ('כפות דבש') is lost. The title is cut at the top right ('שוקיים עם כרשה ושזיפים').",
+    "The steps end mid-sentence at the bottom edge of the scan.",
+    "Independent reread replaced contextual bracket reconstructions at torn edges with [?]; guesses retained separately.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-04.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[5]",
+      "text": "[?] כפות דבש",
+      "best_guess": null,
+      "reason": "The number is torn away."
+    },
+    {
+      "field": "instructions",
+      "text": "all steps",
+      "best_guess": null,
+      "reason": "Line starts are torn away; words in brackets are inferred from context and the rest of the recipe is cut at the bottom."
+    },
+    {
+      "field": "source",
+      "text": "(publication)",
+      "best_guess": null,
+      "reason": "No publication or date visible."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": "מחממים; מהסיר; ומטגנים; מוסיפים; המוסקט",
+      "reason": "Claude had inserted bracketed contextual reconstructions at torn-away line starts; these are guesses, not scan-confirmed text."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

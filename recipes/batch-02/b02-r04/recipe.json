@@ -1,0 +1,108 @@
+{
+  "id": "b02-r04",
+  "batch": 2,
+  "title": "עוגיות במילוי אינסטנט",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 קמח אוסם",
+        "1 מרגרינה",
+        "3 חלמונים",
+        "1/4 כוס מים",
+        "2 כפות חומץ"
+      ]
+    },
+    {
+      "group": "left bracket (dough handling notes)",
+      "items": [
+        "ללוש במולינקס",
+        "כ-[?] דקות",
+        "לחלק [?] [?]",
+        "[?] [?] [?]",
+        "[?] [?] במילוי"
+      ]
+    },
+    {
+      "group": "מילוי",
+      "items": [
+        "3 חלבונים",
+        "1 אינסטנט וניל",
+        "3/4 כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "ולמקרר כ-12 שעות",
+        "להקציף ו[?]",
+        "לחלק הבצק ל-4 חלקים [?]",
+        "ולפזר [?] [?] ואבקת סוכר"
+      ]
+    }
+  ],
+  "notes": [
+    "The word 'אינסטנט' appears both in the title and in the filling list; Gemini reads it the same way and it matches the ink in both places.",
+    "Gemini's 'חבילה' (package), 'פודינג' (pudding), the oven temperature and baking/rolling/shaping steps, and 'about half an hour' of resting are not visible on the card and were not copied. Gemini also missed the card's 'כ-12 שעות' (about 12 hours) line.",
+    "The card line 'לחלק הבצק ל-4 חלקים' independently supports Gemini's reading of 4 portions in the left bracket, but the digit in the bracket line itself was not confirmed.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [
+    "Printed Holiday Inn Select logo and footer 'FOR RESERVATIONS 1-800-HOLIDAY' (hotel notepad paper)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2105-04.jpg",
+      "original_path": "Batch 2/Scanned_20261004-2105-04.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[1]",
+      "text": "left bracket lines 2-5",
+      "best_guess": "Gemini: line 2 'כ-5 דקות' (about 5 minutes); line 3 'לחלק ל-4 כדורים'; line 4 'להניח במקרר כחצי שעה' (Gemini's reading; not confirmed on the ink). Lines 1 'ללוש במולינקס' confirmed.",
+      "reason": "Shaky handwriting; line 2's digit looks like a lamed-like glyph (5 per Gemini); lines 3-5 only partly legible, and line 5 ends with 'במילוי'."
+    },
+    {
+      "field": "instructions[0].steps[1]",
+      "text": "להקציף ו[?]",
+      "best_guess": "Gemini: ולמלא; earlier reading: ולמשוח",
+      "reason": "Second word beside the filling bracket; the two readings differ and the ink does not clearly match either."
+    },
+    {
+      "field": "instructions[0].steps[2]",
+      "text": "לחלק הבצק ל-4 חלקים [?]",
+      "best_guess": "Gemini: ולרדד (to roll out)",
+      "reason": "The word after 'חלקים' has a round middle letter that does not look like 'ר'; not confirmed."
+    },
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "ולפזר [?] [?] ואבקת סוכר",
+      "best_guess": null,
+      "reason": "Two words between 'ולפזר' and 'ואבקת סוכר' are not readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

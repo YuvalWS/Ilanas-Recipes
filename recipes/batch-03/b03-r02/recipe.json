@@ -1,0 +1,103 @@
+{
+  "id": "b03-r02",
+  "batch": 3,
+  "title": "פרגיות",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] פלפל שחור",
+        "פפריקה",
+        "[?] שני שום",
+        "חרדל",
+        "דבש"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] חתיכות [?]",
+        "[?] הבשר ו[?] [?]חות",
+        "להכניס לתנור 200° כחצי שעה עד שמתקבל צבע יפה",
+        "ולהוסיף כוס מים ולכסות",
+        "היטב בניר כסף",
+        "[?] 1.5 שעות, [?] הניר",
+        "ועוד כחצי שעה עד שמתקבל צבע יפה",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Shaky handwriting; the line order follows the card. The oven temperature 200°, '1.5 שעות' and the phrase about 'half an hour until a nice color is obtained' are the most legible parts.",
+    "There is a drawn line under the last text line.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2110-03.jpg",
+      "original_path": "Batch 3/Scanned_20261004-2110-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "[?] פלפל שחור",
+      "best_guess": "Gemini lists soy sauce, oil, sugar here; not confirmable on the scan",
+      "reason": "The words before 'פלפל שחור' are unreadable. Gemini also reads 'סוכר' where the card appears to say 'דבש' (not accepted)."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "[?] שני שום",
+      "best_guess": "Gemini: שום (no word/number before it)",
+      "reason": "Word before 'שני שום' unreadable."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "first instruction line",
+      "best_guess": "Gemini: לגרוב כפפות ולמרוח ... (does not match the ink; not accepted)",
+      "reason": "Line not readable."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "[?] הבשר ו[?] [?]חות",
+      "best_guess": "First word possibly מעל",
+      "reason": "Several words unreadable."
+    },
+    {
+      "field": "instructions[5]",
+      "text": "[?] 1.5 שעות, [?] הניר",
+      "best_guess": "Gemini: להסיר את נייר הכיסוי (verb 'להסיר'); earlier reading: 'להוסיף'. First word possibly לאפות",
+      "reason": "The first word and the verb before 'הניר' are unclear; '1.5' is legible."
+    },
+    {
+      "field": "instructions[7]",
+      "text": "last line",
+      "best_guess": null,
+      "reason": "Last handwritten line (possibly a closing word) is not readable; Gemini did not read it either."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_with_gemini_second_opinion",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "b07-r17",
+  "batch": 7,
+  "title": "סלט הפתעות",
+  "source": {
+    "text": "אהרוני",
+    "type": "person",
+    "as_written": "אהרוני",
+    "uncertain": false,
+    "role": "chef"
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 כפות שמן זית",
+        "2 כפות מיץ לימון",
+        "2 כפות תרכיז מיץ רימונים",
+        "1-2 כפות דבש",
+        "מלח, פילפל"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לפזר גרגרי רימון על [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Lower block of the card of scan 17 (below the ruled line; the upper block is recipe b07-r16): a short heading underlined with a wavy line, then a dressing list (5 tbsp olive oil, 2 tbsp lemon juice, honey).",
+    "The heading is a short word starting with 'א' (possibly a name); not fully readable.",
+    "ditto marks expanded (each stands for 'כפות').",
+    "The Gemini file in this folder describes a different recipe (cauliflower fritters) and was not used.",
+    "Owner (2026-10-06): אהרוני is a chef (a person, but a professional source, listed with the publication writers)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-17.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-17.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Final pomegranate line cropped."
+    },
+    {
+      "field": "notes",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Same scan also has upper salad dressing with circled honey correction; primary lower Ah aroni block separate."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (chef אהרוני)",
+      "scope": "role 'chef' only"
+    }
+  }
+}

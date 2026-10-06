@@ -1,0 +1,10 @@
+{
+  "batch": 12,
+  "title": "עוף",
+  "title_en": "Chicken",
+  "title_status": "ai_suggested",
+  "description": "Chicken dishes (thighs in marinade, oven chicken, chicken with rice), almost all handwritten on cards, several scanned upside down. (Two follow-up cards were merged into their recipes: scan -10 is the back of b12-r07, scan -03 the second card of b12-r02; ids b12-r03 and b12-r08 are intentionally unused.) (Later, scan -12, formerly b12-r10, was merged into b12-r09 as its second card; the id is unused.)",
+  "scan_folder": "Batch 12",
+  "scan_count": 12,
+  "recipe_count": 7
+}

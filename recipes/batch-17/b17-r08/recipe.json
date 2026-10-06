@@ -1,0 +1,119 @@
+{
+  "id": "b17-r08",
+  "batch": 17,
+  "title": "שוקיים",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "10 שוקיים",
+        "2 כפות קטשופ",
+        "1 כף בר־בקיו",
+        "1 כף פפריקה מתוקה",
+        "1 כף תבלין עוף",
+        "5 כפות שמן זית",
+        "1/2 כפית מלח",
+        "1/2 כוס מים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב עם השוקיים. לתבנית על נייר אפיה",
+        "לחמם תנור 250°",
+        "להכניס השוקיים 5 ד'",
+        "ללא מכסה",
+        "להנמיך 180°",
+        "(back) כ־45 דקות מכוסה [?]",
+        "(back) [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card 07 (white, upright): the first line reads '10 שוקיים' with a wavy underline, followed by eight lines with numerals in the right column and the last line of the card in a different (smaller) hand ('מערבבים עם השוקיים ... '). Card 08 is the back of 07 (scan was upside down and was rotated 180 degrees) with a short block of instructions at the top; bleed-through from the front fills the rest.",
+    "The list looks like a marinade/sauce for chicken drumsticks (ketchup, barbecue, paprika, chicken seasoning), but the card does not say so.",
+    "Independent reread resolved olive oil, ditto-expanded כף for barbecue sauce, and uncovered 250°/5 minutes followed by lowering to 180°. Final handwritten line remains uncertain.",
+    "Owner: '10 שוקיים' is the main ingredient and also underlined as the title; the title is 'שוקיים' and '10 שוקיים' is the first ingredient. Title reviewed by the owner (PR review, 2026-10-06); the rest of the transcription has NOT been proofread yet.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2231-07.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-07.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2231-08.jpg",
+      "original_path": "Batch 17/Scanned_20261004-2231-08.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "back"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "10 שוקיים",
+      "best_guess": "שוקיים",
+      "reason": "Read as the first line of the card; could be the number of drumsticks rather than a title."
+    },
+    {
+      "field": "ingredients[1]",
+      "text": "1 [?] בר־בקיו",
+      "best_guess": null,
+      "reason": "The first word is unclear."
+    },
+    {
+      "field": "ingredients[4]",
+      "text": "5 כפות שמן [?]",
+      "best_guess": null,
+      "reason": "The last word is unclear."
+    },
+    {
+      "field": "instructions",
+      "text": "card 08",
+      "best_guess": null,
+      "reason": "Only '180°' and 'מכוסה' are certain."
+    },
+    {
+      "field": "raw_files",
+      "text": "07/08",
+      "best_guess": null,
+      "reason": "Assumed to be two sides of one card."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #40 review comments",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #40 review comments",
+      "scope": "first ingredient '10 שוקיים' only"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

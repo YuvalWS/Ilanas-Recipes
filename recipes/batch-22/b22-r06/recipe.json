@@ -1,0 +1,75 @@
+{
+  "id": "b22-r06",
+  "batch": 22,
+  "title": "עוגת ביסקויט (משולש)",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ביצה",
+        "100 ג׳ קקאו",
+        "1/2 ק\"ג ביסקויט",
+        "1/4 ק״ג גבינה לבנה רזה",
+        "1 חב' מרגרינה",
+        "כוס סוכר"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "3×6 ביסקויט לטבול ב־1/2 כוס חלב + 2 כפות קוניאק.",
+        "לערבב חצי חב׳ מרגרינה + הקקאו והסוכר ואח״כ להוסיף הביצה.",
+        "לפרוס את הביסקויט לטבול ולמרוח התערובת [?] קטנים ולפרוס [?] שכבה [?] [?].",
+        "לבסוף להכניס למקרר לשעתיים."
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Graph-paper card; the second title line is boxed. At the bottom there is a line starting 'לקישוט: 3 כפות סוכר גדושות' (decoration).",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-0923-05.jpg",
+      "original_path": "Batch 22/Scanned_20261005-0923-05.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    },
+    {
+      "field": "instructions",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Words marked [?] could not be read reliably."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

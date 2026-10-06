@@ -1,0 +1,81 @@
+{
+  "id": "b11-r04",
+  "batch": 11,
+  "title": "מרק ירקות",
+  "source": {
+    "text": "מוטי",
+    "type": "person",
+    "as_written": "מוטי",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "[?] בצל",
+        "[?]",
+        "קישואים",
+        "גזר",
+        "סלרי",
+        "שורש",
+        "פרחי ברוקולי",
+        "כף אבקת מרק [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Very large, loosely formed handwriting; no line can be read reliably. A human who knows Ilana's handwriting is needed.",
+    "A short bracketed note in the upper right (two words) and a signature-like word with a flourish at the lower right (probably a person's name) are also unreadable.",
+    "Raw handwriting upside down; rotated only a scratch viewing copy. Marginal heading מרק ירקות / מוטי resolved. Final powder brand/word still uncertain.",
+    "Scan rotated 180 degrees at the owner's request (issue #328); the thumbnail was regenerated."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-05.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-05.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "[?]",
+      "best_guess": null,
+      "reason": "Upper quantities and last powder word not fully certified."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #328",
+      "scope": "scan rotated 180 degrees"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "b18-r11",
+  "batch": 18,
+  "title": null,
+  "source": {
+    "text": "רונית",
+    "type": "person",
+    "as_written": "רונית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "250 גר' צימוקים",
+        "250 גר' [?] [?]",
+        "2 [?] [?] ביצים",
+        "7 כפות קמח [?]",
+        "5 כפות סוכר",
+        "1 [?] [?] קמח [?]",
+        "(crossed out: 2 כפות סוכר)",
+        "כוס קמח אוסם"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Top line (title) is crowded and partly overwritten; a word at the top left ('רונית'?) might be a name. The ingredient list continues to the bottom of the card and one line ('2 כפות סוכר') is struck through.",
+    "Owner (chat, 2026-10-06): the source is רונית; the card has no title; it is some cake.",
+    "Suggested title 'עוגת צימוקים' added by AI on 2026-10-06 (not on the card; basis: owner: 'some cake'; ingredients are raisins, flour, eggs and sugar). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוגת צימוקים' (it is not written on the card)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2238-13.jpg",
+      "original_path": "Batch 18/Scanned_20261004-2238-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Items and quantities partly unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "confirmed untitled; the owner says it is a cake"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": null
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
+    }
+  },
+  "assigned_title": "עוגת צימוקים",
+  "assigned_title_status": "owner_approved",
+  "assigned_title_basis": "owner: 'some cake'; ingredients are raisins, flour, eggs and sugar"
+}

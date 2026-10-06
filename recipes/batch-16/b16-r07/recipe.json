@@ -1,0 +1,74 @@
+{
+  "id": "b16-r07",
+  "batch": 16,
+  "title": "כוסמת",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לחמם [?] בסיר",
+        "לטגן/להוסיף [?] [?] בצל [?] [?]",
+        "להוסיף [?] [?] לערבב",
+        "עם הכוסמת",
+        "לשפוך מים רותחים שיכסו,",
+        "ולבשל קצת,",
+        "להרתיח, להקטין הלהבה",
+        "לכסות חלקית",
+        "לקראת סוף הבישול להוסיף [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. Card in a printed frame with two staples at the top right; the title 'כוסמת' (buckwheat) is underlined. There are no ingredient lines; the card holds instructions only. The second line has a few words overwritten in black ink that cannot be read. The text runs down to the bottom edge of the card and may continue on another card (not found).",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2223-12.jpg",
+      "original_path": "Batch 16/Scanned_20261004-2223-12.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions[1..2]",
+      "text": "two lines",
+      "best_guess": null,
+      "reason": "Overwritten words are illegible."
+    },
+    {
+      "field": "instructions[8]",
+      "text": "last line",
+      "best_guess": null,
+      "reason": "The card ends mid-sentence ('להוסיף ...')."
+    },
+    {
+      "field": "source",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No source written."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

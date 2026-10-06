@@ -1,0 +1,79 @@
+{
+  "id": "b06-r14",
+  "batch": 6,
+  "title": "מושט",
+  "source": {
+    "text": "נורית",
+    "type": "person",
+    "as_written": "נורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "דג [?] [?]",
+        "[?] 3 [?]",
+        "[?] [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב",
+        "[?] [?] [?]",
+        "20 ד'",
+        "[?]",
+        "[?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Yellow memo card (same type as scan 14, without letterhead). Heading is 'מושט / [name]': dish name before the slash; the word after the slash is a person's name that could not be confirmed.",
+    "A curly bracket groups several lines, with the word 'לערבב' beside it. Only 'לערבב' and '20 ד'' are clearly legible; other lines are too cramped to confirm and are left as [?] with Gemini's reading recorded.",
+    "Source set by the owner (issue #327): נורית. (earlier reading: מרים)"
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2126-15.jpg",
+      "original_path": "Batch 6/Scanned_20261004-2126-15.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "all lines",
+      "best_guess": "Gemini: דג מושט שלם / חצי שן שום / כוסברה קצוצה (a digit 3 was seen in an earlier reading; Gemini has none)",
+      "reason": "Cramped handwriting; Gemini's words not confirmable on the scan."
+    },
+    {
+      "field": "instructions",
+      "text": "lines other than לערבב and 20 ד'",
+      "best_guess": "Gemini: בתנור / לפני ההגשה",
+      "reason": "Cannot confirm on the crop."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #327",
+      "scope": null
+    }
+  }
+}

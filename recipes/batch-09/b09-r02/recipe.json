@@ -1,0 +1,85 @@
+{
+  "id": "b09-r02",
+  "batch": 9,
+  "title": "צלי בקר ברוטב",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 1/2 ק\"ג כתף בקר לצלי, ששהה מחוץ למקרר כשעה",
+        "1 1/2 - 2 כפיות מלח",
+        "1 כפית פלפל שחור, גרוס",
+        "3 כפות שמן",
+        "2 בצלים בינוניים, קלופים וחתוכים לטבעות",
+        "2 גזרים בינוניים, קלופים וחתוכים לעיגולים",
+        "1 שורש סלרי בינוני, קלוף וחתוך לקוביות",
+        "2 כוסות יין אדום יבש",
+        "5 כוסות מים",
+        "3 גבעולי תימין",
+        "2 עלי דפנה"
+      ]
+    },
+    {
+      "group": "להסמכת הרוטב",
+      "items": [
+        "1/2 כוס מים",
+        "1 1/2 כפות קורנפלור או קמח"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "הבשר: מפזרים על הבשר חצי כפית מהמלח וכחצי כפית מהפלפל השחור הגרוס. מורחים את התבלינים על כל הבשר, כך שיחדרו מעט לתוכו.",
+        "מחממים את הסיר על להבה בינונית-גבוהה, יוצקים את השמן ומחממים. מכניסים את הבשר וצולים 3 דקות מכל צד (הופכים בעזרת שני מזלגות), עד שהוא משחים. מוציאים לצלחת.",
+        "מוסיפים לסיר את הבצל, הגזר ושורש הסלרי ומטגנים כ-5 דקות על להבה בינונית, עד שהבצל כמעט שקוף. במהלך הטיגון מערבבים את הירקות ומגרדים את תחתית הסיר בכף עץ, כדי להסיר שאריות מלאות טעם של הבשר ונוזלי הצלייה.",
+        "כשהבצל שקוף, מוסיפים לסיר את היין, המים, התימין, עלי הדפנה, המלח והפלפל הנותרים. מערבבים, מכסים את הסיר ומביאים לרתיחה.",
+        "כשהנוזל רותח, מחזירים את הבשר לסיר, מכסים, מנמיכים את הלהבה לנמוכה ומבשלים כשלוש שעות וחצי, עד שהבשר רך מאוד. במהלך הבישול הופכים את הנתח פעמיים, כדי שיתבשל כולו ברוטב. מדי פעם יוצקים על הבשר מהרוטב.",
+        "מוציאים את הבשר מהסיר ומניחים לצינון לטמפרטורת החדר, כשעה.",
+        "הרוטב: מסננים את הרוטב שנשאר בסיר לאחר הבישול, ומחזירים את הרוטב המסונן לסיר. מבשלים, ללא מכסה, על להבה בינונית-גבוהה, כעשר דקות, עד שהרוטב רותח (את הירקות ניתן לשמור, ולהגיש עם המנה).",
+        "בינתיים, מערבבים את הקמח או הקורנפלור עם המים, עד שמתקבל נוזל חלק ללא גושים. יוצקים אותו לסיר כשהרוטב מבעבע. מבשלים עוד כ-5 דקות תוך ערבוב ומסירים מהכירים. מניחים לצינון.",
+        "מעבירים את הבשר הצונן ואת הרוטב הצונן לכלי אחסון נפרדים, ומאחסנים במקרר, 5-6 שעות לפחות, ועדיף עד למחרת.",
+        "ההגשה: מעבירים את הבשר לקרש חיתוך. פורסים אותו לפרוסות ברוחב כ-1 1/2 ס\"מ. מניחים את פרוסות הבשר בסיר, יוצקים עליהן את הרוטב, ומחממים על להבה בינונית-נמוכה, עד שהרוטב מבעבע בעדינות והבשר חם. מגישים (אפשר לשמור במקרר, עד 4 ימים)."
+      ]
+    }
+  ],
+  "notes": [
+    "Printed two-page magazine spread (logo 'יש'), handwritten title in red at the top. Serves 6. The long printed introduction on the right page (about the classic pot roast and three keys: suitable cut, a good pot, and 'hot-cold' method) is not transcribed.",
+    "Equipment list (הכלים): large plate; large pot with lid (preferably thick bottom); 2 forks; wooden spoon; cutting board; sharp knife; 2 containers for storing the meat and sauce; strainer.",
+    "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2).",
+    "Independent Codex rereading confirms the red title צלי בקר ברוטב and all recipe quantities/steps, including כעשר דקות in sauce preparation. The visible source logo is recorded as יש without inferring a magazine name, issue, or date.",
+    "Owner (issue #354): the card states no source."
+  ],
+  "incidental_text": [
+    "Magazine logo 'יש' and a long printed intro paragraph"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-02.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #354",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

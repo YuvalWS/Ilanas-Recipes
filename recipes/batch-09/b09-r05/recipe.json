@@ -1,0 +1,93 @@
+{
+  "id": "b09-r05",
+  "batch": 9,
+  "title": "צלי בקר ביין אדום",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "3 כפות שמן זית",
+        "1 כפית מלח",
+        "1/2 כפית פלפל שחור גרוס",
+        "1/2 כפית פפריקה מתוקה",
+        "1 נתח כתף בקר במשקל 1 1/2 - 2 ק\"ג",
+        "1 בצל, קלוף וחתוך לקוביות בגודל 1 ס\"מ",
+        "4 גזרים גדולים, קלופים וחתוכים לקוביות בגודל 1 ס\"מ",
+        "4 גבעולי סלרי עם העלים, פרוסים בעובי 1 ס\"מ",
+        "1 ראש שום, קלוף רק מהקליפות החיצוניות",
+        "2 1/2 כוסות יין אדום (כמו מרלו או קברנה סוביניון)"
+      ]
+    },
+    {
+      "group": "אפשרויות להגשה",
+      "items": [
+        "קוסקוס עם דלעת, חומוס ופיסטוקים (ראו מתכון בעמוד משמאל) או אורז או פירה"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "מחממים את השמן בסיר כבד בעל תחתית עבה, שיכול להכיל בנוחות את נתח הבקר. מתבלים את הנתח במלח, בפלפל ובפפריקה, מכל צדדיו. שמים את הנתח בסיר ומטגנים על להבה בינונית-גבוהה כמה דקות מכל צד, עד שהנתח מזהיב מאוד. מוציאים ומעבירים לצלחת.",
+        "מוסיפים לסיר את הבצל, הגזר והסלרי, ומטגנים תוך ערבוב כמה דקות על להבה בינונית-גבוהה, ומדי פעם מקרצפים ומגרדים בעזרת כף עץ את קרקעית הסיר, כדי לערבב לתוך הירקות את כל המשקעים הטעימים שנדבקו לתחתית בשלב טיגון הבשר. מטגנים עד שהירקות רכים והבצל שקוף. יוצקים פנימה את היין ומבשלים כמה דקות על להבה גבוהה. מחזירים לסיר את הבשר, מכסים את הסיר, מנמיכים את הלהבה לנמוכה מאוד ומבשלים שעתיים-שעתיים וחצי, במהלכן הופכים את הנתח בסיר מדי פעם, ויוצקים על חלקו העליון את הרוטב. הצלי מוכן כשהוא רך מאוד. מכבים את הלהבה ושומרים בתוך הרוטב עד להגשה.",
+        "ההגשה: מוציאים את הנתח ופורסים לפרוסות בעובי 1-2 ס\"מ. מגישים עם תוספת הקוסקוס (המתכון משמאל) או עם אורז או פירה. אפשר לסנן את הרוטב, ולהגיש אותו לצד הצלי [paper torn at the lower right]"
+      ]
+    }
+  ],
+  "notes": [
+    "Printed clipping, 10 servings; the title in red print at the top is partly damaged (read as 'צלי בקר ביין אדום'). The intro lines are not transcribed. The bottom edge of the clipping is torn and creased, so the last lines of step 2 and step 3 are partly hidden.",
+    "Printed ranges (e.g. '2-1') are typeset right-to-left and are written here in the usual order (1-2).",
+    "Owner (chat, 2026-10-06): confirmed that there is no source on the clipping. The earlier placeholder source '(printed clipping, publication not shown)' was removed."
+  ],
+  "incidental_text": [
+    "Printed intro lines at the top (not transcribed)"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-06.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "title",
+      "text": "צלי בקר ביין אדום",
+      "best_guess": "צלי בקר ביין אדום",
+      "reason": "Title in red print is partly damaged/faded."
+    },
+    {
+      "field": "instructions[2]",
+      "text": "last line",
+      "best_guess": null,
+      "reason": "The lower right corner is torn; the end of the sentence is missing."
+    },
+    {
+      "field": "instructions[1]",
+      "text": "lines near the crease",
+      "best_guess": null,
+      "reason": "A few words near the fold/tear (around 'שעתיים-שעתיים וחצי') are slightly damaged but readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

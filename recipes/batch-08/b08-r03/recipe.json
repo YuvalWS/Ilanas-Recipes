@@ -1,0 +1,146 @@
+{
+  "id": "b08-r03",
+  "batch": 8,
+  "title": "כרתי",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "החלק הבשרי והק[?]",
+        "לבשל, קוביות קטנות, קצת",
+        "מלח אפשר טיפת מלח [?]",
+        "מים, שמן, לאדות לערבל טחון במג'י [?]",
+        "וקציצות מעט [?] מאד טובות [?]"
+      ]
+    },
+    {
+      "group": "כרתי [?] (תחילת כתיבה חוזרת בצד ב', לא הושלמה)",
+      "steps": [
+        "להרתיח, לסנן המים, לטחון במג'ימיקס"
+      ]
+    }
+  ],
+  "notes": [
+    "Transcribed by the owner (Yuval) from the rescan Batch 8/Scanned_20261005-1649-01/02.jpg on 2026-10-05, not parsed by AI; the text is as he typed it, including his [?] marks. Replaces the earlier AI reading of the older, poorer scans (Scanned_20261004-2146-03/04.jpg, still kept in raw/ of b08-r02).",
+    "Part of handwritten sheet b08-card-01 with b08-r02, b08-r03, b08-r04, b08-r05 (the other recipes on the same sheet).",
+    "The card is free-form shorthand (ingredients and steps run together), so the lines are kept as written in 'instructions'.",
+    "Side B (bottom): the owner notes that it looks like a fresh start of writing this recipe and then it stops (incomplete).",
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
+  ],
+  "incidental_text": [
+    "Printed footer at the bottom of side A (part of the paper used as a notepad): a logo and 'איכות חיים לכל החיים'."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261005-1649-01.jpg",
+      "original_path": "Batch 8/Scanned_20261005-1649-01.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front",
+      "regions": [
+        {
+          "x": 0.03,
+          "y": 0.262,
+          "w": 0.95,
+          "h": 0.283
+        }
+      ]
+    },
+    {
+      "file": "raw/Scanned_20261005-1649-02.jpg",
+      "original_path": "Batch 8/Scanned_20261005-1649-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back",
+      "regions": [
+        {
+          "x": 0.02,
+          "y": 0.495,
+          "w": 0.96,
+          "h": 0.13
+        }
+      ]
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "החלק הבשרי והק[?]",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own transcription of the card."
+    },
+    {
+      "field": "instructions",
+      "text": "מלח אפשר טיפת מלח [?]",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own transcription of the card."
+    },
+    {
+      "field": "instructions",
+      "text": "במג'י [?]",
+      "best_guess": "במג'ימיקס",
+      "reason": "Owner's note: 'מג'י' most likely means מג'ימיקס (hand blender)."
+    },
+    {
+      "field": "instructions",
+      "text": "מעט [?]",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own transcription of the card."
+    },
+    {
+      "field": "instructions",
+      "text": "טובות [?]",
+      "best_guess": null,
+      "reason": "Marked [?] by the owner in his own transcription of the card."
+    },
+    {
+      "field": "instructions",
+      "text": "כרתי [?] (side B)",
+      "best_guess": null,
+      "reason": "Owner marked the heading of the restart on side B with [?]."
+    }
+  ],
+  "transcription": {
+    "method": "human_transcription_by_owner",
+    "date": "2026-10-05",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-05"
+  },
+  "card": {
+    "id": "b08-card-01",
+    "kind": "handwritten_note",
+    "recipes": [
+      "b08-r02",
+      "b08-r03",
+      "b08-r04",
+      "b08-r05"
+    ],
+    "position": "Side A, second recipe; a restart of the same recipe is at the bottom of side B.",
+    "note": "Written in blue ballpoint on the back of a printed newspaper footer (logo and the line 'איכות חיים לכל החיים'; the logo word looks like 'איטונג'). The sheet holds several short recipes one after the other and is split here into separate recipes (b08-r02 .. b08-r05) - check the other recipes of this card if one looks incomplete."
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (owner transcription)",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat (owner transcription)",
+      "scope": "typed by the owner from the rescan"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

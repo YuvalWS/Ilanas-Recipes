@@ -1,0 +1,106 @@
+{
+  "id": "b99-r02",
+  "batch": 99,
+  "title": "חרוסת",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1 ק\"ג שזיפים ללא גרעינים"
+      ]
+    },
+    {
+      "group": "4 סוגי אגוזים (סוגר: לטחון ×2)",
+      "items": [
+        "400 שקדים",
+        "400 אגוזי מלך",
+        "400 אגוזי לוז",
+        "400 אגוז [?]"
+      ]
+    },
+    {
+      "group": "מתחת לקו",
+      "items": [
+        "750 גר' שזיפים",
+        "250 גר' תפוחים",
+        "350 גר' מישמש",
+        "250 צימוקים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לטחון ×2 (סוגר על ארבע שורות האגוזים)"
+      ]
+    }
+  ],
+  "notes": [
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Full proofreading typed by the owner (issue #406); it replaces the earlier AI reading. Ditto marks expanded: the mark under 'אגוזי' on the 400 hazelnut line stands for 'אגוזי'; the marks on the apples and apricot lines stand for \"גר'\" (the word above).",
+    "Owner (issue #406): it is not clear what exactly this recipe is: a haroset normally also has wine, and the owner and family thought dates too. A bracket on the right of the four nut lines says 'לטחון x 2'. Whether the lower block is part of the recipe or a separate recipe (maybe a compote/relish) is unclear."
+  ],
+  "incidental_text": [
+    "Another card is stuck behind it with tape at the top; a hand and a chair are visible in the photo."
+  ],
+  "raw_files": [
+    {
+      "file": "raw/3edb1f7b-image.jpg",
+      "original_path": "(photo sent in chat 2026-10-05) 3edb1f7b-image.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "front"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "400 אגוז [?]",
+      "best_guess": null,
+      "reason": "Owner (issue #406): it is not clear which nut the last line means."
+    },
+    {
+      "field": "recipe",
+      "text": "the lower list (750 / 250 / 350 / 250)",
+      "best_guess": null,
+      "reason": "Owner (issue #406): not clear whether the lower block is part of this recipe or a separate one, maybe a compote relish (לפתן)."
+    }
+  ],
+  "transcription": {
+    "method": "human_transcription_by_owner",
+    "date": "2026-10-06",
+    "human_verified": true,
+    "verified_by": "Yuval (owner)",
+    "verified_at": "2026-10-06"
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #406",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #406",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #406",
+      "scope": null
+    }
+  }
+}

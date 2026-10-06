@@ -1,0 +1,57 @@
+{
+  "id": "b20-r23",
+  "batch": 20,
+  "title": "עגבניות שרי",
+  "source": {
+    "text": "חגית",
+    "type": "person",
+    "as_written": "חגית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "שמן זית",
+        "מלח",
+        "שום (פרוס)",
+        "מיץ לימון",
+        "בצל ירוק"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Short card with a clear title 'עגבניות שרי / חגית' (wavy underline) and four lines of ingredients (no quantities and no method).",
+    "The second line reads 'מלח, שום (פרוס)'; the word in parentheses was the least clear on the scan. Confirmed by the owner (issue #315): the word in parentheses after שום is 'פרוס'.",
+    "Short ingredient-only note; no quantities or separate preparation were written."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2248-26.jpg",
+      "original_path": "Batch 20/Scanned_20261004-2248-26.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": false,
+  "confidence": "high",
+  "uncertainties": [],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #315",
+      "scope": "the word 'פרוס' after שום only"
+    }
+  }
+}

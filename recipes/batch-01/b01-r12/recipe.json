@@ -1,0 +1,111 @@
+{
+  "id": "b01-r12",
+  "batch": 1,
+  "title": "עוגת תפוע\"ץ",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כוסות תפוע\"ץ חתוכים לקוביות קטנות.",
+        "להשרות את התפוחים ביין או שרי למשך 1/2 שעה.",
+        "[?] גר' צימוקים",
+        "להוסיף:"
+      ]
+    },
+    {
+      "group": "לערבב",
+      "items": [
+        "2 כוסות קמח אוסם",
+        "1/2 כוס שמן",
+        "3 ביצים",
+        "קליפת לימון מגורדת",
+        "1.5 כוסות סוכר"
+      ]
+    },
+    {
+      "group": null,
+      "items": [
+        "חלק מ-100 גר' אגוזים קצוצים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לשים את הכל בתבנית משומנת עגולה",
+        "לפזר למעלה את שאר האגוזים וקינמון.",
+        "(לאפות בחום בינוני בתחתית התנור)",
+        "מקציפים החלבונים [?] סוכר והוניל בהדרגה",
+        "את הקצף על המלית אופים יחד בחום בינוני כ[?] דק' עד שהקצף משחים."
+      ]
+    }
+  ],
+  "notes": [
+    "A horizontal line separates the cake part from a final paragraph about a beaten egg-white (meringue) topping.",
+    "Gemini's 'שהקצף משחים' was checked against the scan: the last word clearly reads 'משחים' (browns), replacing the earlier guess 'מזהיב'.",
+    "Independent Codex rereading resolves הכל and המלית from the enlarged preparation. The overwritten raisin quantity and missing baking duration remain unresolved; no 30-minute duration was inferred from Gemini.",
+    "Owner (2026-10-06): checked the card; it states no source.",
+    "Owner (issue #405): the card writes 'תפוע\"ץ' (an abbreviation of תפוח עץ, apple), in the title and in the first ingredient line; the earlier reading 'תפו\"ע' was wrong."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2101-11.jpg",
+      "original_path": "Batch 1/Scanned_20261004-2101-11.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[0].items[2]",
+      "text": "[?] גר' צימוקים",
+      "best_guess": "Gemini: 100; earlier reading: 200 (or 250/150)",
+      "reason": "The first digit of the quantity is overwritten (a corrected digit) and cannot be read; the following two characters look like zeros but the middle one is small and smudged. The word reads as 'צימוקים' (raisins), which both readings agree on."
+    },
+    {
+      "field": "instructions[0].steps[3]",
+      "text": "החלבונים [?] סוכר",
+      "best_guess": "Gemini: עם יתרת (not visible on the card); earlier reading: + / עם",
+      "reason": "A small L-shaped mark between 'החלבונים' and 'סוכר'; probably a plus sign or abbreviation meaning 'with'. Cannot confirm."
+    },
+    {
+      "field": "instructions[0].steps[4]",
+      "text": "כ[?] דק'",
+      "best_guess": "Gemini: 30 (not visible on the scan; not confirmed)",
+      "reason": "The left edge of the paper is torn right after 'כ'; the number of minutes is missing/lost."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #405",
+      "scope": "the word תפוע\"ץ only"
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #405",
+      "scope": "the word תפוע\"ץ in the first line only"
+    }
+  }
+}

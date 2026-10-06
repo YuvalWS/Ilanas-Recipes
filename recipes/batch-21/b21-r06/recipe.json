@@ -1,0 +1,80 @@
+{
+  "id": "b21-r06",
+  "batch": 21,
+  "title": "קוביות חזה עוף מאודות",
+  "source": null,
+  "medium": "clipping",
+  "ingredients": [
+    {
+      "group": "החומרים הדרושים",
+      "items": [
+        "3 חזות עוף, מנוקים משומן וגידים, חתוכים לקוביות של כ־2 ס\"מ",
+        "2 כפות רוטב סויה",
+        "3 כפות מיץ ליים או לימון",
+        "2 שיני שום, קצוצות דק",
+        "1 כף ג'ינג'ר טרי, קצוץ דק",
+        "1 פלפל צ'ילי אדום חריף, פרוס דק",
+        "1 כפית סוכר חום",
+        "1 כפית שמן שומשום",
+        "מלח, פלפל שחור גרוס"
+      ]
+    },
+    {
+      "group": "מעל לעוף",
+      "items": [
+        "3 בצלים ירוקים, חתובים לפרוסות אלכסוניות",
+        "1 כוס נבטים סיניים טריים ופריכים",
+        "חצי כוס עלי כוסברה טריים"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "שמים בצלחת עמוקה מעט את קוביות העוף עם כל יתר החומרים (לא כולל החומרים של \"מעל לעוף\", כלומר: הבצל הירוק, הנבטים והכוסברה) ומערבבים.",
+        "שמים את צלחת העוף בכלי אידוי מבמבוק, מניחים אותו סגור על סיר ובו מים רותחים ומאדים 10 דקות.",
+        "בינתיים מערבבים את הבצל הירוק, הנבטים והכוסברה."
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Fully legible printed clipping; a pin or scratch crosses the top-right of the title. No byline.",
+    "'חתובים' (probably printed typo for 'חתוכים') and 'מבמבוק' are copied as printed. The printed list ends at step 3; the rest of the clipping is cut off or was not kept.",
+    "Owner (2026-10-06): checked the card; it states no source."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2252-07.jpg",
+      "original_path": "Batch 21/Scanned_20261004-2252-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "high",
+  "uncertainties": [
+    {
+      "field": "ingredients[1].items[0]",
+      "text": "חתובים",
+      "best_guess": "חתוכים",
+      "reason": "Printed typo, copied as printed."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat: owner checked all recipes in 'no source (not yet checked)'",
+      "scope": "confirmed: no source on the card"
+    }
+  }
+}

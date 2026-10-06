@@ -1,0 +1,82 @@
+{
+  "id": "b11-r12",
+  "batch": 11,
+  "title": "מרק אפונה",
+  "source": {
+    "text": "דורית",
+    "type": "person",
+    "as_written": "דורית",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 כוסות אפונה יבשה",
+        "2 גזרים",
+        "1 בצל בינוני",
+        "1/4 כפית פלפל",
+        "4 כפות שמן",
+        "1 כפית כמון",
+        "מעט [?] אבקת מרק [?] [?]",
+        "(1 [?])",
+        "[?] כוסות מים"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Yellow memo card of a contracting company (printed letterhead with phone/fax), stapled to other papers. The title is underlined 'מרק אפונה' with a name after the slash that is unclear. Only an ingredient list is written; there is no method. The back side's writing shows through faintly.",
+    "The second ingredient line may read 'כוסות' (cups) or 'קופסאות' (cans); the third word (frozen / green?) is partly unclear.",
+    "Source set by the owner (issue #336): דורית."
+  ],
+  "incidental_text": [
+    "Printed letterhead of a contracting company with logo, phone and fax numbers"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-13.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-13.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "2 [?] אפונה [?]",
+      "best_guess": null,
+      "reason": "Unit and qualifier unclear."
+    },
+    {
+      "field": "ingredients[6]",
+      "text": "מעט [?] אבקת מרק [?] [?]",
+      "best_guess": null,
+      "reason": "Words around 'אבקת מרק' unclear."
+    },
+    {
+      "field": "ingredients[8]",
+      "text": "[?] כוסות מים",
+      "best_guess": null,
+      "reason": "Last line at the bottom is only partly readable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #336",
+      "scope": null
+    }
+  }
+}
