@@ -24,7 +24,8 @@
     "Bottom piece of the collage in scan 02: steps 3-5 of a recipe whose title and ingredients are not on the scan (the text mentions 'marinade', cranberries ('חמוציות'), celery, carrot, thyme, garlic and onions). Two sentences are highlighted in yellow marker ('צולים 15־20 דקות... עד שנתחי העוף מזהיבים...', 'מסדרים את הירקות בין נתחי העוף וצולים 15־20 דקות ללא כיסוי...'). A 'המשך' marker and the date 22.10.2012 are printed at the bottom.",
     "This is a fragment: steps 1-2 and the ingredient list of this recipe are not in the scan folder as far as seen.",
     "Independent reread confirms the lower fragment publication לאשה and date 22.10.2012; corrected the duplicated ה in והגזר.",
-    "Suggested title 'עוף צלוי עם ירקות מקורמלים' added by AI on 2026-10-06 (not on the card; basis: method fragment: roasting chicken, caramelising vegetables, final uncovered roasting (a clipping, step 3 onward)). Awaiting the owner's approval."
+    "Suggested title 'עוף צלוי עם ירקות מקורמלים' added by AI on 2026-10-06 (not on the card; basis: method fragment: roasting chicken, caramelising vegetables, final uncovered roasting (a clipping, step 3 onward)). Awaiting the owner's approval.",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוף צלוי עם ירקות מקורמלים' (it is not written on the card)."
   ],
   "incidental_text": [
     "Printed 'המשך' marker and date 22.10.2012 with a section-name box"
@@ -66,9 +67,15 @@
       "date": "2026-10-06",
       "via": "owner's review of all open recipes (no comment = confirmed)",
       "scope": "confirmed untitled"
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   },
   "assigned_title": "עוף צלוי עם ירקות מקורמלים",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "method fragment: roasting chicken, caramelising vegetables, final uncovered roasting (a clipping, step 3 onward)"
 }

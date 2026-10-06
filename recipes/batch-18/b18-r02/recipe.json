@@ -36,7 +36,8 @@
     "Handwriting is only partly legible; unreadable words are [?]. Card with a printed logo 'רשות הדואר - דואר קדימה' at the bottom and a signature-like word at the left ('רונית?'). The word 'תפוחים' appears in the text, so this may be an apple cake, but the card has no title. Only the first line ('3 ביצים שלמות, מקצפים') and a few fragments can be read.",
     "Suggested title 'עוגת תפוחים' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: apples and 3 eggs; method pours batter between the apples (weak guess)). Awaiting the owner's approval.",
     "Owner's review (unsubmitted-review comments, read 2026-10-06): the card is untitled, and the source is 'Niki B' (spelling as typed by the owner).",
-    "Owner (2026-10-06): ניקי = Niki B, a chef (a person; listed with the publication writers)."
+    "Owner (2026-10-06): ניקי = Niki B, a chef (a person; listed with the publication writers).",
+    "Owner (chat, 2026-10-06): accepted the suggested title 'עוגת תפוחים' (it is not written on the card)."
   ],
   "incidental_text": [
     "Printed on the card: logo and 'רשות הדואר - דואר קדימה'"
@@ -73,7 +74,7 @@
     "verified_at": null
   },
   "assigned_title": "עוגת תפוחים",
-  "assigned_title_status": "ai_suggested",
+  "assigned_title_status": "owner_approved",
   "assigned_title_basis": "apples and 3 eggs; method pours batter between the apples (weak guess)",
   "proofread": {
     "title": {
@@ -87,6 +88,12 @@
       "date": "2026-10-06",
       "via": "PR #70 pending review",
       "scope": null
+    },
+    "assigned_title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "accepted the suggested title"
     }
   }
 }
