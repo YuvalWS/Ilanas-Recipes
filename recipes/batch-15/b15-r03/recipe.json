@@ -1,0 +1,63 @@
+{
+  "id": "b15-r03",
+  "batch": 15,
+  "title": "לביבות תירס",
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "1-2 ביצים",
+        "[?] כוס חלב או שמנת",
+        "[?] כוס קמח תופח",
+        "מלח ופלפל",
+        "1 כוס תירס",
+        "שמן לטיגון"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "לערבב [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Handwriting is only partly legible; unreadable words are [?]. The title 'לביבות תירס' is written in a box on the left of the card. The ingredient list is in the upper right; fractions in front of the milk and flour lines are hard to read."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2217-03.jpg",
+      "original_path": "Batch 15/Scanned_20261004-2217-03.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[1]",
+      "text": "[?] כוס חלב או שמנת",
+      "best_guess": null,
+      "reason": "The fraction is unclear."
+    },
+    {
+      "field": "ingredients[2]",
+      "text": "[?] כוס קמח תופח",
+      "best_guess": null,
+      "reason": "The fraction and word after 'קמח' are unclear."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
