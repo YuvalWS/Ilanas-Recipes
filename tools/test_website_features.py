@@ -57,7 +57,8 @@ def make_fixture(data):
     c.update(title=None, assigned_title="שם מוצע לבדיקה", assigned_title_status="ai_suggested", medium="handwritten",
              source={"text": "שף בדיקה", "type": "person", "as_written": "שף בדיקה", "uncertain": False, "role": "chef"})
     # d: one of two recipes on the same note
-    d.update(title="מתכון שני על אותו פתק", medium="handwritten", source=None)
+    d.update(title="מתכון שני על אותו פתק", medium="handwritten", source=None,
+             proofread={"source": {"by": "Yuval (owner)", "date": "2026-10-06", "via": "test", "scope": "confirmed: no source on the card"}})
     a["card"] = {"id": "t-card-1", "kind": "handwritten_note", "recipes": [a["id"], d["id"]], "position": "למעלה", "note": None}
     d["card"] = {"id": "t-card-1", "kind": "handwritten_note", "recipes": [a["id"], d["id"]], "position": "למטה", "note": None}
     return fixture, a, b, c, d
@@ -113,6 +114,14 @@ def run(browser, base):
     expect(page.locator("#grid .card")).to_have_count(4)
     groups = page.locator("#f-source optgroup").evaluate_all(
         "gs => gs.map(g => [g.label, [...g.querySelectorAll('option')].map(o => o.value)])")
+    status = dict(groups)["מצב המקור"]
+    assert status == ["status:none-confirmed", "status:none-unchecked"], status
+    page.locator("#f-source").select_option("status:none-confirmed")          # no source, confirmed by the owner
+    assert [h for h in page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)")] == [f"#/{d['id']}"]
+    page.locator("#f-source").select_option("status:none-unchecked")          # no source recorded, not yet checked
+    assert page.locator("#grid .card a").evaluate_all("l => l.map(a => a.hash)") == [f"#/{a['id']}"]
+    page.locator("#f-source").select_option("")
+    expect(page.locator("#grid .card")).to_have_count(4)
     people = dict(groups)["אנשים"]
     pubs = dict(groups)["שפים, כותבים ומקורות בפרסומים"]
     assert "person:דנה" in people and "person:רונית" in people, groups      # source.names: listed under each name
