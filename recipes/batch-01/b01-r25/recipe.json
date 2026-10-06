@@ -25,7 +25,8 @@
   ],
   "notes": [
     "Text typed by the owner (PR #26). A short separate recipe (the crumb topping) at the bottom of the second page of the card of b01-r21; split into its own record and linked to it with the card field. 'ברייזעלעך' = crumbs/streusel; the margarine line has no unit on the card (as typed).",
-    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection."
+    "Frames on the scan (raw_files[].regions) marking where this recipe is on a sheet/clipping holding several recipes were drawn by AI on 2026-10-06, approximately; for the owner's inspection.",
+    "Owner (chat, 2026-10-06): confirmed that the card has no source."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -82,6 +83,12 @@
       "date": "2026-10-06",
       "via": "PR #26 comment (typed text)",
       "scope": null
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "chat",
+      "scope": "confirmed: no source on the card"
     }
   }
 }
