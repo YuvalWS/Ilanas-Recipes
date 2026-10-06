@@ -28,7 +28,8 @@
     }
   ],
   "notes": [
-    "Corrected by the owner in review comments on PR #293: his typed readings replace the earlier AI transcription of the same lines."
+    "Corrected by the owner in review comments on PR #293: his typed readings replace the earlier AI transcription of the same lines.",
+    "Suggested title 'עוגיות גבינה צהובה ושומשום (מלוחות)' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: savory dough: flour, margarine, onion-soup powder, grated yellow cheese; rolled, brushed with yolk and sesame). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -67,5 +68,8 @@
     "human_verified": true,
     "verified_by": "Yuval (owner)",
     "verified_at": "2026-10-06"
-  }
+  },
+  "assigned_title": "עוגיות גבינה צהובה ושומשום (מלוחות)",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "savory dough: flour, margarine, onion-soup powder, grated yellow cheese; rolled, brushed with yolk and sesame"
 }
