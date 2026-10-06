@@ -31,13 +31,26 @@
         "בתבנית [?] [?] שכבה [?]",
         "מהקרם ומטבילים עוד שכבה"
       ]
+    },
+    {
+      "group": "המשך בגב הכרטיס",
+      "steps": [
+        "ביסקוויטים טבולים בחלב.",
+        "עוד שכבת קרם ועוד",
+        "ביסקויטים טבולים בחלב",
+        "ומקפיאים - מעדן!",
+        "מעל הכל לשים ריץ'",
+        "אפשר לפזר שוקולד",
+        "מרוסק"
+      ]
     }
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. A bracket on the left groups a blue-ink note of five short lines that cannot be read. The title is underlined with a wavy line; the word after the slash (a name?) is unclear.",
     "Layered biscuit-and-cream cake; scan 02 (a card about biscuits dipped in milk) may be a continuation or a related card - not certain.",
     "Independent reread resolves cream-whipping vanilla product, white cheese, and instant vanilla; no missing package units supplied.",
-    "Source set by the owner (issue #359): ציפי פ.."
+    "Source set by the owner (issue #359): ציפי פ..",
+    "The method continues on the back of the card (scan -02, previously a separate record b13-r02, PR #51). Text typed by the owner; the word 'מעדן' is underlined on the card. Merged on 2026-10-06; the id b13-r02 is intentionally unused."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -45,7 +58,13 @@
       "file": "raw/Scanned_20261004-2209-01.jpg",
       "original_path": "Batch 13/Scanned_20261004-2209-01.jpg",
       "rotation_applied_cw_degrees": 180,
-      "side": "single"
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2209-02.jpg",
+      "original_path": "Batch 13/Scanned_20261004-2209-02.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "back"
     }
   ],
   "needs_human_verification": true,
@@ -77,6 +96,18 @@
       "date": "2026-10-06",
       "via": "issue #359",
       "scope": null
+    },
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #51 comment",
+      "scope": "identified scan -02 as the back/continuation of this recipe"
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #51 comment",
+      "scope": "continuation lines on the back typed by the owner; the front side is not covered"
     }
   }
 }
