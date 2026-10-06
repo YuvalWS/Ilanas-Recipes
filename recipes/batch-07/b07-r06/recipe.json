@@ -1,0 +1,68 @@
+{
+  "id": "b07-r06",
+  "batch": 7,
+  "title": "סלט סלק גזר",
+  "source": {
+    "text": "מיקי",
+    "type": "person",
+    "as_written": "מיקי",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": "right block (bracketed)",
+      "items": [
+        "שמן",
+        "מיץ לימון",
+        "סילן",
+        "מלח, פלפל"
+      ]
+    },
+    {
+      "group": "left block",
+      "items": [
+        "על שקית [?]",
+        "2 כפות",
+        "מעט דבש"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Heading 'סלט סלק גזר / מיכי' above a ruled line. Right block bracketed (oil, lemon juice, silan, salt/pepper); a scribbled word above it is unreadable (Gemini did not read it either).",
+    "The card writes 'סילן' (no alef)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2144-06.jpg",
+      "original_path": "Batch 7/Scanned_20261004-2144-06.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "medium",
+  "uncertainties": [
+    {
+      "field": "ingredients[1]",
+      "text": "על שקית [?]",
+      "best_guess": "Gemini: לקט כרוב (or שום/כרוב); earlier reading: שלמה",
+      "reason": "The line's last word is unclear and the readings differ; Gemini's guess is not supported by the ink."
+    },
+    {
+      "field": "notes",
+      "text": "scribbled word above the right block",
+      "best_guess": null,
+      "reason": "Heavily overwritten; unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  }
+}
