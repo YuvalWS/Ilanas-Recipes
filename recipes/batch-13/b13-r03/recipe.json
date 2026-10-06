@@ -3,10 +3,14 @@
   "batch": 13,
   "title": "עוגת גבינה",
   "source": {
-    "text": "שרה רוט",
+    "text": "שרה רוט (שושנה)",
     "type": "person",
-    "as_written": "שרה ר.",
-    "uncertain": true
+    "as_written": "שרה רוט (שושנה)",
+    "uncertain": false,
+    "names": [
+      "שרה רוט",
+      "שושנה"
+    ]
   },
   "medium": "handwritten",
   "ingredients": [
@@ -42,7 +46,8 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Handwriting is only partly legible; unreadable words are [?]. Title line reads 'עוגת גבינה / שרה ר.' with a second word in parentheses below that is unclear. A ruled line separates the beginning of the list from the rest; quantities are in the right-hand column.",
     "The back (scan 04, a card with a printed frame and a printed footer 'איכות חיים לכל החיים') carries only the baking temperatures: 10 min at 200 degrees, then 50 min at 150 degrees, plus a crossed-out '20'. The card is assumed to be the back of scan 03 (same recipe) - not certain.",
-    "Source set by the owner (issue #325): שרה רוט. The card reads 'שרה ר.'; the owner thinks it is probably short for שרה רוט (kept as uncertain)."
+    "Source set by the owner (issue #325): שרה רוט. The card reads 'שרה ר.'; the owner thinks it is probably short for שרה רוט (kept as uncertain).",
+    "Source set by the owner (issue #380): שרה רוט (שושנה). Two people are named on the card (listed under both names)."
   ],
   "incidental_text": [
     "Printed footer on scan 04: logo and the slogan 'איכות חיים לכל החיים' on a yellow band"
@@ -64,12 +69,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "source",
-      "text": "שרה ר. / (word in parentheses)",
-      "best_guess": "שרה ר.",
-      "reason": "Name read as 'שרה ר.'; the parenthetical word is unclear."
-    },
     {
       "field": "ingredients",
       "text": "several lines",
@@ -94,8 +93,8 @@
     "source": {
       "by": "Yuval (owner)",
       "date": "2026-10-06",
-      "via": "issue #325",
-      "scope": "name expansion 'שרה ר.' -> 'שרה רוט' is the owner's probable reading"
+      "via": "issue #380",
+      "scope": null
     }
   }
 }
