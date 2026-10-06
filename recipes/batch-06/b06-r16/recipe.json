@@ -33,7 +33,8 @@
     "Ditto marks expanded: '2 ״ קטשופ' = '2 כפות קטשופ' (the mark sits under 'כפות' of the line above). The ditto mark opening the 'יין לבן' line was not expanded because the words above it are unreadable.",
     "Gemini's line 5 ('1 כף שמן זית') was NOT adopted: the ink clearly ends with 'רוזמרין'. Gemini's 'חום בינוני' was NOT adopted: the ink reads 'חום רגיל'. Gemini's title, 'לערבב הכל ביחד', 'פרוסות הדג', 'שקדים טחונים', 'לבישול' and temperature were not confirmed on the card.",
     "The faint writing around the card is bleed-through from the reverse side and is ignored.",
-    "Handwriting in the lower lines is cramped; a human re-read is recommended."
+    "Handwriting in the lower lines is cramped; a human re-read is recommended.",
+    "Suggested title 'רוטב מיונז וקטשופ' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: mayonnaise, ketchup, rosemary, white wine). Awaiting the owner's approval."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -90,5 +91,8 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
-  }
+  },
+  "assigned_title": "רוטב מיונז וקטשופ",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "mayonnaise, ketchup, rosemary, white wine"
 }
