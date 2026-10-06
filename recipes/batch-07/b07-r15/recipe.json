@@ -2,11 +2,16 @@
   "id": "b07-r15",
   "batch": 7,
   "title": null,
-  "source": null,
+  "source": {
+    "text": "שושנה",
+    "type": "person",
+    "as_written": "שושנה",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
-      "group": null,
+      "group": "לתערובת המוכנה [?]",
       "items": [
         "שמן זית",
         "חרדל",
@@ -23,7 +28,8 @@
     "Upper-left note, line 1: 'כרוב לבן [?]' (a further partly cut-off word at the left end is unreadable). Line 2: '[?]'.",
     "A scribbled-out line at the top left (struck through with a wavy line) looks like a crossed-out title; unreadable.",
     "A scribble above the 5th ingredient ('חומץ') is unreadable (possibly a crossed-out or added word).",
-    "Suggested title 'רוטב חרדל וסויה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar). Awaiting the owner's approval."
+    "Suggested title 'רוטב חרדל וסויה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar). Awaiting the owner's approval.",
+    "Owner (PR #268 review comments): source שושנה; the ingredient group is labelled 'לתערובת המוכנה [?]'."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -77,5 +83,25 @@
   },
   "assigned_title": "רוטב חרדל וסויה",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar"
+  "assigned_title_basis": "dressing ingredients: oil, mustard, garlic, soy, vinegar, sugar",
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #268 review comments",
+      "scope": null
+    },
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #268 review comments",
+      "scope": "group label only"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    }
+  }
 }
