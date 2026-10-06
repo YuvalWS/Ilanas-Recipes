@@ -68,5 +68,19 @@
   },
   "assigned_title": "פרגיות בטריאקי עם בצל",
   "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "owner-typed text: onions, teriyaki, honey, and 'הפרגיות והמרינדה'"
+  "assigned_title_basis": "owner-typed text: onions, teriyaki, honey, and 'הפרגיות והמרינדה'",
+  "proofread": {
+    "ingredients": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #245 review comments",
+      "scope": null
+    },
+    "instructions": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #245 review comments",
+      "scope": null
+    }
+  }
 }
