@@ -101,5 +101,19 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #77 review comments",
+      "scope": "confirmed untitled"
+    },
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-05",
+      "via": "PR #77 review comments",
+      "scope": "first scan rotated 180 degrees"
+    }
   }
 }
