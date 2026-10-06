@@ -41,14 +41,15 @@
   "notes": [
     "Very large, loosely formed handwriting; no line can be read reliably. A human who knows Ilana's handwriting is needed.",
     "A short bracketed note in the upper right (two words) and a signature-like word with a flourish at the lower right (probably a person's name) are also unreadable.",
-    "Raw handwriting upside down; rotated only a scratch viewing copy. Marginal heading מרק ירקות / מוטי resolved. Final powder brand/word still uncertain."
+    "Raw handwriting upside down; rotated only a scratch viewing copy. Marginal heading מרק ירקות / מוטי resolved. Final powder brand/word still uncertain.",
+    "Scan rotated 180 degrees at the owner's request (issue #328); the thumbnail was regenerated."
   ],
   "incidental_text": [],
   "raw_files": [
     {
       "file": "raw/Scanned_20261004-2202-05.jpg",
       "original_path": "Batch 11/Scanned_20261004-2202-05.jpg",
-      "rotation_applied_cw_degrees": 0,
+      "rotation_applied_cw_degrees": 180,
       "side": "single"
     }
   ],
