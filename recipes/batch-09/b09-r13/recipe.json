@@ -2,7 +2,12 @@
   "id": "b09-r13",
   "batch": 9,
   "title": null,
-  "source": null,
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
+  },
   "medium": "handwritten",
   "ingredients": [
     {
@@ -45,7 +50,9 @@
   ],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Memo card of a contracting company (printed letterhead with phone/fax at the bottom). Five very large, loosely formed lines, none of which can be read reliably. Needs a human who knows Ilana's late handwriting.",
-    "Three cards that appear to be ONE recipe (PRs #85 and #102, noted by the owner as parts of another recipe): this card lists the sauce ingredients, scan -18 (b09-r14) the wine and vegetables, and scan -12 (b09-r10, Israbeton letterhead) the method ('pour the sauce, add the meat, cook several hours'). The grouping is inferred from the content - the cards do not say so. The ids b09-r10 and b09-r14 are intentionally unused."
+    "Three cards that appear to be ONE recipe (PRs #85 and #102, noted by the owner as parts of another recipe): this card lists the sauce ingredients, scan -18 (b09-r14) the wine and vegetables, and scan -12 (b09-r10, Israbeton letterhead) the method ('pour the sauce, add the meat, cook several hours'). The grouping is inferred from the content - the cards do not say so. The ids b09-r10 and b09-r14 are intentionally unused.",
+    "Owner (PR #98 review comments): source חיה (written faintly over the logo line); title not readable, maybe בקר.",
+    "Suggested title 'צלי בקר ברוטב עגבניות ויין' added by AI on 2026-10-06 (not on the card; basis: three cards: tomato paste, garlic, mustard, onion; wine, celery root, zucchini, carrots; 'pour the sauce, add the meat, cook for hours'). Awaiting the owner's approval."
   ],
   "incidental_text": [
     "Printed company letterhead at the bottom edge"
@@ -74,12 +81,6 @@
   "confidence": "low",
   "uncertainties": [
     {
-      "field": "title",
-      "text": null,
-      "best_guess": null,
-      "reason": "No surviving heading; card contains a short list only."
-    },
-    {
       "field": "ingredients",
       "text": "2/3 מים מכסה",
       "best_guess": null,
@@ -102,6 +103,12 @@
       "text": "several lines",
       "best_guess": null,
       "reason": "Parts of several lines are unreadable."
+    },
+    {
+      "field": "title",
+      "text": "(none)",
+      "best_guess": "בקר",
+      "reason": "Owner: not readable - written faintly on top of the note's logo line and torn; maybe בקר."
     }
   ],
   "transcription": {
@@ -117,6 +124,21 @@
       "date": "2026-10-06",
       "via": "PRs #85 and #102 comments",
       "scope": "owner noticed these cards are parts of another recipe; the exact grouping with this card is inferred from the content"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #98 review comments",
+      "scope": "written faintly over the logo line of the note"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #98 review comments",
+      "scope": "not readable (faint, torn); the owner thinks maybe 'בקר'"
     }
-  }
+  },
+  "assigned_title": "צלי בקר ברוטב עגבניות ויין",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "three cards: tomato paste, garlic, mustard, onion; wine, celery root, zucchini, carrots; 'pour the sauce, add the meat, cook for hours'"
 }
