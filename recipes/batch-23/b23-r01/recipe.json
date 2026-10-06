@@ -3,10 +3,10 @@
   "batch": 23,
   "title": "עוגת אגוזים",
   "source": {
-    "text": "[?]",
+    "text": "אפרת",
     "type": "person",
-    "as_written": "[?]",
-    "uncertain": true
+    "as_written": "אפרת",
+    "uncertain": false
   },
   "medium": "handwritten",
   "ingredients": [],
@@ -30,7 +30,8 @@
     }
   ],
   "notes": [
-    "Handwriting is only partly legible; unreadable words are [?]. The title reads 'עוגת …' followed by a word that is not clear (possibly a name). Several lines are only guessable (a nut and egg-white mixture baked on a flat tray). A phone number is written at the top of the card (not transcribed)."
+    "Handwriting is only partly legible; unreadable words are [?]. The title reads 'עוגת …' followed by a word that is not clear (possibly a name). Several lines are only guessable (a nut and egg-white mixture baked on a flat tray). A phone number is written at the top of the card (not transcribed).",
+    "Source set by the owner (issue #343): אפרת."
   ],
   "incidental_text": [
     "A phone number is written in the top margin above a rule (not transcribed)."
@@ -59,5 +60,13 @@
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
+  },
+  "proofread": {
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "issue #343",
+      "scope": null
+    }
   }
 }
