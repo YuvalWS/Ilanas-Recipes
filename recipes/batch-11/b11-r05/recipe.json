@@ -1,0 +1,84 @@
+{
+  "id": "b11-r05",
+  "batch": 11,
+  "title": null,
+  "source": null,
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "פטריות שמפיניון",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?]",
+        "[?] [?]",
+        "[?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Very large, loosely formed handwriting; no line can be read reliably. A human who knows Ilana's handwriting is needed.",
+    "Same hand and pen style as scan 05; it might be the continuation of that card, but this is not certain, so it is kept separate.",
+    "Scan rotated 180 degrees at the owner's request (PR #156); the thumbnail was regenerated.",
+    "Suggested title 'מתכון ללא כותרת (אוסף 11: מרקים)' added by AI on 2026-10-06 (not on the card; basis: no readable content to name the dish; named only by its collection). Awaiting the owner's approval.",
+    "Re-read 2026-10-09 (AI, again from the scan): the first line reads 'פטריות שמפיניון' (champignon mushrooms), which also matches the earlier independent look; the other lines (quantities/oil/seasoning) are still not readable. Kept open."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-06.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-06.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Unreadable."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "פטריות שמפיניון",
+      "best_guess": null,
+      "reason": "Read clearly on re-read, but only by AI; needs a human check."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_claude_2026-10-09",
+    "date": "2026-10-09",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #PR #156 comment review comments",
+      "scope": "scan rotated 180 degrees"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed untitled"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "owner's review of all open recipes (no comment = confirmed)",
+      "scope": "confirmed: no source on the card"
+    }
+  },
+  "assigned_title": "מתכון ללא כותרת (אוסף 11: מרקים)",
+  "assigned_title_status": "ai_suggested",
+  "assigned_title_basis": "no readable content to name the dish; named only by its collection"
+}
