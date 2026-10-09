@@ -9,7 +9,7 @@
     {
       "group": null,
       "steps": [
-        "[?] [?] [?] [?]",
+        "פטריות שמפיניון",
         "[?] [?] [?] [?]",
         "[?] [?] [?] [?]",
         "[?] [?] [?] [?]",
@@ -23,7 +23,8 @@
     "Very large, loosely formed handwriting; no line can be read reliably. A human who knows Ilana's handwriting is needed.",
     "Same hand and pen style as scan 05; it might be the continuation of that card, but this is not certain, so it is kept separate.",
     "Scan rotated 180 degrees at the owner's request (PR #156); the thumbnail was regenerated.",
-    "Suggested title 'מתכון ללא כותרת (אוסף 11: מרקים)' added by AI on 2026-10-06 (not on the card; basis: no readable content to name the dish; named only by its collection). Awaiting the owner's approval."
+    "Suggested title 'מתכון ללא כותרת (אוסף 11: מרקים)' added by AI on 2026-10-06 (not on the card; basis: no readable content to name the dish; named only by its collection). Awaiting the owner's approval.",
+    "Re-read 2026-10-09 (AI, again from the scan): the first line reads 'פטריות שמפיניון' (champignon mushrooms), which also matches the earlier independent look; the other lines (quantities/oil/seasoning) are still not readable. Kept open."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -42,11 +43,17 @@
       "text": "all",
       "best_guess": null,
       "reason": "Unreadable."
+    },
+    {
+      "field": "instructions[0]",
+      "text": "פטריות שמפיניון",
+      "best_guess": null,
+      "reason": "Read clearly on re-read, but only by AI; needs a human check."
     }
   ],
   "transcription": {
-    "method": "ai_read_from_scan",
-    "date": "2026-10-05",
+    "method": "ai_reread_claude_2026-10-09",
+    "date": "2026-10-09",
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
