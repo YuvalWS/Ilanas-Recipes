@@ -37,7 +37,7 @@ Confidence: high 84, medium 85, low 114. Flagged needs_human_verification: 239.
 | b07-r11 | 7 סלטים ורטבים | (no title read) | Batch 7/Scanned_20261004-2144-12.jpg | handwritten |
 | b09-r04 | 9 בשר בקר | בקר | Batch 9/Scanned_20261004-2153-04.jpg, Batch 9/Scanned_20261004-2153-05.jpg | handwritten |
 | b09-r08 | 9 בשר בקר | (no title read) | Batch 9/Scanned_20261004-2153-09.jpg, Batch 9/Scanned_20261004-2153-10.jpg | handwritten |
-| b09-r09 | 9 בשר בקר | צלי עגל | Batch 9/Scanned_20261004-2153-11.jpg | handwritten |
+| b09-r09 | 9 בשר בקר | צלי עגל | Batch 9/Scanned_20261004-2153-11.jpg, Batch 9/Scanned_20261004-2153-12.jpg | handwritten |
 | b09-r11 | 9 בשר בקר | בקר | Batch 9/Scanned_20261004-2153-13.jpg, Batch 9/Scanned_20261004-2153-14.jpg | handwritten |
 | b09-r12 | 9 בשר בקר | בשר בקר | Batch 9/Scanned_20261004-2153-15.jpg, Batch 9/Scanned_20261004-2153-16.jpg | handwritten |
 | b09-r16 | 9 בשר בקר | [?] | Batch 9/Scanned_20261004-2153-20.jpg | handwritten |
