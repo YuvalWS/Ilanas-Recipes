@@ -42,13 +42,30 @@
         "[?] [?] [?] עלי [?] מרוח [?] [?]",
         "[?] [?] [?] [?] [?] [?] ו[?] על שיני שום"
       ]
+    },
+    {
+      "group": "כרטיס נוסף (סריקה 12, ישראבטון): המשך הכנה - טרם אושר שהוא שייך לכאן",
+      "steps": [
+        "לשפוך רוטב",
+        "להכניס הבשר",
+        "לבשל מספר שעות [?] [?]",
+        "[?] ללהבה [?] נמוכה",
+        "[?] [?] ו[?] וחצי",
+        "[?]",
+        "לגזור החוט",
+        "לאחר [?] לפרוס ולהגיש עם הרוטב",
+        "[?] [?] שבל",
+        "אפשר [?] [?] אורות",
+        "[?]"
+      ]
     }
   ],
   "notes": [
     "Underlined heading 'צלי עגל / אהרון' (veal roast / Aharon). The upper block tells how to tie the roast with string, season it with thyme leaves, salt and pepper and sear it in hot oil; then a block headed 'רוטב:' (sauce) with a bracket at the left that groups a note on mixing with oil.",
     "A yellow sticker scribble overlaps the upper right corner of the scan and hides part of the first line.",
     "Many words in the lower half are unreadable, so the text is only partly transcribed.",
-    "Owner (2026-10-06): אהרוני is a chef (a person, but a professional source, listed with the publication writers)."
+    "Owner (2026-10-06): אהרוני is a chef (a person, but a professional source, listed with the publication writers).",
+    "Scan -12 (a card with an Israbeton letterhead) was attached to b09-r13 (PR #98) and the owner wrote that it seems unrelated. Its handwriting matches this card (-11) and its method ('pour the sauce, add the meat, cook for hours, cut the string, slice and serve with the sauce') fits a tied roast, so it was moved here as a possible second card, FOR THE OWNER'S INSPECTION (AI judgement from the handwriting and content; the cards do not say so). Its lines are only partly readable. The id b09-r10 stays unused."
   ],
   "incidental_text": [
     "Yellow scribbled sticky note overlapping the upper right corner"
@@ -59,6 +76,12 @@
       "original_path": "Batch 9/Scanned_20261004-2153-11.jpg",
       "rotation_applied_cw_degrees": 0,
       "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2153-12.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-12.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "unknown"
     }
   ],
   "needs_human_verification": true,
@@ -69,11 +92,23 @@
       "text": "most lines",
       "best_guess": null,
       "reason": "Only isolated phrases are readable (לקשור אותו, בחוטים, עלי תימין, מלח ופלפל, רוטב)."
+    },
+    {
+      "field": "raw_files",
+      "text": "scan -12",
+      "best_guess": null,
+      "reason": "Whether scan -12 belongs to this recipe is an AI judgement (same hand, 'cut the string'); needs the owner's confirmation."
+    },
+    {
+      "field": "card -12: instructions",
+      "text": "several lines",
+      "best_guess": null,
+      "reason": "Parts of several lines are unreadable (lines 3-6, 9-11)."
     }
   ],
   "transcription": {
-    "method": "ai_reread_codex_crops_crosschecked_claude",
-    "date": "2026-10-05",
+    "method": "ai_reread_claude_2026-10-09",
+    "date": "2026-10-09",
     "human_verified": false,
     "verified_by": null,
     "verified_at": null
