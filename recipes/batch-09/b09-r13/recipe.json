@@ -1,7 +1,7 @@
 {
   "id": "b09-r13",
   "batch": 9,
-  "title": null,
+  "title": "בקר",
   "source": {
     "text": "חיה",
     "type": "person",
@@ -33,9 +33,9 @@
   "instructions": [],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Memo card of a contracting company (printed letterhead with phone/fax at the bottom). Five very large, loosely formed lines, none of which can be read reliably. Needs a human who knows Ilana's late handwriting.",
-    "Owner (PR #98 review comments): source חיה (written faintly over the logo line); title not readable, maybe בקר.",
     "Two cards: this card lists the sauce ingredients (tomato paste, garlic, mustard, onion, water) and scan -18 (b09-r14) the wine and vegetables. The grouping is inferred from the content - the cards do not say so. The id b09-r14 is intentionally unused.",
-    "Owner question on PR #98 (2026-10-09): scan -12 (Israbeton letterhead, a method 'pour the sauce, add the meat, cook for hours ... cut the string, slice and serve with the sauce') 'seems unrelated'. Agreed: its handwriting is the neat hand of scan -11 (b09-r09, צלי עגל אהרוני, whose method also ties the roast with string), not the large hand of this card. It was moved out of this recipe to a follow-up PR on b09-r09 for the owner's inspection; the id b09-r10 stays unused. The earlier AI-suggested title (which relied on that card) was withdrawn; this recipe has no method of its own."
+    "Owner question on PR #98 (2026-10-09): scan -12 (Israbeton letterhead, a method 'pour the sauce, add the meat, cook for hours ... cut the string, slice and serve with the sauce') 'seems unrelated'. Agreed: its handwriting is the neat hand of scan -11 (b09-r09, צלי עגל אהרוני, whose method also ties the roast with string), not the large hand of this card. It was moved out of this recipe to a follow-up PR on b09-r09 for the owner's inspection; the id b09-r10 stays unused. The earlier AI-suggested title (which relied on that card) was withdrawn; this recipe has no method of its own.",
+    "Owner (PR #98, 2026-10-09): the title is probably 'בקר' and the source is חיה; both recorded as given."
   ],
   "incidental_text": [
     "Printed company letterhead at the bottom edge"
@@ -71,9 +71,9 @@
     },
     {
       "field": "title",
-      "text": "(none)",
-      "best_guess": "בקר",
-      "reason": "Owner: not readable - written faintly on top of the note's logo line and torn; maybe בקר."
+      "text": "בקר",
+      "best_guess": null,
+      "reason": "Owner (2026-10-09): the title is probably 'בקר' (faint, torn, over the logo line); recorded as such, not fully certain."
     },
     {
       "field": "instructions",
@@ -98,15 +98,15 @@
     },
     "source": {
       "by": "Yuval (owner)",
-      "date": "2026-10-06",
-      "via": "PR #98 review comments",
-      "scope": "written faintly over the logo line of the note"
+      "date": "2026-10-09",
+      "via": "PR #98 comment",
+      "scope": "confirmed by the owner: חיה"
     },
     "title": {
       "by": "Yuval (owner)",
-      "date": "2026-10-06",
-      "via": "PR #98 review comments",
-      "scope": "not readable (faint, torn); the owner thinks maybe 'בקר'"
+      "date": "2026-10-09",
+      "via": "PR #98 comment",
+      "scope": "probably 'בקר' (faint, torn)"
     }
   }
 }
