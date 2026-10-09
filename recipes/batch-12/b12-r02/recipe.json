@@ -1,0 +1,120 @@
+{
+  "id": "b12-r02",
+  "batch": 12,
+  "title": "עוף בתנור",
+  "source": {
+    "text": "ניקי (Niki B)",
+    "type": "person",
+    "as_written": "ניקי ב",
+    "uncertain": false,
+    "role": "chef"
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "5 שיני שום כתוש",
+        "1 כף פפריקה",
+        "1 כפית כמון",
+        "1/4 כוס סילן",
+        "2 כפות שמן זית",
+        "מלח, פפריקה [?]"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?]",
+        "ל[?] [?] [?] [?] [?]"
+      ]
+    },
+    {
+      "group": "המשך בכרטיס שני (סריקה 03)",
+      "steps": [
+        "[?] [?] הצלי",
+        "[?] [?] [?] [?]",
+        "[?] [?] ו[?] [?] [?] [?] ל[?]",
+        "[?] [?] [?] [?] [?] [?]",
+        "[?] [?] [?] מעט [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] עד 3 [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?] [?] ו[?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. ",
+    "Small square card with a short list: garlic, paprika, cumin, silan, olive oil, salt. Probably part of a chicken marinade (the previous card), but the card has no title.",
+    "The method continues on a second card (scan -03, previously a separate untitled record b12-r03): the owner noticed it is the second part of another recipe (PR #218); its first line ('מים שיכסו העוף') follows this card's sauce ingredient list. Attached to this recipe on 2026-10-06; the id b12-r03 is intentionally unused. Attribution to THIS card rather than another is the owner's/AI's judgement from the content, not written on the cards.",
+    "Owner (PR #214 review comment, 2026-10-06, applied 2026-10-09): source 'ניקי ב' (the chef Niki B); it was missed when the comment fixes were first applied.",
+    "Owner (PR #214 comment, 2026-10-09): the title is 'עוף בתנור' (not written on this card; given by the owner for the recipe made of both cards). The earlier AI-suggested title was withdrawn."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2205-02.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-02.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "front"
+    },
+    {
+      "file": "raw/Scanned_20261004-2205-03.jpg",
+      "original_path": "Batch 12/Scanned_20261004-2205-03.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "unknown"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients[0]",
+      "text": "[?] שיני שום [?] [?]",
+      "best_guess": null,
+      "reason": "Number and the words after it unclear."
+    },
+    {
+      "field": "ingredients[3]",
+      "text": "1/2 [?] סילן",
+      "best_guess": null,
+      "reason": "Unit unclear; 'סילן' (silan, date syrup) read."
+    },
+    {
+      "field": "second card: instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Practically unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #218 comment",
+      "scope": "identified scan -03 as the second part of a recipe (the exact partner card was determined from the content)"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-09",
+      "via": "PR #214 comment",
+      "scope": "given by the owner; the title is not written on the card"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-09",
+      "via": "PR #214 review comment (2026-10-06)",
+      "scope": "ניקי ב = the chef Niki B"
+    }
+  }
+}
