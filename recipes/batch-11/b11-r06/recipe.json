@@ -1,0 +1,79 @@
+{
+  "id": "b11-r06",
+  "batch": 11,
+  "title": "מרק עדשים + אטריות",
+  "source": {
+    "text": "ניקי (Niki B)",
+    "type": "person",
+    "as_written": "ניקי ב",
+    "uncertain": false,
+    "role": "chef"
+  },
+  "medium": "handwritten",
+  "ingredients": [],
+  "instructions": [
+    {
+      "group": null,
+      "steps": [
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]",
+        "[?] [?] [?] [?] [?]"
+      ]
+    }
+  ],
+  "notes": [
+    "Small landscape card; a short title word at the upper left and six cramped lines, one of them underlined by a wavy line. No word is reliably readable.",
+    "Needs a human reading.",
+    "Scan rotated 180 degrees at the owner's request (PR #160); the thumbnail was regenerated.",
+    "Owner (PR #160 review comments, 2026-10-09): title 'מרק עדשים + אטריות' and source 'ניקי ב' (the chef Niki B). The heading and the source word at the top of the card are consistent with this on the scan, but the body lines are still unreadable (re-read again 2026-10-09 without result)."
+  ],
+  "incidental_text": [],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2202-07.jpg",
+      "original_path": "Batch 11/Scanned_20261004-2202-07.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "instructions",
+      "text": "all",
+      "best_guess": null,
+      "reason": "Unreadable."
+    }
+  ],
+  "transcription": {
+    "method": "ai_read_from_scan",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PR #PR #160 comment review comments",
+      "scope": "scan rotated 180 degrees"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-09",
+      "via": "PR #160 review comments",
+      "scope": "as given by the owner (the card heading is hard to read; consistent with the scan)"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-09",
+      "via": "PR #160 review comments",
+      "scope": "ניקי ב = the chef Niki B"
+    }
+  }
+}
