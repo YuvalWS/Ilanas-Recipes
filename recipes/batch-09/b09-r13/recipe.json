@@ -1,0 +1,112 @@
+{
+  "id": "b09-r13",
+  "batch": 9,
+  "title": "בקר",
+  "source": {
+    "text": "חיה",
+    "type": "person",
+    "as_written": "חיה",
+    "uncertain": false
+  },
+  "medium": "handwritten",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        "2 רסק עגבניות",
+        "פלפל שחור",
+        "1 ראש שום, 1 כפ׳ חרדל",
+        "2 בצל",
+        "2/3 מים מכסה"
+      ]
+    },
+    {
+      "group": "כרטיס נוסף (סריקה 18): ירקות ויין",
+      "items": [
+        "3/4 כוס יין",
+        "שורש סלרי שלם או חתוך",
+        "2 קישואים",
+        "2 גזר"
+      ]
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "Scan was upside down and was rotated 180 degrees. Memo card of a contracting company (printed letterhead with phone/fax at the bottom). Five very large, loosely formed lines, none of which can be read reliably. Needs a human who knows Ilana's late handwriting.",
+    "Two cards: this card lists the sauce ingredients (tomato paste, garlic, mustard, onion, water) and scan -18 (b09-r14) the wine and vegetables. The grouping is inferred from the content - the cards do not say so. The id b09-r14 is intentionally unused.",
+    "Owner question on PR #98 (2026-10-09): scan -12 (Israbeton letterhead, a method 'pour the sauce, add the meat, cook for hours ... cut the string, slice and serve with the sauce') 'seems unrelated'. Agreed: its handwriting is the neat hand of scan -11 (b09-r09, צלי עגל אהרוני, whose method also ties the roast with string), not the large hand of this card. It was moved out of this recipe to a follow-up PR on b09-r09 for the owner's inspection; the id b09-r10 stays unused. The earlier AI-suggested title (which relied on that card) was withdrawn; this recipe has no method of its own.",
+    "Owner (PR #98, 2026-10-09): the title is probably 'בקר' and the source is חיה; both recorded as given."
+  ],
+  "incidental_text": [
+    "Printed company letterhead at the bottom edge"
+  ],
+  "raw_files": [
+    {
+      "file": "raw/Scanned_20261004-2153-17.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-17.jpg",
+      "rotation_applied_cw_degrees": 180,
+      "side": "single"
+    },
+    {
+      "file": "raw/Scanned_20261004-2153-18.jpg",
+      "original_path": "Batch 9/Scanned_20261004-2153-18.jpg",
+      "rotation_applied_cw_degrees": 0,
+      "side": "unknown"
+    }
+  ],
+  "needs_human_verification": true,
+  "confidence": "low",
+  "uncertainties": [
+    {
+      "field": "ingredients",
+      "text": "2/3 מים מכסה",
+      "best_guess": null,
+      "reason": "Water notation/unit and interpretation of final מכסה need confirmation."
+    },
+    {
+      "field": "card -18: title",
+      "text": null,
+      "best_guess": null,
+      "reason": "No title written on this ingredient-only card."
+    },
+    {
+      "field": "title",
+      "text": "בקר",
+      "best_guess": null,
+      "reason": "Owner (2026-10-09): the title is probably 'בקר' (faint, torn, over the logo line); recorded as such, not fully certain."
+    },
+    {
+      "field": "instructions",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No method is written on the two remaining cards; the method card (-12) was moved to b09-r09 pending the owner's check."
+    }
+  ],
+  "transcription": {
+    "method": "ai_reread_codex_crops_crosschecked_claude",
+    "date": "2026-10-05",
+    "human_verified": false,
+    "verified_by": null,
+    "verified_at": null
+  },
+  "proofread": {
+    "raw_files": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-06",
+      "via": "PRs #85 and #102 comments",
+      "scope": "owner noticed these cards are parts of another recipe; the exact grouping with this card is inferred from the content. Scan -12 was removed after the owner's PR #98 question (2026-10-09), not yet confirmed by the owner"
+    },
+    "source": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-09",
+      "via": "PR #98 comment",
+      "scope": "confirmed by the owner: חיה"
+    },
+    "title": {
+      "by": "Yuval (owner)",
+      "date": "2026-10-09",
+      "via": "PR #98 comment",
+      "scope": "probably 'בקר' (faint, torn)"
+    }
+  }
+}
