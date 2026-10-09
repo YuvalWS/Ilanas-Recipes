@@ -30,29 +30,12 @@
       ]
     }
   ],
-  "instructions": [
-    {
-      "group": "שיטת הכנה (כרטיס נוסף, סריקה 12)",
-      "steps": [
-        "לשפוך רוטב",
-        "להכניס הבשר",
-        "לבשל מספר שעות [?] [?]",
-        "[?] ללהבה [?] נמוכה",
-        "[?] [?] ו[?] וחצי",
-        "[?]",
-        "לגזור החוט",
-        "לאחר [?] לפרוס ולהגיש עם הרוטב",
-        "[?] [?] שבל",
-        "אפשר [?] [?] אורות",
-        "[?]"
-      ]
-    }
-  ],
+  "instructions": [],
   "notes": [
     "Scan was upside down and was rotated 180 degrees. Memo card of a contracting company (printed letterhead with phone/fax at the bottom). Five very large, loosely formed lines, none of which can be read reliably. Needs a human who knows Ilana's late handwriting.",
-    "Three cards that appear to be ONE recipe (PRs #85 and #102, noted by the owner as parts of another recipe): this card lists the sauce ingredients, scan -18 (b09-r14) the wine and vegetables, and scan -12 (b09-r10, Israbeton letterhead) the method ('pour the sauce, add the meat, cook several hours'). The grouping is inferred from the content - the cards do not say so. The ids b09-r10 and b09-r14 are intentionally unused.",
     "Owner (PR #98 review comments): source חיה (written faintly over the logo line); title not readable, maybe בקר.",
-    "Suggested title 'צלי בקר ברוטב עגבניות ויין' added by AI on 2026-10-06 (not on the card; basis: three cards: tomato paste, garlic, mustard, onion; wine, celery root, zucchini, carrots; 'pour the sauce, add the meat, cook for hours'). Awaiting the owner's approval."
+    "Two cards: this card lists the sauce ingredients (tomato paste, garlic, mustard, onion, water) and scan -18 (b09-r14) the wine and vegetables. The grouping is inferred from the content - the cards do not say so. The id b09-r14 is intentionally unused.",
+    "Owner question on PR #98 (2026-10-09): scan -12 (Israbeton letterhead, a method 'pour the sauce, add the meat, cook for hours ... cut the string, slice and serve with the sauce') 'seems unrelated'. Agreed: its handwriting is the neat hand of scan -11 (b09-r09, צלי עגל אהרוני, whose method also ties the roast with string), not the large hand of this card. It was moved out of this recipe to a follow-up PR on b09-r09 for the owner's inspection; the id b09-r10 stays unused. The earlier AI-suggested title (which relied on that card) was withdrawn; this recipe has no method of its own."
   ],
   "incidental_text": [
     "Printed company letterhead at the bottom edge"
@@ -68,12 +51,6 @@
       "file": "raw/Scanned_20261004-2153-18.jpg",
       "original_path": "Batch 9/Scanned_20261004-2153-18.jpg",
       "rotation_applied_cw_degrees": 0,
-      "side": "unknown"
-    },
-    {
-      "file": "raw/Scanned_20261004-2153-12.jpg",
-      "original_path": "Batch 9/Scanned_20261004-2153-12.jpg",
-      "rotation_applied_cw_degrees": 180,
       "side": "unknown"
     }
   ],
@@ -93,22 +70,16 @@
       "reason": "No title written on this ingredient-only card."
     },
     {
-      "field": "card -12: title",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No title; may belong with scan 11."
-    },
-    {
-      "field": "card -12: instructions",
-      "text": "several lines",
-      "best_guess": null,
-      "reason": "Parts of several lines are unreadable."
-    },
-    {
       "field": "title",
       "text": "(none)",
       "best_guess": "בקר",
       "reason": "Owner: not readable - written faintly on top of the note's logo line and torn; maybe בקר."
+    },
+    {
+      "field": "instructions",
+      "text": "(none)",
+      "best_guess": null,
+      "reason": "No method is written on the two remaining cards; the method card (-12) was moved to b09-r09 pending the owner's check."
     }
   ],
   "transcription": {
@@ -123,7 +94,7 @@
       "by": "Yuval (owner)",
       "date": "2026-10-06",
       "via": "PRs #85 and #102 comments",
-      "scope": "owner noticed these cards are parts of another recipe; the exact grouping with this card is inferred from the content"
+      "scope": "owner noticed these cards are parts of another recipe; the exact grouping with this card is inferred from the content. Scan -12 was removed after the owner's PR #98 question (2026-10-09), not yet confirmed by the owner"
     },
     "source": {
       "by": "Yuval (owner)",
@@ -137,8 +108,5 @@
       "via": "PR #98 review comments",
       "scope": "not readable (faint, torn); the owner thinks maybe 'בקר'"
     }
-  },
-  "assigned_title": "צלי בקר ברוטב עגבניות ויין",
-  "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "three cards: tomato paste, garlic, mustard, onion; wine, celery root, zucchini, carrots; 'pour the sauce, add the meat, cook for hours'"
+  }
 }
