@@ -39,7 +39,8 @@
     "No title or source on the card. Gemini's title ('דג סלמון אפוי') and 'על הדג' / 'אפיה:' / 'מכן' are not clearly visible on the card and were not copied.",
     "Handwriting is cramped; remaining [?] marks are words/quantities that could not be confirmed. A rescan or human re-read is recommended.",
     "Continuation merged into this recipe: scan 09 (previously the separate record b06-r08, PR #187) - mirrored show-through shows it is the back of the card. Noticed by the owner as part of another recipe; the pairing was found from the cards. The id b06-r08 is intentionally unused.",
-    "Suggested title 'דג בשמן זית, סויה ושום' added by AI on 2026-10-06 (not on the card; basis: sauce: olive oil, soy, garlic, paprika; foil; bake 15-20 minutes (batch 6 is fish)). Awaiting the owner's approval."
+    "Suggested title 'דג בשמן זית, סויה ושום' added by AI on 2026-10-06 (not on the card; basis: sauce: olive oil, soy, garlic, paprika; foil; bake 15-20 minutes (batch 6 is fish)). Awaiting the owner's approval.",
+    "Owner (PR #182 comment, 2026-10-09): needs a rescan. The back scan (-09) is almost blank; the front is faint and cramped. Re-read again 2026-10-09: the two time lines at the bottom may end in 'מכוסה' (15-20 minutes) and 'מגולה' (5-10 minutes) - a guess only, kept out of the text."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -112,6 +113,12 @@
       "text": "ולאפות [?] 20 [?]",
       "best_guess": "Gemini: 20 דק' ב 180° (temperature not confirmed; earlier reading: none)",
       "reason": "Glyphs between 'ולאפות' and '20' and after '20' are unclear; a temperature, if present, is unreadable."
+    },
+    {
+      "field": "instructions",
+      "text": "[?] 15-20 דקות / [?] 5-10 דקות",
+      "best_guess": "15-20 דקות מכוסה / 5-10 דקות מגולה (AI guess from the last words of each line)",
+      "reason": "The last word of each time line is faded; a rescan was requested by the owner."
     }
   ],
   "transcription": {
