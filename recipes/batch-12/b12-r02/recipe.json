@@ -1,7 +1,7 @@
 {
   "id": "b12-r02",
   "batch": 12,
-  "title": null,
+  "title": "עוף בתנור",
   "source": {
     "text": "ניקי (Niki B)",
     "type": "person",
@@ -49,9 +49,9 @@
   "notes": [
     "Scan was upside down and was rotated 180 degrees; the handwriting is legible only in the rotated image. Handwriting is only partly legible; unreadable words are [?]. ",
     "Small square card with a short list: garlic, paprika, cumin, silan, olive oil, salt. Probably part of a chicken marinade (the previous card), but the card has no title.",
-    "Suggested title 'מרינדה סילאן, שום ופפריקה' added by AI on 2026-10-06 at the owner's request for untitled cards: a search/browse name inferred from the content, NOT written on the card (basis: garlic, paprika, cumin, silan, olive oil). Awaiting the owner's approval.",
     "The method continues on a second card (scan -03, previously a separate untitled record b12-r03): the owner noticed it is the second part of another recipe (PR #218); its first line ('מים שיכסו העוף') follows this card's sauce ingredient list. Attached to this recipe on 2026-10-06; the id b12-r03 is intentionally unused. Attribution to THIS card rather than another is the owner's/AI's judgement from the content, not written on the cards.",
-    "Owner (PR #214 review comment, 2026-10-06, applied 2026-10-09): source 'ניקי ב' (the chef Niki B); it was missed when the comment fixes were first applied."
+    "Owner (PR #214 review comment, 2026-10-06, applied 2026-10-09): source 'ניקי ב' (the chef Niki B); it was missed when the comment fixes were first applied.",
+    "Owner (PR #214 comment, 2026-10-09): the title is 'עוף בתנור' (not written on this card; given by the owner for the recipe made of both cards). The earlier AI-suggested title was withdrawn."
   ],
   "incidental_text": [],
   "raw_files": [
@@ -71,12 +71,6 @@
   "needs_human_verification": true,
   "confidence": "low",
   "uncertainties": [
-    {
-      "field": "title",
-      "text": "(none)",
-      "best_guess": null,
-      "reason": "No title."
-    },
     {
       "field": "ingredients[0]",
       "text": "[?] שיני שום [?] [?]",
@@ -103,9 +97,6 @@
     "verified_by": null,
     "verified_at": null
   },
-  "assigned_title": "מרינדה סילאן, שום ופפריקה",
-  "assigned_title_status": "ai_suggested",
-  "assigned_title_basis": "garlic, paprika, cumin, silan, olive oil",
   "proofread": {
     "raw_files": {
       "by": "Yuval (owner)",
@@ -115,9 +106,9 @@
     },
     "title": {
       "by": "Yuval (owner)",
-      "date": "2026-10-06",
-      "via": "owner's review of all open recipes (no comment = confirmed)",
-      "scope": "confirmed untitled"
+      "date": "2026-10-09",
+      "via": "PR #214 comment",
+      "scope": "given by the owner; the title is not written on the card"
     },
     "source": {
       "by": "Yuval (owner)",
